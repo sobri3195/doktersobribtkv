@@ -5,6 +5,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { dataSchema, defaults, type Data } from "../services/model";
 import { useStore } from "../stores/useStore";
 import { download, parseBackup, KEYS } from "../services/storage";
+import { legacyBundled } from "../data/bank";
 import { Card, Heading } from "../components/UI";
 const profileSchema = dataSchema.shape.profile;
 export function Profile() {
@@ -164,6 +165,28 @@ export function Profile() {
           </Link>
         </div>
       </Card>
+      {legacyBundled.some(
+        (q) => d.bookmarks.includes(q.id) || d.notes[q.id],
+      ) && (
+        <Card>
+          <h2>Arsip BTKV versi sebelumnya</h2>
+          <p>
+            Bookmark dan catatan lama tetap tersedia. Arsip tidak dihitung
+            sebagai bagian dari 150 soal baru.
+          </p>
+          {legacyBundled
+            .filter((q) => d.bookmarks.includes(q.id) || d.notes[q.id])
+            .map((q) => (
+              <details key={q.id}>
+                <summary>
+                  {q.id}: {q.question}
+                </summary>
+                <p>{d.notes[q.id] || "Belum ada catatan pribadi."}</p>
+                {(!d.attempt || d.attempt.submitted) && <p>{q.explanation}</p>}
+              </details>
+            ))}
+        </Card>
+      )}
       <Card>
         <h2>Hapus data selektif</h2>
         <p>

@@ -16,17 +16,17 @@ beforeEach(() => {
 });
 describe("bank content", () => {
   it("loads all currently authored questions with valid schemas and unique IDs", () => {
-    expect(bundled.length).toBe(110);
-    expect(new Set(bundled.map((q) => q.id)).size).toBe(110);
+    expect(bundled.length).toBe(230);
+    expect(new Set(bundled.map((q) => q.id)).size).toBe(230);
     for (const q of bundled)
       expect(questionSchema.safeParse(q).success).toBe(true);
   });
-  it("covers all eleven categories but does not pretend to meet 550", () => {
+  it("covers all eleven categories but retains LPDP and SIMAK counts while completing BTKV", () => {
     for (const [p, cats] of Object.entries(categories))
       for (const cat of Object.keys(cats))
         expect(
           bundled.filter((q) => q.program === p && q.category === cat),
-        ).toHaveLength(10);
+        ).toHaveLength(p === "btkv" ? 50 : 10);
   });
   it("rejects bad keys, repeated options, missing distractors and category mismatch", () => {
     const q = bundled[0];

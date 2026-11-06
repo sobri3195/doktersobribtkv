@@ -1,332 +1,2984 @@
 [
   {
-    "id": "BTKV-VASCULAR-001",
+    "number": 1,
+    "id": "BTKV-VS-001",
     "program": "btkv",
     "category": "vascular",
-    "topic": "Nyeri tungkai mendadak, pucat, dingin, dan hilangnya nadi menimbu",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "V01",
+    "topic": "Anatomi dan Fisiologi Vaskular",
+    "subtopic": "Resistensi dan radius",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
     "type": "single_choice",
-    "question": "Nyeri tungkai mendadak, pucat, dingin, dan hilangnya nadi menimbulkan kecurigaan utama apa?",
+    "learningObjective": "Menjelaskan resistensi dan radius dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Pada model aliran laminar dalam tabung kaku, perubahan radius memengaruhi resistensi paling kuat melalui hubungan apa?",
     "options": [
       {
         "id": "A",
-        "text": "Dermatitis ringan"
+        "text": "Resistensi berbanding terbalik dengan pangkat empat radius"
       },
       {
         "id": "B",
-        "text": "Varises tanpa komplikasi"
+        "text": "Resistensi berbanding lurus dengan radius"
       },
       {
         "id": "C",
-        "text": "Iskemia tungkai akut"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Gangguan perfusi arteri akut dapat mengancam viabilitas tungkai. Dermatitis dan varises sederhana tidak lazim menyebabkan hilangnya nadi mendadak.",
-    "distractorExplanations": {
-      "A": "Pilihan “Dermatitis ringan” tidak memenuhi konsep atau kondisi dalam soal. Gangguan perfusi arteri akut dapat mengancam viabilitas tungkai. Dermatitis dan varises sederhana tidak lazim menyebabkan hilangnya nadi mendadak.",
-      "B": "Pilihan “Varises tanpa komplikasi” tidak memenuhi konsep atau kondisi dalam soal. Gangguan perfusi arteri akut dapat mengancam viabilitas tungkai. Dermatitis dan varises sederhana tidak lazim menyebabkan hilangnya nadi mendadak."
-    },
-    "learningPoint": "Gangguan perfusi arteri akut dapat mengancam viabilitas tungkai. Dermatitis dan varises sederhana tidak lazim menyebabkan hilangnya nadi mendadak.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-VASCULAR-002",
-    "program": "btkv",
-    "category": "vascular",
-    "topic": "Apa arti ABI dalam penilaian vaskular",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Apa arti ABI dalam penilaian vaskular?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Volume vena terhadap tinggi badan"
+        "text": "Resistensi tidak dipengaruhi radius"
       },
       {
-        "id": "B",
-        "text": "Rasio tekanan sistolik pergelangan kaki terhadap lengan"
+        "id": "D",
+        "text": "Resistensi hanya ditentukan panjang pembuluh"
       },
       {
-        "id": "C",
-        "text": "Rasio denyut jantung terhadap suhu"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "ABI membandingkan tekanan arteri ankle dan brachial. Rasio lain tidak menggambarkan indeks perfusi tersebut.",
-    "distractorExplanations": {
-      "A": "Pilihan “Volume vena terhadap tinggi badan” tidak memenuhi konsep atau kondisi dalam soal. ABI membandingkan tekanan arteri ankle dan brachial. Rasio lain tidak menggambarkan indeks perfusi tersebut.",
-      "C": "Pilihan “Rasio denyut jantung terhadap suhu” tidak memenuhi konsep atau kondisi dalam soal. ABI membandingkan tekanan arteri ankle dan brachial. Rasio lain tidak menggambarkan indeks perfusi tersebut."
-    },
-    "learningPoint": "ABI membandingkan tekanan arteri ankle dan brachial. Rasio lain tidak menggambarkan indeks perfusi tersebut.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-VASCULAR-003",
-    "program": "btkv",
-    "category": "vascular",
-    "topic": "Apa keterbatasan ABI pada pasien dengan kalsifikasi arteri berat",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Apa keterbatasan ABI pada pasien dengan kalsifikasi arteri berat?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Arteri sulit dikompresi dapat memberi nilai tinggi semu"
-      },
-      {
-        "id": "B",
-        "text": "Nilai selalu nol"
-      },
-      {
-        "id": "C",
-        "text": "ABI otomatis menunjukkan trombosis vena"
+        "id": "E",
+        "text": "Resistensi selalu nol pada arteri"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Kalsifikasi medial dapat membuat tekanan manset tidak mencerminkan perfusi sebenarnya. Nilai bukan selalu nol dan ABI bukan tes utama trombosis vena.",
+    "explanation": "Hukum Poiseuille menjelaskan pengaruh besar perubahan radius; pembuluh biologis tetap lebih kompleks dari model tabung kaku.",
+    "correctAnswerReason": "Hukum Poiseuille menjelaskan pengaruh besar perubahan radius; pembuluh biologis tetap lebih kompleks dari model tabung kaku.",
+    "clinicalReasoning": "Hukum Poiseuille menjelaskan pengaruh besar perubahan radius; pembuluh biologis tetap lebih kompleks dari model tabung kaku.",
     "distractorExplanations": {
-      "B": "Pilihan “Nilai selalu nol” tidak memenuhi konsep atau kondisi dalam soal. Kalsifikasi medial dapat membuat tekanan manset tidak mencerminkan perfusi sebenarnya. Nilai bukan selalu nol dan ABI bukan tes utama trombosis vena.",
-      "C": "Pilihan “ABI otomatis menunjukkan trombosis vena” tidak memenuhi konsep atau kondisi dalam soal. Kalsifikasi medial dapat membuat tekanan manset tidak mencerminkan perfusi sebenarnya. Nilai bukan selalu nol dan ABI bukan tes utama trombosis vena."
+      "B": "Arah hubungan ini berlawanan dengan model aliran laminar.",
+      "C": "Penyempitan lumen justru sangat memengaruhi hambatan aliran.",
+      "D": "Viskositas dan radius juga berpengaruh.",
+      "E": "Dinding dan aliran arteri tetap menghasilkan hambatan."
     },
-    "learningPoint": "Kalsifikasi medial dapat membuat tekanan manset tidak mencerminkan perfusi sebenarnya. Nilai bukan selalu nol dan ABI bukan tes utama trombosis vena.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-VASCULAR-004",
-    "program": "btkv",
-    "category": "vascular",
-    "topic": "Nyeri dan pembengkakan tungkai unilateral dengan risiko trombosis",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Nyeri dan pembengkakan tungkai unilateral dengan risiko trombosis dinilai pertama kali menggunakan modalitas pencitraan apa bila tersedia?",
-    "options": [
+    "learningPoint": "Hukum Poiseuille menjelaskan pengaruh besar perubahan radius; pembuluh biologis tetap lebih kompleks dari model tabung kaku.",
+    "clinicalPearl": "Hukum Poiseuille menjelaskan pengaruh besar perubahan radius; pembuluh biologis tetap lebih kompleks dari model tabung kaku.",
+    "references": [
       {
-        "id": "A",
-        "text": "Foto tengkorak"
-      },
-      {
-        "id": "B",
-        "text": "Audiogram"
-      },
-      {
-        "id": "C",
-        "text": "Ultrasonografi kompresi vena"
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Vena yang tidak dapat dikompresi mendukung DVT dalam konteks klinis yang sesuai. Pemeriksaan kepala dan pendengaran tidak menilai trombus tungkai.",
-    "distractorExplanations": {
-      "A": "Pilihan “Foto tengkorak” tidak memenuhi konsep atau kondisi dalam soal. Vena yang tidak dapat dikompresi mendukung DVT dalam konteks klinis yang sesuai. Pemeriksaan kepala dan pendengaran tidak menilai trombus tungkai.",
-      "B": "Pilihan “Audiogram” tidak memenuhi konsep atau kondisi dalam soal. Vena yang tidak dapat dikompresi mendukung DVT dalam konteks klinis yang sesuai. Pemeriksaan kepala dan pendengaran tidak menilai trombus tungkai."
-    },
-    "learningPoint": "Vena yang tidak dapat dikompresi mendukung DVT dalam konteks klinis yang sesuai. Pemeriksaan kepala dan pendengaran tidak menilai trombus tungkai.",
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
   },
   {
-    "id": "BTKV-VASCULAR-005",
+    "number": 2,
+    "id": "BTKV-VS-002",
     "program": "btkv",
     "category": "vascular",
-    "topic": "Apa mekanisme utama edema pada insufisiensi vena kronis",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "V01",
+    "topic": "Anatomi dan Fisiologi Vaskular",
+    "subtopic": "Gradien perfusi",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
     "type": "single_choice",
-    "question": "Apa mekanisme utama edema pada insufisiensi vena kronis?",
+    "learningObjective": "Menjelaskan gradien perfusi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Tekanan arteri rata-rata 90 mmHg dan tekanan vena 10 mmHg pada suatu daerah. Berapa gradien tekanan perfusinya?",
     "options": [
       {
         "id": "A",
-        "text": "Peningkatan ventilasi alveolar"
+        "text": "100 mmHg"
       },
       {
         "id": "B",
-        "text": "Hipertensi vena akibat refluks atau obstruksi"
+        "text": "80 mmHg"
       },
       {
         "id": "C",
-        "text": "Penutupan semua kapiler arteri"
+        "text": "9 mmHg"
+      },
+      {
+        "id": "D",
+        "text": "10 mmHg"
+      },
+      {
+        "id": "E",
+        "text": "90 mmHg"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Tekanan vena yang meningkat mendorong cairan ke interstisium. Penutupan arteri dan ventilasi tidak menjelaskan mekanisme utama edema vena.",
+    "explanation": "Gradien aliran adalah selisih tekanan hulu dan hilir: 90 dikurangi 10 = 80 mmHg.",
+    "correctAnswerReason": "Gradien aliran adalah selisih tekanan hulu dan hilir: 90 dikurangi 10 = 80 mmHg.",
+    "clinicalReasoning": "Gradien aliran adalah selisih tekanan hulu dan hilir: 90 dikurangi 10 = 80 mmHg.",
     "distractorExplanations": {
-      "A": "Pilihan “Peningkatan ventilasi alveolar” tidak memenuhi konsep atau kondisi dalam soal. Tekanan vena yang meningkat mendorong cairan ke interstisium. Penutupan arteri dan ventilasi tidak menjelaskan mekanisme utama edema vena.",
-      "C": "Pilihan “Penutupan semua kapiler arteri” tidak memenuhi konsep atau kondisi dalam soal. Tekanan vena yang meningkat mendorong cairan ke interstisium. Penutupan arteri dan ventilasi tidak menjelaskan mekanisme utama edema vena."
+      "A": "Menjumlahkan kedua tekanan bukan gradien perfusi.",
+      "C": "Membagi tekanan hulu dengan hilir menghasilkan rasio, bukan gradien.",
+      "D": "Ini tekanan hilir saja, bukan selisih.",
+      "E": "Mengabaikan tekanan hilir melebihkan gradien pada data ini."
     },
-    "learningPoint": "Tekanan vena yang meningkat mendorong cairan ke interstisium. Penutupan arteri dan ventilasi tidak menjelaskan mekanisme utama edema vena.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-VASCULAR-006",
-    "program": "btkv",
-    "category": "vascular",
-    "topic": "Mengapa ukuran aneurisma aorta dipantau serial",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Mengapa ukuran aneurisma aorta dipantau serial?",
-    "options": [
+    "learningPoint": "Gradien aliran adalah selisih tekanan hulu dan hilir: 90 dikurangi 10 = 80 mmHg.",
+    "clinicalPearl": "Gradien aliran adalah selisih tekanan hulu dan hilir: 90 dikurangi 10 = 80 mmHg.",
+    "references": [
       {
-        "id": "A",
-        "text": "Pertumbuhan membantu penilaian risiko dan perencanaan"
-      },
-      {
-        "id": "B",
-        "text": "Semua aneurisma mengecil spontan"
-      },
-      {
-        "id": "C",
-        "text": "Ukuran menggantikan seluruh penilaian klinis"
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Diameter dan laju pertumbuhan merupakan sebagian faktor risiko. Gejala, anatomi, dan kondisi pasien tetap penting sehingga ukuran bukan satu-satunya penentu.",
-    "distractorExplanations": {
-      "B": "Pilihan “Semua aneurisma mengecil spontan” tidak memenuhi konsep atau kondisi dalam soal. Diameter dan laju pertumbuhan merupakan sebagian faktor risiko. Gejala, anatomi, dan kondisi pasien tetap penting sehingga ukuran bukan satu-satunya penentu.",
-      "C": "Pilihan “Ukuran menggantikan seluruh penilaian klinis” tidak memenuhi konsep atau kondisi dalam soal. Diameter dan laju pertumbuhan merupakan sebagian faktor risiko. Gejala, anatomi, dan kondisi pasien tetap penting sehingga ukuran bukan satu-satunya penentu."
-    },
-    "learningPoint": "Diameter dan laju pertumbuhan merupakan sebagian faktor risiko. Gejala, anatomi, dan kondisi pasien tetap penting sehingga ukuran bukan satu-satunya penentu.",
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
   },
   {
-    "id": "BTKV-VASCULAR-007",
+    "number": 3,
+    "id": "BTKV-VS-003",
     "program": "btkv",
     "category": "vascular",
-    "topic": "Apa perbedaan embolus dan trombus in situ",
-    "subtopic": "Konsep dan penalaran",
+    "taxonomyCode": "V01",
+    "topic": "Anatomi dan Fisiologi Vaskular",
+    "subtopic": "Fungsi katup vena",
     "difficulty": "medium",
+    "questionType": "clinical_vignette",
     "type": "single_choice",
-    "question": "Apa perbedaan embolus dan trombus in situ?",
+    "learningObjective": "Menjelaskan fungsi katup vena dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 48 tahun dengan varises mengalami refluks safena. Struktur apa yang gagal menjalankan fungsi utamanya?",
     "options": [
       {
         "id": "A",
-        "text": "Embolus selalu berupa udara"
+        "text": "Sfingter arteriol sebagai penyebab tunggal"
       },
       {
         "id": "B",
-        "text": "Trombus hanya terbentuk di vena"
+        "text": "Lapisan endokardium atrium kiri"
       },
       {
         "id": "C",
-        "text": "Embolus berpindah dari lokasi asal"
+        "text": "Katup vena"
+      },
+      {
+        "id": "D",
+        "text": "Katup limfatik saja"
+      },
+      {
+        "id": "E",
+        "text": "Septum interventrikular"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Embolus dapat berupa material trombotik yang berpindah. Tidak semua embolus adalah udara dan trombosis dapat terjadi pada arteri maupun vena.",
+    "explanation": "Inkompetensi katup memungkinkan aliran retrograd dan berkontribusi pada hipertensi vena saat berdiri.",
+    "correctAnswerReason": "Inkompetensi katup memungkinkan aliran retrograd dan berkontribusi pada hipertensi vena saat berdiri.",
+    "clinicalReasoning": "Inkompetensi katup memungkinkan aliran retrograd dan berkontribusi pada hipertensi vena saat berdiri.",
     "distractorExplanations": {
-      "A": "Pilihan “Embolus selalu berupa udara” tidak memenuhi konsep atau kondisi dalam soal. Embolus dapat berupa material trombotik yang berpindah. Tidak semua embolus adalah udara dan trombosis dapat terjadi pada arteri maupun vena.",
-      "B": "Pilihan “Trombus hanya terbentuk di vena” tidak memenuhi konsep atau kondisi dalam soal. Embolus dapat berupa material trombotik yang berpindah. Tidak semua embolus adalah udara dan trombosis dapat terjadi pada arteri maupun vena."
+      "A": "Tidak menjelaskan refluks di vena safena.",
+      "B": "Bukan struktur lokal pengatur arah aliran vena safena.",
+      "D": "Gangguan limfatik dapat menyebabkan edema tetapi bukan refluks safena pada duplex.",
+      "E": "Tidak mengatur aliran retrograd lokal pada vena tungkai."
     },
-    "learningPoint": "Embolus dapat berupa material trombotik yang berpindah. Tidak semua embolus adalah udara dan trombosis dapat terjadi pada arteri maupun vena.",
+    "learningPoint": "Inkompetensi katup memungkinkan aliran retrograd dan berkontribusi pada hipertensi vena saat berdiri.",
+    "clinicalPearl": "Inkompetensi katup memungkinkan aliran retrograd dan berkontribusi pada hipertensi vena saat berdiri.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
   },
   {
-    "id": "BTKV-VASCULAR-008",
+    "number": 4,
+    "id": "BTKV-VS-004",
     "program": "btkv",
     "category": "vascular",
-    "topic": "Apa tujuan stent endovaskular pada stenosis tertentu",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "V01",
+    "topic": "Anatomi dan Fisiologi Vaskular",
+    "subtopic": "Kongesti dan perfusi",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
     "type": "single_choice",
-    "question": "Apa tujuan stent endovaskular pada stenosis tertentu?",
+    "learningObjective": "Menjelaskan kongesti dan perfusi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 64 tahun dengan edema berat dan gagal jantung kanan memiliki tekanan vena perifer tinggi. Mengapa perfusi jaringan dapat berkurang meskipun tekanan arteri tampak cukup?",
     "options": [
       {
         "id": "A",
-        "text": "Menghancurkan semua katup vena"
+        "text": "Tekanan vena tidak pernah memengaruhi aliran"
       },
       {
         "id": "B",
-        "text": "Menopang lumen pembuluh"
+        "text": "Semua edema membuktikan aliran arteri meningkat"
       },
       {
         "id": "C",
-        "text": "Menggantikan seluruh darah"
+        "text": "Tekanan arteri normal menjamin aliran kapiler normal"
+      },
+      {
+        "id": "D",
+        "text": "Kenaikan tekanan hilir mengurangi gradien perfusi efektif"
+      },
+      {
+        "id": "E",
+        "text": "Peningkatan tekanan vena selalu meningkatkan ekstraksi oksigen"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Perfusi bergantung pada perbedaan tekanan dan resistensi, sehingga kongesti vena dapat mengganggu aliran serta fungsi organ.",
+    "correctAnswerReason": "Perfusi bergantung pada perbedaan tekanan dan resistensi, sehingga kongesti vena dapat mengganggu aliran serta fungsi organ.",
+    "clinicalReasoning": "Perfusi bergantung pada perbedaan tekanan dan resistensi, sehingga kongesti vena dapat mengganggu aliran serta fungsi organ.",
+    "distractorExplanations": {
+      "A": "Peningkatan tekanan hilir dapat menurunkan gradien.",
+      "B": "Edema dapat terjadi karena hipertensi vena meski perfusi tidak adekuat.",
+      "C": "Aliran juga dipengaruhi resistensi dan tekanan vena.",
+      "E": "Ekstraksi bergantung suplai dan kebutuhan, bukan jaminan dari kongesti vena."
+    },
+    "learningPoint": "Perfusi bergantung pada perbedaan tekanan dan resistensi, sehingga kongesti vena dapat mengganggu aliran serta fungsi organ.",
+    "clinicalPearl": "Perfusi bergantung pada perbedaan tekanan dan resistensi, sehingga kongesti vena dapat mengganggu aliran serta fungsi organ.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 5,
+    "id": "BTKV-VS-005",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V01",
+    "topic": "Anatomi dan Fisiologi Vaskular",
+    "subtopic": "Sirkulasi kolateral",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan sirkulasi kolateral dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 56 tahun dengan stenosis arteri kronis tetap memiliki perfusi istirahat cukup melalui jalur kolateral. Konsep apa paling menjelaskan keadaan ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kolateral menghilangkan semua plak"
+      },
+      {
+        "id": "B",
+        "text": "Nadi distal teraba menyingkirkan seluruh stenosis"
+      },
+      {
+        "id": "C",
+        "text": "Perfusi istirahat cukup menjamin kapasitas latihan normal"
+      },
+      {
+        "id": "D",
+        "text": "Kolateral hanya terdapat pada vena"
+      },
+      {
+        "id": "E",
+        "text": "Sirkulasi kolateral menyediakan jalur alternatif menuju jaringan distal"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Kolateral dapat mengurangi dampak stenosis saat istirahat, tetapi mungkin tidak mencukupi kebutuhan saat aktivitas.",
+    "correctAnswerReason": "Kolateral dapat mengurangi dampak stenosis saat istirahat, tetapi mungkin tidak mencukupi kebutuhan saat aktivitas.",
+    "clinicalReasoning": "Kolateral dapat mengurangi dampak stenosis saat istirahat, tetapi mungkin tidak mencukupi kebutuhan saat aktivitas.",
+    "distractorExplanations": {
+      "A": "Jalur alternatif tidak menyembuhkan lesi aterosklerotik asal.",
+      "B": "Aliran melalui lesi atau kolateral dapat tetap menghasilkan nadi.",
+      "C": "Kebutuhan oksigen meningkat saat aktivitas.",
+      "D": "Jalur alternatif juga dapat terbentuk dalam sirkulasi arteri."
+    },
+    "learningPoint": "Kolateral dapat mengurangi dampak stenosis saat istirahat, tetapi mungkin tidak mencukupi kebutuhan saat aktivitas.",
+    "clinicalPearl": "Kolateral dapat mengurangi dampak stenosis saat istirahat, tetapi mungkin tidak mencukupi kebutuhan saat aktivitas.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 6,
+    "id": "BTKV-VS-006",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V02",
+    "topic": "Peripheral Arterial Disease",
+    "subtopic": "Pola klaudikasio",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pola klaudikasio dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Klaudikasio intermiten akibat penyakit arteri perifer paling khas memiliki pola apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nyeri otot saat aktivitas yang mereda dengan istirahat"
+      },
+      {
+        "id": "B",
+        "text": "Nyeri hanya saat menyentuh kulit tanpa hubungan aktivitas"
+      },
+      {
+        "id": "C",
+        "text": "Nyeri yang selalu hilang saat berjalan lebih jauh"
+      },
+      {
+        "id": "D",
+        "text": "Nyeri sendi yang hanya dipicu gerakan pasif"
+      },
+      {
+        "id": "E",
+        "text": "Nyeri tungkai tanpa pola dapat memastikan PAD"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kebutuhan metabolik saat berjalan melampaui suplai melalui arteri stenotik, lalu menurun ketika berhenti.",
+    "correctAnswerReason": "Kebutuhan metabolik saat berjalan melampaui suplai melalui arteri stenotik, lalu menurun ketika berhenti.",
+    "clinicalReasoning": "Kebutuhan metabolik saat berjalan melampaui suplai melalui arteri stenotik, lalu menurun ketika berhenti.",
+    "distractorExplanations": {
+      "B": "Lebih mendukung penyebab lokal noniskemik.",
+      "C": "Tidak merupakan pola khas kebutuhan-suplainya.",
+      "D": "Lebih mendukung masalah muskuloskeletal.",
+      "E": "Diagnosis perlu konteks, pemeriksaan, dan bukti perfusi."
+    },
+    "learningPoint": "Kebutuhan metabolik saat berjalan melampaui suplai melalui arteri stenotik, lalu menurun ketika berhenti.",
+    "clinicalPearl": "Kebutuhan metabolik saat berjalan melampaui suplai melalui arteri stenotik, lalu menurun ketika berhenti.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 7,
+    "id": "BTKV-VS-007",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V02",
+    "topic": "Peripheral Arterial Disease",
+    "subtopic": "Perhitungan ABI",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan perhitungan abi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Tekanan sistolik brakialis tertinggi 140 mmHg dan tekanan pergelangan kaki tertinggi pada tungkai kanan 98 mmHg. Berapa ABI kanan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1,43"
+      },
+      {
+        "id": "B",
+        "text": "0,70"
+      },
+      {
+        "id": "C",
+        "text": "0,42"
+      },
+      {
+        "id": "D",
+        "text": "2,38"
+      },
+      {
+        "id": "E",
+        "text": "1,00"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Stent memberi dukungan mekanik untuk menjaga patensi lumen pada indikasi yang sesuai. Fungsi tersebut bukan transfusi atau ablasi semua katup.",
+    "explanation": "ABI dihitung tekanan ankle dibagi brakialis: 98/140 = 0,70, mendukung gangguan perfusi arteri dalam konteks sesuai.",
+    "correctAnswerReason": "ABI dihitung tekanan ankle dibagi brakialis: 98/140 = 0,70, mendukung gangguan perfusi arteri dalam konteks sesuai.",
+    "clinicalReasoning": "ABI dihitung tekanan ankle dibagi brakialis: 98/140 = 0,70, mendukung gangguan perfusi arteri dalam konteks sesuai.",
     "distractorExplanations": {
-      "A": "Pilihan “Menghancurkan semua katup vena” tidak memenuhi konsep atau kondisi dalam soal. Stent memberi dukungan mekanik untuk menjaga patensi lumen pada indikasi yang sesuai. Fungsi tersebut bukan transfusi atau ablasi semua katup.",
-      "C": "Pilihan “Menggantikan seluruh darah” tidak memenuhi konsep atau kondisi dalam soal. Stent memberi dukungan mekanik untuk menjaga patensi lumen pada indikasi yang sesuai. Fungsi tersebut bukan transfusi atau ablasi semua katup."
+      "A": "Ini rasio terbalik brakialis terhadap ankle.",
+      "C": "Angka ini tidak berasal dari rasio tekanan yang diberikan.",
+      "D": "Penjumlahan atau operasi lain tidak sesuai definisi ABI.",
+      "E": "Kesetaraan tekanan tidak sesuai data 98 dan 140 mmHg."
     },
-    "learningPoint": "Stent memberi dukungan mekanik untuk menjaga patensi lumen pada indikasi yang sesuai. Fungsi tersebut bukan transfusi atau ablasi semua katup.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-VASCULAR-009",
-    "program": "btkv",
-    "category": "vascular",
-    "topic": "Nyeri istirahat kaki dengan ulkus yang tidak sembuh pada penyakit",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Nyeri istirahat kaki dengan ulkus yang tidak sembuh pada penyakit arteri perifer mengarah pada apa?",
-    "options": [
+    "learningPoint": "ABI dihitung tekanan ankle dibagi brakialis: 98/140 = 0,70, mendukung gangguan perfusi arteri dalam konteks sesuai.",
+    "clinicalPearl": "ABI dihitung tekanan ankle dibagi brakialis: 98/140 = 0,70, mendukung gangguan perfusi arteri dalam konteks sesuai.",
+    "references": [
       {
-        "id": "A",
-        "text": "Iskemia tungkai kronis yang mengancam tungkai"
-      },
-      {
-        "id": "B",
-        "text": "Klaudikasio tanpa ancaman jaringan saja"
-      },
-      {
-        "id": "C",
-        "text": "Migrain"
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Nyeri istirahat dan kehilangan jaringan akibat hipoperfusi mendukung CLTI. Klaudikasio saja tidak mencakup ulkus iskemik; migrain tidak relevan.",
-    "distractorExplanations": {
-      "B": "Pilihan “Klaudikasio tanpa ancaman jaringan saja” tidak memenuhi konsep atau kondisi dalam soal. Nyeri istirahat dan kehilangan jaringan akibat hipoperfusi mendukung CLTI. Klaudikasio saja tidak mencakup ulkus iskemik; migrain tidak relevan.",
-      "C": "Pilihan “Migrain” tidak memenuhi konsep atau kondisi dalam soal. Nyeri istirahat dan kehilangan jaringan akibat hipoperfusi mendukung CLTI. Klaudikasio saja tidak mencakup ulkus iskemik; migrain tidak relevan."
-    },
-    "learningPoint": "Nyeri istirahat dan kehilangan jaringan akibat hipoperfusi mendukung CLTI. Klaudikasio saja tidak mencakup ulkus iskemik; migrain tidak relevan.",
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
   },
   {
-    "id": "BTKV-VASCULAR-010",
+    "number": 8,
+    "id": "BTKV-VS-008",
     "program": "btkv",
     "category": "vascular",
-    "topic": "Apa tanda yang mengkhawatirkan untuk sindrom kompartemen setelah ",
-    "subtopic": "Konsep dan penalaran",
+    "taxonomyCode": "V02",
+    "topic": "Peripheral Arterial Disease",
+    "subtopic": "Evaluasi awal PAD",
     "difficulty": "medium",
+    "questionType": "clinical_vignette",
     "type": "single_choice",
-    "question": "Apa tanda yang mengkhawatirkan untuk sindrom kompartemen setelah reperfusi?",
+    "learningObjective": "Menjelaskan evaluasi awal pad dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 67 tahun merokok lama dengan nyeri betis setelah berjalan 200 meter dan hilang setelah istirahat. Nadi kaki lemah. Pemeriksaan awal noninvasif paling sesuai apa?",
     "options": [
       {
         "id": "A",
-        "text": "Gatal ringan tanpa nyeri"
+        "text": "D-dimer sebagai satu-satunya tes PAD"
       },
       {
         "id": "B",
-        "text": "Perbaikan warna saja"
+        "text": "MRI lumbal sebagai pemeriksaan rutin pertama"
       },
       {
         "id": "C",
-        "text": "Nyeri hebat dengan regangan pasif"
+        "text": "ABI disertai pemeriksaan vaskular"
+      },
+      {
+        "id": "D",
+        "text": "Ultrasonografi kompresi vena sebagai tes utama"
+      },
+      {
+        "id": "E",
+        "text": "Biopsi otot sebagai langkah rutin pertama"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Edema dalam kompartemen tertutup dapat menaikkan tekanan jaringan. Nyeri regangan pasif perlu evaluasi segera; gatal atau perbaikan warna saja bukan tanda khas.",
+    "explanation": "Pengukuran tekanan relatif membantu membuktikan penyakit arteri dan melengkapi gejala serta pemeriksaan fisik.",
+    "correctAnswerReason": "Pengukuran tekanan relatif membantu membuktikan penyakit arteri dan melengkapi gejala serta pemeriksaan fisik.",
+    "clinicalReasoning": "Pengukuran tekanan relatif membantu membuktikan penyakit arteri dan melengkapi gejala serta pemeriksaan fisik.",
     "distractorExplanations": {
-      "A": "Pilihan “Gatal ringan tanpa nyeri” tidak memenuhi konsep atau kondisi dalam soal. Edema dalam kompartemen tertutup dapat menaikkan tekanan jaringan. Nyeri regangan pasif perlu evaluasi segera; gatal atau perbaikan warna saja bukan tanda khas.",
-      "B": "Pilihan “Perbaikan warna saja” tidak memenuhi konsep atau kondisi dalam soal. Edema dalam kompartemen tertutup dapat menaikkan tekanan jaringan. Nyeri regangan pasif perlu evaluasi segera; gatal atau perbaikan warna saja bukan tanda khas."
+      "A": "D-dimer tidak menilai stenosis arteri kronis secara langsung.",
+      "B": "Dapat relevan pada dugaan neurogenik, tetapi pola nadi lemah dan klaudikasio mendukung evaluasi arteri dahulu.",
+      "D": "Menilai DVT, bukan pengukuran awal tekanan arteri pada pola klaudikasio ini.",
+      "E": "Pemeriksaan invasif ini bukan awal standar untuk dugaan klaudikasio aterosklerotik."
     },
-    "learningPoint": "Edema dalam kompartemen tertutup dapat menaikkan tekanan jaringan. Nyeri regangan pasif perlu evaluasi segera; gatal atau perbaikan warna saja bukan tanda khas.",
+    "learningPoint": "Pengukuran tekanan relatif membantu membuktikan penyakit arteri dan melengkapi gejala serta pemeriksaan fisik.",
+    "clinicalPearl": "Pengukuran tekanan relatif membantu membuktikan penyakit arteri dan melengkapi gejala serta pemeriksaan fisik.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 9,
+    "id": "BTKV-VS-009",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V02",
+    "topic": "Peripheral Arterial Disease",
+    "subtopic": "Arteri nonkompresibel",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan arteri nonkompresibel dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 70 tahun dengan diabetes dan nyeri kaki memiliki ABI 1,55, tetapi nadi pedal sulit teraba. Apa interpretasi terbaik?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ABI tinggi pasti membuktikan semua arteri sehat"
+      },
+      {
+        "id": "B",
+        "text": "Diabetes menyingkirkan PAD"
+      },
+      {
+        "id": "C",
+        "text": "Nyeri pasti neuropatik sehingga penilaian vaskular dihentikan"
+      },
+      {
+        "id": "D",
+        "text": "Arteri mungkin tidak kompresibel sehingga pemeriksaan perfusi tambahan diperlukan"
+      },
+      {
+        "id": "E",
+        "text": "Nilai ABI saja menetapkan stenosis vena"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Kalsifikasi dapat memberi ABI tinggi semu; tekanan jari atau metode lain membantu mengevaluasi perfusi.",
+    "correctAnswerReason": "Kalsifikasi dapat memberi ABI tinggi semu; tekanan jari atau metode lain membantu mengevaluasi perfusi.",
+    "clinicalReasoning": "Kalsifikasi dapat memberi ABI tinggi semu; tekanan jari atau metode lain membantu mengevaluasi perfusi.",
+    "distractorExplanations": {
+      "A": "Nonkompresibilitas dapat menyamarkan gangguan perfusi.",
+      "B": "Diabetes justru merupakan faktor risiko penting.",
+      "C": "Neuropati dan iskemia dapat terjadi bersamaan.",
+      "E": "ABI menilai tekanan arteri, bukan penyakit vena."
+    },
+    "learningPoint": "Kalsifikasi dapat memberi ABI tinggi semu; tekanan jari atau metode lain membantu mengevaluasi perfusi.",
+    "clinicalPearl": "Kalsifikasi dapat memberi ABI tinggi semu; tekanan jari atau metode lain membantu mengevaluasi perfusi.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 10,
+    "id": "BTKV-VS-010",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V02",
+    "topic": "Peripheral Arterial Disease",
+    "subtopic": "Terapi PAD stabil",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan terapi pad stabil dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 61 tahun dengan PAD stabil bertanya apakah obat saja menggantikan berhenti merokok dan latihan terstruktur. Jawaban paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua klaudikasio harus langsung diamputasi"
+      },
+      {
+        "id": "B",
+        "text": "Merokok tidak lagi berpengaruh setelah diagnosis"
+      },
+      {
+        "id": "C",
+        "text": "Latihan tidak boleh dipertimbangkan pada seluruh PAD stabil"
+      },
+      {
+        "id": "D",
+        "text": "Pemasangan stent menghapus kebutuhan pencegahan sekunder"
+      },
+      {
+        "id": "E",
+        "text": "Pengendalian faktor risiko dan latihan terstruktur merupakan bagian terapi bersama obat yang sesuai"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Penanganan mencakup risiko kardiovaskular sistemik serta kapasitas berjalan; intervensi dipertimbangkan berdasarkan gejala dan anatomi.",
+    "correctAnswerReason": "Penanganan mencakup risiko kardiovaskular sistemik serta kapasitas berjalan; intervensi dipertimbangkan berdasarkan gejala dan anatomi.",
+    "clinicalReasoning": "Penanganan mencakup risiko kardiovaskular sistemik serta kapasitas berjalan; intervensi dipertimbangkan berdasarkan gejala dan anatomi.",
+    "distractorExplanations": {
+      "A": "Tanpa ancaman jaringan, terapi tidak dimulai dengan amputasi rutin.",
+      "B": "Merokok tetap memperburuk risiko vaskular.",
+      "C": "Latihan terstruktur dapat bermanfaat pada pasien yang dinilai layak.",
+      "D": "Aterosklerosis tetap penyakit sistemik setelah prosedur."
+    },
+    "learningPoint": "Penanganan mencakup risiko kardiovaskular sistemik serta kapasitas berjalan; intervensi dipertimbangkan berdasarkan gejala dan anatomi.",
+    "clinicalPearl": "Penanganan mencakup risiko kardiovaskular sistemik serta kapasitas berjalan; intervensi dipertimbangkan berdasarkan gejala dan anatomi.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 11,
+    "id": "BTKV-VS-011",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V03",
+    "topic": "Acute Limb Ischemia",
+    "subtopic": "Emboli dan trombosis",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan emboli dan trombosis dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Apa perbedaan prinsip emboli arteri dan trombosis in situ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emboli berasal dari lokasi lain, trombosis in situ terbentuk di lokasi sumbatan"
+      },
+      {
+        "id": "B",
+        "text": "Emboli selalu hanya berupa udara"
+      },
+      {
+        "id": "C",
+        "text": "Trombosis hanya terjadi di vena"
+      },
+      {
+        "id": "D",
+        "text": "Emboli tidak pernah menyumbat arteri"
+      },
+      {
+        "id": "E",
+        "text": "Keduanya selalu tidak memengaruhi perfusi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Riwayat, anatomi, dan sumber emboli membantu membedakan mekanisme walaupun keduanya dapat menyebabkan iskemia akut.",
+    "correctAnswerReason": "Riwayat, anatomi, dan sumber emboli membantu membedakan mekanisme walaupun keduanya dapat menyebabkan iskemia akut.",
+    "clinicalReasoning": "Riwayat, anatomi, dan sumber emboli membantu membedakan mekanisme walaupun keduanya dapat menyebabkan iskemia akut.",
+    "distractorExplanations": {
+      "B": "Material trombotik merupakan penyebab penting emboli.",
+      "C": "Trombosis juga terjadi pada arteri asli atau graft.",
+      "D": "Emboli dapat menyebabkan oklusi arteri mendadak.",
+      "E": "Sumbatan arteri dapat mengancam jaringan distal."
+    },
+    "learningPoint": "Riwayat, anatomi, dan sumber emboli membantu membedakan mekanisme walaupun keduanya dapat menyebabkan iskemia akut.",
+    "clinicalPearl": "Riwayat, anatomi, dan sumber emboli membantu membedakan mekanisme walaupun keduanya dapat menyebabkan iskemia akut.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 12,
+    "id": "BTKV-VS-012",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V03",
+    "topic": "Acute Limb Ischemia",
+    "subtopic": "Interpretasi sinyal Doppler",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan interpretasi sinyal doppler dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Pasien dengan nyeri tungkai akut memiliki kaki dingin dan hilangnya sinyal Doppler arteri, sedangkan sinyal vena masih ada. Bagaimana temuan ini ditafsirkan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membuktikan perfusi arteri normal"
+      },
+      {
+        "id": "B",
+        "text": "Mendukung gangguan perfusi arteri dan perlu digabung dengan fungsi sensorimotor"
+      },
+      {
+        "id": "C",
+        "text": "Menyingkirkan iskemia karena vena masih terdengar"
+      },
+      {
+        "id": "D",
+        "text": "Menetapkan gangren irreversibel dari Doppler saja"
+      },
+      {
+        "id": "E",
+        "text": "Membuktikan varises sebagai satu-satunya penyebab"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Keberadaan sinyal vena tidak memastikan viabilitas; defisit neurologis penting untuk menilai urgensi.",
+    "correctAnswerReason": "Keberadaan sinyal vena tidak memastikan viabilitas; defisit neurologis penting untuk menilai urgensi.",
+    "clinicalReasoning": "Keberadaan sinyal vena tidak memastikan viabilitas; defisit neurologis penting untuk menilai urgensi.",
+    "distractorExplanations": {
+      "A": "Sinyal arteri justru tidak terdeteksi pada pemeriksaan ini.",
+      "C": "Aliran vena tidak menggantikan suplai arteri adekuat.",
+      "D": "Penilaian irreversibilitas membutuhkan keseluruhan klinis, bukan satu sinyal.",
+      "E": "Kaki dingin dan hilang sinyal arteri tidak dijelaskan varises sederhana."
+    },
+    "learningPoint": "Keberadaan sinyal vena tidak memastikan viabilitas; defisit neurologis penting untuk menilai urgensi.",
+    "clinicalPearl": "Keberadaan sinyal vena tidak memastikan viabilitas; defisit neurologis penting untuk menilai urgensi.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 13,
+    "id": "BTKV-VS-013",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V03",
+    "topic": "Acute Limb Ischemia",
+    "subtopic": "Sumber kardioembolik",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan sumber kardioembolik dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 73 tahun dengan fibrilasi atrium tiba-tiba nyeri tungkai kiri sejak dua jam, tanpa klaudikasio sebelumnya. Nadi kontralateral baik. Mekanisme paling mungkin apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insufisiensi vena kronis terisolasi"
+      },
+      {
+        "id": "B",
+        "text": "Selulitis sebagai satu-satunya penjelasan"
+      },
+      {
+        "id": "C",
+        "text": "Emboli arteri"
+      },
+      {
+        "id": "D",
+        "text": "Neuropati diabetik simetris"
+      },
+      {
+        "id": "E",
+        "text": "Klaudikasio stabil"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Onset mendadak pada latar sumber emboli potensial dan tanpa gejala kronis mendukung emboli, meski penilaian anatomi tetap diperlukan.",
+    "correctAnswerReason": "Onset mendadak pada latar sumber emboli potensial dan tanpa gejala kronis mendukung emboli, meski penilaian anatomi tetap diperlukan.",
+    "clinicalReasoning": "Onset mendadak pada latar sumber emboli potensial dan tanpa gejala kronis mendukung emboli, meski penilaian anatomi tetap diperlukan.",
+    "distractorExplanations": {
+      "A": "Biasanya perjalanan kronis dengan tanda stasis, bukan hilang perfusi arteri mendadak.",
+      "B": "Tidak paling sesuai onset sangat cepat dengan hilang nadi.",
+      "D": "Biasanya bukan kelainan akut unilateral dengan gangguan nadi.",
+      "E": "Gejalanya akut dan tidak terbatas pada aktivitas."
+    },
+    "learningPoint": "Onset mendadak pada latar sumber emboli potensial dan tanpa gejala kronis mendukung emboli, meski penilaian anatomi tetap diperlukan.",
+    "clinicalPearl": "Onset mendadak pada latar sumber emboli potensial dan tanpa gejala kronis mendukung emboli, meski penilaian anatomi tetap diperlukan.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 14,
+    "id": "BTKV-VS-014",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V03",
+    "topic": "Acute Limb Ischemia",
+    "subtopic": "Ancaman sensorimotor",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan ancaman sensorimotor dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 68 tahun dengan iskemia tungkai akut mulai mengalami kelemahan motorik kaki dan baal progresif. Apa prioritas penanganan paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menunggu beberapa hari untuk membedakan emboli dan trombus"
+      },
+      {
+        "id": "B",
+        "text": "Memulai latihan berjalan sebagai terapi utama"
+      },
+      {
+        "id": "C",
+        "text": "Melakukan seluruh pemeriksaan elektif sebelum konsultasi"
+      },
+      {
+        "id": "D",
+        "text": "Aktivasi tim vaskular untuk penilaian dan reperfusi segera sesuai viabilitas"
+      },
+      {
+        "id": "E",
+        "text": "Mengandalkan analgesik karena nadi kadang tidak teraba pada orang sehat"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Defisit motorik menandakan ancaman tungkai serius; pemeriksaan tidak boleh menunda penanganan yang sensitif waktu.",
+    "correctAnswerReason": "Defisit motorik menandakan ancaman tungkai serius; pemeriksaan tidak boleh menunda penanganan yang sensitif waktu.",
+    "clinicalReasoning": "Defisit motorik menandakan ancaman tungkai serius; pemeriksaan tidak boleh menunda penanganan yang sensitif waktu.",
+    "distractorExplanations": {
+      "A": "Penundaan berisiko memperberat kerusakan jaringan.",
+      "B": "Tidak sesuai tungkai yang terancam akut.",
+      "C": "Urutan ini dapat menunda reperfusi pada ancaman segera.",
+      "E": "Defisit progresif dan dingin memerlukan respons, bukan reassurance semata."
+    },
+    "learningPoint": "Defisit motorik menandakan ancaman tungkai serius; pemeriksaan tidak boleh menunda penanganan yang sensitif waktu.",
+    "clinicalPearl": "Defisit motorik menandakan ancaman tungkai serius; pemeriksaan tidak boleh menunda penanganan yang sensitif waktu.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 15,
+    "id": "BTKV-VS-015",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V03",
+    "topic": "Acute Limb Ischemia",
+    "subtopic": "Sindrom kompartemen reperfusi",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan sindrom kompartemen reperfusi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 65 tahun setelah reperfusi tungkai lama iskemik mengalami nyeri meningkat, kompartemen tegang, dan nyeri regangan pasif meskipun nadi kembali. Komplikasi paling perlu dicurigai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Penyembuhan normal yang pasti aman"
+      },
+      {
+        "id": "B",
+        "text": "Insufisiensi vena ringan tanpa ancaman"
+      },
+      {
+        "id": "C",
+        "text": "Klaudikasio stabil semata"
+      },
+      {
+        "id": "D",
+        "text": "Neuropati kronis tanpa perubahan"
+      },
+      {
+        "id": "E",
+        "text": "Sindrom kompartemen pascareperfusi"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Edema jaringan dapat menaikkan tekanan kompartemen meskipun aliran arteri besar telah pulih; nadi tidak menyingkirkan kondisi ini.",
+    "correctAnswerReason": "Edema jaringan dapat menaikkan tekanan kompartemen meskipun aliran arteri besar telah pulih; nadi tidak menyingkirkan kondisi ini.",
+    "clinicalReasoning": "Edema jaringan dapat menaikkan tekanan kompartemen meskipun aliran arteri besar telah pulih; nadi tidak menyingkirkan kondisi ini.",
+    "distractorExplanations": {
+      "A": "Nyeri progresif dan kompartemen tegang bukan temuan yang boleh diabaikan.",
+      "B": "Tidak menjelaskan sindrom nyeri dan regangan pasif akut secara memadai.",
+      "C": "Keluhan terjadi setelah reperfusi dan menetap saat istirahat.",
+      "D": "Temuan akut dengan ketegangan kompartemen memerlukan evaluasi emergensi."
+    },
+    "learningPoint": "Edema jaringan dapat menaikkan tekanan kompartemen meskipun aliran arteri besar telah pulih; nadi tidak menyingkirkan kondisi ini.",
+    "clinicalPearl": "Edema jaringan dapat menaikkan tekanan kompartemen meskipun aliran arteri besar telah pulih; nadi tidak menyingkirkan kondisi ini.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 16,
+    "id": "BTKV-VS-016",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V04",
+    "topic": "Chronic Limb-Threatening Ischemia",
+    "subtopic": "Manifestasi CLTI",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan manifestasi clti dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Apa karakteristik utama CLTI pada konteks penyakit arteri perifer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nyeri istirahat iskemik atau kehilangan jaringan kronis dengan bukti gangguan perfusi"
+      },
+      {
+        "id": "B",
+        "text": "Varises tanpa gangguan arteri"
+      },
+      {
+        "id": "C",
+        "text": "Setiap kram tungkai sesaat"
+      },
+      {
+        "id": "D",
+        "text": "ABI normal tanpa gejala sebagai satu-satunya definisi"
+      },
+      {
+        "id": "E",
+        "text": "Nyeri sendi mekanik terisolasi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "CLTI menggabungkan manifestasi klinis yang mengancam tungkai dan penyakit arteri, bukan hanya jarak berjalan.",
+    "correctAnswerReason": "CLTI menggabungkan manifestasi klinis yang mengancam tungkai dan penyakit arteri, bukan hanya jarak berjalan.",
+    "clinicalReasoning": "CLTI menggabungkan manifestasi klinis yang mengancam tungkai dan penyakit arteri, bukan hanya jarak berjalan.",
+    "distractorExplanations": {
+      "B": "Penyakit vena berbeda dan tidak cukup menetapkan CLTI.",
+      "C": "Kram tidak spesifik dan tidak membuktikan iskemia yang mengancam tungkai.",
+      "D": "Definisi memerlukan konteks manifestasi iskemik.",
+      "E": "Tidak menunjukkan kehilangan jaringan akibat hipoperfusi arteri."
+    },
+    "learningPoint": "CLTI menggabungkan manifestasi klinis yang mengancam tungkai dan penyakit arteri, bukan hanya jarak berjalan.",
+    "clinicalPearl": "CLTI menggabungkan manifestasi klinis yang mengancam tungkai dan penyakit arteri, bukan hanya jarak berjalan.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 17,
+    "id": "BTKV-VS-017",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V04",
+    "topic": "Chronic Limb-Threatening Ischemia",
+    "subtopic": "Tekanan jari",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan tekanan jari dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 72 tahun dengan diabetes mempunyai ulkus jari tidak sembuh, ABI tidak kompresibel, dan tekanan jari rendah. Data mana paling membantu menilai perfusi lokal dalam konteks ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengandalkan ABI tinggi sebagai bukti perfusi cukup"
+      },
+      {
+        "id": "B",
+        "text": "Tekanan jari dan pengukuran perfusi tambahan yang sesuai"
+      },
+      {
+        "id": "C",
+        "text": "Suhu ruangan sebagai pengganti pemeriksaan"
+      },
+      {
+        "id": "D",
+        "text": "Kadar kolesterol tunggal untuk menentukan perfusi luka"
+      },
+      {
+        "id": "E",
+        "text": "Jumlah varises superfisial"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Saat ABI tidak andal, pengukuran distal membantu menilai iskemia dan kemungkinan penyembuhan bersama temuan luka.",
+    "correctAnswerReason": "Saat ABI tidak andal, pengukuran distal membantu menilai iskemia dan kemungkinan penyembuhan bersama temuan luka.",
+    "clinicalReasoning": "Saat ABI tidak andal, pengukuran distal membantu menilai iskemia dan kemungkinan penyembuhan bersama temuan luka.",
+    "distractorExplanations": {
+      "A": "Kalsifikasi dapat menyebabkan nilai tinggi semu.",
+      "C": "Tidak menilai penghantaran darah ke luka.",
+      "D": "Menggambarkan risiko, bukan langsung perfusi jaringan lokal.",
+      "E": "Tidak mengukur kecukupan aliran arteri pada ulkus jari."
+    },
+    "learningPoint": "Saat ABI tidak andal, pengukuran distal membantu menilai iskemia dan kemungkinan penyembuhan bersama temuan luka.",
+    "clinicalPearl": "Saat ABI tidak andal, pengukuran distal membantu menilai iskemia dan kemungkinan penyembuhan bersama temuan luka.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 18,
+    "id": "BTKV-VS-018",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V04",
+    "topic": "Chronic Limb-Threatening Ischemia",
+    "subtopic": "Nyeri istirahat iskemik",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan nyeri istirahat iskemik dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 69 tahun memiliki nyeri kaki saat berbaring yang berkurang ketika tungkai digantung. Nadi pedal lemah dan terdapat ulkus distal. Mekanisme paling sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nyeri sendi murni tanpa masalah perfusi"
+      },
+      {
+        "id": "B",
+        "text": "Neuropati sebagai diagnosis pasti tunggal"
+      },
+      {
+        "id": "C",
+        "text": "Nyeri istirahat iskemik akibat perfusi arteri sangat terbatas"
+      },
+      {
+        "id": "D",
+        "text": "Refluks vena sebagai satu-satunya kelainan"
+      },
+      {
+        "id": "E",
+        "text": "Kram aktivitas biasa"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Posisi dependen dapat menambah tekanan hidrostatik distal sehingga sementara mengurangi nyeri, tetapi tidak memperbaiki penyakit arteri.",
+    "correctAnswerReason": "Posisi dependen dapat menambah tekanan hidrostatik distal sehingga sementara mengurangi nyeri, tetapi tidak memperbaiki penyakit arteri.",
+    "clinicalReasoning": "Posisi dependen dapat menambah tekanan hidrostatik distal sehingga sementara mengurangi nyeri, tetapi tidak memperbaiki penyakit arteri.",
+    "distractorExplanations": {
+      "A": "Pola posisi dan ulkus distal dengan nadi lemah mendukung iskemia.",
+      "B": "Neuropati dapat menyertai tetapi tidak meniadakan bukti penyakit arteri.",
+      "D": "Vena lebih khas memburuk saat dependen dan disertai stasis.",
+      "E": "Nyeri muncul saat istirahat dan disertai kehilangan jaringan."
+    },
+    "learningPoint": "Posisi dependen dapat menambah tekanan hidrostatik distal sehingga sementara mengurangi nyeri, tetapi tidak memperbaiki penyakit arteri.",
+    "clinicalPearl": "Posisi dependen dapat menambah tekanan hidrostatik distal sehingga sementara mengurangi nyeri, tetapi tidak memperbaiki penyakit arteri.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 19,
+    "id": "BTKV-VS-019",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V04",
+    "topic": "Chronic Limb-Threatening Ischemia",
+    "subtopic": "Infeksi pada kaki iskemik",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan infeksi pada kaki iskemik dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 66 tahun dengan gangren jari, infeksi kaki, dan perfusi arteri buruk datang demam serta hipotensi. Pendekatan paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menunda semua antibiotik sampai revaskularisasi elektif"
+      },
+      {
+        "id": "B",
+        "text": "Melakukan debridemen luas tanpa menilai perfusi atau viabilitas"
+      },
+      {
+        "id": "C",
+        "text": "Mengobati iskemia saja tanpa mengendalikan infeksi"
+      },
+      {
+        "id": "D",
+        "text": "Resusitasi, pengendalian infeksi, dan perencanaan perfusi serta kontrol sumber secara terkoordinasi"
+      },
+      {
+        "id": "E",
+        "text": "Menganggap gangren jari selalu memerlukan amputasi paha"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Ancaman sepsis dan iskemia harus ditangani bersama; urutan intervensi bergantung keparahan infeksi, viabilitas, dan anatomi.",
+    "correctAnswerReason": "Ancaman sepsis dan iskemia harus ditangani bersama; urutan intervensi bergantung keparahan infeksi, viabilitas, dan anatomi.",
+    "clinicalReasoning": "Ancaman sepsis dan iskemia harus ditangani bersama; urutan intervensi bergantung keparahan infeksi, viabilitas, dan anatomi.",
+    "distractorExplanations": {
+      "A": "Tidak sesuai infeksi sistemik dengan syok.",
+      "B": "Penyembuhan dan penyelamatan tungkai bergantung perfusi serta penilaian jaringan.",
+      "C": "Infeksi dapat tetap mengancam nyawa meski aliran diperbaiki.",
+      "E": "Level dan kebutuhan amputasi tidak dapat ditetapkan tanpa penilaian individual."
+    },
+    "learningPoint": "Ancaman sepsis dan iskemia harus ditangani bersama; urutan intervensi bergantung keparahan infeksi, viabilitas, dan anatomi.",
+    "clinicalPearl": "Ancaman sepsis dan iskemia harus ditangani bersama; urutan intervensi bergantung keparahan infeksi, viabilitas, dan anatomi.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 20,
+    "id": "BTKV-VS-020",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V04",
+    "topic": "Chronic Limb-Threatening Ischemia",
+    "subtopic": "Pemilihan revaskularisasi",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pemilihan revaskularisasi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 74 tahun dengan CLTI dibahas untuk bypass atau endovaskular. Faktor mana paling relevan dalam pemilihan strategi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya panjang luka kulit"
+      },
+      {
+        "id": "B",
+        "text": "Semua lesi harus memakai perangkat identik"
+      },
+      {
+        "id": "C",
+        "text": "Kadar kolesterol tunggal sebagai satu-satunya penentu"
+      },
+      {
+        "id": "D",
+        "text": "Adanya diabetes selalu melarang rekonstruksi"
+      },
+      {
+        "id": "E",
+        "text": "Ancaman tungkai, anatomi arteri, risiko pasien, dan ketersediaan conduit"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Manfaat serta durabilitas intervensi harus dipadukan dengan harapan hidup, fungsi, dan preferensi pasien.",
+    "correctAnswerReason": "Manfaat serta durabilitas intervensi harus dipadukan dengan harapan hidup, fungsi, dan preferensi pasien.",
+    "clinicalReasoning": "Manfaat serta durabilitas intervensi harus dipadukan dengan harapan hidup, fungsi, dan preferensi pasien.",
+    "distractorExplanations": {
+      "A": "Ancaman tungkai tidak ditentukan satu dimensi luka.",
+      "B": "Kompleksitas anatomi dan risiko berbeda antar pasien.",
+      "C": "Kolesterol penting untuk risiko sistemik tetapi tidak menentukan kelayakan rekonstruksi tungkai sendirian.",
+      "D": "Diabetes memengaruhi risiko tetapi bukan larangan universal."
+    },
+    "learningPoint": "Manfaat serta durabilitas intervensi harus dipadukan dengan harapan hidup, fungsi, dan preferensi pasien.",
+    "clinicalPearl": "Manfaat serta durabilitas intervensi harus dipadukan dengan harapan hidup, fungsi, dan preferensi pasien.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 21,
+    "id": "BTKV-VS-021",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V05",
+    "topic": "Aneurisma Aorta Abdominalis",
+    "subtopic": "Aneurisma sejati dan pseudoaneurisma",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan aneurisma sejati dan pseudoaneurisma dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Apa yang dimaksud aneurisma sejati dibanding pseudoaneurisma?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aneurisma sejati melibatkan pelebaran seluruh lapisan dinding, pseudoaneurisma adalah kebocoran yang tertahan"
+      },
+      {
+        "id": "B",
+        "text": "Keduanya selalu identik secara struktur"
+      },
+      {
+        "id": "C",
+        "text": "Aneurisma sejati hanya terjadi pada vena"
+      },
+      {
+        "id": "D",
+        "text": "Pseudoaneurisma berarti arteri normal tanpa kebocoran"
+      },
+      {
+        "id": "E",
+        "text": "Aneurisma selalu merupakan diseksi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pseudoaneurisma tidak dibatasi semua lapisan dinding arteri yang utuh seperti aneurisma sejati.",
+    "correctAnswerReason": "Pseudoaneurisma tidak dibatasi semua lapisan dinding arteri yang utuh seperti aneurisma sejati.",
+    "clinicalReasoning": "Pseudoaneurisma tidak dibatasi semua lapisan dinding arteri yang utuh seperti aneurisma sejati.",
+    "distractorExplanations": {
+      "B": "Perbedaan integritas dinding merupakan pembeda penting.",
+      "C": "Aorta dan arteri lain dapat mengalami aneurisma sejati.",
+      "D": "Terdapat komunikasi melalui defek dinding ke kantong tertahan.",
+      "E": "Pelebaran dan pemisahan lapisan dapat terjadi terpisah."
+    },
+    "learningPoint": "Pseudoaneurisma tidak dibatasi semua lapisan dinding arteri yang utuh seperti aneurisma sejati.",
+    "clinicalPearl": "Pseudoaneurisma tidak dibatasi semua lapisan dinding arteri yang utuh seperti aneurisma sejati.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 22,
+    "id": "BTKV-VS-022",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V05",
+    "topic": "Aneurisma Aorta Abdominalis",
+    "subtopic": "Perencanaan anatomi EVAR",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan perencanaan anatomi evar dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "US abdomen menunjukkan pelebaran fusiform infrarenal aorta. Pasien stabil dan akan dinilai untuk perencanaan EVAR. Informasi CTA apa paling penting?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diameter kantong aneurisma saja"
+      },
+      {
+        "id": "B",
+        "text": "Anatomi leher proksimal, zona seal, dan akses iliofemoral"
+      },
+      {
+        "id": "C",
+        "text": "Volume trombus intraluminal saja"
+      },
+      {
+        "id": "D",
+        "text": "Derajat kalsifikasi tanpa lokasi atau dimensi"
+      },
+      {
+        "id": "E",
+        "text": "Fungsi ginjal sebagai pengganti informasi anatomi"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Kelayakan endograft bergantung area penjangkaran dan jalur akses, bukan diameter kantong saja.",
+    "correctAnswerReason": "Kelayakan endograft bergantung area penjangkaran dan jalur akses, bukan diameter kantong saja.",
+    "clinicalReasoning": "Kelayakan endograft bergantung area penjangkaran dan jalur akses, bukan diameter kantong saja.",
+    "distractorExplanations": {
+      "A": "Diameter penting tetapi tidak menjelaskan kelayakan leher, zona seal, dan akses.",
+      "C": "Tidak cukup menentukan panjang dan kualitas area penjangkaran graft.",
+      "D": "Kalsifikasi relevan, tetapi perlu dipetakan dalam anatomi zona seal dan akses.",
+      "E": "Fungsi ginjal memengaruhi risiko prosedur, bukan menggantikan pemetaan leher dan akses."
+    },
+    "learningPoint": "Kelayakan endograft bergantung area penjangkaran dan jalur akses, bukan diameter kantong saja.",
+    "clinicalPearl": "Kelayakan endograft bergantung area penjangkaran dan jalur akses, bukan diameter kantong saja.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 23,
+    "id": "BTKV-VS-023",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V05",
+    "topic": "Aneurisma Aorta Abdominalis",
+    "subtopic": "Surveilans AAA",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan surveilans aaa dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 71 tahun perokok memiliki aneurisma aorta abdominalis tanpa gejala. Mengapa surveilans tetap dibutuhkan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tidak ada nyeri memastikan ukuran tidak berubah"
+      },
+      {
+        "id": "B",
+        "text": "Semua aneurisma pasti mengecil setelah merokok dihentikan"
+      },
+      {
+        "id": "C",
+        "text": "Ukuran dan laju pertumbuhan membantu menilai perubahan risiko"
+      },
+      {
+        "id": "D",
+        "text": "Surveilans hanya untuk pasien dengan ruptur"
+      },
+      {
+        "id": "E",
+        "text": "Satu diameter awal memadai untuk seumur hidup"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Aneurisma dapat membesar diam-diam; tindak lanjut disesuaikan ukuran, pertumbuhan, gejala, dan risiko pasien.",
+    "correctAnswerReason": "Aneurisma dapat membesar diam-diam; tindak lanjut disesuaikan ukuran, pertumbuhan, gejala, dan risiko pasien.",
+    "clinicalReasoning": "Aneurisma dapat membesar diam-diam; tindak lanjut disesuaikan ukuran, pertumbuhan, gejala, dan risiko pasien.",
+    "distractorExplanations": {
+      "A": "Pertumbuhan dapat berlangsung tanpa keluhan.",
+      "B": "Berhenti merokok penting tetapi tidak menjamin regresi anatomis.",
+      "D": "Ruptur adalah emergensi, sedangkan surveilans bertujuan mendeteksi perubahan sebelum komplikasi.",
+      "E": "Risiko dapat berubah sehingga tindak lanjut diperlukan."
+    },
+    "learningPoint": "Aneurisma dapat membesar diam-diam; tindak lanjut disesuaikan ukuran, pertumbuhan, gejala, dan risiko pasien.",
+    "clinicalPearl": "Aneurisma dapat membesar diam-diam; tindak lanjut disesuaikan ukuran, pertumbuhan, gejala, dan risiko pasien.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 24,
+    "id": "BTKV-VS-024",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V05",
+    "topic": "Aneurisma Aorta Abdominalis",
+    "subtopic": "Dugaan ruptur AAA",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan dugaan ruptur aaa dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 76 tahun mengalami nyeri abdomen dan punggung mendadak, hipotensi, dan diketahui memiliki AAA. Pendekatan paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menjadwalkan US kontrol satu tahun lagi"
+      },
+      {
+        "id": "B",
+        "text": "Memberikan analgesik lalu pulang bila nyeri berkurang"
+      },
+      {
+        "id": "C",
+        "text": "Menunda konsultasi sampai hemoglobin pasti sangat rendah"
+      },
+      {
+        "id": "D",
+        "text": "Aktivasi jalur ruptur aorta dengan resusitasi terarah dan penentuan kontrol perdarahan emergensi"
+      },
+      {
+        "id": "E",
+        "text": "Menganggap ruptur mustahil tanpa massa teraba"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Dugaan ruptur memerlukan tim vaskular dan strategi cepat sesuai stabilitas serta fasilitas; penundaan pemeriksaan elektif berbahaya.",
+    "correctAnswerReason": "Dugaan ruptur memerlukan tim vaskular dan strategi cepat sesuai stabilitas serta fasilitas; penundaan pemeriksaan elektif berbahaya.",
+    "clinicalReasoning": "Dugaan ruptur memerlukan tim vaskular dan strategi cepat sesuai stabilitas serta fasilitas; penundaan pemeriksaan elektif berbahaya.",
+    "distractorExplanations": {
+      "A": "Tidak sesuai syok pada pasien dengan aneurisma.",
+      "B": "Perbaikan nyeri tidak menyingkirkan perdarahan.",
+      "C": "Hemoglobin awal dapat belum mencerminkan kehilangan akut.",
+      "E": "Trias klasik tidak selalu lengkap."
+    },
+    "learningPoint": "Dugaan ruptur memerlukan tim vaskular dan strategi cepat sesuai stabilitas serta fasilitas; penundaan pemeriksaan elektif berbahaya.",
+    "clinicalPearl": "Dugaan ruptur memerlukan tim vaskular dan strategi cepat sesuai stabilitas serta fasilitas; penundaan pemeriksaan elektif berbahaya.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 25,
+    "id": "BTKV-VS-025",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V05",
+    "topic": "Aneurisma Aorta Abdominalis",
+    "subtopic": "Risiko-manfaat intervensi",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan risiko-manfaat intervensi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 80 tahun dengan AAA dan frailty berat mempertimbangkan operasi elektif. Mengapa risiko ruptur tidak dapat menjadi satu-satunya dasar keputusan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usia saja selalu melarang semua operasi"
+      },
+      {
+        "id": "B",
+        "text": "EVAR selalu tanpa risiko atau tindak lanjut"
+      },
+      {
+        "id": "C",
+        "text": "Diameter tidak pernah relevan"
+      },
+      {
+        "id": "D",
+        "text": "Pilihan pasien tidak perlu didiskusikan"
+      },
+      {
+        "id": "E",
+        "text": "Manfaat intervensi harus ditimbang dengan risiko prosedur, fungsi, dan harapan hidup"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Pencegahan ruptur hanya bermanfaat jika keseluruhan keseimbangan risiko dan tujuan pasien mendukung tindakan.",
+    "correctAnswerReason": "Pencegahan ruptur hanya bermanfaat jika keseluruhan keseimbangan risiko dan tujuan pasien mendukung tindakan.",
+    "clinicalReasoning": "Pencegahan ruptur hanya bermanfaat jika keseluruhan keseimbangan risiko dan tujuan pasien mendukung tindakan.",
+    "distractorExplanations": {
+      "A": "Keputusan harus individual, bukan larangan berdasarkan usia tunggal.",
+      "B": "Komplikasi dan kebutuhan surveilans tetap ada.",
+      "C": "Ukuran tetap salah satu faktor penting dalam risiko.",
+      "D": "Pengambilan keputusan bersama penting pada intervensi elektif."
+    },
+    "learningPoint": "Pencegahan ruptur hanya bermanfaat jika keseluruhan keseimbangan risiko dan tujuan pasien mendukung tindakan.",
+    "clinicalPearl": "Pencegahan ruptur hanya bermanfaat jika keseluruhan keseimbangan risiko dan tujuan pasien mendukung tindakan.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 26,
+    "id": "BTKV-VS-026",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V06",
+    "topic": "Aortic Dissection dan Patologi Aorta",
+    "subtopic": "Klasifikasi Stanford B",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan klasifikasi stanford b dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Diseksi Stanford tipe B menurut lokasi memiliki ciri apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tidak melibatkan aorta asendens"
+      },
+      {
+        "id": "B",
+        "text": "Selalu hanya terbatas pada arteri femoralis"
+      },
+      {
+        "id": "C",
+        "text": "Selalu melibatkan asendens"
+      },
+      {
+        "id": "D",
+        "text": "Ditetapkan hanya karena pasien hipertensi"
+      },
+      {
+        "id": "E",
+        "text": "Sama dengan aneurisma tanpa flap"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tipe B dapat mengenai aorta desendens dan meluas distal, tetapi tidak memenuhi keterlibatan asendens tipe A.",
+    "correctAnswerReason": "Tipe B dapat mengenai aorta desendens dan meluas distal, tetapi tidak memenuhi keterlibatan asendens tipe A.",
+    "clinicalReasoning": "Tipe B dapat mengenai aorta desendens dan meluas distal, tetapi tidak memenuhi keterlibatan asendens tipe A.",
+    "distractorExplanations": {
+      "B": "Definisi berkaitan dengan aorta, bukan lokasi arteri perifer tunggal.",
+      "C": "Keterlibatan asendens menjadikannya tipe A.",
+      "D": "Hipertensi bukan kriteria klasifikasi anatomi.",
+      "E": "Diseksi memiliki pemisahan lapisan, bukan sekadar dilatasi."
+    },
+    "learningPoint": "Tipe B dapat mengenai aorta desendens dan meluas distal, tetapi tidak memenuhi keterlibatan asendens tipe A.",
+    "clinicalPearl": "Tipe B dapat mengenai aorta desendens dan meluas distal, tetapi tidak memenuhi keterlibatan asendens tipe A.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 27,
+    "id": "BTKV-VS-027",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V06",
+    "topic": "Aortic Dissection dan Patologi Aorta",
+    "subtopic": "Malperfusi renal",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan malperfusi renal dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "CTA menunjukkan flap aorta desendens, dua lumen, dan cabang renal berasal dari lumen yang tertekan. Kreatinin meningkat. Komplikasi yang paling perlu dinilai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obstruksi ureter sebagai penjelasan utama"
+      },
+      {
+        "id": "B",
+        "text": "Malperfusi renal terkait diseksi"
+      },
+      {
+        "id": "C",
+        "text": "Nefritis interstisial sebagai kesimpulan tunggal"
+      },
+      {
+        "id": "D",
+        "text": "Dehidrasi sebagai satu-satunya penyebab"
+      },
+      {
+        "id": "E",
+        "text": "Diseksi tanpa kemungkinan gangguan organ"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Asal cabang dan kompresi lumen dapat mengurangi aliran organ; kenaikan kreatinin mendukung penilaian gangguan perfusi.",
+    "correctAnswerReason": "Asal cabang dan kompresi lumen dapat mengurangi aliran organ; kenaikan kreatinin mendukung penilaian gangguan perfusi.",
+    "clinicalReasoning": "Asal cabang dan kompresi lumen dapat mengurangi aliran organ; kenaikan kreatinin mendukung penilaian gangguan perfusi.",
+    "distractorExplanations": {
+      "A": "Dapat menaikkan kreatinin tetapi tidak menjelaskan kompromi asal arteri renal pada CTA.",
+      "C": "Memerlukan bukti tersendiri dan tidak menjelaskan temuan cabang renal yang tertekan.",
+      "D": "Dapat menyertai tetapi tidak menghapus bukti potensi malperfusi anatomis.",
+      "E": "Cabang aorta dapat terkena sehingga komplikasi organ mungkin terjadi."
+    },
+    "learningPoint": "Asal cabang dan kompresi lumen dapat mengurangi aliran organ; kenaikan kreatinin mendukung penilaian gangguan perfusi.",
+    "clinicalPearl": "Asal cabang dan kompresi lumen dapat mengurangi aliran organ; kenaikan kreatinin mendukung penilaian gangguan perfusi.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 28,
+    "id": "BTKV-VS-028",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V06",
+    "topic": "Aortic Dissection dan Patologi Aorta",
+    "subtopic": "Diseksi tanpa komplikasi",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan diseksi tanpa komplikasi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 57 tahun memiliki diseksi tipe B tanpa ruptur, malperfusi, atau nyeri persisten. Prinsip awal yang sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Operasi terbuka otomatis untuk setiap tipe B"
+      },
+      {
+        "id": "B",
+        "text": "Trombolisis untuk melarutkan flap"
+      },
+      {
+        "id": "C",
+        "text": "Terapi medis terpantau untuk mengurangi stres dinding aorta dan surveilans"
+      },
+      {
+        "id": "D",
+        "text": "Tidak memerlukan kontrol tekanan darah"
+      },
+      {
+        "id": "E",
+        "text": "Tidak perlu tindak lanjut setelah nyeri reda"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kasus tanpa komplikasi dapat dikelola awal secara medis dengan pemantauan; penilaian faktor risiko dan perubahan klinis tetap diperlukan.",
+    "correctAnswerReason": "Kasus tanpa komplikasi dapat dikelola awal secara medis dengan pemantauan; penilaian faktor risiko dan perubahan klinis tetap diperlukan.",
+    "clinicalReasoning": "Kasus tanpa komplikasi dapat dikelola awal secara medis dengan pemantauan; penilaian faktor risiko dan perubahan klinis tetap diperlukan.",
+    "distractorExplanations": {
+      "A": "Tidak semua tipe B memerlukan tindakan yang sama segera.",
+      "B": "Flap bukan trombus yang ditangani dengan trombolisis rutin.",
+      "D": "Stres dinding dan risiko perkembangan tetap penting.",
+      "E": "Diseksi memerlukan surveilans jangka panjang."
+    },
+    "learningPoint": "Kasus tanpa komplikasi dapat dikelola awal secara medis dengan pemantauan; penilaian faktor risiko dan perubahan klinis tetap diperlukan.",
+    "clinicalPearl": "Kasus tanpa komplikasi dapat dikelola awal secara medis dengan pemantauan; penilaian faktor risiko dan perubahan klinis tetap diperlukan.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 29,
+    "id": "BTKV-VS-029",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V06",
+    "topic": "Aortic Dissection dan Patologi Aorta",
+    "subtopic": "Malperfusi mesenterika",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan malperfusi mesenterika dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 62 tahun dengan diseksi tipe B mengalami nyeri menetap, laktat meningkat, dan tanda iskemia usus. Perubahan ini paling tepat berarti apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diseksi pasti jinak karena tidak mengenai asendens"
+      },
+      {
+        "id": "B",
+        "text": "Nyeri perut menyingkirkan penyakit aorta"
+      },
+      {
+        "id": "C",
+        "text": "Peningkatan laktat selalu artefak tanpa relevansi"
+      },
+      {
+        "id": "D",
+        "text": "Diseksi terkomplikasi yang membutuhkan evaluasi intervensi segera"
+      },
+      {
+        "id": "E",
+        "text": "Surveilans tahunan cukup tanpa evaluasi akut"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Malperfusi viseral mengubah risiko dan strategi; penanganan harus diarahkan pada pemulihan perfusi serta penyebabnya.",
+    "correctAnswerReason": "Malperfusi viseral mengubah risiko dan strategi; penanganan harus diarahkan pada pemulihan perfusi serta penyebabnya.",
+    "clinicalReasoning": "Malperfusi viseral mengubah risiko dan strategi; penanganan harus diarahkan pada pemulihan perfusi serta penyebabnya.",
+    "distractorExplanations": {
+      "A": "Tipe B tetap dapat menimbulkan komplikasi mengancam nyawa.",
+      "B": "Cabang mesenterika dapat terganggu oleh diseksi.",
+      "C": "Dalam konteks ini laktat mendukung hipoperfusi, meski tidak spesifik.",
+      "E": "Tidak sesuai tanda malperfusi progresif."
+    },
+    "learningPoint": "Malperfusi viseral mengubah risiko dan strategi; penanganan harus diarahkan pada pemulihan perfusi serta penyebabnya.",
+    "clinicalPearl": "Malperfusi viseral mengubah risiko dan strategi; penanganan harus diarahkan pada pemulihan perfusi serta penyebabnya.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 30,
+    "id": "BTKV-VS-030",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V06",
+    "topic": "Aortic Dissection dan Patologi Aorta",
+    "subtopic": "Iskemia medula pasca-TEVAR",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan iskemia medula pasca-tevar dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 68 tahun menjalani TEVAR luas dan kemudian mengalami kelemahan kedua tungkai. Komplikasi apa harus segera dievaluasi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neuropati lama yang pasti tidak berubah"
+      },
+      {
+        "id": "B",
+        "text": "Stenosis vena superfisial"
+      },
+      {
+        "id": "C",
+        "text": "Klaudikasio tanpa ancaman neurologis"
+      },
+      {
+        "id": "D",
+        "text": "Efusi pleura kecil semata"
+      },
+      {
+        "id": "E",
+        "text": "Iskemia medula spinalis"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Cakupan aorta luas dapat memengaruhi suplai kolateral medula; defisit neurologis baru memerlukan respons segera.",
+    "correctAnswerReason": "Cakupan aorta luas dapat memengaruhi suplai kolateral medula; defisit neurologis baru memerlukan respons segera.",
+    "clinicalReasoning": "Cakupan aorta luas dapat memengaruhi suplai kolateral medula; defisit neurologis baru memerlukan respons segera.",
+    "distractorExplanations": {
+      "A": "Defisit baru pascaintervensi tidak boleh langsung dianggap kronis.",
+      "B": "Tidak menjelaskan paraparesis akut bilateral.",
+      "C": "Kelemahan baru menetap berbeda dari nyeri aktivitas stabil.",
+      "D": "Tidak menjelaskan defisit motorik tungkai bilateral."
+    },
+    "learningPoint": "Cakupan aorta luas dapat memengaruhi suplai kolateral medula; defisit neurologis baru memerlukan respons segera.",
+    "clinicalPearl": "Cakupan aorta luas dapat memengaruhi suplai kolateral medula; defisit neurologis baru memerlukan respons segera.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 31,
+    "id": "BTKV-VS-031",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V07",
+    "topic": "Deep Vein Thrombosis",
+    "subtopic": "Trias Virchow",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan trias virchow dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Trias Virchow mencakup komponen apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stasis, cedera endotel, dan hiperkoagulabilitas"
+      },
+      {
+        "id": "B",
+        "text": "Hipoksia, anemia, dan demam saja"
+      },
+      {
+        "id": "C",
+        "text": "Hipertensi, bradikardia, dan hiperglikemia"
+      },
+      {
+        "id": "D",
+        "text": "Refluks, klaudikasio, dan sianosis"
+      },
+      {
+        "id": "E",
+        "text": "Stenosis katup, shunt, dan murmur"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ketiga komponen membantu menjelaskan predisposisi trombosis pada konteks klinis berbeda.",
+    "correctAnswerReason": "Ketiga komponen membantu menjelaskan predisposisi trombosis pada konteks klinis berbeda.",
+    "clinicalReasoning": "Ketiga komponen membantu menjelaskan predisposisi trombosis pada konteks klinis berbeda.",
+    "distractorExplanations": {
+      "B": "Dapat menyertai penyakit tetapi bukan definisi trias Virchow.",
+      "C": "Bukan tiga mekanisme klasik trombogenesis tersebut.",
+      "D": "Ini gejala atau fenomena vaskular, bukan trias mekanistik.",
+      "E": "Kelainan jantung ini bukan trias Virchow."
+    },
+    "learningPoint": "Ketiga komponen membantu menjelaskan predisposisi trombosis pada konteks klinis berbeda.",
+    "clinicalPearl": "Ketiga komponen membantu menjelaskan predisposisi trombosis pada konteks klinis berbeda.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 32,
+    "id": "BTKV-VS-032",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V07",
+    "topic": "Deep Vein Thrombosis",
+    "subtopic": "Kompresi vena pada duplex",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan kompresi vena pada duplex dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Ultrasonografi kompresi pada pasien dengan tungkai bengkak memperlihatkan vena femoralis tidak dapat dikompresi penuh. Interpretasi paling sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arteri femoralis pasti tersumbat"
+      },
+      {
+        "id": "B",
+        "text": "Temuan mendukung trombosis vena pada segmen yang diperiksa"
+      },
+      {
+        "id": "C",
+        "text": "Aliran vena pasti normal"
+      },
+      {
+        "id": "D",
+        "text": "Varises superfisial tanpa kemungkinan DVT"
+      },
+      {
+        "id": "E",
+        "text": "Tidak ada kelainan bila kulit tidak merah"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ketidakkompresibelan merupakan tanda penting DVT; hasil harus dibaca bersama teknik dan konteks klinis.",
+    "correctAnswerReason": "Ketidakkompresibelan merupakan tanda penting DVT; hasil harus dibaca bersama teknik dan konteks klinis.",
+    "clinicalReasoning": "Ketidakkompresibelan merupakan tanda penting DVT; hasil harus dibaca bersama teknik dan konteks klinis.",
+    "distractorExplanations": {
+      "A": "Pemeriksaan yang disebut menilai vena, bukan menetapkan oklusi arteri.",
+      "C": "Vena normal biasanya dapat dikompresi penuh pada teknik yang tepat.",
+      "D": "Temuan berada di vena dalam dan memerlukan interpretasi DVT.",
+      "E": "DVT dapat terjadi tanpa eritema mencolok."
+    },
+    "learningPoint": "Ketidakkompresibelan merupakan tanda penting DVT; hasil harus dibaca bersama teknik dan konteks klinis.",
+    "clinicalPearl": "Ketidakkompresibelan merupakan tanda penting DVT; hasil harus dibaca bersama teknik dan konteks klinis.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 33,
+    "id": "BTKV-VS-033",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V07",
+    "topic": "Deep Vein Thrombosis",
+    "subtopic": "Probabilitas klinis DVT",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan probabilitas klinis dvt dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 45 tahun pascaoperasi panggul mengalami bengkak dan nyeri tungkai unilateral. Mengapa penilaian probabilitas klinis penting sebelum memilih pemeriksaan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "D-dimer positif selalu memastikan lokasi trombus"
+      },
+      {
+        "id": "B",
+        "text": "Tidak ada nyeri dada menyingkirkan DVT"
+      },
+      {
+        "id": "C",
+        "text": "Probabilitas awal memengaruhi interpretasi D-dimer dan ultrasonografi"
+      },
+      {
+        "id": "D",
+        "text": "Semua edema pascaoperasi pasti limfedema"
+      },
+      {
+        "id": "E",
+        "text": "Riwayat operasi menghilangkan kebutuhan imaging"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Nilai tes bergantung konteks; operasi juga dapat meningkatkan D-dimer tanpa membuktikan DVT.",
+    "correctAnswerReason": "Nilai tes bergantung konteks; operasi juga dapat meningkatkan D-dimer tanpa membuktikan DVT.",
+    "clinicalReasoning": "Nilai tes bergantung konteks; operasi juga dapat meningkatkan D-dimer tanpa membuktikan DVT.",
+    "distractorExplanations": {
+      "A": "Tidak spesifik dan tidak memetakan lokasi.",
+      "B": "DVT tungkai dapat terjadi tanpa gejala pulmonal.",
+      "D": "DVT tetap diagnosis penting yang perlu dinilai.",
+      "E": "Justru meningkatkan risiko sehingga evaluasi sesuai diperlukan."
+    },
+    "learningPoint": "Nilai tes bergantung konteks; operasi juga dapat meningkatkan D-dimer tanpa membuktikan DVT.",
+    "clinicalPearl": "Nilai tes bergantung konteks; operasi juga dapat meningkatkan D-dimer tanpa membuktikan DVT.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 34,
+    "id": "BTKV-VS-034",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V07",
+    "topic": "Deep Vein Thrombosis",
+    "subtopic": "Trombosis dengan perdarahan aktif",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan trombosis dengan perdarahan aktif dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 64 tahun dengan DVT proksimal terkonfirmasi juga mengalami perdarahan saluran cerna aktif. Pendekatan paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memberi antikoagulasi penuh tanpa menilai perdarahan"
+      },
+      {
+        "id": "B",
+        "text": "Tidak perlu menilai emboli karena sudah ada perdarahan"
+      },
+      {
+        "id": "C",
+        "text": "Memasang filter pada semua pasien DVT rutin"
+      },
+      {
+        "id": "D",
+        "text": "Menyeimbangkan risiko tromboemboli dan perdarahan bersama tim untuk menentukan strategi segera"
+      },
+      {
+        "id": "E",
+        "text": "Menunda seluruh penilaian sampai beberapa bulan"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Antitrombotik tidak dapat dipilih tanpa menilai kontraindikasi; alternatif terpilih dipertimbangkan sesuai kondisi dan pedoman yang diverifikasi.",
+    "correctAnswerReason": "Antitrombotik tidak dapat dipilih tanpa menilai kontraindikasi; alternatif terpilih dipertimbangkan sesuai kondisi dan pedoman yang diverifikasi.",
+    "clinicalReasoning": "Antitrombotik tidak dapat dipilih tanpa menilai kontraindikasi; alternatif terpilih dipertimbangkan sesuai kondisi dan pedoman yang diverifikasi.",
+    "distractorExplanations": {
+      "A": "Dapat memperberat perdarahan aktif yang mengancam.",
+      "B": "Ancaman tromboemboli tetap ada dan perlu rencana.",
+      "C": "Filter bukan terapi rutin universal dan memiliki risiko.",
+      "E": "Kedua ancaman akut membutuhkan keputusan tepat waktu."
+    },
+    "learningPoint": "Antitrombotik tidak dapat dipilih tanpa menilai kontraindikasi; alternatif terpilih dipertimbangkan sesuai kondisi dan pedoman yang diverifikasi.",
+    "clinicalPearl": "Antitrombotik tidak dapat dipilih tanpa menilai kontraindikasi; alternatif terpilih dipertimbangkan sesuai kondisi dan pedoman yang diverifikasi.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 35,
+    "id": "BTKV-VS-035",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V07",
+    "topic": "Deep Vein Thrombosis",
+    "subtopic": "Sindrom pascatrombotik",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan sindrom pascatrombotik dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 58 tahun beberapa bulan setelah DVT mengalami edema kronis, rasa berat, dan perubahan kulit pada tungkai yang sama. Sindrom paling sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emboli arteri akut baru sebagai diagnosis paling cocok"
+      },
+      {
+        "id": "B",
+        "text": "Raynaud sebagai satu-satunya penjelasan"
+      },
+      {
+        "id": "C",
+        "text": "Limfedema primer sebagai kesimpulan pasti"
+      },
+      {
+        "id": "D",
+        "text": "Gagal jantung sebagai satu-satunya penyebab"
+      },
+      {
+        "id": "E",
+        "text": "Sindrom pascatrombotik"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Obstruksi residual dan kerusakan katup vena dapat menyebabkan hipertensi vena kronis setelah DVT.",
+    "correctAnswerReason": "Obstruksi residual dan kerusakan katup vena dapat menyebabkan hipertensi vena kronis setelah DVT.",
+    "clinicalReasoning": "Obstruksi residual dan kerusakan katup vena dapat menyebabkan hipertensi vena kronis setelah DVT.",
+    "distractorExplanations": {
+      "A": "Biasanya onset mendadak dengan gangguan perfusi arteri, bukan stasis kronis.",
+      "B": "Umumnya fenomena vasospastik akral episodik, bukan edema tungkai kronis pasca-DVT.",
+      "C": "Riwayat DVT dan tanda hipertensi vena lebih mendukung sindrom pascatrombotik; diagnosis lain dinilai sesuai konteks.",
+      "D": "Edema sistemik biasanya tidak paling menjelaskan perubahan unilateral setelah DVT."
+    },
+    "learningPoint": "Obstruksi residual dan kerusakan katup vena dapat menyebabkan hipertensi vena kronis setelah DVT.",
+    "clinicalPearl": "Obstruksi residual dan kerusakan katup vena dapat menyebabkan hipertensi vena kronis setelah DVT.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 36,
+    "id": "BTKV-VS-036",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V08",
+    "topic": "Chronic Venous Disease",
+    "subtopic": "Hipertensi vena",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan hipertensi vena dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Apa mekanisme utama ulkus vena kronis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hipertensi vena persisten yang mengganggu mikrosirkulasi dan jaringan"
+      },
+      {
+        "id": "B",
+        "text": "Penurunan tekanan vena menjadi nol terus-menerus"
+      },
+      {
+        "id": "C",
+        "text": "Semua ulkus disebabkan emboli arteri akut"
+      },
+      {
+        "id": "D",
+        "text": "Penurunan tekanan onkotik sebagai mekanisme tunggal"
+      },
+      {
+        "id": "E",
+        "text": "Vasospasme arteri digital sebagai mekanisme utama"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Refluks atau obstruksi dapat mempertahankan tekanan tinggi dan memicu perubahan kulit serta ulserasi.",
+    "correctAnswerReason": "Refluks atau obstruksi dapat mempertahankan tekanan tinggi dan memicu perubahan kulit serta ulserasi.",
+    "clinicalReasoning": "Refluks atau obstruksi dapat mempertahankan tekanan tinggi dan memicu perubahan kulit serta ulserasi.",
+    "distractorExplanations": {
+      "B": "Ulkus vena berkaitan dengan hipertensi, bukan tekanan nol.",
+      "C": "Etiologi ulkus beragam dan konteks vena berbeda.",
+      "D": "Hipoalbuminemia dapat menimbulkan edema, tetapi tidak menjelaskan refluks dan hipertensi vena lokal.",
+      "E": "Fenomena vasospastik akral berbeda dari ulkus dengan hipertensi vena tungkai."
+    },
+    "learningPoint": "Refluks atau obstruksi dapat mempertahankan tekanan tinggi dan memicu perubahan kulit serta ulserasi.",
+    "clinicalPearl": "Refluks atau obstruksi dapat mempertahankan tekanan tinggi dan memicu perubahan kulit serta ulserasi.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 37,
+    "id": "BTKV-VS-037",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V08",
+    "topic": "Chronic Venous Disease",
+    "subtopic": "Keamanan kompresi",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan keamanan kompresi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 62 tahun dengan ulkus sekitar malleolus medialis memiliki duplex menunjukkan refluks vena dan aliran arteri perlu dinilai. Sebelum kompresi kuat, apa yang penting?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menganggap semua ulkus malleolus pasti tanpa penyakit arteri"
+      },
+      {
+        "id": "B",
+        "text": "Menilai kecukupan perfusi arteri dan kontraindikasi kompresi"
+      },
+      {
+        "id": "C",
+        "text": "Menggunakan kompresi terkuat tanpa pemeriksaan"
+      },
+      {
+        "id": "D",
+        "text": "Menilai hemoglobin saja sebagai ukuran aliran arteri"
+      },
+      {
+        "id": "E",
+        "text": "Melarang kompresi untuk setiap varises tanpa evaluasi"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Penyakit arteri yang menyertai dapat mengubah keamanan serta intensitas kompresi.",
+    "correctAnswerReason": "Penyakit arteri yang menyertai dapat mengubah keamanan serta intensitas kompresi.",
+    "clinicalReasoning": "Penyakit arteri yang menyertai dapat mengubah keamanan serta intensitas kompresi.",
+    "distractorExplanations": {
+      "A": "Etiologi campuran dapat terjadi.",
+      "C": "Dapat berbahaya bila perfusi arteri sangat terbatas.",
+      "D": "Hemoglobin tidak menggantikan pemeriksaan perfusi.",
+      "E": "Kompresi dapat bermanfaat bila indikasi dan keamanannya dinilai."
+    },
+    "learningPoint": "Penyakit arteri yang menyertai dapat mengubah keamanan serta intensitas kompresi.",
+    "clinicalPearl": "Penyakit arteri yang menyertai dapat mengubah keamanan serta intensitas kompresi.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 38,
+    "id": "BTKV-VS-038",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V08",
+    "topic": "Chronic Venous Disease",
+    "subtopic": "Pemetaan refluks",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pemetaan refluks dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 50 tahun mengalami varises simptomatik dan rasa berat tungkai setelah berdiri. Pemeriksaan apa paling membantu memetakan refluks sebelum intervensi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Angiografi arteri koroner"
+      },
+      {
+        "id": "B",
+        "text": "Venografi invasif sebagai langkah pertama untuk semua kasus"
+      },
+      {
+        "id": "C",
+        "text": "Duplex vena"
+      },
+      {
+        "id": "D",
+        "text": "ABI sebagai pemetaan lengkap refluks"
+      },
+      {
+        "id": "E",
+        "text": "Biopsi kulit rutin sebagai satu-satunya tes"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Duplex menilai arah aliran, lokasi refluks, dan sistem vena dalam sebagai dasar perencanaan.",
+    "correctAnswerReason": "Duplex menilai arah aliran, lokasi refluks, dan sistem vena dalam sebagai dasar perencanaan.",
+    "clinicalReasoning": "Duplex menilai arah aliran, lokasi refluks, dan sistem vena dalam sebagai dasar perencanaan.",
+    "distractorExplanations": {
+      "A": "Tidak memetakan refluks vena tungkai.",
+      "B": "Pemeriksaan invasif tidak rutin diperlukan sebelum pemetaan duplex pada varises biasa.",
+      "D": "ABI penting bila mencurigai penyakit arteri, tetapi tidak memetakan katup dan refluks vena.",
+      "E": "Tidak memetakan jalur refluks dan bukan pemeriksaan awal utama."
+    },
+    "learningPoint": "Duplex menilai arah aliran, lokasi refluks, dan sistem vena dalam sebagai dasar perencanaan.",
+    "clinicalPearl": "Duplex menilai arah aliran, lokasi refluks, dan sistem vena dalam sebagai dasar perencanaan.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 39,
+    "id": "BTKV-VS-039",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V08",
+    "topic": "Chronic Venous Disease",
+    "subtopic": "Ulkus etiologi campuran",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan ulkus etiologi campuran dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 71 tahun dengan ulkus tungkai memiliki tanda stasis vena tetapi juga kaki dingin dan nadi lemah. Mengapa pendekatan ulkus vena murni perlu ditinjau ulang?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tanda stasis selalu menyingkirkan PAD"
+      },
+      {
+        "id": "B",
+        "text": "Nadi lemah pasti akibat refluks safena saja"
+      },
+      {
+        "id": "C",
+        "text": "Kaki dingin membuktikan infeksi bakteri"
+      },
+      {
+        "id": "D",
+        "text": "Dapat terdapat penyakit arteri dan vena bersamaan"
+      },
+      {
+        "id": "E",
+        "text": "Semua ulkus memerlukan amputasi segera"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Penilaian campuran diperlukan agar terapi luka dan kompresi tidak mengabaikan iskemia.",
+    "correctAnswerReason": "Penilaian campuran diperlukan agar terapi luka dan kompresi tidak mengabaikan iskemia.",
+    "clinicalReasoning": "Penilaian campuran diperlukan agar terapi luka dan kompresi tidak mengabaikan iskemia.",
+    "distractorExplanations": {
+      "A": "Kedua penyakit dapat koeksis.",
+      "B": "Gangguan arteri harus dipertimbangkan.",
+      "C": "Suhu kulit rendah lebih mengarah ke evaluasi perfusi dalam konteks ini.",
+      "E": "Keputusan bergantung etiologi, viabilitas, dan respons terapi."
+    },
+    "learningPoint": "Penilaian campuran diperlukan agar terapi luka dan kompresi tidak mengabaikan iskemia.",
+    "clinicalPearl": "Penilaian campuran diperlukan agar terapi luka dan kompresi tidak mengabaikan iskemia.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 40,
+    "id": "BTKV-VS-040",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V08",
+    "topic": "Chronic Venous Disease",
+    "subtopic": "Tekanan hidrostatik",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan tekanan hidrostatik dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 59 tahun dengan penyakit vena kronis bertanya mengapa elevasi tungkai dapat mengurangi rasa berat. Penjelasan terbaik apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elevasi menghilangkan semua trombus secara langsung"
+      },
+      {
+        "id": "B",
+        "text": "Elevasi menambah tekanan gravitasi distal"
+      },
+      {
+        "id": "C",
+        "text": "Elevasi menutup seluruh arteri"
+      },
+      {
+        "id": "D",
+        "text": "Elevasi membuktikan semua nyeri pasti vena"
+      },
+      {
+        "id": "E",
+        "text": "Elevasi dapat mengurangi komponen tekanan hidrostatik vena"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Pengurangan kolom tekanan membantu aliran balik dan edema, meskipun tidak memperbaiki semua kelainan katup.",
+    "correctAnswerReason": "Pengurangan kolom tekanan membantu aliran balik dan edema, meskipun tidak memperbaiki semua kelainan katup.",
+    "clinicalReasoning": "Pengurangan kolom tekanan membantu aliran balik dan edema, meskipun tidak memperbaiki semua kelainan katup.",
+    "distractorExplanations": {
+      "A": "Tidak merupakan mekanisme pelarutan trombus.",
+      "B": "Posisi lebih tinggi justru dapat mengurangi komponen hidrostatik.",
+      "C": "Tidak merupakan tujuan atau mekanisme fisiologisnya.",
+      "D": "Respons gejala tidak sendirian menetapkan diagnosis."
+    },
+    "learningPoint": "Pengurangan kolom tekanan membantu aliran balik dan edema, meskipun tidak memperbaiki semua kelainan katup.",
+    "clinicalPearl": "Pengurangan kolom tekanan membantu aliran balik dan edema, meskipun tidak memperbaiki semua kelainan katup.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 41,
+    "id": "BTKV-VS-041",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V09",
+    "topic": "Trauma Vaskular",
+    "subtopic": "Hard signs",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan hard signs dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Temuan apa termasuk hard sign cedera arteri ekstremitas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perdarahan aktif pulsatif"
+      },
+      {
+        "id": "B",
+        "text": "Memar kecil stabil saja"
+      },
+      {
+        "id": "C",
+        "text": "Nyeri otot ringan setelah benturan"
+      },
+      {
+        "id": "D",
+        "text": "Luka jauh dari jalur pembuluh tanpa temuan lain"
+      },
+      {
+        "id": "E",
+        "text": "Kesemutan lama bilateral tanpa perubahan"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Perdarahan pulsatif menandakan cedera arteri bermakna dan memerlukan respons cepat sesuai kondisi.",
+    "correctAnswerReason": "Perdarahan pulsatif menandakan cedera arteri bermakna dan memerlukan respons cepat sesuai kondisi.",
+    "clinicalReasoning": "Perdarahan pulsatif menandakan cedera arteri bermakna dan memerlukan respons cepat sesuai kondisi.",
+    "distractorExplanations": {
+      "B": "Dapat merupakan soft sign dan perlu konteks, bukan hard sign tunggal.",
+      "C": "Tidak spesifik untuk cedera arteri besar.",
+      "D": "Tidak cukup menjadi hard sign.",
+      "E": "Tidak paling sesuai tanda trauma arteri akut."
+    },
+    "learningPoint": "Perdarahan pulsatif menandakan cedera arteri bermakna dan memerlukan respons cepat sesuai kondisi.",
+    "clinicalPearl": "Perdarahan pulsatif menandakan cedera arteri bermakna dan memerlukan respons cepat sesuai kondisi.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 42,
+    "id": "BTKV-VS-042",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V09",
+    "topic": "Trauma Vaskular",
+    "subtopic": "CTA pada trauma stabil",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan cta pada trauma stabil dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 30 tahun mengalami luka penetrasi dekat arteri, stabil, tanpa hard signs tetapi pemeriksaan perfusi meragukan. Apa pemeriksaan yang relevan bila tersedia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Foto polos ekstremitas saja"
+      },
+      {
+        "id": "B",
+        "text": "CT angiografi ekstremitas sesuai evaluasi trauma"
+      },
+      {
+        "id": "C",
+        "text": "D-dimer sebagai pemeriksaan pemetaan"
+      },
+      {
+        "id": "D",
+        "text": "Uji treadmill maksimal"
+      },
+      {
+        "id": "E",
+        "text": "Menunggu sampai gangren baru melakukan imaging"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "CTA dapat memetakan cedera arteri pada pasien stabil dengan indikasi, tanpa menggantikan tindakan segera bila muncul ketidakstabilan.",
+    "correctAnswerReason": "CTA dapat memetakan cedera arteri pada pasien stabil dengan indikasi, tanpa menggantikan tindakan segera bila muncul ketidakstabilan.",
+    "clinicalReasoning": "CTA dapat memetakan cedera arteri pada pasien stabil dengan indikasi, tanpa menggantikan tindakan segera bila muncul ketidakstabilan.",
+    "distractorExplanations": {
+      "A": "Menilai tulang atau benda asing tetapi tidak cukup memetakan kontinuitas lumen arteri.",
+      "C": "Tidak spesifik pada trauma dan tidak menentukan lokasi cedera arteri.",
+      "D": "Tidak sesuai evaluasi trauma vaskular akut.",
+      "E": "Menunda diagnosis dapat kehilangan kesempatan penyelamatan jaringan."
+    },
+    "learningPoint": "CTA dapat memetakan cedera arteri pada pasien stabil dengan indikasi, tanpa menggantikan tindakan segera bila muncul ketidakstabilan.",
+    "clinicalPearl": "CTA dapat memetakan cedera arteri pada pasien stabil dengan indikasi, tanpa menggantikan tindakan segera bila muncul ketidakstabilan.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 43,
+    "id": "BTKV-VS-043",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V09",
+    "topic": "Trauma Vaskular",
+    "subtopic": "Cedera arteri pada dislokasi",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan cedera arteri pada dislokasi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 27 tahun setelah dislokasi lutut yang telah direduksi memiliki nadi distal teraba tetapi nyeri dan mekanisme cedera berisiko. Prinsip evaluasi terbaik apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nadi teraba menjamin arteri poplitea utuh"
+      },
+      {
+        "id": "B",
+        "text": "Semua dislokasi lutut memerlukan amputasi"
+      },
+      {
+        "id": "C",
+        "text": "Tetap menilai kemungkinan cedera poplitea dengan pemeriksaan terstruktur dan pemantauan"
+      },
+      {
+        "id": "D",
+        "text": "Tidak diperlukan pemeriksaan setelah reduksi"
+      },
+      {
+        "id": "E",
+        "text": "Nyeri sendi menyingkirkan cedera vaskular"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Nadi teraba tidak sepenuhnya menyingkirkan cedera intima yang dapat berkembang menjadi trombosis.",
+    "correctAnswerReason": "Nadi teraba tidak sepenuhnya menyingkirkan cedera intima yang dapat berkembang menjadi trombosis.",
+    "clinicalReasoning": "Nadi teraba tidak sepenuhnya menyingkirkan cedera intima yang dapat berkembang menjadi trombosis.",
+    "distractorExplanations": {
+      "A": "Aliran kolateral atau cedera parsial dapat mempertahankan nadi.",
+      "B": "Tidak didasarkan penilaian viabilitas atau cedera spesifik.",
+      "D": "Status vaskular dapat berubah dan harus didokumentasikan.",
+      "E": "Cedera muskuloskeletal dan pembuluh dapat terjadi bersamaan."
+    },
+    "learningPoint": "Nadi teraba tidak sepenuhnya menyingkirkan cedera intima yang dapat berkembang menjadi trombosis.",
+    "clinicalPearl": "Nadi teraba tidak sepenuhnya menyingkirkan cedera intima yang dapat berkembang menjadi trombosis.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 44,
+    "id": "BTKV-VS-044",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V09",
+    "topic": "Trauma Vaskular",
+    "subtopic": "Kontrol perdarahan",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan kontrol perdarahan dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 24 tahun dengan luka paha mengalami perdarahan deras dan syok. Prioritas paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CTA elektif sebelum mengendalikan perdarahan"
+      },
+      {
+        "id": "B",
+        "text": "Melepas semua tekanan pada luka agar aliran terlihat"
+      },
+      {
+        "id": "C",
+        "text": "Pemberian cairan tanpa rencana kontrol sumber"
+      },
+      {
+        "id": "D",
+        "text": "Kontrol perdarahan segera dengan metode yang sesuai disertai resusitasi dan aktivasi tim trauma"
+      },
+      {
+        "id": "E",
+        "text": "Menjahit kulit tanpa menilai sumber pembuluh"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pencegahan eksanguinasi mendahului pemeriksaan elektif; teknik sementara dipilih menurut lokasi dan pelatihan.",
+    "correctAnswerReason": "Pencegahan eksanguinasi mendahului pemeriksaan elektif; teknik sementara dipilih menurut lokasi dan pelatihan.",
+    "clinicalReasoning": "Pencegahan eksanguinasi mendahului pemeriksaan elektif; teknik sementara dipilih menurut lokasi dan pelatihan.",
+    "distractorExplanations": {
+      "A": "Pasien tidak stabil memerlukan hemostasis dan resusitasi segera.",
+      "B": "Dapat memperbesar kehilangan darah.",
+      "C": "Resusitasi saja tidak menghentikan perdarahan aktif.",
+      "E": "Tidak memastikan kontrol cedera arteri atau perfusi distal."
+    },
+    "learningPoint": "Pencegahan eksanguinasi mendahului pemeriksaan elektif; teknik sementara dipilih menurut lokasi dan pelatihan.",
+    "clinicalPearl": "Pencegahan eksanguinasi mendahului pemeriksaan elektif; teknik sementara dipilih menurut lokasi dan pelatihan.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 45,
+    "id": "BTKV-VS-045",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V09",
+    "topic": "Trauma Vaskular",
+    "subtopic": "Koordinasi rekonstruksi",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan koordinasi rekonstruksi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 35 tahun mengalami cedera arteri dan fraktur dengan iskemia tungkai. Mengapa tim ortopedi dan vaskular perlu mengoordinasikan urutan tindakan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fiksasi tulang selalu membuat semua pembuluh kembali normal"
+      },
+      {
+        "id": "B",
+        "text": "Repair vaskular tidak pernah terpengaruh pergerakan tulang"
+      },
+      {
+        "id": "C",
+        "text": "Viabilitas tidak dipengaruhi lama iskemia"
+      },
+      {
+        "id": "D",
+        "text": "Semua kasus harus mengikuti urutan tunggal tanpa konteks"
+      },
+      {
+        "id": "E",
+        "text": "Perfusi, stabilitas tulang, jaringan lunak, dan lama iskemia saling memengaruhi strategi"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Rekonstruksi dan fiksasi perlu direncanakan agar aliran dipulihkan serta repair tidak rusak oleh tindakan berikutnya.",
+    "correctAnswerReason": "Rekonstruksi dan fiksasi perlu direncanakan agar aliran dipulihkan serta repair tidak rusak oleh tindakan berikutnya.",
+    "clinicalReasoning": "Rekonstruksi dan fiksasi perlu direncanakan agar aliran dipulihkan serta repair tidak rusak oleh tindakan berikutnya.",
+    "distractorExplanations": {
+      "A": "Cedera arteri dapat tetap membutuhkan perbaikan.",
+      "B": "Gerakan atau traksi dapat merusak repair.",
+      "C": "Waktu iskemia memengaruhi ancaman jaringan.",
+      "D": "Ketidakstabilan dan sifat cedera dapat mengubah prioritas."
+    },
+    "learningPoint": "Rekonstruksi dan fiksasi perlu direncanakan agar aliran dipulihkan serta repair tidak rusak oleh tindakan berikutnya.",
+    "clinicalPearl": "Rekonstruksi dan fiksasi perlu direncanakan agar aliran dipulihkan serta repair tidak rusak oleh tindakan berikutnya.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 46,
+    "id": "BTKV-VS-046",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V10",
+    "topic": "Endovascular dan Komplikasi",
+    "subtopic": "Dukungan lumen stent",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan dukungan lumen stent dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Apa fungsi mekanik utama stent pada stenosis vaskular terpilih?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menopang lumen agar tetap terbuka"
+      },
+      {
+        "id": "B",
+        "text": "Menghilangkan semua risiko trombosis"
+      },
+      {
+        "id": "C",
+        "text": "Mengganti seluruh darah pasien"
+      },
+      {
+        "id": "D",
+        "text": "Membentuk katup vena baru pada semua lokasi"
+      },
+      {
+        "id": "E",
+        "text": "Menghilangkan kebutuhan akses pembuluh"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Stent memberi dukungan terhadap recoil atau penyempitan pada indikasi sesuai, tetapi tidak menghapus penyakit dasar.",
+    "correctAnswerReason": "Stent memberi dukungan terhadap recoil atau penyempitan pada indikasi sesuai, tetapi tidak menghapus penyakit dasar.",
+    "clinicalReasoning": "Stent memberi dukungan terhadap recoil atau penyempitan pada indikasi sesuai, tetapi tidak menghapus penyakit dasar.",
+    "distractorExplanations": {
+      "B": "Trombosis dan restenosis tetap mungkin terjadi.",
+      "C": "Stent bukan alat pertukaran darah.",
+      "D": "Stent biasa bukan pengganti katup universal.",
+      "E": "Pemasangan justru memerlukan jalur akses yang sesuai."
+    },
+    "learningPoint": "Stent memberi dukungan terhadap recoil atau penyempitan pada indikasi sesuai, tetapi tidak menghapus penyakit dasar.",
+    "clinicalPearl": "Stent memberi dukungan terhadap recoil atau penyempitan pada indikasi sesuai, tetapi tidak menghapus penyakit dasar.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 47,
+    "id": "BTKV-VS-047",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V10",
+    "topic": "Endovascular dan Komplikasi",
+    "subtopic": "Endoleak tipe II",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan endoleak tipe ii dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 75 tahun setelah EVAR memiliki aliran kontras ke kantong aneurisma dari cabang lumbal pada imaging tindak lanjut. Jenis endoleak paling sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tipe I"
+      },
+      {
+        "id": "B",
+        "text": "Tipe II"
+      },
+      {
+        "id": "C",
+        "text": "Tipe III"
+      },
+      {
+        "id": "D",
+        "text": "Tipe IV"
+      },
+      {
+        "id": "E",
+        "text": "Tidak mungkin disebut endoleak jika pasien tanpa nyeri"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Aliran retrograd dari cabang seperti arteri lumbal merupakan mekanisme khas endoleak tipe II.",
+    "correctAnswerReason": "Aliran retrograd dari cabang seperti arteri lumbal merupakan mekanisme khas endoleak tipe II.",
+    "clinicalReasoning": "Aliran retrograd dari cabang seperti arteri lumbal merupakan mekanisme khas endoleak tipe II.",
+    "distractorExplanations": {
+      "A": "Tipe I berasal dari kegagalan seal proksimal atau distal.",
+      "C": "Tipe III berkaitan dengan defek graft atau pemisahan komponennya.",
+      "D": "Tipe IV berkaitan dengan porositas graft, bukan cabang lumbal.",
+      "E": "Endoleak dapat ditemukan tanpa gejala pada surveilans."
+    },
+    "learningPoint": "Aliran retrograd dari cabang seperti arteri lumbal merupakan mekanisme khas endoleak tipe II.",
+    "clinicalPearl": "Aliran retrograd dari cabang seperti arteri lumbal merupakan mekanisme khas endoleak tipe II.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 48,
+    "id": "BTKV-VS-048",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V10",
+    "topic": "Endovascular dan Komplikasi",
+    "subtopic": "Pseudoaneurisma akses",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pseudoaneurisma akses dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 68 tahun beberapa hari setelah akses femoralis mengalami massa inguinal pulsatif dan bruit. Duplex menunjukkan kantong dengan aliran to-and-fro di lehernya. Diagnosis paling sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hematoma tanpa komunikasi arteri"
+      },
+      {
+        "id": "B",
+        "text": "Limfokel murni"
+      },
+      {
+        "id": "C",
+        "text": "Pseudoaneurisma akses femoralis"
+      },
+      {
+        "id": "D",
+        "text": "DVT femoralis sebagai penjelasan tunggal"
+      },
+      {
+        "id": "E",
+        "text": "Hernia tanpa keterlibatan pembuluh"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Komunikasi kantong melalui leher dengan arteri menghasilkan pola khas dan memerlukan evaluasi ukuran, gejala, serta risiko.",
+    "correctAnswerReason": "Komunikasi kantong melalui leher dengan arteri menghasilkan pola khas dan memerlukan evaluasi ukuran, gejala, serta risiko.",
+    "clinicalReasoning": "Komunikasi kantong melalui leher dengan arteri menghasilkan pola khas dan memerlukan evaluasi ukuran, gejala, serta risiko.",
+    "distractorExplanations": {
+      "A": "Hematoma sederhana tidak memperlihatkan aliran to-and-fro melalui leher arteri.",
+      "B": "Berisi cairan limfatik tanpa pola aliran arteri khas.",
+      "D": "DVT tidak menghasilkan kantong pulsatif dengan leher arteri.",
+      "E": "Tidak menjelaskan pola duplex yang berkomunikasi dengan arteri."
+    },
+    "learningPoint": "Komunikasi kantong melalui leher dengan arteri menghasilkan pola khas dan memerlukan evaluasi ukuran, gejala, serta risiko.",
+    "clinicalPearl": "Komunikasi kantong melalui leher dengan arteri menghasilkan pola khas dan memerlukan evaluasi ukuran, gejala, serta risiko.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 49,
+    "id": "BTKV-VS-049",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V10",
+    "topic": "Endovascular dan Komplikasi",
+    "subtopic": "Endoleak zona seal",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan endoleak zona seal dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 73 tahun pasca-EVAR memiliki endoleak pada zona seal proksimal dan kantong aneurisma membesar. Mengapa diperlukan evaluasi vaskular segera?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua endoleak selalu aman tanpa tindak lanjut"
+      },
+      {
+        "id": "B",
+        "text": "Pembesaran kantong membuktikan graft telah menyembuhkan aneurisma"
+      },
+      {
+        "id": "C",
+        "text": "Endoleak ini cukup diklasifikasikan sebagai refluks cabang lumbal"
+      },
+      {
+        "id": "D",
+        "text": "Kegagalan seal dapat mempertahankan tekanan langsung dalam kantong aneurisma"
+      },
+      {
+        "id": "E",
+        "text": "Tidak ada nyeri memastikan tidak ada risiko ruptur"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Endoleak tipe I berpotensi mempertahankan risiko ruptur; anatomi dan strategi koreksi perlu dievaluasi cepat.",
+    "correctAnswerReason": "Endoleak tipe I berpotensi mempertahankan risiko ruptur; anatomi dan strategi koreksi perlu dievaluasi cepat.",
+    "clinicalReasoning": "Endoleak tipe I berpotensi mempertahankan risiko ruptur; anatomi dan strategi koreksi perlu dievaluasi cepat.",
+    "distractorExplanations": {
+      "A": "Jenis dan perubahan ukuran menentukan signifikansi.",
+      "B": "Pembesaran justru menandakan risiko yang perlu ditelusuri.",
+      "C": "Lokasi kegagalan seal menunjukkan tipe I, bukan pola tipe II dari cabang.",
+      "E": "Komplikasi aneurisma dapat berkembang tanpa keluhan awal."
+    },
+    "learningPoint": "Endoleak tipe I berpotensi mempertahankan risiko ruptur; anatomi dan strategi koreksi perlu dievaluasi cepat.",
+    "clinicalPearl": "Endoleak tipe I berpotensi mempertahankan risiko ruptur; anatomi dan strategi koreksi perlu dievaluasi cepat.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 50,
+    "id": "BTKV-VS-050",
+    "program": "btkv",
+    "category": "vascular",
+    "taxonomyCode": "V10",
+    "topic": "Endovascular dan Komplikasi",
+    "subtopic": "Risiko renal prosedur kontras",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan risiko renal prosedur kontras dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 70 tahun dengan penyakit ginjal kronis akan menjalani intervensi vaskular berkontras. Prinsip mitigasi risiko paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menghentikan semua penilaian karena kontras selalu aman"
+      },
+      {
+        "id": "B",
+        "text": "Memberi cairan tanpa batas pada setiap pasien"
+      },
+      {
+        "id": "C",
+        "text": "Melarang semua tindakan penyelamatan tungkai pada setiap CKD"
+      },
+      {
+        "id": "D",
+        "text": "Mengandalkan kreatinin satu tahun lalu sebagai satu-satunya data"
+      },
+      {
+        "id": "E",
+        "text": "Menilai fungsi ginjal, kebutuhan kontras, status volume, dan alternatif teknik secara individual"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Risiko renal harus ditimbang terhadap manfaat prosedur serta kondisi volume; tidak ada pendekatan tunggal yang cocok bagi semua pasien.",
+    "correctAnswerReason": "Risiko renal harus ditimbang terhadap manfaat prosedur serta kondisi volume; tidak ada pendekatan tunggal yang cocok bagi semua pasien.",
+    "clinicalReasoning": "Risiko renal harus ditimbang terhadap manfaat prosedur serta kondisi volume; tidak ada pendekatan tunggal yang cocok bagi semua pasien.",
+    "distractorExplanations": {
+      "A": "Risiko berbeda menurut fungsi ginjal dan konteks klinis.",
+      "B": "Kongesti dan gagal jantung dapat membuat kelebihan cairan berbahaya.",
+      "C": "Manfaat mendesak dapat tetap melebihi risiko dengan strategi yang sesuai.",
+      "D": "Fungsi ginjal dan kondisi pasien dapat berubah sebelum intervensi."
+    },
+    "learningPoint": "Risiko renal harus ditimbang terhadap manfaat prosedur serta kondisi volume; tidak ada pendekatan tunggal yang cocok bagi semua pasien.",
+    "clinicalPearl": "Risiko renal harus ditimbang terhadap manfaat prosedur serta kondisi volume; tidak ada pendekatan tunggal yang cocok bagi semua pasien.",
+    "references": [
+      {
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
   }
 ]

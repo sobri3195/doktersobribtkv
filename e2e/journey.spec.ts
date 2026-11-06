@@ -84,6 +84,13 @@ test("PWA precaches routes for offline cold start", async ({
     page.getByRole("heading", { name: "Ruang materi" }),
   ).toBeVisible();
   await expect(page.getByText("30 soal tersedia")).toBeVisible();
+  await page.getByLabel("Program belajar").selectOption("btkv");
+  await expect(page.getByText("150 soal tersedia")).toBeVisible();
+  await page.getByRole("button", { name: "Latihan 10 soal" }).click();
+  await page.getByRole("radio").first().check();
+  await expect(
+    page.getByRole("heading", { name: "Clinical pearl" }),
+  ).toBeVisible();
 });
 test("BTKV cases branch back on unsafe decision", async ({ page }) => {
   await onboard(page);
@@ -171,4 +178,82 @@ test("expired exam automatically submits after refresh", async ({ page }) => {
     page.getByRole("heading", { name: "0 / 10 benar" }),
   ).toBeVisible();
   await expect(page.getByText("0 salah · 10 kosong")).toBeVisible();
+});
+test("BTKV category study, clinical explanations, persistence and real statistics", async ({
+  page,
+}) => {
+  await onboard(page);
+  await page.getByLabel("Program belajar").selectOption("btkv");
+  await page
+    .getByRole("navigation", { name: "Navigasi utama" })
+    .getByRole("link", { name: "Materi" })
+    .click();
+  await expect(page.getByText("150 soal tersedia")).toBeVisible();
+  for (const label of ["Bedah Toraks", "Bedah Kardiak", "Bedah Vaskular"]) {
+    await page.getByRole("button", { name: label, exact: true }).click();
+    await expect(page.getByText("50 soal tersedia")).toBeVisible();
+  }
+  await page.getByRole("button", { name: "Latihan 10 soal" }).click();
+  await expect(page.getByRole("radio")).toHaveCount(5);
+  await page.getByRole("radio").first().check();
+  await expect(
+    page.getByRole("heading", { name: "Clinical pearl" }),
+  ).toBeVisible();
+  await expect(page.getByText(/Status editorial: needs_review/)).toBeVisible();
+  await page.getByRole("button", { name: "Simpan bookmark" }).click();
+  await page
+    .getByLabel("Catatan pribadi")
+    .fill("Tinjau kembali mekanisme klinis.");
+  await page.reload();
+  await expect(page.getByLabel("Catatan pribadi")).toHaveValue(
+    "Tinjau kembali mekanisme klinis.",
+  );
+  await page.getByRole("button", { name: "Selesaikan sesi" }).click();
+  await page.getByRole("button", { name: "Ya, lanjutkan" }).click();
+  await expect(page.getByText(/Skor latihan:/)).toBeVisible();
+  await page
+    .getByRole("navigation", { name: "Navigasi utama" })
+    .getByRole("link", { name: "Statistik" })
+    .click();
+  await expect(page.getByText("Akurasi per bidang")).toBeVisible();
+});
+test("BTKV category tryout uses five options, configurable scoring and no early answer keys", async ({
+  page,
+}) => {
+  await onboard(page);
+  await page.getByLabel("Program belajar").selectOption("btkv");
+  await page.goto("/tryout");
+  await page.getByLabel("Skor benar").fill("2");
+  await page.getByLabel("Skor salah").fill("-1");
+  await page
+    .getByRole("combobox", { name: "Soal", exact: true })
+    .selectOption("50");
+  await page
+    .getByRole("button", { name: "Tryout Bedah Toraks", exact: true })
+    .click();
+  await expect(page.getByText("thoracic · Soal 1 dari 50")).toBeVisible();
+  await expect(page.getByRole("radio")).toHaveCount(5);
+  await page.getByRole("radio").first().check();
+  await expect(
+    page.getByRole("heading", { name: "Clinical pearl" }),
+  ).toHaveCount(0);
+  await expect(page.getByText("Referensi dan status verifikasi")).toHaveCount(
+    0,
+  );
+  await expect(
+    page.getByRole("navigation", { name: "Navigasi utama" }),
+  ).toHaveCount(0);
+  await page.reload();
+  await expect(page.getByRole("radio", { checked: true })).toHaveCount(1);
+  await page.getByRole("button", { name: "Selesaikan sesi" }).click();
+  await page.getByRole("button", { name: "Ya, lanjutkan" }).click();
+  await expect(page.getByText(/Benar 2, salah -1, kosong 0/)).toBeVisible();
+  const saved = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem("nexam:data")!).history.at(-1),
+  );
+  expect(saved.durationSeconds).toBeGreaterThanOrEqual(0);
+  expect(saved.practiceScore).toBeDefined();
+  await expect(
+    page.getByRole("heading", { name: "Clinical pearl" }),
+  ).toBeVisible();
 });

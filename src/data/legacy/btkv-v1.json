@@ -1,0 +1,992 @@
+[
+  {
+    "id": "BTKV-THORACIC-001",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Pada trauma dada, hipotensi disertai deviasi trakea dan hilangnya",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Pada trauma dada, hipotensi disertai deviasi trakea dan hilangnya suara napas unilateral paling mengarah pada apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Efusi pleura kronis"
+      },
+      {
+        "id": "B",
+        "text": "Atelektasis ringan"
+      },
+      {
+        "id": "C",
+        "text": "Pneumotoraks tensi"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tekanan intrapleura yang meningkat dapat menekan aliran balik vena dan menimbulkan syok obstruktif. Efusi kronis dan atelektasis ringan biasanya tidak menimbulkan kombinasi akut ini.",
+    "distractorExplanations": {
+      "A": "Pilihan “Efusi pleura kronis” tidak memenuhi konsep atau kondisi dalam soal. Tekanan intrapleura yang meningkat dapat menekan aliran balik vena dan menimbulkan syok obstruktif. Efusi kronis dan atelektasis ringan biasanya tidak menimbulkan kombinasi akut ini.",
+      "B": "Pilihan “Atelektasis ringan” tidak memenuhi konsep atau kondisi dalam soal. Tekanan intrapleura yang meningkat dapat menekan aliran balik vena dan menimbulkan syok obstruktif. Efusi kronis dan atelektasis ringan biasanya tidak menimbulkan kombinasi akut ini."
+    },
+    "learningPoint": "Tekanan intrapleura yang meningkat dapat menekan aliran balik vena dan menimbulkan syok obstruktif. Efusi kronis dan atelektasis ringan biasanya tidak menimbulkan kombinasi akut ini.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-002",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Struktur apa yang berjalan di tepi inferior iga sehingga perlu di",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Struktur apa yang berjalan di tepi inferior iga sehingga perlu diperhatikan pada pemasangan drain dada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Duktus torasikus"
+      },
+      {
+        "id": "B",
+        "text": "Berkas neurovaskular interkostal"
+      },
+      {
+        "id": "C",
+        "text": "Nervus frenikus"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Vena, arteri, dan saraf interkostal berada di sulkus kosta. Nervus frenikus berada di mediastinum, sedangkan duktus torasikus lebih posterior.",
+    "distractorExplanations": {
+      "A": "Pilihan “Duktus torasikus” tidak memenuhi konsep atau kondisi dalam soal. Vena, arteri, dan saraf interkostal berada di sulkus kosta. Nervus frenikus berada di mediastinum, sedangkan duktus torasikus lebih posterior.",
+      "C": "Pilihan “Nervus frenikus” tidak memenuhi konsep atau kondisi dalam soal. Vena, arteri, dan saraf interkostal berada di sulkus kosta. Nervus frenikus berada di mediastinum, sedangkan duktus torasikus lebih posterior."
+    },
+    "learningPoint": "Vena, arteri, dan saraf interkostal berada di sulkus kosta. Nervus frenikus berada di mediastinum, sedangkan duktus torasikus lebih posterior.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-003",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Mengapa pneumotoraks kecil dapat tampak lebih jelas pada CT diban",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Mengapa pneumotoraks kecil dapat tampak lebih jelas pada CT dibanding foto toraks terlentang?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Udara dapat terkumpul di anterior pada pasien terlentang"
+      },
+      {
+        "id": "B",
+        "text": "CT mengukur kadar hemoglobin"
+      },
+      {
+        "id": "C",
+        "text": "Semua foto toraks terlentang selalu normal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "CT dapat memperlihatkan sedikit udara di lokasi anterior yang kurang jelas pada radiografi. CT tidak mengukur hemoglobin, dan foto terlentang tetap dapat menunjukkan kelainan.",
+    "distractorExplanations": {
+      "B": "Pilihan “CT mengukur kadar hemoglobin” tidak memenuhi konsep atau kondisi dalam soal. CT dapat memperlihatkan sedikit udara di lokasi anterior yang kurang jelas pada radiografi. CT tidak mengukur hemoglobin, dan foto terlentang tetap dapat menunjukkan kelainan.",
+      "C": "Pilihan “Semua foto toraks terlentang selalu normal” tidak memenuhi konsep atau kondisi dalam soal. CT dapat memperlihatkan sedikit udara di lokasi anterior yang kurang jelas pada radiografi. CT tidak mengukur hemoglobin, dan foto terlentang tetap dapat menunjukkan kelainan."
+    },
+    "learningPoint": "CT dapat memperlihatkan sedikit udara di lokasi anterior yang kurang jelas pada radiografi. CT tidak mengukur hemoglobin, dan foto terlentang tetap dapat menunjukkan kelainan.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-004",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Cairan pleura keruh seperti susu dengan kadar trigliserida tinggi",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Cairan pleura keruh seperti susu dengan kadar trigliserida tinggi mengarah pada kondisi apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hemotoraks"
+      },
+      {
+        "id": "B",
+        "text": "Pneumotoraks"
+      },
+      {
+        "id": "C",
+        "text": "Kilotoraks"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Gangguan aliran limfe dapat menghasilkan cairan kaya kilomikron. Hemotoraks berisi darah dan pneumotoraks berisi udara.",
+    "distractorExplanations": {
+      "A": "Pilihan “Hemotoraks” tidak memenuhi konsep atau kondisi dalam soal. Gangguan aliran limfe dapat menghasilkan cairan kaya kilomikron. Hemotoraks berisi darah dan pneumotoraks berisi udara.",
+      "B": "Pilihan “Pneumotoraks” tidak memenuhi konsep atau kondisi dalam soal. Gangguan aliran limfe dapat menghasilkan cairan kaya kilomikron. Hemotoraks berisi darah dan pneumotoraks berisi udara."
+    },
+    "learningPoint": "Gangguan aliran limfe dapat menghasilkan cairan kaya kilomikron. Hemotoraks berisi darah dan pneumotoraks berisi udara.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-005",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Komplikasi apa yang dicurigai bila muncul kebocoran udara besar d",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Komplikasi apa yang dicurigai bila muncul kebocoran udara besar dan paru gagal mengembang setelah drain dada pada trauma?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kontusio jaringan subkutan saja"
+      },
+      {
+        "id": "B",
+        "text": "Cedera trakeobronkial"
+      },
+      {
+        "id": "C",
+        "text": "Fraktur klavikula sederhana"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Putusnya saluran napas besar menyebabkan kebocoran udara persisten. Cedera tulang atau jaringan superfisial saja tidak menjelaskan kegagalan ekspansi paru tersebut.",
+    "distractorExplanations": {
+      "A": "Pilihan “Kontusio jaringan subkutan saja” tidak memenuhi konsep atau kondisi dalam soal. Putusnya saluran napas besar menyebabkan kebocoran udara persisten. Cedera tulang atau jaringan superfisial saja tidak menjelaskan kegagalan ekspansi paru tersebut.",
+      "C": "Pilihan “Fraktur klavikula sederhana” tidak memenuhi konsep atau kondisi dalam soal. Putusnya saluran napas besar menyebabkan kebocoran udara persisten. Cedera tulang atau jaringan superfisial saja tidak menjelaskan kegagalan ekspansi paru tersebut."
+    },
+    "learningPoint": "Putusnya saluran napas besar menyebabkan kebocoran udara persisten. Cedera tulang atau jaringan superfisial saja tidak menjelaskan kegagalan ekspansi paru tersebut.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-006",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Tumor pada sulkus superior paru dapat menimbulkan nyeri bahu dan ",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Tumor pada sulkus superior paru dapat menimbulkan nyeri bahu dan sindrom Horner melalui keterlibatan struktur apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pleksus brakialis dan rantai simpatis"
+      },
+      {
+        "id": "B",
+        "text": "Nervus hipoglosus saja"
+      },
+      {
+        "id": "C",
+        "text": "Arteri femoralis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tumor apikal dapat mengenai pleksus brakialis dan saraf simpatis servikotorakal. Dua struktur alternatif tidak berlokasi di apeks toraks.",
+    "distractorExplanations": {
+      "B": "Pilihan “Nervus hipoglosus saja” tidak memenuhi konsep atau kondisi dalam soal. Tumor apikal dapat mengenai pleksus brakialis dan saraf simpatis servikotorakal. Dua struktur alternatif tidak berlokasi di apeks toraks.",
+      "C": "Pilihan “Arteri femoralis” tidak memenuhi konsep atau kondisi dalam soal. Tumor apikal dapat mengenai pleksus brakialis dan saraf simpatis servikotorakal. Dua struktur alternatif tidak berlokasi di apeks toraks."
+    },
+    "learningPoint": "Tumor apikal dapat mengenai pleksus brakialis dan saraf simpatis servikotorakal. Dua struktur alternatif tidak berlokasi di apeks toraks.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-007",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Apa prinsip utama penentuan resektabilitas kanker paru sebelum op",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa prinsip utama penentuan resektabilitas kanker paru sebelum operasi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ukuran tumor saja"
+      },
+      {
+        "id": "B",
+        "text": "Usia kalender saja"
+      },
+      {
+        "id": "C",
+        "text": "Penilaian stadium dan cadangan kardiopulmoner"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Manfaat onkologis harus dipertimbangkan bersama kemampuan pasien menoleransi reseksi. Ukuran dan usia saja tidak cukup menentukan kelayakan operasi.",
+    "distractorExplanations": {
+      "A": "Pilihan “Ukuran tumor saja” tidak memenuhi konsep atau kondisi dalam soal. Manfaat onkologis harus dipertimbangkan bersama kemampuan pasien menoleransi reseksi. Ukuran dan usia saja tidak cukup menentukan kelayakan operasi.",
+      "B": "Pilihan “Usia kalender saja” tidak memenuhi konsep atau kondisi dalam soal. Manfaat onkologis harus dipertimbangkan bersama kemampuan pasien menoleransi reseksi. Ukuran dan usia saja tidak cukup menentukan kelayakan operasi."
+    },
+    "learningPoint": "Manfaat onkologis harus dipertimbangkan bersama kemampuan pasien menoleransi reseksi. Ukuran dan usia saja tidak cukup menentukan kelayakan operasi.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-008",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Nyeri dada hebat setelah muntah kuat disertai emfisema subkutan m",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Nyeri dada hebat setelah muntah kuat disertai emfisema subkutan menimbulkan kecurigaan apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Otitis media"
+      },
+      {
+        "id": "B",
+        "text": "Ruptur esofagus"
+      },
+      {
+        "id": "C",
+        "text": "Gastritis sederhana"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Peningkatan tekanan mendadak dapat menyebabkan perforasi esofagus dan kontaminasi mediastinum. Gastritis tidak menjelaskan udara subkutan; otitis tidak menjelaskan gejala toraks ini.",
+    "distractorExplanations": {
+      "A": "Pilihan “Otitis media” tidak memenuhi konsep atau kondisi dalam soal. Peningkatan tekanan mendadak dapat menyebabkan perforasi esofagus dan kontaminasi mediastinum. Gastritis tidak menjelaskan udara subkutan; otitis tidak menjelaskan gejala toraks ini.",
+      "C": "Pilihan “Gastritis sederhana” tidak memenuhi konsep atau kondisi dalam soal. Peningkatan tekanan mendadak dapat menyebabkan perforasi esofagus dan kontaminasi mediastinum. Gastritis tidak menjelaskan udara subkutan; otitis tidak menjelaskan gejala toraks ini."
+    },
+    "learningPoint": "Peningkatan tekanan mendadak dapat menyebabkan perforasi esofagus dan kontaminasi mediastinum. Gastritis tidak menjelaskan udara subkutan; otitis tidak menjelaskan gejala toraks ini.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-009",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Apa fungsi utama surfaktan alveolar",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa fungsi utama surfaktan alveolar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengurangi tegangan permukaan"
+      },
+      {
+        "id": "B",
+        "text": "Meningkatkan viskositas darah"
+      },
+      {
+        "id": "C",
+        "text": "Menutup bronkus utama"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Penurunan tegangan permukaan membantu kestabilan alveolus. Surfaktan bukan pengatur viskositas darah atau penutup jalan napas.",
+    "distractorExplanations": {
+      "B": "Pilihan “Meningkatkan viskositas darah” tidak memenuhi konsep atau kondisi dalam soal. Penurunan tegangan permukaan membantu kestabilan alveolus. Surfaktan bukan pengatur viskositas darah atau penutup jalan napas.",
+      "C": "Pilihan “Menutup bronkus utama” tidak memenuhi konsep atau kondisi dalam soal. Penurunan tegangan permukaan membantu kestabilan alveolus. Surfaktan bukan pengatur viskositas darah atau penutup jalan napas."
+    },
+    "learningPoint": "Penurunan tegangan permukaan membantu kestabilan alveolus. Surfaktan bukan pengatur viskositas darah atau penutup jalan napas.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-010",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Pada empiema dengan lokulasi, mengapa antibiotik saja dapat tidak",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Pada empiema dengan lokulasi, mengapa antibiotik saja dapat tidak memadai?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antibiotik selalu memperbesar pus"
+      },
+      {
+        "id": "B",
+        "text": "Pleura tidak pernah terinfeksi bakteri"
+      },
+      {
+        "id": "C",
+        "text": "Rongga terinfeksi dapat memerlukan kontrol sumber"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Pus terlokulasi dapat membutuhkan drainase berdasarkan penilaian klinis. Kegagalan kontrol sumber, bukan pembesaran pus oleh semua antibiotik, menjelaskan perlunya intervensi.",
+    "distractorExplanations": {
+      "A": "Pilihan “Antibiotik selalu memperbesar pus” tidak memenuhi konsep atau kondisi dalam soal. Pus terlokulasi dapat membutuhkan drainase berdasarkan penilaian klinis. Kegagalan kontrol sumber, bukan pembesaran pus oleh semua antibiotik, menjelaskan perlunya intervensi.",
+      "B": "Pilihan “Pleura tidak pernah terinfeksi bakteri” tidak memenuhi konsep atau kondisi dalam soal. Pus terlokulasi dapat membutuhkan drainase berdasarkan penilaian klinis. Kegagalan kontrol sumber, bukan pembesaran pus oleh semua antibiotik, menjelaskan perlunya intervensi."
+    },
+    "learningPoint": "Pus terlokulasi dapat membutuhkan drainase berdasarkan penilaian klinis. Kegagalan kontrol sumber, bukan pembesaran pus oleh semua antibiotik, menjelaskan perlunya intervensi.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-001",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Arteri koroner kiri utama umumnya bercabang menjadi pembuluh apa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Arteri koroner kiri utama umumnya bercabang menjadi pembuluh apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arteri renalis dan lienalis"
+      },
+      {
+        "id": "B",
+        "text": "Arteri pulmonalis kanan dan kiri"
+      },
+      {
+        "id": "C",
+        "text": "LAD dan sirkumfleksa"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "LAD dan sirkumfleksa merupakan cabang utama koroner kiri. Arteri renal dan lienal berasal dari sirkulasi sistemik lain; arteri pulmonalis bukan koroner.",
+    "distractorExplanations": {
+      "A": "Pilihan “Arteri renalis dan lienalis” tidak memenuhi konsep atau kondisi dalam soal. LAD dan sirkumfleksa merupakan cabang utama koroner kiri. Arteri renal dan lienal berasal dari sirkulasi sistemik lain; arteri pulmonalis bukan koroner.",
+      "B": "Pilihan “Arteri pulmonalis kanan dan kiri” tidak memenuhi konsep atau kondisi dalam soal. LAD dan sirkumfleksa merupakan cabang utama koroner kiri. Arteri renal dan lienal berasal dari sirkulasi sistemik lain; arteri pulmonalis bukan koroner."
+    },
+    "learningPoint": "LAD dan sirkumfleksa merupakan cabang utama koroner kiri. Arteri renal dan lienal berasal dari sirkulasi sistemik lain; arteri pulmonalis bukan koroner.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-002",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Apa akibat hemodinamik utama tamponade jantung",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa akibat hemodinamik utama tamponade jantung?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Penurunan tekanan perikardial"
+      },
+      {
+        "id": "B",
+        "text": "Gangguan pengisian diastolik"
+      },
+      {
+        "id": "C",
+        "text": "Peningkatan bebas pengisian ventrikel"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tekanan perikardial yang tinggi menghambat pengisian jantung dan dapat menurunkan curah jantung. Pengisian tidak menjadi bebas dan tekanan justru meningkat.",
+    "distractorExplanations": {
+      "A": "Pilihan “Penurunan tekanan perikardial” tidak memenuhi konsep atau kondisi dalam soal. Tekanan perikardial yang tinggi menghambat pengisian jantung dan dapat menurunkan curah jantung. Pengisian tidak menjadi bebas dan tekanan justru meningkat.",
+      "C": "Pilihan “Peningkatan bebas pengisian ventrikel” tidak memenuhi konsep atau kondisi dalam soal. Tekanan perikardial yang tinggi menghambat pengisian jantung dan dapat menurunkan curah jantung. Pengisian tidak menjadi bebas dan tekanan justru meningkat."
+    },
+    "learningPoint": "Tekanan perikardial yang tinggi menghambat pengisian jantung dan dapat menurunkan curah jantung. Pengisian tidak menjadi bebas dan tekanan justru meningkat.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-003",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Bising sistolik crescendo-decrescendo yang menjalar ke karotis pa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Bising sistolik crescendo-decrescendo yang menjalar ke karotis paling khas untuk apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stenosis aorta"
+      },
+      {
+        "id": "B",
+        "text": "Regurgitasi mitral"
+      },
+      {
+        "id": "C",
+        "text": "Stenosis mitral"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Aliran melewati katup aorta yang menyempit menghasilkan bising ejeksi. Regurgitasi mitral biasanya holosistolik, sedangkan stenosis mitral dominan diastolik.",
+    "distractorExplanations": {
+      "B": "Pilihan “Regurgitasi mitral” tidak memenuhi konsep atau kondisi dalam soal. Aliran melewati katup aorta yang menyempit menghasilkan bising ejeksi. Regurgitasi mitral biasanya holosistolik, sedangkan stenosis mitral dominan diastolik.",
+      "C": "Pilihan “Stenosis mitral” tidak memenuhi konsep atau kondisi dalam soal. Aliran melewati katup aorta yang menyempit menghasilkan bising ejeksi. Regurgitasi mitral biasanya holosistolik, sedangkan stenosis mitral dominan diastolik."
+    },
+    "learningPoint": "Aliran melewati katup aorta yang menyempit menghasilkan bising ejeksi. Regurgitasi mitral biasanya holosistolik, sedangkan stenosis mitral dominan diastolik.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-004",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Apa tujuan oksigenator pada cardiopulmonary bypass",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa tujuan oksigenator pada cardiopulmonary bypass?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menutup defek septum"
+      },
+      {
+        "id": "B",
+        "text": "Mengukur panjang sternum"
+      },
+      {
+        "id": "C",
+        "text": "Pertukaran gas ekstrakorporeal"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Oksigenator menambahkan oksigen dan mengeluarkan karbon dioksida dari darah di sirkuit. Ia tidak menutup kelainan anatomi atau mengukur tulang.",
+    "distractorExplanations": {
+      "A": "Pilihan “Menutup defek septum” tidak memenuhi konsep atau kondisi dalam soal. Oksigenator menambahkan oksigen dan mengeluarkan karbon dioksida dari darah di sirkuit. Ia tidak menutup kelainan anatomi atau mengukur tulang.",
+      "B": "Pilihan “Mengukur panjang sternum” tidak memenuhi konsep atau kondisi dalam soal. Oksigenator menambahkan oksigen dan mengeluarkan karbon dioksida dari darah di sirkuit. Ia tidak menutup kelainan anatomi atau mengukur tulang."
+    },
+    "learningPoint": "Oksigenator menambahkan oksigen dan mengeluarkan karbon dioksida dari darah di sirkuit. Ia tidak menutup kelainan anatomi atau mengukur tulang.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-005",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Defek septum atrium sekundum terletak terutama di mana",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Defek septum atrium sekundum terletak terutama di mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Katup pulmonal"
+      },
+      {
+        "id": "B",
+        "text": "Fossa ovalis"
+      },
+      {
+        "id": "C",
+        "text": "Septum ventrikel muskular"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Fossa ovalis merupakan lokasi khas ASD sekundum. Defek ventrikel dan kelainan katup pulmonal merupakan struktur yang berbeda.",
+    "distractorExplanations": {
+      "A": "Pilihan “Katup pulmonal” tidak memenuhi konsep atau kondisi dalam soal. Fossa ovalis merupakan lokasi khas ASD sekundum. Defek ventrikel dan kelainan katup pulmonal merupakan struktur yang berbeda.",
+      "C": "Pilihan “Septum ventrikel muskular” tidak memenuhi konsep atau kondisi dalam soal. Fossa ovalis merupakan lokasi khas ASD sekundum. Defek ventrikel dan kelainan katup pulmonal merupakan struktur yang berbeda."
+    },
+    "learningPoint": "Fossa ovalis merupakan lokasi khas ASD sekundum. Defek ventrikel dan kelainan katup pulmonal merupakan struktur yang berbeda.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-006",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Mengapa regurgitasi mitral berat dapat menyebabkan kongesti paru",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Mengapa regurgitasi mitral berat dapat menyebabkan kongesti paru?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tekanan atrium kiri meningkat"
+      },
+      {
+        "id": "B",
+        "text": "Darah tidak pernah kembali ke atrium kiri"
+      },
+      {
+        "id": "C",
+        "text": "Tekanan vena pulmonalis selalu menurun"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Aliran balik sistolik ke atrium kiri dapat meningkatkan tekanan yang diteruskan ke vena pulmonalis. Pilihan lain berlawanan dengan mekanisme tersebut.",
+    "distractorExplanations": {
+      "B": "Pilihan “Darah tidak pernah kembali ke atrium kiri” tidak memenuhi konsep atau kondisi dalam soal. Aliran balik sistolik ke atrium kiri dapat meningkatkan tekanan yang diteruskan ke vena pulmonalis. Pilihan lain berlawanan dengan mekanisme tersebut.",
+      "C": "Pilihan “Tekanan vena pulmonalis selalu menurun” tidak memenuhi konsep atau kondisi dalam soal. Aliran balik sistolik ke atrium kiri dapat meningkatkan tekanan yang diteruskan ke vena pulmonalis. Pilihan lain berlawanan dengan mekanisme tersebut."
+    },
+    "learningPoint": "Aliran balik sistolik ke atrium kiri dapat meningkatkan tekanan yang diteruskan ke vena pulmonalis. Pilihan lain berlawanan dengan mekanisme tersebut.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-007",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Apa yang dimaksud preload dalam penilaian fisiologi jantung",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa yang dimaksud preload dalam penilaian fisiologi jantung?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Resistensi yang selalu sama dengan tekanan darah"
+      },
+      {
+        "id": "B",
+        "text": "Frekuensi impuls nodus sinus"
+      },
+      {
+        "id": "C",
+        "text": "Peregangan miokard menjelang kontraksi"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Preload berkaitan dengan keadaan pengisian dan panjang serat sebelum sistol. Afterload berkaitan dengan beban ejeksi, sedangkan frekuensi bukan preload.",
+    "distractorExplanations": {
+      "A": "Pilihan “Resistensi yang selalu sama dengan tekanan darah” tidak memenuhi konsep atau kondisi dalam soal. Preload berkaitan dengan keadaan pengisian dan panjang serat sebelum sistol. Afterload berkaitan dengan beban ejeksi, sedangkan frekuensi bukan preload.",
+      "B": "Pilihan “Frekuensi impuls nodus sinus” tidak memenuhi konsep atau kondisi dalam soal. Preload berkaitan dengan keadaan pengisian dan panjang serat sebelum sistol. Afterload berkaitan dengan beban ejeksi, sedangkan frekuensi bukan preload."
+    },
+    "learningPoint": "Preload berkaitan dengan keadaan pengisian dan panjang serat sebelum sistol. Afterload berkaitan dengan beban ejeksi, sedangkan frekuensi bukan preload.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-008",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Komplikasi neurologis akut setelah operasi aorta memerlukan evalu",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Komplikasi neurologis akut setelah operasi aorta memerlukan evaluasi segera terutama untuk apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karies gigi"
+      },
+      {
+        "id": "B",
+        "text": "Stroke atau hipoperfusi serebral"
+      },
+      {
+        "id": "C",
+        "text": "Presbiopia tanpa komplikasi"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Emboli dan gangguan perfusi dapat menyebabkan defisit neurologis perioperatif. Presbiopia atau karies tidak menjelaskan defisit akut.",
+    "distractorExplanations": {
+      "A": "Pilihan “Karies gigi” tidak memenuhi konsep atau kondisi dalam soal. Emboli dan gangguan perfusi dapat menyebabkan defisit neurologis perioperatif. Presbiopia atau karies tidak menjelaskan defisit akut.",
+      "C": "Pilihan “Presbiopia tanpa komplikasi” tidak memenuhi konsep atau kondisi dalam soal. Emboli dan gangguan perfusi dapat menyebabkan defisit neurologis perioperatif. Presbiopia atau karies tidak menjelaskan defisit akut."
+    },
+    "learningPoint": "Emboli dan gangguan perfusi dapat menyebabkan defisit neurologis perioperatif. Presbiopia atau karies tidak menjelaskan defisit akut.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-009",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Pemeriksaan apa yang paling langsung menilai gerakan daun katup d",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Pemeriksaan apa yang paling langsung menilai gerakan daun katup dan fraksi ejeksi secara noninvasif?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ekokardiografi"
+      },
+      {
+        "id": "B",
+        "text": "Audiometri"
+      },
+      {
+        "id": "C",
+        "text": "Spirometri"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ekokardiografi menilai struktur dan fungsi jantung. Audiometri menilai pendengaran dan spirometri menilai ventilasi.",
+    "distractorExplanations": {
+      "B": "Pilihan “Audiometri” tidak memenuhi konsep atau kondisi dalam soal. Ekokardiografi menilai struktur dan fungsi jantung. Audiometri menilai pendengaran dan spirometri menilai ventilasi.",
+      "C": "Pilihan “Spirometri” tidak memenuhi konsep atau kondisi dalam soal. Ekokardiografi menilai struktur dan fungsi jantung. Audiometri menilai pendengaran dan spirometri menilai ventilasi."
+    },
+    "learningPoint": "Ekokardiografi menilai struktur dan fungsi jantung. Audiometri menilai pendengaran dan spirometri menilai ventilasi.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-010",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Pada diseksi aorta tipe A, bagian aorta mana yang terlibat",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Pada diseksi aorta tipe A, bagian aorta mana yang terlibat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya arteri poplitea"
+      },
+      {
+        "id": "B",
+        "text": "Hanya aorta abdominal tanpa asendens"
+      },
+      {
+        "id": "C",
+        "text": "Aorta asendens"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Klasifikasi Stanford A ditentukan oleh keterlibatan aorta asendens. Keterlibatan distal saja tidak memenuhi definisi ini.",
+    "distractorExplanations": {
+      "A": "Pilihan “Hanya arteri poplitea” tidak memenuhi konsep atau kondisi dalam soal. Klasifikasi Stanford A ditentukan oleh keterlibatan aorta asendens. Keterlibatan distal saja tidak memenuhi definisi ini.",
+      "B": "Pilihan “Hanya aorta abdominal tanpa asendens” tidak memenuhi konsep atau kondisi dalam soal. Klasifikasi Stanford A ditentukan oleh keterlibatan aorta asendens. Keterlibatan distal saja tidak memenuhi definisi ini."
+    },
+    "learningPoint": "Klasifikasi Stanford A ditentukan oleh keterlibatan aorta asendens. Keterlibatan distal saja tidak memenuhi definisi ini.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-001",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Nyeri tungkai mendadak, pucat, dingin, dan hilangnya nadi menimbu",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Nyeri tungkai mendadak, pucat, dingin, dan hilangnya nadi menimbulkan kecurigaan utama apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dermatitis ringan"
+      },
+      {
+        "id": "B",
+        "text": "Varises tanpa komplikasi"
+      },
+      {
+        "id": "C",
+        "text": "Iskemia tungkai akut"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Gangguan perfusi arteri akut dapat mengancam viabilitas tungkai. Dermatitis dan varises sederhana tidak lazim menyebabkan hilangnya nadi mendadak.",
+    "distractorExplanations": {
+      "A": "Pilihan “Dermatitis ringan” tidak memenuhi konsep atau kondisi dalam soal. Gangguan perfusi arteri akut dapat mengancam viabilitas tungkai. Dermatitis dan varises sederhana tidak lazim menyebabkan hilangnya nadi mendadak.",
+      "B": "Pilihan “Varises tanpa komplikasi” tidak memenuhi konsep atau kondisi dalam soal. Gangguan perfusi arteri akut dapat mengancam viabilitas tungkai. Dermatitis dan varises sederhana tidak lazim menyebabkan hilangnya nadi mendadak."
+    },
+    "learningPoint": "Gangguan perfusi arteri akut dapat mengancam viabilitas tungkai. Dermatitis dan varises sederhana tidak lazim menyebabkan hilangnya nadi mendadak.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-002",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Apa arti ABI dalam penilaian vaskular",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa arti ABI dalam penilaian vaskular?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Volume vena terhadap tinggi badan"
+      },
+      {
+        "id": "B",
+        "text": "Rasio tekanan sistolik pergelangan kaki terhadap lengan"
+      },
+      {
+        "id": "C",
+        "text": "Rasio denyut jantung terhadap suhu"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABI membandingkan tekanan arteri ankle dan brachial. Rasio lain tidak menggambarkan indeks perfusi tersebut.",
+    "distractorExplanations": {
+      "A": "Pilihan “Volume vena terhadap tinggi badan” tidak memenuhi konsep atau kondisi dalam soal. ABI membandingkan tekanan arteri ankle dan brachial. Rasio lain tidak menggambarkan indeks perfusi tersebut.",
+      "C": "Pilihan “Rasio denyut jantung terhadap suhu” tidak memenuhi konsep atau kondisi dalam soal. ABI membandingkan tekanan arteri ankle dan brachial. Rasio lain tidak menggambarkan indeks perfusi tersebut."
+    },
+    "learningPoint": "ABI membandingkan tekanan arteri ankle dan brachial. Rasio lain tidak menggambarkan indeks perfusi tersebut.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-003",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Apa keterbatasan ABI pada pasien dengan kalsifikasi arteri berat",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa keterbatasan ABI pada pasien dengan kalsifikasi arteri berat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arteri sulit dikompresi dapat memberi nilai tinggi semu"
+      },
+      {
+        "id": "B",
+        "text": "Nilai selalu nol"
+      },
+      {
+        "id": "C",
+        "text": "ABI otomatis menunjukkan trombosis vena"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kalsifikasi medial dapat membuat tekanan manset tidak mencerminkan perfusi sebenarnya. Nilai bukan selalu nol dan ABI bukan tes utama trombosis vena.",
+    "distractorExplanations": {
+      "B": "Pilihan “Nilai selalu nol” tidak memenuhi konsep atau kondisi dalam soal. Kalsifikasi medial dapat membuat tekanan manset tidak mencerminkan perfusi sebenarnya. Nilai bukan selalu nol dan ABI bukan tes utama trombosis vena.",
+      "C": "Pilihan “ABI otomatis menunjukkan trombosis vena” tidak memenuhi konsep atau kondisi dalam soal. Kalsifikasi medial dapat membuat tekanan manset tidak mencerminkan perfusi sebenarnya. Nilai bukan selalu nol dan ABI bukan tes utama trombosis vena."
+    },
+    "learningPoint": "Kalsifikasi medial dapat membuat tekanan manset tidak mencerminkan perfusi sebenarnya. Nilai bukan selalu nol dan ABI bukan tes utama trombosis vena.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-004",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Nyeri dan pembengkakan tungkai unilateral dengan risiko trombosis",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Nyeri dan pembengkakan tungkai unilateral dengan risiko trombosis dinilai pertama kali menggunakan modalitas pencitraan apa bila tersedia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Foto tengkorak"
+      },
+      {
+        "id": "B",
+        "text": "Audiogram"
+      },
+      {
+        "id": "C",
+        "text": "Ultrasonografi kompresi vena"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Vena yang tidak dapat dikompresi mendukung DVT dalam konteks klinis yang sesuai. Pemeriksaan kepala dan pendengaran tidak menilai trombus tungkai.",
+    "distractorExplanations": {
+      "A": "Pilihan “Foto tengkorak” tidak memenuhi konsep atau kondisi dalam soal. Vena yang tidak dapat dikompresi mendukung DVT dalam konteks klinis yang sesuai. Pemeriksaan kepala dan pendengaran tidak menilai trombus tungkai.",
+      "B": "Pilihan “Audiogram” tidak memenuhi konsep atau kondisi dalam soal. Vena yang tidak dapat dikompresi mendukung DVT dalam konteks klinis yang sesuai. Pemeriksaan kepala dan pendengaran tidak menilai trombus tungkai."
+    },
+    "learningPoint": "Vena yang tidak dapat dikompresi mendukung DVT dalam konteks klinis yang sesuai. Pemeriksaan kepala dan pendengaran tidak menilai trombus tungkai.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-005",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Apa mekanisme utama edema pada insufisiensi vena kronis",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa mekanisme utama edema pada insufisiensi vena kronis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Peningkatan ventilasi alveolar"
+      },
+      {
+        "id": "B",
+        "text": "Hipertensi vena akibat refluks atau obstruksi"
+      },
+      {
+        "id": "C",
+        "text": "Penutupan semua kapiler arteri"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tekanan vena yang meningkat mendorong cairan ke interstisium. Penutupan arteri dan ventilasi tidak menjelaskan mekanisme utama edema vena.",
+    "distractorExplanations": {
+      "A": "Pilihan “Peningkatan ventilasi alveolar” tidak memenuhi konsep atau kondisi dalam soal. Tekanan vena yang meningkat mendorong cairan ke interstisium. Penutupan arteri dan ventilasi tidak menjelaskan mekanisme utama edema vena.",
+      "C": "Pilihan “Penutupan semua kapiler arteri” tidak memenuhi konsep atau kondisi dalam soal. Tekanan vena yang meningkat mendorong cairan ke interstisium. Penutupan arteri dan ventilasi tidak menjelaskan mekanisme utama edema vena."
+    },
+    "learningPoint": "Tekanan vena yang meningkat mendorong cairan ke interstisium. Penutupan arteri dan ventilasi tidak menjelaskan mekanisme utama edema vena.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-006",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Mengapa ukuran aneurisma aorta dipantau serial",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Mengapa ukuran aneurisma aorta dipantau serial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pertumbuhan membantu penilaian risiko dan perencanaan"
+      },
+      {
+        "id": "B",
+        "text": "Semua aneurisma mengecil spontan"
+      },
+      {
+        "id": "C",
+        "text": "Ukuran menggantikan seluruh penilaian klinis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diameter dan laju pertumbuhan merupakan sebagian faktor risiko. Gejala, anatomi, dan kondisi pasien tetap penting sehingga ukuran bukan satu-satunya penentu.",
+    "distractorExplanations": {
+      "B": "Pilihan “Semua aneurisma mengecil spontan” tidak memenuhi konsep atau kondisi dalam soal. Diameter dan laju pertumbuhan merupakan sebagian faktor risiko. Gejala, anatomi, dan kondisi pasien tetap penting sehingga ukuran bukan satu-satunya penentu.",
+      "C": "Pilihan “Ukuran menggantikan seluruh penilaian klinis” tidak memenuhi konsep atau kondisi dalam soal. Diameter dan laju pertumbuhan merupakan sebagian faktor risiko. Gejala, anatomi, dan kondisi pasien tetap penting sehingga ukuran bukan satu-satunya penentu."
+    },
+    "learningPoint": "Diameter dan laju pertumbuhan merupakan sebagian faktor risiko. Gejala, anatomi, dan kondisi pasien tetap penting sehingga ukuran bukan satu-satunya penentu.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-007",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Apa perbedaan embolus dan trombus in situ",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa perbedaan embolus dan trombus in situ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Embolus selalu berupa udara"
+      },
+      {
+        "id": "B",
+        "text": "Trombus hanya terbentuk di vena"
+      },
+      {
+        "id": "C",
+        "text": "Embolus berpindah dari lokasi asal"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Embolus dapat berupa material trombotik yang berpindah. Tidak semua embolus adalah udara dan trombosis dapat terjadi pada arteri maupun vena.",
+    "distractorExplanations": {
+      "A": "Pilihan “Embolus selalu berupa udara” tidak memenuhi konsep atau kondisi dalam soal. Embolus dapat berupa material trombotik yang berpindah. Tidak semua embolus adalah udara dan trombosis dapat terjadi pada arteri maupun vena.",
+      "B": "Pilihan “Trombus hanya terbentuk di vena” tidak memenuhi konsep atau kondisi dalam soal. Embolus dapat berupa material trombotik yang berpindah. Tidak semua embolus adalah udara dan trombosis dapat terjadi pada arteri maupun vena."
+    },
+    "learningPoint": "Embolus dapat berupa material trombotik yang berpindah. Tidak semua embolus adalah udara dan trombosis dapat terjadi pada arteri maupun vena.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-008",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Apa tujuan stent endovaskular pada stenosis tertentu",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa tujuan stent endovaskular pada stenosis tertentu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menghancurkan semua katup vena"
+      },
+      {
+        "id": "B",
+        "text": "Menopang lumen pembuluh"
+      },
+      {
+        "id": "C",
+        "text": "Menggantikan seluruh darah"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Stent memberi dukungan mekanik untuk menjaga patensi lumen pada indikasi yang sesuai. Fungsi tersebut bukan transfusi atau ablasi semua katup.",
+    "distractorExplanations": {
+      "A": "Pilihan “Menghancurkan semua katup vena” tidak memenuhi konsep atau kondisi dalam soal. Stent memberi dukungan mekanik untuk menjaga patensi lumen pada indikasi yang sesuai. Fungsi tersebut bukan transfusi atau ablasi semua katup.",
+      "C": "Pilihan “Menggantikan seluruh darah” tidak memenuhi konsep atau kondisi dalam soal. Stent memberi dukungan mekanik untuk menjaga patensi lumen pada indikasi yang sesuai. Fungsi tersebut bukan transfusi atau ablasi semua katup."
+    },
+    "learningPoint": "Stent memberi dukungan mekanik untuk menjaga patensi lumen pada indikasi yang sesuai. Fungsi tersebut bukan transfusi atau ablasi semua katup.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-009",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Nyeri istirahat kaki dengan ulkus yang tidak sembuh pada penyakit",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Nyeri istirahat kaki dengan ulkus yang tidak sembuh pada penyakit arteri perifer mengarah pada apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iskemia tungkai kronis yang mengancam tungkai"
+      },
+      {
+        "id": "B",
+        "text": "Klaudikasio tanpa ancaman jaringan saja"
+      },
+      {
+        "id": "C",
+        "text": "Migrain"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Nyeri istirahat dan kehilangan jaringan akibat hipoperfusi mendukung CLTI. Klaudikasio saja tidak mencakup ulkus iskemik; migrain tidak relevan.",
+    "distractorExplanations": {
+      "B": "Pilihan “Klaudikasio tanpa ancaman jaringan saja” tidak memenuhi konsep atau kondisi dalam soal. Nyeri istirahat dan kehilangan jaringan akibat hipoperfusi mendukung CLTI. Klaudikasio saja tidak mencakup ulkus iskemik; migrain tidak relevan.",
+      "C": "Pilihan “Migrain” tidak memenuhi konsep atau kondisi dalam soal. Nyeri istirahat dan kehilangan jaringan akibat hipoperfusi mendukung CLTI. Klaudikasio saja tidak mencakup ulkus iskemik; migrain tidak relevan."
+    },
+    "learningPoint": "Nyeri istirahat dan kehilangan jaringan akibat hipoperfusi mendukung CLTI. Klaudikasio saja tidak mencakup ulkus iskemik; migrain tidak relevan.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-010",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Apa tanda yang mengkhawatirkan untuk sindrom kompartemen setelah ",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa tanda yang mengkhawatirkan untuk sindrom kompartemen setelah reperfusi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gatal ringan tanpa nyeri"
+      },
+      {
+        "id": "B",
+        "text": "Perbaikan warna saja"
+      },
+      {
+        "id": "C",
+        "text": "Nyeri hebat dengan regangan pasif"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Edema dalam kompartemen tertutup dapat menaikkan tekanan jaringan. Nyeri regangan pasif perlu evaluasi segera; gatal atau perbaikan warna saja bukan tanda khas.",
+    "distractorExplanations": {
+      "A": "Pilihan “Gatal ringan tanpa nyeri” tidak memenuhi konsep atau kondisi dalam soal. Edema dalam kompartemen tertutup dapat menaikkan tekanan jaringan. Nyeri regangan pasif perlu evaluasi segera; gatal atau perbaikan warna saja bukan tanda khas.",
+      "B": "Pilihan “Perbaikan warna saja” tidak memenuhi konsep atau kondisi dalam soal. Edema dalam kompartemen tertutup dapat menaikkan tekanan jaringan. Nyeri regangan pasif perlu evaluasi segera; gatal atau perbaikan warna saja bukan tanda khas."
+    },
+    "learningPoint": "Edema dalam kompartemen tertutup dapat menaikkan tekanan jaringan. Nyeri regangan pasif perlu evaluasi segera; gatal atau perbaikan warna saja bukan tanda khas.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  }
+]

@@ -141,7 +141,10 @@ export function Home() {
       </div>
       <div className="subject-grid">
         {Object.entries(categories[d.program]).map(([id, label], i) => {
-          const a = answers.filter((a) => a.category === id);
+          const a = answers.filter(
+            (a) =>
+              a.category === id && bundled.some((q) => q.id === a.questionId),
+          );
           const n = bundled.filter(
             (q) => q.program === d.program && q.category === id,
           ).length;

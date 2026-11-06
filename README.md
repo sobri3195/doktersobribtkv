@@ -2,7 +2,7 @@
 
 A browser-local Indonesian learning PWA for BTKV, LPDP and SIMAK UI, built with React 19, Vite, strict TypeScript, Tailwind, React Router, Zustand, Zod, React Hook Form, Recharts and KaTeX. No backend, login, paid service, API key or database is required.
 
-**This is an incomplete implementation of the supplied brief. It is not ready for acceptance or production publication. The bank contains 110 authored draft questions, not the required 550.** See [status and limitations](docs/STATUS.md).
+**This is an incomplete implementation of the supplied brief. It is not ready for acceptance or production publication. The active bank contains 230 authored questions: 150 BTKV questions pending medical review and 80 LPDP/SIMAK draft questions, not the required 550.** See [status and limitations](docs/STATUS.md).
 
 ## Develop
 
@@ -14,6 +14,7 @@ npm run dev
 npm test
 npm run build
 npm run preview
+npm run validate:btkv
 npm run validate:questions
 ```
 
@@ -39,7 +40,7 @@ Playwright starts the production preview automatically. Build first. Use the exi
 - Real answer/score/activity charts, bookmarks and personal notes.
 - Validated versioned backup/restore, corruption recovery copy, quota warnings and selective deletion.
 - JSON/CSV question import with preview and explicit local overrides, export, enable/disable and local deletion.
-- Three short BTKV branching learning cases, marked as educational drafts.
+- 150 BTKV SBAs with taxonomy, five options, clinical explanations, review flags and configurable category tryouts; three short branching learning cases. See [editorial requirements](docs/BTKV_EDITORIAL.md).
 - Prompt-based PWA updates deferred during unfinished sessions; app chunks, question content and modern font resources are precached.
 
 User data uses `nexam:data` (schema v2); `nexam:recovery` preserves malformed prior data when saving a new state. A v1 top-level migration is provided. Browser storage can be edited or deleted; neither timers nor scores are secure or certified. Export frequently. Restoring a backup replaces local data after confirmation. Browser profiles and app origins have separate storage.

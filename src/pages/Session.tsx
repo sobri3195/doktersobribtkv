@@ -8,7 +8,7 @@ import { expireSection, score } from "../services/exams";
 import { Card, MathText, Empty } from "../components/UI";
 function completed(d: Data, a: Attempt): Data {
   if (d.history.some((h) => h.id === a.id)) return { ...d, attempt: a };
-  const bank = mergeBank(d.localQuestions, d.disabled);
+  const bank = mergeBank(d.localQuestions, d.disabled, true);
   const result = score(a, bank);
   const now = Date.now();
   const answers =
@@ -39,7 +39,19 @@ function completed(d: Data, a: Attempt): Data {
     answers: [...d.answers, ...answers],
     history: [
       ...d.history,
-      { id: a.id, program: a.program, at: now, ...result, mode: a.mode },
+      {
+        id: a.id,
+        program: a.program,
+        at: now,
+        durationSeconds: Math.max(
+          0,
+          ((a.mode === "exam" ? Math.min(now, a.deadline) : now) -
+            a.startedAt) /
+            1000,
+        ),
+        ...result,
+        mode: a.mode,
+      },
     ],
   };
 }
@@ -71,7 +83,7 @@ export function Session() {
         Tidak ada sesi aktif. <Link to="/materi">Pilih materi</Link>
       </Empty>
     );
-  const bank = mergeBank(d.localQuestions, d.disabled);
+  const bank = mergeBank(d.localQuestions, d.disabled, true);
   const section = a.sections[a.section];
   const q = bank.find((q) => q.id === section.ids[a.current]);
   if (!q)
@@ -168,6 +180,13 @@ export function Session() {
           <p>
             {result.wrong} salah · {result.blank} kosong
           </p>
+          {a.program === "btkv" && (
+            <p>
+              Skor latihan: <strong>{result.practiceScore}</strong> · Benar{" "}
+              {a.scoring?.correct ?? 1}, salah {a.scoring?.wrong ?? 0}, kosong{" "}
+              {a.scoring?.blank ?? 0}
+            </p>
+          )}
           {a.program === "simak" && (
             <p>
               PEKA: <strong>{result.peka}</strong> · English:{" "}
@@ -266,8 +285,40 @@ export function Session() {
             <p>
               <MathText text={q.explanation} />
             </p>
-            <h3>Prinsip pembelajaran</h3>
-            <p>{q.learningPoint}</p>
+            {q.learningObjective && (
+              <>
+                <h3>Tujuan pembelajaran</h3>
+                <p>{q.learningObjective}</p>
+              </>
+            )}
+            <h3>
+              {q.clinicalPearl ? "Clinical pearl" : "Prinsip pembelajaran"}
+            </h3>
+            <p>{q.clinicalPearl || q.learningPoint}</p>
+            {q.program === "btkv" && (
+              <p className="notice">
+                Status editorial: {q.reviewStatus}. Materi latihan orisinal,
+                bukan soal resmi atau nasihat klinis. Belum ditinjau tenaga
+                medis.
+              </p>
+            )}
+            {q.references && (
+              <details>
+                <summary>Referensi dan status verifikasi</summary>
+                {q.references.map((ref) => (
+                  <p key={ref.url}>
+                    <a href={ref.url} target="_blank" rel="noopener noreferrer">
+                      Sumber penelusuran
+                    </a>{" "}
+                    —{" "}
+                    {ref.verificationStatus === "unverified"
+                      ? "Belum diverifikasi"
+                      : "Terverifikasi sumber"}
+                    . {ref.note}
+                  </p>
+                ))}
+              </details>
+            )}
             <details>
               <summary>Mengapa opsi lain kurang tepat?</summary>
               {Object.entries(q.distractorExplanations).map(([id, text]) => (

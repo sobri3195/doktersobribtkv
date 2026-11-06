@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useStore } from "../stores/useStore";
 import { mergeBank, bundled } from "../data/bank";
-import { questionSchema, type Question, categories } from "../services/model";
+import { type Question, categories } from "../services/model";
 import { parseQuestions, exportCSV } from "../services/import-export";
 import { download } from "../services/storage";
 import { Card, Heading } from "../components/UI";
@@ -148,7 +148,7 @@ export function Admin() {
           disabled={!editor.trim()}
           onClick={() => {
             try {
-              const q = questionSchema.parse(JSON.parse(editor));
+              const q = parseQuestions(JSON.stringify([JSON.parse(editor)]))[0];
               if (q.passageId) throw Error("passageId belum didukung.");
               setPreview([q]);
             } catch (err) {
