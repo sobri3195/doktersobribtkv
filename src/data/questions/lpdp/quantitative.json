@@ -1,0 +1,332 @@
+[
+  {
+    "id": "LPDP-QUANTITATIVE-001",
+    "program": "lpdp",
+    "category": "quantitative",
+    "topic": "Harga Rp200.000 mendapat diskon 15%. Berapa harga akhirnya",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Harga Rp200.000 mendapat diskon 15%. Berapa harga akhirnya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rp185.000"
+      },
+      {
+        "id": "B",
+        "text": "Rp150.000"
+      },
+      {
+        "id": "C",
+        "text": "Rp170.000"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Diskon = 0,15 × 200.000 = 30.000. Harga akhir = 200.000 − 30.000 = 170.000.",
+    "distractorExplanations": {
+      "A": "Pilihan “Rp185.000” tidak memenuhi konsep atau kondisi dalam soal. Diskon = 0,15 × 200.000 = 30.000. Harga akhir = 200.000 − 30.000 = 170.000.",
+      "B": "Pilihan “Rp150.000” tidak memenuhi konsep atau kondisi dalam soal. Diskon = 0,15 × 200.000 = 30.000. Harga akhir = 200.000 − 30.000 = 170.000."
+    },
+    "learningPoint": "Diskon = 0,15 × 200.000 = 30.000. Harga akhir = 200.000 − 30.000 = 170.000.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-QUANTITATIVE-002",
+    "program": "lpdp",
+    "category": "quantitative",
+    "topic": "Rasio siswa A:B adalah 3:5 dan totalnya 40. Berapa jumlah B",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Rasio siswa A:B adalah 3:5 dan totalnya 40. Berapa jumlah B?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "25"
+      },
+      {
+        "id": "C",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Total bagian = 3 + 5 = 8. Setiap bagian 40/8 = 5; B = 5 × 5 = 25.",
+    "distractorExplanations": {
+      "A": "Pilihan “20” tidak memenuhi konsep atau kondisi dalam soal. Total bagian = 3 + 5 = 8. Setiap bagian 40/8 = 5; B = 5 × 5 = 25.",
+      "C": "Pilihan “15” tidak memenuhi konsep atau kondisi dalam soal. Total bagian = 3 + 5 = 8. Setiap bagian 40/8 = 5; B = 5 × 5 = 25."
+    },
+    "learningPoint": "Total bagian = 3 + 5 = 8. Setiap bagian 40/8 = 5; B = 5 × 5 = 25.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-QUANTITATIVE-003",
+    "program": "lpdp",
+    "category": "quantitative",
+    "topic": "Tentukan x jika 3x + 7 = 28.",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Tentukan x jika 3x + 7 = 28.",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kurangi kedua ruas dengan 7: 3x = 21. Bagi 3 sehingga x = 7.",
+    "distractorExplanations": {
+      "B": "Pilihan “5” tidak memenuhi konsep atau kondisi dalam soal. Kurangi kedua ruas dengan 7: 3x = 21. Bagi 3 sehingga x = 7.",
+      "C": "Pilihan “9” tidak memenuhi konsep atau kondisi dalam soal. Kurangi kedua ruas dengan 7: 3x = 21. Bagi 3 sehingga x = 7."
+    },
+    "learningPoint": "Kurangi kedua ruas dengan 7: 3x = 21. Bagi 3 sehingga x = 7.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-QUANTITATIVE-004",
+    "program": "lpdp",
+    "category": "quantitative",
+    "topic": "Rata-rata 6, 8, 10, dan 16 adalah berapa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Rata-rata 6, 8, 10, dan 16 adalah berapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Jumlah = 40 dan banyak data = 4. Rata-rata = 40/4 = 10.",
+    "distractorExplanations": {
+      "A": "Pilihan “12” tidak memenuhi konsep atau kondisi dalam soal. Jumlah = 40 dan banyak data = 4. Rata-rata = 40/4 = 10.",
+      "B": "Pilihan “8” tidak memenuhi konsep atau kondisi dalam soal. Jumlah = 40 dan banyak data = 4. Rata-rata = 40/4 = 10."
+    },
+    "learningPoint": "Jumlah = 40 dan banyak data = 4. Rata-rata = 40/4 = 10.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-QUANTITATIVE-005",
+    "program": "lpdp",
+    "category": "quantitative",
+    "topic": "Satu dadu adil dilempar. Peluang hasil bilangan prima adalah bera",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Satu dadu adil dilempar. Peluang hasil bilangan prima adalah berapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2/3"
+      },
+      {
+        "id": "B",
+        "text": "1/2"
+      },
+      {
+        "id": "C",
+        "text": "1/3"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Hasil prima adalah 2, 3, dan 5. Tiga hasil dari enam memberi peluang 3/6 = 1/2.",
+    "distractorExplanations": {
+      "A": "Pilihan “2/3” tidak memenuhi konsep atau kondisi dalam soal. Hasil prima adalah 2, 3, dan 5. Tiga hasil dari enam memberi peluang 3/6 = 1/2.",
+      "C": "Pilihan “1/3” tidak memenuhi konsep atau kondisi dalam soal. Hasil prima adalah 2, 3, dan 5. Tiga hasil dari enam memberi peluang 3/6 = 1/2."
+    },
+    "learningPoint": "Hasil prima adalah 2, 3, dan 5. Tiga hasil dari enam memberi peluang 3/6 = 1/2.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-QUANTITATIVE-006",
+    "program": "lpdp",
+    "category": "quantitative",
+    "topic": "Keliling persegi 36 cm. Berapa luasnya",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Keliling persegi 36 cm. Berapa luasnya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "81 cm²"
+      },
+      {
+        "id": "B",
+        "text": "36 cm²"
+      },
+      {
+        "id": "C",
+        "text": "144 cm²"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sisi = 36/4 = 9 cm. Luas = 9 × 9 = 81 cm².",
+    "distractorExplanations": {
+      "B": "Pilihan “36 cm²” tidak memenuhi konsep atau kondisi dalam soal. Sisi = 36/4 = 9 cm. Luas = 9 × 9 = 81 cm².",
+      "C": "Pilihan “144 cm²” tidak memenuhi konsep atau kondisi dalam soal. Sisi = 36/4 = 9 cm. Luas = 9 × 9 = 81 cm²."
+    },
+    "learningPoint": "Sisi = 36/4 = 9 cm. Luas = 9 × 9 = 81 cm².",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-QUANTITATIVE-007",
+    "program": "lpdp",
+    "category": "quantitative",
+    "topic": "Suatu mobil menempuh 150 km dalam 2,5 jam. Kecepatan rata-ratanya",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Suatu mobil menempuh 150 km dalam 2,5 jam. Kecepatan rata-ratanya berapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "75 km/jam"
+      },
+      {
+        "id": "B",
+        "text": "50 km/jam"
+      },
+      {
+        "id": "C",
+        "text": "60 km/jam"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kecepatan rata-rata = jarak/waktu = 150/2,5 = 60 km/jam.",
+    "distractorExplanations": {
+      "A": "Pilihan “75 km/jam” tidak memenuhi konsep atau kondisi dalam soal. Kecepatan rata-rata = jarak/waktu = 150/2,5 = 60 km/jam.",
+      "B": "Pilihan “50 km/jam” tidak memenuhi konsep atau kondisi dalam soal. Kecepatan rata-rata = jarak/waktu = 150/2,5 = 60 km/jam."
+    },
+    "learningPoint": "Kecepatan rata-rata = jarak/waktu = 150/2,5 = 60 km/jam.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-QUANTITATIVE-008",
+    "program": "lpdp",
+    "category": "quantitative",
+    "topic": "Apa suku berikutnya dalam deret 2, 6, 12, 20, 30",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa suku berikutnya dalam deret 2, 6, 12, 20, 30?",
+    "options": [
+      {
+        "id": "A",
+        "text": "44"
+      },
+      {
+        "id": "B",
+        "text": "42"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Selisih berturut-turut 4, 6, 8, 10. Selisih berikutnya 12 sehingga 30 + 12 = 42.",
+    "distractorExplanations": {
+      "A": "Pilihan “44” tidak memenuhi konsep atau kondisi dalam soal. Selisih berturut-turut 4, 6, 8, 10. Selisih berikutnya 12 sehingga 30 + 12 = 42.",
+      "C": "Pilihan “40” tidak memenuhi konsep atau kondisi dalam soal. Selisih berturut-turut 4, 6, 8, 10. Selisih berikutnya 12 sehingga 30 + 12 = 42."
+    },
+    "learningPoint": "Selisih berturut-turut 4, 6, 8, 10. Selisih berikutnya 12 sehingga 30 + 12 = 42.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-QUANTITATIVE-009",
+    "program": "lpdp",
+    "category": "quantitative",
+    "topic": "Berapa nilai 3/4 + 2/3",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Berapa nilai 3/4 + 2/3?",
+    "options": [
+      {
+        "id": "A",
+        "text": "17/12"
+      },
+      {
+        "id": "B",
+        "text": "5/7"
+      },
+      {
+        "id": "C",
+        "text": "13/12"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Samakan penyebut menjadi 12: 9/12 + 8/12 = 17/12. Menjumlah pembilang dan penyebut langsung tidak sah.",
+    "distractorExplanations": {
+      "B": "Pilihan “5/7” tidak memenuhi konsep atau kondisi dalam soal. Samakan penyebut menjadi 12: 9/12 + 8/12 = 17/12. Menjumlah pembilang dan penyebut langsung tidak sah.",
+      "C": "Pilihan “13/12” tidak memenuhi konsep atau kondisi dalam soal. Samakan penyebut menjadi 12: 9/12 + 8/12 = 17/12. Menjumlah pembilang dan penyebut langsung tidak sah."
+    },
+    "learningPoint": "Samakan penyebut menjadi 12: 9/12 + 8/12 = 17/12. Menjumlah pembilang dan penyebut langsung tidak sah.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-QUANTITATIVE-010",
+    "program": "lpdp",
+    "category": "quantitative",
+    "topic": "Median data 9, 2, 7, 4, 12 adalah berapa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Median data 9, 2, 7, 4, 12 adalah berapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Urutan data adalah 2, 4, 7, 9, 12. Nilai tengah dari lima observasi ialah 7.",
+    "distractorExplanations": {
+      "A": "Pilihan “9” tidak memenuhi konsep atau kondisi dalam soal. Urutan data adalah 2, 4, 7, 9, 12. Nilai tengah dari lima observasi ialah 7.",
+      "B": "Pilihan “4” tidak memenuhi konsep atau kondisi dalam soal. Urutan data adalah 2, 4, 7, 9, 12. Nilai tengah dari lima observasi ialah 7."
+    },
+    "learningPoint": "Urutan data adalah 2, 4, 7, 9, 12. Nilai tengah dari lima observasi ialah 7.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  }
+]

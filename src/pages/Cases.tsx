@@ -1,0 +1,113 @@
+import { useState } from "react";
+import { cases } from "../data/cases";
+import { Card, Heading } from "../components/UI";
+export function Cases() {
+  const [id, setId] = useState("");
+  const [stage, setStage] = useState(0);
+  const [feedback, setFeedback] = useState("");
+  const c = cases.find((c) => c.id === id);
+  const names = [
+    "Presentasi klinis",
+    "Anamnesis",
+    "Pemeriksaan fisik",
+    "Pilihan pemeriksaan",
+    "Diagnosis banding",
+    "Keputusan tata laksana",
+    "Hasil",
+    "Penjelasan",
+  ];
+  const steps = c
+    ? [
+        c.presentation,
+        c.history,
+        c.examination,
+        c.investigations,
+        c.diagnosis,
+        c.management,
+        c.outcome,
+        c.explanation,
+      ]
+    : [];
+  const step = steps[stage];
+  return (
+    <>
+      <Heading eyebrow="BTKV • SIMULASI EDUKASI" title="Belajar dari kasus" />
+      <p className="notice">
+        Tiga kasus orisinal berstatus draf. Simulasi ini bukan ujian kompetensi
+        tervalidasi atau nasihat klinis.
+      </p>
+      {!c ? (
+        cases.map((c) => (
+          <Card key={c.id}>
+            <h2>{c.name}</h2>
+            <button
+              className="button"
+              onClick={() => {
+                setId(c.id);
+                setStage(0);
+              }}
+            >
+              Mulai kasus
+            </button>
+          </Card>
+        ))
+      ) : (
+        <Card>
+          <span className="eyebrow">{stage + 1} / 8</span>
+          <h2>{c.name}</h2>
+          <h3>{names[stage]}</h3>
+          {Array.isArray(step) ? (
+            step.map((s, i) => (
+              <button
+                className="case-choice"
+                key={s}
+                onClick={() => {
+                  if (i === 0) {
+                    setFeedback("");
+                    setStage(stage + 1);
+                  } else
+                    setFeedback(
+                      `Keputusan ini menunda atau mengabaikan masalah penting. Tinjau kembali temuan: ${c.examination}`,
+                    );
+                }}
+              >
+                {s}
+              </button>
+            ))
+          ) : (
+            <p>{step}</p>
+          )}
+          {feedback && (
+            <p className="notice" role="status">
+              {feedback}{" "}
+              <button onClick={() => setStage(2)}>
+                Kembali menilai pemeriksaan
+              </button>
+            </p>
+          )}
+          {!Array.isArray(step) && stage < 7 && (
+            <button
+              className="button"
+              onClick={() => {
+                setFeedback("");
+                setStage(stage + 1);
+              }}
+            >
+              Lanjutkan
+            </button>
+          )}
+          {stage === 7 && (
+            <button
+              onClick={() => {
+                setId("");
+                setStage(0);
+              }}
+            >
+              Pilih kasus lain
+            </button>
+          )}
+        </Card>
+      )}
+    </>
+  );
+}

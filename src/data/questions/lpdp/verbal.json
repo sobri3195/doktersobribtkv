@@ -1,0 +1,332 @@
+[
+  {
+    "id": "LPDP-VERBAL-001",
+    "program": "lpdp",
+    "category": "verbal",
+    "topic": "Hubungan kompas : arah setara dengan termometer : apa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Hubungan kompas : arah setara dengan termometer : apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Waktu"
+      },
+      {
+        "id": "B",
+        "text": "Jarak"
+      },
+      {
+        "id": "C",
+        "text": "Suhu"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kompas mengukur atau menunjukkan arah; termometer mengukur suhu. Waktu dan jarak memerlukan alat ukur berbeda.",
+    "distractorExplanations": {
+      "A": "Pilihan “Waktu” tidak memenuhi konsep atau kondisi dalam soal. Kompas mengukur atau menunjukkan arah; termometer mengukur suhu. Waktu dan jarak memerlukan alat ukur berbeda.",
+      "B": "Pilihan “Jarak” tidak memenuhi konsep atau kondisi dalam soal. Kompas mengukur atau menunjukkan arah; termometer mengukur suhu. Waktu dan jarak memerlukan alat ukur berbeda."
+    },
+    "learningPoint": "Kompas mengukur atau menunjukkan arah; termometer mengukur suhu. Waktu dan jarak memerlukan alat ukur berbeda.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-VERBAL-002",
+    "program": "lpdp",
+    "category": "verbal",
+    "topic": "Semua peserta seminar memiliki kartu. Rani peserta seminar. Apa k",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Semua peserta seminar memiliki kartu. Rani peserta seminar. Apa kesimpulan yang pasti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rani panitia seminar"
+      },
+      {
+        "id": "B",
+        "text": "Rani memiliki kartu"
+      },
+      {
+        "id": "C",
+        "text": "Semua pemilik kartu bernama Rani"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Keanggotaan Rani dalam kelompok peserta menjamin sifat yang berlaku bagi semua peserta. Kebalikan hubungan dan status panitia tidak diberikan.",
+    "distractorExplanations": {
+      "A": "Pilihan “Rani panitia seminar” tidak memenuhi konsep atau kondisi dalam soal. Keanggotaan Rani dalam kelompok peserta menjamin sifat yang berlaku bagi semua peserta. Kebalikan hubungan dan status panitia tidak diberikan.",
+      "C": "Pilihan “Semua pemilik kartu bernama Rani” tidak memenuhi konsep atau kondisi dalam soal. Keanggotaan Rani dalam kelompok peserta menjamin sifat yang berlaku bagi semua peserta. Kebalikan hubungan dan status panitia tidak diberikan."
+    },
+    "learningPoint": "Keanggotaan Rani dalam kelompok peserta menjamin sifat yang berlaku bagi semua peserta. Kebalikan hubungan dan status panitia tidak diberikan.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-VERBAL-003",
+    "program": "lpdp",
+    "category": "verbal",
+    "topic": "Sebagian peneliti adalah pengajar. Semua pengajar membaca jurnal.",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Sebagian peneliti adalah pengajar. Semua pengajar membaca jurnal. Apa yang pasti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebagian peneliti membaca jurnal"
+      },
+      {
+        "id": "B",
+        "text": "Semua peneliti pengajar"
+      },
+      {
+        "id": "C",
+        "text": "Tidak ada peneliti membaca jurnal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Peneliti yang juga pengajar termasuk kelompok pembaca jurnal. Premis tidak mencakup semua peneliti.",
+    "distractorExplanations": {
+      "B": "Pilihan “Semua peneliti pengajar” tidak memenuhi konsep atau kondisi dalam soal. Peneliti yang juga pengajar termasuk kelompok pembaca jurnal. Premis tidak mencakup semua peneliti.",
+      "C": "Pilihan “Tidak ada peneliti membaca jurnal” tidak memenuhi konsep atau kondisi dalam soal. Peneliti yang juga pengajar termasuk kelompok pembaca jurnal. Premis tidak mencakup semua peneliti."
+    },
+    "learningPoint": "Peneliti yang juga pengajar termasuk kelompok pembaca jurnal. Premis tidak mencakup semua peneliti.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-VERBAL-004",
+    "program": "lpdp",
+    "category": "verbal",
+    "topic": "Laporan menyebut penjualan naik setelah iklan baru. Mengapa belum",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Laporan menyebut penjualan naik setelah iklan baru. Mengapa belum cukup menyimpulkan iklan menyebabkan kenaikan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Urutan waktu membuktikan sebab pasti"
+      },
+      {
+        "id": "B",
+        "text": "Penjualan tidak pernah terukur"
+      },
+      {
+        "id": "C",
+        "text": "Faktor lain seperti musim belum dikendalikan"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Korelasi temporal tidak meniadakan penjelasan alternatif. Penjualan dapat diukur tetapi hubungan sebab memerlukan bukti lebih kuat.",
+    "distractorExplanations": {
+      "A": "Pilihan “Urutan waktu membuktikan sebab pasti” tidak memenuhi konsep atau kondisi dalam soal. Korelasi temporal tidak meniadakan penjelasan alternatif. Penjualan dapat diukur tetapi hubungan sebab memerlukan bukti lebih kuat.",
+      "B": "Pilihan “Penjualan tidak pernah terukur” tidak memenuhi konsep atau kondisi dalam soal. Korelasi temporal tidak meniadakan penjelasan alternatif. Penjualan dapat diukur tetapi hubungan sebab memerlukan bukti lebih kuat."
+    },
+    "learningPoint": "Korelasi temporal tidak meniadakan penjelasan alternatif. Penjualan dapat diukur tetapi hubungan sebab memerlukan bukti lebih kuat.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-VERBAL-005",
+    "program": "lpdp",
+    "category": "verbal",
+    "topic": "Jika hujan maka lapangan ditutup. Lapangan tidak ditutup. Apa kes",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Jika hujan maka lapangan ditutup. Lapangan tidak ditutup. Apa kesimpulan menurut premis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lapangan selalu ditutup"
+      },
+      {
+        "id": "B",
+        "text": "Tidak hujan"
+      },
+      {
+        "id": "C",
+        "text": "Pasti hujan"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Modus tollens menyimpulkan bukan hujan dari tidak adanya konsekuensi wajib. Kesimpulan berlaku dalam sistem premis yang diberikan.",
+    "distractorExplanations": {
+      "A": "Pilihan “Lapangan selalu ditutup” tidak memenuhi konsep atau kondisi dalam soal. Modus tollens menyimpulkan bukan hujan dari tidak adanya konsekuensi wajib. Kesimpulan berlaku dalam sistem premis yang diberikan.",
+      "C": "Pilihan “Pasti hujan” tidak memenuhi konsep atau kondisi dalam soal. Modus tollens menyimpulkan bukan hujan dari tidak adanya konsekuensi wajib. Kesimpulan berlaku dalam sistem premis yang diberikan."
+    },
+    "learningPoint": "Modus tollens menyimpulkan bukan hujan dari tidak adanya konsekuensi wajib. Kesimpulan berlaku dalam sistem premis yang diberikan.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-VERBAL-006",
+    "program": "lpdp",
+    "category": "verbal",
+    "topic": "Mana antonim paling tepat untuk transparan dalam konteks proses p",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Mana antonim paling tepat untuk transparan dalam konteks proses pengambilan keputusan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tertutup"
+      },
+      {
+        "id": "B",
+        "text": "Jernih"
+      },
+      {
+        "id": "C",
+        "text": "Terbuka"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Transparan berarti dapat ditelusuri secara terbuka. Tertutup merupakan lawannya; jernih dan terbuka justru dekat maknanya.",
+    "distractorExplanations": {
+      "B": "Pilihan “Jernih” tidak memenuhi konsep atau kondisi dalam soal. Transparan berarti dapat ditelusuri secara terbuka. Tertutup merupakan lawannya; jernih dan terbuka justru dekat maknanya.",
+      "C": "Pilihan “Terbuka” tidak memenuhi konsep atau kondisi dalam soal. Transparan berarti dapat ditelusuri secara terbuka. Tertutup merupakan lawannya; jernih dan terbuka justru dekat maknanya."
+    },
+    "learningPoint": "Transparan berarti dapat ditelusuri secara terbuka. Tertutup merupakan lawannya; jernih dan terbuka justru dekat maknanya.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-VERBAL-007",
+    "program": "lpdp",
+    "category": "verbal",
+    "topic": "Pustakawan : perpustakaan setara dengan kurator : apa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Pustakawan : perpustakaan setara dengan kurator : apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pelabuhan"
+      },
+      {
+        "id": "B",
+        "text": "Sawah"
+      },
+      {
+        "id": "C",
+        "text": "Museum"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Relasi adalah profesi dan tempat institusional kerjanya. Kurator mengelola koleksi museum, bukan pelabuhan atau sawah.",
+    "distractorExplanations": {
+      "A": "Pilihan “Pelabuhan” tidak memenuhi konsep atau kondisi dalam soal. Relasi adalah profesi dan tempat institusional kerjanya. Kurator mengelola koleksi museum, bukan pelabuhan atau sawah.",
+      "B": "Pilihan “Sawah” tidak memenuhi konsep atau kondisi dalam soal. Relasi adalah profesi dan tempat institusional kerjanya. Kurator mengelola koleksi museum, bukan pelabuhan atau sawah."
+    },
+    "learningPoint": "Relasi adalah profesi dan tempat institusional kerjanya. Kurator mengelola koleksi museum, bukan pelabuhan atau sawah.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-VERBAL-008",
+    "program": "lpdp",
+    "category": "verbal",
+    "topic": "Taman kota menurunkan suhu sekitar dan menyediakan ruang pertemua",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Taman kota menurunkan suhu sekitar dan menyediakan ruang pertemuan. Gagasan utama kalimat itu adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua pertemuan wajib di taman"
+      },
+      {
+        "id": "B",
+        "text": "Manfaat ekologis dan sosial taman kota"
+      },
+      {
+        "id": "C",
+        "text": "Taman hanya mempercantik warna kota"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dua manfaat dinyatakan langsung: pengaturan suhu dan ruang sosial. Pilihan lain membatasi atau melebihkan isi teks.",
+    "distractorExplanations": {
+      "A": "Pilihan “Semua pertemuan wajib di taman” tidak memenuhi konsep atau kondisi dalam soal. Dua manfaat dinyatakan langsung: pengaturan suhu dan ruang sosial. Pilihan lain membatasi atau melebihkan isi teks.",
+      "C": "Pilihan “Taman hanya mempercantik warna kota” tidak memenuhi konsep atau kondisi dalam soal. Dua manfaat dinyatakan langsung: pengaturan suhu dan ruang sosial. Pilihan lain membatasi atau melebihkan isi teks."
+    },
+    "learningPoint": "Dua manfaat dinyatakan langsung: pengaturan suhu dan ruang sosial. Pilihan lain membatasi atau melebihkan isi teks.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-VERBAL-009",
+    "program": "lpdp",
+    "category": "verbal",
+    "topic": "Tidak semua proposal diterima. Pernyataan setara yang paling tepa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Tidak semua proposal diterima. Pernyataan setara yang paling tepat adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ada proposal yang tidak diterima"
+      },
+      {
+        "id": "B",
+        "text": "Tidak ada proposal diterima"
+      },
+      {
+        "id": "C",
+        "text": "Semua proposal diterima"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Negasi terhadap semua diterima berarti paling sedikit satu tidak diterima. Ini tidak menyatakan seluruh proposal ditolak.",
+    "distractorExplanations": {
+      "B": "Pilihan “Tidak ada proposal diterima” tidak memenuhi konsep atau kondisi dalam soal. Negasi terhadap semua diterima berarti paling sedikit satu tidak diterima. Ini tidak menyatakan seluruh proposal ditolak.",
+      "C": "Pilihan “Semua proposal diterima” tidak memenuhi konsep atau kondisi dalam soal. Negasi terhadap semua diterima berarti paling sedikit satu tidak diterima. Ini tidak menyatakan seluruh proposal ditolak."
+    },
+    "learningPoint": "Negasi terhadap semua diterima berarti paling sedikit satu tidak diterima. Ini tidak menyatakan seluruh proposal ditolak.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-VERBAL-010",
+    "program": "lpdp",
+    "category": "verbal",
+    "topic": "Kata mitigasi dalam frasa mitigasi risiko berarti apa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Kata mitigasi dalam frasa mitigasi risiko berarti apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jaminan tidak ada risiko sama sekali"
+      },
+      {
+        "id": "B",
+        "text": "Tindakan memperbesar risiko"
+      },
+      {
+        "id": "C",
+        "text": "Upaya mengurangi dampak risiko"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Mitigasi mengurangi kemungkinan atau dampak, bukan menjamin risiko hilang. Memperbesar risiko berlawanan dengan makna tersebut.",
+    "distractorExplanations": {
+      "A": "Pilihan “Jaminan tidak ada risiko sama sekali” tidak memenuhi konsep atau kondisi dalam soal. Mitigasi mengurangi kemungkinan atau dampak, bukan menjamin risiko hilang. Memperbesar risiko berlawanan dengan makna tersebut.",
+      "B": "Pilihan “Tindakan memperbesar risiko” tidak memenuhi konsep atau kondisi dalam soal. Mitigasi mengurangi kemungkinan atau dampak, bukan menjamin risiko hilang. Memperbesar risiko berlawanan dengan makna tersebut."
+    },
+    "learningPoint": "Mitigasi mengurangi kemungkinan atau dampak, bukan menjamin risiko hilang. Memperbesar risiko berlawanan dengan makna tersebut.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  }
+]

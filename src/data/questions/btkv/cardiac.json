@@ -1,0 +1,332 @@
+[
+  {
+    "id": "BTKV-CARDIAC-001",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Arteri koroner kiri utama umumnya bercabang menjadi pembuluh apa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Arteri koroner kiri utama umumnya bercabang menjadi pembuluh apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arteri renalis dan lienalis"
+      },
+      {
+        "id": "B",
+        "text": "Arteri pulmonalis kanan dan kiri"
+      },
+      {
+        "id": "C",
+        "text": "LAD dan sirkumfleksa"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "LAD dan sirkumfleksa merupakan cabang utama koroner kiri. Arteri renal dan lienal berasal dari sirkulasi sistemik lain; arteri pulmonalis bukan koroner.",
+    "distractorExplanations": {
+      "A": "Pilihan “Arteri renalis dan lienalis” tidak memenuhi konsep atau kondisi dalam soal. LAD dan sirkumfleksa merupakan cabang utama koroner kiri. Arteri renal dan lienal berasal dari sirkulasi sistemik lain; arteri pulmonalis bukan koroner.",
+      "B": "Pilihan “Arteri pulmonalis kanan dan kiri” tidak memenuhi konsep atau kondisi dalam soal. LAD dan sirkumfleksa merupakan cabang utama koroner kiri. Arteri renal dan lienal berasal dari sirkulasi sistemik lain; arteri pulmonalis bukan koroner."
+    },
+    "learningPoint": "LAD dan sirkumfleksa merupakan cabang utama koroner kiri. Arteri renal dan lienal berasal dari sirkulasi sistemik lain; arteri pulmonalis bukan koroner.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-002",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Apa akibat hemodinamik utama tamponade jantung",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa akibat hemodinamik utama tamponade jantung?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Penurunan tekanan perikardial"
+      },
+      {
+        "id": "B",
+        "text": "Gangguan pengisian diastolik"
+      },
+      {
+        "id": "C",
+        "text": "Peningkatan bebas pengisian ventrikel"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tekanan perikardial yang tinggi menghambat pengisian jantung dan dapat menurunkan curah jantung. Pengisian tidak menjadi bebas dan tekanan justru meningkat.",
+    "distractorExplanations": {
+      "A": "Pilihan “Penurunan tekanan perikardial” tidak memenuhi konsep atau kondisi dalam soal. Tekanan perikardial yang tinggi menghambat pengisian jantung dan dapat menurunkan curah jantung. Pengisian tidak menjadi bebas dan tekanan justru meningkat.",
+      "C": "Pilihan “Peningkatan bebas pengisian ventrikel” tidak memenuhi konsep atau kondisi dalam soal. Tekanan perikardial yang tinggi menghambat pengisian jantung dan dapat menurunkan curah jantung. Pengisian tidak menjadi bebas dan tekanan justru meningkat."
+    },
+    "learningPoint": "Tekanan perikardial yang tinggi menghambat pengisian jantung dan dapat menurunkan curah jantung. Pengisian tidak menjadi bebas dan tekanan justru meningkat.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-003",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Bising sistolik crescendo-decrescendo yang menjalar ke karotis pa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Bising sistolik crescendo-decrescendo yang menjalar ke karotis paling khas untuk apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stenosis aorta"
+      },
+      {
+        "id": "B",
+        "text": "Regurgitasi mitral"
+      },
+      {
+        "id": "C",
+        "text": "Stenosis mitral"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Aliran melewati katup aorta yang menyempit menghasilkan bising ejeksi. Regurgitasi mitral biasanya holosistolik, sedangkan stenosis mitral dominan diastolik.",
+    "distractorExplanations": {
+      "B": "Pilihan “Regurgitasi mitral” tidak memenuhi konsep atau kondisi dalam soal. Aliran melewati katup aorta yang menyempit menghasilkan bising ejeksi. Regurgitasi mitral biasanya holosistolik, sedangkan stenosis mitral dominan diastolik.",
+      "C": "Pilihan “Stenosis mitral” tidak memenuhi konsep atau kondisi dalam soal. Aliran melewati katup aorta yang menyempit menghasilkan bising ejeksi. Regurgitasi mitral biasanya holosistolik, sedangkan stenosis mitral dominan diastolik."
+    },
+    "learningPoint": "Aliran melewati katup aorta yang menyempit menghasilkan bising ejeksi. Regurgitasi mitral biasanya holosistolik, sedangkan stenosis mitral dominan diastolik.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-004",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Apa tujuan oksigenator pada cardiopulmonary bypass",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa tujuan oksigenator pada cardiopulmonary bypass?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menutup defek septum"
+      },
+      {
+        "id": "B",
+        "text": "Mengukur panjang sternum"
+      },
+      {
+        "id": "C",
+        "text": "Pertukaran gas ekstrakorporeal"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Oksigenator menambahkan oksigen dan mengeluarkan karbon dioksida dari darah di sirkuit. Ia tidak menutup kelainan anatomi atau mengukur tulang.",
+    "distractorExplanations": {
+      "A": "Pilihan “Menutup defek septum” tidak memenuhi konsep atau kondisi dalam soal. Oksigenator menambahkan oksigen dan mengeluarkan karbon dioksida dari darah di sirkuit. Ia tidak menutup kelainan anatomi atau mengukur tulang.",
+      "B": "Pilihan “Mengukur panjang sternum” tidak memenuhi konsep atau kondisi dalam soal. Oksigenator menambahkan oksigen dan mengeluarkan karbon dioksida dari darah di sirkuit. Ia tidak menutup kelainan anatomi atau mengukur tulang."
+    },
+    "learningPoint": "Oksigenator menambahkan oksigen dan mengeluarkan karbon dioksida dari darah di sirkuit. Ia tidak menutup kelainan anatomi atau mengukur tulang.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-005",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Defek septum atrium sekundum terletak terutama di mana",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Defek septum atrium sekundum terletak terutama di mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Katup pulmonal"
+      },
+      {
+        "id": "B",
+        "text": "Fossa ovalis"
+      },
+      {
+        "id": "C",
+        "text": "Septum ventrikel muskular"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Fossa ovalis merupakan lokasi khas ASD sekundum. Defek ventrikel dan kelainan katup pulmonal merupakan struktur yang berbeda.",
+    "distractorExplanations": {
+      "A": "Pilihan “Katup pulmonal” tidak memenuhi konsep atau kondisi dalam soal. Fossa ovalis merupakan lokasi khas ASD sekundum. Defek ventrikel dan kelainan katup pulmonal merupakan struktur yang berbeda.",
+      "C": "Pilihan “Septum ventrikel muskular” tidak memenuhi konsep atau kondisi dalam soal. Fossa ovalis merupakan lokasi khas ASD sekundum. Defek ventrikel dan kelainan katup pulmonal merupakan struktur yang berbeda."
+    },
+    "learningPoint": "Fossa ovalis merupakan lokasi khas ASD sekundum. Defek ventrikel dan kelainan katup pulmonal merupakan struktur yang berbeda.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-006",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Mengapa regurgitasi mitral berat dapat menyebabkan kongesti paru",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Mengapa regurgitasi mitral berat dapat menyebabkan kongesti paru?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tekanan atrium kiri meningkat"
+      },
+      {
+        "id": "B",
+        "text": "Darah tidak pernah kembali ke atrium kiri"
+      },
+      {
+        "id": "C",
+        "text": "Tekanan vena pulmonalis selalu menurun"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Aliran balik sistolik ke atrium kiri dapat meningkatkan tekanan yang diteruskan ke vena pulmonalis. Pilihan lain berlawanan dengan mekanisme tersebut.",
+    "distractorExplanations": {
+      "B": "Pilihan “Darah tidak pernah kembali ke atrium kiri” tidak memenuhi konsep atau kondisi dalam soal. Aliran balik sistolik ke atrium kiri dapat meningkatkan tekanan yang diteruskan ke vena pulmonalis. Pilihan lain berlawanan dengan mekanisme tersebut.",
+      "C": "Pilihan “Tekanan vena pulmonalis selalu menurun” tidak memenuhi konsep atau kondisi dalam soal. Aliran balik sistolik ke atrium kiri dapat meningkatkan tekanan yang diteruskan ke vena pulmonalis. Pilihan lain berlawanan dengan mekanisme tersebut."
+    },
+    "learningPoint": "Aliran balik sistolik ke atrium kiri dapat meningkatkan tekanan yang diteruskan ke vena pulmonalis. Pilihan lain berlawanan dengan mekanisme tersebut.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-007",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Apa yang dimaksud preload dalam penilaian fisiologi jantung",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa yang dimaksud preload dalam penilaian fisiologi jantung?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Resistensi yang selalu sama dengan tekanan darah"
+      },
+      {
+        "id": "B",
+        "text": "Frekuensi impuls nodus sinus"
+      },
+      {
+        "id": "C",
+        "text": "Peregangan miokard menjelang kontraksi"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Preload berkaitan dengan keadaan pengisian dan panjang serat sebelum sistol. Afterload berkaitan dengan beban ejeksi, sedangkan frekuensi bukan preload.",
+    "distractorExplanations": {
+      "A": "Pilihan “Resistensi yang selalu sama dengan tekanan darah” tidak memenuhi konsep atau kondisi dalam soal. Preload berkaitan dengan keadaan pengisian dan panjang serat sebelum sistol. Afterload berkaitan dengan beban ejeksi, sedangkan frekuensi bukan preload.",
+      "B": "Pilihan “Frekuensi impuls nodus sinus” tidak memenuhi konsep atau kondisi dalam soal. Preload berkaitan dengan keadaan pengisian dan panjang serat sebelum sistol. Afterload berkaitan dengan beban ejeksi, sedangkan frekuensi bukan preload."
+    },
+    "learningPoint": "Preload berkaitan dengan keadaan pengisian dan panjang serat sebelum sistol. Afterload berkaitan dengan beban ejeksi, sedangkan frekuensi bukan preload.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-008",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Komplikasi neurologis akut setelah operasi aorta memerlukan evalu",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Komplikasi neurologis akut setelah operasi aorta memerlukan evaluasi segera terutama untuk apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karies gigi"
+      },
+      {
+        "id": "B",
+        "text": "Stroke atau hipoperfusi serebral"
+      },
+      {
+        "id": "C",
+        "text": "Presbiopia tanpa komplikasi"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Emboli dan gangguan perfusi dapat menyebabkan defisit neurologis perioperatif. Presbiopia atau karies tidak menjelaskan defisit akut.",
+    "distractorExplanations": {
+      "A": "Pilihan “Karies gigi” tidak memenuhi konsep atau kondisi dalam soal. Emboli dan gangguan perfusi dapat menyebabkan defisit neurologis perioperatif. Presbiopia atau karies tidak menjelaskan defisit akut.",
+      "C": "Pilihan “Presbiopia tanpa komplikasi” tidak memenuhi konsep atau kondisi dalam soal. Emboli dan gangguan perfusi dapat menyebabkan defisit neurologis perioperatif. Presbiopia atau karies tidak menjelaskan defisit akut."
+    },
+    "learningPoint": "Emboli dan gangguan perfusi dapat menyebabkan defisit neurologis perioperatif. Presbiopia atau karies tidak menjelaskan defisit akut.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-009",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Pemeriksaan apa yang paling langsung menilai gerakan daun katup d",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Pemeriksaan apa yang paling langsung menilai gerakan daun katup dan fraksi ejeksi secara noninvasif?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ekokardiografi"
+      },
+      {
+        "id": "B",
+        "text": "Audiometri"
+      },
+      {
+        "id": "C",
+        "text": "Spirometri"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ekokardiografi menilai struktur dan fungsi jantung. Audiometri menilai pendengaran dan spirometri menilai ventilasi.",
+    "distractorExplanations": {
+      "B": "Pilihan “Audiometri” tidak memenuhi konsep atau kondisi dalam soal. Ekokardiografi menilai struktur dan fungsi jantung. Audiometri menilai pendengaran dan spirometri menilai ventilasi.",
+      "C": "Pilihan “Spirometri” tidak memenuhi konsep atau kondisi dalam soal. Ekokardiografi menilai struktur dan fungsi jantung. Audiometri menilai pendengaran dan spirometri menilai ventilasi."
+    },
+    "learningPoint": "Ekokardiografi menilai struktur dan fungsi jantung. Audiometri menilai pendengaran dan spirometri menilai ventilasi.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-CARDIAC-010",
+    "program": "btkv",
+    "category": "cardiac",
+    "topic": "Pada diseksi aorta tipe A, bagian aorta mana yang terlibat",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Pada diseksi aorta tipe A, bagian aorta mana yang terlibat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya arteri poplitea"
+      },
+      {
+        "id": "B",
+        "text": "Hanya aorta abdominal tanpa asendens"
+      },
+      {
+        "id": "C",
+        "text": "Aorta asendens"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Klasifikasi Stanford A ditentukan oleh keterlibatan aorta asendens. Keterlibatan distal saja tidak memenuhi definisi ini.",
+    "distractorExplanations": {
+      "A": "Pilihan “Hanya arteri poplitea” tidak memenuhi konsep atau kondisi dalam soal. Klasifikasi Stanford A ditentukan oleh keterlibatan aorta asendens. Keterlibatan distal saja tidak memenuhi definisi ini.",
+      "B": "Pilihan “Hanya aorta abdominal tanpa asendens” tidak memenuhi konsep atau kondisi dalam soal. Klasifikasi Stanford A ditentukan oleh keterlibatan aorta asendens. Keterlibatan distal saja tidak memenuhi definisi ini."
+    },
+    "learningPoint": "Klasifikasi Stanford A ditentukan oleh keterlibatan aorta asendens. Keterlibatan distal saja tidak memenuhi definisi ini.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  }
+]

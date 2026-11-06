@@ -1,0 +1,76 @@
+export const cases = [
+  {
+    id: "tension",
+    name: "Dada akut setelah trauma",
+    presentation:
+      "Seorang dewasa mengalami sesak setelah trauma dada. Ini simulasi pendidikan, bukan petunjuk perawatan pasien.",
+    history:
+      "Sesak memburuk cepat setelah benturan. Tidak ada riwayat penyakit paru yang diketahui.",
+    examination:
+      "Hipotensi, takikardia, suara napas sangat berkurang di satu sisi.",
+    investigations: [
+      "Evaluasi klinis segera sambil memanggil tim trauma",
+      "Tunda semua tindakan sampai CT elektif tersedia",
+    ],
+    diagnosis: ["Pneumotoraks tensi", "Gastritis tanpa komplikasi"],
+    management: [
+      "Penanganan emergensi oleh tim terlatih sesuai protokol setempat",
+      "Observasi rutin tanpa eskalasi",
+    ],
+    outcome:
+      "Dalam simulasi, eskalasi cepat memungkinkan penanganan syok obstruktif dan evaluasi cedera lain.",
+    explanation:
+      "Tekanan pleura tinggi dapat menurunkan aliran balik vena. Ketidakstabilan membutuhkan penilaian segera; penundaan demi pencitraan elektif dapat berbahaya.",
+  },
+  {
+    id: "tamponade",
+    name: "Hipotensi setelah operasi jantung",
+    presentation:
+      "Pasien pascaoperasi jantung mengalami tekanan darah menurun.",
+    history:
+      "Penurunan tekanan terjadi bersama berkurangnya keluaran drain; riwayat operasi ditinjau.",
+    examination:
+      "Takikardia dan tanda perfusi perifer buruk. Temuan ini tidak spesifik.",
+    investigations: [
+      "Eskalasi ke tim bedah dan ekokardiografi segera sesuai kondisi",
+      "Hanya kontrol rawat jalan bulan depan",
+    ],
+    diagnosis: [
+      "Tamponade perlu disingkirkan bersama penyebab syok lainnya",
+      "Semua hipotensi pasti akibat kurang tidur",
+    ],
+    management: [
+      "Penilaian dan kontrol sumber oleh tim bedah segera",
+      "Abaikan perubahan karena baru operasi",
+    ],
+    outcome:
+      "Tim menilai penyebab syok, termasuk kemungkinan kompresi oleh darah atau bekuan perikardial.",
+    explanation:
+      "Tamponade pascaoperasi dapat terlokulasi sehingga temuan klasik tidak selalu lengkap. Perlu evaluasi klinis, pencitraan, dan tim yang sesuai.",
+  },
+  {
+    id: "ischemia",
+    name: "Tungkai mendadak dingin",
+    presentation:
+      "Pasien datang dengan nyeri tungkai mendadak dan perubahan warna.",
+    history: "Terdapat riwayat fibrilasi atrium. Waktu mulai nyeri dicatat.",
+    examination:
+      "Tungkai dingin, nadi distal tidak teraba; fungsi sensorik dan motorik harus dinilai.",
+    investigations: [
+      "Penilaian viabilitas tungkai dan eskalasi vaskular segera",
+      "Menunggu beberapa hari untuk melihat perubahan",
+    ],
+    diagnosis: [
+      "Iskemia tungkai akut",
+      "Varises sederhana sebagai satu-satunya diagnosis",
+    ],
+    management: [
+      "Strategi reperfusi ditentukan segera oleh tim vaskular sesuai viabilitas",
+      "Pulang tanpa penilaian perfusi",
+    ],
+    outcome:
+      "Penilaian segera membantu menentukan urgensi reperfusi dan mengurangi keterlambatan.",
+    explanation:
+      "Iskemia akut dapat mengancam tungkai. Status motorik dan sensorik menentukan ancaman viabilitas; waktu serta penyebab memengaruhi keputusan tim.",
+  },
+];
