@@ -14,7 +14,7 @@ test("mobile study, bookmarks, persistence, statistics and routes", async ({
   await page
     .getByRole("button", { name: "Penalaran Verbal", exact: true })
     .click();
-  await expect(page.getByText("10 soal tersedia")).toBeVisible();
+  await expect(page.getByText("50 soal tersedia")).toBeVisible();
   await page.getByRole("button", { name: "Latihan 10 soal" }).click();
   await expect(page.getByRole("heading", { level: 2 })).toBeVisible();
   await page.locator(".option").first().click();
@@ -83,7 +83,7 @@ test("PWA precaches routes for offline cold start", async ({
   await expect(
     page.getByRole("heading", { name: "Ruang materi" }),
   ).toBeVisible();
-  await expect(page.getByText("30 soal tersedia")).toBeVisible();
+  await expect(page.getByText("150 soal tersedia")).toBeVisible();
   await page.getByLabel("Program belajar").selectOption("btkv");
   await expect(page.getByText("150 soal tersedia")).toBeVisible();
   await page.getByRole("button", { name: "Latihan 10 soal" }).click();
@@ -146,11 +146,15 @@ test("backup restore preview and local question management", async ({
     { id: "A", text: "4" },
     { id: "B", text: "3" },
     { id: "C", text: "5" },
+    { id: "D", text: "6" },
+    { id: "E", text: "7" },
   ];
   original.correctAnswer = "A";
   original.distractorExplanations = {
     B: "Dua ditambah dua bukan tiga.",
     C: "Dua ditambah dua bukan lima.",
+    D: "Dua ditambah dua bukan enam.",
+    E: "Dua ditambah dua bukan tujuh.",
   };
   await editor.fill(JSON.stringify(original));
   await page.getByRole("button", { name: "Validasi & pratinjau" }).click();
@@ -255,5 +259,129 @@ test("BTKV category tryout uses five options, configurable scoring and no early 
   expect(saved.practiceScore).toBeDefined();
   await expect(
     page.getByRole("heading", { name: "Clinical pearl" }),
+  ).toBeVisible();
+});
+test("LPDP full 2026 simulation locks sections, restores answers and reports actual subtest scores", async ({
+  page,
+}) => {
+  await onboard(page);
+  await page.goto("/tryout");
+  await expect(
+    page.getByRole("heading", {
+      name: "Simulasi Tes Bakat Skolastik LPDP 2026",
+    }),
+  ).toBeVisible();
+  await expect(page.getByText(/LPDP_TBS_2026/)).toBeVisible();
+  await page.getByRole("button", { name: "Mulai simulasi lengkap" }).click();
+  await expect(page.getByText("verbal · Soal 1 dari 23")).toBeVisible();
+  await expect(page.getByRole("radio")).toHaveCount(5);
+  await page.getByRole("radio").first().check();
+  await expect(page.getByText("Langkah penyelesaian")).toHaveCount(0);
+  await expect(
+    page.getByRole("navigation", { name: "Navigasi utama" }),
+  ).toHaveCount(0);
+  await page.reload();
+  await expect(page.getByRole("radio", { checked: true })).toHaveCount(1);
+  await page.getByRole("button", { name: "Kunci bagian & lanjut" }).click();
+  await page.getByRole("button", { name: "Ya, lanjutkan" }).click();
+  await expect(page.getByText("quantitative · Soal 1 dari 25")).toBeVisible();
+  await expect(page.locator(".timer")).toContainText("39:");
+  await page.getByRole("radio").first().check();
+  await expect(page.getByText("Langkah penyelesaian")).toHaveCount(0);
+  await page.getByRole("button", { name: "Kunci bagian & lanjut" }).click();
+  await page.getByRole("button", { name: "Ya, lanjutkan" }).click();
+  await expect(
+    page.getByText("problem-solving · Soal 1 dari 12"),
+  ).toBeVisible();
+  await page.getByRole("radio").first().check();
+  await page.getByRole("button", { name: "Selesaikan sesi" }).click();
+  await page.getByRole("button", { name: "Ya, lanjutkan" }).click();
+  await expect(
+    page.getByRole("heading", { name: "Skor per subtes" }),
+  ).toBeVisible();
+  const d = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem("nexam:data")!),
+  );
+  const h = d.history.at(-1);
+  expect(h.total).toBe(60);
+  expect(h.blank).toBe(57);
+  expect(h.practiceScore).toBe(h.correct * 5);
+  expect(h.subtests.map((s: { category: string }) => s.category)).toEqual([
+    "verbal",
+    "quantitative",
+    "problem-solving",
+  ]);
+  expect(
+    h.subtests.reduce((n: number, s: { score: number }) => n + s.score, 0),
+  ).toBe(h.practiceScore);
+  expect(d.attempt.blueprintId).toBe("LPDP_TBS_2026");
+  await page
+    .getByRole("navigation", { name: "Navigasi utama" })
+    .getByRole("link", { name: "Statistik" })
+    .click();
+  await expect(
+    page.getByRole("heading", { name: "Waktu dan kesulitan LPDP" }),
+  ).toBeVisible();
+  await page.goto("/profil");
+  await page.getByRole("button", { name: "Reset kemajuan belajar" }).click();
+  await page.getByRole("button", { name: "Ya, hapus" }).click();
+  await page.getByLabel("Pilih cadangan JSON").setInputFiles({
+    name: "lpdp-backup.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify(d)),
+  });
+  await page.getByRole("button", { name: "Konfirmasi pulihkan" }).click();
+  expect(
+    await page.evaluate(
+      () =>
+        JSON.parse(localStorage.getItem("nexam:data")!).history.at(-1)
+          .practiceScore,
+    ),
+  ).toBe(h.practiceScore);
+});
+test("LPDP shared passages and labelled data tables remain available offline", async ({
+  page,
+  context,
+}) => {
+  await onboard(page);
+  await page.evaluate(async () => {
+    await navigator.serviceWorker.ready;
+  });
+  await page.reload();
+  await expect
+    .poll(() => page.evaluate(() => !!navigator.serviceWorker.controller))
+    .toBe(true);
+  await context.setOffline(true);
+  await page.goto("/materi");
+  await page
+    .getByLabel("Cari soal atau topik")
+    .fill("alasan utama layanan tatap muka");
+  await page
+    .getByRole("button", { name: "Latihan 1 soal", exact: true })
+    .click();
+  await expect(
+    page.getByRole("heading", { name: "Layanan digital dan akses warga" }),
+  ).toBeVisible();
+  await page.getByRole("radio").first().check();
+  await expect(
+    page.getByRole("heading", { name: "Langkah penyelesaian" }),
+  ).toBeVisible();
+  await page.getByRole("button", { name: "Selesaikan sesi" }).click();
+  await page.getByRole("button", { name: "Ya, lanjutkan" }).click();
+  await page.goto("/materi");
+  await page.getByLabel("Cari soal atau topik").fill("LPDP-QDATA-01");
+  await page
+    .getByRole("button", { name: "Latihan 1 soal", exact: true })
+    .click();
+  await expect(page.getByRole("table")).toBeVisible();
+  await expect(
+    page.getByRole("columnheader", { name: "Produksi", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "Langkah penyelesaian" }),
+  ).toHaveCount(0);
+  await page.getByRole("radio").first().check();
+  await expect(
+    page.getByRole("heading", { name: "Hasil akhir & pemeriksaan" }),
   ).toBeVisible();
 });

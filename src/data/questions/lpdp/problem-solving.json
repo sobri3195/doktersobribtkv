@@ -1,332 +1,3122 @@
 [
   {
-    "id": "LPDP-PROBLEM-SOLVING-001",
+    "id": "LPDP-PS-001",
+    "number": 1,
     "program": "lpdp",
     "category": "problem-solving",
-    "topic": "A harus sebelum B, dan B sebelum C. Urutan mana yang memenuhi sem",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "P01",
+    "topic": "Analisis Kasus dan Identifikasi Masalah",
+    "subtopic": "Hambatan informasi",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis hambatan informasi dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "A harus sebelum B, dan B sebelum C. Urutan mana yang memenuhi semua syarat?",
+    "question": "Perpustakaan kampus memperpanjang jam buka dua jam, tetapi jumlah kunjungan tetap. Survei menyebut sebagian besar calon pengunjung tidak mengetahui perubahan jadwal. Tujuan tim ialah meningkatkan pemanfaatan tambahan jam sebelum menambah biaya lagi. Langkah awal paling tepat berdasarkan data itu apa?",
     "options": [
       {
         "id": "A",
-        "text": "B-A-C"
+        "text": "Mengumumkan jadwal baru melalui kanal yang menjangkau calon pengunjung lalu mengevaluasi"
       },
       {
         "id": "B",
-        "text": "C-B-A"
+        "text": "Menambah dua jam lagi tanpa komunikasi"
       },
       {
         "id": "C",
-        "text": "A-B-C"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Relasi transitif mensyaratkan A mendahului B dan C, sedangkan B mendahului C. Dua urutan lainnya melanggar setidaknya satu syarat.",
-    "distractorExplanations": {
-      "A": "Pilihan “B-A-C” tidak memenuhi konsep atau kondisi dalam soal. Relasi transitif mensyaratkan A mendahului B dan C, sedangkan B mendahului C. Dua urutan lainnya melanggar setidaknya satu syarat.",
-      "B": "Pilihan “C-B-A” tidak memenuhi konsep atau kondisi dalam soal. Relasi transitif mensyaratkan A mendahului B dan C, sedangkan B mendahului C. Dua urutan lainnya melanggar setidaknya satu syarat."
-    },
-    "learningPoint": "Relasi transitif mensyaratkan A mendahului B dan C, sedangkan B mendahului C. Dua urutan lainnya melanggar setidaknya satu syarat.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-PROBLEM-SOLVING-002",
-    "program": "lpdp",
-    "category": "problem-solving",
-    "topic": "Tiga mesin identik membuat 90 unit dalam 2 jam. Berapa mesin dipe",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Tiga mesin identik membuat 90 unit dalam 2 jam. Berapa mesin diperlukan untuk 150 unit dalam 2 jam?",
-    "options": [
-      {
-        "id": "A",
-        "text": "6"
+        "text": "Mengurangi koleksi buku"
       },
       {
-        "id": "B",
-        "text": "5"
+        "id": "D",
+        "text": "Menganggap tambahan jam pasti tidak bermanfaat"
       },
       {
-        "id": "C",
-        "text": "4"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "Satu mesin menghasilkan 90/(3×2) = 15 unit per jam. Untuk 150 unit dalam 2 jam dibutuhkan 150/30 = 5 mesin.",
-    "distractorExplanations": {
-      "A": "Pilihan “6” tidak memenuhi konsep atau kondisi dalam soal. Satu mesin menghasilkan 90/(3×2) = 15 unit per jam. Untuk 150 unit dalam 2 jam dibutuhkan 150/30 = 5 mesin.",
-      "C": "Pilihan “4” tidak memenuhi konsep atau kondisi dalam soal. Satu mesin menghasilkan 90/(3×2) = 15 unit per jam. Untuk 150 unit dalam 2 jam dibutuhkan 150/30 = 5 mesin."
-    },
-    "learningPoint": "Satu mesin menghasilkan 90/(3×2) = 15 unit per jam. Untuk 150 unit dalam 2 jam dibutuhkan 150/30 = 5 mesin.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-PROBLEM-SOLVING-003",
-    "program": "lpdp",
-    "category": "problem-solving",
-    "topic": "Bus berangkat tiap 18 menit mulai 08.00. Penumpang tiba 08.25. Be",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Bus berangkat tiap 18 menit mulai 08.00. Penumpang tiba 08.25. Berapa menit ia menunggu?",
-    "options": [
-      {
-        "id": "A",
-        "text": "11"
-      },
-      {
-        "id": "B",
-        "text": "7"
-      },
-      {
-        "id": "C",
-        "text": "18"
+        "id": "E",
+        "text": "Mengganti seluruh petugas segera"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Keberangkatan berturut-turut 08.00, 08.18, 08.36. Sesudah 08.25 bus terdekat 08.36 sehingga menunggu 11 menit.",
-    "distractorExplanations": {
-      "B": "Pilihan “7” tidak memenuhi konsep atau kondisi dalam soal. Keberangkatan berturut-turut 08.00, 08.18, 08.36. Sesudah 08.25 bus terdekat 08.36 sehingga menunggu 11 menit.",
-      "C": "Pilihan “18” tidak memenuhi konsep atau kondisi dalam soal. Keberangkatan berturut-turut 08.00, 08.18, 08.36. Sesudah 08.25 bus terdekat 08.36 sehingga menunggu 11 menit."
-    },
-    "learningPoint": "Keberangkatan berturut-turut 08.00, 08.18, 08.36. Sesudah 08.25 bus terdekat 08.36 sehingga menunggu 11 menit.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-PROBLEM-SOLVING-004",
-    "program": "lpdp",
-    "category": "problem-solving",
-    "topic": "Anggaran Rp900.000 harus membiayai 3 kegiatan sama besar. Satu ke",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Anggaran Rp900.000 harus membiayai 3 kegiatan sama besar. Satu kegiatan mendapat tambahan Rp60.000 dari luar. Berapa sisa anggaran awal setelah alokasi merata?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Rp60.000"
-      },
-      {
-        "id": "B",
-        "text": "Rp300.000"
-      },
-      {
-        "id": "C",
-        "text": "Rp0"
-      }
+    "explanation": "Jam sudah ditambah tetapi informasi belum menjangkau pengguna.\n\nHambatan yang teridentifikasi adalah kesadaran jadwal.\n\nUji komunikasi menargetkan hambatan tersebut sebelum perluasan biaya.",
+    "stepByStepSolution": [
+      "Jam sudah ditambah tetapi informasi belum menjangkau pengguna.",
+      "Hambatan yang teridentifikasi adalah kesadaran jadwal.",
+      "Uji komunikasi menargetkan hambatan tersebut sebelum perluasan biaya."
     ],
-    "correctAnswer": "C",
-    "explanation": "Pembagian awal 900.000/3 = 300.000 menghabiskan anggaran awal. Tambahan berasal dari luar dan tidak mengubah sisa anggaran awal.",
     "distractorExplanations": {
-      "A": "Pilihan “Rp60.000” tidak memenuhi konsep atau kondisi dalam soal. Pembagian awal 900.000/3 = 300.000 menghabiskan anggaran awal. Tambahan berasal dari luar dan tidak mengubah sisa anggaran awal.",
-      "B": "Pilihan “Rp300.000” tidak memenuhi konsep atau kondisi dalam soal. Pembagian awal 900.000/3 = 300.000 menghabiskan anggaran awal. Tambahan berasal dari luar dan tidak mengubah sisa anggaran awal."
+      "B": "Tidak menyasar ketidaktahuan yang telah ditemukan.",
+      "C": "Tidak ada bukti koleksi menjadi penyebab rendahnya pemanfaatan jam baru.",
+      "D": "Pemanfaatan belum diuji setelah informasi memadai.",
+      "E": "Tidak ada bukti kinerja seluruh petugas menjadi masalah utama."
     },
-    "learningPoint": "Pembagian awal 900.000/3 = 300.000 menghabiskan anggaran awal. Tambahan berasal dari luar dan tidak mengubah sisa anggaran awal.",
+    "quickTip": "Cocokkan keputusan dengan tujuan dan bukti yang tersedia; korelasi belum menetapkan sebab.",
+    "learningPoint": "Keputusan berbasis bukti memisahkan pengamatan dari dugaan sebab.",
+    "estimatedTimeSeconds": 60,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
   },
   {
-    "id": "LPDP-PROBLEM-SOLVING-005",
+    "id": "LPDP-PS-002",
+    "number": 2,
     "program": "lpdp",
     "category": "problem-solving",
-    "topic": "Dua buku sejarah harus berdampingan di antara total empat buku be",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "P01",
+    "topic": "Analisis Kasus dan Identifikasi Masalah",
+    "subtopic": "Pengajuan tidak lengkap",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis pengajuan tidak lengkap dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "Dua buku sejarah harus berdampingan di antara total empat buku berbeda. Berapa susunan linear mungkin?",
+    "question": "Kantor menerima 200 permohonan. Sebanyak 80 dikembalikan karena kolom wajib kosong; waktu pemeriksaan berkas lengkap sudah sesuai target. Dengan tujuan mengurangi pengulangan pengajuan, persoalan utama apa yang paling didukung data?",
     "options": [
       {
         "id": "A",
-        "text": "6"
+        "text": "Semua pemeriksa bekerja terlalu lambat"
       },
       {
         "id": "B",
-        "text": "12"
+        "text": "Kelengkapan informasi pada pengajuan awal"
       },
       {
         "id": "C",
-        "text": "24"
+        "text": "Kantor pasti kekurangan ruang tunggu"
+      },
+      {
+        "id": "D",
+        "text": "Seluruh formulir yang diterima palsu"
+      },
+      {
+        "id": "E",
+        "text": "Jumlah pegawai harus selalu dilipatgandakan"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Satukan dua buku sejarah menjadi satu blok. Tiga objek tersusun 3! = 6 cara; isi blok 2 cara, total 12.",
-    "distractorExplanations": {
-      "A": "Pilihan “6” tidak memenuhi konsep atau kondisi dalam soal. Satukan dua buku sejarah menjadi satu blok. Tiga objek tersusun 3! = 6 cara; isi blok 2 cara, total 12.",
-      "C": "Pilihan “24” tidak memenuhi konsep atau kondisi dalam soal. Satukan dua buku sejarah menjadi satu blok. Tiga objek tersusun 3! = 6 cara; isi blok 2 cara, total 12."
-    },
-    "learningPoint": "Satukan dua buku sejarah menjadi satu blok. Tiga objek tersusun 3! = 6 cara; isi blok 2 cara, total 12.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-PROBLEM-SOLVING-006",
-    "program": "lpdp",
-    "category": "problem-solving",
-    "topic": "Sebuah tugas selesai oleh A dalam 6 hari atau B dalam 3 hari. Jik",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Sebuah tugas selesai oleh A dalam 6 hari atau B dalam 3 hari. Jika bekerja bersama, berapa hari diperlukan?",
-    "options": [
-      {
-        "id": "A",
-        "text": "2"
-      },
-      {
-        "id": "B",
-        "text": "3"
-      },
-      {
-        "id": "C",
-        "text": "4"
-      }
+    "explanation": "Empat puluh persen pengajuan memiliki kolom wajib kosong.\n\nBerkas lengkap telah diproses sesuai target.\n\nPerbaikan perlu memprioritaskan kelengkapan sejak awal.",
+    "stepByStepSolution": [
+      "Empat puluh persen pengajuan memiliki kolom wajib kosong.",
+      "Berkas lengkap telah diproses sesuai target.",
+      "Perbaikan perlu memprioritaskan kelengkapan sejak awal."
     ],
-    "correctAnswer": "A",
-    "explanation": "Laju gabungan = 1/6 + 1/3 = 1/2 tugas per hari. Satu tugas memerlukan 2 hari dengan asumsi laju tetap dan independen.",
     "distractorExplanations": {
-      "B": "Pilihan “3” tidak memenuhi konsep atau kondisi dalam soal. Laju gabungan = 1/6 + 1/3 = 1/2 tugas per hari. Satu tugas memerlukan 2 hari dengan asumsi laju tetap dan independen.",
-      "C": "Pilihan “4” tidak memenuhi konsep atau kondisi dalam soal. Laju gabungan = 1/6 + 1/3 = 1/2 tugas per hari. Satu tugas memerlukan 2 hari dengan asumsi laju tetap dan independen."
+      "A": "Data berkas lengkap justru sesuai target.",
+      "C": "Tidak ada data ruang tunggu.",
+      "D": "Tidak ada informasi pemalsuan.",
+      "E": "Kebutuhan tenaga belum dibuktikan sebagai akar masalah."
     },
-    "learningPoint": "Laju gabungan = 1/6 + 1/3 = 1/2 tugas per hari. Satu tugas memerlukan 2 hari dengan asumsi laju tetap dan independen.",
+    "quickTip": "Cocokkan keputusan dengan tujuan dan bukti yang tersedia; korelasi belum menetapkan sebab.",
+    "learningPoint": "Keputusan berbasis bukti memisahkan pengamatan dari dugaan sebab.",
+    "estimatedTimeSeconds": 60,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
   },
   {
-    "id": "LPDP-PROBLEM-SOLVING-007",
+    "id": "LPDP-PS-003",
+    "number": 3,
     "program": "lpdp",
     "category": "problem-solving",
-    "topic": "Gudang memiliki 120 unit. Permintaan 35, 45, dan 50 harus dipenuh",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "P01",
+    "topic": "Analisis Kasus dan Identifikasi Masalah",
+    "subtopic": "Akses dan pemahaman",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis akses dan pemahaman dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "Gudang memiliki 120 unit. Permintaan 35, 45, dan 50 harus dipenuhi berurutan tanpa restok. Berapa kekurangan untuk permintaan terakhir?",
+    "question": "Sekolah memberi perangkat kepada semua siswa. Catatan menunjukkan 90% siswa masuk aplikasi, tetapi hanya 45% menyelesaikan tugas. Wawancara menemukan instruksi tugas sering tidak dipahami. Tujuan berikutnya adalah meningkatkan penyelesaian. Tindakan paling relevan apa?",
     "options": [
       {
         "id": "A",
-        "text": "0"
+        "text": "Mengukur hanya jumlah perangkat yang dibeli"
       },
       {
         "id": "B",
-        "text": "15"
+        "text": "Menganggap semua siswa yang masuk pasti telah belajar tuntas"
       },
       {
         "id": "C",
-        "text": "10"
+        "text": "Menguji instruksi yang lebih jelas dan pendampingan tugas"
+      },
+      {
+        "id": "D",
+        "text": "Menghapus seluruh tugas"
+      },
+      {
+        "id": "E",
+        "text": "Menyatakan perangkat pasti rusak semuanya"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Dua permintaan pertama menghabiskan 80 sehingga tersisa 40. Permintaan terakhir 50 kekurangan 10.",
+    "explanation": "Akses aplikasi sudah tinggi.\n\nKesenjangan terjadi antara masuk dan menyelesaikan tugas.\n\nMasalah pemahaman instruksi menjadi sasaran uji yang relevan.",
+    "stepByStepSolution": [
+      "Akses aplikasi sudah tinggi.",
+      "Kesenjangan terjadi antara masuk dan menyelesaikan tugas.",
+      "Masalah pemahaman instruksi menjadi sasaran uji yang relevan."
+    ],
     "distractorExplanations": {
-      "A": "Pilihan “0” tidak memenuhi konsep atau kondisi dalam soal. Dua permintaan pertama menghabiskan 80 sehingga tersisa 40. Permintaan terakhir 50 kekurangan 10.",
-      "B": "Pilihan “15” tidak memenuhi konsep atau kondisi dalam soal. Dua permintaan pertama menghabiskan 80 sehingga tersisa 40. Permintaan terakhir 50 kekurangan 10."
+      "A": "Tidak menilai hambatan penyelesaian tugas.",
+      "B": "Kunjungan aplikasi berbeda dari penyelesaian.",
+      "D": "Menghilangkan ukuran tujuan, bukan memperbaiki pembelajaran.",
+      "E": "Data 90% masuk tidak mendukung kerusakan universal."
     },
-    "learningPoint": "Dua permintaan pertama menghabiskan 80 sehingga tersisa 40. Permintaan terakhir 50 kekurangan 10.",
+    "quickTip": "Cocokkan keputusan dengan tujuan dan bukti yang tersedia; korelasi belum menetapkan sebab.",
+    "learningPoint": "Keputusan berbasis bukti memisahkan pengamatan dari dugaan sebab.",
+    "estimatedTimeSeconds": 60,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
   },
   {
-    "id": "LPDP-PROBLEM-SOLVING-008",
+    "id": "LPDP-PS-004",
+    "number": 4,
     "program": "lpdp",
     "category": "problem-solving",
-    "topic": "Semua anggota tim memilih satu hari Senin atau Selasa. Dita tidak",
-    "subtopic": "Konsep dan penalaran",
+    "taxonomyCode": "P01",
+    "topic": "Analisis Kasus dan Identifikasi Masalah",
+    "subtopic": "Pembaur kausal",
     "difficulty": "medium",
+    "learningObjective": "Menganalisis pembaur kausal dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "Semua anggota tim memilih satu hari Senin atau Selasa. Dita tidak dapat Senin. Hari apa yang harus dipilih Dita?",
+    "question": "Aplikasi layanan kota diluncurkan bersamaan dengan penambahan petugas. Waktu tunggu turun dari 40 menjadi 25 menit. Pernyataan yang paling dapat dipertanggungjawabkan apa?",
     "options": [
       {
         "id": "A",
+        "text": "Aplikasi sendirian pasti menyebabkan seluruh penurunan"
+      },
+      {
+        "id": "B",
+        "text": "Penambahan petugas pasti tidak berpengaruh"
+      },
+      {
+        "id": "C",
+        "text": "Waktu tunggu tidak berubah"
+      },
+      {
+        "id": "D",
+        "text": "Waktu tunggu menurun, tetapi kontribusi aplikasi dan petugas belum dipisahkan"
+      },
+      {
+        "id": "E",
+        "text": "Aplikasi pasti meningkatkan waktu tunggu"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Dua perubahan terjadi bersamaan.\n\nData sebelum-sesudah menunjukkan perubahan hasil.\n\nTanpa rancangan pembanding, penyebab spesifik tidak dapat dipastikan.",
+    "stepByStepSolution": [
+      "Dua perubahan terjadi bersamaan.",
+      "Data sebelum-sesudah menunjukkan perubahan hasil.",
+      "Tanpa rancangan pembanding, penyebab spesifik tidak dapat dipastikan."
+    ],
+    "distractorExplanations": {
+      "A": "Mengabaikan penambahan petugas.",
+      "B": "Tidak ada data yang meniadakan kontribusinya.",
+      "C": "Bertentangan dengan angka 40 dan 25.",
+      "E": "Arah perubahan hasil justru menurun, meski atribusi belum pasti."
+    },
+    "quickTip": "Cocokkan keputusan dengan tujuan dan bukti yang tersedia; korelasi belum menetapkan sebab.",
+    "learningPoint": "Keputusan berbasis bukti memisahkan pengamatan dari dugaan sebab.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-005",
+    "number": 5,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P01",
+    "topic": "Analisis Kasus dan Identifikasi Masalah",
+    "subtopic": "Indikator tujuan",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis indikator tujuan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Pusat pelatihan memilih indikator untuk menilai apakah peserta mampu menerapkan keterampilan. Tersedia data jumlah hadir, unduhan modul, kepuasan, nilai tugas penerapan, dan jumlah kursi. Indikator paling langsung sesuai tujuan apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jumlah hadir"
+      },
+      {
+        "id": "B",
+        "text": "Unduhan modul"
+      },
+      {
+        "id": "C",
+        "text": "Kepuasan peserta"
+      },
+      {
+        "id": "D",
+        "text": "Jumlah kursi"
+      },
+      {
+        "id": "E",
+        "text": "Nilai tugas penerapan"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Tujuan mengacu pada kemampuan melakukan keterampilan.\n\nTugas penerapan mengamati kemampuan itu secara lebih langsung.\n\nIndikator aktivitas atau fasilitas tidak otomatis membuktikan keterampilan.",
+    "stepByStepSolution": [
+      "Tujuan mengacu pada kemampuan melakukan keterampilan.",
+      "Tugas penerapan mengamati kemampuan itu secara lebih langsung.",
+      "Indikator aktivitas atau fasilitas tidak otomatis membuktikan keterampilan."
+    ],
+    "distractorExplanations": {
+      "A": "Mengukur partisipasi, bukan kemampuan menerapkan.",
+      "B": "Mengukur akses bahan, bukan penguasaan.",
+      "C": "Sikap positif tidak selalu sejalan dengan kemampuan.",
+      "D": "Mengukur kapasitas fasilitas."
+    },
+    "quickTip": "Cocokkan keputusan dengan tujuan dan bukti yang tersedia; korelasi belum menetapkan sebab.",
+    "learningPoint": "Keputusan berbasis bukti memisahkan pengamatan dari dugaan sebab.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-006",
+    "number": 6,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P01",
+    "topic": "Analisis Kasus dan Identifikasi Masalah",
+    "subtopic": "Pengguna unik",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis pengguna unik dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Unit pengaduan menerima 60 keluhan melalui telepon dan 40 melalui aplikasi. Dua puluh warga mengadu melalui kedua kanal. Jika tujuan ialah menghitung warga unik, informasi apa harus diperhitungkan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tumpang tindih dua kanal harus dikurangkan sekali"
+      },
+      {
+        "id": "B",
+        "text": "Semua 100 entri pasti warga berbeda"
+      },
+      {
+        "id": "C",
+        "text": "Keluhan aplikasi harus dihapus seluruhnya"
+      },
+      {
+        "id": "D",
+        "text": "Jumlah unik selalu sama dengan kanal terbesar"
+      },
+      {
+        "id": "E",
+        "text": "Irisan perlu ditambahkan lagi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Penjumlahan kanal menghitung warga yang sama dua kali.\n\nKurangi irisan 20 dari 100.\n\nTerdapat 80 warga unik, dengan asumsi setiap kanal menghitung orang sekali.",
+    "stepByStepSolution": [
+      "Penjumlahan kanal menghitung warga yang sama dua kali.",
+      "Kurangi irisan 20 dari 100.",
+      "Terdapat 80 warga unik, dengan asumsi setiap kanal menghitung orang sekali."
+    ],
+    "distractorExplanations": {
+      "B": "Mengabaikan 20 warga pada kedua kanal.",
+      "C": "Hanya bagian irisan yang terhitung ganda.",
+      "D": "Warga yang hanya memakai aplikasi tetap perlu dihitung.",
+      "E": "Akan menghitung warga yang sama lebih banyak kali."
+    },
+    "quickTip": "Cocokkan keputusan dengan tujuan dan bukti yang tersedia; korelasi belum menetapkan sebab.",
+    "learningPoint": "Keputusan berbasis bukti memisahkan pengamatan dari dugaan sebab.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-007",
+    "number": 7,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P01",
+    "topic": "Analisis Kasus dan Identifikasi Masalah",
+    "subtopic": "Bias penyelesai",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis bias penyelesai dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Sebuah program hanya mengevaluasi peserta yang menyelesaikan seluruh sesi. Nilai mereka naik, sementara 40% peserta awal berhenti dan tidak diukur lagi. Keterbatasan utama kesimpulan tentang seluruh peserta awal apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nilai penyelesai pasti salah hitung"
+      },
+      {
+        "id": "B",
+        "text": "Hasil peserta yang berhenti belum terwakili"
+      },
+      {
+        "id": "C",
+        "text": "Tidak ada peserta menyelesaikan program"
+      },
+      {
+        "id": "D",
+        "text": "Semua peserta berhenti pasti bernilai nol"
+      },
+      {
+        "id": "E",
+        "text": "Program pasti merugikan semua orang"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Kelompok yang dianalisis merupakan penyelesai program.\n\nPeserta yang berhenti bisa memiliki hasil berbeda.\n\nGeneralisasi ke semua peserta awal berisiko bias seleksi.",
+    "stepByStepSolution": [
+      "Kelompok yang dianalisis merupakan penyelesai program.",
+      "Peserta yang berhenti bisa memiliki hasil berbeda.",
+      "Generalisasi ke semua peserta awal berisiko bias seleksi."
+    ],
+    "distractorExplanations": {
+      "A": "Tidak ada bukti kesalahan aritmetika.",
+      "C": "Enam puluh persen masih termasuk penyelesai menurut data.",
+      "D": "Nilai mereka tidak diukur, bukan diketahui nol.",
+      "E": "Data tidak mendukung klaim universal tersebut."
+    },
+    "quickTip": "Cocokkan keputusan dengan tujuan dan bukti yang tersedia; korelasi belum menetapkan sebab.",
+    "learningPoint": "Keputusan berbasis bukti memisahkan pengamatan dari dugaan sebab.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-008",
+    "number": 8,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P01",
+    "topic": "Analisis Kasus dan Identifikasi Masalah",
+    "subtopic": "Kesetaraan indikator",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis kesetaraan indikator dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Dua cabang melaporkan persentase keluhan terselesaikan. Cabang X menghitung keluhan minggu berjalan; cabang Y menghitung seluruh keluhan sejak awal tahun. Sebelum membandingkan kinerja, tindakan terpenting apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memilih cabang dengan angka lebih besar tanpa penyesuaian"
+      },
+      {
+        "id": "B",
+        "text": "Menjumlahkan kedua persentase sebagai rata-rata"
+      },
+      {
+        "id": "C",
+        "text": "Menyamakan periode dan definisi penyebut indikator"
+      },
+      {
+        "id": "D",
+        "text": "Mengabaikan semua data selama setahun"
+      },
+      {
+        "id": "E",
+        "text": "Menyamakan jumlah pegawai saja"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Persentase dengan cakupan berbeda tidak langsung sebanding.\n\nPeriode dan kelompok keluhan perlu diselaraskan.\n\nBaru sesudah itu perbandingan memiliki arti konsisten.",
+    "stepByStepSolution": [
+      "Persentase dengan cakupan berbeda tidak langsung sebanding.",
+      "Periode dan kelompok keluhan perlu diselaraskan.",
+      "Baru sesudah itu perbandingan memiliki arti konsisten."
+    ],
+    "distractorExplanations": {
+      "A": "Angka tidak menggunakan basis yang sama.",
+      "B": "Penjumlahan tidak menyelesaikan perbedaan definisi.",
+      "D": "Data masih dapat digunakan setelah cakupan diperjelas.",
+      "E": "Tidak memperbaiki perbedaan definisi indikator."
+    },
+    "quickTip": "Cocokkan keputusan dengan tujuan dan bukti yang tersedia; korelasi belum menetapkan sebab.",
+    "learningPoint": "Keputusan berbasis bukti memisahkan pengamatan dari dugaan sebab.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-009",
+    "number": 9,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P01",
+    "topic": "Analisis Kasus dan Identifikasi Masalah",
+    "subtopic": "Hambatan rantai proses",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis hambatan rantai proses dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gudang mengalami keterlambatan kirim. Log menunjukkan proses kemas selesai tepat waktu pada 95% pesanan, tetapi kendaraan baru tersedia setelah batas keberangkatan pada 35% hari. Anggaran hanya cukup menguji satu perbaikan. Sasaran uji awal paling didukung apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengganti seluruh bahan kemasan"
+      },
+      {
+        "id": "B",
+        "text": "Menambah pemeriksaan pada semua barang tanpa mengubah transportasi"
+      },
+      {
+        "id": "C",
+        "text": "Menghapus batas keberangkatan tanpa menilai pelanggan"
+      },
+      {
+        "id": "D",
+        "text": "Penjadwalan dan ketersediaan kendaraan sebelum batas keberangkatan"
+      },
+      {
+        "id": "E",
+        "text": "Menyimpulkan pekerja kemas selalu terlambat"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Data menempatkan hambatan menonjol setelah pengemasan.\n\nTiga puluh lima persen hari mengalami ketidaktersediaan kendaraan tepat waktu.\n\nUji perbaikan harus menargetkan tahapan yang terindikasi menghambat.",
+    "stepByStepSolution": [
+      "Data menempatkan hambatan menonjol setelah pengemasan.",
+      "Tiga puluh lima persen hari mengalami ketidaktersediaan kendaraan tepat waktu.",
+      "Uji perbaikan harus menargetkan tahapan yang terindikasi menghambat."
+    ],
+    "distractorExplanations": {
+      "A": "Tidak ada bukti bahan menjadi hambatan dominan.",
+      "B": "Dapat menambah waktu tanpa mengatasi kendaraan terlambat.",
+      "C": "Tidak memastikan kebutuhan kirim terpenuhi.",
+      "E": "Bertentangan dengan 95% tepat waktu."
+    },
+    "quickTip": "Cocokkan keputusan dengan tujuan dan bukti yang tersedia; korelasi belum menetapkan sebab.",
+    "learningPoint": "Keputusan berbasis bukti memisahkan pengamatan dari dugaan sebab.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-010",
+    "number": 10,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P01",
+    "topic": "Analisis Kasus dan Identifikasi Masalah",
+    "subtopic": "Rancangan pembanding",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis rancangan pembanding dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tim ingin menguji apakah formulir ringkas meningkatkan penyelesaian dibanding formulir lama. Dua versi akan dipakai pada minggu yang sama dan petugas yang sama. Rancangan mana paling membantu atribusi efek versi formulir?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memberikan versi baru hanya kepada pengguna paling mahir"
+      },
+      {
+        "id": "B",
+        "text": "Membandingkan versi baru dengan laporan lima tahun lalu tanpa penyesuaian"
+      },
+      {
+        "id": "C",
+        "text": "Meminta hanya pengguna yang berhasil memberi nilai"
+      },
+      {
+        "id": "D",
+        "text": "Mengukur warna favorit pengguna saja"
+      },
+      {
+        "id": "E",
+        "text": "Mengalokasikan calon pengguna secara acak ke dua versi lalu membandingkan tingkat penyelesaian"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Pengacakan membantu menyeimbangkan perbedaan awal pengguna.\n\nPeriode dan petugas dijaga sama.\n\nPerbedaan hasil lebih masuk akal ditelusuri ke versi, meski mutu pelaksanaan tetap perlu dipantau.",
+    "stepByStepSolution": [
+      "Pengacakan membantu menyeimbangkan perbedaan awal pengguna.",
+      "Periode dan petugas dijaga sama.",
+      "Perbedaan hasil lebih masuk akal ditelusuri ke versi, meski mutu pelaksanaan tetap perlu dipantau."
+    ],
+    "distractorExplanations": {
+      "A": "Kemahiran menjadi pembaur dengan versi.",
+      "B": "Perubahan waktu dan konteks dapat memengaruhi hasil.",
+      "C": "Mengabaikan kegagalan dan menimbulkan seleksi respons.",
+      "D": "Tidak menilai penyelesaian yang menjadi tujuan."
+    },
+    "quickTip": "Cocokkan keputusan dengan tujuan dan bukti yang tersedia; korelasi belum menetapkan sebab.",
+    "learningPoint": "Keputusan berbasis bukti memisahkan pengamatan dari dugaan sebab.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-011",
+    "number": 11,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P02",
+    "topic": "Interpretasi Data Kompleks",
+    "subtopic": "Rasio tepat waktu",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis rasio tepat waktu dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan LPDP-PDATA-01. Cabang mana memiliki persentase pesanan selesai tepat waktu tertinggi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cabang B"
+      },
+      {
+        "id": "B",
+        "text": "Cabang A"
+      },
+      {
+        "id": "C",
+        "text": "Cabang C"
+      },
+      {
+        "id": "D",
+        "text": "A dan C"
+      },
+      {
+        "id": "E",
+        "text": "Semua sama"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Hitung rasio tepat waktu terhadap seluruh pesanan.\n\nA = 80/100 = 80%, B = 45/50 = 90%, C = 102/120 = 85%.\n\nB tertinggi pada 90%.",
+    "stepByStepSolution": [
+      "Hitung rasio tepat waktu terhadap seluruh pesanan.",
+      "A = 80/100 = 80%, B = 45/50 = 90%, C = 102/120 = 85%.",
+      "B tertinggi pada 90%."
+    ],
+    "distractorExplanations": {
+      "B": "Delapan puluh persen lebih rendah daripada B.",
+      "C": "Jumlah tepat waktunya lebih banyak, tetapi rasionya 85%.",
+      "D": "Keduanya tidak mencapai rasio B.",
+      "E": "Penyebut dan rasionya berbeda."
+    },
+    "quickTip": "Gabungkan penyebut, periode, serta satuan sebelum membandingkan alternatif.",
+    "learningPoint": "Ukuran total dan ukuran relatif menjawab pertanyaan berbeda.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "table",
+    "stimulusId": "LPDP-PDATA-01"
+  },
+  {
+    "id": "LPDP-PS-012",
+    "number": 12,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P02",
+    "topic": "Interpretasi Data Kompleks",
+    "subtopic": "Efisiensi per jam",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis efisiensi per jam dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan LPDP-PDATA-02. Tim mana menghasilkan keluaran terbanyak per jam kerja total?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tim A"
+      },
+      {
+        "id": "B",
+        "text": "Tim C"
+      },
+      {
+        "id": "C",
+        "text": "Tim B"
+      },
+      {
+        "id": "D",
+        "text": "A dan B"
+      },
+      {
+        "id": "E",
+        "text": "Ketiganya setara"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Hitung keluaran dibagi jam: A 180/30 = 6, B 200/40 = 5, C 210/30 = 7.\n\nBandingkan efisiensi, bukan keluaran saja.\n\nTim C tertinggi pada tujuh unit per jam.",
+    "stepByStepSolution": [
+      "Hitung keluaran dibagi jam: A 180/30 = 6, B 200/40 = 5, C 210/30 = 7.",
+      "Bandingkan efisiensi, bukan keluaran saja.",
+      "Tim C tertinggi pada tujuh unit per jam."
+    ],
+    "distractorExplanations": {
+      "A": "Efisiensinya enam, di bawah tujuh.",
+      "C": "Efisiensinya lima walaupun keluaran totalnya tinggi.",
+      "D": "Rasio mereka berbeda dan keduanya di bawah C.",
+      "E": "Rasio keluaran terhadap waktu tidak sama."
+    },
+    "quickTip": "Gabungkan penyebut, periode, serta satuan sebelum membandingkan alternatif.",
+    "learningPoint": "Ukuran total dan ukuran relatif menjawab pertanyaan berbeda.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "table",
+    "stimulusId": "LPDP-PDATA-02"
+  },
+  {
+    "id": "LPDP-PS-013",
+    "number": 13,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P02",
+    "topic": "Interpretasi Data Kompleks",
+    "subtopic": "Laba dan volume",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis laba dan volume dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan LPDP-PDATA-03. Produk mana memberikan laba total tertinggi jika laba per unit = harga jual dikurangi biaya variabel, tanpa biaya lain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Produk B"
+      },
+      {
+        "id": "B",
+        "text": "Produk C"
+      },
+      {
+        "id": "C",
+        "text": "Produk A"
+      },
+      {
+        "id": "D",
+        "text": "A dan B sama"
+      },
+      {
+        "id": "E",
+        "text": "B dan C sama"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Hitung margin lalu kali volume: A (15−9)×50 = 300; B (20−14)×40 = 240; C (12−7)×55 = 275.\n\nSatuan hasil adalah ribu rupiah.\n\nProduk A memberi total tertinggi.",
+    "stepByStepSolution": [
+      "Hitung margin lalu kali volume: A (15−9)×50 = 300; B (20−14)×40 = 240; C (12−7)×55 = 275.",
+      "Satuan hasil adalah ribu rupiah.",
+      "Produk A memberi total tertinggi."
+    ],
+    "distractorExplanations": {
+      "A": "Harga paling tinggi tidak berarti laba total paling tinggi.",
+      "B": "Volume terbesar menghasilkan laba 275, masih di bawah 300.",
+      "D": "Marginnya sama, tetapi volume berbeda.",
+      "E": "Totalnya 240 dan 275."
+    },
+    "quickTip": "Gabungkan penyebut, periode, serta satuan sebelum membandingkan alternatif.",
+    "learningPoint": "Ukuran total dan ukuran relatif menjawab pertanyaan berbeda.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "table",
+    "stimulusId": "LPDP-PDATA-03"
+  },
+  {
+    "id": "LPDP-PS-014",
+    "number": 14,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P02",
+    "topic": "Interpretasi Data Kompleks",
+    "subtopic": "Perubahan antartahun",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis perubahan antartahun dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan LPDP-PDATA-04. Daerah mana mengalami kenaikan jumlah penerima terbesar dari 2024 ke 2025?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Daerah A"
+      },
+      {
+        "id": "B",
+        "text": "Daerah B"
+      },
+      {
+        "id": "C",
+        "text": "A dan B"
+      },
+      {
+        "id": "D",
+        "text": "Daerah C"
+      },
+      {
+        "id": "E",
+        "text": "Semua sama"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Selisih A = 90−60 = 30; B = 110−85 = 25; C = 95−50 = 45.\n\nBandingkan perubahan absolut.\n\nDaerah C naik 45 penerima.",
+    "stepByStepSolution": [
+      "Selisih A = 90−60 = 30; B = 110−85 = 25; C = 95−50 = 45.",
+      "Bandingkan perubahan absolut.",
+      "Daerah C naik 45 penerima."
+    ],
+    "distractorExplanations": {
+      "A": "Naik 30, kurang dari C.",
+      "B": "Jumlah akhir tertinggi tetapi kenaikannya hanya 25.",
+      "C": "Kenaikan keduanya berbeda dan bukan terbesar.",
+      "E": "Selisih data tidak sama."
+    },
+    "quickTip": "Gabungkan penyebut, periode, serta satuan sebelum membandingkan alternatif.",
+    "learningPoint": "Ukuran total dan ukuran relatif menjawab pertanyaan berbeda.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "table",
+    "stimulusId": "LPDP-PDATA-04"
+  },
+  {
+    "id": "LPDP-PS-015",
+    "number": 15,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P02",
+    "topic": "Interpretasi Data Kompleks",
+    "subtopic": "Target penyelesaian",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis target penyelesaian dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan LPDP-PDATA-05. Jika target ialah minimal 90% peserta menyelesaikan pelatihan, kelas mana memenuhi target?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kelas A"
+      },
+      {
+        "id": "B",
+        "text": "Kelas C"
+      },
+      {
+        "id": "C",
+        "text": "A dan C"
+      },
+      {
+        "id": "D",
+        "text": "Semua kelas"
+      },
+      {
+        "id": "E",
+        "text": "Kelas B"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "A = 36/45 = 80%; B = 54/60 = 90%; C = 42/50 = 84%.\n\nB mencapai tepat batas minimum.\n\nDua kelas lain berada di bawah target.",
+    "stepByStepSolution": [
+      "A = 36/45 = 80%; B = 54/60 = 90%; C = 42/50 = 84%.",
+      "B mencapai tepat batas minimum.",
+      "Dua kelas lain berada di bawah target."
+    ],
+    "distractorExplanations": {
+      "A": "Delapan puluh persen belum mencapai 90%.",
+      "B": "Delapan puluh empat persen belum mencapai target.",
+      "C": "Keduanya di bawah batas.",
+      "D": "Hanya satu rasio mencapai target."
+    },
+    "quickTip": "Gabungkan penyebut, periode, serta satuan sebelum membandingkan alternatif.",
+    "learningPoint": "Ukuran total dan ukuran relatif menjawab pertanyaan berbeda.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "table",
+    "stimulusId": "LPDP-PDATA-05"
+  },
+  {
+    "id": "LPDP-PS-016",
+    "number": 16,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P02",
+    "topic": "Interpretasi Data Kompleks",
+    "subtopic": "Biaya per valid",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis biaya per valid dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan LPDP-PDATA-06. Kanal mana memiliki biaya per pengajuan valid paling rendah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kanal A"
+      },
+      {
+        "id": "B",
+        "text": "Kanal B"
+      },
+      {
+        "id": "C",
+        "text": "Kanal C"
+      },
+      {
+        "id": "D",
+        "text": "A dan B setara"
+      },
+      {
+        "id": "E",
+        "text": "B dan C setara"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Biaya per valid: A 600/120 = 5; B 500/80 = 6,25; C 700/100 = 7.\n\nSatuan ribu rupiah per pengajuan valid.\n\nKanal A paling rendah.",
+    "stepByStepSolution": [
+      "Biaya per valid: A 600/120 = 5; B 500/80 = 6,25; C 700/100 = 7.",
+      "Satuan ribu rupiah per pengajuan valid.",
+      "Kanal A paling rendah."
+    ],
+    "distractorExplanations": {
+      "B": "Biaya total lebih rendah, tetapi biaya per valid 6,25.",
+      "C": "Biaya per valid tujuh, paling tinggi.",
+      "D": "Rasio 5 dan 6,25 tidak sama.",
+      "E": "Rasio 6,25 dan 7 tidak sama."
+    },
+    "quickTip": "Gabungkan penyebut, periode, serta satuan sebelum membandingkan alternatif.",
+    "learningPoint": "Ukuran total dan ukuran relatif menjawab pertanyaan berbeda.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "table",
+    "stimulusId": "LPDP-PDATA-06"
+  },
+  {
+    "id": "LPDP-PS-017",
+    "number": 17,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P02",
+    "topic": "Interpretasi Data Kompleks",
+    "subtopic": "Neraca stok",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis neraca stok dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan LPDP-PDATA-07. Setelah menghitung perubahan stok = stok awal + masuk − keluar, gudang mana memiliki stok akhir terendah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gudang A"
+      },
+      {
+        "id": "B",
+        "text": "Gudang C"
+      },
+      {
+        "id": "C",
+        "text": "Gudang B"
+      },
+      {
+        "id": "D",
+        "text": "A dan C sama"
+      },
+      {
+        "id": "E",
+        "text": "Semua nol"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Stok akhir A = 40+30−50 = 20; B = 35+40−45 = 30; C = 60+10−55 = 15.\n\nSeluruh komponen perlu dipakai.\n\nGudang C paling rendah.",
+    "stepByStepSolution": [
+      "Stok akhir A = 40+30−50 = 20; B = 35+40−45 = 30; C = 60+10−55 = 15.",
+      "Seluruh komponen perlu dipakai.",
+      "Gudang C paling rendah."
+    ],
+    "distractorExplanations": {
+      "A": "Stok akhirnya 20, bukan terendah.",
+      "C": "Stok akhirnya 30, terbesar.",
+      "D": "Dua stok akhir 20 dan 15 berbeda.",
+      "E": "Barang masuk dan stok awal masih menyisakan persediaan."
+    },
+    "quickTip": "Gabungkan penyebut, periode, serta satuan sebelum membandingkan alternatif.",
+    "learningPoint": "Ukuran total dan ukuran relatif menjawab pertanyaan berbeda.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "table",
+    "stimulusId": "LPDP-PDATA-07"
+  },
+  {
+    "id": "LPDP-PS-018",
+    "number": 18,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P02",
+    "topic": "Interpretasi Data Kompleks",
+    "subtopic": "Rasio lintas periode",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis rasio lintas periode dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan LPDP-PDATA-08. Perusahaan mana memiliki tingkat cacat lebih rendah pada kedua bulan yang ditampilkan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perusahaan B"
+      },
+      {
+        "id": "B",
+        "text": "A pada Januari, B pada Februari"
+      },
+      {
+        "id": "C",
+        "text": "Perusahaan A"
+      },
+      {
+        "id": "D",
+        "text": "B pada Januari, A pada Februari"
+      },
+      {
+        "id": "E",
+        "text": "Keduanya sama pada kedua bulan"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Pada Januari, A 2/100 = 2% dan B 6/200 = 3%.\n\nPada Februari, A 6/200 = 3% dan B 4/100 = 4%.\n\nA lebih rendah pada kedua bulan.",
+    "stepByStepSolution": [
+      "Pada Januari, A 2/100 = 2% dan B 6/200 = 3%.",
+      "Pada Februari, A 6/200 = 3% dan B 4/100 = 4%.",
+      "A lebih rendah pada kedua bulan."
+    ],
+    "distractorExplanations": {
+      "A": "B lebih tinggi pada masing-masing bulan.",
+      "B": "Pada Februari B 4%, masih di atas A 3%.",
+      "D": "Pada Januari B 3%, di atas A 2%.",
+      "E": "Persentase pada setiap bulan berbeda."
+    },
+    "quickTip": "Gabungkan penyebut, periode, serta satuan sebelum membandingkan alternatif.",
+    "learningPoint": "Ukuran total dan ukuran relatif menjawab pertanyaan berbeda.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "table",
+    "stimulusId": "LPDP-PDATA-08"
+  },
+  {
+    "id": "LPDP-PS-019",
+    "number": 19,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P02",
+    "topic": "Interpretasi Data Kompleks",
+    "subtopic": "Kendala dua dimensi",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis kendala dua dimensi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan LPDP-PDATA-09. Dalam kapasitas maksimal 80 peserta dan biaya maksimal 900 ribu, paket layak dengan peserta terbanyak mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Paket A"
+      },
+      {
+        "id": "B",
+        "text": "Paket B"
+      },
+      {
+        "id": "C",
+        "text": "Paket D"
+      },
+      {
+        "id": "D",
+        "text": "Paket C"
+      },
+      {
+        "id": "E",
+        "text": "Paket E"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A 60 peserta/700 ribu dan B 75/950; C 80/900, D 85/850, E 70/880.\n\nB melanggar biaya dan D melanggar kapasitas.\n\nC layak dan jumlah pesertanya terbesar.",
+    "stepByStepSolution": [
+      "A 60 peserta/700 ribu dan B 75/950; C 80/900, D 85/850, E 70/880.",
+      "B melanggar biaya dan D melanggar kapasitas.",
+      "C layak dan jumlah pesertanya terbesar."
+    ],
+    "distractorExplanations": {
+      "A": "Layak tetapi hanya 60 peserta.",
+      "B": "Biaya melampaui 900 ribu.",
+      "C": "Jumlah peserta melampaui kapasitas 80.",
+      "E": "Layak tetapi 70 peserta, di bawah C."
+    },
+    "quickTip": "Gabungkan penyebut, periode, serta satuan sebelum membandingkan alternatif.",
+    "learningPoint": "Ukuran total dan ukuran relatif menjawab pertanyaan berbeda.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "table",
+    "stimulusId": "LPDP-PDATA-09"
+  },
+  {
+    "id": "LPDP-PS-020",
+    "number": 20,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P02",
+    "topic": "Interpretasi Data Kompleks",
+    "subtopic": "Produktivitas gabungan",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis produktivitas gabungan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan LPDP-PDATA-10. Berapa kenaikan persentase produktivitas gabungan dari periode I ke II, dengan produktivitas = total keluaran/total jam?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20",
+        "numericValue": 20.0
+      },
+      {
+        "id": "B",
+        "text": "50",
+        "numericValue": 50.0
+      },
+      {
+        "id": "C",
+        "text": "10",
+        "numericValue": 10.0
+      },
+      {
+        "id": "D",
+        "text": "30",
+        "numericValue": 30.0
+      },
+      {
+        "id": "E",
+        "text": "25",
+        "numericValue": 25.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Periode I menghasilkan (120+80)/(20+20) = 5 unit/jam.\n\nPeriode II menghasilkan (150+100)/(20+20) = 6,25 unit/jam.\n\nKenaikan (6,25−5)/5 × 100% = 25%.",
+    "stepByStepSolution": [
+      "Periode I menghasilkan (120+80)/(20+20) = 5 unit/jam.",
+      "Periode II menghasilkan (150+100)/(20+20) = 6,25 unit/jam.",
+      "Kenaikan (6,25−5)/5 × 100% = 25%."
+    ],
+    "distractorExplanations": {
+      "A": "Membagi perubahan dengan produktivitas akhir menghasilkan basis keliru.",
+      "B": "Melebihkan perubahan dua kali lipat.",
+      "C": "Tidak sesuai rasio produktivitas gabungan.",
+      "D": "Tidak diperoleh dari total keluaran dan jam yang tersedia."
+    },
+    "quickTip": "Gabungkan penyebut, periode, serta satuan sebelum membandingkan alternatif.",
+    "learningPoint": "Ukuran total dan ukuran relatif menjawab pertanyaan berbeda.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "table",
+    "stimulusId": "LPDP-PDATA-10"
+  },
+  {
+    "id": "LPDP-PS-021",
+    "number": 21,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P03",
+    "topic": "Masalah dengan Beberapa Kondisi",
+    "subtopic": "Urutan proyek",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis urutan proyek dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Empat proyek A–D dikerjakan satu per hari selama empat hari. A harus sebelum C, B tepat sebelum D, dan A hari pertama. Urutan mana memenuhi semuanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-B-D-C"
+      },
+      {
+        "id": "B",
+        "text": "B-D-A-C"
+      },
+      {
+        "id": "C",
+        "text": "A-D-B-C"
+      },
+      {
+        "id": "D",
+        "text": "A-C-D-B"
+      },
+      {
+        "id": "E",
+        "text": "C-A-B-D"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A mengisi hari pertama.\n\nBlok B-D harus ditempatkan utuh.\n\nA-B-D-C memenuhi seluruh aturan; opsi lain melanggar setidaknya satu.",
+    "stepByStepSolution": [
+      "A mengisi hari pertama.",
+      "Blok B-D harus ditempatkan utuh.",
+      "A-B-D-C memenuhi seluruh aturan; opsi lain melanggar setidaknya satu."
+    ],
+    "distractorExplanations": {
+      "B": "A bukan hari pertama.",
+      "C": "B tidak tepat sebelum D.",
+      "D": "B tidak sebelum D.",
+      "E": "A bukan hari pertama dan tidak sebelum C."
+    },
+    "quickTip": "Daftar seluruh syarat dan uji setiap alternatif, bukan hanya syarat pertama.",
+    "learningPoint": "Kelayakan mensyaratkan seluruh pembatas terpenuhi, bukan hanya sebagian.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "constraint"
+  },
+  {
+    "id": "LPDP-PS-022",
+    "number": 22,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P03",
+    "topic": "Masalah dengan Beberapa Kondisi",
+    "subtopic": "Alokasi shift",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis alokasi shift dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Dua relawan mengisi shift pagi dan dua lainnya sore. A harus bersama C; B tidak boleh pagi; D tidak boleh satu shift dengan C. Pasangan relawan pagi adalah mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A dan B"
+      },
+      {
+        "id": "B",
+        "text": "A dan C"
+      },
+      {
+        "id": "C",
+        "text": "B dan C"
+      },
+      {
+        "id": "D",
+        "text": "C dan D"
+      },
+      {
+        "id": "E",
+        "text": "A dan D"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "B wajib sore.\n\nD tidak bisa bersama C; karena A harus bersama C, kelompok A-C mengisi satu shift.\n\nMaka B-D sore dan A-C pagi.",
+    "stepByStepSolution": [
+      "B wajib sore.",
+      "D tidak bisa bersama C; karena A harus bersama C, kelompok A-C mengisi satu shift.",
+      "Maka B-D sore dan A-C pagi."
+    ],
+    "distractorExplanations": {
+      "A": "B tidak boleh pagi dan A harus bersama C.",
+      "C": "B tidak boleh pagi dan A harus bersama C.",
+      "D": "D dilarang bersama C.",
+      "E": "A tidak bersama C."
+    },
+    "quickTip": "Daftar seluruh syarat dan uji setiap alternatif, bukan hanya syarat pertama.",
+    "learningPoint": "Kelayakan mensyaratkan seluruh pembatas terpenuhi, bukan hanya sebagian.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "constraint"
+  },
+  {
+    "id": "LPDP-PS-023",
+    "number": 23,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P03",
+    "topic": "Masalah dengan Beberapa Kondisi",
+    "subtopic": "Kompatibilitas perangkat",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis kompatibilitas perangkat dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Sebuah paket harus memuat satu laptop dan satu modem. Laptop X atau Y tersedia; modem P atau Q tersedia. X tidak cocok dengan P, sedangkan Y tidak cocok dengan Q. Jika laptop Y dipilih, modem apa yang harus dipakai?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Q"
+      },
+      {
+        "id": "B",
+        "text": "P dan Q sekaligus"
+      },
+      {
+        "id": "C",
+        "text": "P"
+      },
+      {
+        "id": "D",
+        "text": "Tanpa modem"
+      },
+      {
+        "id": "E",
+        "text": "Tidak dapat ditentukan"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Y tidak cocok dengan Q.\n\nModem harus satu dari P atau Q.\n\nP adalah satu-satunya pilihan yang sesuai.",
+    "stepByStepSolution": [
+      "Y tidak cocok dengan Q.",
+      "Modem harus satu dari P atau Q.",
+      "P adalah satu-satunya pilihan yang sesuai."
+    ],
+    "distractorExplanations": {
+      "A": "Dilarang untuk Y menurut aturan kompatibilitas.",
+      "B": "Paket harus memuat satu modem.",
+      "D": "Paket wajib memuat modem.",
+      "E": "Eliminasi Q sudah menentukan P."
+    },
+    "quickTip": "Daftar seluruh syarat dan uji setiap alternatif, bukan hanya syarat pertama.",
+    "learningPoint": "Kelayakan mensyaratkan seluruh pembatas terpenuhi, bukan hanya sebagian.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "constraint"
+  },
+  {
+    "id": "LPDP-PS-024",
+    "number": 24,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P03",
+    "topic": "Masalah dengan Beberapa Kondisi",
+    "subtopic": "Alokasi ruangan",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis alokasi ruangan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tiga ruangan A, B, C dipakai untuk tiga kegiatan: musik, diskusi, ujian. Musik tidak boleh di A; ujian harus di C; setiap ruangan tepat satu kegiatan. Di mana musik berlangsung?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "C"
+      },
+      {
+        "id": "C",
+        "text": "A dan B"
+      },
+      {
+        "id": "D",
+        "text": "B"
+      },
+      {
+        "id": "E",
+        "text": "Tidak dapat ditentukan"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "C telah digunakan ujian.\n\nMusik dilarang di A.\n\nSatu-satunya ruangan tersisa untuk musik ialah B.",
+    "stepByStepSolution": [
+      "C telah digunakan ujian.",
+      "Musik dilarang di A.",
+      "Satu-satunya ruangan tersisa untuk musik ialah B."
+    ],
+    "distractorExplanations": {
+      "A": "Bertentangan larangan musik di A.",
+      "B": "C sudah dipakai ujian.",
+      "C": "Satu kegiatan hanya menempati satu ruangan pada alokasi ini.",
+      "E": "Kondisi menyisakan tepat satu ruangan."
+    },
+    "quickTip": "Daftar seluruh syarat dan uji setiap alternatif, bukan hanya syarat pertama.",
+    "learningPoint": "Kelayakan mensyaratkan seluruh pembatas terpenuhi, bukan hanya sebagian.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "constraint"
+  },
+  {
+    "id": "LPDP-PS-025",
+    "number": 25,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P03",
+    "topic": "Masalah dengan Beberapa Kondisi",
+    "subtopic": "Ketergantungan pekerjaan",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis ketergantungan pekerjaan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Lima tugas A–E memiliki durasi satu slot. C harus setelah A dan B; D setelah C; E bebas. Manakah jadwal yang memenuhi seluruh ketergantungan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-C-B-D-E"
+      },
+      {
+        "id": "B",
+        "text": "B-C-A-E-D"
+      },
+      {
+        "id": "C",
+        "text": "A-B-D-C-E"
+      },
+      {
+        "id": "D",
+        "text": "C-A-B-D-E"
+      },
+      {
+        "id": "E",
+        "text": "B-A-E-C-D"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "A dan B keduanya selesai sebelum C.\n\nD ditempatkan setelah C.\n\nE dapat berada di slot yang tidak melanggar relasi lain.",
+    "stepByStepSolution": [
+      "A dan B keduanya selesai sebelum C.",
+      "D ditempatkan setelah C.",
+      "E dapat berada di slot yang tidak melanggar relasi lain."
+    ],
+    "distractorExplanations": {
+      "A": "C mendahului B, melanggar syarat.",
+      "B": "C mendahului A.",
+      "C": "D mendahului C.",
+      "D": "C mendahului kedua prasyarat."
+    },
+    "quickTip": "Daftar seluruh syarat dan uji setiap alternatif, bukan hanya syarat pertama.",
+    "learningPoint": "Kelayakan mensyaratkan seluruh pembatas terpenuhi, bukan hanya sebagian.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "constraint"
+  },
+  {
+    "id": "LPDP-PS-026",
+    "number": 26,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P03",
+    "topic": "Masalah dengan Beberapa Kondisi",
+    "subtopic": "Alokasi anggaran",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis alokasi anggaran dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Dana 12 unit harus dibagikan ke tiga unit kerja X, Y, Z sebagai bilangan bulat positif. X mendapat dua kali Y; Z minimal 3; tujuan memaksimalkan Y. Berapa Y?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "numericValue": 3.0
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "numericValue": 1.0
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "numericValue": 2.0
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "numericValue": 4.0
+      },
+      {
+        "id": "E",
+        "text": "5",
+        "numericValue": 5.0
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tuliskan X=2Y sehingga Z=12−3Y.\n\nSyarat Z≥3 memberi Y≤3.\n\nY=3 layak dengan X=6 dan Z=3, sehingga maksimum tercapai.",
+    "stepByStepSolution": [
+      "Tuliskan X=2Y sehingga Z=12−3Y.",
+      "Syarat Z≥3 memberi Y≤3.",
+      "Y=3 layak dengan X=6 dan Z=3, sehingga maksimum tercapai."
+    ],
+    "distractorExplanations": {
+      "B": "Layak tetapi belum memaksimalkan Y.",
+      "C": "Layak tetapi masih bisa dinaikkan.",
+      "D": "Memberi Z=0, melanggar minimal tiga.",
+      "E": "Melampaui dana total setelah menghitung X."
+    },
+    "quickTip": "Daftar seluruh syarat dan uji setiap alternatif, bukan hanya syarat pertama.",
+    "learningPoint": "Kelayakan mensyaratkan seluruh pembatas terpenuhi, bukan hanya sebagian.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "constraint"
+  },
+  {
+    "id": "LPDP-PS-027",
+    "number": 27,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P03",
+    "topic": "Masalah dengan Beberapa Kondisi",
+    "subtopic": "Penugasan kompetensi",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis penugasan kompetensi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tiga teknisi A, B, C mengerjakan tiga lokasi X, Y, Z, masing-masing satu. A tidak bersertifikat untuk X; B hanya boleh X; C tidak boleh Y. Penugasan mana memenuhi aturan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-Z, B-X, C-Y"
+      },
+      {
+        "id": "B",
+        "text": "A-Y, B-X, C-Z"
+      },
+      {
+        "id": "C",
+        "text": "A-X, B-Y, C-Z"
+      },
+      {
+        "id": "D",
+        "text": "A-Y, B-Z, C-X"
+      },
+      {
+        "id": "E",
+        "text": "A-Z, B-Y, C-X"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "B harus di X.\n\nDari Y dan Z, C tidak boleh Y sehingga C di Z.\n\nA menempati Y.",
+    "stepByStepSolution": [
+      "B harus di X.",
+      "Dari Y dan Z, C tidak boleh Y sehingga C di Z.",
+      "A menempati Y."
+    ],
+    "distractorExplanations": {
+      "A": "C dilarang di Y.",
+      "C": "A tidak boleh X dan B hanya X.",
+      "D": "B tidak boleh Z.",
+      "E": "B tidak boleh Y."
+    },
+    "quickTip": "Daftar seluruh syarat dan uji setiap alternatif, bukan hanya syarat pertama.",
+    "learningPoint": "Kelayakan mensyaratkan seluruh pembatas terpenuhi, bukan hanya sebagian.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "constraint"
+  },
+  {
+    "id": "LPDP-PS-028",
+    "number": 28,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P03",
+    "topic": "Masalah dengan Beberapa Kondisi",
+    "subtopic": "Pilihan modul",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis pilihan modul dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Pilih tepat dua modul dari K, L, M, N. Jika K dipilih maka L juga; M tidak boleh bersama L; N wajib dipilih. Pilihan yang memenuhi aturan adalah mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "K dan N"
+      },
+      {
+        "id": "B",
+        "text": "K dan M"
+      },
+      {
+        "id": "C",
+        "text": "M dan N"
+      },
+      {
+        "id": "D",
+        "text": "L dan M"
+      },
+      {
+        "id": "E",
+        "text": "K dan L"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "N wajib masuk, menyisakan satu tempat.\n\nK membutuhkan L sehingga K tidak mungkin dipilih dengan hanya satu tempat tersisa.\n\nM-N memenuhi semua syarat dan tersedia pada opsi.",
+    "stepByStepSolution": [
+      "N wajib masuk, menyisakan satu tempat.",
+      "K membutuhkan L sehingga K tidak mungkin dipilih dengan hanya satu tempat tersisa.",
+      "M-N memenuhi semua syarat dan tersedia pada opsi."
+    ],
+    "distractorExplanations": {
+      "A": "K dipilih tanpa L.",
+      "B": "N wajib tetapi tidak ada, dan K tanpa L.",
+      "D": "N tidak ada serta L-M dilarang.",
+      "E": "Tidak memuat N."
+    },
+    "quickTip": "Daftar seluruh syarat dan uji setiap alternatif, bukan hanya syarat pertama.",
+    "learningPoint": "Kelayakan mensyaratkan seluruh pembatas terpenuhi, bukan hanya sebagian.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "constraint"
+  },
+  {
+    "id": "LPDP-PS-029",
+    "number": 29,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P03",
+    "topic": "Masalah dengan Beberapa Kondisi",
+    "subtopic": "Kapasitas panel",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis kapasitas panel dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Lima narasumber P–T mengisi dua panel, masing-masing kapasitas maksimal tiga dan semua harus ditempatkan. P bersama Q; R bersama S; T tidak bersama P. Jika panel 1 memuat P, siapa yang pasti berada di panel 2?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Q dan T"
+      },
+      {
+        "id": "B",
+        "text": "R saja"
+      },
+      {
+        "id": "C",
+        "text": "S saja"
+      },
+      {
+        "id": "D",
+        "text": "R, S, dan T"
+      },
+      {
+        "id": "E",
+        "text": "Tidak ada yang pasti"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Panel P-Q masih hanya menyisakan satu kursi.\n\nPasangan R-S tidak muat bersama di panel itu.\n\nT tidak boleh bersama P, sehingga panel 2 berisi R-S-T.",
+    "stepByStepSolution": [
+      "Panel P-Q masih hanya menyisakan satu kursi.",
+      "Pasangan R-S tidak muat bersama di panel itu.",
+      "T tidak boleh bersama P, sehingga panel 2 berisi R-S-T."
+    ],
+    "distractorExplanations": {
+      "A": "Q harus bersama P di panel 1.",
+      "B": "S harus bersama R dan T juga tidak boleh panel P.",
+      "C": "R harus bersama S.",
+      "E": "Kapasitas dan aturan pasangan menentukan panel kedua."
+    },
+    "quickTip": "Daftar seluruh syarat dan uji setiap alternatif, bukan hanya syarat pertama.",
+    "learningPoint": "Kelayakan mensyaratkan seluruh pembatas terpenuhi, bukan hanya sebagian.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "constraint"
+  },
+  {
+    "id": "LPDP-PS-030",
+    "number": 30,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P03",
+    "topic": "Masalah dengan Beberapa Kondisi",
+    "subtopic": "Distribusi paket",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis distribusi paket dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tiga gudang G1–G3 harus masing-masing menerima satu paket A, B, C. A tidak boleh G1; B tidak boleh G2; C hanya boleh G1 atau G2. Jika B ditempatkan G3, penempatan lengkap mana yang layak?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-G1, C-G2, B-G3"
+      },
+      {
+        "id": "B",
+        "text": "C-G2, A-G3, B-G1"
+      },
+      {
+        "id": "C",
+        "text": "B-G2, A-G3, C-G1"
+      },
+      {
+        "id": "D",
+        "text": "A-G2, B-G1, C-G3"
+      },
+      {
+        "id": "E",
+        "text": "C-G1, A-G2, B-G3"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "B mengisi G3.\n\nA tidak boleh G1 sehingga A harus G2.\n\nC menempati G1 yang masih diperbolehkan.",
+    "stepByStepSolution": [
+      "B mengisi G3.",
+      "A tidak boleh G1 sehingga A harus G2.",
+      "C menempati G1 yang masih diperbolehkan."
+    ],
+    "distractorExplanations": {
+      "A": "A dilarang G1.",
+      "B": "Tidak mempertahankan B di G3.",
+      "C": "B dilarang G2 dan bukan di G3.",
+      "D": "C dilarang G3 dan B tidak sesuai kondisi."
+    },
+    "quickTip": "Daftar seluruh syarat dan uji setiap alternatif, bukan hanya syarat pertama.",
+    "learningPoint": "Kelayakan mensyaratkan seluruh pembatas terpenuhi, bukan hanya sebagian.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "constraint"
+  },
+  {
+    "id": "LPDP-PS-031",
+    "number": 31,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P04",
+    "topic": "Pengambilan Keputusan Analitis",
+    "subtopic": "Biaya dan tenggat",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis biaya dan tenggat dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Lima penyedia menawarkan biaya dalam ribu dan durasi hari: A 80/5, B 100/3, C 90/4, D 120/2, E 110/4. Tenggat maksimal 3 hari. Tujuan memilih biaya terendah di antara yang memenuhi tenggat. Pilihan terbaik mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "B"
+      },
+      {
+        "id": "B",
+        "text": "A"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Hanya B dan D selesai dalam tiga hari.\n\nBiaya B 100 lebih rendah daripada D 120.\n\nPilihan termurah keseluruhan tidak layak bila terlambat.",
+    "stepByStepSolution": [
+      "Hanya B dan D selesai dalam tiga hari.",
+      "Biaya B 100 lebih rendah daripada D 120.",
+      "Pilihan termurah keseluruhan tidak layak bila terlambat."
+    ],
+    "distractorExplanations": {
+      "B": "Durasi lima hari melampaui tenggat.",
+      "C": "Durasi empat hari melampaui tenggat.",
+      "D": "Layak, tetapi lebih mahal daripada B.",
+      "E": "Durasi empat hari melampaui tenggat."
+    },
+    "quickTip": "Eliminasi pilihan yang melanggar kendala, lalu optimalkan kriteria yang diberikan.",
+    "learningPoint": "Pilihan terbaik bergantung pada tujuan serta kendala yang dinyatakan.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-032",
+    "number": 32,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P04",
+    "topic": "Pengambilan Keputusan Analitis",
+    "subtopic": "Manfaat dalam anggaran",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis manfaat dalam anggaran dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Lima proyek memiliki biaya/manfaat poin: A 4/8, B 6/15, C 5/11, D 7/18, E 3/6. Hanya satu proyek boleh dipilih dengan biaya maksimal 5. Tujuan memaksimalkan manfaat total. Pilihan mana terbaik?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "C"
+      },
+      {
+        "id": "C",
+        "text": "B"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A, C, E memenuhi anggaran.\n\nManfaatnya 8, 11, dan 6.\n\nC memiliki manfaat tertinggi di antara pilihan layak.",
+    "stepByStepSolution": [
+      "A, C, E memenuhi anggaran.",
+      "Manfaatnya 8, 11, dan 6.",
+      "C memiliki manfaat tertinggi di antara pilihan layak."
+    ],
+    "distractorExplanations": {
+      "A": "Layak tetapi manfaat delapan di bawah sebelas.",
+      "C": "Biaya enam melampaui batas.",
+      "D": "Biaya tujuh melampaui batas.",
+      "E": "Layak tetapi manfaatnya enam."
+    },
+    "quickTip": "Eliminasi pilihan yang melanggar kendala, lalu optimalkan kriteria yang diberikan.",
+    "learningPoint": "Pilihan terbaik bergantung pada tujuan serta kendala yang dinyatakan.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-033",
+    "number": 33,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P04",
+    "topic": "Pengambilan Keputusan Analitis",
+    "subtopic": "Irisan ketersediaan",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis irisan ketersediaan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Rumah belajar memilih satu jadwal yang harus dapat dihadiri semua tiga pengajar. A hanya Senin atau Selasa; B hanya Selasa atau Rabu; C hanya Selasa atau Kamis. Hari yang memenuhi kriteria adalah mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Senin"
+      },
+      {
+        "id": "B",
         "text": "Rabu"
       },
       {
-        "id": "B",
+        "id": "C",
         "text": "Selasa"
       },
       {
-        "id": "C",
-        "text": "Senin"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "Dua pilihan bersifat lengkap. Mengeliminasi Senin menyisakan Selasa; Rabu tidak termasuk opsi yang diizinkan.",
-    "distractorExplanations": {
-      "A": "Pilihan “Rabu” tidak memenuhi konsep atau kondisi dalam soal. Dua pilihan bersifat lengkap. Mengeliminasi Senin menyisakan Selasa; Rabu tidak termasuk opsi yang diizinkan.",
-      "C": "Pilihan “Senin” tidak memenuhi konsep atau kondisi dalam soal. Dua pilihan bersifat lengkap. Mengeliminasi Senin menyisakan Selasa; Rabu tidak termasuk opsi yang diizinkan."
-    },
-    "learningPoint": "Dua pilihan bersifat lengkap. Mengeliminasi Senin menyisakan Selasa; Rabu tidak termasuk opsi yang diizinkan.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-PROBLEM-SOLVING-009",
-    "program": "lpdp",
-    "category": "problem-solving",
-    "topic": "Untuk menguji apakah lampu rusak atau stopkontak rusak, tindakan ",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Untuk menguji apakah lampu rusak atau stopkontak rusak, tindakan awal paling informatif mana?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Coba lampu pada stopkontak lain yang berfungsi"
+        "id": "D",
+        "text": "Kamis"
       },
       {
-        "id": "B",
-        "text": "Mengecat lampu"
-      },
-      {
-        "id": "C",
-        "text": "Membuang kabel tanpa pengujian"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Mengubah satu faktor dengan pembanding yang diketahui berfungsi membantu mengisolasi penyebab. Pengecatan dan pembuangan tanpa tes tidak menguji hipotesis.",
-    "distractorExplanations": {
-      "B": "Pilihan “Mengecat lampu” tidak memenuhi konsep atau kondisi dalam soal. Mengubah satu faktor dengan pembanding yang diketahui berfungsi membantu mengisolasi penyebab. Pengecatan dan pembuangan tanpa tes tidak menguji hipotesis.",
-      "C": "Pilihan “Membuang kabel tanpa pengujian” tidak memenuhi konsep atau kondisi dalam soal. Mengubah satu faktor dengan pembanding yang diketahui berfungsi membantu mengisolasi penyebab. Pengecatan dan pembuangan tanpa tes tidak menguji hipotesis."
-    },
-    "learningPoint": "Mengubah satu faktor dengan pembanding yang diketahui berfungsi membantu mengisolasi penyebab. Pengecatan dan pembuangan tanpa tes tidak menguji hipotesis.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-PROBLEM-SOLVING-010",
-    "program": "lpdp",
-    "category": "problem-solving",
-    "topic": "Pengiriman termurah Rp20.000 memerlukan 4 hari; pilihan Rp35.000 ",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Pengiriman termurah Rp20.000 memerlukan 4 hari; pilihan Rp35.000 memerlukan 2 hari. Batas waktu 3 hari. Pilihan mana memenuhi tenggat dengan biaya minimum?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Pilihan Rp20.000"
-      },
-      {
-        "id": "B",
-        "text": "Keduanya memenuhi tenggat"
-      },
-      {
-        "id": "C",
-        "text": "Pilihan Rp35.000"
+        "id": "E",
+        "text": "Jumat"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Kendala waktu mengeliminasi pengiriman 4 hari. Dari pilihan tersedia, layanan 2 hari satu-satunya yang layak.",
+    "explanation": "Cari irisan tiga himpunan ketersediaan.\n\nSelasa ada di seluruhnya.\n\nHari lain gagal untuk setidaknya satu pengajar.",
+    "stepByStepSolution": [
+      "Cari irisan tiga himpunan ketersediaan.",
+      "Selasa ada di seluruhnya.",
+      "Hari lain gagal untuk setidaknya satu pengajar."
+    ],
     "distractorExplanations": {
-      "A": "Pilihan “Pilihan Rp20.000” tidak memenuhi konsep atau kondisi dalam soal. Kendala waktu mengeliminasi pengiriman 4 hari. Dari pilihan tersedia, layanan 2 hari satu-satunya yang layak.",
-      "B": "Pilihan “Keduanya memenuhi tenggat” tidak memenuhi konsep atau kondisi dalam soal. Kendala waktu mengeliminasi pengiriman 4 hari. Dari pilihan tersedia, layanan 2 hari satu-satunya yang layak."
+      "A": "Tidak tersedia bagi B dan C.",
+      "B": "Tidak tersedia bagi A dan C.",
+      "D": "Tidak tersedia bagi A dan B.",
+      "E": "Tidak termasuk ketersediaan siapa pun."
     },
-    "learningPoint": "Kendala waktu mengeliminasi pengiriman 4 hari. Dari pilihan tersedia, layanan 2 hari satu-satunya yang layak.",
+    "quickTip": "Eliminasi pilihan yang melanggar kendala, lalu optimalkan kriteria yang diberikan.",
+    "learningPoint": "Pilihan terbaik bergantung pada tujuan serta kendala yang dinyatakan.",
+    "estimatedTimeSeconds": 60,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-034",
+    "number": 34,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P04",
+    "topic": "Pengambilan Keputusan Analitis",
+    "subtopic": "Skor keputusan",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis skor keputusan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Unit menetapkan skor keputusan = 2×mutu − biaya, dengan mutu dan biaya dalam poin. A 8/5, B 7/2, C 9/8, D 6/1, E 8/7. Opsi dengan skor tertinggi mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "C"
+      },
+      {
+        "id": "C",
+        "text": "D"
+      },
+      {
+        "id": "D",
+        "text": "B"
+      },
+      {
+        "id": "E",
+        "text": "E"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Skor A=11, B=12, C=10, D=11, E=9.\n\nBandingkan dengan rumus yang dinyatakan, bukan mutu saja.\n\nB satu-satunya maksimum.",
+    "stepByStepSolution": [
+      "Skor A=11, B=12, C=10, D=11, E=9.",
+      "Bandingkan dengan rumus yang dinyatakan, bukan mutu saja.",
+      "B satu-satunya maksimum."
+    ],
+    "distractorExplanations": {
+      "A": "Skornya 11, di bawah 12.",
+      "B": "Mutu tertinggi tetapi biaya menurunkan skor menjadi 10.",
+      "C": "Biaya kecil menghasilkan skor 11, bukan maksimum.",
+      "E": "Skornya sembilan."
+    },
+    "quickTip": "Eliminasi pilihan yang melanggar kendala, lalu optimalkan kriteria yang diberikan.",
+    "learningPoint": "Pilihan terbaik bergantung pada tujuan serta kendala yang dinyatakan.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-035",
+    "number": 35,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P04",
+    "topic": "Pengambilan Keputusan Analitis",
+    "subtopic": "Cakupan risiko",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis cakupan risiko dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Pemeriksaan wajib harus mencakup risiko X dan Y. Metode A mencakup X, biaya 3; B mencakup Y, biaya 4; C mencakup X dan Y, biaya 8. Metode dapat digabung dan tujuan biaya minimum. Pilihan terbaik mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A saja"
+      },
+      {
+        "id": "B",
+        "text": "B saja"
+      },
+      {
+        "id": "C",
+        "text": "C saja"
+      },
+      {
+        "id": "D",
+        "text": "A dan C"
+      },
+      {
+        "id": "E",
+        "text": "A dan B"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Gabungan A-B mencakup kedua risiko dengan biaya 7.\n\nC sendiri juga lengkap tetapi berbiaya 8.\n\nA atau B saja tidak lengkap.",
+    "stepByStepSolution": [
+      "Gabungan A-B mencakup kedua risiko dengan biaya 7.",
+      "C sendiri juga lengkap tetapi berbiaya 8.",
+      "A atau B saja tidak lengkap."
+    ],
+    "distractorExplanations": {
+      "A": "Risiko Y belum tercakup.",
+      "B": "Risiko X belum tercakup.",
+      "C": "Lengkap tetapi lebih mahal daripada A-B.",
+      "D": "Lengkap tetapi biaya 11, lebih tinggi tanpa tambahan cakupan wajib."
+    },
+    "quickTip": "Eliminasi pilihan yang melanggar kendala, lalu optimalkan kriteria yang diberikan.",
+    "learningPoint": "Pilihan terbaik bergantung pada tujuan serta kendala yang dinyatakan.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-036",
+    "number": 36,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P04",
+    "topic": "Pengambilan Keputusan Analitis",
+    "subtopic": "Biaya kepemilikan",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis biaya kepemilikan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Lima alat memiliki harga/biaya operasi dua tahun dalam juta: A 8/6, B 10/3, C 7/8, D 12/2, E 9/7. Semua memenuhi fungsi dan umur yang dibutuhkan. Tujuan meminimalkan biaya total dua tahun. Pilih mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "B"
+      },
+      {
+        "id": "B",
+        "text": "A"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Total A=14, B=13, C=15, D=14, E=16.\n\nHarga awal bukan satu-satunya komponen.\n\nB memiliki total terendah.",
+    "stepByStepSolution": [
+      "Total A=14, B=13, C=15, D=14, E=16.",
+      "Harga awal bukan satu-satunya komponen.",
+      "B memiliki total terendah."
+    ],
+    "distractorExplanations": {
+      "B": "Total 14 lebih tinggi daripada 13.",
+      "C": "Harga awal terendah tetapi biaya total 15.",
+      "D": "Operasi murah tetapi total tetap 14.",
+      "E": "Total 16, tertinggi pada data ini."
+    },
+    "quickTip": "Eliminasi pilihan yang melanggar kendala, lalu optimalkan kriteria yang diberikan.",
+    "learningPoint": "Pilihan terbaik bergantung pada tujuan serta kendala yang dinyatakan.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-037",
+    "number": 37,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P04",
+    "topic": "Pengambilan Keputusan Analitis",
+    "subtopic": "Ekspektasi kerugian",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis ekspektasi kerugian dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tim memprioritaskan risiko menurut nilai ekspektasi kerugian = peluang × dampak. Risiko A 0,1/100; B 0,4/40; C 0,2/60; D 0,05/200; E 0,3/30. Satuan dampak juta rupiah. Jika hanya satu risiko dapat dikurangi dengan biaya sama, mana prioritas menurut kriteria itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ekspektasi A=10, B=16, C=12, D=10, E=9 juta.\n\nKriteria menyatakan prioritas berdasarkan nilai ekspektasi.\n\nB tertinggi, walau dampak tunggal D lebih besar.",
+    "stepByStepSolution": [
+      "Ekspektasi A=10, B=16, C=12, D=10, E=9 juta.",
+      "Kriteria menyatakan prioritas berdasarkan nilai ekspektasi.",
+      "B tertinggi, walau dampak tunggal D lebih besar."
+    ],
+    "distractorExplanations": {
+      "A": "Ekspektasinya 10, bukan maksimum.",
+      "C": "Ekspektasinya 12, di bawah 16.",
+      "D": "Dampak besar tetapi peluang kecil memberi ekspektasi 10.",
+      "E": "Ekspektasinya sembilan."
+    },
+    "quickTip": "Eliminasi pilihan yang melanggar kendala, lalu optimalkan kriteria yang diberikan.",
+    "learningPoint": "Pilihan terbaik bergantung pada tujuan serta kendala yang dinyatakan.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-038",
+    "number": 38,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P04",
+    "topic": "Pengambilan Keputusan Analitis",
+    "subtopic": "Dua syarat layanan",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis dua syarat layanan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Sebuah server harus memiliki ketersediaan minimal 99% dan biaya maksimal 12 unit. Opsi A 98%/8, B 99,5%/14, C 99%/12, D 97%/6, E 98,5%/10. Opsi yang memenuhi kedua syarat mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Saring ketersediaan minimal 99% dan biaya maksimal 12.\n\nB lolos ketersediaan tetapi gagal biaya.\n\nC memenuhi keduanya tepat pada batas.",
+    "stepByStepSolution": [
+      "Saring ketersediaan minimal 99% dan biaya maksimal 12.",
+      "B lolos ketersediaan tetapi gagal biaya.",
+      "C memenuhi keduanya tepat pada batas."
+    ],
+    "distractorExplanations": {
+      "A": "Ketersediaan 98% tidak cukup.",
+      "B": "Biaya 14 melebihi 12.",
+      "D": "Ketersediaan 97% di bawah target.",
+      "E": "Ketersediaan 98,5% masih di bawah target."
+    },
+    "quickTip": "Eliminasi pilihan yang melanggar kendala, lalu optimalkan kriteria yang diberikan.",
+    "learningPoint": "Pilihan terbaik bergantung pada tujuan serta kendala yang dinyatakan.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-039",
+    "number": 39,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P04",
+    "topic": "Pengambilan Keputusan Analitis",
+    "subtopic": "Pilihan kegiatan",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis pilihan kegiatan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Ada 6 jam untuk memilih kegiatan yang tidak dapat dipecah dan setiap kegiatan paling banyak sekali. A durasi 2/manfaat 5, B 3/8, C 4/9. Pilihan yang memberi manfaat terbesar adalah mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A dan B"
+      },
+      {
+        "id": "B",
+        "text": "B dan C"
+      },
+      {
+        "id": "C",
+        "text": "A saja"
+      },
+      {
+        "id": "D",
+        "text": "A dan C"
+      },
+      {
+        "id": "E",
+        "text": "C saja"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pilihan layak meliputi A-B dengan durasi 5 dan manfaat 13, serta A-C durasi 6 manfaat 14.\n\nB-C melampaui waktu.\n\nA-C adalah manfaat maksimum yang layak.",
+    "stepByStepSolution": [
+      "Pilihan layak meliputi A-B dengan durasi 5 dan manfaat 13, serta A-C durasi 6 manfaat 14.",
+      "B-C melampaui waktu.",
+      "A-C adalah manfaat maksimum yang layak."
+    ],
+    "distractorExplanations": {
+      "A": "Layak tetapi manfaat 13 lebih kecil daripada 14.",
+      "B": "Durasi tujuh melampaui enam.",
+      "C": "Manfaat lima, lebih rendah dari gabungan layak.",
+      "E": "Manfaat sembilan, lebih rendah dari A-C."
+    },
+    "quickTip": "Eliminasi pilihan yang melanggar kendala, lalu optimalkan kriteria yang diberikan.",
+    "learningPoint": "Pilihan terbaik bergantung pada tujuan serta kendala yang dinyatakan.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-040",
+    "number": 40,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P04",
+    "topic": "Pengambilan Keputusan Analitis",
+    "subtopic": "Biaya risiko total",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis biaya risiko total dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Pilih satu strategi berdasarkan biaya ekspektasi total = biaya pencegahan + peluang gagal × kerugian gagal. Kerugian gagal 100 unit untuk semua. Strategi A biaya 5/peluang 0,20; B 10/0,10; C 15/0,02; D 0/0,30; E 8/0,15. Mana meminimalkan biaya ekspektasi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "D"
+      },
+      {
+        "id": "D",
+        "text": "E"
+      },
+      {
+        "id": "E",
+        "text": "C"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Biaya total A=25, B=20, C=17, D=30, E=23.\n\nSeluruh komponen menggunakan satuan yang sama.\n\nC memiliki ekspektasi total terendah.",
+    "stepByStepSolution": [
+      "Biaya total A=25, B=20, C=17, D=30, E=23.",
+      "Seluruh komponen menggunakan satuan yang sama.",
+      "C memiliki ekspektasi total terendah."
+    ],
+    "distractorExplanations": {
+      "A": "Total 25 lebih besar daripada 17.",
+      "B": "Total 20 masih di atas C.",
+      "C": "Tanpa biaya awal tetapi ekspektasi kerugiannya 30.",
+      "D": "Total 23 tidak minimum."
+    },
+    "quickTip": "Eliminasi pilihan yang melanggar kendala, lalu optimalkan kriteria yang diberikan.",
+    "learningPoint": "Pilihan terbaik bergantung pada tujuan serta kendala yang dinyatakan.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-041",
+    "number": 41,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P05",
+    "topic": "Pemecahan Masalah Numerik Terapan",
+    "subtopic": "Optimasi paket kursi",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis optimasi paket kursi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Dibutuhkan minimal 24 kursi tambahan. Paket kecil berisi 4 kursi berharga 3 unit, paket besar 10 kursi berharga 8 unit. Paket utuh boleh dibeli berulang. Berapa biaya minimum untuk memenuhi kebutuhan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "18",
+        "numericValue": 18.0
+      },
+      {
+        "id": "B",
+        "text": "16",
+        "numericValue": 16.0
+      },
+      {
+        "id": "C",
+        "text": "19",
+        "numericValue": 19.0
+      },
+      {
+        "id": "D",
+        "text": "20",
+        "numericValue": 20.0
+      },
+      {
+        "id": "E",
+        "text": "24",
+        "numericValue": 24.0
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Enam paket kecil menyediakan 24 kursi dengan biaya 18.\n\nSatu besar perlu empat kecil: biaya 20; dua besar perlu satu kecil: biaya 19.\n\nTiga besar biaya 24, sehingga minimum 18.",
+    "stepByStepSolution": [
+      "Enam paket kecil menyediakan 24 kursi dengan biaya 18.",
+      "Satu besar perlu empat kecil: biaya 20; dua besar perlu satu kecil: biaya 19.",
+      "Tiga besar biaya 24, sehingga minimum 18."
+    ],
+    "distractorExplanations": {
+      "B": "Dua paket besar hanya memberi 20 kursi.",
+      "C": "Layak tetapi lebih mahal daripada enam paket kecil.",
+      "D": "Layak tetapi bukan minimum.",
+      "E": "Tiga paket besar melebihi biaya minimum."
+    },
+    "quickTip": "Pisahkan fase, batas kapasitas, dan tujuan; enumerasi pilihan utuh bila diperlukan.",
+    "learningPoint": "Optimasi memerlukan perbandingan semua pilihan layak atau pembuktian batas maksimum/minimum.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-042",
+    "number": 42,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P05",
+    "topic": "Pemecahan Masalah Numerik Terapan",
+    "subtopic": "Laju dengan persiapan",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis laju dengan persiapan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Mesin A menghasilkan 12 unit/jam setelah persiapan 1 jam. Mesin B menghasilkan 8 unit/jam tanpa persiapan. Keduanya mulai pada waktu nol, persiapan A tidak mengganggu B, dan laju tetap. Berapa jam sampai total 68 unit pertama selesai?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3,4",
+        "numericValue": 3.4
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "numericValue": 4.0
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "numericValue": 3.0
+      },
+      {
+        "id": "D",
+        "text": "4,5",
+        "numericValue": 4.5
+      },
+      {
+        "id": "E",
+        "text": "5",
+        "numericValue": 5.0
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Jam pertama hanya B menghasilkan 8.\n\nSisa 60 unit diproduksi bersama pada laju 20 per jam, membutuhkan 3 jam.\n\nTotal empat jam; A 36 dan B 32 unit.",
+    "stepByStepSolution": [
+      "Jam pertama hanya B menghasilkan 8.",
+      "Sisa 60 unit diproduksi bersama pada laju 20 per jam, membutuhkan 3 jam.",
+      "Total empat jam; A 36 dan B 32 unit."
+    ],
+    "distractorExplanations": {
+      "A": "Membagi 68 dengan 20 mengabaikan persiapan A.",
+      "C": "Total saat tiga jam hanya 24 + 24 = 48.",
+      "D": "Lebih lama daripada saat target pertama tercapai.",
+      "E": "Total sudah melampaui target sebelum lima jam."
+    },
+    "quickTip": "Pisahkan fase, batas kapasitas, dan tujuan; enumerasi pilihan utuh bila diperlukan.",
+    "learningPoint": "Optimasi memerlukan perbandingan semua pilihan layak atau pembuktian batas maksimum/minimum.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-043",
+    "number": 43,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P05",
+    "topic": "Pemecahan Masalah Numerik Terapan",
+    "subtopic": "Kapasitas petugas",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis kapasitas petugas dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tersedia anggaran 12 unit. Petugas tipe A berbiaya 3 dan menyelesaikan 5 kasus; tipe B berbiaya 4 dan menyelesaikan 8 kasus dalam periode sama. Maksimal tiga petugas boleh dipekerjakan. Berapa kasus maksimum, jika kapasitas dijumlah dan tidak ada tumpang tindih?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20",
+        "numericValue": 20.0
+      },
+      {
+        "id": "B",
+        "text": "21",
+        "numericValue": 21.0
+      },
+      {
+        "id": "C",
+        "text": "24",
+        "numericValue": 24.0
+      },
+      {
+        "id": "D",
+        "text": "25",
+        "numericValue": 25.0
+      },
+      {
+        "id": "E",
+        "text": "30",
+        "numericValue": 30.0
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tiga B berbiaya 12 dan menangani 24 kasus.\n\nKombinasi dengan A memberi kapasitas lebih kecil pada jumlah petugas yang sama.\n\nEnumerasi sampai tiga petugas memastikan tidak ada kombinasi melebihi 24.",
+    "stepByStepSolution": [
+      "Tiga B berbiaya 12 dan menangani 24 kasus.",
+      "Kombinasi dengan A memberi kapasitas lebih kecil pada jumlah petugas yang sama.",
+      "Enumerasi sampai tiga petugas memastikan tidak ada kombinasi melebihi 24."
+    ],
+    "distractorExplanations": {
+      "A": "Kombinasi tertentu layak tetapi bukan maksimum.",
+      "B": "Dua B dan satu A memberi 21, di bawah tiga B.",
+      "D": "Memerlukan kapasitas yang tidak dapat dicapai dalam batas biaya dan jumlah.",
+      "E": "Melampaui kombinasi layak yang tersedia."
+    },
+    "quickTip": "Pisahkan fase, batas kapasitas, dan tujuan; enumerasi pilihan utuh bila diperlukan.",
+    "learningPoint": "Optimasi memerlukan perbandingan semua pilihan layak atau pembuktian batas maksimum/minimum.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-044",
+    "number": 44,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P05",
+    "topic": "Pemecahan Masalah Numerik Terapan",
+    "subtopic": "Sampel tanpa pengembalian",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis sampel tanpa pengembalian dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Kotak berisi 3 komponen baik dan 2 rusak. Dua komponen dipilih acak tanpa pengembalian. Berapa peluang keduanya baik?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9/25",
+        "numericValue": 0.36
+      },
+      {
+        "id": "B",
+        "text": "3/5",
+        "numericValue": 0.6
+      },
+      {
+        "id": "C",
+        "text": "1/5",
+        "numericValue": 0.2
+      },
+      {
+        "id": "D",
+        "text": "3/10",
+        "numericValue": 0.3
+      },
+      {
+        "id": "E",
+        "text": "2/5",
+        "numericValue": 0.4
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Ada C(5,2)=10 pasangan sama mungkin.\n\nPasangan baik berjumlah C(3,2)=3.\n\nPeluang 3/10; setara 3/5 × 2/4.",
+    "stepByStepSolution": [
+      "Ada C(5,2)=10 pasangan sama mungkin.",
+      "Pasangan baik berjumlah C(3,2)=3.",
+      "Peluang 3/10; setara 3/5 × 2/4."
+    ],
+    "distractorExplanations": {
+      "A": "Ini menganggap pengembalian sehingga peluang kedua tetap 3/5.",
+      "B": "Ini peluang satu komponen baik saja.",
+      "C": "Menghitung pasangan baik terlalu sedikit.",
+      "E": "Tidak sesuai tiga pasangan baik dari sepuluh."
+    },
+    "quickTip": "Pisahkan fase, batas kapasitas, dan tujuan; enumerasi pilihan utuh bila diperlukan.",
+    "learningPoint": "Optimasi memerlukan perbandingan semua pilihan layak atau pembuktian batas maksimum/minimum.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-045",
+    "number": 45,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P05",
+    "topic": "Pemecahan Masalah Numerik Terapan",
+    "subtopic": "Optimasi armada",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis optimasi armada dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Sebanyak 46 peserta harus diangkut sekali jalan. Bus kecil kapasitas 10/biaya 4, bus besar kapasitas 18/biaya 7. Maksimal empat bus boleh digunakan. Berapa biaya minimum?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16",
+        "numericValue": 16.0
+      },
+      {
+        "id": "B",
+        "text": "17",
+        "numericValue": 17.0
+      },
+      {
+        "id": "C",
+        "text": "19",
+        "numericValue": 19.0
+      },
+      {
+        "id": "D",
+        "text": "21",
+        "numericValue": 21.0
+      },
+      {
+        "id": "E",
+        "text": "18",
+        "numericValue": 18.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Dua bus besar dan satu kecil menampung tepat 46 peserta dengan biaya 18.\n\nEmpat kecil hanya 40, tidak cukup.\n\nDua besar satu kecil adalah kombinasi minimum setelah membandingkan kombinasi layak.",
+    "stepByStepSolution": [
+      "Dua bus besar dan satu kecil menampung tepat 46 peserta dengan biaya 18.",
+      "Empat kecil hanya 40, tidak cukup.",
+      "Dua besar satu kecil adalah kombinasi minimum setelah membandingkan kombinasi layak."
+    ],
+    "distractorExplanations": {
+      "A": "Empat bus kecil tidak mencukupi kapasitas.",
+      "B": "Tidak ada kombinasi berbiaya 17 yang menampung 46 dalam empat bus.",
+      "C": "Layak melalui satu besar tiga kecil, tetapi lebih mahal.",
+      "D": "Tiga bus besar layak tetapi lebih mahal."
+    },
+    "quickTip": "Pisahkan fase, batas kapasitas, dan tujuan; enumerasi pilihan utuh bila diperlukan.",
+    "learningPoint": "Optimasi memerlukan perbandingan semua pilihan layak atau pembuktian batas maksimum/minimum.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-046",
+    "number": 46,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P05",
+    "topic": "Pemecahan Masalah Numerik Terapan",
+    "subtopic": "Kerja bertahap",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis kerja bertahap dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "A dapat menyelesaikan satu pekerjaan dalam 6 hari, B dalam 3 hari. A bekerja sendiri 2 hari, kemudian A dan B bekerja bersama hingga selesai. Berapa total hari sejak awal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10/3",
+        "numericValue": 3.3333333333333335
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "numericValue": 2.0
+      },
+      {
+        "id": "C",
+        "text": "4/3",
+        "numericValue": 1.3333333333333333
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "numericValue": 4.0
+      },
+      {
+        "id": "E",
+        "text": "3",
+        "numericValue": 3.0
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A menyelesaikan 2/6 = 1/3 pekerjaan pada dua hari pertama.\n\nSisa 2/3 diselesaikan bersama dengan laju 1/6+1/3=1/2 per hari, sehingga butuh 4/3 hari.\n\nTotal 2+4/3=10/3 hari.",
+    "stepByStepSolution": [
+      "A menyelesaikan 2/6 = 1/3 pekerjaan pada dua hari pertama.",
+      "Sisa 2/3 diselesaikan bersama dengan laju 1/6+1/3=1/2 per hari, sehingga butuh 4/3 hari.",
+      "Total 2+4/3=10/3 hari."
+    ],
+    "distractorExplanations": {
+      "B": "Mengabaikan sisa pekerjaan setelah dua hari.",
+      "C": "Ini waktu kerja bersama saja.",
+      "D": "Tidak mengikuti laju gabungan yang diberikan.",
+      "E": "Dalam tiga hari total pekerjaan baru 1/3+1/2=5/6."
+    },
+    "quickTip": "Pisahkan fase, batas kapasitas, dan tujuan; enumerasi pilihan utuh bila diperlukan.",
+    "learningPoint": "Optimasi memerlukan perbandingan semua pilihan layak atau pembuktian batas maksimum/minimum.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-047",
+    "number": 47,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P05",
+    "topic": "Pemecahan Masalah Numerik Terapan",
+    "subtopic": "Kapasitas rak terpisah",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis kapasitas rak terpisah dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Rak terdiri atas tiga tingkat identik, masing-masing panjang 100 cm dan tinggi cukup. Kotak harus berdiri berderet dengan sisi 30 cm sepanjang rak; dilarang menumpuk atau memutar. Berapa kotak maksimum yang muat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10",
+        "numericValue": 10.0
+      },
+      {
+        "id": "B",
+        "text": "9",
+        "numericValue": 9.0
+      },
+      {
+        "id": "C",
+        "text": "6",
+        "numericValue": 6.0
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "numericValue": 12.0
+      },
+      {
+        "id": "E",
+        "text": "3",
+        "numericValue": 3.0
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Setiap tingkat memuat floor(100/30)=3 kotak.\n\nSisa 10 cm per tingkat tidak dapat digabung antar tingkat.\n\nTiga tingkat memuat 3×3=9 kotak.",
+    "stepByStepSolution": [
+      "Setiap tingkat memuat floor(100/30)=3 kotak.",
+      "Sisa 10 cm per tingkat tidak dapat digabung antar tingkat.",
+      "Tiga tingkat memuat 3×3=9 kotak."
+    ],
+    "distractorExplanations": {
+      "A": "Membagi total panjang 300 dengan 30 mengabaikan pemisahan tingkat.",
+      "C": "Hanya memakai dua kotak per tingkat, belum maksimum.",
+      "D": "Empat kotak butuh 120 cm per tingkat.",
+      "E": "Ini kapasitas satu tingkat saja."
+    },
+    "quickTip": "Pisahkan fase, batas kapasitas, dan tujuan; enumerasi pilihan utuh bila diperlukan.",
+    "learningPoint": "Optimasi memerlukan perbandingan semua pilihan layak atau pembuktian batas maksimum/minimum.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-048",
+    "number": 48,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P05",
+    "topic": "Pemecahan Masalah Numerik Terapan",
+    "subtopic": "Laju fase dan bocor",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis laju fase dan bocor dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tangki kosong diisi pipa A 12 liter/menit. Setelah 5 menit, pipa B 8 liter/menit dibuka bersamaan dengan kebocoran tetap 2 liter/menit. Ketiganya lalu berlangsung sampai volume 150 liter. Berapa menit total diperlukan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8",
+        "numericValue": 8.0
+      },
+      {
+        "id": "B",
+        "text": "7,5",
+        "numericValue": 7.5
+      },
+      {
+        "id": "C",
+        "text": "10",
+        "numericValue": 10.0
+      },
+      {
+        "id": "D",
+        "text": "5",
+        "numericValue": 5.0
+      },
+      {
+        "id": "E",
+        "text": "12,5",
+        "numericValue": 12.5
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Lima menit pertama menghasilkan 60 liter.\n\nSisa 90 liter diisi dengan laju bersih 12+8−2=18 liter/menit, membutuhkan 5 menit.\n\nTotal 10 menit; pemeriksaan 60+5×18=150.",
+    "stepByStepSolution": [
+      "Lima menit pertama menghasilkan 60 liter.",
+      "Sisa 90 liter diisi dengan laju bersih 12+8−2=18 liter/menit, membutuhkan 5 menit.",
+      "Total 10 menit; pemeriksaan 60+5×18=150."
+    ],
+    "distractorExplanations": {
+      "A": "Mengabaikan fase awal dan kebocoran secara tidak tepat.",
+      "B": "Menggunakan laju 20 sejak awal tanpa kebocoran.",
+      "D": "Baru menghasilkan 60 liter.",
+      "E": "Membagi seluruh volume dengan laju A saja."
+    },
+    "quickTip": "Pisahkan fase, batas kapasitas, dan tujuan; enumerasi pilihan utuh bila diperlukan.",
+    "learningPoint": "Optimasi memerlukan perbandingan semua pilihan layak atau pembuktian batas maksimum/minimum.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-049",
+    "number": 49,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P05",
+    "topic": "Pemecahan Masalah Numerik Terapan",
+    "subtopic": "Ongkos berisiko",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis ongkos berisiko dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Dua moda memiliki biaya tetap, peluang kerusakan, dan peluang terlambat: A 6 juta/0,04/0,10; B 4 juta/0,10/0,02. Kerugian jika rusak 50 juta dan penalti jika terlambat 5 juta. Kedua kerugian dijumlah bila keduanya terjadi. Berapa biaya ekspektasi minimum dalam juta, tanpa biaya lain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8",
+        "numericValue": 8
+      },
+      {
+        "id": "B",
+        "text": "9",
+        "numericValue": 9
+      },
+      {
+        "id": "C",
+        "text": "9,1",
+        "numericValue": 9.1
+      },
+      {
+        "id": "D",
+        "text": "8,5",
+        "numericValue": 8.5
+      },
+      {
+        "id": "E",
+        "text": "6",
+        "numericValue": 6
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A memiliki total ekspektasi 6+0,04×50+0,10×5=8,5 juta.\n\nB memiliki total ekspektasi 4+0,10×50+0,02×5=9,1 juta.\n\nA memberi minimum 8,5 juta. Ekspektasi kerugian aditif dapat dijumlahkan tanpa perlu menganggap kedua kejadian saling bebas.",
+    "stepByStepSolution": [
+      "A memiliki total ekspektasi 6+0,04×50+0,10×5=8,5 juta.",
+      "B memiliki total ekspektasi 4+0,10×50+0,02×5=9,1 juta.",
+      "A memberi minimum 8,5 juta. Ekspektasi kerugian aditif dapat dijumlahkan tanpa perlu menganggap kedua kejadian saling bebas."
+    ],
+    "distractorExplanations": {
+      "A": "Mengabaikan penalti keterlambatan A sebesar 0,5 juta.",
+      "B": "Mengabaikan penalti keterlambatan B dan belum membandingkan total lengkap.",
+      "C": "Ini total ekspektasi B yang lebih tinggi daripada A.",
+      "E": "Ini hanya biaya tetap A tanpa risiko."
+    },
+    "quickTip": "Pisahkan fase, batas kapasitas, dan tujuan; enumerasi pilihan utuh bila diperlukan.",
+    "learningPoint": "Optimasi memerlukan perbandingan semua pilihan layak atau pembuktian batas maksimum/minimum.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
+  },
+  {
+    "id": "LPDP-PS-050",
+    "number": 50,
+    "program": "lpdp",
+    "category": "problem-solving",
+    "taxonomyCode": "P05",
+    "topic": "Pemecahan Masalah Numerik Terapan",
+    "subtopic": "Knapsack proyek",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis knapsack proyek dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Pilih sejumlah proyek tak terpecah, setiap proyek paling banyak sekali, dengan anggaran 10. Proyek A biaya 4/manfaat 7, B 6/12, C 5/9, D 3/5. Berapa manfaat maksimum?",
+    "options": [
+      {
+        "id": "A",
+        "text": "17",
+        "numericValue": 17.0
+      },
+      {
+        "id": "B",
+        "text": "16",
+        "numericValue": 16.0
+      },
+      {
+        "id": "C",
+        "text": "21",
+        "numericValue": 21.0
+      },
+      {
+        "id": "D",
+        "text": "24",
+        "numericValue": 24.0
+      },
+      {
+        "id": "E",
+        "text": "19",
+        "numericValue": 19.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "A-B menghabiskan 10 dan memberi manfaat 19.\n\nA-C memberi 16; B-D memberi 17; C-D memberi 14.\n\nTidak ada tiga proyek dengan biaya maksimal 10, sehingga 19 adalah maksimum.",
+    "stepByStepSolution": [
+      "A-B menghabiskan 10 dan memberi manfaat 19.",
+      "A-C memberi 16; B-D memberi 17; C-D memberi 14.",
+      "Tidak ada tiga proyek dengan biaya maksimal 10, sehingga 19 adalah maksimum."
+    ],
+    "distractorExplanations": {
+      "A": "Ini manfaat B-D, belum maksimum.",
+      "B": "Ini manfaat A-C.",
+      "C": "Memerlukan kombinasi melampaui anggaran atau salah jumlah manfaat.",
+      "D": "Tidak dapat dicapai dalam anggaran dengan proyek yang tersedia."
+    },
+    "quickTip": "Pisahkan fase, batas kapasitas, dan tujuan; enumerasi pilihan utuh bila diperlukan.",
+    "learningPoint": "Optimasi memerlukan perbandingan semua pilihan layak atau pembuktian batas maksimum/minimum.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "integratesMultipleInformation": true,
+    "stimulusKind": "narrative"
   }
 ]

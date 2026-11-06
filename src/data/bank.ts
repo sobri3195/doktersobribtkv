@@ -1,3 +1,5 @@
+import { lpdpQuestionSchema } from "../services/lpdp-content";
+import lpdpLegacy from "./legacy/lpdp-v1.json";
 import { btkvQuestionSchema } from "../services/btkv-content";
 import legacyData from "./legacy/btkv-v1.json";
 import { questionSchema, type Question } from "../services/model";
@@ -10,11 +12,13 @@ export const bundled: Question[] = Object.values(files).flatMap((data) =>
     const q = questionSchema.parse(raw);
     return q.program === "btkv" && q.contentVersion === 2
       ? btkvQuestionSchema.parse(q)
-      : q;
+      : q.program === "lpdp" && q.version === 2
+        ? lpdpQuestionSchema.parse(q)
+        : q;
   }),
 );
-export const legacyBundled: Question[] = legacyData.map((q) =>
-  questionSchema.parse(q),
+export const legacyBundled: Question[] = [...legacyData, ...lpdpLegacy].map(
+  (q) => questionSchema.parse(q),
 );
 export function mergeBank(
   local: Question[],

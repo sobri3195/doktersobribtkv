@@ -1,3 +1,4 @@
+import { QuestionStimulus } from "../components/QuestionStimulus";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Bookmark, Flag, Grid2X2, Clock3 } from "lucide-react";
@@ -180,11 +181,11 @@ export function Session() {
           <p>
             {result.wrong} salah · {result.blank} kosong
           </p>
-          {a.program === "btkv" && (
+          {a.program !== "simak" && (
             <p>
               Skor latihan: <strong>{result.practiceScore}</strong> · Benar{" "}
-              {a.scoring?.correct ?? 1}, salah {a.scoring?.wrong ?? 0}, kosong{" "}
-              {a.scoring?.blank ?? 0}
+              {a.scoring?.correct ?? (a.program === "lpdp" ? 5 : 1)}, salah{" "}
+              {a.scoring?.wrong ?? 0}, kosong {a.scoring?.blank ?? 0}
             </p>
           )}
           {a.program === "simak" && (
@@ -194,6 +195,29 @@ export function Session() {
             </p>
           )}
           <p>Skor latihan lokal, bukan skor resmi atau hasil tersertifikasi.</p>
+          {a.program === "lpdp" && (
+            <>
+              <p>
+                Akurasi {Math.round((result.correct / result.total) * 100)}% ·
+                Waktu{" "}
+                {Math.round(
+                  d.history.find((h) => h.id === a.id)?.durationSeconds ?? 0,
+                )}{" "}
+                detik.
+              </p>
+              <h3>Skor per subtes</h3>
+              {result.subtests?.map((s) => (
+                <p key={s.category}>
+                  {s.category}: {s.score} poin · {s.correct} benar / {s.wrong}{" "}
+                  salah / {s.blank} kosong
+                </p>
+              ))}
+              <p>
+                Rekomendasi: ulangi topik dengan jawaban salah melalui Materi →
+                Pernah salah.
+              </p>
+            </>
+          )}
           <p>Tinjau pembahasan setiap soal di bawah.</p>
           <div className="filters">
             {a.sections.map((s, i) => (
@@ -229,6 +253,9 @@ export function Session() {
         <div className="row">
           <span className="eyebrow">
             {q.category} / {q.difficulty}
+            {q.estimatedTimeSeconds
+              ? ` · Estimasi ${q.estimatedTimeSeconds} detik`
+              : ""}
           </span>
           <button
             className="icon-button"
@@ -248,10 +275,19 @@ export function Session() {
             />
           </button>
         </div>
+        <QuestionStimulus question={q} />
+        {q.explanationFormat === "data_sufficiency" && (
+          <p className="notice">
+            Kecukupan data: uji (1) dan (2) terpisah, lalu gabung bila
+            diperlukan. Opsi A–E di bawah memiliki definisi tetap.
+          </p>
+        )}
         <h2>
           <MathText text={q.question} />
         </h2>
-        {q.formula && <MathText text={`$${q.formula}$`} />}
+        {q.formula && (!q.workedSolution || locked) && (
+          <MathText text={`$${q.formula}$`} />
+        )}
         <fieldset className="options">
           <legend className="sr-only">Pilih jawaban</legend>
           {q.options.map((o) => (
@@ -285,6 +321,38 @@ export function Session() {
             <p>
               <MathText text={q.explanation} />
             </p>
+            {q.workedSolution && (
+              <section>
+                <h3>Diketahui</h3>
+                <p>{q.workedSolution.known}</p>
+                <h3>Ditanyakan</h3>
+                <p>{q.workedSolution.asked}</p>
+                <h3>Konsep / rumus</h3>
+                <MathText text={`$${q.workedSolution.formula}$`} />
+                <h3>Hasil akhir & pemeriksaan</h3>
+                <p>
+                  {q.workedSolution.result} · {q.workedSolution.check}
+                </p>
+              </section>
+            )}
+            {q.stepByStepSolution && (
+              <>
+                <h3>Langkah penyelesaian</h3>
+                <ol>
+                  {q.stepByStepSolution.map((step, i) => (
+                    <li key={i}>
+                      <MathText text={step} />
+                    </li>
+                  ))}
+                </ol>
+              </>
+            )}
+            {q.quickTip && (
+              <>
+                <h3>Tips cepat</h3>
+                <p>{q.quickTip}</p>
+              </>
+            )}
             {q.learningObjective && (
               <>
                 <h3>Tujuan pembelajaran</h3>
@@ -295,6 +363,13 @@ export function Session() {
               {q.clinicalPearl ? "Clinical pearl" : "Prinsip pembelajaran"}
             </h3>
             <p>{q.clinicalPearl || q.learningPoint}</p>
+            {q.program === "lpdp" && (
+              <p className="notice">
+                Materi latihan orisinal, bukan soal resmi LPDP. Status{" "}
+                {q.reviewStatus}; kesulitan dan estimasi waktu adalah perkiraan
+                editorial.
+              </p>
+            )}
             {q.program === "btkv" && (
               <p className="notice">
                 Status editorial: {q.reviewStatus}. Materi latihan orisinal,

@@ -1,332 +1,2972 @@
 [
   {
-    "id": "LPDP-VERBAL-001",
+    "id": "LPDP-VRB-001",
+    "number": 1,
     "program": "lpdp",
     "category": "verbal",
-    "topic": "Hubungan kompas : arah setara dengan termometer : apa",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "V01",
+    "topic": "Analogi Kata",
+    "subtopic": "Alat dan besaran",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis alat dan besaran dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "Hubungan kompas : arah setara dengan termometer : apa?",
+    "question": "Hubungan alat dan besaran pada barometer : tekanan setara dengan pasangan mana?",
     "options": [
       {
         "id": "A",
-        "text": "Waktu"
+        "text": "Higrometer : kelembapan"
       },
       {
         "id": "B",
-        "text": "Jarak"
+        "text": "Mikroskop : pembesaran"
       },
       {
         "id": "C",
-        "text": "Suhu"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Kompas mengukur atau menunjukkan arah; termometer mengukur suhu. Waktu dan jarak memerlukan alat ukur berbeda.",
-    "distractorExplanations": {
-      "A": "Pilihan “Waktu” tidak memenuhi konsep atau kondisi dalam soal. Kompas mengukur atau menunjukkan arah; termometer mengukur suhu. Waktu dan jarak memerlukan alat ukur berbeda.",
-      "B": "Pilihan “Jarak” tidak memenuhi konsep atau kondisi dalam soal. Kompas mengukur atau menunjukkan arah; termometer mengukur suhu. Waktu dan jarak memerlukan alat ukur berbeda."
-    },
-    "learningPoint": "Kompas mengukur atau menunjukkan arah; termometer mengukur suhu. Waktu dan jarak memerlukan alat ukur berbeda.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-VERBAL-002",
-    "program": "lpdp",
-    "category": "verbal",
-    "topic": "Semua peserta seminar memiliki kartu. Rani peserta seminar. Apa k",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Semua peserta seminar memiliki kartu. Rani peserta seminar. Apa kesimpulan yang pasti?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Rani panitia seminar"
+        "text": "Kalender : pertemuan"
       },
       {
-        "id": "B",
-        "text": "Rani memiliki kartu"
+        "id": "D",
+        "text": "Kompas : perjalanan"
       },
       {
-        "id": "C",
-        "text": "Semua pemilik kartu bernama Rani"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "Keanggotaan Rani dalam kelompok peserta menjamin sifat yang berlaku bagi semua peserta. Kebalikan hubungan dan status panitia tidak diberikan.",
-    "distractorExplanations": {
-      "A": "Pilihan “Rani panitia seminar” tidak memenuhi konsep atau kondisi dalam soal. Keanggotaan Rani dalam kelompok peserta menjamin sifat yang berlaku bagi semua peserta. Kebalikan hubungan dan status panitia tidak diberikan.",
-      "C": "Pilihan “Semua pemilik kartu bernama Rani” tidak memenuhi konsep atau kondisi dalam soal. Keanggotaan Rani dalam kelompok peserta menjamin sifat yang berlaku bagi semua peserta. Kebalikan hubungan dan status panitia tidak diberikan."
-    },
-    "learningPoint": "Keanggotaan Rani dalam kelompok peserta menjamin sifat yang berlaku bagi semua peserta. Kebalikan hubungan dan status panitia tidak diberikan.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-VERBAL-003",
-    "program": "lpdp",
-    "category": "verbal",
-    "topic": "Sebagian peneliti adalah pengajar. Semua pengajar membaca jurnal.",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Sebagian peneliti adalah pengajar. Semua pengajar membaca jurnal. Apa yang pasti?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Sebagian peneliti membaca jurnal"
-      },
-      {
-        "id": "B",
-        "text": "Semua peneliti pengajar"
-      },
-      {
-        "id": "C",
-        "text": "Tidak ada peneliti membaca jurnal"
+        "id": "E",
+        "text": "Neraca : laboratorium"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Peneliti yang juga pengajar termasuk kelompok pembaca jurnal. Premis tidak mencakup semua peneliti.",
-    "distractorExplanations": {
-      "B": "Pilihan “Semua peneliti pengajar” tidak memenuhi konsep atau kondisi dalam soal. Peneliti yang juga pengajar termasuk kelompok pembaca jurnal. Premis tidak mencakup semua peneliti.",
-      "C": "Pilihan “Tidak ada peneliti membaca jurnal” tidak memenuhi konsep atau kondisi dalam soal. Peneliti yang juga pengajar termasuk kelompok pembaca jurnal. Premis tidak mencakup semua peneliti."
-    },
-    "learningPoint": "Peneliti yang juga pengajar termasuk kelompok pembaca jurnal. Premis tidak mencakup semua peneliti.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-VERBAL-004",
-    "program": "lpdp",
-    "category": "verbal",
-    "topic": "Laporan menyebut penjualan naik setelah iklan baru. Mengapa belum",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Laporan menyebut penjualan naik setelah iklan baru. Mengapa belum cukup menyimpulkan iklan menyebabkan kenaikan?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Urutan waktu membuktikan sebab pasti"
-      },
-      {
-        "id": "B",
-        "text": "Penjualan tidak pernah terukur"
-      },
-      {
-        "id": "C",
-        "text": "Faktor lain seperti musim belum dikendalikan"
-      }
+    "explanation": "Barometer mengukur tekanan.\n\nHigrometer mengukur kelembapan.\n\nKeduanya memiliki relasi alat ukur terhadap besaran.",
+    "stepByStepSolution": [
+      "Barometer mengukur tekanan.",
+      "Higrometer mengukur kelembapan.",
+      "Keduanya memiliki relasi alat ukur terhadap besaran."
     ],
-    "correctAnswer": "C",
-    "explanation": "Korelasi temporal tidak meniadakan penjelasan alternatif. Penjualan dapat diukur tetapi hubungan sebab memerlukan bukti lebih kuat.",
     "distractorExplanations": {
-      "A": "Pilihan “Urutan waktu membuktikan sebab pasti” tidak memenuhi konsep atau kondisi dalam soal. Korelasi temporal tidak meniadakan penjelasan alternatif. Penjualan dapat diukur tetapi hubungan sebab memerlukan bukti lebih kuat.",
-      "B": "Pilihan “Penjualan tidak pernah terukur” tidak memenuhi konsep atau kondisi dalam soal. Korelasi temporal tidak meniadakan penjelasan alternatif. Penjualan dapat diukur tetapi hubungan sebab memerlukan bukti lebih kuat."
+      "B": "Pembesaran adalah kemampuan alat, bukan besaran lingkungan yang diukur dalam pasangan asal.",
+      "C": "Kalender mencatat jadwal, bukan mengukur pertemuan sebagai besaran.",
+      "D": "Kompas menunjukkan arah, bukan mengukur perjalanan.",
+      "E": "Laboratorium merupakan tempat penggunaan alat, bukan besaran ukur."
     },
-    "learningPoint": "Korelasi temporal tidak meniadakan penjelasan alternatif. Penjualan dapat diukur tetapi hubungan sebab memerlukan bukti lebih kuat.",
+    "quickTip": "Nyatakan jenis dan arah relasi sebelum membaca opsi.",
+    "learningPoint": "Relasi analogi harus mempertahankan jenis hubungan dan arahnya.",
+    "estimatedTimeSeconds": 60,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
   },
   {
-    "id": "LPDP-VERBAL-005",
+    "id": "LPDP-VRB-002",
+    "number": 2,
     "program": "lpdp",
     "category": "verbal",
-    "topic": "Jika hujan maka lapangan ditutup. Lapangan tidak ditutup. Apa kes",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "V01",
+    "topic": "Analogi Kata",
+    "subtopic": "Bagian karya",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis bagian karya dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "Jika hujan maka lapangan ditutup. Lapangan tidak ditutup. Apa kesimpulan menurut premis?",
+    "question": "Dalam hubungan bagian penyusun, bab : buku setara dengan pasangan mana?",
     "options": [
       {
         "id": "A",
-        "text": "Lapangan selalu ditutup"
+        "text": "Penulis : novel"
       },
       {
         "id": "B",
-        "text": "Tidak hujan"
+        "text": "Adegan : drama"
       },
       {
         "id": "C",
-        "text": "Pasti hujan"
+        "text": "Sampul : kertas"
+      },
+      {
+        "id": "D",
+        "text": "Perpustakaan : buku"
+      },
+      {
+        "id": "E",
+        "text": "Pembaca : majalah"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Modus tollens menyimpulkan bukan hujan dari tidak adanya konsekuensi wajib. Kesimpulan berlaku dalam sistem premis yang diberikan.",
+    "explanation": "Bab merupakan bagian struktural buku.\n\nAdegan merupakan bagian struktural drama.\n\nRelasi yang dicari ialah bagian terhadap karya utuh.",
+    "stepByStepSolution": [
+      "Bab merupakan bagian struktural buku.",
+      "Adegan merupakan bagian struktural drama.",
+      "Relasi yang dicari ialah bagian terhadap karya utuh."
+    ],
     "distractorExplanations": {
-      "A": "Pilihan “Lapangan selalu ditutup” tidak memenuhi konsep atau kondisi dalam soal. Modus tollens menyimpulkan bukan hujan dari tidak adanya konsekuensi wajib. Kesimpulan berlaku dalam sistem premis yang diberikan.",
-      "C": "Pilihan “Pasti hujan” tidak memenuhi konsep atau kondisi dalam soal. Modus tollens menyimpulkan bukan hujan dari tidak adanya konsekuensi wajib. Kesimpulan berlaku dalam sistem premis yang diberikan."
+      "A": "Penulis merupakan pencipta, bukan bagian struktural karya.",
+      "C": "Kertas dapat menjadi bahan sampul; arah relasinya bukan bagian terhadap karya utuh.",
+      "D": "Perpustakaan merupakan tempat penyimpanan banyak buku.",
+      "E": "Pembaca adalah pengguna karya, bukan bagian penyusunnya."
     },
-    "learningPoint": "Modus tollens menyimpulkan bukan hujan dari tidak adanya konsekuensi wajib. Kesimpulan berlaku dalam sistem premis yang diberikan.",
+    "quickTip": "Nyatakan jenis dan arah relasi sebelum membaca opsi.",
+    "learningPoint": "Relasi analogi harus mempertahankan jenis hubungan dan arahnya.",
+    "estimatedTimeSeconds": 60,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
   },
   {
-    "id": "LPDP-VERBAL-006",
+    "id": "LPDP-VRB-003",
+    "number": 3,
     "program": "lpdp",
     "category": "verbal",
-    "topic": "Mana antonim paling tepat untuk transparan dalam konteks proses p",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "V01",
+    "topic": "Analogi Kata",
+    "subtopic": "Profesi dan kegiatan",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis profesi dan kegiatan dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "Mana antonim paling tepat untuk transparan dalam konteks proses pengambilan keputusan?",
+    "question": "Relasi profesi dan kegiatan inti pada penerjemah : mengalihbahasakan setara dengan pasangan mana?",
     "options": [
       {
         "id": "A",
-        "text": "Tertutup"
+        "text": "Apoteker : obat"
       },
       {
         "id": "B",
-        "text": "Jernih"
+        "text": "Dosen : kampus"
       },
       {
         "id": "C",
+        "text": "Penyunting : menyunting"
+      },
+      {
+        "id": "D",
+        "text": "Petani : panen"
+      },
+      {
+        "id": "E",
+        "text": "Pilot : pesawat"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kegiatan inti penerjemah adalah mengalihbahasakan.\n\nKegiatan inti penyunting ialah menyunting.\n\nPilih profesi dengan tindakan khasnya.",
+    "stepByStepSolution": [
+      "Kegiatan inti penerjemah adalah mengalihbahasakan.",
+      "Kegiatan inti penyunting ialah menyunting.",
+      "Pilih profesi dengan tindakan khasnya."
+    ],
+    "distractorExplanations": {
+      "A": "Obat adalah objek pekerjaan, bukan kegiatan.",
+      "B": "Kampus adalah tempat kerja, bukan tindakan.",
+      "D": "Panen dapat berupa hasil atau kegiatan, sehingga pasangan ini tidak sejelas verba tindakan yang diminta.",
+      "E": "Pesawat merupakan alat kerja, bukan kegiatan inti berbentuk verba."
+    },
+    "quickTip": "Nyatakan jenis dan arah relasi sebelum membaca opsi.",
+    "learningPoint": "Relasi analogi harus mempertahankan jenis hubungan dan arahnya.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-004",
+    "number": 4,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V01",
+    "topic": "Analogi Kata",
+    "subtopic": "Kondisi dan kekurangan",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis kondisi dan kekurangan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Hubungan akibat khas pada dehidrasi : kekurangan cairan paling setara dengan pasangan mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Olahraga : kebugaran"
+      },
+      {
+        "id": "B",
+        "text": "Hujan : payung"
+      },
+      {
+        "id": "C",
+        "text": "Demam : termometer"
+      },
+      {
+        "id": "D",
+        "text": "Anemia : kekurangan hemoglobin"
+      },
+      {
+        "id": "E",
+        "text": "Tidur : kamar"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pasangan asal menghubungkan kondisi dengan kekurangan yang mendefinisikannya.\n\nAnemia berkaitan dengan kadar hemoglobin yang rendah.\n\nAlternatif lain mengubah jenis hubungan.",
+    "stepByStepSolution": [
+      "Pasangan asal menghubungkan kondisi dengan kekurangan yang mendefinisikannya.",
+      "Anemia berkaitan dengan kadar hemoglobin yang rendah.",
+      "Alternatif lain mengubah jenis hubungan."
+    ],
+    "distractorExplanations": {
+      "A": "Ini kegiatan dan hasil yang mungkin, bukan kondisi kekurangan penentu.",
+      "B": "Ini peristiwa dan alat perlindungan.",
+      "C": "Ini kondisi dan alat pengukuran.",
+      "E": "Ini aktivitas dan tempat."
+    },
+    "quickTip": "Nyatakan jenis dan arah relasi sebelum membaca opsi.",
+    "learningPoint": "Relasi analogi harus mempertahankan jenis hubungan dan arahnya.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-005",
+    "number": 5,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V01",
+    "topic": "Analogi Kata",
+    "subtopic": "Alat dan fungsi",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis alat dan fungsi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Hubungan fungsi khas pada rem : memperlambat kendaraan setara dengan pasangan mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Roda : garasi"
+      },
+      {
+        "id": "B",
+        "text": "Lensa : kaca"
+      },
+      {
+        "id": "C",
+        "text": "Mesin : mekanik"
+      },
+      {
+        "id": "D",
+        "text": "Baterai : pabrik"
+      },
+      {
+        "id": "E",
+        "text": "Filter : menyaring partikel"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Rem berfungsi mengurangi laju.\n\nFilter berfungsi memisahkan partikel.\n\nKeduanya menghubungkan alat dengan fungsi langsungnya.",
+    "stepByStepSolution": [
+      "Rem berfungsi mengurangi laju.",
+      "Filter berfungsi memisahkan partikel.",
+      "Keduanya menghubungkan alat dengan fungsi langsungnya."
+    ],
+    "distractorExplanations": {
+      "A": "Garasi tempat penyimpanan, bukan fungsi roda.",
+      "B": "Kaca merupakan bahan, bukan tindakan fungsi.",
+      "C": "Mekanik adalah pelaku perawatan alat.",
+      "D": "Pabrik tempat produksi, bukan fungsi baterai."
+    },
+    "quickTip": "Nyatakan jenis dan arah relasi sebelum membaca opsi.",
+    "learningPoint": "Relasi analogi harus mempertahankan jenis hubungan dan arahnya.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-006",
+    "number": 6,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V01",
+    "topic": "Analogi Kata",
+    "subtopic": "Hierarki wilayah",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis hierarki wilayah dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Dalam urutan hierarki administratif yang diberikan, desa berada di dalam kecamatan dan kecamatan di dalam kabupaten. Pasangan mana memiliki relasi satu tingkat yang sama dengan desa : kecamatan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kecamatan : kabupaten"
+      },
+      {
+        "id": "B",
+        "text": "Kabupaten : kecamatan"
+      },
+      {
+        "id": "C",
+        "text": "Desa : kabupaten"
+      },
+      {
+        "id": "D",
+        "text": "Kecamatan : desa"
+      },
+      {
+        "id": "E",
+        "text": "Kabupaten : desa"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Desa menjadi bagian wilayah kecamatan.\n\nKecamatan menjadi bagian wilayah kabupaten.\n\nArah dan jarak satu tingkat dipertahankan.",
+    "stepByStepSolution": [
+      "Desa menjadi bagian wilayah kecamatan.",
+      "Kecamatan menjadi bagian wilayah kabupaten.",
+      "Arah dan jarak satu tingkat dipertahankan."
+    ],
+    "distractorExplanations": {
+      "B": "Arahnya terbalik, dari wilayah besar ke bagian.",
+      "C": "Melompati satu tingkat dalam hierarki yang dinyatakan.",
+      "D": "Arahnya dari induk ke bagian.",
+      "E": "Arahnya terbalik dan melompati tingkat."
+    },
+    "quickTip": "Nyatakan jenis dan arah relasi sebelum membaca opsi.",
+    "learningPoint": "Relasi analogi harus mempertahankan jenis hubungan dan arahnya.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-007",
+    "number": 7,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V01",
+    "topic": "Analogi Kata",
+    "subtopic": "Pelindung dan isi",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis pelindung dan isi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Relasi objek yang dilindungi pada selubung kabel : penghantar setara dengan pasangan mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lampu : listrik"
+      },
+      {
+        "id": "B",
+        "text": "Cangkang telur : isi telur"
+      },
+      {
+        "id": "C",
+        "text": "Gunting : kain"
+      },
+      {
+        "id": "D",
+        "text": "Jendela : cahaya"
+      },
+      {
+        "id": "E",
+        "text": "Kunci : pintu"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Selubung melindungi penghantar di dalamnya.\n\nCangkang melindungi isi telur.\n\nRelasinya lapisan pelindung terhadap isi.",
+    "stepByStepSolution": [
+      "Selubung melindungi penghantar di dalamnya.",
+      "Cangkang melindungi isi telur.",
+      "Relasinya lapisan pelindung terhadap isi."
+    ],
+    "distractorExplanations": {
+      "A": "Listrik merupakan sumber energi, bukan isi yang dilindungi.",
+      "C": "Kain objek yang dipotong, bukan isi terlindungi.",
+      "D": "Jendela memungkinkan cahaya lewat, bukan melindunginya.",
+      "E": "Kunci mengendalikan akses, bukan lapisan pembungkus isi."
+    },
+    "quickTip": "Nyatakan jenis dan arah relasi sebelum membaca opsi.",
+    "learningPoint": "Relasi analogi harus mempertahankan jenis hubungan dan arahnya.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-008",
+    "number": 8,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V01",
+    "topic": "Analogi Kata",
+    "subtopic": "Kategori dan anggota",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis kategori dan anggota dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Relasi kategori terhadap anggota pada mamalia : paus setara dengan pasangan mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Padi : serealia"
+      },
+      {
+        "id": "B",
+        "text": "Hutan : pohon"
+      },
+      {
+        "id": "C",
+        "text": "Logam : tembaga"
+      },
+      {
+        "id": "D",
+        "text": "Air : sungai"
+      },
+      {
+        "id": "E",
+        "text": "Peta : wilayah"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Paus termasuk kategori mamalia.\n\nTembaga termasuk kategori logam.\n\nUrutannya kategori lalu contoh anggota.",
+    "stepByStepSolution": [
+      "Paus termasuk kategori mamalia.",
+      "Tembaga termasuk kategori logam.",
+      "Urutannya kategori lalu contoh anggota."
+    ],
+    "distractorExplanations": {
+      "A": "Urutannya anggota lalu kategori, terbalik.",
+      "B": "Ini keseluruhan lingkungan dan komponen, bukan kategori taksonomi terhadap contoh.",
+      "D": "Air bahan atau isi sungai, bukan kategori sungai.",
+      "E": "Peta merepresentasikan wilayah, bukan kategori yang memuat anggota."
+    },
+    "quickTip": "Nyatakan jenis dan arah relasi sebelum membaca opsi.",
+    "learningPoint": "Relasi analogi harus mempertahankan jenis hubungan dan arahnya.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-009",
+    "number": 9,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V01",
+    "topic": "Analogi Kata",
+    "subtopic": "Pedoman dan penerapan",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis pedoman dan penerapan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Hubungan norma dan penerapannya pada asas : putusan paling setara dengan pasangan mana dalam konteks keputusan berdasarkan pedoman?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rancangan : pensil"
+      },
+      {
+        "id": "B",
+        "text": "Putusan : pengadilan"
+      },
+      {
+        "id": "C",
+        "text": "Bukti : keraguan"
+      },
+      {
+        "id": "D",
+        "text": "Prinsip desain : rancangan"
+      },
+      {
+        "id": "E",
+        "text": "Arsip : rak"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Asas dapat menjadi pedoman putusan.\n\nPrinsip desain menjadi pedoman rancangan.\n\nRelasinya pedoman terhadap hasil penerapannya.",
+    "stepByStepSolution": [
+      "Asas dapat menjadi pedoman putusan.",
+      "Prinsip desain menjadi pedoman rancangan.",
+      "Relasinya pedoman terhadap hasil penerapannya."
+    ],
+    "distractorExplanations": {
+      "A": "Pensil merupakan alat pembuatan, bukan hasil penerapan norma.",
+      "B": "Pengadilan adalah lembaga atau tempat, bukan hasil penerapan putusan.",
+      "C": "Bukti dapat mengubah keraguan tetapi bukan pedoman normatif terhadap hasil penerapan.",
+      "E": "Rak tempat penyimpanan, bukan implementasi pedoman."
+    },
+    "quickTip": "Nyatakan jenis dan arah relasi sebelum membaca opsi.",
+    "learningPoint": "Relasi analogi harus mempertahankan jenis hubungan dan arahnya.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-010",
+    "number": 10,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V01",
+    "topic": "Analogi Kata",
+    "subtopic": "Syarat perlu",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis syarat perlu dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Hubungan pembatas cakupan pada prasyarat : kelayakan setara dengan pasangan mana bila prasyarat harus dipenuhi sebelum seseorang dinyatakan layak?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hadiah : prestasi"
+      },
+      {
+        "id": "B",
+        "text": "Kepuasan : antrean"
+      },
+      {
+        "id": "C",
+        "text": "Popularitas : kebenaran"
+      },
+      {
+        "id": "D",
+        "text": "Keberuntungan : kepastian"
+      },
+      {
+        "id": "E",
+        "text": "Ambang usia : keterpenuhan syarat usia"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Prasyarat membatasi apakah kelayakan dapat dinyatakan.\n\nAmbang usia membatasi keterpenuhan syarat usia.\n\nJangan menyamakan syarat perlu dengan jaminan seluruh hasil akhir.",
+    "stepByStepSolution": [
+      "Prasyarat membatasi apakah kelayakan dapat dinyatakan.",
+      "Ambang usia membatasi keterpenuhan syarat usia.",
+      "Jangan menyamakan syarat perlu dengan jaminan seluruh hasil akhir."
+    ],
+    "distractorExplanations": {
+      "A": "Hadiah dapat menjadi akibat, bukan syarat perlu prestasi.",
+      "B": "Tidak memiliki relasi syarat yang dinyatakan.",
+      "C": "Popularitas bukan syarat perlu kebenaran.",
+      "D": "Keberuntungan tidak membentuk prasyarat logis untuk kepastian."
+    },
+    "quickTip": "Nyatakan jenis dan arah relasi sebelum membaca opsi.",
+    "learningPoint": "Relasi analogi harus mempertahankan jenis hubungan dan arahnya.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-011",
+    "number": 11,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V02",
+    "topic": "Penalaran Logis dan Silogisme",
+    "subtopic": "Implikasi ke individu",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis implikasi ke individu dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Semua peserta lokakarya memiliki kartu masuk. Nara peserta lokakarya. Kesimpulan yang pasti adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nara memiliki kartu masuk"
+      },
+      {
+        "id": "B",
+        "text": "Semua pemilik kartu mengikuti lokakarya"
+      },
+      {
+        "id": "C",
+        "text": "Nara memimpin lokakarya"
+      },
+      {
+        "id": "D",
+        "text": "Tidak ada peserta yang memiliki kartu"
+      },
+      {
+        "id": "E",
+        "text": "Nara tidak memiliki kartu"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Premis universal berlaku bagi setiap peserta.\n\nNara termasuk kelompok peserta.\n\nMaka sifat memiliki kartu berlaku pada Nara.",
+    "stepByStepSolution": [
+      "Premis universal berlaku bagi setiap peserta.",
+      "Nara termasuk kelompok peserta.",
+      "Maka sifat memiliki kartu berlaku pada Nara."
+    ],
+    "distractorExplanations": {
+      "B": "Ini membalik implikasi tanpa premis tambahan.",
+      "C": "Peran pemimpin tidak disebutkan.",
+      "D": "Bertentangan dengan premis universal dan keberadaan Nara.",
+      "E": "Bertentangan dengan penerapan premis pada Nara."
+    },
+    "quickTip": "Tuliskan arah implikasi dan kuantornya; jangan menambah fakta di luar premis.",
+    "learningPoint": "Kesimpulan valid harus berlaku pada setiap keadaan yang memenuhi seluruh premis.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-012",
+    "number": 12,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V02",
+    "topic": "Penalaran Logis dan Silogisme",
+    "subtopic": "Kuantor eksistensial",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis kuantor eksistensial dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Sebagian peneliti adalah ilustrator. Semua ilustrator memahami komposisi. Apa kesimpulan yang pasti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua peneliti adalah ilustrator"
+      },
+      {
+        "id": "B",
+        "text": "Sebagian peneliti memahami komposisi"
+      },
+      {
+        "id": "C",
+        "text": "Semua yang memahami komposisi adalah peneliti"
+      },
+      {
+        "id": "D",
+        "text": "Tidak ada peneliti memahami komposisi"
+      },
+      {
+        "id": "E",
+        "text": "Sebagian ilustrator tidak memahami komposisi"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ada setidaknya satu peneliti yang ilustrator.\n\nSetiap ilustrator memahami komposisi.\n\nSaksi keberadaan tersebut juga peneliti yang memahami komposisi.",
+    "stepByStepSolution": [
+      "Ada setidaknya satu peneliti yang ilustrator.",
+      "Setiap ilustrator memahami komposisi.",
+      "Saksi keberadaan tersebut juga peneliti yang memahami komposisi."
+    ],
+    "distractorExplanations": {
+      "A": "Premis hanya menyatakan sebagian.",
+      "C": "Ini membalik dan memperluas relasi.",
+      "D": "Bertentangan dengan keberadaan peneliti-ilustrator.",
+      "E": "Bertentangan dengan premis universal ilustrator."
+    },
+    "quickTip": "Tuliskan arah implikasi dan kuantornya; jangan menambah fakta di luar premis.",
+    "learningPoint": "Kesimpulan valid harus berlaku pada setiap keadaan yang memenuhi seluruh premis.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-013",
+    "number": 13,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V02",
+    "topic": "Penalaran Logis dan Silogisme",
+    "subtopic": "Negasi universal",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis negasi universal dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tidak semua dokumen telah diperiksa. Pernyataan yang setara adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua dokumen belum diperiksa"
+      },
+      {
+        "id": "B",
+        "text": "Tidak ada dokumen"
+      },
+      {
+        "id": "C",
+        "text": "Ada dokumen yang belum diperiksa"
+      },
+      {
+        "id": "D",
+        "text": "Semua dokumen telah diperiksa"
+      },
+      {
+        "id": "E",
+        "text": "Jumlah dokumen yang diperiksa lebih banyak"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Negasi semua telah diperiksa ialah ada yang belum diperiksa.\n\nKuantor universal berubah menjadi eksistensial.\n\nIni tidak menyatakan semua dokumen belum diperiksa.",
+    "stepByStepSolution": [
+      "Negasi semua telah diperiksa ialah ada yang belum diperiksa.",
+      "Kuantor universal berubah menjadi eksistensial.",
+      "Ini tidak menyatakan semua dokumen belum diperiksa."
+    ],
+    "distractorExplanations": {
+      "A": "Lebih kuat daripada premis; sebagian mungkin sudah diperiksa.",
+      "B": "Premis justru mengharuskan adanya dokumen yang belum diperiksa.",
+      "D": "Merupakan pernyataan yang dinegasikan.",
+      "E": "Tidak ada informasi proporsi atau jumlah."
+    },
+    "quickTip": "Tuliskan arah implikasi dan kuantornya; jangan menambah fakta di luar premis.",
+    "learningPoint": "Kesimpulan valid harus berlaku pada setiap keadaan yang memenuhi seluruh premis.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-014",
+    "number": 14,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V02",
+    "topic": "Penalaran Logis dan Silogisme",
+    "subtopic": "Kontraposisi",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis kontraposisi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Pernyataan jika R maka S setara secara logis dengan pernyataan mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jika S maka R"
+      },
+      {
+        "id": "B",
+        "text": "Jika bukan R maka bukan S"
+      },
+      {
+        "id": "C",
+        "text": "R dan S selalu benar"
+      },
+      {
+        "id": "D",
+        "text": "Jika bukan S maka bukan R"
+      },
+      {
+        "id": "E",
+        "text": "R jika dan hanya jika S"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Kontraposisi membalik arah sekaligus menegasikan kedua komponen.\n\nKedua bentuk salah hanya ketika R benar dan S salah.\n\nKarena tabel kebenarannya sama, keduanya setara.",
+    "stepByStepSolution": [
+      "Kontraposisi membalik arah sekaligus menegasikan kedua komponen.",
+      "Kedua bentuk salah hanya ketika R benar dan S salah.",
+      "Karena tabel kebenarannya sama, keduanya setara."
+    ],
+    "distractorExplanations": {
+      "A": "Konvers tidak selalu setara dengan implikasi awal.",
+      "B": "Invers tidak selalu setara.",
+      "C": "Implikasi juga bisa benar ketika R salah.",
+      "E": "Bikondisional menambahkan arah sebaliknya yang tidak diberikan."
+    },
+    "quickTip": "Tuliskan arah implikasi dan kuantornya; jangan menambah fakta di luar premis.",
+    "learningPoint": "Kesimpulan valid harus berlaku pada setiap keadaan yang memenuhi seluruh premis.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-015",
+    "number": 15,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V02",
+    "topic": "Penalaran Logis dan Silogisme",
+    "subtopic": "Disjungsi inklusif",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis disjungsi inklusif dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Sedikitnya satu dari dua server A dan B aktif. Server A tidak aktif. Kesimpulan mana yang pasti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kedua server tidak aktif"
+      },
+      {
+        "id": "B",
+        "text": "Server A aktif"
+      },
+      {
+        "id": "C",
+        "text": "Server B tidak aktif"
+      },
+      {
+        "id": "D",
+        "text": "Kedua server aktif"
+      },
+      {
+        "id": "E",
+        "text": "Server B aktif"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Disjungsi inklusif mengizinkan salah satu atau keduanya aktif.\n\nA diketahui tidak aktif.\n\nAgar disjungsi tetap benar, B harus aktif.",
+    "stepByStepSolution": [
+      "Disjungsi inklusif mengizinkan salah satu atau keduanya aktif.",
+      "A diketahui tidak aktif.",
+      "Agar disjungsi tetap benar, B harus aktif."
+    ],
+    "distractorExplanations": {
+      "A": "Melanggar syarat sedikitnya satu aktif.",
+      "B": "Bertentangan dengan fakta A tidak aktif.",
+      "C": "A dan B akan sama-sama tidak aktif.",
+      "D": "Mengharuskan A aktif padahal dinyatakan tidak aktif."
+    },
+    "quickTip": "Tuliskan arah implikasi dan kuantornya; jangan menambah fakta di luar premis.",
+    "learningPoint": "Kesimpulan valid harus berlaku pada setiap keadaan yang memenuhi seluruh premis.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-016",
+    "number": 16,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V02",
+    "topic": "Penalaran Logis dan Silogisme",
+    "subtopic": "Afirmasi konsekuen",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis afirmasi konsekuen dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Jika formulir lengkap maka sistem mengirim notifikasi. Notifikasi telah dikirim. Apakah kelengkapan formulir dapat dipastikan hanya dari premis ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Belum dapat dipastikan"
+      },
+      {
+        "id": "B",
+        "text": "Pasti lengkap"
+      },
+      {
+        "id": "C",
+        "text": "Pasti tidak lengkap"
+      },
+      {
+        "id": "D",
+        "text": "Premis menyatakan notifikasi tidak pernah dikirim"
+      },
+      {
+        "id": "E",
+        "text": "Premis bertentangan dengan notifikasi yang dikirim"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Premis memberi arah lengkap menuju notifikasi.\n\nNotifikasi mungkin memiliki penyebab lain yang tidak dilarang premis.\n\nModel lengkap dan tidak lengkap sama-sama mungkin saat notifikasi benar.",
+    "stepByStepSolution": [
+      "Premis memberi arah lengkap menuju notifikasi.",
+      "Notifikasi mungkin memiliki penyebab lain yang tidak dilarang premis.",
+      "Model lengkap dan tidak lengkap sama-sama mungkin saat notifikasi benar."
+    ],
+    "distractorExplanations": {
+      "B": "Ini kesalahan mengafirmasi konsekuen.",
+      "C": "Kelengkapan tetap mungkin, sehingga negasinya tidak pasti.",
+      "D": "Premis justru mengizinkan notifikasi.",
+      "E": "Notifikasi benar tidak melanggar implikasi."
+    },
+    "quickTip": "Tuliskan arah implikasi dan kuantornya; jangan menambah fakta di luar premis.",
+    "learningPoint": "Kesimpulan valid harus berlaku pada setiap keadaan yang memenuhi seluruh premis.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-017",
+    "number": 17,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V02",
+    "topic": "Penalaran Logis dan Silogisme",
+    "subtopic": "De Morgan",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis de morgan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Pernyataan tidak benar bahwa R dan S keduanya terjadi setara dengan apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "R dan S keduanya tidak terjadi"
+      },
+      {
+        "id": "B",
+        "text": "R tidak terjadi atau S tidak terjadi"
+      },
+      {
+        "id": "C",
+        "text": "R terjadi dan S tidak terjadi"
+      },
+      {
+        "id": "D",
+        "text": "R tidak terjadi dan S terjadi"
+      },
+      {
+        "id": "E",
+        "text": "R atau S pasti terjadi"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Hukum De Morgan mengubah negasi konjungsi menjadi disjungsi negasi.\n\nMinimal salah satu tidak terjadi.\n\nKeduanya tidak terjadi juga masih diizinkan.",
+    "stepByStepSolution": [
+      "Hukum De Morgan mengubah negasi konjungsi menjadi disjungsi negasi.",
+      "Minimal salah satu tidak terjadi.",
+      "Keduanya tidak terjadi juga masih diizinkan."
+    ],
+    "distractorExplanations": {
+      "A": "Terlalu kuat; salah satu saja boleh tidak terjadi.",
+      "C": "Hanya mencakup sebagian kemungkinan.",
+      "D": "Hanya mencakup sebagian kemungkinan.",
+      "E": "Kasus keduanya tidak terjadi masih memenuhi premis."
+    },
+    "quickTip": "Tuliskan arah implikasi dan kuantornya; jangan menambah fakta di luar premis.",
+    "learningPoint": "Kesimpulan valid harus berlaku pada setiap keadaan yang memenuhi seluruh premis.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-018",
+    "number": 18,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V02",
+    "topic": "Penalaran Logis dan Silogisme",
+    "subtopic": "Hanya jika",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis hanya jika dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Seseorang memperoleh izin hanya jika telah lulus pemeriksaan. Damar belum lulus pemeriksaan. Apa kesimpulan yang pasti menurut aturan itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Damar memperoleh izin"
+      },
+      {
+        "id": "B",
+        "text": "Semua yang lulus pasti memperoleh izin"
+      },
+      {
+        "id": "C",
+        "text": "Damar tidak memperoleh izin"
+      },
+      {
+        "id": "D",
+        "text": "Tidak ada orang yang lulus"
+      },
+      {
+        "id": "E",
+        "text": "Pemeriksaan pasti dibatalkan"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Hanya jika menyatakan lulus adalah syarat perlu izin.\n\nIzin mengimplikasikan lulus.\n\nTidak lulus berarti izin tidak dapat diperoleh menurut aturan.",
+    "stepByStepSolution": [
+      "Hanya jika menyatakan lulus adalah syarat perlu izin.",
+      "Izin mengimplikasikan lulus.",
+      "Tidak lulus berarti izin tidak dapat diperoleh menurut aturan."
+    ],
+    "distractorExplanations": {
+      "A": "Melanggar syarat perlu yang dinyatakan.",
+      "B": "Membalik syarat perlu menjadi syarat cukup.",
+      "D": "Premis hanya menyebut status Damar.",
+      "E": "Tidak ada informasi tentang pembatalan."
+    },
+    "quickTip": "Tuliskan arah implikasi dan kuantornya; jangan menambah fakta di luar premis.",
+    "learningPoint": "Kesimpulan valid harus berlaku pada setiap keadaan yang memenuhi seluruh premis.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-019",
+    "number": 19,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V02",
+    "topic": "Penalaran Logis dan Silogisme",
+    "subtopic": "Disjungsi eksklusif",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis disjungsi eksklusif dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tepat satu dari proposal K dan L didanai. Proposal K didanai. Pernyataan mana pasti benar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "K dan L sama-sama didanai"
+      },
+      {
+        "id": "B",
+        "text": "K tidak didanai"
+      },
+      {
+        "id": "C",
+        "text": "Keduanya tidak didanai"
+      },
+      {
+        "id": "D",
+        "text": "Proposal L tidak didanai"
+      },
+      {
+        "id": "E",
+        "text": "Pendanaan L tidak dapat ditentukan"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Tepat satu berarti disjungsi eksklusif.\n\nPendanaan K memenuhi satu tempat.\n\nL harus tidak didanai agar jumlah tepat satu.",
+    "stepByStepSolution": [
+      "Tepat satu berarti disjungsi eksklusif.",
+      "Pendanaan K memenuhi satu tempat.",
+      "L harus tidak didanai agar jumlah tepat satu."
+    ],
+    "distractorExplanations": {
+      "A": "Melanggar pembatas tepat satu.",
+      "B": "Bertentangan dengan fakta.",
+      "C": "Melanggar fakta dan jumlah pendanaan.",
+      "E": "Kondisi tepat satu sudah menentukan status L."
+    },
+    "quickTip": "Tuliskan arah implikasi dan kuantornya; jangan menambah fakta di luar premis.",
+    "learningPoint": "Kesimpulan valid harus berlaku pada setiap keadaan yang memenuhi seluruh premis.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-020",
+    "number": 20,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V02",
+    "topic": "Penalaran Logis dan Silogisme",
+    "subtopic": "Rantai modus tollens",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis rantai modus tollens dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Jika arsip dibuka maka audit dimulai. Jika audit dimulai maka pengawas hadir. Pengawas tidak hadir. Kesimpulan gabungan yang pasti adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Audit dimulai tetapi arsip tidak dibuka"
+      },
+      {
+        "id": "B",
+        "text": "Arsip dibuka tetapi audit tidak dimulai"
+      },
+      {
+        "id": "C",
+        "text": "Arsip dan audit berlangsung"
+      },
+      {
+        "id": "D",
+        "text": "Arsip dibuka dan pengawas tidak hadir tanpa pelanggaran"
+      },
+      {
+        "id": "E",
+        "text": "Audit tidak dimulai dan arsip tidak dibuka"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Dari audit menuju pengawas, ketidakhadiran pengawas meniadakan audit.\n\nDari arsip menuju audit, tidak adanya audit meniadakan pembukaan.\n\nGunakan modus tollens dua kali.",
+    "stepByStepSolution": [
+      "Dari audit menuju pengawas, ketidakhadiran pengawas meniadakan audit.",
+      "Dari arsip menuju audit, tidak adanya audit meniadakan pembukaan.",
+      "Gunakan modus tollens dua kali."
+    ],
+    "distractorExplanations": {
+      "A": "Audit akan mengharuskan pengawas hadir.",
+      "B": "Melanggar implikasi pertama.",
+      "C": "Keduanya berujung pada pengawas hadir, bertentangan premis.",
+      "D": "Rantai implikasi menjadikannya tidak mungkin."
+    },
+    "quickTip": "Tuliskan arah implikasi dan kuantornya; jangan menambah fakta di luar premis.",
+    "learningPoint": "Kesimpulan valid harus berlaku pada setiap keadaan yang memenuhi seluruh premis.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-021",
+    "number": 21,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V03",
+    "topic": "Penalaran Analitis",
+    "subtopic": "Urutan transitif",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis urutan transitif dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tiga presentasi A, B, C ditempatkan pada tiga slot berurutan. A harus sebelum B dan B sebelum C. Urutan yang memenuhi aturan adalah mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-B-C"
+      },
+      {
+        "id": "B",
+        "text": "A-C-B"
+      },
+      {
+        "id": "C",
+        "text": "B-A-C"
+      },
+      {
+        "id": "D",
+        "text": "B-C-A"
+      },
+      {
+        "id": "E",
+        "text": "C-A-B"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Aturan membentuk rantai A sebelum B sebelum C.\n\nTidak ada pertukaran yang mempertahankan kedua relasi.\n\nHanya A-B-C layak.",
+    "stepByStepSolution": [
+      "Aturan membentuk rantai A sebelum B sebelum C.",
+      "Tidak ada pertukaran yang mempertahankan kedua relasi.",
+      "Hanya A-B-C layak."
+    ],
+    "distractorExplanations": {
+      "B": "B harus sebelum C.",
+      "C": "A harus sebelum B.",
+      "D": "A harus sebelum B dan C.",
+      "E": "B harus sebelum C."
+    },
+    "quickTip": "Gambar slot atau tabel kecil, lalu terapkan syarat paling membatasi lebih dahulu.",
+    "learningPoint": "Aturan harus dipenuhi serentak; satu kecocokan tidak membuat sebuah opsi layak.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-022",
+    "number": 22,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V03",
+    "topic": "Penalaran Analitis",
+    "subtopic": "Posisi ujung",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis posisi ujung dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Empat buku A, B, C, D diletakkan berjajar. A paling kiri, D paling kanan, dan B tepat sebelum C. Susunan yang memenuhi seluruh aturan adalah mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-C-B-D"
+      },
+      {
+        "id": "B",
+        "text": "A-B-C-D"
+      },
+      {
+        "id": "C",
+        "text": "B-A-C-D"
+      },
+      {
+        "id": "D",
+        "text": "A-B-D-C"
+      },
+      {
+        "id": "E",
+        "text": "D-B-C-A"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tetapkan A dan D di ujung.\n\nDua posisi tengah diisi B lalu C.\n\nSemua aturan terpenuhi.",
+    "stepByStepSolution": [
+      "Tetapkan A dan D di ujung.",
+      "Dua posisi tengah diisi B lalu C.",
+      "Semua aturan terpenuhi."
+    ],
+    "distractorExplanations": {
+      "A": "B tidak tepat sebelum C.",
+      "C": "A bukan paling kiri.",
+      "D": "D bukan paling kanan dan B tidak berdampingan C.",
+      "E": "Kedua posisi ujung terbalik."
+    },
+    "quickTip": "Gambar slot atau tabel kecil, lalu terapkan syarat paling membatasi lebih dahulu.",
+    "learningPoint": "Aturan harus dipenuhi serentak; satu kecocokan tidak membuat sebuah opsi layak.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-023",
+    "number": 23,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V03",
+    "topic": "Penalaran Analitis",
+    "subtopic": "Perbandingan tinggi",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis perbandingan tinggi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Rani lebih tinggi daripada Sita, Tono lebih tinggi daripada Rani, dan Uli lebih pendek daripada Sita. Siapa paling tinggi di antara empat orang ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rani"
+      },
+      {
+        "id": "B",
+        "text": "Sita"
+      },
+      {
+        "id": "C",
+        "text": "Tono"
+      },
+      {
+        "id": "D",
+        "text": "Uli"
+      },
+      {
+        "id": "E",
+        "text": "Tidak dapat ditentukan"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Gabungkan relasi Tono di atas Rani, Rani di atas Sita, dan Sita di atas Uli.\n\nUrutan total diperoleh.\n\nTono menempati puncak.",
+    "stepByStepSolution": [
+      "Gabungkan relasi Tono di atas Rani, Rani di atas Sita, dan Sita di atas Uli.",
+      "Urutan total diperoleh.",
+      "Tono menempati puncak."
+    ],
+    "distractorExplanations": {
+      "A": "Tono dinyatakan lebih tinggi daripada Rani.",
+      "B": "Rani dan Tono berada di atas Sita.",
+      "D": "Uli lebih pendek daripada Sita.",
+      "E": "Semua orang telah terhubung dalam rantai perbandingan lengkap."
+    },
+    "quickTip": "Gambar slot atau tabel kecil, lalu terapkan syarat paling membatasi lebih dahulu.",
+    "learningPoint": "Aturan harus dipenuhi serentak; satu kecocokan tidak membuat sebuah opsi layak.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-024",
+    "number": 24,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V03",
+    "topic": "Penalaran Analitis",
+    "subtopic": "Blok jadwal",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis blok jadwal dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Empat sesi A, B, C, D dijadwalkan Senin sampai Kamis, masing-masing satu. B tepat setelah A; C pada Kamis; D sebelum A. Hari apa untuk B?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Senin"
+      },
+      {
+        "id": "B",
+        "text": "Selasa"
+      },
+      {
+        "id": "C",
+        "text": "Kamis"
+      },
+      {
+        "id": "D",
+        "text": "Rabu"
+      },
+      {
+        "id": "E",
+        "text": "Tidak dapat ditentukan"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "C mengisi Kamis.\n\nPada tiga hari pertama, D harus mendahului blok A-B.\n\nUrutan tunggal D-A-B-C menempatkan B pada Rabu.",
+    "stepByStepSolution": [
+      "C mengisi Kamis.",
+      "Pada tiga hari pertama, D harus mendahului blok A-B.",
+      "Urutan tunggal D-A-B-C menempatkan B pada Rabu."
+    ],
+    "distractorExplanations": {
+      "A": "B harus memiliki A tepat sebelumnya.",
+      "B": "A pada Senin menyisakan tidak ada hari sebelum A untuk D.",
+      "C": "Kamis telah diisi C.",
+      "E": "Aturan menempatkan satu blok dan D secara tunggal."
+    },
+    "quickTip": "Gambar slot atau tabel kecil, lalu terapkan syarat paling membatasi lebih dahulu.",
+    "learningPoint": "Aturan harus dipenuhi serentak; satu kecocokan tidak membuat sebuah opsi layak.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-025",
+    "number": 25,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V03",
+    "topic": "Penalaran Analitis",
+    "subtopic": "Posisi sisa",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis posisi sisa dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Lima kursi bernomor 1–5 dari kiri. N duduk di kursi 3, M tepat di kiri N, P paling kanan, dan O di kiri M. Kursi berapa yang tersisa untuk Q?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "numericValue": 1.0
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "numericValue": 2.0
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "numericValue": 3.0
+      },
+      {
+        "id": "D",
+        "text": "5",
+        "numericValue": 5.0
+      },
+      {
+        "id": "E",
+        "text": "4",
+        "numericValue": 4.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "N di 3 dan M di 2.\n\nP di 5, sedangkan O harus di 1.\n\nSatu posisi kosong adalah 4.",
+    "stepByStepSolution": [
+      "N di 3 dan M di 2.",
+      "P di 5, sedangkan O harus di 1.",
+      "Satu posisi kosong adalah 4."
+    ],
+    "distractorExplanations": {
+      "A": "Posisi 1 harus diisi O.",
+      "B": "Posisi 2 diisi M.",
+      "C": "Posisi 3 diisi N.",
+      "D": "Posisi 5 diisi P."
+    },
+    "quickTip": "Gambar slot atau tabel kecil, lalu terapkan syarat paling membatasi lebih dahulu.",
+    "learningPoint": "Aturan harus dipenuhi serentak; satu kecocokan tidak membuat sebuah opsi layak.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-026",
+    "number": 26,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V03",
+    "topic": "Penalaran Analitis",
+    "subtopic": "Pembagian tim",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis pembagian tim dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Enam peserta A–F dibagi dua tim berisi tiga. A bersama B; C tidak bersama A; D bersama C; E bersama A. Siapa pasti satu tim dengan F?",
+    "options": [
+      {
+        "id": "A",
+        "text": "C dan D"
+      },
+      {
+        "id": "B",
+        "text": "A dan B"
+      },
+      {
+        "id": "C",
+        "text": "A dan C"
+      },
+      {
+        "id": "D",
+        "text": "B dan E"
+      },
+      {
+        "id": "E",
+        "text": "D dan E"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tim A telah penuh oleh A, B, E.\n\nC dan D berada di tim lainnya.\n\nF melengkapi tim C-D-F.",
+    "stepByStepSolution": [
+      "Tim A telah penuh oleh A, B, E.",
+      "C dan D berada di tim lainnya.",
+      "F melengkapi tim C-D-F."
+    ],
+    "distractorExplanations": {
+      "B": "Tim A-B-E sudah berisi tiga orang.",
+      "C": "C dilarang bersama A.",
+      "D": "B dan E berada di tim yang sudah penuh.",
+      "E": "D bersama C, sedangkan E bersama A pada tim berbeda."
+    },
+    "quickTip": "Gambar slot atau tabel kecil, lalu terapkan syarat paling membatasi lebih dahulu.",
+    "learningPoint": "Aturan harus dipenuhi serentak; satu kecocokan tidak membuat sebuah opsi layak.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-027",
+    "number": 27,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V03",
+    "topic": "Penalaran Analitis",
+    "subtopic": "Ketergantungan tugas",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis ketergantungan tugas dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tugas W harus setelah X dan sebelum Y. Z harus setelah Y. Tugas apa yang pasti mendahului semua tugas lain jika hanya empat tugas itu dijadwalkan linear?",
+    "options": [
+      {
+        "id": "A",
+        "text": "W"
+      },
+      {
+        "id": "B",
+        "text": "X"
+      },
+      {
+        "id": "C",
+        "text": "Y"
+      },
+      {
+        "id": "D",
+        "text": "Z"
+      },
+      {
+        "id": "E",
+        "text": "Tidak ada yang dapat ditentukan"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Syarat membentuk X-W-Y-Z.\n\nX terletak sebelum ketiga tugas lainnya.\n\nTidak ada tugas tambahan atau celah urutan antarobjek yang mengubah posisi relatif.",
+    "stepByStepSolution": [
+      "Syarat membentuk X-W-Y-Z.",
+      "X terletak sebelum ketiga tugas lainnya.",
+      "Tidak ada tugas tambahan atau celah urutan antarobjek yang mengubah posisi relatif."
+    ],
+    "distractorExplanations": {
+      "A": "W harus setelah X.",
+      "C": "Y harus setelah W dan X.",
+      "D": "Z harus setelah Y.",
+      "E": "Rantai aturan menghubungkan keempat tugas."
+    },
+    "quickTip": "Gambar slot atau tabel kecil, lalu terapkan syarat paling membatasi lebih dahulu.",
+    "learningPoint": "Aturan harus dipenuhi serentak; satu kecocokan tidak membuat sebuah opsi layak.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-028",
+    "number": 28,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V03",
+    "topic": "Penalaran Analitis",
+    "subtopic": "Antrean bersyarat",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis antrean bersyarat dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Pada antrean empat orang K, L, M, N, L tepat setelah K. M berada sebelum K. N tidak boleh pertama. Susunan mana memenuhi syarat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "N-M-K-L"
+      },
+      {
+        "id": "B",
+        "text": "K-L-M-N"
+      },
+      {
+        "id": "C",
+        "text": "M-K-L-N"
+      },
+      {
+        "id": "D",
+        "text": "M-L-K-N"
+      },
+      {
+        "id": "E",
+        "text": "M-K-N-L"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "M harus mendahului blok K-L.\n\nN dilarang pertama.\n\nSusunan yang dipilih mempertahankan ketiga syarat.",
+    "stepByStepSolution": [
+      "M harus mendahului blok K-L.",
+      "N dilarang pertama.",
+      "Susunan yang dipilih mempertahankan ketiga syarat."
+    ],
+    "distractorExplanations": {
+      "A": "N berada pertama.",
+      "B": "M seharusnya sebelum K.",
+      "D": "L tidak tepat setelah K.",
+      "E": "N menyela K dan L."
+    },
+    "quickTip": "Gambar slot atau tabel kecil, lalu terapkan syarat paling membatasi lebih dahulu.",
+    "learningPoint": "Aturan harus dipenuhi serentak; satu kecocokan tidak membuat sebuah opsi layak.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-029",
+    "number": 29,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V03",
+    "topic": "Penalaran Analitis",
+    "subtopic": "Blok dan urutan",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis blok dan urutan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Lima pekerjaan A–E dijalankan satu per slot. E terakhir, C tepat sebelum D, A sebelum C, dan B setelah A tetapi sebelum D. Urutan mana memenuhi semuanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A-C-B-D-E"
+      },
+      {
+        "id": "B",
+        "text": "B-A-C-D-E"
+      },
+      {
+        "id": "C",
+        "text": "A-B-D-C-E"
+      },
+      {
+        "id": "D",
+        "text": "A-B-C-D-E"
+      },
+      {
+        "id": "E",
+        "text": "A-C-D-E-B"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Blok C-D harus setelah A dan sebelum E.\n\nB harus berada di antara A dan D tanpa memisahkan C-D.\n\nUrutan yang memenuhi ialah A-B-C-D-E.",
+    "stepByStepSolution": [
+      "Blok C-D harus setelah A dan sebelum E.",
+      "B harus berada di antara A dan D tanpa memisahkan C-D.",
+      "Urutan yang memenuhi ialah A-B-C-D-E."
+    ],
+    "distractorExplanations": {
+      "A": "C tidak tepat sebelum D.",
+      "B": "B harus setelah A.",
+      "C": "C harus sebelum D.",
+      "E": "E harus terakhir dan B sebelum D."
+    },
+    "quickTip": "Gambar slot atau tabel kecil, lalu terapkan syarat paling membatasi lebih dahulu.",
+    "learningPoint": "Aturan harus dipenuhi serentak; satu kecocokan tidak membuat sebuah opsi layak.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-030",
+    "number": 30,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V03",
+    "topic": "Penalaran Analitis",
+    "subtopic": "Eliminasi posisi",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis eliminasi posisi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Lima pembicara P–T mengisi slot 1–5. R di slot 3, P sebelum Q, S tepat setelah Q, dan T sebelum P. Slot berapa untuk S?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1",
+        "numericValue": 1.0
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "numericValue": 2.0
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "numericValue": 3.0
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "numericValue": 4.0
+      },
+      {
+        "id": "E",
+        "text": "5",
+        "numericValue": 5.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Blok Q-S tidak dapat memakai 2–3 atau 3–4 karena R di 3.\n\nBlok 1–2 tidak menyisakan dua orang sebelum Q.\n\nMaka Q-S di 4–5, T-P di 1–2.",
+    "stepByStepSolution": [
+      "Blok Q-S tidak dapat memakai 2–3 atau 3–4 karena R di 3.",
+      "Blok 1–2 tidak menyisakan dua orang sebelum Q.",
+      "Maka Q-S di 4–5, T-P di 1–2."
+    ],
+    "distractorExplanations": {
+      "A": "S harus memiliki Q tepat di depannya.",
+      "B": "Blok Q-S di 1–2 tidak memberi tempat bagi T dan P sebelum Q.",
+      "C": "Slot 3 milik R.",
+      "D": "Q di 3 akan bertabrakan dengan R."
+    },
+    "quickTip": "Gambar slot atau tabel kecil, lalu terapkan syarat paling membatasi lebih dahulu.",
+    "learningPoint": "Aturan harus dipenuhi serentak; satu kecocokan tidak membuat sebuah opsi layak.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-031",
+    "number": 31,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V04",
+    "topic": "Pemahaman Bacaan",
+    "subtopic": "Informasi alasan",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis informasi alasan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Menurut bacaan LPDP-BAC-01, alasan utama layanan tatap muka dipertahankan adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebagian peserta belum dapat menggunakan layanan digital secara mandiri"
+      },
+      {
+        "id": "B",
+        "text": "Semua warga menolak aplikasi"
+      },
+      {
+        "id": "C",
+        "text": "Aplikasi selalu lebih mahal daripada layanan manual"
+      },
+      {
+        "id": "D",
+        "text": "Petugas dilarang belajar teknologi"
+      },
+      {
+        "id": "E",
+        "text": "Jumlah pengguna digital pasti menurun"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Teks menyebut hambatan perangkat dan keterampilan.\n\nLayanan pendampingan menjaga akses bagi kelompok tersebut.\n\nIni alasan mempertahankan kanal tatap muka, bukan menolak teknologi.",
+    "stepByStepSolution": [
+      "Teks menyebut hambatan perangkat dan keterampilan.",
+      "Layanan pendampingan menjaga akses bagi kelompok tersebut.",
+      "Ini alasan mempertahankan kanal tatap muka, bukan menolak teknologi."
+    ],
+    "distractorExplanations": {
+      "B": "Teks tidak menyatakan penolakan universal.",
+      "C": "Perbandingan biaya universal tidak diberikan.",
+      "D": "Teks justru membahas pelatihan petugas.",
+      "E": "Teks tidak menetapkan tren penurunan penggunaan."
+    },
+    "quickTip": "Cari dukungan kalimat di bacaan; bedakan informasi, inferensi, dan klaim berlebihan.",
+    "learningPoint": "Kesimpulan bacaan tidak boleh melampaui dukungan teks.",
+    "estimatedTimeSeconds": 120,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "passageId": "LPDP-BAC-01"
+  },
+  {
+    "id": "LPDP-VRB-032",
+    "number": 32,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V04",
+    "topic": "Pemahaman Bacaan",
+    "subtopic": "Sikap penulis",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis sikap penulis dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Sikap penulis bacaan LPDP-BAC-01 terhadap digitalisasi paling tepat digambarkan sebagai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menolak semua perubahan layanan"
+      },
+      {
+        "id": "B",
+        "text": "Mendukung dengan memperhatikan akses dan evaluasi"
+      },
+      {
+        "id": "C",
+        "text": "Mendukung penghapusan seluruh layanan tatap muka"
+      },
+      {
+        "id": "D",
+        "text": "Menyatakan aplikasi otomatis mengatasi semua masalah"
+      },
+      {
+        "id": "E",
+        "text": "Tidak membahas pengguna layanan"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Penulis mengakui manfaat digital.\n\nIa tetap menekankan pendampingan serta ukuran keberhasilan.\n\nSikapnya bersyarat dan evaluatif, bukan penolakan atau dukungan tanpa syarat.",
+    "stepByStepSolution": [
+      "Penulis mengakui manfaat digital.",
+      "Ia tetap menekankan pendampingan serta ukuran keberhasilan.",
+      "Sikapnya bersyarat dan evaluatif, bukan penolakan atau dukungan tanpa syarat."
+    ],
+    "distractorExplanations": {
+      "A": "Manfaat perubahan diakui dalam teks.",
+      "C": "Kanal pendampingan dipertahankan.",
+      "D": "Teks memperingatkan hambatan akses dan keterampilan.",
+      "E": "Pengalaman pengguna merupakan fokus bacaan."
+    },
+    "quickTip": "Cari dukungan kalimat di bacaan; bedakan informasi, inferensi, dan klaim berlebihan.",
+    "learningPoint": "Kesimpulan bacaan tidak boleh melampaui dukungan teks.",
+    "estimatedTimeSeconds": 120,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "passageId": "LPDP-BAC-01"
+  },
+  {
+    "id": "LPDP-VRB-033",
+    "number": 33,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V04",
+    "topic": "Pemahaman Bacaan",
+    "subtopic": "Batas inferensi kausal",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis batas inferensi kausal dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Berdasarkan LPDP-BAC-02, mengapa penurunan kunjungan ulang untuk meminta informasi sesudah pesan dikirim tidak cukup membuktikan pengingat sebagai satu-satunya penyebab?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua catatan kunjungan pasti palsu"
+      },
+      {
+        "id": "B",
+        "text": "Pengingat tidak mungkin memengaruhi perilaku"
+      },
+      {
+        "id": "C",
+        "text": "Ada perubahan lain pada periode yang sama dan tidak ada kelompok pembanding"
+      },
+      {
+        "id": "D",
+        "text": "Kunjungan tidak dapat dihitung"
+      },
+      {
+        "id": "E",
+        "text": "Tidak ada perubahan lain dalam periode itu"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Harga transportasi dan jadwal layanan juga berubah.\n\nTanpa pembanding, kontribusi masing-masing faktor belum dipisahkan.\n\nUrutan waktu saja bukan identifikasi sebab tunggal.",
+    "stepByStepSolution": [
+      "Harga transportasi dan jadwal layanan juga berubah.",
+      "Tanpa pembanding, kontribusi masing-masing faktor belum dipisahkan.",
+      "Urutan waktu saja bukan identifikasi sebab tunggal."
+    ],
+    "distractorExplanations": {
+      "A": "Tidak ada bukti pemalsuan dalam teks.",
+      "B": "Kemungkinan efek tidak disangkal; kekuatan inferensi yang dibatasi.",
+      "D": "Teks justru menggunakan catatan kunjungan.",
+      "E": "Bertentangan dengan informasi bacaan."
+    },
+    "quickTip": "Cari dukungan kalimat di bacaan; bedakan informasi, inferensi, dan klaim berlebihan.",
+    "learningPoint": "Kesimpulan bacaan tidak boleh melampaui dukungan teks.",
+    "estimatedTimeSeconds": 120,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "passageId": "LPDP-BAC-02"
+  },
+  {
+    "id": "LPDP-VRB-034",
+    "number": 34,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V04",
+    "topic": "Pemahaman Bacaan",
+    "subtopic": "Kesimpulan evaluasi",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis kesimpulan evaluasi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Kesimpulan mana paling didukung LPDP-BAC-02?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Program pasti tidak bermanfaat"
+      },
+      {
+        "id": "B",
+        "text": "Seluruh penurunan kunjungan pasti akibat transportasi"
+      },
+      {
+        "id": "C",
+        "text": "Kelompok pembanding tidak pernah diperlukan"
+      },
+      {
+        "id": "D",
+        "text": "Program layak dievaluasi lebih lanjut dengan rancangan yang membedakan pengaruh faktor lain"
+      },
+      {
+        "id": "E",
+        "text": "Klaim sebab tunggal sudah terbukti final"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Temuan awal dapat berguna.\n\nPenulis meminta perbandingan dan pencatatan konteks untuk klaim kausal.\n\nEvaluasi lanjutan lebih tepat daripada kepastian atau penolakan mutlak.",
+    "stepByStepSolution": [
+      "Temuan awal dapat berguna.",
+      "Penulis meminta perbandingan dan pencatatan konteks untuk klaim kausal.",
+      "Evaluasi lanjutan lebih tepat daripada kepastian atau penolakan mutlak."
+    ],
+    "distractorExplanations": {
+      "A": "Teks tidak membuktikan ketiadaan manfaat.",
+      "B": "Kontribusi transportasi juga belum dipisahkan.",
+      "C": "Bertentangan dengan rekomendasi penulis.",
+      "E": "Keterbatasan rancangan masih dinyatakan."
+    },
+    "quickTip": "Cari dukungan kalimat di bacaan; bedakan informasi, inferensi, dan klaim berlebihan.",
+    "learningPoint": "Kesimpulan bacaan tidak boleh melampaui dukungan teks.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "passageId": "LPDP-BAC-02"
+  },
+  {
+    "id": "LPDP-VRB-035",
+    "number": 35,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V04",
+    "topic": "Pemahaman Bacaan",
+    "subtopic": "Hubungan paragraf",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis hubungan paragraf dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Hubungan antara paragraf awal dan akhir dalam LPDP-BAC-03 paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dua kisah yang tidak berkaitan"
+      },
+      {
+        "id": "B",
+        "text": "Paragraf akhir membantah keberadaan biaya perawatan"
+      },
+      {
+        "id": "C",
+        "text": "Paragraf awal membuktikan semua proyek pasti gagal"
+      },
+      {
+        "id": "D",
+        "text": "Paragraf akhir hanya mengulang ukuran bangunan"
+      },
+      {
+        "id": "E",
+        "text": "Masalah keberlanjutan biaya diikuti kebutuhan aturan pendanaan dan pengawasan"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Awal bacaan menjelaskan fasilitas yang tidak terawat.\n\nAkhirnya menekankan anggaran operasi dan pengawasan.\n\nSolusi menanggapi masalah keberlanjutan, bukan pembangunan fisik semata.",
+    "stepByStepSolution": [
+      "Awal bacaan menjelaskan fasilitas yang tidak terawat.",
+      "Akhirnya menekankan anggaran operasi dan pengawasan.",
+      "Solusi menanggapi masalah keberlanjutan, bukan pembangunan fisik semata."
+    ],
+    "distractorExplanations": {
+      "A": "Keduanya membahas keberlanjutan fasilitas yang sama.",
+      "B": "Biaya perawatan justru ditekankan.",
+      "C": "Contoh keterbatasan tidak menjadi klaim universal.",
+      "D": "Fokusnya tata kelola dan biaya operasi."
+    },
+    "quickTip": "Cari dukungan kalimat di bacaan; bedakan informasi, inferensi, dan klaim berlebihan.",
+    "learningPoint": "Kesimpulan bacaan tidak boleh melampaui dukungan teks.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "passageId": "LPDP-BAC-03"
+  },
+  {
+    "id": "LPDP-VRB-036",
+    "number": 36,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V04",
+    "topic": "Pemahaman Bacaan",
+    "subtopic": "Inferensi pemanfaatan",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis inferensi pemanfaatan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Inferensi paling hati-hati dari LPDP-BAC-03 adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keberhasilan pembangunan perlu dinilai setelah fasilitas mulai digunakan"
+      },
+      {
+        "id": "B",
+        "text": "Gedung besar selalu tidak bermanfaat"
+      },
+      {
+        "id": "C",
+        "text": "Biaya operasi sebaiknya dihapus"
+      },
+      {
+        "id": "D",
+        "text": "Warga tidak pernah menggunakan fasilitas"
+      },
+      {
+        "id": "E",
+        "text": "Kontraktor wajib mengelola semua layanan selamanya"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pemanfaatan dan perawatan terjadi sesudah peresmian.\n\nKeberhasilan tidak cukup dinilai dari selesainya konstruksi.\n\nInferensi tetap terbatas pada pentingnya evaluasi penggunaan.",
+    "stepByStepSolution": [
+      "Pemanfaatan dan perawatan terjadi sesudah peresmian.",
+      "Keberhasilan tidak cukup dinilai dari selesainya konstruksi.",
+      "Inferensi tetap terbatas pada pentingnya evaluasi penggunaan."
+    ],
+    "distractorExplanations": {
+      "B": "Ukuran saja tidak menentukan manfaat menurut teks.",
+      "C": "Teks menegaskan perlunya biaya operasi.",
+      "D": "Teks membahas penggunaan yang nyata namun tidak merata.",
+      "E": "Tidak ada ketentuan demikian dalam bacaan."
+    },
+    "quickTip": "Cari dukungan kalimat di bacaan; bedakan informasi, inferensi, dan klaim berlebihan.",
+    "learningPoint": "Kesimpulan bacaan tidak boleh melampaui dukungan teks.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "passageId": "LPDP-BAC-03"
+  },
+  {
+    "id": "LPDP-VRB-037",
+    "number": 37,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V04",
+    "topic": "Pemahaman Bacaan",
+    "subtopic": "Fungsi argumen",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis fungsi argumen dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Dalam LPDP-BAC-04, fungsi penjelasan tentang metode dan data yang dibagikan adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membuktikan semua data terbuka selalu bebas kesalahan"
+      },
+      {
+        "id": "B",
+        "text": "Menjelaskan bagaimana klaim penelitian dapat diperiksa ulang"
+      },
+      {
+        "id": "C",
+        "text": "Menggantikan kebutuhan pertimbangan privasi"
+      },
+      {
+        "id": "D",
+        "text": "Menetapkan bahwa jumlah unduhan sama dengan kebenaran"
+      },
+      {
+        "id": "E",
+        "text": "Mengharuskan penghapusan metode penelitian"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Transparansi memungkinkan pihak lain menilai proses dan mengulang analisis.\n\nIni meningkatkan keterperiksaan, bukan menjamin hasil benar otomatis.\n\nFungsi argumennya mendukung pemeriksaan ilmiah.",
+    "stepByStepSolution": [
+      "Transparansi memungkinkan pihak lain menilai proses dan mengulang analisis.",
+      "Ini meningkatkan keterperiksaan, bukan menjamin hasil benar otomatis.",
+      "Fungsi argumennya mendukung pemeriksaan ilmiah."
+    ],
+    "distractorExplanations": {
+      "A": "Teks tidak memberi jaminan tersebut.",
+      "C": "Privasi tetap disebut perlu dilindungi.",
+      "D": "Ukuran popularitas bukan validitas ilmiah.",
+      "E": "Metode justru diperlukan untuk pemeriksaan."
+    },
+    "quickTip": "Cari dukungan kalimat di bacaan; bedakan informasi, inferensi, dan klaim berlebihan.",
+    "learningPoint": "Kesimpulan bacaan tidak boleh melampaui dukungan teks.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "passageId": "LPDP-BAC-04"
+  },
+  {
+    "id": "LPDP-VRB-038",
+    "number": 38,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V04",
+    "topic": "Pemahaman Bacaan",
+    "subtopic": "Klaim tidak didukung",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis klaim tidak didukung dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Pernyataan mana tidak didukung LPDP-BAC-04?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metode perlu dijelaskan agar analisis dapat diperiksa"
+      },
+      {
+        "id": "B",
+        "text": "Data sensitif memerlukan perlindungan"
+      },
+      {
+        "id": "C",
+        "text": "Keterbukaan data menjamin setiap kesimpulan pasti benar"
+      },
+      {
+        "id": "D",
+        "text": "Pemeriksaan ulang dapat mengungkap kekeliruan"
+      },
+      {
+        "id": "E",
+        "text": "Dokumentasi membantu pembaca memahami pilihan analisis"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Bacaan membedakan keterperiksaan dan kebenaran.\n\nKeterbukaan membantu menemukan kesalahan, bukan menghapus kemungkinan kesalahan.\n\nKlaim jaminan mutlak melampaui teks.",
+    "stepByStepSolution": [
+      "Bacaan membedakan keterperiksaan dan kebenaran.",
+      "Keterbukaan membantu menemukan kesalahan, bukan menghapus kemungkinan kesalahan.",
+      "Klaim jaminan mutlak melampaui teks."
+    ],
+    "distractorExplanations": {
+      "A": "Ini sesuai isi bacaan.",
+      "B": "Hal itu disebutkan dalam pembahasan privasi.",
+      "D": "Ini fungsi transparansi yang dijelaskan.",
+      "E": "Bacaan menekankan penjelasan keputusan metode."
+    },
+    "quickTip": "Cari dukungan kalimat di bacaan; bedakan informasi, inferensi, dan klaim berlebihan.",
+    "learningPoint": "Kesimpulan bacaan tidak boleh melampaui dukungan teks.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "passageId": "LPDP-BAC-04"
+  },
+  {
+    "id": "LPDP-VRB-039",
+    "number": 39,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V04",
+    "topic": "Pemahaman Bacaan",
+    "subtopic": "Tujuan penulis",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis tujuan penulis dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tujuan utama penulis LPDP-BAC-05 adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membuktikan semua museum harus ditutup"
+      },
+      {
+        "id": "B",
+        "text": "Menghapus seluruh perubahan tradisi"
+      },
+      {
+        "id": "C",
+        "text": "Menyatakan warga tidak mengetahui budayanya"
+      },
+      {
+        "id": "D",
+        "text": "Menunjukkan bahwa pelestarian budaya perlu melibatkan warga dan konteks hidupnya"
+      },
+      {
+        "id": "E",
+        "text": "Mengganti pelestarian dengan penjualan benda semata"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Bacaan mengaitkan arsip, praktik keseharian, dan partisipasi.\n\nPelestarian bukan sekadar memindahkan benda ke ruang pamer.\n\nTujuan utamanya memperluas cara memahami pelestarian.",
+    "stepByStepSolution": [
+      "Bacaan mengaitkan arsip, praktik keseharian, dan partisipasi.",
+      "Pelestarian bukan sekadar memindahkan benda ke ruang pamer.",
+      "Tujuan utamanya memperluas cara memahami pelestarian."
+    ],
+    "distractorExplanations": {
+      "A": "Museum tidak ditolak secara universal.",
+      "B": "Teks mengakui praktik hidup dapat berubah.",
+      "C": "Partisipasi warga justru dianggap penting.",
+      "E": "Tujuan komersial tunggal tidak menjadi argumen penulis."
+    },
+    "quickTip": "Cari dukungan kalimat di bacaan; bedakan informasi, inferensi, dan klaim berlebihan.",
+    "learningPoint": "Kesimpulan bacaan tidak boleh melampaui dukungan teks.",
+    "estimatedTimeSeconds": 220,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "passageId": "LPDP-BAC-05"
+  },
+  {
+    "id": "LPDP-VRB-040",
+    "number": 40,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V04",
+    "topic": "Pemahaman Bacaan",
+    "subtopic": "Makna frasa",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis makna frasa dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Makna frasa ruang negosiasi dalam LPDP-BAC-05 paling sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tempat wajib membeli tiket"
+      },
+      {
+        "id": "B",
+        "text": "Jaminan seluruh pihak sepakat tanpa diskusi"
+      },
+      {
+        "id": "C",
+        "text": "Larangan masyarakat mengubah praktik"
+      },
+      {
+        "id": "D",
+        "text": "Gudang penyimpanan tanpa akses publik"
+      },
+      {
+        "id": "E",
+        "text": "Kesempatan membahas perubahan dan kepentingan antarpihak"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Konteksnya melibatkan warga dalam keputusan tentang representasi budaya.\n\nNegosiasi merujuk pembahasan berbagai kepentingan.\n\nBukan lokasi jual beli atau penghapusan semua aturan.",
+    "stepByStepSolution": [
+      "Konteksnya melibatkan warga dalam keputusan tentang representasi budaya.",
+      "Negosiasi merujuk pembahasan berbagai kepentingan.",
+      "Bukan lokasi jual beli atau penghapusan semua aturan."
+    ],
+    "distractorExplanations": {
+      "A": "Tidak sesuai konteks pengambilan keputusan bersama.",
+      "B": "Negosiasi diperlukan karena kepentingan dapat berbeda.",
+      "C": "Teks mengakui perubahan praktik hidup.",
+      "D": "Tidak menggambarkan relasi sosial yang dibahas."
+    },
+    "quickTip": "Cari dukungan kalimat di bacaan; bedakan informasi, inferensi, dan klaim berlebihan.",
+    "learningPoint": "Kesimpulan bacaan tidak boleh melampaui dukungan teks.",
+    "estimatedTimeSeconds": 220,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning",
+    "passageId": "LPDP-BAC-05"
+  },
+  {
+    "id": "LPDP-VRB-041",
+    "number": 41,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V05",
+    "topic": "Kosakata Kontekstual dan Relasi Makna",
+    "subtopic": "Tentatif",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis tentatif dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Dalam kalimat data awal bersifat tentatif sehingga kesimpulan dapat direvisi, tentatif berarti apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sementara dan masih dapat berubah"
+      },
+      {
+        "id": "B",
+        "text": "Final dan tidak dapat diubah"
+      },
+      {
+        "id": "C",
+        "text": "Palsu dan sengaja direkayasa"
+      },
+      {
+        "id": "D",
+        "text": "Lengkap untuk semua keadaan"
+      },
+      {
+        "id": "E",
+        "text": "Tidak berkaitan dengan penelitian"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Klausa berikut menjelaskan kemungkinan revisi.\n\nKata itu menunjuk status belum final.\n\nBukan berarti tanpa data atau pasti salah.",
+    "stepByStepSolution": [
+      "Klausa berikut menjelaskan kemungkinan revisi.",
+      "Kata itu menunjuk status belum final.",
+      "Bukan berarti tanpa data atau pasti salah."
+    ],
+    "distractorExplanations": {
+      "B": "Berlawanan dengan kemungkinan revisi.",
+      "C": "Status sementara tidak berarti pemalsuan.",
+      "D": "Teks menyebut data awal, bukan cakupan universal.",
+      "E": "Kata itu justru menjelaskan status data dalam penelitian."
+    },
+    "quickTip": "Gunakan kalimat sekitar sebagai pembatas makna, bukan arti lepas yang paling dikenal.",
+    "learningPoint": "Konteks menentukan makna yang relevan dari kata atau frasa.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-042",
+    "number": 42,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V05",
+    "topic": "Kosakata Kontekstual dan Relasi Makna",
+    "subtopic": "Transparansi",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis transparansi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Makna transparan dalam kalimat prosedur harus transparan agar alasan keputusan dapat ditelusuri adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Terbuat dari kaca"
+      },
+      {
+        "id": "B",
+        "text": "Terbuka untuk diperiksa"
+      },
+      {
+        "id": "C",
+        "text": "Dapat diganti tanpa catatan"
+      },
+      {
+        "id": "D",
+        "text": "Selalu menghasilkan keputusan populer"
+      },
+      {
+        "id": "E",
+        "text": "Dirahasiakan dari semua pihak"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Petunjuk konteksnya adalah alasan yang dapat ditelusuri.\n\nTransparan merujuk keterbukaan prosedural.\n\nMakna fisik bahan tidak sesuai konteks abstrak.",
+    "stepByStepSolution": [
+      "Petunjuk konteksnya adalah alasan yang dapat ditelusuri.",
+      "Transparan merujuk keterbukaan prosedural.",
+      "Makna fisik bahan tidak sesuai konteks abstrak."
+    ],
+    "distractorExplanations": {
+      "A": "Ini makna fisik yang tidak cocok untuk prosedur.",
+      "C": "Justru mengurangi keterlacakan keputusan.",
+      "D": "Keterbukaan tidak menjamin popularitas.",
+      "E": "Berlawanan dengan keterperiksaan."
+    },
+    "quickTip": "Gunakan kalimat sekitar sebagai pembatas makna, bukan arti lepas yang paling dikenal.",
+    "learningPoint": "Konteks menentukan makna yang relevan dari kata atau frasa.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-043",
+    "number": 43,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V05",
+    "topic": "Kosakata Kontekstual dan Relasi Makna",
+    "subtopic": "Komprehensif",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis komprehensif dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Kalimat evaluasi itu komprehensif karena menilai biaya, akses, dan dampak menggunakan komprehensif dengan makna apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya memeriksa satu indikator"
+      },
+      {
+        "id": "B",
+        "text": "Dilakukan tanpa data"
+      },
+      {
+        "id": "C",
+        "text": "Mencakup berbagai aspek secara menyeluruh"
+      },
+      {
+        "id": "D",
+        "text": "Pasti menghasilkan pujian"
+      },
+      {
+        "id": "E",
+        "text": "Tidak memerlukan batas kajian"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Daftar biaya, akses, dan dampak menunjukkan keluasan cakupan.\n\nKomprehensif menekankan ketercakupan.\n\nBukan jaminan semua hasil positif.",
+    "stepByStepSolution": [
+      "Daftar biaya, akses, dan dampak menunjukkan keluasan cakupan.",
+      "Komprehensif menekankan ketercakupan.",
+      "Bukan jaminan semua hasil positif."
+    ],
+    "distractorExplanations": {
+      "A": "Berlawanan dengan berbagai aspek yang disebut.",
+      "B": "Tidak tersirat dari keluasan penilaian.",
+      "D": "Cakupan tidak menentukan arah hasil evaluasi.",
+      "E": "Kajian menyeluruh tetap dapat memiliki batas yang dinyatakan."
+    },
+    "quickTip": "Gunakan kalimat sekitar sebagai pembatas makna, bukan arti lepas yang paling dikenal.",
+    "learningPoint": "Konteks menentukan makna yang relevan dari kata atau frasa.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-044",
+    "number": 44,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V05",
+    "topic": "Kosakata Kontekstual dan Relasi Makna",
+    "subtopic": "Ekspansi anggaran",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis ekspansi anggaran dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Antonim paling tepat bagi ekspansif dalam frasa kebijakan anggaran ekspansif adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Progresif"
+      },
+      {
+        "id": "B",
+        "text": "Inklusif"
+      },
+      {
+        "id": "C",
+        "text": "Cepat"
+      },
+      {
+        "id": "D",
+        "text": "Kontraktif"
+      },
+      {
+        "id": "E",
         "text": "Terbuka"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Transparan berarti dapat ditelusuri secara terbuka. Tertutup merupakan lawannya; jernih dan terbuka justru dekat maknanya.",
+    "correctAnswer": "D",
+    "explanation": "Ekspansif menunjuk perluasan atau dorongan belanja dalam konteks anggaran.\n\nKontraktif menunjuk pengetatan.\n\nIni lawan arah kebijakan, bukan lawan kecepatan.",
+    "stepByStepSolution": [
+      "Ekspansif menunjuk perluasan atau dorongan belanja dalam konteks anggaran.",
+      "Kontraktif menunjuk pengetatan.",
+      "Ini lawan arah kebijakan, bukan lawan kecepatan."
+    ],
     "distractorExplanations": {
-      "B": "Pilihan “Jernih” tidak memenuhi konsep atau kondisi dalam soal. Transparan berarti dapat ditelusuri secara terbuka. Tertutup merupakan lawannya; jernih dan terbuka justru dekat maknanya.",
-      "C": "Pilihan “Terbuka” tidak memenuhi konsep atau kondisi dalam soal. Transparan berarti dapat ditelusuri secara terbuka. Tertutup merupakan lawannya; jernih dan terbuka justru dekat maknanya."
+      "A": "Tidak selalu berlawanan dengan perluasan anggaran.",
+      "B": "Menjelaskan ketercakupan, bukan arah besar anggaran.",
+      "C": "Menjelaskan tempo, bukan ekspansi atau kontraksi.",
+      "E": "Menjelaskan akses atau transparansi."
     },
-    "learningPoint": "Transparan berarti dapat ditelusuri secara terbuka. Tertutup merupakan lawannya; jernih dan terbuka justru dekat maknanya.",
+    "quickTip": "Gunakan kalimat sekitar sebagai pembatas makna, bukan arti lepas yang paling dikenal.",
+    "learningPoint": "Konteks menentukan makna yang relevan dari kata atau frasa.",
+    "estimatedTimeSeconds": 100,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
   },
   {
-    "id": "LPDP-VERBAL-007",
+    "id": "LPDP-VRB-045",
+    "number": 45,
     "program": "lpdp",
     "category": "verbal",
-    "topic": "Pustakawan : perpustakaan setara dengan kurator : apa",
-    "subtopic": "Konsep dan penalaran",
+    "taxonomyCode": "V05",
+    "topic": "Kosakata Kontekstual dan Relasi Makna",
+    "subtopic": "Kausalitas",
     "difficulty": "medium",
+    "learningObjective": "Menganalisis kausalitas dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "Pustakawan : perpustakaan setara dengan kurator : apa?",
+    "question": "Dalam pernyataan hubungan kedua variabel bersifat korelatif, belum tentu kausal, kausal berarti apa?",
     "options": [
       {
         "id": "A",
-        "text": "Pelabuhan"
+        "text": "Hanya terjadi bersamaan"
       },
       {
         "id": "B",
-        "text": "Sawah"
+        "text": "Berupa urutan abjad"
       },
       {
         "id": "C",
-        "text": "Museum"
+        "text": "Selalu kebetulan"
+      },
+      {
+        "id": "D",
+        "text": "Tidak mungkin diteliti"
+      },
+      {
+        "id": "E",
+        "text": "Menyatakan hubungan sebab-akibat"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Relasi adalah profesi dan tempat institusional kerjanya. Kurator mengelola koleksi museum, bukan pelabuhan atau sawah.",
+    "correctAnswer": "E",
+    "explanation": "Kontras dengan korelatif membedakan keterkaitan dan penyebab.\n\nKausal mengacu pada sebab-akibat.\n\nKorelasi saja belum memastikan arah serta penyebab.",
+    "stepByStepSolution": [
+      "Kontras dengan korelatif membedakan keterkaitan dan penyebab.",
+      "Kausal mengacu pada sebab-akibat.",
+      "Korelasi saja belum memastikan arah serta penyebab."
+    ],
     "distractorExplanations": {
-      "A": "Pilihan “Pelabuhan” tidak memenuhi konsep atau kondisi dalam soal. Relasi adalah profesi dan tempat institusional kerjanya. Kurator mengelola koleksi museum, bukan pelabuhan atau sawah.",
-      "B": "Pilihan “Sawah” tidak memenuhi konsep atau kondisi dalam soal. Relasi adalah profesi dan tempat institusional kerjanya. Kurator mengelola koleksi museum, bukan pelabuhan atau sawah."
+      "A": "Ini mendekati keterkaitan temporal, bukan definisi sebab.",
+      "B": "Tidak sesuai konteks variabel.",
+      "C": "Hubungan sebab bukan identik kebetulan.",
+      "D": "Kesulitan inferensi tidak berarti tidak dapat diteliti."
     },
-    "learningPoint": "Relasi adalah profesi dan tempat institusional kerjanya. Kurator mengelola koleksi museum, bukan pelabuhan atau sawah.",
+    "quickTip": "Gunakan kalimat sekitar sebagai pembatas makna, bukan arti lepas yang paling dikenal.",
+    "learningPoint": "Konteks menentukan makna yang relevan dari kata atau frasa.",
+    "estimatedTimeSeconds": 100,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
   },
   {
-    "id": "LPDP-VERBAL-008",
+    "id": "LPDP-VRB-046",
+    "number": 46,
     "program": "lpdp",
     "category": "verbal",
-    "topic": "Taman kota menurunkan suhu sekitar dan menyediakan ruang pertemua",
-    "subtopic": "Konsep dan penalaran",
+    "taxonomyCode": "V05",
+    "topic": "Kosakata Kontekstual dan Relasi Makna",
+    "subtopic": "Biaya implisit",
     "difficulty": "medium",
+    "learningObjective": "Menganalisis biaya implisit dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "Taman kota menurunkan suhu sekitar dan menyediakan ruang pertemuan. Gagasan utama kalimat itu adalah apa?",
+    "question": "Makna frasa biaya implisit pada kalimat waktu sukarelawan juga merupakan biaya implisit proyek adalah apa?",
     "options": [
       {
         "id": "A",
-        "text": "Semua pertemuan wajib di taman"
+        "text": "Biaya kesempatan yang tidak selalu berupa pembayaran langsung"
       },
       {
         "id": "B",
-        "text": "Manfaat ekologis dan sosial taman kota"
+        "text": "Uang tunai yang pasti dibayarkan harian"
       },
       {
         "id": "C",
-        "text": "Taman hanya mempercantik warna kota"
+        "text": "Biaya yang tidak pernah memiliki nilai"
+      },
+      {
+        "id": "D",
+        "text": "Kesalahan perhitungan yang harus dihapus"
+      },
+      {
+        "id": "E",
+        "text": "Pajak resmi atas setiap sukarelawan"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Waktu memiliki penggunaan alternatif.\n\nPengorbanannya dapat bernilai walau tidak dibayar.\n\nImplisit berbeda dari pengeluaran kas eksplisit.",
+    "stepByStepSolution": [
+      "Waktu memiliki penggunaan alternatif.",
+      "Pengorbanannya dapat bernilai walau tidak dibayar.",
+      "Implisit berbeda dari pengeluaran kas eksplisit."
+    ],
+    "distractorExplanations": {
+      "B": "Teks menyebut waktu sukarelawan, bukan pembayaran pasti.",
+      "C": "Tidak tercatat sebagai kas bukan berarti tanpa nilai.",
+      "D": "Pengorbanan waktu tetap relevan dalam penilaian.",
+      "E": "Tidak disebutkan kewajiban pajak dalam konteks itu."
+    },
+    "quickTip": "Gunakan kalimat sekitar sebagai pembatas makna, bukan arti lepas yang paling dikenal.",
+    "learningPoint": "Konteks menentukan makna yang relevan dari kata atau frasa.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-047",
+    "number": 47,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V05",
+    "topic": "Kosakata Kontekstual dan Relasi Makna",
+    "subtopic": "Marginal dan total",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis marginal dan total dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Kata marginal dalam kalimat tambahan satu unit produksi meningkatkan biaya marginal tidak berarti apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Biaya tambahan akibat unit berikutnya"
+      },
+      {
+        "id": "B",
+        "text": "Total seluruh biaya sejak usaha berdiri"
+      },
+      {
+        "id": "C",
+        "text": "Perubahan biaya ketika output bertambah satu unit"
+      },
+      {
+        "id": "D",
+        "text": "Besaran yang berbeda dari biaya total"
+      },
+      {
+        "id": "E",
+        "text": "Biaya inkremental pada perubahan unit produksi"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Dua manfaat dinyatakan langsung: pengaturan suhu dan ruang sosial. Pilihan lain membatasi atau melebihkan isi teks.",
-    "distractorExplanations": {
-      "A": "Pilihan “Semua pertemuan wajib di taman” tidak memenuhi konsep atau kondisi dalam soal. Dua manfaat dinyatakan langsung: pengaturan suhu dan ruang sosial. Pilihan lain membatasi atau melebihkan isi teks.",
-      "C": "Pilihan “Taman hanya mempercantik warna kota” tidak memenuhi konsep atau kondisi dalam soal. Dua manfaat dinyatakan langsung: pengaturan suhu dan ruang sosial. Pilihan lain membatasi atau melebihkan isi teks."
-    },
-    "learningPoint": "Dua manfaat dinyatakan langsung: pengaturan suhu dan ruang sosial. Pilihan lain membatasi atau melebihkan isi teks.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-VERBAL-009",
-    "program": "lpdp",
-    "category": "verbal",
-    "topic": "Tidak semua proposal diterima. Pernyataan setara yang paling tepa",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Tidak semua proposal diterima. Pernyataan setara yang paling tepat adalah apa?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Ada proposal yang tidak diterima"
-      },
-      {
-        "id": "B",
-        "text": "Tidak ada proposal diterima"
-      },
-      {
-        "id": "C",
-        "text": "Semua proposal diterima"
-      }
+    "explanation": "Konteks tambahan satu unit mengarah pada perubahan biaya.\n\nMarginal bukan total kumulatif seluruh operasi.\n\nBedakan besaran tambahan dan besaran total.",
+    "stepByStepSolution": [
+      "Konteks tambahan satu unit mengarah pada perubahan biaya.",
+      "Marginal bukan total kumulatif seluruh operasi.",
+      "Bedakan besaran tambahan dan besaran total."
     ],
-    "correctAnswer": "A",
-    "explanation": "Negasi terhadap semua diterima berarti paling sedikit satu tidak diterima. Ini tidak menyatakan seluruh proposal ditolak.",
     "distractorExplanations": {
-      "B": "Pilihan “Tidak ada proposal diterima” tidak memenuhi konsep atau kondisi dalam soal. Negasi terhadap semua diterima berarti paling sedikit satu tidak diterima. Ini tidak menyatakan seluruh proposal ditolak.",
-      "C": "Pilihan “Semua proposal diterima” tidak memenuhi konsep atau kondisi dalam soal. Negasi terhadap semua diterima berarti paling sedikit satu tidak diterima. Ini tidak menyatakan seluruh proposal ditolak."
+      "A": "Ini justru makna yang sesuai.",
+      "C": "Ini sesuai konteks biaya marginal.",
+      "D": "Pembedaan tersebut benar dalam konteks ini.",
+      "E": "Ini sepadan dengan konteks yang dijelaskan."
     },
-    "learningPoint": "Negasi terhadap semua diterima berarti paling sedikit satu tidak diterima. Ini tidak menyatakan seluruh proposal ditolak.",
+    "quickTip": "Gunakan kalimat sekitar sebagai pembatas makna, bukan arti lepas yang paling dikenal.",
+    "learningPoint": "Konteks menentukan makna yang relevan dari kata atau frasa.",
+    "estimatedTimeSeconds": 100,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
   },
   {
-    "id": "LPDP-VERBAL-010",
+    "id": "LPDP-VRB-048",
+    "number": 48,
     "program": "lpdp",
     "category": "verbal",
-    "topic": "Kata mitigasi dalam frasa mitigasi risiko berarti apa",
-    "subtopic": "Konsep dan penalaran",
+    "taxonomyCode": "V05",
+    "topic": "Kosakata Kontekstual dan Relasi Makna",
+    "subtopic": "Adaptif",
     "difficulty": "medium",
+    "learningObjective": "Menganalisis adaptif dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "Kata mitigasi dalam frasa mitigasi risiko berarti apa?",
+    "question": "Dalam kalimat kebijakan perlu adaptif terhadap perubahan kebutuhan, padanan adaptif paling tepat apa?",
     "options": [
       {
         "id": "A",
-        "text": "Jaminan tidak ada risiko sama sekali"
+        "text": "Tetap identik meskipun konteks berubah"
       },
       {
         "id": "B",
-        "text": "Tindakan memperbesar risiko"
+        "text": "Selalu mengikuti semua pendapat tanpa penilaian"
       },
       {
         "id": "C",
-        "text": "Upaya mengurangi dampak risiko"
+        "text": "Mampu menyesuaikan diri"
+      },
+      {
+        "id": "D",
+        "text": "Tidak memerlukan evaluasi"
+      },
+      {
+        "id": "E",
+        "text": "Berubah secara acak"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Mitigasi mengurangi kemungkinan atau dampak, bukan menjamin risiko hilang. Memperbesar risiko berlawanan dengan makna tersebut.",
+    "explanation": "Petunjuknya respons terhadap perubahan kebutuhan.\n\nAdaptif menyatakan kemampuan penyesuaian.\n\nTidak sama dengan berubah tanpa alasan atau selalu meniru.",
+    "stepByStepSolution": [
+      "Petunjuknya respons terhadap perubahan kebutuhan.",
+      "Adaptif menyatakan kemampuan penyesuaian.",
+      "Tidak sama dengan berubah tanpa alasan atau selalu meniru."
+    ],
     "distractorExplanations": {
-      "A": "Pilihan “Jaminan tidak ada risiko sama sekali” tidak memenuhi konsep atau kondisi dalam soal. Mitigasi mengurangi kemungkinan atau dampak, bukan menjamin risiko hilang. Memperbesar risiko berlawanan dengan makna tersebut.",
-      "B": "Pilihan “Tindakan memperbesar risiko” tidak memenuhi konsep atau kondisi dalam soal. Mitigasi mengurangi kemungkinan atau dampak, bukan menjamin risiko hilang. Memperbesar risiko berlawanan dengan makna tersebut."
+      "A": "Berlawanan dengan penyesuaian.",
+      "B": "Adaptasi tetap memerlukan penilaian kebutuhan.",
+      "D": "Penyesuaian dapat membutuhkan informasi evaluasi.",
+      "E": "Adaptasi terkait konteks, bukan perubahan tanpa arah."
     },
-    "learningPoint": "Mitigasi mengurangi kemungkinan atau dampak, bukan menjamin risiko hilang. Memperbesar risiko berlawanan dengan makna tersebut.",
+    "quickTip": "Gunakan kalimat sekitar sebagai pembatas makna, bukan arti lepas yang paling dikenal.",
+    "learningPoint": "Konteks menentukan makna yang relevan dari kata atau frasa.",
+    "estimatedTimeSeconds": 100,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-049",
+    "number": 49,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V05",
+    "topic": "Kosakata Kontekstual dan Relasi Makna",
+    "subtopic": "Proporsional",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis proporsional dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Dalam kalimat alokasi bersifat proporsional terhadap jumlah penerima, tafsir mana paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Setiap wilayah pasti menerima jumlah identik"
+      },
+      {
+        "id": "B",
+        "text": "Wilayah terbesar menerima semua anggaran"
+      },
+      {
+        "id": "C",
+        "text": "Alokasi tidak berkaitan dengan penerima"
+      },
+      {
+        "id": "D",
+        "text": "Porsi alokasi mengikuti perbandingan jumlah penerima"
+      },
+      {
+        "id": "E",
+        "text": "Porsi ditentukan hanya oleh urutan pendaftaran"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Proporsional menyatakan hubungan perbandingan yang sama.\n\nJika jumlah penerima dua kali, alokasi juga dua kali dengan faktor tetap.\n\nIni bukan pembagian selalu sama rata.",
+    "stepByStepSolution": [
+      "Proporsional menyatakan hubungan perbandingan yang sama.",
+      "Jika jumlah penerima dua kali, alokasi juga dua kali dengan faktor tetap.",
+      "Ini bukan pembagian selalu sama rata."
+    ],
+    "distractorExplanations": {
+      "A": "Jumlah penerima berbeda dapat menghasilkan alokasi berbeda.",
+      "B": "Tidak mengikuti rasio seluruh penerima.",
+      "C": "Bertentangan dengan kalimat.",
+      "E": "Kriteria yang disebut adalah jumlah penerima, bukan urutan."
+    },
+    "quickTip": "Gunakan kalimat sekitar sebagai pembatas makna, bukan arti lepas yang paling dikenal.",
+    "learningPoint": "Konteks menentukan makna yang relevan dari kata atau frasa.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
+  },
+  {
+    "id": "LPDP-VRB-050",
+    "number": 50,
+    "program": "lpdp",
+    "category": "verbal",
+    "taxonomyCode": "V05",
+    "topic": "Kosakata Kontekstual dan Relasi Makna",
+    "subtopic": "Substantif",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis substantif dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Makna substantif dalam frasa perbaikan harus substantif, bukan sekadar mengganti sampul adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya mengganti warna tampilan"
+      },
+      {
+        "id": "B",
+        "text": "Tidak boleh terlihat oleh pengguna"
+      },
+      {
+        "id": "C",
+        "text": "Harus menambah jumlah halaman"
+      },
+      {
+        "id": "D",
+        "text": "Selalu memerlukan nama baru"
+      },
+      {
+        "id": "E",
+        "text": "Menyentuh isi atau persoalan pokok"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Kontras dengan sampul menekankan perubahan mendasar pada isi.\n\nSubstantif bukan sekadar tampilan.\n\nNilai perubahan dinilai dari pokok persoalan.",
+    "stepByStepSolution": [
+      "Kontras dengan sampul menekankan perubahan mendasar pada isi.",
+      "Substantif bukan sekadar tampilan.",
+      "Nilai perubahan dinilai dari pokok persoalan."
+    ],
+    "distractorExplanations": {
+      "A": "Ini contoh perubahan permukaan yang dikontraskan.",
+      "B": "Perubahan isi dapat juga terlihat pengguna.",
+      "C": "Panjang dokumen bukan ukuran substansi.",
+      "D": "Penggantian nama belum tentu mengubah isi."
+    },
+    "quickTip": "Gunakan kalimat sekitar sebagai pembatas makna, bukan arti lepas yang paling dikenal.",
+    "learningPoint": "Konteks menentukan makna yang relevan dari kata atau frasa.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "reasoning"
   }
 ]

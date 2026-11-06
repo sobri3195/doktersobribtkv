@@ -31,7 +31,13 @@ export const questionSchema = z
     type: z.literal("single_choice"),
     question: z.string().min(10),
     options: z
-      .array(z.object({ id: z.string().min(1), text: z.string().min(1) }))
+      .array(
+        z.object({
+          id: z.string().min(1),
+          text: z.string().min(1),
+          numericValue: z.number().optional(),
+        }),
+      )
       .min(3)
       .max(5),
     correctAnswer: z.string(),
@@ -71,6 +77,28 @@ export const questionSchema = z
       .optional(),
     editorialFlags: z.array(z.string().min(1)).optional(),
     contentVersion: z.number().int().positive().optional(),
+    version: z.number().int().positive().optional(),
+    stimulusId: z.string().optional(),
+    stepByStepSolution: z.array(z.string().min(5)).min(3).optional(),
+    quickTip: z.string().min(10).optional(),
+    estimatedTimeSeconds: z.number().int().positive().optional(),
+    explanationFormat: z
+      .enum(["reasoning", "worked_numeric", "data_sufficiency"])
+      .optional(),
+    workedSolution: z
+      .object({
+        known: z.string().min(5),
+        asked: z.string().min(5),
+        formula: z.string().min(1),
+        calculation: z.array(z.string().min(5)).min(1),
+        result: z.string().min(1),
+        check: z.string().min(5),
+      })
+      .optional(),
+    integratesMultipleInformation: z.boolean().optional(),
+    stimulusKind: z
+      .enum(["narrative", "table", "constraint", "bar", "line"])
+      .optional(),
     passageId: z.string().optional(),
     formula: z.string().optional(),
     disabled: z.boolean().optional(),
@@ -142,6 +170,7 @@ export const attemptSchema = z.object({
   marked: z.array(z.string()),
   elapsed: z.record(z.string(), z.number().nonnegative()),
   submitted: z.boolean(),
+  blueprintId: z.string().optional(),
   scoring: z
     .object({
       correct: z.number().min(-10).max(10),
@@ -159,6 +188,17 @@ export const historySchema = z.object({
   wrong: z.number(),
   blank: z.number(),
   total: z.number(),
+  subtests: z
+    .array(
+      z.object({
+        category: z.string(),
+        correct: z.number(),
+        wrong: z.number(),
+        blank: z.number(),
+        score: z.number(),
+      }),
+    )
+    .optional(),
   durationSeconds: z.number().nonnegative().optional(),
   practiceScore: z.number().optional(),
   peka: z.number(),

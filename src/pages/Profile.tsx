@@ -169,10 +169,10 @@ export function Profile() {
         (q) => d.bookmarks.includes(q.id) || d.notes[q.id],
       ) && (
         <Card>
-          <h2>Arsip BTKV versi sebelumnya</h2>
+          <h2>Arsip bank versi sebelumnya</h2>
           <p>
             Bookmark dan catatan lama tetap tersedia. Arsip tidak dihitung
-            sebagai bagian dari 150 soal baru.
+            sebagai bagian dari bank aktif yang baru.
           </p>
           {legacyBundled
             .filter((q) => d.bookmarks.includes(q.id) || d.notes[q.id])

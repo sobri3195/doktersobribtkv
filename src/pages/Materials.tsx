@@ -1,6 +1,14 @@
+import { reviewDue } from "../services/recommendations";
 import { useState } from "react";
 import { useNavigate, useSearchParams, Link } from "react-router-dom";
-import { Search, ArrowRight, Bookmark } from "lucide-react";
+import {
+  Search,
+  ArrowRight,
+  Bookmark,
+  BookOpen,
+  Calculator,
+  Brain,
+} from "lucide-react";
 import { useStore } from "../stores/useStore";
 import { mergeBank } from "../data/bank";
 import { categories } from "../services/model";
@@ -10,10 +18,10 @@ export function Materials() {
   const { data: d, update } = useStore();
   const [params] = useSearchParams();
   const [category, setCategory] = useState(params.get("category") || "");
-  const [topic, setTopic] = useState("");
+  const [topic, setTopic] = useState(params.get("topic") || "");
   const [search, setSearch] = useState("");
   const [difficulty, setDifficulty] = useState("");
-  const [status, setStatus] = useState("");
+  const [status, setStatus] = useState(params.get("status") || "");
   const [count, setCount] = useState(10);
   const [error, setError] = useState("");
   const navigate = useNavigate();
@@ -34,10 +42,14 @@ export function Materials() {
           ? d.bookmarks.includes(q.id)
           : status === "unanswered"
             ? !d.answers.some((a) => a.questionId === q.id)
-            : status === "incorrect"
-              ? d.answers.filter((a) => a.questionId === q.id).at(-1)
-                  ?.correct === false
-              : d.answers.some((a) => a.questionId === q.id))),
+            : status === "due"
+              ? reviewDue(q.id, d.answers)
+              : status === "ever-incorrect"
+                ? d.answers.some((a) => a.questionId === q.id && !a.correct)
+                : status === "incorrect"
+                  ? d.answers.filter((a) => a.questionId === q.id).at(-1)
+                      ?.correct === false
+                  : d.answers.some((a) => a.questionId === q.id))),
   );
   function start(pool = filtered) {
     if (d.attempt && !d.attempt.submitted) {
@@ -94,7 +106,7 @@ export function Materials() {
           />
         </div>
         <div className="filters">
-          {d.program === "btkv" && (
+          {d.program !== "simak" && (
             <label>
               Topik
               <select value={topic} onChange={(e) => setTopic(e.target.value)}>
@@ -130,6 +142,12 @@ export function Materials() {
               <option value="answered">Sudah dijawab</option>
               <option value="unanswered">Belum dijawab</option>
               <option value="incorrect">Terakhir salah</option>
+              {d.program === "lpdp" && (
+                <>
+                  <option value="ever-incorrect">Pernah salah</option>
+                  <option value="due">Review terjadwal</option>
+                </>
+              )}
               <option value="bookmarks">Bookmark</option>
             </select>
           </label>
@@ -176,7 +194,18 @@ export function Materials() {
                 pool.some((q) => q.id === a.questionId),
             );
             return (
-              <Card key={id}>
+              <Card
+                key={id}
+                className={d.program === "lpdp" ? "lpdp-subject" : ""}
+              >
+                {d.program === "lpdp" &&
+                  (id === "verbal" ? (
+                    <BookOpen aria-hidden="true" />
+                  ) : id === "quantitative" ? (
+                    <Calculator aria-hidden="true" />
+                  ) : (
+                    <Brain aria-hidden="true" />
+                  ))}
                 <h3>{label}</h3>
                 <p>
                   {pool.length} soal ·{" "}

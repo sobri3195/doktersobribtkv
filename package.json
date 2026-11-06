@@ -12,7 +12,8 @@
     "validate:questions": "tsx scripts/validate-questions.ts",
     "format": "prettier --write src scripts e2e *.ts *.json docs README.md",
     "format:check": "prettier --check src scripts e2e *.ts *.json docs README.md",
-    "validate:btkv": "tsx scripts/validate-btkv.ts"
+    "validate:btkv": "tsx scripts/validate-btkv.ts",
+    "validate:lpdp": "tsx scripts/validate-lpdp.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

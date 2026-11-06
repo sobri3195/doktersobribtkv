@@ -16,8 +16,8 @@ beforeEach(() => {
 });
 describe("bank content", () => {
   it("loads all currently authored questions with valid schemas and unique IDs", () => {
-    expect(bundled.length).toBe(230);
-    expect(new Set(bundled.map((q) => q.id)).size).toBe(230);
+    expect(bundled.length).toBe(350);
+    expect(new Set(bundled.map((q) => q.id)).size).toBe(350);
     for (const q of bundled)
       expect(questionSchema.safeParse(q).success).toBe(true);
   });
@@ -26,7 +26,7 @@ describe("bank content", () => {
       for (const cat of Object.keys(cats))
         expect(
           bundled.filter((q) => q.program === p && q.category === cat),
-        ).toHaveLength(p === "btkv" ? 50 : 10);
+        ).toHaveLength(p !== "simak" ? 50 : 10);
   });
   it("rejects bad keys, repeated options, missing distractors and category mismatch", () => {
     const q = bundled[0];

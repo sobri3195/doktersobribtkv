@@ -1159,3 +1159,51 @@ button.selected {
     scroll-behavior: auto !important;
   }
 }
+.reading-passage {
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg);
+  margin: 18px 0;
+}
+.reading-passage p {
+  color: var(--ink);
+  line-height: 1.85;
+}
+.data-stimulus {
+  margin: 22px 0;
+  padding: 16px;
+  background: var(--bg);
+  border-radius: 12px;
+}
+.table-scroll {
+  overflow-x: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+}
+th,
+td {
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  padding: 12px;
+}
+thead {
+  background: var(--tint);
+}
+.explanation ol {
+  padding-left: 22px;
+  line-height: 1.8;
+}
+.explanation li {
+  margin: 8px 0;
+}
+.lpdp-subject {
+  border-top: 3px solid #7c3aed;
+}
+.lpdp-subject > svg {
+  color: #7c3aed;
+  margin-bottom: 12px;
+}

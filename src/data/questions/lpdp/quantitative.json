@@ -1,332 +1,3738 @@
 [
   {
-    "id": "LPDP-QUANTITATIVE-001",
+    "id": "LPDP-QNT-001",
+    "number": 1,
     "program": "lpdp",
     "category": "quantitative",
-    "topic": "Harga Rp200.000 mendapat diskon 15%. Berapa harga akhirnya",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "Q01",
+    "topic": "Aritmetika dan Perbandingan",
+    "subtopic": "Komplemen pecahan",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis komplemen pecahan dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "Harga Rp200.000 mendapat diskon 15%. Berapa harga akhirnya?",
+    "question": "Sebanyak 3/5 dari 80 kursi terisi. Berapa kursi yang belum terisi?",
     "options": [
       {
         "id": "A",
-        "text": "Rp185.000"
+        "text": "32",
+        "numericValue": 32.0
       },
       {
         "id": "B",
-        "text": "Rp150.000"
+        "text": "48",
+        "numericValue": 48.0
       },
       {
         "id": "C",
-        "text": "Rp170.000"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Diskon = 0,15 × 200.000 = 30.000. Harga akhir = 200.000 − 30.000 = 170.000.",
-    "distractorExplanations": {
-      "A": "Pilihan “Rp185.000” tidak memenuhi konsep atau kondisi dalam soal. Diskon = 0,15 × 200.000 = 30.000. Harga akhir = 200.000 − 30.000 = 170.000.",
-      "B": "Pilihan “Rp150.000” tidak memenuhi konsep atau kondisi dalam soal. Diskon = 0,15 × 200.000 = 30.000. Harga akhir = 200.000 − 30.000 = 170.000."
-    },
-    "learningPoint": "Diskon = 0,15 × 200.000 = 30.000. Harga akhir = 200.000 − 30.000 = 170.000.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-QUANTITATIVE-002",
-    "program": "lpdp",
-    "category": "quantitative",
-    "topic": "Rasio siswa A:B adalah 3:5 dan totalnya 40. Berapa jumlah B",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Rasio siswa A:B adalah 3:5 dan totalnya 40. Berapa jumlah B?",
-    "options": [
-      {
-        "id": "A",
-        "text": "20"
+        "text": "16",
+        "numericValue": 16.0
       },
       {
-        "id": "B",
-        "text": "25"
+        "id": "D",
+        "text": "40",
+        "numericValue": 40.0
       },
       {
-        "id": "C",
-        "text": "15"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "Total bagian = 3 + 5 = 8. Setiap bagian 40/8 = 5; B = 5 × 5 = 25.",
-    "distractorExplanations": {
-      "A": "Pilihan “20” tidak memenuhi konsep atau kondisi dalam soal. Total bagian = 3 + 5 = 8. Setiap bagian 40/8 = 5; B = 5 × 5 = 25.",
-      "C": "Pilihan “15” tidak memenuhi konsep atau kondisi dalam soal. Total bagian = 3 + 5 = 8. Setiap bagian 40/8 = 5; B = 5 × 5 = 25."
-    },
-    "learningPoint": "Total bagian = 3 + 5 = 8. Setiap bagian 40/8 = 5; B = 5 × 5 = 25.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-QUANTITATIVE-003",
-    "program": "lpdp",
-    "category": "quantitative",
-    "topic": "Tentukan x jika 3x + 7 = 28.",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Tentukan x jika 3x + 7 = 28.",
-    "options": [
-      {
-        "id": "A",
-        "text": "7"
-      },
-      {
-        "id": "B",
-        "text": "5"
-      },
-      {
-        "id": "C",
-        "text": "9"
+        "id": "E",
+        "text": "64",
+        "numericValue": 64.0
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Kurangi kedua ruas dengan 7: 3x = 21. Bagi 3 sehingga x = 7.",
-    "distractorExplanations": {
-      "B": "Pilihan “5” tidak memenuhi konsep atau kondisi dalam soal. Kurangi kedua ruas dengan 7: 3x = 21. Bagi 3 sehingga x = 7.",
-      "C": "Pilihan “9” tidak memenuhi konsep atau kondisi dalam soal. Kurangi kedua ruas dengan 7: 3x = 21. Bagi 3 sehingga x = 7."
-    },
-    "learningPoint": "Kurangi kedua ruas dengan 7: 3x = 21. Bagi 3 sehingga x = 7.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-QUANTITATIVE-004",
-    "program": "lpdp",
-    "category": "quantitative",
-    "topic": "Rata-rata 6, 8, 10, dan 16 adalah berapa",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Rata-rata 6, 8, 10, dan 16 adalah berapa?",
-    "options": [
-      {
-        "id": "A",
-        "text": "12"
-      },
-      {
-        "id": "B",
-        "text": "8"
-      },
-      {
-        "id": "C",
-        "text": "10"
-      }
+    "explanation": "Kursi terisi = 3/5 × 80 = 48.\n\nKursi kosong = 80 − 48 = 32.\n\nPemeriksaan: 48 + 32 = 80.",
+    "stepByStepSolution": [
+      "Kursi terisi = 3/5 × 80 = 48.",
+      "Kursi kosong = 80 − 48 = 32.",
+      "Pemeriksaan: 48 + 32 = 80."
     ],
-    "correctAnswer": "C",
-    "explanation": "Jumlah = 40 dan banyak data = 4. Rata-rata = 40/4 = 10.",
     "distractorExplanations": {
-      "A": "Pilihan “12” tidak memenuhi konsep atau kondisi dalam soal. Jumlah = 40 dan banyak data = 4. Rata-rata = 40/4 = 10.",
-      "B": "Pilihan “8” tidak memenuhi konsep atau kondisi dalam soal. Jumlah = 40 dan banyak data = 4. Rata-rata = 40/4 = 10."
+      "B": "Ini jumlah kursi terisi, bukan kosong.",
+      "C": "Ini hanya seperlima seluruh kursi.",
+      "D": "Ini setengah kapasitas, tidak sesuai proporsi yang diberikan.",
+      "E": "Ini empat perlima kapasitas, bukan komplemen tiga perlima."
     },
-    "learningPoint": "Jumlah = 40 dan banyak data = 4. Rata-rata = 40/4 = 10.",
+    "quickTip": "Tetapkan satuan serta basis persentase sebelum menghitung.",
+    "learningPoint": "Kesetaraan satuan dan basis perbandingan menentukan operasi yang benar.",
+    "estimatedTimeSeconds": 60,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-QUANTITATIVE-005",
-    "program": "lpdp",
-    "category": "quantitative",
-    "topic": "Satu dadu adil dilempar. Peluang hasil bilangan prima adalah bera",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Satu dadu adil dilempar. Peluang hasil bilangan prima adalah berapa?",
-    "options": [
-      {
-        "id": "A",
-        "text": "2/3"
-      },
-      {
-        "id": "B",
-        "text": "1/2"
-      },
-      {
-        "id": "C",
-        "text": "1/3"
-      }
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
     ],
-    "correctAnswer": "B",
-    "explanation": "Hasil prima adalah 2, 3, dan 5. Tiga hasil dari enam memberi peluang 3/6 = 1/2.",
-    "distractorExplanations": {
-      "A": "Pilihan “2/3” tidak memenuhi konsep atau kondisi dalam soal. Hasil prima adalah 2, 3, dan 5. Tiga hasil dari enam memberi peluang 3/6 = 1/2.",
-      "C": "Pilihan “1/3” tidak memenuhi konsep atau kondisi dalam soal. Hasil prima adalah 2, 3, dan 5. Tiga hasil dari enam memberi peluang 3/6 = 1/2."
-    },
-    "learningPoint": "Hasil prima adalah 2, 3, dan 5. Tiga hasil dari enam memberi peluang 3/6 = 1/2.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "80(1-\\frac35)",
+    "workedSolution": {
+      "known": "Sebanyak 3/5 dari 80 kursi terisi. ",
+      "asked": "Sebanyak 3/5 dari 80 kursi terisi. Berapa kursi yang belum terisi?",
+      "formula": "80(1-\\frac35)",
+      "calculation": [
+        "Kursi terisi = 3/5 × 80 = 48.",
+        "Kursi kosong = 80 − 48 = 32."
+      ],
+      "result": "32",
+      "check": "Pemeriksaan: 48 + 32 = 80."
+    }
   },
   {
-    "id": "LPDP-QUANTITATIVE-006",
+    "id": "LPDP-QNT-002",
+    "number": 2,
     "program": "lpdp",
     "category": "quantitative",
-    "topic": "Keliling persegi 36 cm. Berapa luasnya",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "Q01",
+    "topic": "Aritmetika dan Perbandingan",
+    "subtopic": "Diskon dan biaya tetap",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis diskon dan biaya tetap dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "Keliling persegi 36 cm. Berapa luasnya?",
+    "question": "Harga sebelum diskon adalah 240 ribu rupiah. Diskon 20% diberikan, lalu biaya layanan 10 ribu ditambahkan. Berapa pembayaran akhir dalam ribu rupiah?",
     "options": [
       {
         "id": "A",
-        "text": "81 cm²"
+        "text": "192",
+        "numericValue": 192.0
       },
       {
         "id": "B",
-        "text": "36 cm²"
+        "text": "202",
+        "numericValue": 202.0
       },
       {
         "id": "C",
-        "text": "144 cm²"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Sisi = 36/4 = 9 cm. Luas = 9 × 9 = 81 cm².",
-    "distractorExplanations": {
-      "B": "Pilihan “36 cm²” tidak memenuhi konsep atau kondisi dalam soal. Sisi = 36/4 = 9 cm. Luas = 9 × 9 = 81 cm².",
-      "C": "Pilihan “144 cm²” tidak memenuhi konsep atau kondisi dalam soal. Sisi = 36/4 = 9 cm. Luas = 9 × 9 = 81 cm²."
-    },
-    "learningPoint": "Sisi = 36/4 = 9 cm. Luas = 9 × 9 = 81 cm².",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-QUANTITATIVE-007",
-    "program": "lpdp",
-    "category": "quantitative",
-    "topic": "Suatu mobil menempuh 150 km dalam 2,5 jam. Kecepatan rata-ratanya",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Suatu mobil menempuh 150 km dalam 2,5 jam. Kecepatan rata-ratanya berapa?",
-    "options": [
-      {
-        "id": "A",
-        "text": "75 km/jam"
+        "text": "200",
+        "numericValue": 200.0
       },
       {
-        "id": "B",
-        "text": "50 km/jam"
+        "id": "D",
+        "text": "210",
+        "numericValue": 210.0
       },
       {
-        "id": "C",
-        "text": "60 km/jam"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Kecepatan rata-rata = jarak/waktu = 150/2,5 = 60 km/jam.",
-    "distractorExplanations": {
-      "A": "Pilihan “75 km/jam” tidak memenuhi konsep atau kondisi dalam soal. Kecepatan rata-rata = jarak/waktu = 150/2,5 = 60 km/jam.",
-      "B": "Pilihan “50 km/jam” tidak memenuhi konsep atau kondisi dalam soal. Kecepatan rata-rata = jarak/waktu = 150/2,5 = 60 km/jam."
-    },
-    "learningPoint": "Kecepatan rata-rata = jarak/waktu = 150/2,5 = 60 km/jam.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-QUANTITATIVE-008",
-    "program": "lpdp",
-    "category": "quantitative",
-    "topic": "Apa suku berikutnya dalam deret 2, 6, 12, 20, 30",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Apa suku berikutnya dalam deret 2, 6, 12, 20, 30?",
-    "options": [
-      {
-        "id": "A",
-        "text": "44"
-      },
-      {
-        "id": "B",
-        "text": "42"
-      },
-      {
-        "id": "C",
-        "text": "40"
+        "id": "E",
+        "text": "250",
+        "numericValue": 250.0
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Selisih berturut-turut 4, 6, 8, 10. Selisih berikutnya 12 sehingga 30 + 12 = 42.",
-    "distractorExplanations": {
-      "A": "Pilihan “44” tidak memenuhi konsep atau kondisi dalam soal. Selisih berturut-turut 4, 6, 8, 10. Selisih berikutnya 12 sehingga 30 + 12 = 42.",
-      "C": "Pilihan “40” tidak memenuhi konsep atau kondisi dalam soal. Selisih berturut-turut 4, 6, 8, 10. Selisih berikutnya 12 sehingga 30 + 12 = 42."
-    },
-    "learningPoint": "Selisih berturut-turut 4, 6, 8, 10. Selisih berikutnya 12 sehingga 30 + 12 = 42.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "LPDP-QUANTITATIVE-009",
-    "program": "lpdp",
-    "category": "quantitative",
-    "topic": "Berapa nilai 3/4 + 2/3",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Berapa nilai 3/4 + 2/3?",
-    "options": [
-      {
-        "id": "A",
-        "text": "17/12"
-      },
-      {
-        "id": "B",
-        "text": "5/7"
-      },
-      {
-        "id": "C",
-        "text": "13/12"
-      }
+    "explanation": "Diskon = 0,20 × 240 = 48.\n\nHarga sesudah diskon = 192, lalu tambah 10 menjadi 202.\n\nPemeriksaan: potongan bersih dari harga awal ialah 38.",
+    "stepByStepSolution": [
+      "Diskon = 0,20 × 240 = 48.",
+      "Harga sesudah diskon = 192, lalu tambah 10 menjadi 202.",
+      "Pemeriksaan: potongan bersih dari harga awal ialah 38."
     ],
-    "correctAnswer": "A",
-    "explanation": "Samakan penyebut menjadi 12: 9/12 + 8/12 = 17/12. Menjumlah pembilang dan penyebut langsung tidak sah.",
     "distractorExplanations": {
-      "B": "Pilihan “5/7” tidak memenuhi konsep atau kondisi dalam soal. Samakan penyebut menjadi 12: 9/12 + 8/12 = 17/12. Menjumlah pembilang dan penyebut langsung tidak sah.",
-      "C": "Pilihan “13/12” tidak memenuhi konsep atau kondisi dalam soal. Samakan penyebut menjadi 12: 9/12 + 8/12 = 17/12. Menjumlah pembilang dan penyebut langsung tidak sah."
+      "A": "Belum menambahkan biaya layanan.",
+      "C": "Pembulatan sebelum selesai mengubah hasil tepat.",
+      "D": "Tidak mengikuti diskon 20% dari harga awal.",
+      "E": "Mengabaikan seluruh diskon."
     },
-    "learningPoint": "Samakan penyebut menjadi 12: 9/12 + 8/12 = 17/12. Menjumlah pembilang dan penyebut langsung tidak sah.",
+    "quickTip": "Tetapkan satuan serta basis persentase sebelum menghitung.",
+    "learningPoint": "Kesetaraan satuan dan basis perbandingan menentukan operasi yang benar.",
+    "estimatedTimeSeconds": 60,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "240(1-0.20)+10",
+    "workedSolution": {
+      "known": "Harga sebelum diskon adalah 240 ribu rupiah. Diskon 20% diberikan, lalu biaya layanan 10 ribu ditambahkan. ",
+      "asked": "Harga sebelum diskon adalah 240 ribu rupiah. Diskon 20% diberikan, lalu biaya layanan 10 ribu ditambahkan. Berapa pembayaran akhir dalam ribu rupiah?",
+      "formula": "240(1-0.20)+10",
+      "calculation": [
+        "Diskon = 0,20 × 240 = 48.",
+        "Harga sesudah diskon = 192, lalu tambah 10 menjadi 202."
+      ],
+      "result": "202",
+      "check": "Pemeriksaan: potongan bersih dari harga awal ialah 38."
+    }
   },
   {
-    "id": "LPDP-QUANTITATIVE-010",
+    "id": "LPDP-QNT-003",
+    "number": 3,
     "program": "lpdp",
     "category": "quantitative",
-    "topic": "Median data 9, 2, 7, 4, 12 adalah berapa",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "Q01",
+    "topic": "Aritmetika dan Perbandingan",
+    "subtopic": "Skala rasio",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis skala rasio dan membuktikan pilihan dengan informasi yang diberikan.",
     "type": "single_choice",
-    "question": "Median data 9, 2, 7, 4, 12 adalah berapa?",
+    "question": "Rasio jumlah anggota tim A:B = 4:7. Jika B memiliki 21 anggota, berapa anggota A?",
     "options": [
       {
         "id": "A",
-        "text": "9"
+        "text": "9",
+        "numericValue": 9.0
       },
       {
         "id": "B",
-        "text": "4"
+        "text": "14",
+        "numericValue": 14.0
       },
       {
         "id": "C",
-        "text": "7"
+        "text": "12",
+        "numericValue": 12.0
+      },
+      {
+        "id": "D",
+        "text": "18",
+        "numericValue": 18.0
+      },
+      {
+        "id": "E",
+        "text": "28",
+        "numericValue": 28.0
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Urutan data adalah 2, 4, 7, 9, 12. Nilai tengah dari lima observasi ialah 7.",
+    "explanation": "Tujuh bagian sama dengan 21 sehingga satu bagian 3.\n\nA memiliki empat bagian: 4 × 3 = 12.\n\nPemeriksaan: 12:21 menyederhana menjadi 4:7.",
+    "stepByStepSolution": [
+      "Tujuh bagian sama dengan 21 sehingga satu bagian 3.",
+      "A memiliki empat bagian: 4 × 3 = 12.",
+      "Pemeriksaan: 12:21 menyederhana menjadi 4:7."
+    ],
     "distractorExplanations": {
-      "A": "Pilihan “9” tidak memenuhi konsep atau kondisi dalam soal. Urutan data adalah 2, 4, 7, 9, 12. Nilai tengah dari lima observasi ialah 7.",
-      "B": "Pilihan “4” tidak memenuhi konsep atau kondisi dalam soal. Urutan data adalah 2, 4, 7, 9, 12. Nilai tengah dari lima observasi ialah 7."
+      "A": "Ini tiga bagian, bukan empat.",
+      "B": "Menggunakan faktor pengali 2, bukan 3.",
+      "D": "Ini enam bagian.",
+      "E": "Mengalikan 7 dengan 4 tanpa skala jumlah anggota."
     },
-    "learningPoint": "Urutan data adalah 2, 4, 7, 9, 12. Nilai tengah dari lima observasi ialah 7.",
+    "quickTip": "Tetapkan satuan serta basis persentase sebelum menghitung.",
+    "learningPoint": "Kesetaraan satuan dan basis perbandingan menentukan operasi yang benar.",
+    "estimatedTimeSeconds": 60,
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "21\\times\\frac47",
+    "workedSolution": {
+      "known": "Rasio jumlah anggota tim A:B = 4:7. Jika B memiliki 21 anggota, berapa anggota A?",
+      "asked": "Rasio jumlah anggota tim A:B = 4:7. Jika B memiliki 21 anggota, berapa anggota A?",
+      "formula": "21\\times\\frac47",
+      "calculation": [
+        "Tujuh bagian sama dengan 21 sehingga satu bagian 3.",
+        "A memiliki empat bagian: 4 × 3 = 12."
+      ],
+      "result": "12",
+      "check": "Pemeriksaan: 12:21 menyederhana menjadi 4:7."
+    }
+  },
+  {
+    "id": "LPDP-QNT-004",
+    "number": 4,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q01",
+    "topic": "Aritmetika dan Perbandingan",
+    "subtopic": "Rerata gabungan",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis rerata gabungan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Rata-rata nilai 12 peserta adalah 70. Setelah satu peserta bernilai 96 bergabung, berapa rata-rata 13 peserta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "83",
+        "numericValue": 83.0
+      },
+      {
+        "id": "B",
+        "text": "70",
+        "numericValue": 70.0
+      },
+      {
+        "id": "C",
+        "text": "74",
+        "numericValue": 74.0
+      },
+      {
+        "id": "D",
+        "text": "72",
+        "numericValue": 72.0
+      },
+      {
+        "id": "E",
+        "text": "76",
+        "numericValue": 76.0
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Jumlah nilai awal = 12 × 70 = 840.\n\nJumlah baru = 936, dibagi 13 menjadi 72.\n\nNilai baru berada antara 70 dan 96, sesuai penambahan satu nilai lebih tinggi.",
+    "stepByStepSolution": [
+      "Jumlah nilai awal = 12 × 70 = 840.",
+      "Jumlah baru = 936, dibagi 13 menjadi 72.",
+      "Nilai baru berada antara 70 dan 96, sesuai penambahan satu nilai lebih tinggi."
+    ],
+    "distractorExplanations": {
+      "A": "Ini rata-rata dua angka 70 dan 96 tanpa pembobotan peserta.",
+      "B": "Mengabaikan peserta baru.",
+      "C": "Jumlah nilai yang tersirat tidak sesuai 936.",
+      "E": "Kenaikannya terlalu besar untuk satu peserta dengan data ini."
+    },
+    "quickTip": "Tetapkan satuan serta basis persentase sebelum menghitung.",
+    "learningPoint": "Kesetaraan satuan dan basis perbandingan menentukan operasi yang benar.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "\\frac{12(70)+96}{13}",
+    "workedSolution": {
+      "known": "Rata-rata nilai 12 peserta adalah 70. Setelah satu peserta bernilai 96 bergabung, berapa rata-rata 13 peserta?",
+      "asked": "Rata-rata nilai 12 peserta adalah 70. Setelah satu peserta bernilai 96 bergabung, berapa rata-rata 13 peserta?",
+      "formula": "\\frac{12(70)+96}{13}",
+      "calculation": [
+        "Jumlah nilai awal = 12 × 70 = 840.",
+        "Jumlah baru = 936, dibagi 13 menjadi 72."
+      ],
+      "result": "72",
+      "check": "Nilai baru berada antara 70 dan 96, sesuai penambahan satu nilai lebih tinggi."
+    }
+  },
+  {
+    "id": "LPDP-QNT-005",
+    "number": 5,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q01",
+    "topic": "Aritmetika dan Perbandingan",
+    "subtopic": "Proporsi resep",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis proporsi resep dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Resep membutuhkan tepung:gula = 5:2 berdasarkan massa. Dengan gula 180 gram, berapa gram tepung dibutuhkan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "72",
+        "numericValue": 72.0
+      },
+      {
+        "id": "B",
+        "text": "360",
+        "numericValue": 360.0
+      },
+      {
+        "id": "C",
+        "text": "500",
+        "numericValue": 500.0
+      },
+      {
+        "id": "D",
+        "text": "630",
+        "numericValue": 630.0
+      },
+      {
+        "id": "E",
+        "text": "450",
+        "numericValue": 450.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Dua bagian gula bernilai 180 sehingga satu bagian 90.\n\nLima bagian tepung bernilai 450.\n\nPemeriksaan: 450/180 = 5/2.",
+    "stepByStepSolution": [
+      "Dua bagian gula bernilai 180 sehingga satu bagian 90.",
+      "Lima bagian tepung bernilai 450.",
+      "Pemeriksaan: 450/180 = 5/2."
+    ],
+    "distractorExplanations": {
+      "A": "Menggunakan rasio terbalik pada massa gula.",
+      "B": "Hanya mengambil empat bagian.",
+      "C": "Tidak konsisten dengan skala 90 per bagian.",
+      "D": "Ini jumlah tepung dan gula, bukan tepung saja."
+    },
+    "quickTip": "Tetapkan satuan serta basis persentase sebelum menghitung.",
+    "learningPoint": "Kesetaraan satuan dan basis perbandingan menentukan operasi yang benar.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "180\\times\\frac52",
+    "workedSolution": {
+      "known": "Resep membutuhkan tepung:gula = 5:2 berdasarkan massa. Dengan gula 180 gram, berapa gram tepung dibutuhkan?",
+      "asked": "Resep membutuhkan tepung:gula = 5:2 berdasarkan massa. Dengan gula 180 gram, berapa gram tepung dibutuhkan?",
+      "formula": "180\\times\\frac52",
+      "calculation": [
+        "Dua bagian gula bernilai 180 sehingga satu bagian 90.",
+        "Lima bagian tepung bernilai 450."
+      ],
+      "result": "450",
+      "check": "Pemeriksaan: 450/180 = 5/2."
+    }
+  },
+  {
+    "id": "LPDP-QNT-006",
+    "number": 6,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q01",
+    "topic": "Aritmetika dan Perbandingan",
+    "subtopic": "Persentase berturut",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis persentase berturut dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Harga barang naik 25%, lalu harga baru didiskon 20%. Berapa persentase perubahan akhir terhadap harga semula?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0",
+        "numericValue": 0.0
+      },
+      {
+        "id": "B",
+        "text": "5",
+        "numericValue": 5.0
+      },
+      {
+        "id": "C",
+        "text": "−5",
+        "numericValue": -5.0
+      },
+      {
+        "id": "D",
+        "text": "20",
+        "numericValue": 20.0
+      },
+      {
+        "id": "E",
+        "text": "−20",
+        "numericValue": -20.0
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Gunakan faktor perubahan 1,25 dan 0,80.\n\nHasil perkalian 1,00, sehingga harga kembali ke awal.\n\nPersentase berturut-turut tidak dijumlahkan langsung.",
+    "stepByStepSolution": [
+      "Gunakan faktor perubahan 1,25 dan 0,80.",
+      "Hasil perkalian 1,00, sehingga harga kembali ke awal.",
+      "Persentase berturut-turut tidak dijumlahkan langsung."
+    ],
+    "distractorExplanations": {
+      "B": "Mengurangkan 25% dan 20% mengabaikan basis kedua yang berubah.",
+      "C": "Tidak sesuai faktor perkalian 1,00.",
+      "D": "Ini salah satu perubahan, bukan perubahan gabungan.",
+      "E": "Mengabaikan kenaikan awal."
+    },
+    "quickTip": "Tetapkan satuan serta basis persentase sebelum menghitung.",
+    "learningPoint": "Kesetaraan satuan dan basis perbandingan menentukan operasi yang benar.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "1.25\\times0.80",
+    "workedSolution": {
+      "known": "Harga barang naik 25%, lalu harga baru didiskon 20%. ",
+      "asked": "Harga barang naik 25%, lalu harga baru didiskon 20%. Berapa persentase perubahan akhir terhadap harga semula?",
+      "formula": "1.25\\times0.80",
+      "calculation": [
+        "Gunakan faktor perubahan 1,25 dan 0,80.",
+        "Hasil perkalian 1,00, sehingga harga kembali ke awal."
+      ],
+      "result": "0",
+      "check": "Persentase berturut-turut tidak dijumlahkan langsung."
+    }
+  },
+  {
+    "id": "LPDP-QNT-007",
+    "number": 7,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q01",
+    "topic": "Aritmetika dan Perbandingan",
+    "subtopic": "Pecahan volume",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis pecahan volume dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tangki berisi 2,4 liter. Sebanyak 3/8 isinya dipakai, lalu ditambah 0,5 liter. Berapa liter isi akhirnya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1,5",
+        "numericValue": 1.5
+      },
+      {
+        "id": "B",
+        "text": "2",
+        "numericValue": 2.0
+      },
+      {
+        "id": "C",
+        "text": "1,4",
+        "numericValue": 1.4
+      },
+      {
+        "id": "D",
+        "text": "2,9",
+        "numericValue": 2.9
+      },
+      {
+        "id": "E",
+        "text": "0,9",
+        "numericValue": 0.9
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Terpakai 2,4 × 3/8 = 0,9 liter.\n\nSisa 1,5 liter ditambah 0,5 menjadi 2 liter.\n\nPemeriksaan: 2 + 0,9 − 0,5 = 2,4.",
+    "stepByStepSolution": [
+      "Terpakai 2,4 × 3/8 = 0,9 liter.",
+      "Sisa 1,5 liter ditambah 0,5 menjadi 2 liter.",
+      "Pemeriksaan: 2 + 0,9 − 0,5 = 2,4."
+    ],
+    "distractorExplanations": {
+      "A": "Ini sisa sebelum penambahan.",
+      "C": "Menggunakan volume terpakai sebagai volume tersisa.",
+      "D": "Mengabaikan pemakaian.",
+      "E": "Ini volume yang dipakai."
+    },
+    "quickTip": "Tetapkan satuan serta basis persentase sebelum menghitung.",
+    "learningPoint": "Kesetaraan satuan dan basis perbandingan menentukan operasi yang benar.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "2.4(1-\\frac38)+0.5",
+    "workedSolution": {
+      "known": "Tangki berisi 2,4 liter. Sebanyak 3/8 isinya dipakai, lalu ditambah 0,5 liter. ",
+      "asked": "Tangki berisi 2,4 liter. Sebanyak 3/8 isinya dipakai, lalu ditambah 0,5 liter. Berapa liter isi akhirnya?",
+      "formula": "2.4(1-\\frac38)+0.5",
+      "calculation": [
+        "Terpakai 2,4 × 3/8 = 0,9 liter.",
+        "Sisa 1,5 liter ditambah 0,5 menjadi 2 liter."
+      ],
+      "result": "2",
+      "check": "Pemeriksaan: 2 + 0,9 − 0,5 = 2,4."
+    }
+  },
+  {
+    "id": "LPDP-QNT-008",
+    "number": 8,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q01",
+    "topic": "Aritmetika dan Perbandingan",
+    "subtopic": "Persen sisa",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis persen sisa dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tim A menyelesaikan 30% laporan dan tim B menyelesaikan 45% laporan yang sama tanpa tumpang tindih. Jika tersisa 20 halaman, berapa total halaman?",
+    "options": [
+      {
+        "id": "A",
+        "text": "60",
+        "numericValue": 60.0
+      },
+      {
+        "id": "B",
+        "text": "100",
+        "numericValue": 100.0
+      },
+      {
+        "id": "C",
+        "text": "80",
+        "numericValue": 80.0
+      },
+      {
+        "id": "D",
+        "text": "75",
+        "numericValue": 75.0
+      },
+      {
+        "id": "E",
+        "text": "40",
+        "numericValue": 40.0
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Bagian selesai = 75%, jadi tersisa 25%.\n\nJika 25% = 20 halaman, keseluruhan = 20/0,25 = 80.\n\nPemeriksaan: 60 selesai dan 20 tersisa.",
+    "stepByStepSolution": [
+      "Bagian selesai = 75%, jadi tersisa 25%.",
+      "Jika 25% = 20 halaman, keseluruhan = 20/0,25 = 80.",
+      "Pemeriksaan: 60 selesai dan 20 tersisa."
+    ],
+    "distractorExplanations": {
+      "A": "Ini halaman selesai pada total yang benar.",
+      "B": "Menganggap sisa 20% padahal 25%.",
+      "D": "Mengubah persen selesai langsung menjadi jumlah halaman.",
+      "E": "Menganggap sisa setengah laporan."
+    },
+    "quickTip": "Tetapkan satuan serta basis persentase sebelum menghitung.",
+    "learningPoint": "Kesetaraan satuan dan basis perbandingan menentukan operasi yang benar.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "\\frac{20}{1-0.30-0.45}",
+    "workedSolution": {
+      "known": "Tim A menyelesaikan 30% laporan dan tim B menyelesaikan 45% laporan yang sama tanpa tumpang tindih. Jika tersisa 20 halaman, berapa total halaman?",
+      "asked": "Tim A menyelesaikan 30% laporan dan tim B menyelesaikan 45% laporan yang sama tanpa tumpang tindih. Jika tersisa 20 halaman, berapa total halaman?",
+      "formula": "\\frac{20}{1-0.30-0.45}",
+      "calculation": [
+        "Bagian selesai = 75%, jadi tersisa 25%.",
+        "Jika 25% = 20 halaman, keseluruhan = 20/0,25 = 80."
+      ],
+      "result": "80",
+      "check": "Pemeriksaan: 60 selesai dan 20 tersisa."
+    }
+  },
+  {
+    "id": "LPDP-QNT-009",
+    "number": 9,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q01",
+    "topic": "Aritmetika dan Perbandingan",
+    "subtopic": "Rasio bertingkat",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis rasio bertingkat dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Rasio A:B = 2:3 dan B:C = 4:5. Jika A + B + C = 70, berapa C?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24",
+        "numericValue": 24.0
+      },
+      {
+        "id": "B",
+        "text": "16",
+        "numericValue": 16.0
+      },
+      {
+        "id": "C",
+        "text": "35",
+        "numericValue": 35.0
+      },
+      {
+        "id": "D",
+        "text": "30",
+        "numericValue": 30.0
+      },
+      {
+        "id": "E",
+        "text": "25",
+        "numericValue": 25.0
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Samakan B menjadi 12 bagian: A:B:C = 8:12:15.\n\nTotal 35 bagian bernilai 70 sehingga satu bagian 2.\n\nC = 15 × 2 = 30.",
+    "stepByStepSolution": [
+      "Samakan B menjadi 12 bagian: A:B:C = 8:12:15.",
+      "Total 35 bagian bernilai 70 sehingga satu bagian 2.",
+      "C = 15 × 2 = 30."
+    ],
+    "distractorExplanations": {
+      "A": "Ini nilai B setelah penyamaan rasio.",
+      "B": "Ini nilai A.",
+      "C": "Ini jumlah bagian, bukan nilai C.",
+      "E": "Menggabungkan rasio tanpa menyamakan besaran B."
+    },
+    "quickTip": "Tetapkan satuan serta basis persentase sebelum menghitung.",
+    "learningPoint": "Kesetaraan satuan dan basis perbandingan menentukan operasi yang benar.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "A:B:C=8:12:15",
+    "workedSolution": {
+      "known": "Rasio A:B = 2:3 dan B:C = 4:5. Jika A + B + C = 70, berapa C?",
+      "asked": "Rasio A:B = 2:3 dan B:C = 4:5. Jika A + B + C = 70, berapa C?",
+      "formula": "A:B:C=8:12:15",
+      "calculation": [
+        "Samakan B menjadi 12 bagian: A:B:C = 8:12:15.",
+        "Total 35 bagian bernilai 70 sehingga satu bagian 2."
+      ],
+      "result": "30",
+      "check": "C = 15 × 2 = 30."
+    }
+  },
+  {
+    "id": "LPDP-QNT-010",
+    "number": 10,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q01",
+    "topic": "Aritmetika dan Perbandingan",
+    "subtopic": "Campuran larutan",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis campuran larutan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Larutan 10 liter berkadar garam 12% dicampur larutan berkadar 30% agar menjadi 20%. Berapa liter larutan 30% ditambahkan, dengan asumsi volume aditif?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "numericValue": 4.0
+      },
+      {
+        "id": "B",
+        "text": "6",
+        "numericValue": 6.0
+      },
+      {
+        "id": "C",
+        "text": "10",
+        "numericValue": 10.0
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "numericValue": 12.0
+      },
+      {
+        "id": "E",
+        "text": "8",
+        "numericValue": 8.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Misalkan tambahan x liter; garam awal 1,2 liter ekuivalen.\n\nPersamaan 1,2 + 0,30x = 0,20(10 + x) memberi 0,10x = 0,8.\n\nx = 8; pemeriksaan kadar 3,6/18 = 20%.",
+    "stepByStepSolution": [
+      "Misalkan tambahan x liter; garam awal 1,2 liter ekuivalen.",
+      "Persamaan 1,2 + 0,30x = 0,20(10 + x) memberi 0,10x = 0,8.",
+      "x = 8; pemeriksaan kadar 3,6/18 = 20%."
+    ],
+    "distractorExplanations": {
+      "A": "Campuran menjadi 2,4/14, bukan 20%.",
+      "B": "Campuran menjadi 3/16, belum 20%.",
+      "C": "Campuran menjadi 4,2/20, yaitu 21%.",
+      "D": "Campuran menjadi 4,8/22, melewati 20%."
+    },
+    "quickTip": "Tetapkan satuan serta basis persentase sebelum menghitung.",
+    "learningPoint": "Kesetaraan satuan dan basis perbandingan menentukan operasi yang benar.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "1.2+0.30x=0.20(10+x)",
+    "workedSolution": {
+      "known": "Larutan 10 liter berkadar garam 12% dicampur larutan berkadar 30% agar menjadi 20%. ",
+      "asked": "Larutan 10 liter berkadar garam 12% dicampur larutan berkadar 30% agar menjadi 20%. Berapa liter larutan 30% ditambahkan, dengan asumsi volume aditif?",
+      "formula": "1.2+0.30x=0.20(10+x)",
+      "calculation": [
+        "Misalkan tambahan x liter; garam awal 1,2 liter ekuivalen.",
+        "Persamaan 1,2 + 0,30x = 0,20(10 + x) memberi 0,10x = 0,8."
+      ],
+      "result": "8",
+      "check": "x = 8; pemeriksaan kadar 3,6/18 = 20%."
+    }
+  },
+  {
+    "id": "LPDP-QNT-011",
+    "number": 11,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q02",
+    "topic": "Aljabar dan Persamaan",
+    "subtopic": "Persamaan linear",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis persamaan linear dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Nilai x yang memenuhi 4x − 9 = 19 adalah berapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7",
+        "numericValue": 7.0
+      },
+      {
+        "id": "B",
+        "text": "2,5",
+        "numericValue": 2.5
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "numericValue": 5.0
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "numericValue": 8.0
+      },
+      {
+        "id": "E",
+        "text": "28",
+        "numericValue": 28.0
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tambahkan 9 pada kedua ruas sehingga 4x = 28.\n\nBagi kedua ruas dengan 4: x = 7.\n\nPemeriksaan 4 × 7 − 9 = 19.",
+    "stepByStepSolution": [
+      "Tambahkan 9 pada kedua ruas sehingga 4x = 28.",
+      "Bagi kedua ruas dengan 4: x = 7.",
+      "Pemeriksaan 4 × 7 − 9 = 19."
+    ],
+    "distractorExplanations": {
+      "B": "Ini hasil jika 9 dikurangkan dari 19, bukan ditambahkan.",
+      "C": "Substitusi menghasilkan 11, bukan 19.",
+      "D": "Substitusi menghasilkan 23.",
+      "E": "Belum membagi kedua ruas dengan 4."
+    },
+    "quickTip": "Selesaikan transformasi yang sah lalu substitusikan hasil untuk memeriksa.",
+    "learningPoint": "Transformasi aljabar harus menjaga himpunan solusi dan domainnya.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "4x-9=19",
+    "workedSolution": {
+      "known": "Nilai x yang memenuhi 4x − 9 = 19 adalah berapa?",
+      "asked": "Nilai x yang memenuhi 4x − 9 = 19 adalah berapa?",
+      "formula": "4x-9=19",
+      "calculation": [
+        "Tambahkan 9 pada kedua ruas sehingga 4x = 28.",
+        "Bagi kedua ruas dengan 4: x = 7."
+      ],
+      "result": "7",
+      "check": "Pemeriksaan 4 × 7 − 9 = 19."
+    }
+  },
+  {
+    "id": "LPDP-QNT-012",
+    "number": 12,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q02",
+    "topic": "Aljabar dan Persamaan",
+    "subtopic": "Eliminasi dua variabel",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis eliminasi dua variabel dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Diketahui x + y = 13 dan x − y = 5. Berapa y?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9",
+        "numericValue": 9.0
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "numericValue": 4.0
+      },
+      {
+        "id": "C",
+        "text": "5",
+        "numericValue": 5.0
+      },
+      {
+        "id": "D",
+        "text": "8",
+        "numericValue": 8.0
+      },
+      {
+        "id": "E",
+        "text": "6,5",
+        "numericValue": 6.5
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Jumlahkan persamaan untuk memperoleh 2x = 18, jadi x = 9.\n\nSubstitusi ke x + y = 13 memberi y = 4.\n\nPemeriksaan 9 − 4 = 5.",
+    "stepByStepSolution": [
+      "Jumlahkan persamaan untuk memperoleh 2x = 18, jadi x = 9.",
+      "Substitusi ke x + y = 13 memberi y = 4.",
+      "Pemeriksaan 9 − 4 = 5."
+    ],
+    "distractorExplanations": {
+      "A": "Ini nilai x, bukan y.",
+      "C": "Ini selisih kedua variabel.",
+      "D": "Ini dua kali nilai y.",
+      "E": "Membagi jumlah rata tanpa memperhitungkan selisih."
+    },
+    "quickTip": "Selesaikan transformasi yang sah lalu substitusikan hasil untuk memeriksa.",
+    "learningPoint": "Transformasi aljabar harus menjaga himpunan solusi dan domainnya.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "x+y=13,\\quad x-y=5",
+    "workedSolution": {
+      "known": "Diketahui x + y = 13 dan x − y = 5. ",
+      "asked": "Diketahui x + y = 13 dan x − y = 5. Berapa y?",
+      "formula": "x+y=13,\\quad x-y=5",
+      "calculation": [
+        "Jumlahkan persamaan untuk memperoleh 2x = 18, jadi x = 9.",
+        "Substitusi ke x + y = 13 memberi y = 4."
+      ],
+      "result": "4",
+      "check": "Pemeriksaan 9 − 4 = 5."
+    }
+  },
+  {
+    "id": "LPDP-QNT-013",
+    "number": 13,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q02",
+    "topic": "Aljabar dan Persamaan",
+    "subtopic": "Substitusi fungsi",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis substitusi fungsi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Fungsi f(x) = 3x² − 2. Berapa f(−2)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "−14",
+        "numericValue": -14.0
+      },
+      {
+        "id": "B",
+        "text": "−10",
+        "numericValue": -10.0
+      },
+      {
+        "id": "C",
+        "text": "10",
+        "numericValue": 10.0
+      },
+      {
+        "id": "D",
+        "text": "14",
+        "numericValue": 14.0
+      },
+      {
+        "id": "E",
+        "text": "4",
+        "numericValue": 4.0
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kuadrat −2 adalah 4.\n\nMaka f(−2) = 3 × 4 − 2 = 10.\n\nTanda negatif harus dikuadratkan bersama bilangannya.",
+    "stepByStepSolution": [
+      "Kuadrat −2 adalah 4.",
+      "Maka f(−2) = 3 × 4 − 2 = 10.",
+      "Tanda negatif harus dikuadratkan bersama bilangannya."
+    ],
+    "distractorExplanations": {
+      "A": "Menganggap kuadrat bilangan negatif tetap negatif.",
+      "B": "Keliru menggabungkan tanda setelah perkalian.",
+      "D": "Menambahkan 2, bukan mengurangkannya.",
+      "E": "Hanya menghitung kuadrat argumen."
+    },
+    "quickTip": "Selesaikan transformasi yang sah lalu substitusikan hasil untuk memeriksa.",
+    "learningPoint": "Transformasi aljabar harus menjaga himpunan solusi dan domainnya.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "f(-2)=3(-2)^2-2",
+    "workedSolution": {
+      "known": "Fungsi f(x) = 3x² − 2. ",
+      "asked": "Fungsi f(x) = 3x² − 2. Berapa f(−2)?",
+      "formula": "f(-2)=3(-2)^2-2",
+      "calculation": ["Kuadrat −2 adalah 4.", "Maka f(−2) = 3 × 4 − 2 = 10."],
+      "result": "10",
+      "check": "Tanda negatif harus dikuadratkan bersama bilangannya."
+    }
+  },
+  {
+    "id": "LPDP-QNT-014",
+    "number": 14,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q02",
+    "topic": "Aljabar dan Persamaan",
+    "subtopic": "Pertidaksamaan bulat",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis pertidaksamaan bulat dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Jika 3x + 2 kurang dari 17, berapa banyak bilangan bulat positif x yang memenuhi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "numericValue": 5.0
+      },
+      {
+        "id": "B",
+        "text": "3",
+        "numericValue": 3.0
+      },
+      {
+        "id": "C",
+        "text": "6",
+        "numericValue": 6.0
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "numericValue": 4.0
+      },
+      {
+        "id": "E",
+        "text": "0",
+        "numericValue": 0.0
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Kurangi 2 sehingga 3x < 15.\n\nBagi 3 memberi x < 5.\n\nBilangan bulat positifnya 1, 2, 3, 4, sebanyak empat.",
+    "stepByStepSolution": [
+      "Kurangi 2 sehingga 3x < 15.",
+      "Bagi 3 memberi x < 5.",
+      "Bilangan bulat positifnya 1, 2, 3, 4, sebanyak empat."
+    ],
+    "distractorExplanations": {
+      "A": "Memasukkan 5 meski pertidaksamaan ketat.",
+      "B": "Menghilangkan salah satu nilai positif yang memenuhi.",
+      "C": "Memasukkan nilai di luar batas.",
+      "E": "Ada beberapa nilai yang memenuhi, misalnya x = 1."
+    },
+    "quickTip": "Selesaikan transformasi yang sah lalu substitusikan hasil untuk memeriksa.",
+    "learningPoint": "Transformasi aljabar harus menjaga himpunan solusi dan domainnya.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "3x+2<17",
+    "workedSolution": {
+      "known": "Jika 3x + 2 kurang dari 17, berapa banyak bilangan bulat positif x yang memenuhi?",
+      "asked": "Jika 3x + 2 kurang dari 17, berapa banyak bilangan bulat positif x yang memenuhi?",
+      "formula": "3x+2<17",
+      "calculation": ["Kurangi 2 sehingga 3x < 15.", "Bagi 3 memberi x < 5."],
+      "result": "4",
+      "check": "Bilangan bulat positifnya 1, 2, 3, 4, sebanyak empat."
+    }
+  },
+  {
+    "id": "LPDP-QNT-015",
+    "number": 15,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q02",
+    "topic": "Aljabar dan Persamaan",
+    "subtopic": "Jumlah akar",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis jumlah akar dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Diketahui x² − 7x + 12 = 0. Berapa jumlah kedua akarnya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12",
+        "numericValue": 12.0
+      },
+      {
+        "id": "B",
+        "text": "1",
+        "numericValue": 1.0
+      },
+      {
+        "id": "C",
+        "text": "3",
+        "numericValue": 3.0
+      },
+      {
+        "id": "D",
+        "text": "4",
+        "numericValue": 4.0
+      },
+      {
+        "id": "E",
+        "text": "7",
+        "numericValue": 7.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Faktorkan menjadi (x − 3)(x − 4) = 0.\n\nAkar adalah 3 dan 4.\n\nJumlahnya 7, sesuai koefisien pada rumus Vieta.",
+    "stepByStepSolution": [
+      "Faktorkan menjadi (x − 3)(x − 4) = 0.",
+      "Akar adalah 3 dan 4.",
+      "Jumlahnya 7, sesuai koefisien pada rumus Vieta."
+    ],
+    "distractorExplanations": {
+      "A": "Ini hasil kali akar.",
+      "B": "Ini selisih akar.",
+      "C": "Ini salah satu akar saja.",
+      "D": "Ini akar lainnya saja."
+    },
+    "quickTip": "Selesaikan transformasi yang sah lalu substitusikan hasil untuk memeriksa.",
+    "learningPoint": "Transformasi aljabar harus menjaga himpunan solusi dan domainnya.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "(x-3)(x-4)=0",
+    "workedSolution": {
+      "known": "Diketahui x² − 7x + 12 = 0. ",
+      "asked": "Diketahui x² − 7x + 12 = 0. Berapa jumlah kedua akarnya?",
+      "formula": "(x-3)(x-4)=0",
+      "calculation": [
+        "Faktorkan menjadi (x − 3)(x − 4) = 0.",
+        "Akar adalah 3 dan 4."
+      ],
+      "result": "7",
+      "check": "Jumlahnya 7, sesuai koefisien pada rumus Vieta."
+    }
+  },
+  {
+    "id": "LPDP-QNT-016",
+    "number": 16,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q02",
+    "topic": "Aljabar dan Persamaan",
+    "subtopic": "Selisih kuadrat",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis selisih kuadrat dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Jika a ≠ b, sederhanakan (a² − b²)/(a − b).",
+    "options": [
+      {
+        "id": "A",
+        "text": "a + b"
+      },
+      {
+        "id": "B",
+        "text": "a − b"
+      },
+      {
+        "id": "C",
+        "text": "a² + b²"
+      },
+      {
+        "id": "D",
+        "text": "1",
+        "numericValue": 1.0
+      },
+      {
+        "id": "E",
+        "text": "a/b"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pembilang merupakan selisih kuadrat: (a − b)(a + b).\n\nKarena a ≠ b, faktor a − b dapat dibagi.\n\nTersisa a + b.",
+    "stepByStepSolution": [
+      "Pembilang merupakan selisih kuadrat: (a − b)(a + b).",
+      "Karena a ≠ b, faktor a − b dapat dibagi.",
+      "Tersisa a + b."
+    ],
+    "distractorExplanations": {
+      "B": "Faktor yang tersisa bukan faktor penyebut.",
+      "C": "Tidak mengikuti faktorisasi selisih kuadrat.",
+      "D": "Pembilang dan penyebut tidak sama.",
+      "E": "Pembagian suku demi suku tidak sah pada bentuk ini."
+    },
+    "quickTip": "Selesaikan transformasi yang sah lalu substitusikan hasil untuk memeriksa.",
+    "learningPoint": "Transformasi aljabar harus menjaga himpunan solusi dan domainnya.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "\\frac{a^2-b^2}{a-b}=a+b",
+    "workedSolution": {
+      "known": "Jika a ≠ b, sederhanakan (a² − b²)/(a − b).",
+      "asked": "Jika a ≠ b, sederhanakan (a² − b²)/(a − b).",
+      "formula": "\\frac{a^2-b^2}{a-b}=a+b",
+      "calculation": [
+        "Pembilang merupakan selisih kuadrat: (a − b)(a + b).",
+        "Karena a ≠ b, faktor a − b dapat dibagi."
+      ],
+      "result": "a + b",
+      "check": "Tersisa a + b."
+    }
+  },
+  {
+    "id": "LPDP-QNT-017",
+    "number": 17,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q02",
+    "topic": "Aljabar dan Persamaan",
+    "subtopic": "Harga dua barang",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis harga dua barang dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Harga tiga buku dan dua pena 31 ribu rupiah; harga satu buku dan dua pena 17 ribu. Berapa harga satu buku dalam ribu rupiah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5",
+        "numericValue": 5.0
+      },
+      {
+        "id": "B",
+        "text": "7",
+        "numericValue": 7.0
+      },
+      {
+        "id": "C",
+        "text": "10",
+        "numericValue": 10.0
+      },
+      {
+        "id": "D",
+        "text": "14",
+        "numericValue": 14.0
+      },
+      {
+        "id": "E",
+        "text": "8",
+        "numericValue": 8.0
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Kurangi persamaan kedua dari pertama.\n\nDiperoleh dua buku berharga 14 ribu.\n\nSatu buku 7 ribu; dua pena kemudian bernilai 10 ribu.",
+    "stepByStepSolution": [
+      "Kurangi persamaan kedua dari pertama.",
+      "Diperoleh dua buku berharga 14 ribu.",
+      "Satu buku 7 ribu; dua pena kemudian bernilai 10 ribu."
+    ],
+    "distractorExplanations": {
+      "A": "Ini harga satu pena, bukan buku.",
+      "C": "Ini harga dua pena.",
+      "D": "Ini harga dua buku.",
+      "E": "Substitusi tidak memenuhi kedua persamaan."
+    },
+    "quickTip": "Selesaikan transformasi yang sah lalu substitusikan hasil untuk memeriksa.",
+    "learningPoint": "Transformasi aljabar harus menjaga himpunan solusi dan domainnya.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "3b+2p=31,\\quad b+2p=17",
+    "workedSolution": {
+      "known": "Harga tiga buku dan dua pena 31 ribu rupiah; harga satu buku dan dua pena 17 ribu. ",
+      "asked": "Harga tiga buku dan dua pena 31 ribu rupiah; harga satu buku dan dua pena 17 ribu. Berapa harga satu buku dalam ribu rupiah?",
+      "formula": "3b+2p=31,\\quad b+2p=17",
+      "calculation": [
+        "Kurangi persamaan kedua dari pertama.",
+        "Diperoleh dua buku berharga 14 ribu."
+      ],
+      "result": "7",
+      "check": "Satu buku 7 ribu; dua pena kemudian bernilai 10 ribu."
+    }
+  },
+  {
+    "id": "LPDP-QNT-018",
+    "number": 18,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q02",
+    "topic": "Aljabar dan Persamaan",
+    "subtopic": "Komposisi fungsi",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis komposisi fungsi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Diketahui g(x) = 2x + 1 dan h(x) = x². Berapa h(g(3))?",
+    "options": [
+      {
+        "id": "A",
+        "text": "19",
+        "numericValue": 19.0
+      },
+      {
+        "id": "B",
+        "text": "36",
+        "numericValue": 36.0
+      },
+      {
+        "id": "C",
+        "text": "49",
+        "numericValue": 49.0
+      },
+      {
+        "id": "D",
+        "text": "7",
+        "numericValue": 7.0
+      },
+      {
+        "id": "E",
+        "text": "10",
+        "numericValue": 10.0
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Hitung fungsi dalam: g(3) = 7.\n\nMasukkan hasil ke h: h(7) = 7² = 49.\n\nUrutan komposisi tidak boleh ditukar.",
+    "stepByStepSolution": [
+      "Hitung fungsi dalam: g(3) = 7.",
+      "Masukkan hasil ke h: h(7) = 7² = 49.",
+      "Urutan komposisi tidak boleh ditukar."
+    ],
+    "distractorExplanations": {
+      "A": "Ini g(h(3)), urutan terbalik.",
+      "B": "Menghilangkan tambahan 1 sebelum kuadrat.",
+      "D": "Ini baru hasil fungsi dalam.",
+      "E": "Ini h(3) ditambah 1, bukan komposisi yang diminta."
+    },
+    "quickTip": "Selesaikan transformasi yang sah lalu substitusikan hasil untuk memeriksa.",
+    "learningPoint": "Transformasi aljabar harus menjaga himpunan solusi dan domainnya.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "h(g(3))=(2(3)+1)^2",
+    "workedSolution": {
+      "known": "Diketahui g(x) = 2x + 1 dan h(x) = x². ",
+      "asked": "Diketahui g(x) = 2x + 1 dan h(x) = x². Berapa h(g(3))?",
+      "formula": "h(g(3))=(2(3)+1)^2",
+      "calculation": [
+        "Hitung fungsi dalam: g(3) = 7.",
+        "Masukkan hasil ke h: h(7) = 7² = 49."
+      ],
+      "result": "49",
+      "check": "Urutan komposisi tidak boleh ditukar."
+    }
+  },
+  {
+    "id": "LPDP-QNT-019",
+    "number": 19,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q02",
+    "topic": "Aljabar dan Persamaan",
+    "subtopic": "Persamaan umur",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis persamaan umur dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Umur kakak sekarang dua kali umur adik. Enam tahun lagi jumlah umur mereka 48 tahun. Berapa umur adik sekarang?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16",
+        "numericValue": 16.0
+      },
+      {
+        "id": "B",
+        "text": "10",
+        "numericValue": 10.0
+      },
+      {
+        "id": "C",
+        "text": "18",
+        "numericValue": 18.0
+      },
+      {
+        "id": "D",
+        "text": "12",
+        "numericValue": 12.0
+      },
+      {
+        "id": "E",
+        "text": "24",
+        "numericValue": 24.0
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Misalkan umur adik x, kakak 2x.\n\nEnam tahun lagi total 3x + 12 = 48, sehingga x = 12.\n\nPemeriksaan: umur nanti 18 dan 30, berjumlah 48.",
+    "stepByStepSolution": [
+      "Misalkan umur adik x, kakak 2x.",
+      "Enam tahun lagi total 3x + 12 = 48, sehingga x = 12.",
+      "Pemeriksaan: umur nanti 18 dan 30, berjumlah 48."
+    ],
+    "distractorExplanations": {
+      "A": "Membagi total masa depan dengan tiga tanpa mengurangi kenaikan dua orang.",
+      "B": "Jumlah umur nanti hanya 42.",
+      "C": "Ini umur adik enam tahun lagi.",
+      "E": "Ini umur kakak sekarang."
+    },
+    "quickTip": "Selesaikan transformasi yang sah lalu substitusikan hasil untuk memeriksa.",
+    "learningPoint": "Transformasi aljabar harus menjaga himpunan solusi dan domainnya.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "(x+6)+(2x+6)=48",
+    "workedSolution": {
+      "known": "Umur kakak sekarang dua kali umur adik. Enam tahun lagi jumlah umur mereka 48 tahun. ",
+      "asked": "Umur kakak sekarang dua kali umur adik. Enam tahun lagi jumlah umur mereka 48 tahun. Berapa umur adik sekarang?",
+      "formula": "(x+6)+(2x+6)=48",
+      "calculation": [
+        "Misalkan umur adik x, kakak 2x.",
+        "Enam tahun lagi total 3x + 12 = 48, sehingga x = 12."
+      ],
+      "result": "12",
+      "check": "Pemeriksaan: umur nanti 18 dan 30, berjumlah 48."
+    }
+  },
+  {
+    "id": "LPDP-QNT-020",
+    "number": 20,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q02",
+    "topic": "Aljabar dan Persamaan",
+    "subtopic": "Kuadrat jumlah resiprokal",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis kuadrat jumlah resiprokal dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Diketahui x positif dan x + 1/x = 5. Berapa x² + 1/x²?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25",
+        "numericValue": 25.0
+      },
+      {
+        "id": "B",
+        "text": "27",
+        "numericValue": 27.0
+      },
+      {
+        "id": "C",
+        "text": "10",
+        "numericValue": 10.0
+      },
+      {
+        "id": "D",
+        "text": "21",
+        "numericValue": 21.0
+      },
+      {
+        "id": "E",
+        "text": "23",
+        "numericValue": 23.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Kuadratkan kedua ruas: x² + 2 + 1/x² = 25.\n\nKurangi 2 sehingga hasil 23.\n\nSuku silang 2 tidak boleh dihilangkan.",
+    "stepByStepSolution": [
+      "Kuadratkan kedua ruas: x² + 2 + 1/x² = 25.",
+      "Kurangi 2 sehingga hasil 23.",
+      "Suku silang 2 tidak boleh dihilangkan."
+    ],
+    "distractorExplanations": {
+      "A": "Menghilangkan suku silang dalam kuadrat jumlah.",
+      "B": "Menambahkan, bukan mengurangi suku silang.",
+      "C": "Mengalikan persamaan awal dengan dua tanpa dasar.",
+      "D": "Mengurangi empat, padahal suku silang bernilai dua."
+    },
+    "quickTip": "Selesaikan transformasi yang sah lalu substitusikan hasil untuk memeriksa.",
+    "learningPoint": "Transformasi aljabar harus menjaga himpunan solusi dan domainnya.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "(x+x^{-1})^2=x^2+2+x^{-2}",
+    "workedSolution": {
+      "known": "Diketahui x positif dan x + 1/x = 5. ",
+      "asked": "Diketahui x positif dan x + 1/x = 5. Berapa x² + 1/x²?",
+      "formula": "(x+x^{-1})^2=x^2+2+x^{-2}",
+      "calculation": [
+        "Kuadratkan kedua ruas: x² + 2 + 1/x² = 25.",
+        "Kurangi 2 sehingga hasil 23."
+      ],
+      "result": "23",
+      "check": "Suku silang 2 tidak boleh dihilangkan."
+    }
+  },
+  {
+    "id": "LPDP-QNT-021",
+    "number": 21,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q03",
+    "topic": "Deret dan Pola Bilangan",
+    "subtopic": "Suku aritmetika",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis suku aritmetika dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Suatu barisan aritmetika dimulai 7, 11, 15. Berapa suku keenamnya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "27",
+        "numericValue": 27.0
+      },
+      {
+        "id": "B",
+        "text": "23",
+        "numericValue": 23.0
+      },
+      {
+        "id": "C",
+        "text": "31",
+        "numericValue": 31.0
+      },
+      {
+        "id": "D",
+        "text": "24",
+        "numericValue": 24.0
+      },
+      {
+        "id": "E",
+        "text": "35",
+        "numericValue": 35.0
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Beda tetapnya 4.\n\nSuku keenam = 7 + (6 − 1) × 4 = 27.\n\nAda lima kenaikan dari suku pertama ke keenam.",
+    "stepByStepSolution": [
+      "Beda tetapnya 4.",
+      "Suku keenam = 7 + (6 − 1) × 4 = 27.",
+      "Ada lima kenaikan dari suku pertama ke keenam."
+    ],
+    "distractorExplanations": {
+      "B": "Ini suku kelima.",
+      "C": "Ini suku ketujuh.",
+      "D": "Mengalikan beda dengan indeks tanpa suku awal.",
+      "E": "Tidak sesuai beda tetap empat."
+    },
+    "quickTip": "Gunakan aturan yang dinyatakan; bedakan indeks suku dan jumlah operasi.",
+    "learningPoint": "Aturan barisan yang dinyatakan menentukan hasil; daftar angka pendek sendiri tidak menjamin pola tunggal.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "a_6=7+5(4)",
+    "workedSolution": {
+      "known": "Suatu barisan aritmetika dimulai 7, 11, 15. ",
+      "asked": "Suatu barisan aritmetika dimulai 7, 11, 15. Berapa suku keenamnya?",
+      "formula": "a_6=7+5(4)",
+      "calculation": [
+        "Beda tetapnya 4.",
+        "Suku keenam = 7 + (6 − 1) × 4 = 27."
+      ],
+      "result": "27",
+      "check": "Ada lima kenaikan dari suku pertama ke keenam."
+    }
+  },
+  {
+    "id": "LPDP-QNT-022",
+    "number": 22,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q03",
+    "topic": "Deret dan Pola Bilangan",
+    "subtopic": "Jumlah geometri",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis jumlah geometri dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Barisan geometri memiliki suku pertama 3 dan rasio 2. Berapa jumlah lima suku pertamanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "48",
+        "numericValue": 48.0
+      },
+      {
+        "id": "B",
+        "text": "93",
+        "numericValue": 93.0
+      },
+      {
+        "id": "C",
+        "text": "96",
+        "numericValue": 96.0
+      },
+      {
+        "id": "D",
+        "text": "45",
+        "numericValue": 45.0
+      },
+      {
+        "id": "E",
+        "text": "90",
+        "numericValue": 90.0
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Lima suku adalah 3, 6, 12, 24, 48.\n\nJumlahnya 93.\n\nRumus 3(2⁵ − 1)/(2 − 1) memberi hasil sama.",
+    "stepByStepSolution": [
+      "Lima suku adalah 3, 6, 12, 24, 48.",
+      "Jumlahnya 93.",
+      "Rumus 3(2⁵ − 1)/(2 − 1) memberi hasil sama."
+    ],
+    "distractorExplanations": {
+      "A": "Ini suku kelima, bukan jumlah.",
+      "C": "Ini dua kali suku kelima tanpa koreksi jumlah.",
+      "D": "Ini jumlah empat suku pertama.",
+      "E": "Menghilangkan suku pertama dari total."
+    },
+    "quickTip": "Gunakan aturan yang dinyatakan; bedakan indeks suku dan jumlah operasi.",
+    "learningPoint": "Aturan barisan yang dinyatakan menentukan hasil; daftar angka pendek sendiri tidak menjamin pola tunggal.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "S_5=3\\frac{2^5-1}{2-1}",
+    "workedSolution": {
+      "known": "Barisan geometri memiliki suku pertama 3 dan rasio 2. ",
+      "asked": "Barisan geometri memiliki suku pertama 3 dan rasio 2. Berapa jumlah lima suku pertamanya?",
+      "formula": "S_5=3\\frac{2^5-1}{2-1}",
+      "calculation": ["Lima suku adalah 3, 6, 12, 24, 48.", "Jumlahnya 93."],
+      "result": "93",
+      "check": "Rumus 3(2⁵ − 1)/(2 − 1) memberi hasil sama."
+    }
+  },
+  {
+    "id": "LPDP-QNT-023",
+    "number": 23,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q03",
+    "topic": "Deret dan Pola Bilangan",
+    "subtopic": "Selisih ganjil",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis selisih ganjil dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Selisih berturut-turut barisan 4, 7, 12, 19 mengikuti bilangan ganjil 3, 5, 7, dan seterusnya. Berapa suku berikutnya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "26",
+        "numericValue": 26.0
+      },
+      {
+        "id": "B",
+        "text": "27",
+        "numericValue": 27.0
+      },
+      {
+        "id": "C",
+        "text": "28",
+        "numericValue": 28.0
+      },
+      {
+        "id": "D",
+        "text": "30",
+        "numericValue": 30.0
+      },
+      {
+        "id": "E",
+        "text": "38",
+        "numericValue": 38.0
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Selisih berikutnya sesuai aturan adalah 9.\n\nTambahkan ke 19 sehingga 28.\n\nAturan selisih dinyatakan, jadi bukan tebakan pola bebas.",
+    "stepByStepSolution": [
+      "Selisih berikutnya sesuai aturan adalah 9.",
+      "Tambahkan ke 19 sehingga 28.",
+      "Aturan selisih dinyatakan, jadi bukan tebakan pola bebas."
+    ],
+    "distractorExplanations": {
+      "A": "Mengulang selisih 7, bukan melanjutkan ganjil.",
+      "B": "Menggunakan selisih 8.",
+      "D": "Melompat ke selisih 11.",
+      "E": "Menggandakan suku terakhir tanpa aturan."
+    },
+    "quickTip": "Gunakan aturan yang dinyatakan; bedakan indeks suku dan jumlah operasi.",
+    "learningPoint": "Aturan barisan yang dinyatakan menentukan hasil; daftar angka pendek sendiri tidak menjamin pola tunggal.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "19+9",
+    "workedSolution": {
+      "known": "Selisih berturut-turut barisan 4, 7, 12, 19 mengikuti bilangan ganjil 3, 5, 7, dan seterusnya. ",
+      "asked": "Selisih berturut-turut barisan 4, 7, 12, 19 mengikuti bilangan ganjil 3, 5, 7, dan seterusnya. Berapa suku berikutnya?",
+      "formula": "19+9",
+      "calculation": [
+        "Selisih berikutnya sesuai aturan adalah 9.",
+        "Tambahkan ke 19 sehingga 28."
+      ],
+      "result": "28",
+      "check": "Aturan selisih dinyatakan, jadi bukan tebakan pola bebas."
+    }
+  },
+  {
+    "id": "LPDP-QNT-024",
+    "number": 24,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q03",
+    "topic": "Deret dan Pola Bilangan",
+    "subtopic": "Subsekuens bergantian",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis subsekuens bergantian dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Sebuah barisan memiliki suku berindeks ganjil 2, 4, 6, ... dan berindeks genap 10, 20, 30, ... . Berapa suku kedelapan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8",
+        "numericValue": 8.0
+      },
+      {
+        "id": "B",
+        "text": "30",
+        "numericValue": 30.0
+      },
+      {
+        "id": "C",
+        "text": "16",
+        "numericValue": 16.0
+      },
+      {
+        "id": "D",
+        "text": "40",
+        "numericValue": 40.0
+      },
+      {
+        "id": "E",
+        "text": "80",
+        "numericValue": 80.0
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Indeks genap membentuk barisan 10, 20, 30, 40.\n\nIndeks 8 adalah anggota keempat subsekuens genap.\n\nMaka nilainya 40.",
+    "stepByStepSolution": [
+      "Indeks genap membentuk barisan 10, 20, 30, 40.",
+      "Indeks 8 adalah anggota keempat subsekuens genap.",
+      "Maka nilainya 40."
+    ],
+    "distractorExplanations": {
+      "A": "Ini nilai subsekuens ganjil berikutnya, bukan indeks genap.",
+      "B": "Ini suku keenam barisan gabungan.",
+      "C": "Mengalikan indeks dengan dua tanpa memisahkan subsekuens.",
+      "E": "Mengalikan indeks dengan sepuluh, bukan posisi di subsekuens."
+    },
+    "quickTip": "Gunakan aturan yang dinyatakan; bedakan indeks suku dan jumlah operasi.",
+    "learningPoint": "Aturan barisan yang dinyatakan menentukan hasil; daftar angka pendek sendiri tidak menjamin pola tunggal.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "a_{2k}=10k",
+    "workedSolution": {
+      "known": "Sebuah barisan memiliki suku berindeks ganjil 2, 4, 6, ... dan berindeks genap 10, 20, 30, ... . ",
+      "asked": "Sebuah barisan memiliki suku berindeks ganjil 2, 4, 6, ... dan berindeks genap 10, 20, 30, ... . Berapa suku kedelapan?",
+      "formula": "a_{2k}=10k",
+      "calculation": [
+        "Indeks genap membentuk barisan 10, 20, 30, 40.",
+        "Indeks 8 adalah anggota keempat subsekuens genap."
+      ],
+      "result": "40",
+      "check": "Maka nilainya 40."
+    }
+  },
+  {
+    "id": "LPDP-QNT-025",
+    "number": 25,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q03",
+    "topic": "Deret dan Pola Bilangan",
+    "subtopic": "Rekursi affine",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis rekursi affine dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Didefinisikan a₁ = 2 dan aₙ₊₁ = 3aₙ − 1. Berapa a₄?",
+    "options": [
+      {
+        "id": "A",
+        "text": "14",
+        "numericValue": 14.0
+      },
+      {
+        "id": "B",
+        "text": "42",
+        "numericValue": 42.0
+      },
+      {
+        "id": "C",
+        "text": "40",
+        "numericValue": 40.0
+      },
+      {
+        "id": "D",
+        "text": "53",
+        "numericValue": 53.0
+      },
+      {
+        "id": "E",
+        "text": "41",
+        "numericValue": 41.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "a₂ = 5 dan a₃ = 14.\n\na₄ = 3 × 14 − 1 = 41.\n\nSubstitusi bertahap mengikuti definisi rekursif.",
+    "stepByStepSolution": [
+      "a₂ = 5 dan a₃ = 14.",
+      "a₄ = 3 × 14 − 1 = 41.",
+      "Substitusi bertahap mengikuti definisi rekursif."
+    ],
+    "distractorExplanations": {
+      "A": "Ini a₃.",
+      "B": "Belum mengurangkan satu pada langkah terakhir.",
+      "C": "Mengurangkan dua pada langkah terakhir.",
+      "D": "Menganggap barisan geometri murni tanpa koreksi."
+    },
+    "quickTip": "Gunakan aturan yang dinyatakan; bedakan indeks suku dan jumlah operasi.",
+    "learningPoint": "Aturan barisan yang dinyatakan menentukan hasil; daftar angka pendek sendiri tidak menjamin pola tunggal.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "a_{n+1}=3a_n-1",
+    "workedSolution": {
+      "known": "Didefinisikan a₁ = 2 dan aₙ₊₁ = 3aₙ − 1. ",
+      "asked": "Didefinisikan a₁ = 2 dan aₙ₊₁ = 3aₙ − 1. Berapa a₄?",
+      "formula": "a_{n+1}=3a_n-1",
+      "calculation": ["a₂ = 5 dan a₃ = 14.", "a₄ = 3 × 14 − 1 = 41."],
+      "result": "41",
+      "check": "Substitusi bertahap mengikuti definisi rekursif."
+    }
+  },
+  {
+    "id": "LPDP-QNT-026",
+    "number": 26,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q03",
+    "topic": "Deret dan Pola Bilangan",
+    "subtopic": "Barisan kuadrat",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis barisan kuadrat dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Barisan didefinisikan aₙ = n² + 2n untuk n positif. Berapa selisih a₆ − a₅?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13",
+        "numericValue": 13.0
+      },
+      {
+        "id": "B",
+        "text": "11",
+        "numericValue": 11.0
+      },
+      {
+        "id": "C",
+        "text": "12",
+        "numericValue": 12.0
+      },
+      {
+        "id": "D",
+        "text": "35",
+        "numericValue": 35.0
+      },
+      {
+        "id": "E",
+        "text": "48",
+        "numericValue": 48.0
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "a₆ = 36 + 12 = 48.\n\na₅ = 25 + 10 = 35.\n\nSelisih 48 − 35 = 13.",
+    "stepByStepSolution": [
+      "a₆ = 36 + 12 = 48.",
+      "a₅ = 25 + 10 = 35.",
+      "Selisih 48 − 35 = 13."
+    ],
+    "distractorExplanations": {
+      "B": "Ini selisih kuadrat saja, belum memasukkan 2n.",
+      "C": "Ini nilai 2n pada n = 6.",
+      "D": "Ini a₅, bukan selisih.",
+      "E": "Ini a₆, bukan selisih."
+    },
+    "quickTip": "Gunakan aturan yang dinyatakan; bedakan indeks suku dan jumlah operasi.",
+    "learningPoint": "Aturan barisan yang dinyatakan menentukan hasil; daftar angka pendek sendiri tidak menjamin pola tunggal.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "a_n=n^2+2n",
+    "workedSolution": {
+      "known": "Barisan didefinisikan aₙ = n² + 2n untuk n positif. ",
+      "asked": "Barisan didefinisikan aₙ = n² + 2n untuk n positif. Berapa selisih a₆ − a₅?",
+      "formula": "a_n=n^2+2n",
+      "calculation": ["a₆ = 36 + 12 = 48.", "a₅ = 25 + 10 = 35."],
+      "result": "13",
+      "check": "Selisih 48 − 35 = 13."
+    }
+  },
+  {
+    "id": "LPDP-QNT-027",
+    "number": 27,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q03",
+    "topic": "Deret dan Pola Bilangan",
+    "subtopic": "Rekursi dua suku",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis rekursi dua suku dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Didefinisikan b₁ = 1, b₂ = 3, dan setiap suku berikutnya jumlah dua suku sebelumnya. Berapa b₆?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11",
+        "numericValue": 11.0
+      },
+      {
+        "id": "B",
+        "text": "18",
+        "numericValue": 18.0
+      },
+      {
+        "id": "C",
+        "text": "14",
+        "numericValue": 14.0
+      },
+      {
+        "id": "D",
+        "text": "21",
+        "numericValue": 21.0
+      },
+      {
+        "id": "E",
+        "text": "29",
+        "numericValue": 29.0
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Urutan berikutnya b₃ = 4, b₄ = 7, b₅ = 11.\n\nMaka b₆ = 7 + 11 = 18.\n\nSetiap langkah memakai dua suku terakhir.",
+    "stepByStepSolution": [
+      "Urutan berikutnya b₃ = 4, b₄ = 7, b₅ = 11.",
+      "Maka b₆ = 7 + 11 = 18.",
+      "Setiap langkah memakai dua suku terakhir."
+    ],
+    "distractorExplanations": {
+      "A": "Ini suku kelima.",
+      "C": "Menggandakan suku keempat tanpa aturan.",
+      "D": "Ini mengikuti awal Fibonacci lain, bukan awal 1 dan 3.",
+      "E": "Ini suku ketujuh."
+    },
+    "quickTip": "Gunakan aturan yang dinyatakan; bedakan indeks suku dan jumlah operasi.",
+    "learningPoint": "Aturan barisan yang dinyatakan menentukan hasil; daftar angka pendek sendiri tidak menjamin pola tunggal.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "b_n=b_{n-1}+b_{n-2}",
+    "workedSolution": {
+      "known": "Didefinisikan b₁ = 1, b₂ = 3, dan setiap suku berikutnya jumlah dua suku sebelumnya. ",
+      "asked": "Didefinisikan b₁ = 1, b₂ = 3, dan setiap suku berikutnya jumlah dua suku sebelumnya. Berapa b₆?",
+      "formula": "b_n=b_{n-1}+b_{n-2}",
+      "calculation": [
+        "Urutan berikutnya b₃ = 4, b₄ = 7, b₅ = 11.",
+        "Maka b₆ = 7 + 11 = 18."
+      ],
+      "result": "18",
+      "check": "Setiap langkah memakai dua suku terakhir."
+    }
+  },
+  {
+    "id": "LPDP-QNT-028",
+    "number": 28,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q03",
+    "topic": "Deret dan Pola Bilangan",
+    "subtopic": "Rasio faktorial",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis rasio faktorial dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Barisan cₙ = n! untuk n mulai 1. Berapa rasio c₅/c₃?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2",
+        "numericValue": 2.0
+      },
+      {
+        "id": "B",
+        "text": "5/3",
+        "numericValue": 1.6666666666666667
+      },
+      {
+        "id": "C",
+        "text": "20",
+        "numericValue": 20.0
+      },
+      {
+        "id": "D",
+        "text": "60",
+        "numericValue": 60.0
+      },
+      {
+        "id": "E",
+        "text": "120",
+        "numericValue": 120.0
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "c₅/c₃ = 5!/3!.\n\nFaktor 3! saling menghapus, tersisa 5 × 4.\n\nHasilnya 20.",
+    "stepByStepSolution": [
+      "c₅/c₃ = 5!/3!.",
+      "Faktor 3! saling menghapus, tersisa 5 × 4.",
+      "Hasilnya 20."
+    ],
+    "distractorExplanations": {
+      "A": "Mengurangkan indeks bukan membagi faktorial.",
+      "B": "Membagi indeks langsung tidak sama dengan membagi faktorial.",
+      "D": "Ada faktor yang tidak dibatalkan dengan benar.",
+      "E": "Ini 5!, belum dibagi 3!."
+    },
+    "quickTip": "Gunakan aturan yang dinyatakan; bedakan indeks suku dan jumlah operasi.",
+    "learningPoint": "Aturan barisan yang dinyatakan menentukan hasil; daftar angka pendek sendiri tidak menjamin pola tunggal.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "\\frac{5!}{3!}=5\\times4",
+    "workedSolution": {
+      "known": "Barisan cₙ = n! untuk n mulai 1. ",
+      "asked": "Barisan cₙ = n! untuk n mulai 1. Berapa rasio c₅/c₃?",
+      "formula": "\\frac{5!}{3!}=5\\times4",
+      "calculation": [
+        "c₅/c₃ = 5!/3!.",
+        "Faktor 3! saling menghapus, tersisa 5 × 4."
+      ],
+      "result": "20",
+      "check": "Hasilnya 20."
+    }
+  },
+  {
+    "id": "LPDP-QNT-029",
+    "number": 29,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q03",
+    "topic": "Deret dan Pola Bilangan",
+    "subtopic": "Simetri barisan",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis simetri barisan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Tujuh suku pertama suatu barisan aritmetika memiliki suku tengah 18. Berapa jumlah ketujuh suku itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "108",
+        "numericValue": 108.0
+      },
+      {
+        "id": "B",
+        "text": "144",
+        "numericValue": 144.0
+      },
+      {
+        "id": "C",
+        "text": "36",
+        "numericValue": 36.0
+      },
+      {
+        "id": "D",
+        "text": "126",
+        "numericValue": 126.0
+      },
+      {
+        "id": "E",
+        "text": "63",
+        "numericValue": 63.0
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pasangan suku yang simetris terhadap tengah memiliki jumlah 36.\n\nRata-rata tujuh suku adalah 18.\n\nJumlah = 7 × 18 = 126, tanpa perlu mengetahui bedanya.",
+    "stepByStepSolution": [
+      "Pasangan suku yang simetris terhadap tengah memiliki jumlah 36.",
+      "Rata-rata tujuh suku adalah 18.",
+      "Jumlah = 7 × 18 = 126, tanpa perlu mengetahui bedanya."
+    ],
+    "distractorExplanations": {
+      "A": "Hanya mengalikan enam suku dengan rata-rata.",
+      "B": "Mengalikan delapan, bukan tujuh suku.",
+      "C": "Ini jumlah satu pasangan simetris.",
+      "E": "Membagi total yang benar dengan dua tanpa alasan."
+    },
+    "quickTip": "Gunakan aturan yang dinyatakan; bedakan indeks suku dan jumlah operasi.",
+    "learningPoint": "Aturan barisan yang dinyatakan menentukan hasil; daftar angka pendek sendiri tidak menjamin pola tunggal.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "S_7=7a_4",
+    "workedSolution": {
+      "known": "Tujuh suku pertama suatu barisan aritmetika memiliki suku tengah 18. ",
+      "asked": "Tujuh suku pertama suatu barisan aritmetika memiliki suku tengah 18. Berapa jumlah ketujuh suku itu?",
+      "formula": "S_7=7a_4",
+      "calculation": [
+        "Pasangan suku yang simetris terhadap tengah memiliki jumlah 36.",
+        "Rata-rata tujuh suku adalah 18."
+      ],
+      "result": "126",
+      "check": "Jumlah = 7 × 18 = 126, tanpa perlu mengetahui bedanya."
+    }
+  },
+  {
+    "id": "LPDP-QNT-030",
+    "number": 30,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q03",
+    "topic": "Deret dan Pola Bilangan",
+    "subtopic": "Operasi bergantian",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis operasi bergantian dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Barisan dimulai 5. Aturan berulangnya bergantian tambah 3, lalu kali 2, dimulai dengan tambah 3. Berapa suku keenam?",
+    "options": [
+      {
+        "id": "A",
+        "text": "38",
+        "numericValue": 38.0
+      },
+      {
+        "id": "B",
+        "text": "82",
+        "numericValue": 82.0
+      },
+      {
+        "id": "C",
+        "text": "35",
+        "numericValue": 35.0
+      },
+      {
+        "id": "D",
+        "text": "22",
+        "numericValue": 22.0
+      },
+      {
+        "id": "E",
+        "text": "41",
+        "numericValue": 41.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Urutannya 5, 8, 16, 19, 38, 41.\n\nOperasi kelima adalah tambah 3.\n\nMemisahkan nomor suku dan nomor operasi mencegah satu langkah berlebih.",
+    "stepByStepSolution": [
+      "Urutannya 5, 8, 16, 19, 38, 41.",
+      "Operasi kelima adalah tambah 3.",
+      "Memisahkan nomor suku dan nomor operasi mencegah satu langkah berlebih."
+    ],
+    "distractorExplanations": {
+      "A": "Ini suku kelima.",
+      "B": "Ini suku ketujuh.",
+      "C": "Tidak sesuai urutan tambah lalu kali.",
+      "D": "Menerapkan penambahan terus-menerus setelah 16."
+    },
+    "quickTip": "Gunakan aturan yang dinyatakan; bedakan indeks suku dan jumlah operasi.",
+    "learningPoint": "Aturan barisan yang dinyatakan menentukan hasil; daftar angka pendek sendiri tidak menjamin pola tunggal.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "5\\to8\\to16\\to19\\to38\\to41",
+    "workedSolution": {
+      "known": "Barisan dimulai 5. Aturan berulangnya bergantian tambah 3, lalu kali 2, dimulai dengan tambah 3. ",
+      "asked": "Barisan dimulai 5. Aturan berulangnya bergantian tambah 3, lalu kali 2, dimulai dengan tambah 3. Berapa suku keenam?",
+      "formula": "5\\to8\\to16\\to19\\to38\\to41",
+      "calculation": [
+        "Urutannya 5, 8, 16, 19, 38, 41.",
+        "Operasi kelima adalah tambah 3."
+      ],
+      "result": "41",
+      "check": "Memisahkan nomor suku dan nomor operasi mencegah satu langkah berlebih."
+    }
+  },
+  {
+    "id": "LPDP-QNT-031",
+    "number": 31,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q04",
+    "topic": "Kecukupan Data",
+    "subtopic": "Nilai tunggal",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis nilai tunggal dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Untuk bilangan bulat x dalam 1–9, tentukan nilai x. Pernyataan (1) x + 2 = 7. Pernyataan (2) x ganjil. Manakah kecukupan datanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pernyataan 1 saja cukup; pernyataan 2 saja tidak cukup."
+      },
+      {
+        "id": "B",
+        "text": "Pernyataan 2 saja cukup; pernyataan 1 saja tidak cukup."
+      },
+      {
+        "id": "C",
+        "text": "Gabungan cukup, tetapi masing-masing tidak cukup."
+      },
+      {
+        "id": "D",
+        "text": "Masing-masing pernyataan secara terpisah cukup."
+      },
+      {
+        "id": "E",
+        "text": "Gabungan kedua pernyataan tidak cukup."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pernyataan 1 memberi x = 5 secara unik.\n\nPernyataan 2 mengizinkan 1, 3, 5, 7, 9.\n\nHanya pernyataan 1 cukup.",
+    "stepByStepSolution": [
+      "Pernyataan 1 memberi x = 5 secara unik.",
+      "Pernyataan 2 mengizinkan 1, 3, 5, 7, 9.",
+      "Hanya pernyataan 1 cukup."
+    ],
+    "distractorExplanations": {
+      "B": "Pernyataan 2 masih memiliki lima nilai.",
+      "C": "Gabungan cukup, tetapi pernyataan 1 sendiri sudah cukup.",
+      "D": "Pernyataan 2 tidak menentukan nilai tunggal.",
+      "E": "Setidaknya pernyataan 1 sudah menentukan x."
+    },
+    "quickTip": "Uji pernyataan secara terpisah dahulu; yang perlu unik adalah jawaban pertanyaan, bukan selalu nilai variabel.",
+    "learningPoint": "Kecukupan data berarti jawaban pertanyaan pasti pada seluruh kemungkinan yang diizinkan.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "data_sufficiency",
+    "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+    "workedSolution": {
+      "known": "Untuk bilangan bulat x dalam 1–9, tentukan nilai x. Pernyataan (1) x + 2 = 7. Pernyataan (2) x ganjil. ",
+      "asked": "Kecukupan informasi untuk menjawab pertanyaan.",
+      "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+      "calculation": [
+        "Pernyataan 1 memberi x = 5 secara unik.",
+        "Pernyataan 2 mengizinkan 1, 3, 5, 7, 9."
+      ],
+      "result": "Pernyataan 1 saja cukup; pernyataan 2 saja tidak cukup.",
+      "check": "Hanya pernyataan 1 cukup."
+    }
+  },
+  {
+    "id": "LPDP-QNT-032",
+    "number": 32,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q04",
+    "topic": "Kecukupan Data",
+    "subtopic": "Paritas dari kelipatan",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis paritas dari kelipatan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Untuk bilangan bulat x dalam 1–10, apakah x genap? (1) x > 4. (2) x kelipatan 4. Manakah kecukupan datanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pernyataan 1 saja cukup; pernyataan 2 saja tidak cukup."
+      },
+      {
+        "id": "B",
+        "text": "Pernyataan 2 saja cukup; pernyataan 1 saja tidak cukup."
+      },
+      {
+        "id": "C",
+        "text": "Gabungan cukup, tetapi masing-masing tidak cukup."
+      },
+      {
+        "id": "D",
+        "text": "Masing-masing pernyataan secara terpisah cukup."
+      },
+      {
+        "id": "E",
+        "text": "Gabungan kedua pernyataan tidak cukup."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Pernyataan 1 mengizinkan bilangan genap maupun ganjil.\n\nPernyataan 2 mengizinkan 4 dan 8, keduanya genap.\n\nNilai x tidak harus tunggal untuk menjawab pertanyaan ya atau tidak secara pasti.",
+    "stepByStepSolution": [
+      "Pernyataan 1 mengizinkan bilangan genap maupun ganjil.",
+      "Pernyataan 2 mengizinkan 4 dan 8, keduanya genap.",
+      "Nilai x tidak harus tunggal untuk menjawab pertanyaan ya atau tidak secara pasti."
+    ],
+    "distractorExplanations": {
+      "A": "Pernyataan 1 tidak memastikan paritas.",
+      "C": "Pernyataan 2 sendiri sudah menjawab ya.",
+      "D": "Pernyataan 1 tidak cukup.",
+      "E": "Pernyataan 2 sudah cukup untuk pertanyaan paritas."
+    },
+    "quickTip": "Uji pernyataan secara terpisah dahulu; yang perlu unik adalah jawaban pertanyaan, bukan selalu nilai variabel.",
+    "learningPoint": "Kecukupan data berarti jawaban pertanyaan pasti pada seluruh kemungkinan yang diizinkan.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "data_sufficiency",
+    "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+    "workedSolution": {
+      "known": "Untuk bilangan bulat x dalam 1–10, apakah x genap? (1) x > 4. (2) x kelipatan 4. ",
+      "asked": "Kecukupan informasi untuk menjawab pertanyaan.",
+      "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+      "calculation": [
+        "Pernyataan 1 mengizinkan bilangan genap maupun ganjil.",
+        "Pernyataan 2 mengizinkan 4 dan 8, keduanya genap."
+      ],
+      "result": "Pernyataan 2 saja cukup; pernyataan 1 saja tidak cukup.",
+      "check": "Nilai x tidak harus tunggal untuk menjawab pertanyaan ya atau tidak secara pasti."
+    }
+  },
+  {
+    "id": "LPDP-QNT-033",
+    "number": 33,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q04",
+    "topic": "Kecukupan Data",
+    "subtopic": "Gabungan persamaan",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis gabungan persamaan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Untuk bilangan bulat x dan y dalam 1–10, tentukan x. (1) x + y = 12. (2) x − y = 2. Manakah kecukupan datanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pernyataan 1 saja cukup; pernyataan 2 saja tidak cukup."
+      },
+      {
+        "id": "B",
+        "text": "Pernyataan 2 saja cukup; pernyataan 1 saja tidak cukup."
+      },
+      {
+        "id": "C",
+        "text": "Gabungan cukup, tetapi masing-masing tidak cukup."
+      },
+      {
+        "id": "D",
+        "text": "Masing-masing pernyataan secara terpisah cukup."
+      },
+      {
+        "id": "E",
+        "text": "Gabungan kedua pernyataan tidak cukup."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Masing-masing persamaan masih mengizinkan beberapa pasangan.\n\nGabungkan keduanya: 2x = 14.\n\nNilai x = 7 menjadi unik hanya pada gabungan.",
+    "stepByStepSolution": [
+      "Masing-masing persamaan masih mengizinkan beberapa pasangan.",
+      "Gabungkan keduanya: 2x = 14.",
+      "Nilai x = 7 menjadi unik hanya pada gabungan."
+    ],
+    "distractorExplanations": {
+      "A": "Persamaan jumlah saja tidak menentukan x.",
+      "B": "Persamaan selisih saja tidak menentukan x.",
+      "D": "Masing-masing terpisah tidak cukup.",
+      "E": "Gabungan memberi solusi unik dalam domain."
+    },
+    "quickTip": "Uji pernyataan secara terpisah dahulu; yang perlu unik adalah jawaban pertanyaan, bukan selalu nilai variabel.",
+    "learningPoint": "Kecukupan data berarti jawaban pertanyaan pasti pada seluruh kemungkinan yang diizinkan.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "data_sufficiency",
+    "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+    "workedSolution": {
+      "known": "Untuk bilangan bulat x dan y dalam 1–10, tentukan x. (1) x + y = 12. (2) x − y = 2. ",
+      "asked": "Kecukupan informasi untuk menjawab pertanyaan.",
+      "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+      "calculation": [
+        "Masing-masing persamaan masih mengizinkan beberapa pasangan.",
+        "Gabungkan keduanya: 2x = 14."
+      ],
+      "result": "Gabungan cukup, tetapi masing-masing tidak cukup.",
+      "check": "Nilai x = 7 menjadi unik hanya pada gabungan."
+    }
+  },
+  {
+    "id": "LPDP-QNT-034",
+    "number": 34,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q04",
+    "topic": "Kecukupan Data",
+    "subtopic": "Domain positif",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis domain positif dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Untuk bilangan bulat positif x dalam 1–12, tentukan x. (1) x² = 36. (2) 2x = 12. Manakah kecukupan datanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pernyataan 1 saja cukup; pernyataan 2 saja tidak cukup."
+      },
+      {
+        "id": "B",
+        "text": "Pernyataan 2 saja cukup; pernyataan 1 saja tidak cukup."
+      },
+      {
+        "id": "C",
+        "text": "Gabungan cukup, tetapi masing-masing tidak cukup."
+      },
+      {
+        "id": "D",
+        "text": "Masing-masing pernyataan secara terpisah cukup."
+      },
+      {
+        "id": "E",
+        "text": "Gabungan kedua pernyataan tidak cukup."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Domain positif membuat pernyataan 1 menghasilkan hanya x = 6.\n\nPernyataan 2 juga memberi x = 6.\n\nMasing-masing sendiri cukup.",
+    "stepByStepSolution": [
+      "Domain positif membuat pernyataan 1 menghasilkan hanya x = 6.",
+      "Pernyataan 2 juga memberi x = 6.",
+      "Masing-masing sendiri cukup."
+    ],
+    "distractorExplanations": {
+      "A": "Pernyataan 2 juga cukup.",
+      "B": "Pernyataan 1 juga cukup karena domain positif.",
+      "C": "Tidak perlu menggabungkan dua pernyataan untuk memperoleh nilai.",
+      "E": "Kedua pernyataan terpisah pun sudah menentukan nilai."
+    },
+    "quickTip": "Uji pernyataan secara terpisah dahulu; yang perlu unik adalah jawaban pertanyaan, bukan selalu nilai variabel.",
+    "learningPoint": "Kecukupan data berarti jawaban pertanyaan pasti pada seluruh kemungkinan yang diizinkan.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "data_sufficiency",
+    "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+    "workedSolution": {
+      "known": "Untuk bilangan bulat positif x dalam 1–12, tentukan x. (1) x² = 36. (2) 2x = 12. ",
+      "asked": "Kecukupan informasi untuk menjawab pertanyaan.",
+      "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+      "calculation": [
+        "Domain positif membuat pernyataan 1 menghasilkan hanya x = 6.",
+        "Pernyataan 2 juga memberi x = 6."
+      ],
+      "result": "Masing-masing pernyataan secara terpisah cukup.",
+      "check": "Masing-masing sendiri cukup."
+    }
+  },
+  {
+    "id": "LPDP-QNT-035",
+    "number": 35,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q04",
+    "topic": "Kecukupan Data",
+    "subtopic": "Jumlah tidak unik",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis jumlah tidak unik dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Untuk bilangan bulat a dan b dalam 1–10, tentukan a + b. (1) a > b. (2) a + b genap. Manakah kecukupan datanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pernyataan 1 saja cukup; pernyataan 2 saja tidak cukup."
+      },
+      {
+        "id": "B",
+        "text": "Pernyataan 2 saja cukup; pernyataan 1 saja tidak cukup."
+      },
+      {
+        "id": "C",
+        "text": "Gabungan cukup, tetapi masing-masing tidak cukup."
+      },
+      {
+        "id": "D",
+        "text": "Masing-masing pernyataan secara terpisah cukup."
+      },
+      {
+        "id": "E",
+        "text": "Gabungan kedua pernyataan tidak cukup."
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Syarat urutan tidak menentukan jumlah.\n\nParitas jumlah juga tidak menentukan nilainya.\n\nGabungan masih mengizinkan jumlah 4 dari 3 dan 1, serta 6 dari 5 dan 1.",
+    "stepByStepSolution": [
+      "Syarat urutan tidak menentukan jumlah.",
+      "Paritas jumlah juga tidak menentukan nilainya.",
+      "Gabungan masih mengizinkan jumlah 4 dari 3 dan 1, serta 6 dari 5 dan 1."
+    ],
+    "distractorExplanations": {
+      "A": "Ada banyak pasangan dengan a lebih besar.",
+      "B": "Ada banyak jumlah genap yang mungkin.",
+      "C": "Gabungan tetap memberi beberapa jumlah.",
+      "D": "Tak satu pun pernyataan sendiri cukup."
+    },
+    "quickTip": "Uji pernyataan secara terpisah dahulu; yang perlu unik adalah jawaban pertanyaan, bukan selalu nilai variabel.",
+    "learningPoint": "Kecukupan data berarti jawaban pertanyaan pasti pada seluruh kemungkinan yang diizinkan.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "data_sufficiency",
+    "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+    "workedSolution": {
+      "known": "Untuk bilangan bulat a dan b dalam 1–10, tentukan a + b. (1) a > b. (2) a + b genap. ",
+      "asked": "Kecukupan informasi untuk menjawab pertanyaan.",
+      "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+      "calculation": [
+        "Syarat urutan tidak menentukan jumlah.",
+        "Paritas jumlah juga tidak menentukan nilainya."
+      ],
+      "result": "Gabungan kedua pernyataan tidak cukup.",
+      "check": "Gabungan masih mengizinkan jumlah 4 dari 3 dan 1, serta 6 dari 5 dan 1."
+    }
+  },
+  {
+    "id": "LPDP-QNT-036",
+    "number": 36,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q04",
+    "topic": "Kecukupan Data",
+    "subtopic": "Batas bilangan",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis batas bilangan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Untuk bilangan bulat x dalam 1–8, apakah x > 4? (1) x ≥ 6. (2) x genap. Manakah kecukupan datanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pernyataan 1 saja cukup; pernyataan 2 saja tidak cukup."
+      },
+      {
+        "id": "B",
+        "text": "Pernyataan 2 saja cukup; pernyataan 1 saja tidak cukup."
+      },
+      {
+        "id": "C",
+        "text": "Gabungan cukup, tetapi masing-masing tidak cukup."
+      },
+      {
+        "id": "D",
+        "text": "Masing-masing pernyataan secara terpisah cukup."
+      },
+      {
+        "id": "E",
+        "text": "Gabungan kedua pernyataan tidak cukup."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pernyataan 1 selalu menghasilkan jawaban ya.\n\nPernyataan 2 mengizinkan 2 dan 4 serta 6 dan 8.\n\nKarena jawaban dari pernyataan 2 bervariasi, hanya yang pertama cukup.",
+    "stepByStepSolution": [
+      "Pernyataan 1 selalu menghasilkan jawaban ya.",
+      "Pernyataan 2 mengizinkan 2 dan 4 serta 6 dan 8.",
+      "Karena jawaban dari pernyataan 2 bervariasi, hanya yang pertama cukup."
+    ],
+    "distractorExplanations": {
+      "B": "Paritas tidak menentukan sisi batas empat.",
+      "C": "Pernyataan 1 sendiri sudah cukup.",
+      "D": "Pernyataan 2 dapat memberi jawaban ya atau tidak.",
+      "E": "Pernyataan 1 memastikan jawaban pertanyaan."
+    },
+    "quickTip": "Uji pernyataan secara terpisah dahulu; yang perlu unik adalah jawaban pertanyaan, bukan selalu nilai variabel.",
+    "learningPoint": "Kecukupan data berarti jawaban pertanyaan pasti pada seluruh kemungkinan yang diizinkan.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "data_sufficiency",
+    "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+    "workedSolution": {
+      "known": "Untuk bilangan bulat x dalam 1–8, apakah x > 4? (1) x ≥ 6. (2) x genap. ",
+      "asked": "Kecukupan informasi untuk menjawab pertanyaan.",
+      "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+      "calculation": [
+        "Pernyataan 1 selalu menghasilkan jawaban ya.",
+        "Pernyataan 2 mengizinkan 2 dan 4 serta 6 dan 8."
+      ],
+      "result": "Pernyataan 1 saja cukup; pernyataan 2 saja tidak cukup.",
+      "check": "Karena jawaban dari pernyataan 2 bervariasi, hanya yang pertama cukup."
+    }
+  },
+  {
+    "id": "LPDP-QNT-037",
+    "number": 37,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q04",
+    "topic": "Kecukupan Data",
+    "subtopic": "Produk dan informasi",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis produk dan informasi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Untuk bilangan bulat a dan b dalam 1–5, tentukan ab. (1) a + b = 6. (2) a = 2 dan b = 4. Manakah kecukupan datanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pernyataan 1 saja cukup; pernyataan 2 saja tidak cukup."
+      },
+      {
+        "id": "B",
+        "text": "Pernyataan 2 saja cukup; pernyataan 1 saja tidak cukup."
+      },
+      {
+        "id": "C",
+        "text": "Gabungan cukup, tetapi masing-masing tidak cukup."
+      },
+      {
+        "id": "D",
+        "text": "Masing-masing pernyataan secara terpisah cukup."
+      },
+      {
+        "id": "E",
+        "text": "Gabungan kedua pernyataan tidak cukup."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Jumlah enam mengizinkan produk 5, 8, dan 9.\n\nNilai pasangan pada pernyataan 2 menetapkan produk 8.\n\nHanya pernyataan 2 memberi produk tunggal.",
+    "stepByStepSolution": [
+      "Jumlah enam mengizinkan produk 5, 8, dan 9.",
+      "Nilai pasangan pada pernyataan 2 menetapkan produk 8.",
+      "Hanya pernyataan 2 memberi produk tunggal."
+    ],
+    "distractorExplanations": {
+      "A": "Jumlah saja tidak memastikan produk.",
+      "C": "Tidak perlu gabungan karena pernyataan 2 sudah lengkap.",
+      "D": "Pernyataan 1 masih tidak cukup.",
+      "E": "Pernyataan 2 jelas menetapkan hasil."
+    },
+    "quickTip": "Uji pernyataan secara terpisah dahulu; yang perlu unik adalah jawaban pertanyaan, bukan selalu nilai variabel.",
+    "learningPoint": "Kecukupan data berarti jawaban pertanyaan pasti pada seluruh kemungkinan yang diizinkan.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "data_sufficiency",
+    "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+    "workedSolution": {
+      "known": "Untuk bilangan bulat a dan b dalam 1–5, tentukan ab. (1) a + b = 6. (2) a = 2 dan b = 4. ",
+      "asked": "Kecukupan informasi untuk menjawab pertanyaan.",
+      "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+      "calculation": [
+        "Jumlah enam mengizinkan produk 5, 8, dan 9.",
+        "Nilai pasangan pada pernyataan 2 menetapkan produk 8."
+      ],
+      "result": "Pernyataan 2 saja cukup; pernyataan 1 saja tidak cukup.",
+      "check": "Hanya pernyataan 2 memberi produk tunggal."
+    }
+  },
+  {
+    "id": "LPDP-QNT-038",
+    "number": 38,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q04",
+    "topic": "Kecukupan Data",
+    "subtopic": "Luas dari keliling dan rasio sisi",
+    "difficulty": "medium",
+    "learningObjective": "Menentukan kecukupan hubungan keliling dan rasio sisi untuk memperoleh luas persegi panjang.",
+    "type": "single_choice",
+    "question": "Sebuah persegi panjang memiliki panjang p dan lebar l, masing-masing bilangan bulat 1–10 cm. Tentukan luasnya. (1) Kelilingnya 18 cm. (2) p = 2l. Manakah kecukupan datanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pernyataan 1 saja cukup; pernyataan 2 saja tidak cukup."
+      },
+      {
+        "id": "B",
+        "text": "Pernyataan 2 saja cukup; pernyataan 1 saja tidak cukup."
+      },
+      {
+        "id": "C",
+        "text": "Gabungan cukup, tetapi masing-masing tidak cukup."
+      },
+      {
+        "id": "D",
+        "text": "Masing-masing pernyataan secara terpisah cukup."
+      },
+      {
+        "id": "E",
+        "text": "Gabungan kedua pernyataan tidak cukup."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Keliling 18 memberi p+l=9, tetapi beberapa luas masih mungkin.\n\nRasio p=2l saja juga tidak menentukan skala persegi panjang.\n\nGabungan memberi l=3 dan p=6; luas 18 cm² menjadi unik.",
+    "stepByStepSolution": [
+      "Keliling 18 memberi p+l=9, tetapi beberapa luas masih mungkin.",
+      "Rasio p=2l saja juga tidak menentukan skala persegi panjang.",
+      "Gabungan memberi l=3 dan p=6; luas 18 cm² menjadi unik."
+    ],
+    "distractorExplanations": {
+      "A": "Keliling saja masih mengizinkan beberapa pasangan sisi dan luas.",
+      "B": "Rasio sisi saja belum menentukan skala dan luas.",
+      "D": "Masing-masing pernyataan sendiri masih mengizinkan beberapa luas.",
+      "E": "Gabungan menentukan sisi 6 dan 3 sehingga luas tunggal."
+    },
+    "quickTip": "Uji pernyataan secara terpisah dahulu; yang perlu unik adalah jawaban pertanyaan, bukan selalu nilai variabel.",
+    "learningPoint": "Kecukupan data berarti jawaban pertanyaan pasti pada seluruh kemungkinan yang diizinkan.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "data_sufficiency",
+    "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+    "workedSolution": {
+      "known": "p dan l bilangan bulat 1–10 cm; keliling 18 cm atau p=2l sebagai dua pernyataan.",
+      "asked": "Apakah luas persegi panjang dapat ditentukan?",
+      "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+      "calculation": [
+        "Keliling 18 memberi p+l=9, tetapi beberapa luas masih mungkin.",
+        "Rasio p=2l saja juga tidak menentukan skala persegi panjang."
+      ],
+      "result": "Gabungan cukup, tetapi masing-masing tidak cukup.",
+      "check": "Gabungan memberi l=3 dan p=6; luas 18 cm² menjadi unik."
+    }
+  },
+  {
+    "id": "LPDP-QNT-039",
+    "number": 39,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q04",
+    "topic": "Kecukupan Data",
+    "subtopic": "Kepastian predikat dari akar dan faktor",
+    "difficulty": "hard",
+    "learningObjective": "Menguji kepastian paritas tanpa menuntut nilai variabel tunggal, menggunakan akar persamaan dan faktor bilangan.",
+    "type": "single_choice",
+    "question": "Untuk bilangan bulat n dalam 1–10, apakah n ganjil? (1) n(n − 8) = −15. (2) n > 1 dan n merupakan faktor positif 35. Manakah kecukupan datanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pernyataan 1 saja cukup; pernyataan 2 saja tidak cukup."
+      },
+      {
+        "id": "B",
+        "text": "Pernyataan 2 saja cukup; pernyataan 1 saja tidak cukup."
+      },
+      {
+        "id": "C",
+        "text": "Gabungan cukup, tetapi masing-masing tidak cukup."
+      },
+      {
+        "id": "D",
+        "text": "Masing-masing pernyataan secara terpisah cukup."
+      },
+      {
+        "id": "E",
+        "text": "Gabungan kedua pernyataan tidak cukup."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pernyataan 1 memberi n²−8n+15=0, sehingga n=3 atau n=5; keduanya ganjil.\n\nDalam domain 1–10 dan n>1, faktor positif 35 adalah 5 dan 7; keduanya ganjil.\n\nMasing-masing pernyataan sendiri menjawab ya, walaupun tidak menentukan n tunggal.",
+    "stepByStepSolution": [
+      "Pernyataan 1 memberi n²−8n+15=0, sehingga n=3 atau n=5; keduanya ganjil.",
+      "Dalam domain 1–10 dan n>1, faktor positif 35 adalah 5 dan 7; keduanya ganjil.",
+      "Masing-masing pernyataan sendiri menjawab ya, walaupun tidak menentukan n tunggal."
+    ],
+    "distractorExplanations": {
+      "A": "Pernyataan 2 juga cukup karena seluruh faktor yang diizinkan ganjil.",
+      "B": "Pernyataan 1 juga cukup karena kedua akarnya ganjil.",
+      "C": "Irisan memang menentukan n=5, tetapi setiap pernyataan sendiri sudah menjawab paritas.",
+      "E": "Kemungkinan n tidak tunggal tidak berarti jawaban paritas tidak pasti."
+    },
+    "quickTip": "Uji pernyataan secara terpisah dahulu; yang perlu unik adalah jawaban pertanyaan, bukan selalu nilai variabel.",
+    "learningPoint": "Kecukupan data berarti jawaban pertanyaan pasti pada seluruh kemungkinan yang diizinkan.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "data_sufficiency",
+    "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+    "workedSolution": {
+      "known": "Untuk bilangan bulat n dalam 1–10, apakah n ganjil? (1) n(n − 8) = −15. (2) n > 1 dan n merupakan faktor positif 35. Manakah kecukupan datanya?",
+      "asked": "Kecukupan informasi untuk menjawab pertanyaan.",
+      "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+      "calculation": [
+        "Pernyataan 1 memberi n²−8n+15=0, sehingga n=3 atau n=5; keduanya ganjil.",
+        "Dalam domain 1–10 dan n>1, faktor positif 35 adalah 5 dan 7; keduanya ganjil."
+      ],
+      "result": "Masing-masing pernyataan secara terpisah cukup.",
+      "check": "Masing-masing pernyataan sendiri menjawab ya, walaupun tidak menentukan n tunggal."
+    }
+  },
+  {
+    "id": "LPDP-QNT-040",
+    "number": 40,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q04",
+    "topic": "Kecukupan Data",
+    "subtopic": "Rasio tidak unik",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis rasio tidak unik dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Untuk bilangan bulat p dan q dalam 1–9, tentukan p/q. (1) p > q. (2) p + q = 10. Manakah kecukupan datanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pernyataan 1 saja cukup; pernyataan 2 saja tidak cukup."
+      },
+      {
+        "id": "B",
+        "text": "Pernyataan 2 saja cukup; pernyataan 1 saja tidak cukup."
+      },
+      {
+        "id": "C",
+        "text": "Gabungan cukup, tetapi masing-masing tidak cukup."
+      },
+      {
+        "id": "D",
+        "text": "Masing-masing pernyataan secara terpisah cukup."
+      },
+      {
+        "id": "E",
+        "text": "Gabungan kedua pernyataan tidak cukup."
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Urutan saja tidak menentukan rasio.\n\nJumlah sepuluh juga tidak menentukan rasio.\n\nGabungan masih mengizinkan 9/1 dan 8/2, sehingga tidak cukup.",
+    "stepByStepSolution": [
+      "Urutan saja tidak menentukan rasio.",
+      "Jumlah sepuluh juga tidak menentukan rasio.",
+      "Gabungan masih mengizinkan 9/1 dan 8/2, sehingga tidak cukup."
+    ],
+    "distractorExplanations": {
+      "A": "Ada beberapa rasio dengan p lebih besar.",
+      "B": "Pasangan berjumlah sepuluh memiliki beragam rasio.",
+      "C": "Dua contoh gabungan sudah membantah keunikan.",
+      "D": "Masing-masing pernyataan pun tidak cukup."
+    },
+    "quickTip": "Uji pernyataan secara terpisah dahulu; yang perlu unik adalah jawaban pertanyaan, bukan selalu nilai variabel.",
+    "learningPoint": "Kecukupan data berarti jawaban pertanyaan pasti pada seluruh kemungkinan yang diizinkan.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "data_sufficiency",
+    "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+    "workedSolution": {
+      "known": "Untuk bilangan bulat p dan q dalam 1–9, tentukan p/q. (1) p > q. (2) p + q = 10. ",
+      "asked": "Kecukupan informasi untuk menjawab pertanyaan.",
+      "formula": "\\#\\{\\text{jawaban yang mungkin}\\}=1",
+      "calculation": [
+        "Urutan saja tidak menentukan rasio.",
+        "Jumlah sepuluh juga tidak menentukan rasio."
+      ],
+      "result": "Gabungan kedua pernyataan tidak cukup.",
+      "check": "Gabungan masih mengizinkan 9/1 dan 8/2, sehingga tidak cukup."
+    }
+  },
+  {
+    "id": "LPDP-QNT-041",
+    "number": 41,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q05",
+    "topic": "Interpretasi Data dan Statistika",
+    "subtopic": "Perubahan absolut",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis perubahan absolut dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan stimulus LPDP-QDATA-01. Berapa kenaikan produksi dari Januari ke Maret dalam unit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30",
+        "numericValue": 30.0
+      },
+      {
+        "id": "B",
+        "text": "25",
+        "numericValue": 25.0
+      },
+      {
+        "id": "C",
+        "text": "150",
+        "numericValue": 150.0
+      },
+      {
+        "id": "D",
+        "text": "270",
+        "numericValue": 270.0
+      },
+      {
+        "id": "E",
+        "text": "−30",
+        "numericValue": -30.0
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Produksi Januari 120 dan Maret 150.\n\nKenaikan absolut = 150 − 120 = 30 unit.\n\nJangan menukar kenaikan absolut dengan persentase.",
+    "stepByStepSolution": [
+      "Produksi Januari 120 dan Maret 150.",
+      "Kenaikan absolut = 150 − 120 = 30 unit.",
+      "Jangan menukar kenaikan absolut dengan persentase."
+    ],
+    "distractorExplanations": {
+      "B": "Ini persentase kenaikan, bukan unit.",
+      "C": "Ini nilai akhir, bukan kenaikan.",
+      "D": "Ini jumlah dua nilai.",
+      "E": "Ini perubahan dengan arah terbalik."
+    },
+    "quickTip": "Tulis pembilang, penyebut, dan satuan; jangan merata-ratakan rasio tanpa bobot.",
+    "learningPoint": "Statistika dan peluang harus mengikuti unit pengamatan serta pembobotan yang sesuai.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "150-120",
+    "workedSolution": {
+      "known": "Gunakan stimulus LPDP-QDATA-01. ",
+      "asked": "Gunakan stimulus LPDP-QDATA-01. Berapa kenaikan produksi dari Januari ke Maret dalam unit?",
+      "formula": "150-120",
+      "calculation": [
+        "Produksi Januari 120 dan Maret 150.",
+        "Kenaikan absolut = 150 − 120 = 30 unit."
+      ],
+      "result": "30",
+      "check": "Jangan menukar kenaikan absolut dengan persentase."
+    },
+    "stimulusId": "LPDP-QDATA-01"
+  },
+  {
+    "id": "LPDP-QNT-042",
+    "number": 42,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q05",
+    "topic": "Interpretasi Data dan Statistika",
+    "subtopic": "Median",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis median dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan stimulus LPDP-QDATA-02. Berapa median jumlah kunjungan harian selama lima hari?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15",
+        "numericValue": 15.0
+      },
+      {
+        "id": "B",
+        "text": "18",
+        "numericValue": 18.0
+      },
+      {
+        "id": "C",
+        "text": "20",
+        "numericValue": 20.0
+      },
+      {
+        "id": "D",
+        "text": "25",
+        "numericValue": 25.0
+      },
+      {
+        "id": "E",
+        "text": "12",
+        "numericValue": 12.0
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Urutkan 12, 18, 15, 25, 20 menjadi 12, 15, 18, 20, 25.\n\nNilai ketiga adalah median.\n\nDefinisi median berbeda dari definisi rata-rata; hasil keduanya kebetulan sama pada data ini.",
+    "stepByStepSolution": [
+      "Urutkan 12, 18, 15, 25, 20 menjadi 12, 15, 18, 20, 25.",
+      "Nilai ketiga adalah median.",
+      "Definisi median berbeda dari definisi rata-rata; hasil keduanya kebetulan sama pada data ini."
+    ],
+    "distractorExplanations": {
+      "A": "Ini nilai kedua setelah diurutkan.",
+      "C": "Ini nilai keempat setelah diurutkan.",
+      "D": "Ini nilai maksimum.",
+      "E": "Ini nilai minimum."
+    },
+    "quickTip": "Tulis pembilang, penyebut, dan satuan; jangan merata-ratakan rasio tanpa bobot.",
+    "learningPoint": "Statistika dan peluang harus mengikuti unit pengamatan serta pembobotan yang sesuai.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "\\operatorname{median}(12,18,15,25,20)",
+    "workedSolution": {
+      "known": "Gunakan stimulus LPDP-QDATA-02. ",
+      "asked": "Gunakan stimulus LPDP-QDATA-02. Berapa median jumlah kunjungan harian selama lima hari?",
+      "formula": "\\operatorname{median}(12,18,15,25,20)",
+      "calculation": [
+        "Urutkan 12, 18, 15, 25, 20 menjadi 12, 15, 18, 20, 25.",
+        "Nilai ketiga adalah median."
+      ],
+      "result": "18",
+      "check": "Definisi median berbeda dari definisi rata-rata; hasil keduanya kebetulan sama pada data ini."
+    },
+    "stimulusId": "LPDP-QDATA-02"
+  },
+  {
+    "id": "LPDP-QNT-043",
+    "number": 43,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q05",
+    "topic": "Interpretasi Data dan Statistika",
+    "subtopic": "Rerata tertimbang",
+    "difficulty": "easy",
+    "learningObjective": "Menganalisis rerata tertimbang dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan stimulus LPDP-QDATA-03. Berapa rata-rata nilai seluruh peserta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "75",
+        "numericValue": 75.0
+      },
+      {
+        "id": "B",
+        "text": "70",
+        "numericValue": 70.0
+      },
+      {
+        "id": "C",
+        "text": "74",
+        "numericValue": 74.0
+      },
+      {
+        "id": "D",
+        "text": "80",
+        "numericValue": 80.0
+      },
+      {
+        "id": "E",
+        "text": "76",
+        "numericValue": 76.0
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Jumlah tertimbang = 60×2 + 70×3 + 80×4 + 90×1 = 740.\n\nTotal peserta 10.\n\nRata-rata 740/10 = 74.",
+    "stepByStepSolution": [
+      "Jumlah tertimbang = 60×2 + 70×3 + 80×4 + 90×1 = 740.",
+      "Total peserta 10.",
+      "Rata-rata 740/10 = 74."
+    ],
+    "distractorExplanations": {
+      "A": "Ini rata-rata empat nilai tanpa memperhitungkan frekuensi.",
+      "B": "Ini salah satu nilai, bukan hasil tertimbang.",
+      "D": "Ini modus karena frekuensinya tertinggi.",
+      "E": "Tidak sesuai jumlah tertimbang 740."
+    },
+    "quickTip": "Tulis pembilang, penyebut, dan satuan; jangan merata-ratakan rasio tanpa bobot.",
+    "learningPoint": "Statistika dan peluang harus mengikuti unit pengamatan serta pembobotan yang sesuai.",
+    "estimatedTimeSeconds": 60,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "\\bar x=\\frac{\\sum x_if_i}{\\sum f_i}",
+    "workedSolution": {
+      "known": "Gunakan stimulus LPDP-QDATA-03. ",
+      "asked": "Gunakan stimulus LPDP-QDATA-03. Berapa rata-rata nilai seluruh peserta?",
+      "formula": "\\bar x=\\frac{\\sum x_if_i}{\\sum f_i}",
+      "calculation": [
+        "Jumlah tertimbang = 60×2 + 70×3 + 80×4 + 90×1 = 740.",
+        "Total peserta 10."
+      ],
+      "result": "74",
+      "check": "Rata-rata 740/10 = 74."
+    },
+    "stimulusId": "LPDP-QDATA-03"
+  },
+  {
+    "id": "LPDP-QNT-044",
+    "number": 44,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q05",
+    "topic": "Interpretasi Data dan Statistika",
+    "subtopic": "Komplemen peluang",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis komplemen peluang dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan stimulus LPDP-QDATA-04. Jika satu bola dipilih acak dengan peluang sama tiap bola, berapa peluang bola bukan merah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2/5",
+        "numericValue": 0.4
+      },
+      {
+        "id": "B",
+        "text": "1/5",
+        "numericValue": 0.2
+      },
+      {
+        "id": "C",
+        "text": "4/5",
+        "numericValue": 0.8
+      },
+      {
+        "id": "D",
+        "text": "3/5",
+        "numericValue": 0.6
+      },
+      {
+        "id": "E",
+        "text": "1/2",
+        "numericValue": 0.5
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Bola bukan merah adalah 4 biru dan 2 hijau, berjumlah 6.\n\nTotal bola 10.\n\nPeluang = 6/10 = 3/5.",
+    "stepByStepSolution": [
+      "Bola bukan merah adalah 4 biru dan 2 hijau, berjumlah 6.",
+      "Total bola 10.",
+      "Peluang = 6/10 = 3/5."
+    ],
+    "distractorExplanations": {
+      "A": "Ini peluang bola merah.",
+      "B": "Ini peluang hijau saja.",
+      "C": "Menghitung dua kelompok secara tidak tepat.",
+      "E": "Tidak sesuai jumlah 6 dari 10."
+    },
+    "quickTip": "Tulis pembilang, penyebut, dan satuan; jangan merata-ratakan rasio tanpa bobot.",
+    "learningPoint": "Statistika dan peluang harus mengikuti unit pengamatan serta pembobotan yang sesuai.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "P(\\text{bukan merah})=\\frac{4+2}{10}",
+    "workedSolution": {
+      "known": "Gunakan stimulus LPDP-QDATA-04. Jika satu bola dipilih acak dengan peluang sama tiap bola, berapa peluang bola bukan merah?",
+      "asked": "Gunakan stimulus LPDP-QDATA-04. Jika satu bola dipilih acak dengan peluang sama tiap bola, berapa peluang bola bukan merah?",
+      "formula": "P(\\text{bukan merah})=\\frac{4+2}{10}",
+      "calculation": [
+        "Bola bukan merah adalah 4 biru dan 2 hijau, berjumlah 6.",
+        "Total bola 10."
+      ],
+      "result": "3/5",
+      "check": "Peluang = 6/10 = 3/5."
+    },
+    "stimulusId": "LPDP-QDATA-04"
+  },
+  {
+    "id": "LPDP-QNT-045",
+    "number": 45,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q05",
+    "topic": "Interpretasi Data dan Statistika",
+    "subtopic": "Pertumbuhan persen",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis pertumbuhan persen dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan stimulus LPDP-QDATA-05. Berapa kenaikan persentase pelanggan dari 2024 ke 2025?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20",
+        "numericValue": 20.0
+      },
+      {
+        "id": "B",
+        "text": "80",
+        "numericValue": 80.0
+      },
+      {
+        "id": "C",
+        "text": "100",
+        "numericValue": 100.0
+      },
+      {
+        "id": "D",
+        "text": "125",
+        "numericValue": 125.0
+      },
+      {
+        "id": "E",
+        "text": "25",
+        "numericValue": 25.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Jumlah naik dari 80 menjadi 100.\n\nKenaikan 20 dibagi basis 80 lalu dikali 100% menghasilkan 25%.\n\nPersentase pertumbuhan memakai nilai awal.",
+    "stepByStepSolution": [
+      "Jumlah naik dari 80 menjadi 100.",
+      "Kenaikan 20 dibagi basis 80 lalu dikali 100% menghasilkan 25%.",
+      "Persentase pertumbuhan memakai nilai awal."
+    ],
+    "distractorExplanations": {
+      "A": "Ini kenaikan absolut, bukan persen dengan basis awal.",
+      "B": "Ini nilai awal.",
+      "C": "Ini nilai akhir.",
+      "D": "Ini persentase nilai akhir terhadap awal, bukan kenaikannya."
+    },
+    "quickTip": "Tulis pembilang, penyebut, dan satuan; jangan merata-ratakan rasio tanpa bobot.",
+    "learningPoint": "Statistika dan peluang harus mengikuti unit pengamatan serta pembobotan yang sesuai.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "\\frac{100-80}{80}\\times100\\%",
+    "workedSolution": {
+      "known": "Gunakan stimulus LPDP-QDATA-05. ",
+      "asked": "Gunakan stimulus LPDP-QDATA-05. Berapa kenaikan persentase pelanggan dari 2024 ke 2025?",
+      "formula": "\\frac{100-80}{80}\\times100\\%",
+      "calculation": [
+        "Jumlah naik dari 80 menjadi 100.",
+        "Kenaikan 20 dibagi basis 80 lalu dikali 100% menghasilkan 25%."
+      ],
+      "result": "25",
+      "check": "Persentase pertumbuhan memakai nilai awal."
+    },
+    "stimulusId": "LPDP-QDATA-05"
+  },
+  {
+    "id": "LPDP-QNT-046",
+    "number": 46,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q05",
+    "topic": "Interpretasi Data dan Statistika",
+    "subtopic": "Rerata dua kelompok",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis rerata dua kelompok dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan stimulus LPDP-QDATA-06. Berapa rata-rata gabungan durasi layanan seluruh pelanggan dalam menit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "14",
+        "numericValue": 14.0
+      },
+      {
+        "id": "B",
+        "text": "13",
+        "numericValue": 13.0
+      },
+      {
+        "id": "C",
+        "text": "10",
+        "numericValue": 10.0
+      },
+      {
+        "id": "D",
+        "text": "18",
+        "numericValue": 18.0
+      },
+      {
+        "id": "E",
+        "text": "16",
+        "numericValue": 16.0
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kelompok pertama menyumbang 20 × 8 = 160 menit.\n\nKelompok kedua 30 × 18 = 540 menit.\n\nTotal 700 dibagi 50 pelanggan menghasilkan 14 menit.",
+    "stepByStepSolution": [
+      "Kelompok pertama menyumbang 20 × 8 = 160 menit.",
+      "Kelompok kedua 30 × 18 = 540 menit.",
+      "Total 700 dibagi 50 pelanggan menghasilkan 14 menit."
+    ],
+    "distractorExplanations": {
+      "B": "Ini rata-rata dua rerata tanpa pembobotan.",
+      "C": "Tidak sesuai total waktu tertimbang.",
+      "D": "Ini rerata kelompok kedua saja.",
+      "E": "Melebihkan bobot kelompok kedua dari jumlah pelanggannya."
+    },
+    "quickTip": "Tulis pembilang, penyebut, dan satuan; jangan merata-ratakan rasio tanpa bobot.",
+    "learningPoint": "Statistika dan peluang harus mengikuti unit pengamatan serta pembobotan yang sesuai.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "\\frac{20(8)+30(18)}{50}",
+    "workedSolution": {
+      "known": "Gunakan stimulus LPDP-QDATA-06. ",
+      "asked": "Gunakan stimulus LPDP-QDATA-06. Berapa rata-rata gabungan durasi layanan seluruh pelanggan dalam menit?",
+      "formula": "\\frac{20(8)+30(18)}{50}",
+      "calculation": [
+        "Kelompok pertama menyumbang 20 × 8 = 160 menit.",
+        "Kelompok kedua 30 × 18 = 540 menit."
+      ],
+      "result": "14",
+      "check": "Total 700 dibagi 50 pelanggan menghasilkan 14 menit."
+    },
+    "stimulusId": "LPDP-QDATA-06"
+  },
+  {
+    "id": "LPDP-QNT-047",
+    "number": 47,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q05",
+    "topic": "Interpretasi Data dan Statistika",
+    "subtopic": "Maksimum grafik",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis maksimum grafik dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan stimulus LPDP-QDATA-07. Pada bulan apa nilai penjualan terbesar diperoleh?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Januari"
+      },
+      {
+        "id": "B",
+        "text": "Maret"
+      },
+      {
+        "id": "C",
+        "text": "Februari"
+      },
+      {
+        "id": "D",
+        "text": "April"
+      },
+      {
+        "id": "E",
+        "text": "Januari dan April"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bandingkan seluruh nilai: 42, 39, 51, 48.\n\nNilai tertinggi ialah 51 pada Maret.\n\nPenentuan maksimum tidak memerlukan penjumlahan seluruh bulan.",
+    "stepByStepSolution": [
+      "Bandingkan seluruh nilai: 42, 39, 51, 48.",
+      "Nilai tertinggi ialah 51 pada Maret.",
+      "Penentuan maksimum tidak memerlukan penjumlahan seluruh bulan."
+    ],
+    "distractorExplanations": {
+      "A": "Nilainya 42, di bawah 51.",
+      "C": "Nilainya 39, terendah dalam tabel.",
+      "D": "Nilainya 48, masih di bawah Maret.",
+      "E": "Kedua nilai tidak sama dan bukan maksimum."
+    },
+    "quickTip": "Tulis pembilang, penyebut, dan satuan; jangan merata-ratakan rasio tanpa bobot.",
+    "learningPoint": "Statistika dan peluang harus mengikuti unit pengamatan serta pembobotan yang sesuai.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "\\max(42,39,51,48)",
+    "workedSolution": {
+      "known": "Gunakan stimulus LPDP-QDATA-07. Pada bulan apa nilai penjualan terbesar diperoleh?",
+      "asked": "Gunakan stimulus LPDP-QDATA-07. Pada bulan apa nilai penjualan terbesar diperoleh?",
+      "formula": "\\max(42,39,51,48)",
+      "calculation": [
+        "Bandingkan seluruh nilai: 42, 39, 51, 48.",
+        "Nilai tertinggi ialah 51 pada Maret."
+      ],
+      "result": "Maret",
+      "check": "Penentuan maksimum tidak memerlukan penjumlahan seluruh bulan."
+    },
+    "stimulusId": "LPDP-QDATA-07"
+  },
+  {
+    "id": "LPDP-QNT-048",
+    "number": 48,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q05",
+    "topic": "Interpretasi Data dan Statistika",
+    "subtopic": "Rentang data",
+    "difficulty": "medium",
+    "learningObjective": "Menganalisis rentang data dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan stimulus LPDP-QDATA-08. Berapa rentang data jumlah buku yang dipinjam?",
+    "options": [
+      {
+        "id": "A",
+        "text": "19",
+        "numericValue": 19.0
+      },
+      {
+        "id": "B",
+        "text": "8",
+        "numericValue": 8.0
+      },
+      {
+        "id": "C",
+        "text": "11",
+        "numericValue": 11.0
+      },
+      {
+        "id": "D",
+        "text": "27",
+        "numericValue": 27.0
+      },
+      {
+        "id": "E",
+        "text": "12",
+        "numericValue": 12.0
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Nilai terbesar 19 dan terkecil 8.\n\nRentang = 19 − 8 = 11.\n\nRentang mengukur selisih ekstrem, bukan rata-rata.",
+    "stepByStepSolution": [
+      "Nilai terbesar 19 dan terkecil 8.",
+      "Rentang = 19 − 8 = 11.",
+      "Rentang mengukur selisih ekstrem, bukan rata-rata."
+    ],
+    "distractorExplanations": {
+      "A": "Ini nilai maksimum.",
+      "B": "Ini nilai minimum.",
+      "D": "Ini jumlah maksimum dan minimum.",
+      "E": "Ini salah satu data, bukan rentang."
+    },
+    "quickTip": "Tulis pembilang, penyebut, dan satuan; jangan merata-ratakan rasio tanpa bobot.",
+    "learningPoint": "Statistika dan peluang harus mengikuti unit pengamatan serta pembobotan yang sesuai.",
+    "estimatedTimeSeconds": 100,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "19-8",
+    "workedSolution": {
+      "known": "Gunakan stimulus LPDP-QDATA-08. ",
+      "asked": "Gunakan stimulus LPDP-QDATA-08. Berapa rentang data jumlah buku yang dipinjam?",
+      "formula": "19-8",
+      "calculation": [
+        "Nilai terbesar 19 dan terkecil 8.",
+        "Rentang = 19 − 8 = 11."
+      ],
+      "result": "11",
+      "check": "Rentang mengukur selisih ekstrem, bukan rata-rata."
+    },
+    "stimulusId": "LPDP-QDATA-08"
+  },
+  {
+    "id": "LPDP-QNT-049",
+    "number": 49,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q05",
+    "topic": "Interpretasi Data dan Statistika",
+    "subtopic": "Persen distribusi",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis persen distribusi dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan stimulus LPDP-QDATA-09. Berapa persen peserta memilih moda B dari seluruh peserta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "18",
+        "numericValue": 18.0
+      },
+      {
+        "id": "B",
+        "text": "20",
+        "numericValue": 20.0
+      },
+      {
+        "id": "C",
+        "text": "33,33",
+        "numericValue": 33.33
+      },
+      {
+        "id": "D",
+        "text": "30",
+        "numericValue": 30.0
+      },
+      {
+        "id": "E",
+        "text": "40",
+        "numericValue": 40.0
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Total pemilih = 12 + 18 + 20 + 10 = 60.\n\nPemilih B berjumlah 18.\n\nProporsinya 18/60 × 100% = 30%.",
+    "stepByStepSolution": [
+      "Total pemilih = 12 + 18 + 20 + 10 = 60.",
+      "Pemilih B berjumlah 18.",
+      "Proporsinya 18/60 × 100% = 30%."
+    ],
+    "distractorExplanations": {
+      "A": "Ini jumlah peserta B, bukan persentasenya.",
+      "B": "Ini persentase moda A, bukan B.",
+      "C": "Mendekati persentase moda C.",
+      "E": "Tidak sesuai rasio 18 dari 60."
+    },
+    "quickTip": "Tulis pembilang, penyebut, dan satuan; jangan merata-ratakan rasio tanpa bobot.",
+    "learningPoint": "Statistika dan peluang harus mengikuti unit pengamatan serta pembobotan yang sesuai.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "\\frac{18}{60}\\times100\\%",
+    "workedSolution": {
+      "known": "Gunakan stimulus LPDP-QDATA-09. ",
+      "asked": "Gunakan stimulus LPDP-QDATA-09. Berapa persen peserta memilih moda B dari seluruh peserta?",
+      "formula": "\\frac{18}{60}\\times100\\%",
+      "calculation": [
+        "Total pemilih = 12 + 18 + 20 + 10 = 60.",
+        "Pemilih B berjumlah 18."
+      ],
+      "result": "30",
+      "check": "Proporsinya 18/60 × 100% = 30%."
+    },
+    "stimulusId": "LPDP-QDATA-09"
+  },
+  {
+    "id": "LPDP-QNT-050",
+    "number": 50,
+    "program": "lpdp",
+    "category": "quantitative",
+    "taxonomyCode": "Q05",
+    "topic": "Interpretasi Data dan Statistika",
+    "subtopic": "Peluang gabungan",
+    "difficulty": "hard",
+    "learningObjective": "Menganalisis peluang gabungan dan membuktikan pilihan dengan informasi yang diberikan.",
+    "type": "single_choice",
+    "question": "Gunakan stimulus LPDP-QDATA-10. Jika satu produk diambil dari seluruh produksi dengan peluang sama per produk, berapa persen peluang produk cacat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4",
+        "numericValue": 4.0
+      },
+      {
+        "id": "B",
+        "text": "6,67",
+        "numericValue": 6.67
+      },
+      {
+        "id": "C",
+        "text": "12",
+        "numericValue": 12.0
+      },
+      {
+        "id": "D",
+        "text": "5,33",
+        "numericValue": 5.33
+      },
+      {
+        "id": "E",
+        "text": "6",
+        "numericValue": 6.0
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Total cacat 2 + 10 = 12 dari total produksi 50 + 150 = 200.\n\nPeluang 12/200 = 0,06.\n\nRata-rata persentase tiap pabrik tanpa bobot tidak sesuai pengambilan dari gabungan produk.",
+    "stepByStepSolution": [
+      "Total cacat 2 + 10 = 12 dari total produksi 50 + 150 = 200.",
+      "Peluang 12/200 = 0,06.",
+      "Rata-rata persentase tiap pabrik tanpa bobot tidak sesuai pengambilan dari gabungan produk."
+    ],
+    "distractorExplanations": {
+      "A": "Ini tingkat cacat pabrik A saja.",
+      "B": "Mendekati tingkat cacat pabrik B saja.",
+      "C": "Ini jumlah cacat, bukan persentase.",
+      "D": "Ini rata-rata tak tertimbang dua tingkat cacat."
+    },
+    "quickTip": "Tulis pembilang, penyebut, dan satuan; jangan merata-ratakan rasio tanpa bobot.",
+    "learningPoint": "Statistika dan peluang harus mengikuti unit pengamatan serta pembobotan yang sesuai.",
+    "estimatedTimeSeconds": 160,
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "human_editorial_review_required",
+      "difficulty_not_empirically_calibrated"
+    ],
+    "version": 2,
+    "explanationFormat": "worked_numeric",
+    "formula": "\\frac{2+10}{50+150}\\times100\\%",
+    "workedSolution": {
+      "known": "Gunakan stimulus LPDP-QDATA-10. Jika satu produk diambil dari seluruh produksi dengan peluang sama per produk, berapa persen peluang produk cacat?",
+      "asked": "Gunakan stimulus LPDP-QDATA-10. Jika satu produk diambil dari seluruh produksi dengan peluang sama per produk, berapa persen peluang produk cacat?",
+      "formula": "\\frac{2+10}{50+150}\\times100\\%",
+      "calculation": [
+        "Total cacat 2 + 10 = 12 dari total produksi 50 + 150 = 200.",
+        "Peluang 12/200 = 0,06."
+      ],
+      "result": "6",
+      "check": "Rata-rata persentase tiap pabrik tanpa bobot tidak sesuai pengambilan dari gabungan produk."
+    },
+    "stimulusId": "LPDP-QDATA-10"
   }
 ]

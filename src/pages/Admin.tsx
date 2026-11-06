@@ -10,6 +10,8 @@ export function Admin() {
   const bank = mergeBank(d.localQuestions, d.disabled);
   const [search, setSearch] = useState("");
   const [cat, setCat] = useState("");
+  const [topic, setTopic] = useState("");
+  const [difficulty, setDifficulty] = useState("");
   const [editor, setEditor] = useState("");
   const [preview, setPreview] = useState<Question[]>([]);
   const [message, setMessage] = useState("");
@@ -18,6 +20,8 @@ export function Admin() {
     (q) =>
       q.program === d.program &&
       (!cat || q.category === cat) &&
+      (!topic || q.topic === topic) &&
+      (!difficulty || q.difficulty === difficulty) &&
       `${q.id} ${q.question}`.toLowerCase().includes(search.toLowerCase()),
   );
   function apply(questions: Question[]) {
@@ -65,10 +69,6 @@ export function Admin() {
                       await f.text(),
                       f.name.endsWith(".csv"),
                     );
-                    if (parsed.some((q) => q.passageId))
-                      throw Error(
-                        "Impor passageId belum didukung; sertakan teks bacaan dalam stem.",
-                      );
                     setPreview(parsed);
                   }
                 } catch (err) {
@@ -99,6 +99,20 @@ export function Admin() {
             <p>
               {preview.filter((q) => bank.some((b) => b.id === q.id)).length} ID
               sudah ada dan akan ditimpa secara lokal.
+            </p>
+            <p>
+              {
+                preview.filter((q) =>
+                  bank.some(
+                    (b) =>
+                      b.id !== q.id &&
+                      b.question.trim().toLowerCase() ===
+                        q.question.trim().toLowerCase(),
+                  ),
+                ).length
+              }{" "}
+              soal memiliki stem yang sama dengan ID lain. Periksa duplikasi
+              sebelum mengimpor.
             </p>
             {preview.slice(0, 5).map((q) => (
               <p key={q.id}>
@@ -149,7 +163,7 @@ export function Admin() {
           onClick={() => {
             try {
               const q = parseQuestions(JSON.stringify([JSON.parse(editor)]))[0];
-              if (q.passageId) throw Error("passageId belum didukung.");
+
               setPreview([q]);
             } catch (err) {
               setMessage(String(err));
@@ -187,13 +201,49 @@ export function Admin() {
         </label>
         <label>
           Kategori
-          <select value={cat} onChange={(e) => setCat(e.target.value)}>
+          <select
+            value={cat}
+            onChange={(e) => {
+              setCat(e.target.value);
+              setTopic("");
+            }}
+          >
             <option value="">Semua</option>
             {Object.entries(categories[d.program]).map(([id, label]) => (
               <option key={id} value={id}>
                 {label}
               </option>
             ))}
+          </select>
+        </label>
+        <label>
+          Topik
+          <select value={topic} onChange={(e) => setTopic(e.target.value)}>
+            <option value="">Semua topik</option>
+            {[
+              ...new Set(
+                bank
+                  .filter(
+                    (q) =>
+                      q.program === d.program && (!cat || q.category === cat),
+                  )
+                  .map((q) => q.topic),
+              ),
+            ].map((t) => (
+              <option key={t}>{t}</option>
+            ))}
+          </select>
+        </label>
+        <label>
+          Kesulitan
+          <select
+            value={difficulty}
+            onChange={(e) => setDifficulty(e.target.value)}
+          >
+            <option value="">Semua</option>
+            <option value="easy">Mudah</option>
+            <option value="medium">Sedang</option>
+            <option value="hard">Sulit</option>
           </select>
         </label>
       </div>

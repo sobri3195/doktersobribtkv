@@ -94,7 +94,7 @@ describe("BTKV content contract", () => {
     },
   );
   it("keeps archived content out of current counts but resolves old attempts", () => {
-    expect(legacyBundled).toHaveLength(30);
+    expect(legacyBundled.filter((q) => q.program === "btkv")).toHaveLength(30);
     expect(mergeBank([], []).filter((q) => q.program === "btkv")).toHaveLength(
       150,
     );
