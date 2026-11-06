@@ -1,0 +1,332 @@
+[
+  {
+    "id": "SIMAK-STRUCTURE-001",
+    "program": "simak",
+    "category": "structure",
+    "topic": "Choose the correct completion: Each of the students ___ a noteboo",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Choose the correct completion: Each of the students ___ a notebook.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have"
+      },
+      {
+        "id": "B",
+        "text": "having"
+      },
+      {
+        "id": "C",
+        "text": "has"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each is the singular head of the subject, so the present-tense verb is has. The plural noun inside the prepositional phrase does not control agreement.",
+    "distractorExplanations": {
+      "A": "Pilihan “have” tidak memenuhi konsep atau kondisi dalam soal. Each is the singular head of the subject, so the present-tense verb is has. The plural noun inside the prepositional phrase does not control agreement.",
+      "B": "Pilihan “having” tidak memenuhi konsep atau kondisi dalam soal. Each is the singular head of the subject, so the present-tense verb is has. The plural noun inside the prepositional phrase does not control agreement."
+    },
+    "learningPoint": "Each is the singular head of the subject, so the present-tense verb is has. The plural noun inside the prepositional phrase does not control agreement.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-STRUCTURE-002",
+    "program": "simak",
+    "category": "structure",
+    "topic": "Choose the correct completion: The report ___ yesterday.",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Choose the correct completion: The report ___ yesterday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "has submit"
+      },
+      {
+        "id": "B",
+        "text": "was submitted"
+      },
+      {
+        "id": "C",
+        "text": "submits"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Yesterday calls for past time; the report receives the action, requiring the past passive was submitted. The other forms do not fit.",
+    "distractorExplanations": {
+      "A": "Pilihan “has submit” tidak memenuhi konsep atau kondisi dalam soal. Yesterday calls for past time; the report receives the action, requiring the past passive was submitted. The other forms do not fit.",
+      "C": "Pilihan “submits” tidak memenuhi konsep atau kondisi dalam soal. Yesterday calls for past time; the report receives the action, requiring the past passive was submitted. The other forms do not fit."
+    },
+    "learningPoint": "Yesterday calls for past time; the report receives the action, requiring the past passive was submitted. The other forms do not fit.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-STRUCTURE-003",
+    "program": "simak",
+    "category": "structure",
+    "topic": "Complete: If I had known, I ___ earlier.",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Complete: If I had known, I ___ earlier.",
+    "options": [
+      {
+        "id": "A",
+        "text": "would have arrived"
+      },
+      {
+        "id": "B",
+        "text": "will arrive"
+      },
+      {
+        "id": "C",
+        "text": "would arriving"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An unreal past condition uses had plus past participle and would have plus past participle in its result clause.",
+    "distractorExplanations": {
+      "B": "Pilihan “will arrive” tidak memenuhi konsep atau kondisi dalam soal. An unreal past condition uses had plus past participle and would have plus past participle in its result clause.",
+      "C": "Pilihan “would arriving” tidak memenuhi konsep atau kondisi dalam soal. An unreal past condition uses had plus past participle and would have plus past participle in its result clause."
+    },
+    "learningPoint": "An unreal past condition uses had plus past participle and would have plus past participle in its result clause.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-STRUCTURE-004",
+    "program": "simak",
+    "category": "structure",
+    "topic": "Complete: She enjoys ___ academic articles.",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Complete: She enjoys ___ academic articles.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to read"
+      },
+      {
+        "id": "B",
+        "text": "read"
+      },
+      {
+        "id": "C",
+        "text": "reading"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Enjoy is followed by a gerund. Reading functions as the object; the infinitive and bare verb are not standard complements here.",
+    "distractorExplanations": {
+      "A": "Pilihan “to read” tidak memenuhi konsep atau kondisi dalam soal. Enjoy is followed by a gerund. Reading functions as the object; the infinitive and bare verb are not standard complements here.",
+      "B": "Pilihan “read” tidak memenuhi konsep atau kondisi dalam soal. Enjoy is followed by a gerund. Reading functions as the object; the infinitive and bare verb are not standard complements here."
+    },
+    "learningPoint": "Enjoy is followed by a gerund. Reading functions as the object; the infinitive and bare verb are not standard complements here.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-STRUCTURE-005",
+    "program": "simak",
+    "category": "structure",
+    "topic": "Complete: The scientist ___ paper won the award teaches here.",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Complete: The scientist ___ paper won the award teaches here.",
+    "options": [
+      {
+        "id": "A",
+        "text": "whom"
+      },
+      {
+        "id": "B",
+        "text": "whose"
+      },
+      {
+        "id": "C",
+        "text": "which"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Whose introduces a possessive relative relationship between the scientist and the paper. Which and whom do not express that possession.",
+    "distractorExplanations": {
+      "A": "Pilihan “whom” tidak memenuhi konsep atau kondisi dalam soal. Whose introduces a possessive relative relationship between the scientist and the paper. Which and whom do not express that possession.",
+      "C": "Pilihan “which” tidak memenuhi konsep atau kondisi dalam soal. Whose introduces a possessive relative relationship between the scientist and the paper. Which and whom do not express that possession."
+    },
+    "learningPoint": "Whose introduces a possessive relative relationship between the scientist and the paper. Which and whom do not express that possession.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-STRUCTURE-006",
+    "program": "simak",
+    "category": "structure",
+    "topic": "Complete: Neither the director nor the assistants ___ available.",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Complete: Neither the director nor the assistants ___ available.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "being"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "With neither/nor in this sentence, agreement follows the nearer plural subject assistants. Being cannot stand alone as the finite verb.",
+    "distractorExplanations": {
+      "B": "Pilihan “is” tidak memenuhi konsep atau kondisi dalam soal. With neither/nor in this sentence, agreement follows the nearer plural subject assistants. Being cannot stand alone as the finite verb.",
+      "C": "Pilihan “being” tidak memenuhi konsep atau kondisi dalam soal. With neither/nor in this sentence, agreement follows the nearer plural subject assistants. Being cannot stand alone as the finite verb."
+    },
+    "learningPoint": "With neither/nor in this sentence, agreement follows the nearer plural subject assistants. Being cannot stand alone as the finite verb.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-STRUCTURE-007",
+    "program": "simak",
+    "category": "structure",
+    "topic": "Complete: Not only ___ the experiment, but she also wrote the rep",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Complete: Not only ___ the experiment, but she also wrote the report.",
+    "options": [
+      {
+        "id": "A",
+        "text": "she conducted"
+      },
+      {
+        "id": "B",
+        "text": "conducting she"
+      },
+      {
+        "id": "C",
+        "text": "did she conduct"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Fronted not only triggers subject-auxiliary inversion. Did precedes the subject and takes the base verb conduct.",
+    "distractorExplanations": {
+      "A": "Pilihan “she conducted” tidak memenuhi konsep atau kondisi dalam soal. Fronted not only triggers subject-auxiliary inversion. Did precedes the subject and takes the base verb conduct.",
+      "B": "Pilihan “conducting she” tidak memenuhi konsep atau kondisi dalam soal. Fronted not only triggers subject-auxiliary inversion. Did precedes the subject and takes the base verb conduct."
+    },
+    "learningPoint": "Fronted not only triggers subject-auxiliary inversion. Did precedes the subject and takes the base verb conduct.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-STRUCTURE-008",
+    "program": "simak",
+    "category": "structure",
+    "topic": "Complete: The results are consistent ___ earlier findings.",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Complete: The results are consistent ___ earlier findings.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Consistent with is the standard collocation meaning in agreement with. The other prepositions do not form this expression.",
+    "distractorExplanations": {
+      "A": "Pilihan “at” tidak memenuhi konsep atau kondisi dalam soal. Consistent with is the standard collocation meaning in agreement with. The other prepositions do not form this expression.",
+      "C": "Pilihan “to” tidak memenuhi konsep atau kondisi dalam soal. Consistent with is the standard collocation meaning in agreement with. The other prepositions do not form this expression."
+    },
+    "learningPoint": "Consistent with is the standard collocation meaning in agreement with. The other prepositions do not form this expression.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-STRUCTURE-009",
+    "program": "simak",
+    "category": "structure",
+    "topic": "Complete: He asked ___ the library was open.",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Complete: He asked ___ the library was open.",
+    "options": [
+      {
+        "id": "A",
+        "text": "whether"
+      },
+      {
+        "id": "B",
+        "text": "which"
+      },
+      {
+        "id": "C",
+        "text": "what"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Whether introduces an indirect yes/no question. Which and what ask for different kinds of information and do not fit this clause.",
+    "distractorExplanations": {
+      "B": "Pilihan “which” tidak memenuhi konsep atau kondisi dalam soal. Whether introduces an indirect yes/no question. Which and what ask for different kinds of information and do not fit this clause.",
+      "C": "Pilihan “what” tidak memenuhi konsep atau kondisi dalam soal. Whether introduces an indirect yes/no question. Which and what ask for different kinds of information and do not fit this clause."
+    },
+    "learningPoint": "Whether introduces an indirect yes/no question. Which and what ask for different kinds of information and do not fit this clause.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-STRUCTURE-010",
+    "program": "simak",
+    "category": "structure",
+    "topic": "Choose the parallel completion: The course develops reading, writ",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Choose the parallel completion: The course develops reading, writing, and ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to speak"
+      },
+      {
+        "id": "B",
+        "text": "spoke"
+      },
+      {
+        "id": "C",
+        "text": "speaking"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The three coordinated items should share the same grammatical form. Speaking matches the gerunds reading and writing.",
+    "distractorExplanations": {
+      "A": "Pilihan “to speak” tidak memenuhi konsep atau kondisi dalam soal. The three coordinated items should share the same grammatical form. Speaking matches the gerunds reading and writing.",
+      "B": "Pilihan “spoke” tidak memenuhi konsep atau kondisi dalam soal. The three coordinated items should share the same grammatical form. Speaking matches the gerunds reading and writing."
+    },
+    "learningPoint": "The three coordinated items should share the same grammatical form. Speaking matches the gerunds reading and writing.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  }
+]

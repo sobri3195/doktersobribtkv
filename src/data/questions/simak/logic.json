@@ -1,0 +1,332 @@
+[
+  {
+    "id": "SIMAK-LOGIC-001",
+    "program": "simak",
+    "category": "logic",
+    "topic": "Jika P maka Q. Jika Q maka R. P benar. Apa kesimpulannya",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Jika P maka Q. Jika Q maka R. P benar. Apa kesimpulannya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "R pasti salah"
+      },
+      {
+        "id": "B",
+        "text": "Q salah"
+      },
+      {
+        "id": "C",
+        "text": "R benar"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Modus ponens memberi Q dari P, lalu R dari Q. Negasi Q atau R bertentangan dengan premis.",
+    "distractorExplanations": {
+      "A": "Pilihan “R pasti salah” tidak memenuhi konsep atau kondisi dalam soal. Modus ponens memberi Q dari P, lalu R dari Q. Negasi Q atau R bertentangan dengan premis.",
+      "B": "Pilihan “Q salah” tidak memenuhi konsep atau kondisi dalam soal. Modus ponens memberi Q dari P, lalu R dari Q. Negasi Q atau R bertentangan dengan premis."
+    },
+    "learningPoint": "Modus ponens memberi Q dari P, lalu R dari Q. Negasi Q atau R bertentangan dengan premis.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-LOGIC-002",
+    "program": "simak",
+    "category": "logic",
+    "topic": "Negasi dari semua mahasiswa hadir adalah apa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Negasi dari semua mahasiswa hadir adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua mahasiswa terlambat"
+      },
+      {
+        "id": "B",
+        "text": "Ada mahasiswa yang tidak hadir"
+      },
+      {
+        "id": "C",
+        "text": "Tidak ada mahasiswa hadir"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Negasi kuantor universal ialah eksistensial dengan predikat dinegasikan. Tidak hadir tidak sama dengan terlambat.",
+    "distractorExplanations": {
+      "A": "Pilihan “Semua mahasiswa terlambat” tidak memenuhi konsep atau kondisi dalam soal. Negasi kuantor universal ialah eksistensial dengan predikat dinegasikan. Tidak hadir tidak sama dengan terlambat.",
+      "C": "Pilihan “Tidak ada mahasiswa hadir” tidak memenuhi konsep atau kondisi dalam soal. Negasi kuantor universal ialah eksistensial dengan predikat dinegasikan. Tidak hadir tidak sama dengan terlambat."
+    },
+    "learningPoint": "Negasi kuantor universal ialah eksistensial dengan predikat dinegasikan. Tidak hadir tidak sama dengan terlambat.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-LOGIC-003",
+    "program": "simak",
+    "category": "logic",
+    "topic": "P atau Q benar, dalam arti atau inklusif. P salah. Apa yang pasti",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "P atau Q benar, dalam arti atau inklusif. P salah. Apa yang pasti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Q benar"
+      },
+      {
+        "id": "B",
+        "text": "Q salah"
+      },
+      {
+        "id": "C",
+        "text": "P benar"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Agar disjungsi tetap benar ketika P salah, Q harus benar. Kedua alternatif lain bertentangan dengan premis.",
+    "distractorExplanations": {
+      "B": "Pilihan “Q salah” tidak memenuhi konsep atau kondisi dalam soal. Agar disjungsi tetap benar ketika P salah, Q harus benar. Kedua alternatif lain bertentangan dengan premis.",
+      "C": "Pilihan “P benar” tidak memenuhi konsep atau kondisi dalam soal. Agar disjungsi tetap benar ketika P salah, Q harus benar. Kedua alternatif lain bertentangan dengan premis."
+    },
+    "learningPoint": "Agar disjungsi tetap benar ketika P salah, Q harus benar. Kedua alternatif lain bertentangan dengan premis.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-LOGIC-004",
+    "program": "simak",
+    "category": "logic",
+    "topic": "A lebih tinggi dari B. C lebih tinggi dari A. Siapa tertinggi di ",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "A lebih tinggi dari B. C lebih tinggi dari A. Siapa tertinggi di antara ketiganya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Relasi tinggi transitif memberi C > A > B, sehingga C tertinggi.",
+    "distractorExplanations": {
+      "A": "Pilihan “A” tidak memenuhi konsep atau kondisi dalam soal. Relasi tinggi transitif memberi C > A > B, sehingga C tertinggi.",
+      "B": "Pilihan “B” tidak memenuhi konsep atau kondisi dalam soal. Relasi tinggi transitif memberi C > A > B, sehingga C tertinggi."
+    },
+    "learningPoint": "Relasi tinggi transitif memberi C > A > B, sehingga C tertinggi.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-LOGIC-005",
+    "program": "simak",
+    "category": "logic",
+    "topic": "Semua kucing mamalia. Tidak ada mamalia reptil. Apa yang pasti",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Semua kucing mamalia. Tidak ada mamalia reptil. Apa yang pasti?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebagian kucing reptil"
+      },
+      {
+        "id": "B",
+        "text": "Tidak ada kucing reptil"
+      },
+      {
+        "id": "C",
+        "text": "Semua reptil kucing"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Kucing termasuk mamalia yang seluruhnya di luar kelompok reptil. Dua alternatif melanggar pemisahan kelompok.",
+    "distractorExplanations": {
+      "A": "Pilihan “Sebagian kucing reptil” tidak memenuhi konsep atau kondisi dalam soal. Kucing termasuk mamalia yang seluruhnya di luar kelompok reptil. Dua alternatif melanggar pemisahan kelompok.",
+      "C": "Pilihan “Semua reptil kucing” tidak memenuhi konsep atau kondisi dalam soal. Kucing termasuk mamalia yang seluruhnya di luar kelompok reptil. Dua alternatif melanggar pemisahan kelompok."
+    },
+    "learningPoint": "Kucing termasuk mamalia yang seluruhnya di luar kelompok reptil. Dua alternatif melanggar pemisahan kelompok.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-LOGIC-006",
+    "program": "simak",
+    "category": "logic",
+    "topic": "Mana bentuk kontraposisi jika belajar maka siap",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Mana bentuk kontraposisi jika belajar maka siap?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jika tidak siap maka tidak belajar"
+      },
+      {
+        "id": "B",
+        "text": "Jika siap maka belajar"
+      },
+      {
+        "id": "C",
+        "text": "Jika tidak belajar maka tidak siap"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kontraposisi P→Q adalah bukan Q→bukan P. Konvers dan invers tidak selalu setara dengan implikasi asal.",
+    "distractorExplanations": {
+      "B": "Pilihan “Jika siap maka belajar” tidak memenuhi konsep atau kondisi dalam soal. Kontraposisi P→Q adalah bukan Q→bukan P. Konvers dan invers tidak selalu setara dengan implikasi asal.",
+      "C": "Pilihan “Jika tidak belajar maka tidak siap” tidak memenuhi konsep atau kondisi dalam soal. Kontraposisi P→Q adalah bukan Q→bukan P. Konvers dan invers tidak selalu setara dengan implikasi asal."
+    },
+    "learningPoint": "Kontraposisi P→Q adalah bukan Q→bukan P. Konvers dan invers tidak selalu setara dengan implikasi asal.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-LOGIC-007",
+    "program": "simak",
+    "category": "logic",
+    "topic": "Dalam antrean, R tepat sebelum S dan S tepat sebelum T. Berapa or",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Dalam antrean, R tepat sebelum S dan S tepat sebelum T. Berapa orang berada di antara R dan T?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Urutan tiga posisi berturut-turut adalah R-S-T sehingga hanya S di antara R dan T.",
+    "distractorExplanations": {
+      "A": "Pilihan “0” tidak memenuhi konsep atau kondisi dalam soal. Urutan tiga posisi berturut-turut adalah R-S-T sehingga hanya S di antara R dan T.",
+      "B": "Pilihan “2” tidak memenuhi konsep atau kondisi dalam soal. Urutan tiga posisi berturut-turut adalah R-S-T sehingga hanya S di antara R dan T."
+    },
+    "learningPoint": "Urutan tiga posisi berturut-turut adalah R-S-T sehingga hanya S di antara R dan T.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-LOGIC-008",
+    "program": "simak",
+    "category": "logic",
+    "topic": "Pernyataan P dan Q salah jika kondisi mana terjadi",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Pernyataan P dan Q salah jika kondisi mana terjadi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keduanya tidak boleh salah"
+      },
+      {
+        "id": "B",
+        "text": "Setidaknya salah satu salah"
+      },
+      {
+        "id": "C",
+        "text": "Keduanya wajib benar"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Konjungsi benar hanya jika kedua komponennya benar. Maka satu atau dua komponen salah membuat konjungsi salah.",
+    "distractorExplanations": {
+      "A": "Pilihan “Keduanya tidak boleh salah” tidak memenuhi konsep atau kondisi dalam soal. Konjungsi benar hanya jika kedua komponennya benar. Maka satu atau dua komponen salah membuat konjungsi salah.",
+      "C": "Pilihan “Keduanya wajib benar” tidak memenuhi konsep atau kondisi dalam soal. Konjungsi benar hanya jika kedua komponennya benar. Maka satu atau dua komponen salah membuat konjungsi salah."
+    },
+    "learningPoint": "Konjungsi benar hanya jika kedua komponennya benar. Maka satu atau dua komponen salah membuat konjungsi salah.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-LOGIC-009",
+    "program": "simak",
+    "category": "logic",
+    "topic": "Satu dari tiga kotak memuat hadiah. Kotak A kosong dan hadiah buk",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Satu dari tiga kotak memuat hadiah. Kotak A kosong dan hadiah bukan di B. Di mana hadiah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "C"
+      },
+      {
+        "id": "B",
+        "text": "A"
+      },
+      {
+        "id": "C",
+        "text": "B"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pilihan lokasi lengkap A, B, C. Setelah A dan B dieliminasi, tersisa C.",
+    "distractorExplanations": {
+      "B": "Pilihan “A” tidak memenuhi konsep atau kondisi dalam soal. Pilihan lokasi lengkap A, B, C. Setelah A dan B dieliminasi, tersisa C.",
+      "C": "Pilihan “B” tidak memenuhi konsep atau kondisi dalam soal. Pilihan lokasi lengkap A, B, C. Setelah A dan B dieliminasi, tersisa C."
+    },
+    "learningPoint": "Pilihan lokasi lengkap A, B, C. Setelah A dan B dieliminasi, tersisa C.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-LOGIC-010",
+    "program": "simak",
+    "category": "logic",
+    "topic": "Argumen semua burung bersayap, kelelawar bersayap, maka kelelawar",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Argumen semua burung bersayap, kelelawar bersayap, maka kelelawar burung mengandung kesalahan apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Modus tollens yang valid"
+      },
+      {
+        "id": "B",
+        "text": "Deduksi kategoris yang valid"
+      },
+      {
+        "id": "C",
+        "text": "Mengafirmasi konsekuen"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Berbagi sifat bersayap tidak cukup membuktikan keanggotaan burung. Polanya mengafirmasi konsekuen, bukan inferensi valid.",
+    "distractorExplanations": {
+      "A": "Pilihan “Modus tollens yang valid” tidak memenuhi konsep atau kondisi dalam soal. Berbagi sifat bersayap tidak cukup membuktikan keanggotaan burung. Polanya mengafirmasi konsekuen, bukan inferensi valid.",
+      "B": "Pilihan “Deduksi kategoris yang valid” tidak memenuhi konsep atau kondisi dalam soal. Berbagi sifat bersayap tidak cukup membuktikan keanggotaan burung. Polanya mengafirmasi konsekuen, bukan inferensi valid."
+    },
+    "learningPoint": "Berbagi sifat bersayap tidak cukup membuktikan keanggotaan burung. Polanya mengafirmasi konsekuen, bukan inferensi valid.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "SIMAK-VOCABULARY-READING-001",
+    "program": "simak",
+    "category": "vocabulary-reading",
+    "topic": "In academic writing, robust evidence most nearly means what",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "In academic writing, robust evidence most nearly means what?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Evidence that must be numerical"
+      },
+      {
+        "id": "B",
+        "text": "Evidence without any observation"
+      },
+      {
+        "id": "C",
+        "text": "Strong and reliable evidence"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Robust indicates strength and reliability. Qualitative evidence may also be robust; lack of observation does not define robustness.",
+    "distractorExplanations": {
+      "A": "Pilihan “Evidence that must be numerical” tidak memenuhi konsep atau kondisi dalam soal. Robust indicates strength and reliability. Qualitative evidence may also be robust; lack of observation does not define robustness.",
+      "B": "Pilihan “Evidence without any observation” tidak memenuhi konsep atau kondisi dalam soal. Robust indicates strength and reliability. Qualitative evidence may also be robust; lack of observation does not define robustness."
+    },
+    "learningPoint": "Robust indicates strength and reliability. Qualitative evidence may also be robust; lack of observation does not define robustness.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VOCABULARY-READING-002",
+    "program": "simak",
+    "category": "vocabulary-reading",
+    "topic": "The word diminish most nearly means what",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "The word diminish most nearly means what?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Preserve unchanged"
+      },
+      {
+        "id": "B",
+        "text": "Decrease"
+      },
+      {
+        "id": "C",
+        "text": "Expand"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Diminish means become or make smaller. Expand means increase, while preserve implies keeping the same condition.",
+    "distractorExplanations": {
+      "A": "Pilihan “Preserve unchanged” tidak memenuhi konsep atau kondisi dalam soal. Diminish means become or make smaller. Expand means increase, while preserve implies keeping the same condition.",
+      "C": "Pilihan “Expand” tidak memenuhi konsep atau kondisi dalam soal. Diminish means become or make smaller. Expand means increase, while preserve implies keeping the same condition."
+    },
+    "learningPoint": "Diminish means become or make smaller. Expand means increase, while preserve implies keeping the same condition.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VOCABULARY-READING-003",
+    "program": "simak",
+    "category": "vocabulary-reading",
+    "topic": "An outcome described as preliminary should be treated as what",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "An outcome described as preliminary should be treated as what?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An early result subject to further checking"
+      },
+      {
+        "id": "B",
+        "text": "A final unchangeable conclusion"
+      },
+      {
+        "id": "C",
+        "text": "A result unrelated to the study"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Preliminary indicates an initial stage. Further analysis may revise the result, unlike a final fixed conclusion.",
+    "distractorExplanations": {
+      "B": "Pilihan “A final unchangeable conclusion” tidak memenuhi konsep atau kondisi dalam soal. Preliminary indicates an initial stage. Further analysis may revise the result, unlike a final fixed conclusion.",
+      "C": "Pilihan “A result unrelated to the study” tidak memenuhi konsep atau kondisi dalam soal. Preliminary indicates an initial stage. Further analysis may revise the result, unlike a final fixed conclusion."
+    },
+    "learningPoint": "Preliminary indicates an initial stage. Further analysis may revise the result, unlike a final fixed conclusion.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VOCABULARY-READING-004",
+    "program": "simak",
+    "category": "vocabulary-reading",
+    "topic": "What does the verb corroborate mean in research prose",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "What does the verb corroborate mean in research prose?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hide a contradiction"
+      },
+      {
+        "id": "B",
+        "text": "Replace all data with opinion"
+      },
+      {
+        "id": "C",
+        "text": "Support with additional evidence"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Corroboration adds evidence supporting a claim. Concealment and unsupported opinion do not serve that function.",
+    "distractorExplanations": {
+      "A": "Pilihan “Hide a contradiction” tidak memenuhi konsep atau kondisi dalam soal. Corroboration adds evidence supporting a claim. Concealment and unsupported opinion do not serve that function.",
+      "B": "Pilihan “Replace all data with opinion” tidak memenuhi konsep atau kondisi dalam soal. Corroboration adds evidence supporting a claim. Concealment and unsupported opinion do not serve that function."
+    },
+    "learningPoint": "Corroboration adds evidence supporting a claim. Concealment and unsupported opinion do not serve that function.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VOCABULARY-READING-005",
+    "program": "simak",
+    "category": "vocabulary-reading",
+    "topic": "A concise abstract is best described as what",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "A concise abstract is best described as what?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unrelated to the article"
+      },
+      {
+        "id": "B",
+        "text": "Brief while conveying essential information"
+      },
+      {
+        "id": "C",
+        "text": "Long and repetitive"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Concise emphasizes economy of expression without losing essentials. Repetition or irrelevance does not meet this aim.",
+    "distractorExplanations": {
+      "A": "Pilihan “Unrelated to the article” tidak memenuhi konsep atau kondisi dalam soal. Concise emphasizes economy of expression without losing essentials. Repetition or irrelevance does not meet this aim.",
+      "C": "Pilihan “Long and repetitive” tidak memenuhi konsep atau kondisi dalam soal. Concise emphasizes economy of expression without losing essentials. Repetition or irrelevance does not meet this aim."
+    },
+    "learningPoint": "Concise emphasizes economy of expression without losing essentials. Repetition or irrelevance does not meet this aim.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VOCABULARY-READING-006",
+    "program": "simak",
+    "category": "vocabulary-reading",
+    "topic": "In the phrase a plausible explanation, plausible means what",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "In the phrase a plausible explanation, plausible means what?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reasonable given the available information"
+      },
+      {
+        "id": "B",
+        "text": "Proven beyond all possible doubt"
+      },
+      {
+        "id": "C",
+        "text": "Intentionally impossible"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Plausibility is reasonableness, not definitive proof. An impossible explanation cannot ordinarily be plausible.",
+    "distractorExplanations": {
+      "B": "Pilihan “Proven beyond all possible doubt” tidak memenuhi konsep atau kondisi dalam soal. Plausibility is reasonableness, not definitive proof. An impossible explanation cannot ordinarily be plausible.",
+      "C": "Pilihan “Intentionally impossible” tidak memenuhi konsep atau kondisi dalam soal. Plausibility is reasonableness, not definitive proof. An impossible explanation cannot ordinarily be plausible."
+    },
+    "learningPoint": "Plausibility is reasonableness, not definitive proof. An impossible explanation cannot ordinarily be plausible.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VOCABULARY-READING-007",
+    "program": "simak",
+    "category": "vocabulary-reading",
+    "topic": "What is a limitation of a study",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "What is a limitation of a study?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A guarantee that every conclusion is false"
+      },
+      {
+        "id": "B",
+        "text": "A list of all authors"
+      },
+      {
+        "id": "C",
+        "text": "A constraint affecting interpretation"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Limitations identify boundaries or weaknesses that qualify interpretation. They do not automatically invalidate everything or describe authorship.",
+    "distractorExplanations": {
+      "A": "Pilihan “A guarantee that every conclusion is false” tidak memenuhi konsep atau kondisi dalam soal. Limitations identify boundaries or weaknesses that qualify interpretation. They do not automatically invalidate everything or describe authorship.",
+      "B": "Pilihan “A list of all authors” tidak memenuhi konsep atau kondisi dalam soal. Limitations identify boundaries or weaknesses that qualify interpretation. They do not automatically invalidate everything or describe authorship."
+    },
+    "learningPoint": "Limitations identify boundaries or weaknesses that qualify interpretation. They do not automatically invalidate everything or describe authorship.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VOCABULARY-READING-008",
+    "program": "simak",
+    "category": "vocabulary-reading",
+    "topic": "The term subsequent refers to something occurring when",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "The term subsequent refers to something occurring when?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At no particular time"
+      },
+      {
+        "id": "B",
+        "text": "After another event"
+      },
+      {
+        "id": "C",
+        "text": "Before every event"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Subsequent expresses temporal order after a reference event. Prior means before; the term is not temporally neutral.",
+    "distractorExplanations": {
+      "A": "Pilihan “At no particular time” tidak memenuhi konsep atau kondisi dalam soal. Subsequent expresses temporal order after a reference event. Prior means before; the term is not temporally neutral.",
+      "C": "Pilihan “Before every event” tidak memenuhi konsep atau kondisi dalam soal. Subsequent expresses temporal order after a reference event. Prior means before; the term is not temporally neutral."
+    },
+    "learningPoint": "Subsequent expresses temporal order after a reference event. Prior means before; the term is not temporally neutral.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VOCABULARY-READING-009",
+    "program": "simak",
+    "category": "vocabulary-reading",
+    "topic": "Which word is closest to allocate in allocate research funds",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Which word is closest to allocate in allocate research funds?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Distribute for a purpose"
+      },
+      {
+        "id": "B",
+        "text": "Destroy"
+      },
+      {
+        "id": "C",
+        "text": "Borrow without permission"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Allocate means assign resources to specified uses. Destruction and unauthorized borrowing do not express assignment.",
+    "distractorExplanations": {
+      "B": "Pilihan “Destroy” tidak memenuhi konsep atau kondisi dalam soal. Allocate means assign resources to specified uses. Destruction and unauthorized borrowing do not express assignment.",
+      "C": "Pilihan “Borrow without permission” tidak memenuhi konsep atau kondisi dalam soal. Allocate means assign resources to specified uses. Destruction and unauthorized borrowing do not express assignment."
+    },
+    "learningPoint": "Allocate means assign resources to specified uses. Destruction and unauthorized borrowing do not express assignment.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VOCABULARY-READING-010",
+    "program": "simak",
+    "category": "vocabulary-reading",
+    "topic": "What does ambiguous mean when describing a sentence",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "What does ambiguous mean when describing a sentence?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Having exactly one unmistakable meaning"
+      },
+      {
+        "id": "B",
+        "text": "Necessarily grammatically incorrect"
+      },
+      {
+        "id": "C",
+        "text": "Open to more than one interpretation"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Ambiguity concerns multiple possible meanings. A sentence can be grammatical yet ambiguous, so grammar alone does not decide ambiguity.",
+    "distractorExplanations": {
+      "A": "Pilihan “Having exactly one unmistakable meaning” tidak memenuhi konsep atau kondisi dalam soal. Ambiguity concerns multiple possible meanings. A sentence can be grammatical yet ambiguous, so grammar alone does not decide ambiguity.",
+      "B": "Pilihan “Necessarily grammatically incorrect” tidak memenuhi konsep atau kondisi dalam soal. Ambiguity concerns multiple possible meanings. A sentence can be grammatical yet ambiguous, so grammar alone does not decide ambiguity."
+    },
+    "learningPoint": "Ambiguity concerns multiple possible meanings. A sentence can be grammatical yet ambiguous, so grammar alone does not decide ambiguity.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  }
+]

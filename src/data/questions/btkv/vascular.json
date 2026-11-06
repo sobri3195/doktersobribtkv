@@ -1,0 +1,332 @@
+[
+  {
+    "id": "BTKV-VASCULAR-001",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Nyeri tungkai mendadak, pucat, dingin, dan hilangnya nadi menimbu",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Nyeri tungkai mendadak, pucat, dingin, dan hilangnya nadi menimbulkan kecurigaan utama apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dermatitis ringan"
+      },
+      {
+        "id": "B",
+        "text": "Varises tanpa komplikasi"
+      },
+      {
+        "id": "C",
+        "text": "Iskemia tungkai akut"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Gangguan perfusi arteri akut dapat mengancam viabilitas tungkai. Dermatitis dan varises sederhana tidak lazim menyebabkan hilangnya nadi mendadak.",
+    "distractorExplanations": {
+      "A": "Pilihan “Dermatitis ringan” tidak memenuhi konsep atau kondisi dalam soal. Gangguan perfusi arteri akut dapat mengancam viabilitas tungkai. Dermatitis dan varises sederhana tidak lazim menyebabkan hilangnya nadi mendadak.",
+      "B": "Pilihan “Varises tanpa komplikasi” tidak memenuhi konsep atau kondisi dalam soal. Gangguan perfusi arteri akut dapat mengancam viabilitas tungkai. Dermatitis dan varises sederhana tidak lazim menyebabkan hilangnya nadi mendadak."
+    },
+    "learningPoint": "Gangguan perfusi arteri akut dapat mengancam viabilitas tungkai. Dermatitis dan varises sederhana tidak lazim menyebabkan hilangnya nadi mendadak.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-002",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Apa arti ABI dalam penilaian vaskular",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa arti ABI dalam penilaian vaskular?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Volume vena terhadap tinggi badan"
+      },
+      {
+        "id": "B",
+        "text": "Rasio tekanan sistolik pergelangan kaki terhadap lengan"
+      },
+      {
+        "id": "C",
+        "text": "Rasio denyut jantung terhadap suhu"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "ABI membandingkan tekanan arteri ankle dan brachial. Rasio lain tidak menggambarkan indeks perfusi tersebut.",
+    "distractorExplanations": {
+      "A": "Pilihan “Volume vena terhadap tinggi badan” tidak memenuhi konsep atau kondisi dalam soal. ABI membandingkan tekanan arteri ankle dan brachial. Rasio lain tidak menggambarkan indeks perfusi tersebut.",
+      "C": "Pilihan “Rasio denyut jantung terhadap suhu” tidak memenuhi konsep atau kondisi dalam soal. ABI membandingkan tekanan arteri ankle dan brachial. Rasio lain tidak menggambarkan indeks perfusi tersebut."
+    },
+    "learningPoint": "ABI membandingkan tekanan arteri ankle dan brachial. Rasio lain tidak menggambarkan indeks perfusi tersebut.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-003",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Apa keterbatasan ABI pada pasien dengan kalsifikasi arteri berat",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa keterbatasan ABI pada pasien dengan kalsifikasi arteri berat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arteri sulit dikompresi dapat memberi nilai tinggi semu"
+      },
+      {
+        "id": "B",
+        "text": "Nilai selalu nol"
+      },
+      {
+        "id": "C",
+        "text": "ABI otomatis menunjukkan trombosis vena"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kalsifikasi medial dapat membuat tekanan manset tidak mencerminkan perfusi sebenarnya. Nilai bukan selalu nol dan ABI bukan tes utama trombosis vena.",
+    "distractorExplanations": {
+      "B": "Pilihan “Nilai selalu nol” tidak memenuhi konsep atau kondisi dalam soal. Kalsifikasi medial dapat membuat tekanan manset tidak mencerminkan perfusi sebenarnya. Nilai bukan selalu nol dan ABI bukan tes utama trombosis vena.",
+      "C": "Pilihan “ABI otomatis menunjukkan trombosis vena” tidak memenuhi konsep atau kondisi dalam soal. Kalsifikasi medial dapat membuat tekanan manset tidak mencerminkan perfusi sebenarnya. Nilai bukan selalu nol dan ABI bukan tes utama trombosis vena."
+    },
+    "learningPoint": "Kalsifikasi medial dapat membuat tekanan manset tidak mencerminkan perfusi sebenarnya. Nilai bukan selalu nol dan ABI bukan tes utama trombosis vena.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-004",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Nyeri dan pembengkakan tungkai unilateral dengan risiko trombosis",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Nyeri dan pembengkakan tungkai unilateral dengan risiko trombosis dinilai pertama kali menggunakan modalitas pencitraan apa bila tersedia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Foto tengkorak"
+      },
+      {
+        "id": "B",
+        "text": "Audiogram"
+      },
+      {
+        "id": "C",
+        "text": "Ultrasonografi kompresi vena"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Vena yang tidak dapat dikompresi mendukung DVT dalam konteks klinis yang sesuai. Pemeriksaan kepala dan pendengaran tidak menilai trombus tungkai.",
+    "distractorExplanations": {
+      "A": "Pilihan “Foto tengkorak” tidak memenuhi konsep atau kondisi dalam soal. Vena yang tidak dapat dikompresi mendukung DVT dalam konteks klinis yang sesuai. Pemeriksaan kepala dan pendengaran tidak menilai trombus tungkai.",
+      "B": "Pilihan “Audiogram” tidak memenuhi konsep atau kondisi dalam soal. Vena yang tidak dapat dikompresi mendukung DVT dalam konteks klinis yang sesuai. Pemeriksaan kepala dan pendengaran tidak menilai trombus tungkai."
+    },
+    "learningPoint": "Vena yang tidak dapat dikompresi mendukung DVT dalam konteks klinis yang sesuai. Pemeriksaan kepala dan pendengaran tidak menilai trombus tungkai.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-005",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Apa mekanisme utama edema pada insufisiensi vena kronis",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa mekanisme utama edema pada insufisiensi vena kronis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Peningkatan ventilasi alveolar"
+      },
+      {
+        "id": "B",
+        "text": "Hipertensi vena akibat refluks atau obstruksi"
+      },
+      {
+        "id": "C",
+        "text": "Penutupan semua kapiler arteri"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tekanan vena yang meningkat mendorong cairan ke interstisium. Penutupan arteri dan ventilasi tidak menjelaskan mekanisme utama edema vena.",
+    "distractorExplanations": {
+      "A": "Pilihan “Peningkatan ventilasi alveolar” tidak memenuhi konsep atau kondisi dalam soal. Tekanan vena yang meningkat mendorong cairan ke interstisium. Penutupan arteri dan ventilasi tidak menjelaskan mekanisme utama edema vena.",
+      "C": "Pilihan “Penutupan semua kapiler arteri” tidak memenuhi konsep atau kondisi dalam soal. Tekanan vena yang meningkat mendorong cairan ke interstisium. Penutupan arteri dan ventilasi tidak menjelaskan mekanisme utama edema vena."
+    },
+    "learningPoint": "Tekanan vena yang meningkat mendorong cairan ke interstisium. Penutupan arteri dan ventilasi tidak menjelaskan mekanisme utama edema vena.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-006",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Mengapa ukuran aneurisma aorta dipantau serial",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Mengapa ukuran aneurisma aorta dipantau serial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pertumbuhan membantu penilaian risiko dan perencanaan"
+      },
+      {
+        "id": "B",
+        "text": "Semua aneurisma mengecil spontan"
+      },
+      {
+        "id": "C",
+        "text": "Ukuran menggantikan seluruh penilaian klinis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diameter dan laju pertumbuhan merupakan sebagian faktor risiko. Gejala, anatomi, dan kondisi pasien tetap penting sehingga ukuran bukan satu-satunya penentu.",
+    "distractorExplanations": {
+      "B": "Pilihan “Semua aneurisma mengecil spontan” tidak memenuhi konsep atau kondisi dalam soal. Diameter dan laju pertumbuhan merupakan sebagian faktor risiko. Gejala, anatomi, dan kondisi pasien tetap penting sehingga ukuran bukan satu-satunya penentu.",
+      "C": "Pilihan “Ukuran menggantikan seluruh penilaian klinis” tidak memenuhi konsep atau kondisi dalam soal. Diameter dan laju pertumbuhan merupakan sebagian faktor risiko. Gejala, anatomi, dan kondisi pasien tetap penting sehingga ukuran bukan satu-satunya penentu."
+    },
+    "learningPoint": "Diameter dan laju pertumbuhan merupakan sebagian faktor risiko. Gejala, anatomi, dan kondisi pasien tetap penting sehingga ukuran bukan satu-satunya penentu.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-007",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Apa perbedaan embolus dan trombus in situ",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa perbedaan embolus dan trombus in situ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Embolus selalu berupa udara"
+      },
+      {
+        "id": "B",
+        "text": "Trombus hanya terbentuk di vena"
+      },
+      {
+        "id": "C",
+        "text": "Embolus berpindah dari lokasi asal"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Embolus dapat berupa material trombotik yang berpindah. Tidak semua embolus adalah udara dan trombosis dapat terjadi pada arteri maupun vena.",
+    "distractorExplanations": {
+      "A": "Pilihan “Embolus selalu berupa udara” tidak memenuhi konsep atau kondisi dalam soal. Embolus dapat berupa material trombotik yang berpindah. Tidak semua embolus adalah udara dan trombosis dapat terjadi pada arteri maupun vena.",
+      "B": "Pilihan “Trombus hanya terbentuk di vena” tidak memenuhi konsep atau kondisi dalam soal. Embolus dapat berupa material trombotik yang berpindah. Tidak semua embolus adalah udara dan trombosis dapat terjadi pada arteri maupun vena."
+    },
+    "learningPoint": "Embolus dapat berupa material trombotik yang berpindah. Tidak semua embolus adalah udara dan trombosis dapat terjadi pada arteri maupun vena.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-008",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Apa tujuan stent endovaskular pada stenosis tertentu",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa tujuan stent endovaskular pada stenosis tertentu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menghancurkan semua katup vena"
+      },
+      {
+        "id": "B",
+        "text": "Menopang lumen pembuluh"
+      },
+      {
+        "id": "C",
+        "text": "Menggantikan seluruh darah"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Stent memberi dukungan mekanik untuk menjaga patensi lumen pada indikasi yang sesuai. Fungsi tersebut bukan transfusi atau ablasi semua katup.",
+    "distractorExplanations": {
+      "A": "Pilihan “Menghancurkan semua katup vena” tidak memenuhi konsep atau kondisi dalam soal. Stent memberi dukungan mekanik untuk menjaga patensi lumen pada indikasi yang sesuai. Fungsi tersebut bukan transfusi atau ablasi semua katup.",
+      "C": "Pilihan “Menggantikan seluruh darah” tidak memenuhi konsep atau kondisi dalam soal. Stent memberi dukungan mekanik untuk menjaga patensi lumen pada indikasi yang sesuai. Fungsi tersebut bukan transfusi atau ablasi semua katup."
+    },
+    "learningPoint": "Stent memberi dukungan mekanik untuk menjaga patensi lumen pada indikasi yang sesuai. Fungsi tersebut bukan transfusi atau ablasi semua katup.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-009",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Nyeri istirahat kaki dengan ulkus yang tidak sembuh pada penyakit",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Nyeri istirahat kaki dengan ulkus yang tidak sembuh pada penyakit arteri perifer mengarah pada apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iskemia tungkai kronis yang mengancam tungkai"
+      },
+      {
+        "id": "B",
+        "text": "Klaudikasio tanpa ancaman jaringan saja"
+      },
+      {
+        "id": "C",
+        "text": "Migrain"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Nyeri istirahat dan kehilangan jaringan akibat hipoperfusi mendukung CLTI. Klaudikasio saja tidak mencakup ulkus iskemik; migrain tidak relevan.",
+    "distractorExplanations": {
+      "B": "Pilihan “Klaudikasio tanpa ancaman jaringan saja” tidak memenuhi konsep atau kondisi dalam soal. Nyeri istirahat dan kehilangan jaringan akibat hipoperfusi mendukung CLTI. Klaudikasio saja tidak mencakup ulkus iskemik; migrain tidak relevan.",
+      "C": "Pilihan “Migrain” tidak memenuhi konsep atau kondisi dalam soal. Nyeri istirahat dan kehilangan jaringan akibat hipoperfusi mendukung CLTI. Klaudikasio saja tidak mencakup ulkus iskemik; migrain tidak relevan."
+    },
+    "learningPoint": "Nyeri istirahat dan kehilangan jaringan akibat hipoperfusi mendukung CLTI. Klaudikasio saja tidak mencakup ulkus iskemik; migrain tidak relevan.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-VASCULAR-010",
+    "program": "btkv",
+    "category": "vascular",
+    "topic": "Apa tanda yang mengkhawatirkan untuk sindrom kompartemen setelah ",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa tanda yang mengkhawatirkan untuk sindrom kompartemen setelah reperfusi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gatal ringan tanpa nyeri"
+      },
+      {
+        "id": "B",
+        "text": "Perbaikan warna saja"
+      },
+      {
+        "id": "C",
+        "text": "Nyeri hebat dengan regangan pasif"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Edema dalam kompartemen tertutup dapat menaikkan tekanan jaringan. Nyeri regangan pasif perlu evaluasi segera; gatal atau perbaikan warna saja bukan tanda khas.",
+    "distractorExplanations": {
+      "A": "Pilihan “Gatal ringan tanpa nyeri” tidak memenuhi konsep atau kondisi dalam soal. Edema dalam kompartemen tertutup dapat menaikkan tekanan jaringan. Nyeri regangan pasif perlu evaluasi segera; gatal atau perbaikan warna saja bukan tanda khas.",
+      "B": "Pilihan “Perbaikan warna saja” tidak memenuhi konsep atau kondisi dalam soal. Edema dalam kompartemen tertutup dapat menaikkan tekanan jaringan. Nyeri regangan pasif perlu evaluasi segera; gatal atau perbaikan warna saja bukan tanda khas."
+    },
+    "learningPoint": "Edema dalam kompartemen tertutup dapat menaikkan tekanan jaringan. Nyeri regangan pasif perlu evaluasi segera; gatal atau perbaikan warna saja bukan tanda khas.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  }
+]

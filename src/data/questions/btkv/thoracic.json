@@ -1,0 +1,332 @@
+[
+  {
+    "id": "BTKV-THORACIC-001",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Pada trauma dada, hipotensi disertai deviasi trakea dan hilangnya",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Pada trauma dada, hipotensi disertai deviasi trakea dan hilangnya suara napas unilateral paling mengarah pada apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Efusi pleura kronis"
+      },
+      {
+        "id": "B",
+        "text": "Atelektasis ringan"
+      },
+      {
+        "id": "C",
+        "text": "Pneumotoraks tensi"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tekanan intrapleura yang meningkat dapat menekan aliran balik vena dan menimbulkan syok obstruktif. Efusi kronis dan atelektasis ringan biasanya tidak menimbulkan kombinasi akut ini.",
+    "distractorExplanations": {
+      "A": "Pilihan “Efusi pleura kronis” tidak memenuhi konsep atau kondisi dalam soal. Tekanan intrapleura yang meningkat dapat menekan aliran balik vena dan menimbulkan syok obstruktif. Efusi kronis dan atelektasis ringan biasanya tidak menimbulkan kombinasi akut ini.",
+      "B": "Pilihan “Atelektasis ringan” tidak memenuhi konsep atau kondisi dalam soal. Tekanan intrapleura yang meningkat dapat menekan aliran balik vena dan menimbulkan syok obstruktif. Efusi kronis dan atelektasis ringan biasanya tidak menimbulkan kombinasi akut ini."
+    },
+    "learningPoint": "Tekanan intrapleura yang meningkat dapat menekan aliran balik vena dan menimbulkan syok obstruktif. Efusi kronis dan atelektasis ringan biasanya tidak menimbulkan kombinasi akut ini.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-002",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Struktur apa yang berjalan di tepi inferior iga sehingga perlu di",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Struktur apa yang berjalan di tepi inferior iga sehingga perlu diperhatikan pada pemasangan drain dada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Duktus torasikus"
+      },
+      {
+        "id": "B",
+        "text": "Berkas neurovaskular interkostal"
+      },
+      {
+        "id": "C",
+        "text": "Nervus frenikus"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Vena, arteri, dan saraf interkostal berada di sulkus kosta. Nervus frenikus berada di mediastinum, sedangkan duktus torasikus lebih posterior.",
+    "distractorExplanations": {
+      "A": "Pilihan “Duktus torasikus” tidak memenuhi konsep atau kondisi dalam soal. Vena, arteri, dan saraf interkostal berada di sulkus kosta. Nervus frenikus berada di mediastinum, sedangkan duktus torasikus lebih posterior.",
+      "C": "Pilihan “Nervus frenikus” tidak memenuhi konsep atau kondisi dalam soal. Vena, arteri, dan saraf interkostal berada di sulkus kosta. Nervus frenikus berada di mediastinum, sedangkan duktus torasikus lebih posterior."
+    },
+    "learningPoint": "Vena, arteri, dan saraf interkostal berada di sulkus kosta. Nervus frenikus berada di mediastinum, sedangkan duktus torasikus lebih posterior.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-003",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Mengapa pneumotoraks kecil dapat tampak lebih jelas pada CT diban",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Mengapa pneumotoraks kecil dapat tampak lebih jelas pada CT dibanding foto toraks terlentang?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Udara dapat terkumpul di anterior pada pasien terlentang"
+      },
+      {
+        "id": "B",
+        "text": "CT mengukur kadar hemoglobin"
+      },
+      {
+        "id": "C",
+        "text": "Semua foto toraks terlentang selalu normal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "CT dapat memperlihatkan sedikit udara di lokasi anterior yang kurang jelas pada radiografi. CT tidak mengukur hemoglobin, dan foto terlentang tetap dapat menunjukkan kelainan.",
+    "distractorExplanations": {
+      "B": "Pilihan “CT mengukur kadar hemoglobin” tidak memenuhi konsep atau kondisi dalam soal. CT dapat memperlihatkan sedikit udara di lokasi anterior yang kurang jelas pada radiografi. CT tidak mengukur hemoglobin, dan foto terlentang tetap dapat menunjukkan kelainan.",
+      "C": "Pilihan “Semua foto toraks terlentang selalu normal” tidak memenuhi konsep atau kondisi dalam soal. CT dapat memperlihatkan sedikit udara di lokasi anterior yang kurang jelas pada radiografi. CT tidak mengukur hemoglobin, dan foto terlentang tetap dapat menunjukkan kelainan."
+    },
+    "learningPoint": "CT dapat memperlihatkan sedikit udara di lokasi anterior yang kurang jelas pada radiografi. CT tidak mengukur hemoglobin, dan foto terlentang tetap dapat menunjukkan kelainan.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-004",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Cairan pleura keruh seperti susu dengan kadar trigliserida tinggi",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Cairan pleura keruh seperti susu dengan kadar trigliserida tinggi mengarah pada kondisi apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hemotoraks"
+      },
+      {
+        "id": "B",
+        "text": "Pneumotoraks"
+      },
+      {
+        "id": "C",
+        "text": "Kilotoraks"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Gangguan aliran limfe dapat menghasilkan cairan kaya kilomikron. Hemotoraks berisi darah dan pneumotoraks berisi udara.",
+    "distractorExplanations": {
+      "A": "Pilihan “Hemotoraks” tidak memenuhi konsep atau kondisi dalam soal. Gangguan aliran limfe dapat menghasilkan cairan kaya kilomikron. Hemotoraks berisi darah dan pneumotoraks berisi udara.",
+      "B": "Pilihan “Pneumotoraks” tidak memenuhi konsep atau kondisi dalam soal. Gangguan aliran limfe dapat menghasilkan cairan kaya kilomikron. Hemotoraks berisi darah dan pneumotoraks berisi udara."
+    },
+    "learningPoint": "Gangguan aliran limfe dapat menghasilkan cairan kaya kilomikron. Hemotoraks berisi darah dan pneumotoraks berisi udara.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-005",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Komplikasi apa yang dicurigai bila muncul kebocoran udara besar d",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Komplikasi apa yang dicurigai bila muncul kebocoran udara besar dan paru gagal mengembang setelah drain dada pada trauma?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kontusio jaringan subkutan saja"
+      },
+      {
+        "id": "B",
+        "text": "Cedera trakeobronkial"
+      },
+      {
+        "id": "C",
+        "text": "Fraktur klavikula sederhana"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Putusnya saluran napas besar menyebabkan kebocoran udara persisten. Cedera tulang atau jaringan superfisial saja tidak menjelaskan kegagalan ekspansi paru tersebut.",
+    "distractorExplanations": {
+      "A": "Pilihan “Kontusio jaringan subkutan saja” tidak memenuhi konsep atau kondisi dalam soal. Putusnya saluran napas besar menyebabkan kebocoran udara persisten. Cedera tulang atau jaringan superfisial saja tidak menjelaskan kegagalan ekspansi paru tersebut.",
+      "C": "Pilihan “Fraktur klavikula sederhana” tidak memenuhi konsep atau kondisi dalam soal. Putusnya saluran napas besar menyebabkan kebocoran udara persisten. Cedera tulang atau jaringan superfisial saja tidak menjelaskan kegagalan ekspansi paru tersebut."
+    },
+    "learningPoint": "Putusnya saluran napas besar menyebabkan kebocoran udara persisten. Cedera tulang atau jaringan superfisial saja tidak menjelaskan kegagalan ekspansi paru tersebut.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-006",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Tumor pada sulkus superior paru dapat menimbulkan nyeri bahu dan ",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Tumor pada sulkus superior paru dapat menimbulkan nyeri bahu dan sindrom Horner melalui keterlibatan struktur apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pleksus brakialis dan rantai simpatis"
+      },
+      {
+        "id": "B",
+        "text": "Nervus hipoglosus saja"
+      },
+      {
+        "id": "C",
+        "text": "Arteri femoralis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tumor apikal dapat mengenai pleksus brakialis dan saraf simpatis servikotorakal. Dua struktur alternatif tidak berlokasi di apeks toraks.",
+    "distractorExplanations": {
+      "B": "Pilihan “Nervus hipoglosus saja” tidak memenuhi konsep atau kondisi dalam soal. Tumor apikal dapat mengenai pleksus brakialis dan saraf simpatis servikotorakal. Dua struktur alternatif tidak berlokasi di apeks toraks.",
+      "C": "Pilihan “Arteri femoralis” tidak memenuhi konsep atau kondisi dalam soal. Tumor apikal dapat mengenai pleksus brakialis dan saraf simpatis servikotorakal. Dua struktur alternatif tidak berlokasi di apeks toraks."
+    },
+    "learningPoint": "Tumor apikal dapat mengenai pleksus brakialis dan saraf simpatis servikotorakal. Dua struktur alternatif tidak berlokasi di apeks toraks.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-007",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Apa prinsip utama penentuan resektabilitas kanker paru sebelum op",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa prinsip utama penentuan resektabilitas kanker paru sebelum operasi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ukuran tumor saja"
+      },
+      {
+        "id": "B",
+        "text": "Usia kalender saja"
+      },
+      {
+        "id": "C",
+        "text": "Penilaian stadium dan cadangan kardiopulmoner"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Manfaat onkologis harus dipertimbangkan bersama kemampuan pasien menoleransi reseksi. Ukuran dan usia saja tidak cukup menentukan kelayakan operasi.",
+    "distractorExplanations": {
+      "A": "Pilihan “Ukuran tumor saja” tidak memenuhi konsep atau kondisi dalam soal. Manfaat onkologis harus dipertimbangkan bersama kemampuan pasien menoleransi reseksi. Ukuran dan usia saja tidak cukup menentukan kelayakan operasi.",
+      "B": "Pilihan “Usia kalender saja” tidak memenuhi konsep atau kondisi dalam soal. Manfaat onkologis harus dipertimbangkan bersama kemampuan pasien menoleransi reseksi. Ukuran dan usia saja tidak cukup menentukan kelayakan operasi."
+    },
+    "learningPoint": "Manfaat onkologis harus dipertimbangkan bersama kemampuan pasien menoleransi reseksi. Ukuran dan usia saja tidak cukup menentukan kelayakan operasi.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-008",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Nyeri dada hebat setelah muntah kuat disertai emfisema subkutan m",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Nyeri dada hebat setelah muntah kuat disertai emfisema subkutan menimbulkan kecurigaan apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Otitis media"
+      },
+      {
+        "id": "B",
+        "text": "Ruptur esofagus"
+      },
+      {
+        "id": "C",
+        "text": "Gastritis sederhana"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Peningkatan tekanan mendadak dapat menyebabkan perforasi esofagus dan kontaminasi mediastinum. Gastritis tidak menjelaskan udara subkutan; otitis tidak menjelaskan gejala toraks ini.",
+    "distractorExplanations": {
+      "A": "Pilihan “Otitis media” tidak memenuhi konsep atau kondisi dalam soal. Peningkatan tekanan mendadak dapat menyebabkan perforasi esofagus dan kontaminasi mediastinum. Gastritis tidak menjelaskan udara subkutan; otitis tidak menjelaskan gejala toraks ini.",
+      "C": "Pilihan “Gastritis sederhana” tidak memenuhi konsep atau kondisi dalam soal. Peningkatan tekanan mendadak dapat menyebabkan perforasi esofagus dan kontaminasi mediastinum. Gastritis tidak menjelaskan udara subkutan; otitis tidak menjelaskan gejala toraks ini."
+    },
+    "learningPoint": "Peningkatan tekanan mendadak dapat menyebabkan perforasi esofagus dan kontaminasi mediastinum. Gastritis tidak menjelaskan udara subkutan; otitis tidak menjelaskan gejala toraks ini.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-009",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Apa fungsi utama surfaktan alveolar",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa fungsi utama surfaktan alveolar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mengurangi tegangan permukaan"
+      },
+      {
+        "id": "B",
+        "text": "Meningkatkan viskositas darah"
+      },
+      {
+        "id": "C",
+        "text": "Menutup bronkus utama"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Penurunan tegangan permukaan membantu kestabilan alveolus. Surfaktan bukan pengatur viskositas darah atau penutup jalan napas.",
+    "distractorExplanations": {
+      "B": "Pilihan “Meningkatkan viskositas darah” tidak memenuhi konsep atau kondisi dalam soal. Penurunan tegangan permukaan membantu kestabilan alveolus. Surfaktan bukan pengatur viskositas darah atau penutup jalan napas.",
+      "C": "Pilihan “Menutup bronkus utama” tidak memenuhi konsep atau kondisi dalam soal. Penurunan tegangan permukaan membantu kestabilan alveolus. Surfaktan bukan pengatur viskositas darah atau penutup jalan napas."
+    },
+    "learningPoint": "Penurunan tegangan permukaan membantu kestabilan alveolus. Surfaktan bukan pengatur viskositas darah atau penutup jalan napas.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "BTKV-THORACIC-010",
+    "program": "btkv",
+    "category": "thoracic",
+    "topic": "Pada empiema dengan lokulasi, mengapa antibiotik saja dapat tidak",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Pada empiema dengan lokulasi, mengapa antibiotik saja dapat tidak memadai?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antibiotik selalu memperbesar pus"
+      },
+      {
+        "id": "B",
+        "text": "Pleura tidak pernah terinfeksi bakteri"
+      },
+      {
+        "id": "C",
+        "text": "Rongga terinfeksi dapat memerlukan kontrol sumber"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Pus terlokulasi dapat membutuhkan drainase berdasarkan penilaian klinis. Kegagalan kontrol sumber, bukan pembesaran pus oleh semua antibiotik, menjelaskan perlunya intervensi.",
+    "distractorExplanations": {
+      "A": "Pilihan “Antibiotik selalu memperbesar pus” tidak memenuhi konsep atau kondisi dalam soal. Pus terlokulasi dapat membutuhkan drainase berdasarkan penilaian klinis. Kegagalan kontrol sumber, bukan pembesaran pus oleh semua antibiotik, menjelaskan perlunya intervensi.",
+      "B": "Pilihan “Pleura tidak pernah terinfeksi bakteri” tidak memenuhi konsep atau kondisi dalam soal. Pus terlokulasi dapat membutuhkan drainase berdasarkan penilaian klinis. Kegagalan kontrol sumber, bukan pembesaran pus oleh semua antibiotik, menjelaskan perlunya intervensi."
+    },
+    "learningPoint": "Pus terlokulasi dapat membutuhkan drainase berdasarkan penilaian klinis. Kegagalan kontrol sumber, bukan pembesaran pus oleh semua antibiotik, menjelaskan perlunya intervensi.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  }
+]

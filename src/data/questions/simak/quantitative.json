@@ -1,0 +1,332 @@
+[
+  {
+    "id": "SIMAK-QUANTITATIVE-001",
+    "program": "simak",
+    "category": "quantitative",
+    "topic": "Jika 2x − 5 = 13, berapakah x",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Jika 2x − 5 = 13, berapakah x?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tambahkan 5 sehingga 2x = 18, lalu bagi 2 dan peroleh x = 9.",
+    "distractorExplanations": {
+      "A": "Pilihan “4” tidak memenuhi konsep atau kondisi dalam soal. Tambahkan 5 sehingga 2x = 18, lalu bagi 2 dan peroleh x = 9.",
+      "B": "Pilihan “8” tidak memenuhi konsep atau kondisi dalam soal. Tambahkan 5 sehingga 2x = 18, lalu bagi 2 dan peroleh x = 9."
+    },
+    "learningPoint": "Tambahkan 5 sehingga 2x = 18, lalu bagi 2 dan peroleh x = 9.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-QUANTITATIVE-002",
+    "program": "simak",
+    "category": "quantitative",
+    "topic": "Modal Rp800.000 memperoleh bunga sederhana 6% per tahun. Berapa b",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Modal Rp800.000 memperoleh bunga sederhana 6% per tahun. Berapa bunga dua tahun?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rp192.000"
+      },
+      {
+        "id": "B",
+        "text": "Rp96.000"
+      },
+      {
+        "id": "C",
+        "text": "Rp48.000"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bunga sederhana = modal × laju × waktu = 800.000 × 0,06 × 2 = 96.000; bunga tidak dimajemukkan.",
+    "distractorExplanations": {
+      "A": "Pilihan “Rp192.000” tidak memenuhi konsep atau kondisi dalam soal. Bunga sederhana = modal × laju × waktu = 800.000 × 0,06 × 2 = 96.000; bunga tidak dimajemukkan.",
+      "C": "Pilihan “Rp48.000” tidak memenuhi konsep atau kondisi dalam soal. Bunga sederhana = modal × laju × waktu = 800.000 × 0,06 × 2 = 96.000; bunga tidak dimajemukkan."
+    },
+    "learningPoint": "Bunga sederhana = modal × laju × waktu = 800.000 × 0,06 × 2 = 96.000; bunga tidak dimajemukkan.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-QUANTITATIVE-003",
+    "program": "simak",
+    "category": "quantitative",
+    "topic": "Luas segitiga dengan alas 12 cm dan tinggi 7 cm berapa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Luas segitiga dengan alas 12 cm dan tinggi 7 cm berapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "42 cm²"
+      },
+      {
+        "id": "B",
+        "text": "84 cm²"
+      },
+      {
+        "id": "C",
+        "text": "19 cm²"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Luas = setengah × alas × tinggi = 1/2 × 12 × 7 = 42 cm².",
+    "distractorExplanations": {
+      "B": "Pilihan “84 cm²” tidak memenuhi konsep atau kondisi dalam soal. Luas = setengah × alas × tinggi = 1/2 × 12 × 7 = 42 cm².",
+      "C": "Pilihan “19 cm²” tidak memenuhi konsep atau kondisi dalam soal. Luas = setengah × alas × tinggi = 1/2 × 12 × 7 = 42 cm²."
+    },
+    "learningPoint": "Luas = setengah × alas × tinggi = 1/2 × 12 × 7 = 42 cm².",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-QUANTITATIVE-004",
+    "program": "simak",
+    "category": "quantitative",
+    "topic": "Dari 5 kandidat dipilih 2 tanpa memperhatikan urutan. Berapa pasa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Dari 5 kandidat dipilih 2 tanpa memperhatikan urutan. Berapa pasangan mungkin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "25"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kombinasi C(5,2) = 5×4/(2×1) = 10. Dua puluh menghitung urutan yang tidak dibedakan.",
+    "distractorExplanations": {
+      "A": "Pilihan “20” tidak memenuhi konsep atau kondisi dalam soal. Kombinasi C(5,2) = 5×4/(2×1) = 10. Dua puluh menghitung urutan yang tidak dibedakan.",
+      "B": "Pilihan “25” tidak memenuhi konsep atau kondisi dalam soal. Kombinasi C(5,2) = 5×4/(2×1) = 10. Dua puluh menghitung urutan yang tidak dibedakan."
+    },
+    "learningPoint": "Kombinasi C(5,2) = 5×4/(2×1) = 10. Dua puluh menghitung urutan yang tidak dibedakan.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-QUANTITATIVE-005",
+    "program": "simak",
+    "category": "quantitative",
+    "topic": "Jika y berbanding terbalik dengan x dan y=8 ketika x=3, berapakah",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Jika y berbanding terbalik dengan x dan y=8 ketika x=3, berapakah y saat x=6?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Produk xy konstan = 24. Ketika x = 6, y = 24/6 = 4.",
+    "distractorExplanations": {
+      "A": "Pilihan “8” tidak memenuhi konsep atau kondisi dalam soal. Produk xy konstan = 24. Ketika x = 6, y = 24/6 = 4.",
+      "C": "Pilihan “16” tidak memenuhi konsep atau kondisi dalam soal. Produk xy konstan = 24. Ketika x = 6, y = 24/6 = 4."
+    },
+    "learningPoint": "Produk xy konstan = 24. Ketika x = 6, y = 24/6 = 4.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-QUANTITATIVE-006",
+    "program": "simak",
+    "category": "quantitative",
+    "topic": "Berapa simpangan rentang data 3, 11, 6, 14, 9",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Berapa simpangan rentang data 3, 11, 6, 14, 9?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "14"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rentang adalah maksimum dikurangi minimum: 14 − 3 = 11. Nilai maksimum saja bukan rentang.",
+    "distractorExplanations": {
+      "B": "Pilihan “8” tidak memenuhi konsep atau kondisi dalam soal. Rentang adalah maksimum dikurangi minimum: 14 − 3 = 11. Nilai maksimum saja bukan rentang.",
+      "C": "Pilihan “14” tidak memenuhi konsep atau kondisi dalam soal. Rentang adalah maksimum dikurangi minimum: 14 − 3 = 11. Nilai maksimum saja bukan rentang."
+    },
+    "learningPoint": "Rentang adalah maksimum dikurangi minimum: 14 − 3 = 11. Nilai maksimum saja bukan rentang.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-QUANTITATIVE-007",
+    "program": "simak",
+    "category": "quantitative",
+    "topic": "Sebuah kantong berisi 4 bola merah dan 6 biru. Peluang mengambil ",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Sebuah kantong berisi 4 bola merah dan 6 biru. Peluang mengambil satu bola biru berapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2/5"
+      },
+      {
+        "id": "B",
+        "text": "1/6"
+      },
+      {
+        "id": "C",
+        "text": "3/5"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Ada 6 hasil biru dari 10 bola yang sama mungkin dipilih. Peluang = 6/10 = 3/5.",
+    "distractorExplanations": {
+      "A": "Pilihan “2/5” tidak memenuhi konsep atau kondisi dalam soal. Ada 6 hasil biru dari 10 bola yang sama mungkin dipilih. Peluang = 6/10 = 3/5.",
+      "B": "Pilihan “1/6” tidak memenuhi konsep atau kondisi dalam soal. Ada 6 hasil biru dari 10 bola yang sama mungkin dipilih. Peluang = 6/10 = 3/5."
+    },
+    "learningPoint": "Ada 6 hasil biru dari 10 bola yang sama mungkin dipilih. Peluang = 6/10 = 3/5.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-QUANTITATIVE-008",
+    "program": "simak",
+    "category": "quantitative",
+    "topic": "Jika a=−3, nilai a² + 2a berapa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Jika a=−3, nilai a² + 2a berapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "−15"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Kuadrat −3 adalah 9 dan 2a = −6. Jumlahnya 9 − 6 = 3.",
+    "distractorExplanations": {
+      "A": "Pilihan “15” tidak memenuhi konsep atau kondisi dalam soal. Kuadrat −3 adalah 9 dan 2a = −6. Jumlahnya 9 − 6 = 3.",
+      "C": "Pilihan “−15” tidak memenuhi konsep atau kondisi dalam soal. Kuadrat −3 adalah 9 dan 2a = −6. Jumlahnya 9 − 6 = 3."
+    },
+    "learningPoint": "Kuadrat −3 adalah 9 dan 2a = −6. Jumlahnya 9 − 6 = 3.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-QUANTITATIVE-009",
+    "program": "simak",
+    "category": "quantitative",
+    "topic": "Produksi naik dari 80 menjadi 100 unit. Berapa persentase kenaika",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Produksi naik dari 80 menjadi 100 unit. Berapa persentase kenaikannya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25%"
+      },
+      {
+        "id": "B",
+        "text": "20%"
+      },
+      {
+        "id": "C",
+        "text": "125%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kenaikan 20 dibagi nilai awal 80 menghasilkan 0,25 atau 25%. Membagi nilai akhir memberi basis yang keliru.",
+    "distractorExplanations": {
+      "B": "Pilihan “20%” tidak memenuhi konsep atau kondisi dalam soal. Kenaikan 20 dibagi nilai awal 80 menghasilkan 0,25 atau 25%. Membagi nilai akhir memberi basis yang keliru.",
+      "C": "Pilihan “125%” tidak memenuhi konsep atau kondisi dalam soal. Kenaikan 20 dibagi nilai awal 80 menghasilkan 0,25 atau 25%. Membagi nilai akhir memberi basis yang keliru."
+    },
+    "learningPoint": "Kenaikan 20 dibagi nilai awal 80 menghasilkan 0,25 atau 25%. Membagi nilai akhir memberi basis yang keliru.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-QUANTITATIVE-010",
+    "program": "simak",
+    "category": "quantitative",
+    "topic": "Apa jumlah sudut dalam segilima sederhana",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa jumlah sudut dalam segilima sederhana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "360°"
+      },
+      {
+        "id": "B",
+        "text": "720°"
+      },
+      {
+        "id": "C",
+        "text": "540°"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Rumus jumlah sudut dalam poligon = (n−2)×180°. Untuk n=5 hasilnya 3×180° = 540°.",
+    "distractorExplanations": {
+      "A": "Pilihan “360°” tidak memenuhi konsep atau kondisi dalam soal. Rumus jumlah sudut dalam poligon = (n−2)×180°. Untuk n=5 hasilnya 3×180° = 540°.",
+      "B": "Pilihan “720°” tidak memenuhi konsep atau kondisi dalam soal. Rumus jumlah sudut dalam poligon = (n−2)×180°. Untuk n=5 hasilnya 3×180° = 540°."
+    },
+    "learningPoint": "Rumus jumlah sudut dalam poligon = (n−2)×180°. Untuk n=5 hasilnya 3×180° = 540°.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  }
+]

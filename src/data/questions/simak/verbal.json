@@ -1,0 +1,332 @@
+[
+  {
+    "id": "SIMAK-VERBAL-001",
+    "program": "simak",
+    "category": "verbal",
+    "topic": "Sinonim paling sesuai untuk kata cermat adalah apa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Sinonim paling sesuai untuk kata cermat adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ceroboh"
+      },
+      {
+        "id": "B",
+        "text": "Gegabah"
+      },
+      {
+        "id": "C",
+        "text": "Teliti"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Cermat berarti memperhatikan detail dengan teliti. Ceroboh dan gegabah berlawanan makna.",
+    "distractorExplanations": {
+      "A": "Pilihan “Ceroboh” tidak memenuhi konsep atau kondisi dalam soal. Cermat berarti memperhatikan detail dengan teliti. Ceroboh dan gegabah berlawanan makna.",
+      "B": "Pilihan “Gegabah” tidak memenuhi konsep atau kondisi dalam soal. Cermat berarti memperhatikan detail dengan teliti. Ceroboh dan gegabah berlawanan makna."
+    },
+    "learningPoint": "Cermat berarti memperhatikan detail dengan teliti. Ceroboh dan gegabah berlawanan makna.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VERBAL-002",
+    "program": "simak",
+    "category": "verbal",
+    "topic": "Antonim kata stagnan dalam konteks perkembangan organisasi adalah",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Antonim kata stagnan dalam konteks perkembangan organisasi adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tetap"
+      },
+      {
+        "id": "B",
+        "text": "Berkembang"
+      },
+      {
+        "id": "C",
+        "text": "Mandek"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Stagnan menunjukkan keadaan tidak bergerak atau berkembang. Berkembang menyatakan perubahan maju, sedangkan mandek dan tetap dekat dengan keadaan stagnan.",
+    "distractorExplanations": {
+      "A": "Pilihan “Tetap” tidak memenuhi konsep atau kondisi dalam soal. Stagnan menunjukkan keadaan tidak bergerak atau berkembang. Berkembang menyatakan perubahan maju, sedangkan mandek dan tetap dekat dengan keadaan stagnan.",
+      "C": "Pilihan “Mandek” tidak memenuhi konsep atau kondisi dalam soal. Stagnan menunjukkan keadaan tidak bergerak atau berkembang. Berkembang menyatakan perubahan maju, sedangkan mandek dan tetap dekat dengan keadaan stagnan."
+    },
+    "learningPoint": "Stagnan menunjukkan keadaan tidak bergerak atau berkembang. Berkembang menyatakan perubahan maju, sedangkan mandek dan tetap dekat dengan keadaan stagnan.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VERBAL-003",
+    "program": "simak",
+    "category": "verbal",
+    "topic": "Benih : tanaman setara dengan telur : apa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Benih : tanaman setara dengan telur : apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ayam"
+      },
+      {
+        "id": "B",
+        "text": "Sarang"
+      },
+      {
+        "id": "C",
+        "text": "Bulu"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Relasi adalah tahap asal dan organisme hasil perkembangannya. Sarang ialah tempat, sedangkan bulu bagian tubuh.",
+    "distractorExplanations": {
+      "B": "Pilihan “Sarang” tidak memenuhi konsep atau kondisi dalam soal. Relasi adalah tahap asal dan organisme hasil perkembangannya. Sarang ialah tempat, sedangkan bulu bagian tubuh.",
+      "C": "Pilihan “Bulu” tidak memenuhi konsep atau kondisi dalam soal. Relasi adalah tahap asal dan organisme hasil perkembangannya. Sarang ialah tempat, sedangkan bulu bagian tubuh."
+    },
+    "learningPoint": "Relasi adalah tahap asal dan organisme hasil perkembangannya. Sarang ialah tempat, sedangkan bulu bagian tubuh.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VERBAL-004",
+    "program": "simak",
+    "category": "verbal",
+    "topic": "Kalimat penelitian itu bersifat empiris berarti penelitian itu be",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Kalimat penelitian itu bersifat empiris berarti penelitian itu bertumpu pada apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dugaan tanpa pengujian"
+      },
+      {
+        "id": "B",
+        "text": "Kewenangan jabatan saja"
+      },
+      {
+        "id": "C",
+        "text": "Pengamatan dan bukti pengalaman"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Empiris merujuk pada bukti yang dapat diamati. Dugaan dan otoritas tanpa observasi tidak cukup disebut empiris.",
+    "distractorExplanations": {
+      "A": "Pilihan “Dugaan tanpa pengujian” tidak memenuhi konsep atau kondisi dalam soal. Empiris merujuk pada bukti yang dapat diamati. Dugaan dan otoritas tanpa observasi tidak cukup disebut empiris.",
+      "B": "Pilihan “Kewenangan jabatan saja” tidak memenuhi konsep atau kondisi dalam soal. Empiris merujuk pada bukti yang dapat diamati. Dugaan dan otoritas tanpa observasi tidak cukup disebut empiris."
+    },
+    "learningPoint": "Empiris merujuk pada bukti yang dapat diamati. Dugaan dan otoritas tanpa observasi tidak cukup disebut empiris.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VERBAL-005",
+    "program": "simak",
+    "category": "verbal",
+    "topic": "Perpustakaan memperpanjang jam buka, tetapi kunjungan tidak menin",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Perpustakaan memperpanjang jam buka, tetapi kunjungan tidak meningkat. Kesimpulan paling hati-hati mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perpustakaan pasti akan tutup"
+      },
+      {
+        "id": "B",
+        "text": "Perpanjangan jam belum disertai kenaikan kunjungan"
+      },
+      {
+        "id": "C",
+        "text": "Semua pembaca membenci buku"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Teks hanya menyatakan dua pengamatan. Preferensi semua pembaca dan penutupan merupakan klaim tambahan tanpa dasar.",
+    "distractorExplanations": {
+      "A": "Pilihan “Perpustakaan pasti akan tutup” tidak memenuhi konsep atau kondisi dalam soal. Teks hanya menyatakan dua pengamatan. Preferensi semua pembaca dan penutupan merupakan klaim tambahan tanpa dasar.",
+      "C": "Pilihan “Semua pembaca membenci buku” tidak memenuhi konsep atau kondisi dalam soal. Teks hanya menyatakan dua pengamatan. Preferensi semua pembaca dan penutupan merupakan klaim tambahan tanpa dasar."
+    },
+    "learningPoint": "Teks hanya menyatakan dua pengamatan. Preferensi semua pembaca dan penutupan merupakan klaim tambahan tanpa dasar.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VERBAL-006",
+    "program": "simak",
+    "category": "verbal",
+    "topic": "Makna kata parsial adalah apa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Makna kata parsial adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebagian"
+      },
+      {
+        "id": "B",
+        "text": "Menyeluruh"
+      },
+      {
+        "id": "C",
+        "text": "Abadi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Parsial berkaitan dengan bagian dari keseluruhan. Menyeluruh merupakan lawan cakupan; abadi berkaitan dengan waktu.",
+    "distractorExplanations": {
+      "B": "Pilihan “Menyeluruh” tidak memenuhi konsep atau kondisi dalam soal. Parsial berkaitan dengan bagian dari keseluruhan. Menyeluruh merupakan lawan cakupan; abadi berkaitan dengan waktu.",
+      "C": "Pilihan “Abadi” tidak memenuhi konsep atau kondisi dalam soal. Parsial berkaitan dengan bagian dari keseluruhan. Menyeluruh merupakan lawan cakupan; abadi berkaitan dengan waktu."
+    },
+    "learningPoint": "Parsial berkaitan dengan bagian dari keseluruhan. Menyeluruh merupakan lawan cakupan; abadi berkaitan dengan waktu.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VERBAL-007",
+    "program": "simak",
+    "category": "verbal",
+    "topic": "Semua editor membaca naskah. Lila tidak membaca naskah. Apa kesim",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Semua editor membaca naskah. Lila tidak membaca naskah. Apa kesimpulan yang sah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lila pasti editor"
+      },
+      {
+        "id": "B",
+        "text": "Semua pembaca adalah editor"
+      },
+      {
+        "id": "C",
+        "text": "Lila bukan editor"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Dari editor mengimplikasikan membaca, negasi membaca mengimplikasikan bukan editor. Arah sebaliknya tidak dijamin.",
+    "distractorExplanations": {
+      "A": "Pilihan “Lila pasti editor” tidak memenuhi konsep atau kondisi dalam soal. Dari editor mengimplikasikan membaca, negasi membaca mengimplikasikan bukan editor. Arah sebaliknya tidak dijamin.",
+      "B": "Pilihan “Semua pembaca adalah editor” tidak memenuhi konsep atau kondisi dalam soal. Dari editor mengimplikasikan membaca, negasi membaca mengimplikasikan bukan editor. Arah sebaliknya tidak dijamin."
+    },
+    "learningPoint": "Dari editor mengimplikasikan membaca, negasi membaca mengimplikasikan bukan editor. Arah sebaliknya tidak dijamin.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VERBAL-008",
+    "program": "simak",
+    "category": "verbal",
+    "topic": "Apa relasi pada pasangan arsip : dokumen",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Apa relasi pada pasangan arsip : dokumen?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alat dan ukuran suhu"
+      },
+      {
+        "id": "B",
+        "text": "Kumpulan yang memuat anggotanya"
+      },
+      {
+        "id": "C",
+        "text": "Penyebab dan penyakit"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Arsip dapat berisi kumpulan dokumen. Dua relasi alternatif tidak menggambarkan pasangan kata itu.",
+    "distractorExplanations": {
+      "A": "Pilihan “Alat dan ukuran suhu” tidak memenuhi konsep atau kondisi dalam soal. Arsip dapat berisi kumpulan dokumen. Dua relasi alternatif tidak menggambarkan pasangan kata itu.",
+      "C": "Pilihan “Penyebab dan penyakit” tidak memenuhi konsep atau kondisi dalam soal. Arsip dapat berisi kumpulan dokumen. Dua relasi alternatif tidak menggambarkan pasangan kata itu."
+    },
+    "learningPoint": "Arsip dapat berisi kumpulan dokumen. Dua relasi alternatif tidak menggambarkan pasangan kata itu.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VERBAL-009",
+    "program": "simak",
+    "category": "verbal",
+    "topic": "Program daur ulang memerlukan pemilahan. Tanpa pemilahan, bahan t",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Program daur ulang memerlukan pemilahan. Tanpa pemilahan, bahan tercampur dan sulit diolah. Apa simpulan utama?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pemilahan mendukung keberhasilan pengolahan"
+      },
+      {
+        "id": "B",
+        "text": "Semua bahan harus dibakar"
+      },
+      {
+        "id": "C",
+        "text": "Daur ulang selalu gagal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pernyataan menjelaskan fungsi pemilahan dalam memudahkan pengolahan. Pembakaran dan kegagalan universal tidak didukung.",
+    "distractorExplanations": {
+      "B": "Pilihan “Semua bahan harus dibakar” tidak memenuhi konsep atau kondisi dalam soal. Pernyataan menjelaskan fungsi pemilahan dalam memudahkan pengolahan. Pembakaran dan kegagalan universal tidak didukung.",
+      "C": "Pilihan “Daur ulang selalu gagal” tidak memenuhi konsep atau kondisi dalam soal. Pernyataan menjelaskan fungsi pemilahan dalam memudahkan pengolahan. Pembakaran dan kegagalan universal tidak didukung."
+    },
+    "learningPoint": "Pernyataan menjelaskan fungsi pemilahan dalam memudahkan pengolahan. Pembakaran dan kegagalan universal tidak didukung.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "SIMAK-VERBAL-010",
+    "program": "simak",
+    "category": "verbal",
+    "topic": "Frasa konsensus ilmiah merujuk terutama pada apa",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Frasa konsensus ilmiah merujuk terutama pada apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pendapat satu orang tanpa data"
+      },
+      {
+        "id": "B",
+        "text": "Pemungutan suara yang menggantikan semua bukti"
+      },
+      {
+        "id": "C",
+        "text": "Kesepakatan luas berdasarkan bukti ilmiah"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Konsensus ilmiah lahir dari penilaian bukti oleh komunitas terkait. Satu opini atau voting tanpa bukti tidak menjelaskan maknanya.",
+    "distractorExplanations": {
+      "A": "Pilihan “Pendapat satu orang tanpa data” tidak memenuhi konsep atau kondisi dalam soal. Konsensus ilmiah lahir dari penilaian bukti oleh komunitas terkait. Satu opini atau voting tanpa bukti tidak menjelaskan maknanya.",
+      "B": "Pilihan “Pemungutan suara yang menggantikan semua bukti” tidak memenuhi konsep atau kondisi dalam soal. Konsensus ilmiah lahir dari penilaian bukti oleh komunitas terkait. Satu opini atau voting tanpa bukti tidak menjelaskan maknanya."
+    },
+    "learningPoint": "Konsensus ilmiah lahir dari penilaian bukti oleh komunitas terkait. Satu opini atau voting tanpa bukti tidak menjelaskan maknanya.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  }
+]

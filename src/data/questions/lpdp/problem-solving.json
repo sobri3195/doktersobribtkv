@@ -1,0 +1,332 @@
+[
+  {
+    "id": "LPDP-PROBLEM-SOLVING-001",
+    "program": "lpdp",
+    "category": "problem-solving",
+    "topic": "A harus sebelum B, dan B sebelum C. Urutan mana yang memenuhi sem",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "A harus sebelum B, dan B sebelum C. Urutan mana yang memenuhi semua syarat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "B-A-C"
+      },
+      {
+        "id": "B",
+        "text": "C-B-A"
+      },
+      {
+        "id": "C",
+        "text": "A-B-C"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Relasi transitif mensyaratkan A mendahului B dan C, sedangkan B mendahului C. Dua urutan lainnya melanggar setidaknya satu syarat.",
+    "distractorExplanations": {
+      "A": "Pilihan “B-A-C” tidak memenuhi konsep atau kondisi dalam soal. Relasi transitif mensyaratkan A mendahului B dan C, sedangkan B mendahului C. Dua urutan lainnya melanggar setidaknya satu syarat.",
+      "B": "Pilihan “C-B-A” tidak memenuhi konsep atau kondisi dalam soal. Relasi transitif mensyaratkan A mendahului B dan C, sedangkan B mendahului C. Dua urutan lainnya melanggar setidaknya satu syarat."
+    },
+    "learningPoint": "Relasi transitif mensyaratkan A mendahului B dan C, sedangkan B mendahului C. Dua urutan lainnya melanggar setidaknya satu syarat.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-PROBLEM-SOLVING-002",
+    "program": "lpdp",
+    "category": "problem-solving",
+    "topic": "Tiga mesin identik membuat 90 unit dalam 2 jam. Berapa mesin dipe",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Tiga mesin identik membuat 90 unit dalam 2 jam. Berapa mesin diperlukan untuk 150 unit dalam 2 jam?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Satu mesin menghasilkan 90/(3×2) = 15 unit per jam. Untuk 150 unit dalam 2 jam dibutuhkan 150/30 = 5 mesin.",
+    "distractorExplanations": {
+      "A": "Pilihan “6” tidak memenuhi konsep atau kondisi dalam soal. Satu mesin menghasilkan 90/(3×2) = 15 unit per jam. Untuk 150 unit dalam 2 jam dibutuhkan 150/30 = 5 mesin.",
+      "C": "Pilihan “4” tidak memenuhi konsep atau kondisi dalam soal. Satu mesin menghasilkan 90/(3×2) = 15 unit per jam. Untuk 150 unit dalam 2 jam dibutuhkan 150/30 = 5 mesin."
+    },
+    "learningPoint": "Satu mesin menghasilkan 90/(3×2) = 15 unit per jam. Untuk 150 unit dalam 2 jam dibutuhkan 150/30 = 5 mesin.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-PROBLEM-SOLVING-003",
+    "program": "lpdp",
+    "category": "problem-solving",
+    "topic": "Bus berangkat tiap 18 menit mulai 08.00. Penumpang tiba 08.25. Be",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Bus berangkat tiap 18 menit mulai 08.00. Penumpang tiba 08.25. Berapa menit ia menunggu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Keberangkatan berturut-turut 08.00, 08.18, 08.36. Sesudah 08.25 bus terdekat 08.36 sehingga menunggu 11 menit.",
+    "distractorExplanations": {
+      "B": "Pilihan “7” tidak memenuhi konsep atau kondisi dalam soal. Keberangkatan berturut-turut 08.00, 08.18, 08.36. Sesudah 08.25 bus terdekat 08.36 sehingga menunggu 11 menit.",
+      "C": "Pilihan “18” tidak memenuhi konsep atau kondisi dalam soal. Keberangkatan berturut-turut 08.00, 08.18, 08.36. Sesudah 08.25 bus terdekat 08.36 sehingga menunggu 11 menit."
+    },
+    "learningPoint": "Keberangkatan berturut-turut 08.00, 08.18, 08.36. Sesudah 08.25 bus terdekat 08.36 sehingga menunggu 11 menit.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-PROBLEM-SOLVING-004",
+    "program": "lpdp",
+    "category": "problem-solving",
+    "topic": "Anggaran Rp900.000 harus membiayai 3 kegiatan sama besar. Satu ke",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Anggaran Rp900.000 harus membiayai 3 kegiatan sama besar. Satu kegiatan mendapat tambahan Rp60.000 dari luar. Berapa sisa anggaran awal setelah alokasi merata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rp60.000"
+      },
+      {
+        "id": "B",
+        "text": "Rp300.000"
+      },
+      {
+        "id": "C",
+        "text": "Rp0"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Pembagian awal 900.000/3 = 300.000 menghabiskan anggaran awal. Tambahan berasal dari luar dan tidak mengubah sisa anggaran awal.",
+    "distractorExplanations": {
+      "A": "Pilihan “Rp60.000” tidak memenuhi konsep atau kondisi dalam soal. Pembagian awal 900.000/3 = 300.000 menghabiskan anggaran awal. Tambahan berasal dari luar dan tidak mengubah sisa anggaran awal.",
+      "B": "Pilihan “Rp300.000” tidak memenuhi konsep atau kondisi dalam soal. Pembagian awal 900.000/3 = 300.000 menghabiskan anggaran awal. Tambahan berasal dari luar dan tidak mengubah sisa anggaran awal."
+    },
+    "learningPoint": "Pembagian awal 900.000/3 = 300.000 menghabiskan anggaran awal. Tambahan berasal dari luar dan tidak mengubah sisa anggaran awal.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-PROBLEM-SOLVING-005",
+    "program": "lpdp",
+    "category": "problem-solving",
+    "topic": "Dua buku sejarah harus berdampingan di antara total empat buku be",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Dua buku sejarah harus berdampingan di antara total empat buku berbeda. Berapa susunan linear mungkin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Satukan dua buku sejarah menjadi satu blok. Tiga objek tersusun 3! = 6 cara; isi blok 2 cara, total 12.",
+    "distractorExplanations": {
+      "A": "Pilihan “6” tidak memenuhi konsep atau kondisi dalam soal. Satukan dua buku sejarah menjadi satu blok. Tiga objek tersusun 3! = 6 cara; isi blok 2 cara, total 12.",
+      "C": "Pilihan “24” tidak memenuhi konsep atau kondisi dalam soal. Satukan dua buku sejarah menjadi satu blok. Tiga objek tersusun 3! = 6 cara; isi blok 2 cara, total 12."
+    },
+    "learningPoint": "Satukan dua buku sejarah menjadi satu blok. Tiga objek tersusun 3! = 6 cara; isi blok 2 cara, total 12.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-PROBLEM-SOLVING-006",
+    "program": "lpdp",
+    "category": "problem-solving",
+    "topic": "Sebuah tugas selesai oleh A dalam 6 hari atau B dalam 3 hari. Jik",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Sebuah tugas selesai oleh A dalam 6 hari atau B dalam 3 hari. Jika bekerja bersama, berapa hari diperlukan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Laju gabungan = 1/6 + 1/3 = 1/2 tugas per hari. Satu tugas memerlukan 2 hari dengan asumsi laju tetap dan independen.",
+    "distractorExplanations": {
+      "B": "Pilihan “3” tidak memenuhi konsep atau kondisi dalam soal. Laju gabungan = 1/6 + 1/3 = 1/2 tugas per hari. Satu tugas memerlukan 2 hari dengan asumsi laju tetap dan independen.",
+      "C": "Pilihan “4” tidak memenuhi konsep atau kondisi dalam soal. Laju gabungan = 1/6 + 1/3 = 1/2 tugas per hari. Satu tugas memerlukan 2 hari dengan asumsi laju tetap dan independen."
+    },
+    "learningPoint": "Laju gabungan = 1/6 + 1/3 = 1/2 tugas per hari. Satu tugas memerlukan 2 hari dengan asumsi laju tetap dan independen.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-PROBLEM-SOLVING-007",
+    "program": "lpdp",
+    "category": "problem-solving",
+    "topic": "Gudang memiliki 120 unit. Permintaan 35, 45, dan 50 harus dipenuh",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Gudang memiliki 120 unit. Permintaan 35, 45, dan 50 harus dipenuhi berurutan tanpa restok. Berapa kekurangan untuk permintaan terakhir?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Dua permintaan pertama menghabiskan 80 sehingga tersisa 40. Permintaan terakhir 50 kekurangan 10.",
+    "distractorExplanations": {
+      "A": "Pilihan “0” tidak memenuhi konsep atau kondisi dalam soal. Dua permintaan pertama menghabiskan 80 sehingga tersisa 40. Permintaan terakhir 50 kekurangan 10.",
+      "B": "Pilihan “15” tidak memenuhi konsep atau kondisi dalam soal. Dua permintaan pertama menghabiskan 80 sehingga tersisa 40. Permintaan terakhir 50 kekurangan 10."
+    },
+    "learningPoint": "Dua permintaan pertama menghabiskan 80 sehingga tersisa 40. Permintaan terakhir 50 kekurangan 10.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-PROBLEM-SOLVING-008",
+    "program": "lpdp",
+    "category": "problem-solving",
+    "topic": "Semua anggota tim memilih satu hari Senin atau Selasa. Dita tidak",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Semua anggota tim memilih satu hari Senin atau Selasa. Dita tidak dapat Senin. Hari apa yang harus dipilih Dita?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rabu"
+      },
+      {
+        "id": "B",
+        "text": "Selasa"
+      },
+      {
+        "id": "C",
+        "text": "Senin"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dua pilihan bersifat lengkap. Mengeliminasi Senin menyisakan Selasa; Rabu tidak termasuk opsi yang diizinkan.",
+    "distractorExplanations": {
+      "A": "Pilihan “Rabu” tidak memenuhi konsep atau kondisi dalam soal. Dua pilihan bersifat lengkap. Mengeliminasi Senin menyisakan Selasa; Rabu tidak termasuk opsi yang diizinkan.",
+      "C": "Pilihan “Senin” tidak memenuhi konsep atau kondisi dalam soal. Dua pilihan bersifat lengkap. Mengeliminasi Senin menyisakan Selasa; Rabu tidak termasuk opsi yang diizinkan."
+    },
+    "learningPoint": "Dua pilihan bersifat lengkap. Mengeliminasi Senin menyisakan Selasa; Rabu tidak termasuk opsi yang diizinkan.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-PROBLEM-SOLVING-009",
+    "program": "lpdp",
+    "category": "problem-solving",
+    "topic": "Untuk menguji apakah lampu rusak atau stopkontak rusak, tindakan ",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Untuk menguji apakah lampu rusak atau stopkontak rusak, tindakan awal paling informatif mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coba lampu pada stopkontak lain yang berfungsi"
+      },
+      {
+        "id": "B",
+        "text": "Mengecat lampu"
+      },
+      {
+        "id": "C",
+        "text": "Membuang kabel tanpa pengujian"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mengubah satu faktor dengan pembanding yang diketahui berfungsi membantu mengisolasi penyebab. Pengecatan dan pembuangan tanpa tes tidak menguji hipotesis.",
+    "distractorExplanations": {
+      "B": "Pilihan “Mengecat lampu” tidak memenuhi konsep atau kondisi dalam soal. Mengubah satu faktor dengan pembanding yang diketahui berfungsi membantu mengisolasi penyebab. Pengecatan dan pembuangan tanpa tes tidak menguji hipotesis.",
+      "C": "Pilihan “Membuang kabel tanpa pengujian” tidak memenuhi konsep atau kondisi dalam soal. Mengubah satu faktor dengan pembanding yang diketahui berfungsi membantu mengisolasi penyebab. Pengecatan dan pembuangan tanpa tes tidak menguji hipotesis."
+    },
+    "learningPoint": "Mengubah satu faktor dengan pembanding yang diketahui berfungsi membantu mengisolasi penyebab. Pengecatan dan pembuangan tanpa tes tidak menguji hipotesis.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "LPDP-PROBLEM-SOLVING-010",
+    "program": "lpdp",
+    "category": "problem-solving",
+    "topic": "Pengiriman termurah Rp20.000 memerlukan 4 hari; pilihan Rp35.000 ",
+    "subtopic": "Konsep dan penalaran",
+    "difficulty": "medium",
+    "type": "single_choice",
+    "question": "Pengiriman termurah Rp20.000 memerlukan 4 hari; pilihan Rp35.000 memerlukan 2 hari. Batas waktu 3 hari. Pilihan mana memenuhi tenggat dengan biaya minimum?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pilihan Rp20.000"
+      },
+      {
+        "id": "B",
+        "text": "Keduanya memenuhi tenggat"
+      },
+      {
+        "id": "C",
+        "text": "Pilihan Rp35.000"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kendala waktu mengeliminasi pengiriman 4 hari. Dari pilihan tersedia, layanan 2 hari satu-satunya yang layak.",
+    "distractorExplanations": {
+      "A": "Pilihan “Pilihan Rp20.000” tidak memenuhi konsep atau kondisi dalam soal. Kendala waktu mengeliminasi pengiriman 4 hari. Dari pilihan tersedia, layanan 2 hari satu-satunya yang layak.",
+      "B": "Pilihan “Keduanya memenuhi tenggat” tidak memenuhi konsep atau kondisi dalam soal. Kendala waktu mengeliminasi pengiriman 4 hari. Dari pilihan tersedia, layanan 2 hari satu-satunya yang layak."
+    },
+    "learningPoint": "Kendala waktu mengeliminasi pengiriman 4 hari. Dari pilihan tersedia, layanan 2 hari satu-satunya yang layak.",
+    "sourceType": "original_practice",
+    "reviewStatus": "draft"
+  }
+]
