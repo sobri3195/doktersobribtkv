@@ -1,8 +1,280 @@
-import {useState} from 'react';
-import {useStore} from '../stores/useStore';
-import {mergeBank,bundled} from '../data/bank';
-import {questionSchema,type Question,categories} from '../services/model';
-import {parseQuestions,exportCSV} from '../services/import-export';
-import {download} from '../services/storage';
-import {Card,Heading} from '../components/UI';
-export function Admin(){const {data:d,update}=useStore();const bank=mergeBank(d.localQuestions,d.disabled);const [search,setSearch]=useState('');const [cat,setCat]=useState('');const [editor,setEditor]=useState('');const [preview,setPreview]=useState<Question[]>([]);const [message,setMessage]=useState('');const [deleteId,setDeleteId]=useState('');const filtered=bank.filter(q=>q.program===d.program&&(!cat||q.category===cat)&&`${q.id} ${q.question}`.toLowerCase().includes(search.toLowerCase()));function apply(questions:Question[]){if(d.attempt&&!d.attempt.submitted){setMessage('Selesaikan sesi aktif sebelum mengubah bank soal.');return;}update(s=>({...s,localQuestions:[...s.localQuestions.filter(q=>!questions.some(v=>v.id===q.id)),...questions]}));setPreview([]);setEditor('');setMessage(`${questions.length} soal disimpan lokal. ID yang sama adalah override eksplisit.`);}return <><Heading eyebrow="KONTEN DI PERANGKAT INI" title="Kelola soal"/><p className="notice">Pengelola lokal tanpa autentikasi admin. Perubahan tidak dibagikan ke pengguna lain. Pembaruan bersama memerlukan perubahan JSON di repositori dan deploy ulang. Soal bawaan tetap utuh; ID yang sama membuat override lokal.</p><Card><h2>Impor & ekspor</h2><div className="filters"><label>Pilih JSON atau CSV<input type="file" accept=".json,.csv" onChange={async e=>{try{const f=e.target.files?.[0];if(f){const parsed=parseQuestions(await f.text(),f.name.endsWith('.csv'));if(parsed.some(q=>q.passageId))throw Error('Impor passageId belum didukung; sertakan teks bacaan dalam stem.');setPreview(parsed);}}catch(err){setMessage(String(err));}e.target.value='';}}/></label><button onClick={()=>download('nexam-bank.json',JSON.stringify(bank,null,2))}>Ekspor JSON</button><button onClick={()=>download('nexam-bank.csv',exportCSV(bank),'text/csv')}>Ekspor CSV</button></div>{preview.length>0&&<div className="notice"><h3>Pratinjau {preview.length} soal</h3><p>{preview.filter(q=>bank.some(b=>b.id===q.id)).length} ID sudah ada dan akan ditimpa secara lokal.</p>{preview.slice(0,5).map(q=><p key={q.id}>{q.id}: {q.question}</p>)}<button className="button" onClick={()=>apply(preview)}>Konfirmasi impor</button><button onClick={()=>setPreview([])}>Batal</button></div>}</Card><Card><h2>Tambah / edit soal</h2><p>Editor JSON memakai format yang sama dengan bank statis. Validasi dijalankan sebelum penyimpanan. Gunakan ID baru untuk soal baru.</p><button onClick={()=>setEditor(JSON.stringify({...bundled.find(q=>q.program===d.program),id:`LOCAL-${crypto.randomUUID()}`},null,2))}>Buka format dari soal yang ada</button><label>JSON satu soal<textarea className="code-editor" aria-label="JSON soal" value={editor} onChange={e=>setEditor(e.target.value)}/></label><button className="button" disabled={!editor.trim()} onClick={()=>{try{const q=questionSchema.parse(JSON.parse(editor));if(q.passageId)throw Error('passageId belum didukung.');setPreview([q]);}catch(err){setMessage(String(err));}}}>Validasi & pratinjau</button></Card><Card><h2>Jumlah per kategori</h2>{Object.entries(categories[d.program]).map(([id,label])=><p key={id}>{label}: {bank.filter(q=>q.program===d.program&&q.category===id&&!q.disabled).length} aktif / {bundled.filter(q=>q.program===d.program&&q.category===id).length} bawaan</p>)}</Card><div className="filters"><label>Cari<input value={search} onChange={e=>setSearch(e.target.value)}/></label><label>Kategori<select value={cat} onChange={e=>setCat(e.target.value)}><option value="">Semua</option>{Object.entries(categories[d.program]).map(([id,label])=><option key={id} value={id}>{label}</option>)}</select></label></div>{filtered.map(q=><Card key={q.id}><span className="tag">{q.id} · {d.localQuestions.some(l=>l.id===q.id)?'Lokal / override':'Bawaan'}</span><h3>{q.question}</h3><div className="filters"><button onClick={()=>{setEditor(JSON.stringify(q,null,2));window.scrollTo({top:0,behavior:'smooth'});}}>Edit / buat override</button><button disabled={!!d.attempt&&!d.attempt.submitted} onClick={()=>update(s=>({...s,disabled:s.disabled.includes(q.id)?s.disabled.filter(id=>id!==q.id):[...s.disabled,q.id]}))}>{q.disabled?'Aktifkan':'Nonaktifkan'}</button>{d.localQuestions.some(l=>l.id===q.id)&&<button disabled={!!d.attempt&&!d.attempt.submitted} onClick={()=>setDeleteId(q.id)}>Hapus lokal</button>}</div></Card>)}{deleteId&&<div className="modal-overlay"><section className="modal" role="alertdialog" aria-modal="true" aria-label="Hapus soal lokal"><h2>Hapus {deleteId}?</h2><p>Jika ini override, versi bawaan akan digunakan lagi.</p><button autoFocus onClick={()=>setDeleteId('')}>Batal</button><button className="danger" onClick={()=>{update(s=>({...s,localQuestions:s.localQuestions.filter(q=>q.id!==deleteId)}));setDeleteId('');}}>Ya, hapus lokal</button></section></div>}{message&&<p className="toast" role="status">{message}<button onClick={()=>setMessage('')}>Tutup</button></p>}</>;}
+import { useState } from "react";
+import { useStore } from "../stores/useStore";
+import { mergeBank, bundled } from "../data/bank";
+import { questionSchema, type Question, categories } from "../services/model";
+import { parseQuestions, exportCSV } from "../services/import-export";
+import { download } from "../services/storage";
+import { Card, Heading } from "../components/UI";
+export function Admin() {
+  const { data: d, update } = useStore();
+  const bank = mergeBank(d.localQuestions, d.disabled);
+  const [search, setSearch] = useState("");
+  const [cat, setCat] = useState("");
+  const [editor, setEditor] = useState("");
+  const [preview, setPreview] = useState<Question[]>([]);
+  const [message, setMessage] = useState("");
+  const [deleteId, setDeleteId] = useState("");
+  const filtered = bank.filter(
+    (q) =>
+      q.program === d.program &&
+      (!cat || q.category === cat) &&
+      `${q.id} ${q.question}`.toLowerCase().includes(search.toLowerCase()),
+  );
+  function apply(questions: Question[]) {
+    if (d.attempt && !d.attempt.submitted) {
+      setMessage("Selesaikan sesi aktif sebelum mengubah bank soal.");
+      return;
+    }
+    update((s) => ({
+      ...s,
+      localQuestions: [
+        ...s.localQuestions.filter(
+          (q) => !questions.some((v) => v.id === q.id),
+        ),
+        ...questions,
+      ],
+    }));
+    setPreview([]);
+    setEditor("");
+    setMessage(
+      `${questions.length} soal disimpan lokal. ID yang sama adalah override eksplisit.`,
+    );
+  }
+  return (
+    <>
+      <Heading eyebrow="KONTEN DI PERANGKAT INI" title="Kelola soal" />
+      <p className="notice">
+        Pengelola lokal tanpa autentikasi admin. Perubahan tidak dibagikan ke
+        pengguna lain. Pembaruan bersama memerlukan perubahan JSON di repositori
+        dan deploy ulang. Soal bawaan tetap utuh; ID yang sama membuat override
+        lokal.
+      </p>
+      <Card>
+        <h2>Impor & ekspor</h2>
+        <div className="filters">
+          <label>
+            Pilih JSON atau CSV
+            <input
+              type="file"
+              accept=".json,.csv"
+              onChange={async (e) => {
+                try {
+                  const f = e.target.files?.[0];
+                  if (f) {
+                    const parsed = parseQuestions(
+                      await f.text(),
+                      f.name.endsWith(".csv"),
+                    );
+                    if (parsed.some((q) => q.passageId))
+                      throw Error(
+                        "Impor passageId belum didukung; sertakan teks bacaan dalam stem.",
+                      );
+                    setPreview(parsed);
+                  }
+                } catch (err) {
+                  setMessage(String(err));
+                }
+                e.target.value = "";
+              }}
+            />
+          </label>
+          <button
+            onClick={() =>
+              download("nexam-bank.json", JSON.stringify(bank, null, 2))
+            }
+          >
+            Ekspor JSON
+          </button>
+          <button
+            onClick={() =>
+              download("nexam-bank.csv", exportCSV(bank), "text/csv")
+            }
+          >
+            Ekspor CSV
+          </button>
+        </div>
+        {preview.length > 0 && (
+          <div className="notice">
+            <h3>Pratinjau {preview.length} soal</h3>
+            <p>
+              {preview.filter((q) => bank.some((b) => b.id === q.id)).length} ID
+              sudah ada dan akan ditimpa secara lokal.
+            </p>
+            {preview.slice(0, 5).map((q) => (
+              <p key={q.id}>
+                {q.id}: {q.question}
+              </p>
+            ))}
+            <button className="button" onClick={() => apply(preview)}>
+              Konfirmasi impor
+            </button>
+            <button onClick={() => setPreview([])}>Batal</button>
+          </div>
+        )}
+      </Card>
+      <Card>
+        <h2>Tambah / edit soal</h2>
+        <p>
+          Editor JSON memakai format yang sama dengan bank statis. Validasi
+          dijalankan sebelum penyimpanan. Gunakan ID baru untuk soal baru.
+        </p>
+        <button
+          onClick={() =>
+            setEditor(
+              JSON.stringify(
+                {
+                  ...bundled.find((q) => q.program === d.program),
+                  id: `LOCAL-${crypto.randomUUID()}`,
+                },
+                null,
+                2,
+              ),
+            )
+          }
+        >
+          Buka format dari soal yang ada
+        </button>
+        <label>
+          JSON satu soal
+          <textarea
+            className="code-editor"
+            aria-label="JSON soal"
+            value={editor}
+            onChange={(e) => setEditor(e.target.value)}
+          />
+        </label>
+        <button
+          className="button"
+          disabled={!editor.trim()}
+          onClick={() => {
+            try {
+              const q = questionSchema.parse(JSON.parse(editor));
+              if (q.passageId) throw Error("passageId belum didukung.");
+              setPreview([q]);
+            } catch (err) {
+              setMessage(String(err));
+            }
+          }}
+        >
+          Validasi & pratinjau
+        </button>
+      </Card>
+      <Card>
+        <h2>Jumlah per kategori</h2>
+        {Object.entries(categories[d.program]).map(([id, label]) => (
+          <p key={id}>
+            {label}:{" "}
+            {
+              bank.filter(
+                (q) =>
+                  q.program === d.program && q.category === id && !q.disabled,
+              ).length
+            }{" "}
+            aktif /{" "}
+            {
+              bundled.filter(
+                (q) => q.program === d.program && q.category === id,
+              ).length
+            }{" "}
+            bawaan
+          </p>
+        ))}
+      </Card>
+      <div className="filters">
+        <label>
+          Cari
+          <input value={search} onChange={(e) => setSearch(e.target.value)} />
+        </label>
+        <label>
+          Kategori
+          <select value={cat} onChange={(e) => setCat(e.target.value)}>
+            <option value="">Semua</option>
+            {Object.entries(categories[d.program]).map(([id, label]) => (
+              <option key={id} value={id}>
+                {label}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
+      {filtered.map((q) => (
+        <Card key={q.id}>
+          <span className="tag">
+            {q.id} ·{" "}
+            {d.localQuestions.some((l) => l.id === q.id)
+              ? "Lokal / override"
+              : "Bawaan"}
+          </span>
+          <h3>{q.question}</h3>
+          <div className="filters">
+            <button
+              onClick={() => {
+                setEditor(JSON.stringify(q, null, 2));
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
+            >
+              Edit / buat override
+            </button>
+            <button
+              disabled={!!d.attempt && !d.attempt.submitted}
+              onClick={() =>
+                update((s) => ({
+                  ...s,
+                  disabled: s.disabled.includes(q.id)
+                    ? s.disabled.filter((id) => id !== q.id)
+                    : [...s.disabled, q.id],
+                }))
+              }
+            >
+              {q.disabled ? "Aktifkan" : "Nonaktifkan"}
+            </button>
+            {d.localQuestions.some((l) => l.id === q.id) && (
+              <button
+                disabled={!!d.attempt && !d.attempt.submitted}
+                onClick={() => setDeleteId(q.id)}
+              >
+                Hapus lokal
+              </button>
+            )}
+          </div>
+        </Card>
+      ))}
+      {deleteId && (
+        <div className="modal-overlay">
+          <section
+            className="modal"
+            role="alertdialog"
+            aria-modal="true"
+            aria-label="Hapus soal lokal"
+          >
+            <h2>Hapus {deleteId}?</h2>
+            <p>Jika ini override, versi bawaan akan digunakan lagi.</p>
+            <button autoFocus onClick={() => setDeleteId("")}>
+              Batal
+            </button>
+            <button
+              className="danger"
+              onClick={() => {
+                update((s) => ({
+                  ...s,
+                  localQuestions: s.localQuestions.filter(
+                    (q) => q.id !== deleteId,
+                  ),
+                }));
+                setDeleteId("");
+              }}
+            >
+              Ya, hapus lokal
+            </button>
+          </section>
+        </div>
+      )}
+      {message && (
+        <p className="toast" role="status">
+          {message}
+          <button onClick={() => setMessage("")}>Tutup</button>
+        </p>
+      )}
+    </>
+  );
+}

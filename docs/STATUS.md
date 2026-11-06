@@ -4,7 +4,7 @@
 
 - Frozen npm dependency installation and production TypeScript/Vite/PWA build.
 - 16 unit/component tests: schemas, content loading, overrides, negative marking, blueprint selection, deadlines, backup/migration/corruption/quota handling, JSON/CSV roundtrips, program switching, search and bookmarks.
-- Four Chromium mobile-viewport journeys: study/persistence/statistics/routes, exam restoration and answer hiding, service-worker offline cold navigation, branching BTKV case decisions.
+- Six Chromium mobile-viewport journeys: study/persistence/statistics/routes, exam restoration and answer hiding, service-worker offline cold navigation, branching BTKV case decisions, backup/import preview and automatic deadline submission.
 - Strict question validation: **FAIL**. All 110 current questions have valid schemas, unique IDs and normalized stems. All eleven categories contain 10 questions instead of 50; 440 questions remain. No pairs exceed the current 0.65 Jaccard stem similarity heuristic. This heuristic does not prove originality or content diversity.
 
 ## Required work before acceptance

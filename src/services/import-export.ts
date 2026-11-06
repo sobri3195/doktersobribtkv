@@ -1,5 +1,37 @@
-import Papa from 'papaparse';
-import {z} from 'zod';
-import {questionSchema,type Question} from './model';
-export function parseQuestions(text:string,csv=false):Question[]{let raw:unknown;if(csv){const parsed=Papa.parse<Record<string,string>>(text,{header:true,skipEmptyLines:true});if(parsed.errors.length)throw Error(parsed.errors.map(e=>e.message).join('; '));raw=parsed.data.map(row=>{const q:Record<string,unknown>={...row};for(const key of ['options','distractorExplanations'])q[key]=JSON.parse(row[key]);for(const key of ['passageId','formula','disabled']){if(!row[key])delete q[key];else if(key==='disabled')q[key]=row[key]==='true';}return q;});}else raw=JSON.parse(text);const questions=z.array(questionSchema).min(1).parse(raw);if(new Set(questions.map(q=>q.id)).size!==questions.length)throw Error('ID duplikat dalam impor.');return questions;}
-export function exportCSV(questions:Question[]):string{return Papa.unparse(questions.map(q=>({...q,options:JSON.stringify(q.options),distractorExplanations:JSON.stringify(q.distractorExplanations)})));}
+import Papa from "papaparse";
+import { z } from "zod";
+import { questionSchema, type Question } from "./model";
+export function parseQuestions(text: string, csv = false): Question[] {
+  let raw: unknown;
+  if (csv) {
+    const parsed = Papa.parse<Record<string, string>>(text, {
+      header: true,
+      skipEmptyLines: true,
+    });
+    if (parsed.errors.length)
+      throw Error(parsed.errors.map((e) => e.message).join("; "));
+    raw = parsed.data.map((row) => {
+      const q: Record<string, unknown> = { ...row };
+      for (const key of ["options", "distractorExplanations"])
+        q[key] = JSON.parse(row[key]);
+      for (const key of ["passageId", "formula", "disabled"]) {
+        if (!row[key]) delete q[key];
+        else if (key === "disabled") q[key] = row[key] === "true";
+      }
+      return q;
+    });
+  } else raw = JSON.parse(text);
+  const questions = z.array(questionSchema).min(1).parse(raw);
+  if (new Set(questions.map((q) => q.id)).size !== questions.length)
+    throw Error("ID duplikat dalam impor.");
+  return questions;
+}
+export function exportCSV(questions: Question[]): string {
+  return Papa.unparse(
+    questions.map((q) => ({
+      ...q,
+      options: JSON.stringify(q.options),
+      distractorExplanations: JSON.stringify(q.distractorExplanations),
+    })),
+  );
+}
