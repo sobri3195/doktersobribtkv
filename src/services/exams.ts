@@ -33,8 +33,14 @@ export function makeAttempt(
   count = 10,
   full = false,
   minutes = 15,
+  category?: string,
 ): Attempt {
-  const available = bank.filter((q) => q.program === program && !q.disabled);
+  const available = bank.filter(
+    (q) =>
+      q.program === program &&
+      !q.disabled &&
+      (!category || q.category === category),
+  );
   const sections = full
     ? blueprints[program].map(([category, n, minutes]) => {
         const pool = available.filter((q) => q.category === category);
@@ -50,7 +56,7 @@ export function makeAttempt(
       })
     : [
         {
-          category: "Campuran",
+          category: category || "Campuran",
           ids: shuffle(available)
             .slice(0, count)
             .map((q) => q.id),
@@ -98,7 +104,17 @@ export function score(attempt: Attempt, bank: Question[]) {
       else peka += !answer ? 0 : right ? 4 : -1;
     }
   }
+  const practiceScore =
+    attempt.program === "btkv"
+      ? {
+          practiceScore:
+            correct * (attempt.scoring?.correct ?? 1) +
+            wrong * (attempt.scoring?.wrong ?? 0) +
+            blank * (attempt.scoring?.blank ?? 0),
+        }
+      : {};
   return {
+    ...practiceScore,
     correct,
     wrong,
     blank,

@@ -10,6 +10,7 @@ export function Materials() {
   const { data: d, update } = useStore();
   const [params] = useSearchParams();
   const [category, setCategory] = useState(params.get("category") || "");
+  const [topic, setTopic] = useState("");
   const [search, setSearch] = useState("");
   const [difficulty, setDifficulty] = useState("");
   const [status, setStatus] = useState("");
@@ -22,6 +23,7 @@ export function Materials() {
   const filtered = bank.filter(
     (q) =>
       (!category || q.category === category) &&
+      (!topic || q.topic === topic) &&
       (!search ||
         `${q.question} ${q.topic}`
           .toLowerCase()
@@ -37,7 +39,7 @@ export function Materials() {
                   ?.correct === false
               : d.answers.some((a) => a.questionId === q.id))),
   );
-  function start() {
+  function start(pool = filtered) {
     if (d.attempt && !d.attempt.submitted) {
       setError(
         "Selesaikan atau lanjutkan sesi aktif sebelum memulai sesi baru.",
@@ -45,7 +47,7 @@ export function Materials() {
       return;
     }
     try {
-      const attempt = makeAttempt(d.program, "study", filtered, count);
+      const attempt = makeAttempt(d.program, "study", pool, count);
       update((s) => ({ ...s, attempt }));
       navigate("/sesi");
     } catch (e) {
@@ -61,7 +63,10 @@ export function Materials() {
       <div className="category-tabs">
         <button
           className={!category ? "selected" : ""}
-          onClick={() => setCategory("")}
+          onClick={() => {
+            setCategory("");
+            setTopic("");
+          }}
         >
           Semua bidang
         </button>
@@ -69,7 +74,10 @@ export function Materials() {
           <button
             key={id}
             className={category === id ? "selected" : ""}
-            onClick={() => setCategory(id)}
+            onClick={() => {
+              setCategory(id);
+              setTopic("");
+            }}
           >
             {label}
           </button>
@@ -86,6 +94,23 @@ export function Materials() {
           />
         </div>
         <div className="filters">
+          {d.program === "btkv" && (
+            <label>
+              Topik
+              <select value={topic} onChange={(e) => setTopic(e.target.value)}>
+                <option value="">Semua topik</option>
+                {[
+                  ...new Set(
+                    bank
+                      .filter((q) => !category || q.category === category)
+                      .map((q) => q.topic),
+                  ),
+                ].map((t) => (
+                  <option key={t}>{t}</option>
+                ))}
+              </select>
+            </label>
+          )}
           <label>
             Kesulitan
             <select
@@ -122,7 +147,7 @@ export function Materials() {
           <button
             className="button"
             disabled={!filtered.length}
-            onClick={start}
+            onClick={() => start()}
           >
             Latihan {Math.min(count, filtered.length)} soal{" "}
             <ArrowRight size={17} />
@@ -145,7 +170,10 @@ export function Materials() {
           .map(([id, label]) => {
             const pool = bank.filter((q) => q.category === id);
             const a = d.answers.filter(
-              (a) => a.program === d.program && a.category === id,
+              (a) =>
+                a.program === d.program &&
+                a.category === id &&
+                pool.some((q) => q.id === a.questionId),
             );
             return (
               <Card key={id}>
@@ -168,6 +196,25 @@ export function Materials() {
                   Sedang {pool.filter((q) => q.difficulty === "medium").length}{" "}
                   · Sulit {pool.filter((q) => q.difficulty === "hard").length}
                 </p>
+                <p className="muted">
+                  Selesai{" "}
+                  {pool.length
+                    ? Math.round(
+                        (new Set(a.map((a) => a.questionId)).size /
+                          pool.length) *
+                          100,
+                      )
+                    : 0}
+                  %
+                </p>
+                <button
+                  disabled={!filtered.some((q) => q.category === id)}
+                  onClick={() =>
+                    start(filtered.filter((q) => q.category === id))
+                  }
+                >
+                  Mulai belajar {label}
+                </button>
                 <progress
                   max={pool.length || 1}
                   value={new Set(a.map((a) => a.questionId)).size}

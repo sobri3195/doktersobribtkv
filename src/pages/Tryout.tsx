@@ -4,6 +4,7 @@ import { Clock3, ClipboardCheck } from "lucide-react";
 import { useStore } from "../stores/useStore";
 import { mergeBank } from "../data/bank";
 import { blueprints, makeAttempt } from "../services/exams";
+import { categories } from "../services/model";
 import { Card, Heading } from "../components/UI";
 export function Tryout() {
   const { data: d, update } = useStore();
@@ -11,6 +12,11 @@ export function Tryout() {
   const [error, setError] = useState("");
   const [count, setCount] = useState(10);
   const [minutes, setMinutes] = useState(15);
+  const [examCategory, setExamCategory] = useState("");
+  const [scoring, setScoring] = useState({ correct: 1, wrong: 0, blank: 0 });
+  const validScoring = Object.values(scoring).every(
+    (n) => Number.isFinite(n) && n >= -10 && n <= 10,
+  );
   const [name, setName] = useState("Paket pribadi");
   const bank = mergeBank(d.localQuestions, d.disabled);
   const blueprint = blueprints[d.program];
@@ -20,13 +26,29 @@ export function Tryout() {
         (q) => q.program === d.program && q.category === cat && !q.disabled,
       ).length < n,
   );
-  function start(full = false, n = count, m = minutes) {
+  function start(
+    full = false,
+    n = count,
+    m = minutes,
+    category = examCategory,
+  ) {
     if (d.attempt && !d.attempt.submitted) {
       setError("Ada sesi aktif. Lanjutkan atau selesaikan dahulu.");
       return;
     }
     try {
-      const attempt = makeAttempt(d.program, "exam", bank, n, full, m);
+      if (!validScoring || !Number.isFinite(m) || m < 1 || m > 600)
+        throw Error("Periksa aturan skor dan durasi.");
+      const attempt = makeAttempt(
+        d.program,
+        "exam",
+        bank,
+        n,
+        full,
+        m,
+        full ? undefined : category,
+      );
+      if (d.program === "btkv") attempt.scoring = scoring;
       update((s) => ({ ...s, attempt }));
       navigate("/sesi");
     } catch (e) {
@@ -80,6 +102,67 @@ export function Tryout() {
           Mulai simulasi lengkap
         </button>
       </Card>
+      {d.program === "btkv" && (
+        <Card>
+          <h2>Paket BTKV</h2>
+          <p>
+            Waktu dan skor di bawah adalah aturan latihan lokal, bukan ketentuan
+            resmi PPDS.
+          </p>
+          <div className="filters">
+            <label>
+              Bidang
+              <select
+                value={examCategory}
+                onChange={(e) => setExamCategory(e.target.value)}
+              >
+                <option value="">Campuran seluruh bidang</option>
+                {Object.entries(categories.btkv).map(([id, label]) => (
+                  <option key={id} value={id}>
+                    {label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            {Object.entries(scoring).map(([key, value]) => (
+              <label key={key}>
+                Skor{" "}
+                {key === "correct"
+                  ? "benar"
+                  : key === "wrong"
+                    ? "salah"
+                    : "kosong"}
+                <input
+                  type="number"
+                  min={-10}
+                  max={10}
+                  value={value}
+                  onChange={(e) =>
+                    setScoring((s) => ({ ...s, [key]: Number(e.target.value) }))
+                  }
+                />
+              </label>
+            ))}
+          </div>
+          <p>
+            Pilih jumlah dan durasi melalui kontrol latihan singkat. Tombol
+            berikut memakai pengaturan tersebut.
+          </p>
+          <div className="filters">
+            {[...Object.entries(categories.btkv), ["", "Campuran BTKV"]].map(
+              ([id, label]) => (
+                <button
+                  disabled={!validScoring || minutes < 1 || minutes > 600}
+                  key={id}
+                  onClick={() => start(false, count, minutes, id)}
+                >
+                  Tryout {label}
+                </button>
+              ),
+            )}
+          </div>
+        </Card>
+      )}
       <Card>
         <h2>Latihan singkat</h2>
         <p>
@@ -107,7 +190,7 @@ export function Tryout() {
           </label>
           <button
             className="button"
-            disabled={minutes < 1 || minutes > 600}
+            disabled={minutes < 1 || minutes > 600 || !validScoring}
             onClick={() => start()}
           >
             Mulai tryout
@@ -176,7 +259,13 @@ export function Tryout() {
             .map((h) => (
               <p key={h.id}>
                 {new Date(h.at).toLocaleString("id")} · {h.correct}/{h.total}{" "}
-                benar
+                benar{" "}
+                {h.durationSeconds !== undefined
+                  ? `· ${Math.round(h.durationSeconds)} detik `
+                  : ""}
+                {h.program === "btkv" && h.practiceScore !== undefined
+                  ? `· Skor latihan ${h.practiceScore}`
+                  : ""}
               </p>
             ))
         ) : (

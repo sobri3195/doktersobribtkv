@@ -1,332 +1,2996 @@
 [
   {
-    "id": "BTKV-THORACIC-001",
+    "number": 1,
+    "id": "BTKV-TH-001",
     "program": "btkv",
     "category": "thoracic",
-    "topic": "Pada trauma dada, hipotensi disertai deviasi trakea dan hilangnya",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "T01",
+    "topic": "Anatomi dan Fisiologi Toraks",
+    "subtopic": "Segmen bronkopulmonal",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
     "type": "single_choice",
-    "question": "Pada trauma dada, hipotensi disertai deviasi trakea dan hilangnya suara napas unilateral paling mengarah pada apa?",
+    "learningObjective": "Menjelaskan segmen bronkopulmonal dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Pada reseksi anatomis paru, unit yang memiliki bronkus dan cabang arteri pulmonalis tersendiri tetapi dibatasi vena intersegmental disebut apa?",
     "options": [
       {
         "id": "A",
-        "text": "Efusi pleura kronis"
+        "text": "Segmen bronkopulmonal"
       },
       {
         "id": "B",
-        "text": "Atelektasis ringan"
+        "text": "Lobulus sekunder"
+      },
+      {
+        "id": "C",
+        "text": "Asinus"
+      },
+      {
+        "id": "D",
+        "text": "Lobus aksesorius"
+      },
+      {
+        "id": "E",
+        "text": "Hilum"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Susunan bronkus dan arteri segmental memungkinkan reseksi anatomis dengan mengenali vena di batas segmen.",
+    "correctAnswerReason": "Susunan bronkus dan arteri segmental memungkinkan reseksi anatomis dengan mengenali vena di batas segmen.",
+    "clinicalReasoning": "Susunan bronkus dan arteri segmental memungkinkan reseksi anatomis dengan mengenali vena di batas segmen.",
+    "distractorExplanations": {
+      "B": "Unit ini lebih kecil dan bukan unit reseksi segmentektomi.",
+      "C": "Asinus terletak distal bronkiolus terminal dan bukan segmen bedah.",
+      "D": "Lobus aksesorius bukan nama unit anatomi standar tersebut.",
+      "E": "Hilum adalah pintu masuk struktur besar, bukan unit parenkim."
+    },
+    "learningPoint": "Susunan bronkus dan arteri segmental memungkinkan reseksi anatomis dengan mengenali vena di batas segmen.",
+    "clinicalPearl": "Susunan bronkus dan arteri segmental memungkinkan reseksi anatomis dengan mengenali vena di batas segmen.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 2,
+    "id": "BTKV-TH-002",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T01",
+    "topic": "Anatomi dan Fisiologi Toraks",
+    "subtopic": "Pola spirometri",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pola spirometri dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Data fungsi paru menunjukkan FEV1 60% prediksi, FVC 85% prediksi, dan FEV1/FVC di bawah batas bawah normal. Pola ventilasi apa yang paling sesuai?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Restriktif pasti"
+      },
+      {
+        "id": "B",
+        "text": "Obstruktif"
+      },
+      {
+        "id": "C",
+        "text": "Normal"
+      },
+      {
+        "id": "D",
+        "text": "Campuran pasti"
+      },
+      {
+        "id": "E",
+        "text": "Hipoventilasi sentral pasti"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Penurunan rasio FEV1/FVC menunjukkan hambatan aliran ekspirasi; konfirmasi restriksi memerlukan pengukuran TLC.",
+    "correctAnswerReason": "Penurunan rasio FEV1/FVC menunjukkan hambatan aliran ekspirasi; konfirmasi restriksi memerlukan pengukuran TLC.",
+    "clinicalReasoning": "Penurunan rasio FEV1/FVC menunjukkan hambatan aliran ekspirasi; konfirmasi restriksi memerlukan pengukuran TLC.",
+    "distractorExplanations": {
+      "A": "FVC saja tidak memastikan restriksi, terlebih rasio justru menurun.",
+      "C": "Rasio di bawah batas normal menandakan gangguan aliran.",
+      "D": "Diagnosis campuran memerlukan bukti TLC menurun, yang belum tersedia.",
+      "E": "Spirometri ini tidak menetapkan penyebab sentral atau retensi karbon dioksida."
+    },
+    "learningPoint": "Penurunan rasio FEV1/FVC menunjukkan hambatan aliran ekspirasi; konfirmasi restriksi memerlukan pengukuran TLC.",
+    "clinicalPearl": "Penurunan rasio FEV1/FVC menunjukkan hambatan aliran ekspirasi; konfirmasi restriksi memerlukan pengukuran TLC.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 3,
+    "id": "BTKV-TH-003",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T01",
+    "topic": "Anatomi dan Fisiologi Toraks",
+    "subtopic": "Orientasi bronkus utama",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan orientasi bronkus utama dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 42 tahun mengalami aspirasi benda asing saat penurunan kesadaran. Bronkoskopi menemukan benda di bronkus utama kanan. Sifat anatomi apa yang paling menjelaskan lokasi tersebut?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bronkus kanan lebih horizontal"
+      },
+      {
+        "id": "B",
+        "text": "Bronkus kiri tidak memiliki lumen"
+      },
+      {
+        "id": "C",
+        "text": "Bronkus kanan lebih pendek, lebar, dan vertikal"
+      },
+      {
+        "id": "D",
+        "text": "Bronkus kanan tidak bercabang"
+      },
+      {
+        "id": "E",
+        "text": "Bronkus kiri tidak dilalui udara"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Orientasi bronkus kanan memudahkan benda dari trakea masuk ke sisi ini pada dewasa.",
+    "correctAnswerReason": "Orientasi bronkus kanan memudahkan benda dari trakea masuk ke sisi ini pada dewasa.",
+    "clinicalReasoning": "Orientasi bronkus kanan memudahkan benda dari trakea masuk ke sisi ini pada dewasa.",
+    "distractorExplanations": {
+      "A": "Orientasinya relatif lebih vertikal dibanding kiri.",
+      "B": "Bronkus kiri tetap paten dan juga dapat mengalami aspirasi.",
+      "D": "Bronkus kanan tetap membentuk cabang lobar dan segmental.",
+      "E": "Kedua bronkus utama berfungsi untuk ventilasi."
+    },
+    "learningPoint": "Orientasi bronkus kanan memudahkan benda dari trakea masuk ke sisi ini pada dewasa.",
+    "clinicalPearl": "Orientasi bronkus kanan memudahkan benda dari trakea masuk ke sisi ini pada dewasa.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 4,
+    "id": "BTKV-TH-004",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T01",
+    "topic": "Anatomi dan Fisiologi Toraks",
+    "subtopic": "Persarafan diafragma",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan persarafan diafragma dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 55 tahun pascaoperasi mediastinum mengalami hemidiafragma kanan meninggi dan gerak paradoks pada pemeriksaan dinamis. Saraf manakah paling mungkin cedera?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nervus vagus kiri"
+      },
+      {
+        "id": "B",
+        "text": "Nervus interkostalis kesebelas"
+      },
+      {
+        "id": "C",
+        "text": "Nervus laringeus rekuren kanan"
+      },
+      {
+        "id": "D",
+        "text": "Nervus frenikus kanan"
+      },
+      {
+        "id": "E",
+        "text": "Trunkus simpatikus kiri"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Saraf frenikus mempersarafi diafragma; gangguannya dapat menyebabkan elevasi dan gerakan paradoks unilateral.",
+    "correctAnswerReason": "Saraf frenikus mempersarafi diafragma; gangguannya dapat menyebabkan elevasi dan gerakan paradoks unilateral.",
+    "clinicalReasoning": "Saraf frenikus mempersarafi diafragma; gangguannya dapat menyebabkan elevasi dan gerakan paradoks unilateral.",
+    "distractorExplanations": {
+      "A": "Vagus tidak merupakan saraf motorik utama diafragma kanan.",
+      "B": "Saraf ini menggerakkan otot dinding, bukan penggerak utama diafragma.",
+      "C": "Cedera terutama menyebabkan gangguan pita suara, bukan hemidiafragma.",
+      "E": "Cedera simpatis tidak menjelaskan paralisis diafragma kanan."
+    },
+    "learningPoint": "Saraf frenikus mempersarafi diafragma; gangguannya dapat menyebabkan elevasi dan gerakan paradoks unilateral.",
+    "clinicalPearl": "Saraf frenikus mempersarafi diafragma; gangguannya dapat menyebabkan elevasi dan gerakan paradoks unilateral.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 5,
+    "id": "BTKV-TH-005",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T01",
+    "topic": "Anatomi dan Fisiologi Toraks",
+    "subtopic": "Ruang mati alveolar",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan ruang mati alveolar dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 64 tahun mengalami emboli pulmonal dengan sebagian alveolus masih berventilasi tetapi tidak terperfusi. Mekanisme gangguan pertukaran gas yang paling langsung adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shunt anatomis murni"
+      },
+      {
+        "id": "B",
+        "text": "Peningkatan difusi oksigen"
+      },
+      {
+        "id": "C",
+        "text": "Penurunan seluruh ventilasi menjadi nol"
+      },
+      {
+        "id": "D",
+        "text": "Penurunan kapasitas residu menjadi nol"
+      },
+      {
+        "id": "E",
+        "text": "Peningkatan ruang mati alveolar"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Ventilasi tanpa perfusi menambah ventilasi yang tidak berpartisipasi efektif dalam pertukaran gas.",
+    "correctAnswerReason": "Ventilasi tanpa perfusi menambah ventilasi yang tidak berpartisipasi efektif dalam pertukaran gas.",
+    "clinicalReasoning": "Ventilasi tanpa perfusi menambah ventilasi yang tidak berpartisipasi efektif dalam pertukaran gas.",
+    "distractorExplanations": {
+      "A": "Shunt adalah perfusi tanpa ventilasi, kebalikan kelainan yang dijelaskan.",
+      "B": "Hilangnya perfusi tidak meningkatkan pertukaran oksigen.",
+      "C": "Vignette menyatakan alveolus masih terventilasi.",
+      "D": "Volume paru tersebut tidak ditetapkan oleh temuan perfusi ini."
+    },
+    "learningPoint": "Ventilasi tanpa perfusi menambah ventilasi yang tidak berpartisipasi efektif dalam pertukaran gas.",
+    "clinicalPearl": "Ventilasi tanpa perfusi menambah ventilasi yang tidak berpartisipasi efektif dalam pertukaran gas.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 6,
+    "id": "BTKV-TH-006",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T02",
+    "topic": "Trauma Toraks",
+    "subtopic": "Flail segment",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan flail segment dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Pada flail chest, kelainan struktur apa yang memungkinkan satu segmen dinding dada bergerak paradoks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Beberapa iga berdekatan patah pada dua lokasi"
+      },
+      {
+        "id": "B",
+        "text": "Satu fraktur iga tanpa pergeseran"
+      },
+      {
+        "id": "C",
+        "text": "Fraktur sternum tanpa cedera iga"
+      },
+      {
+        "id": "D",
+        "text": "Robekan pleura parietal saja"
+      },
+      {
+        "id": "E",
+        "text": "Kontusio otot pektoralis saja"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Segmen yang terlepas dari kontinuitas rangka dapat bergerak berbeda dari dinding dada di sekitarnya.",
+    "correctAnswerReason": "Segmen yang terlepas dari kontinuitas rangka dapat bergerak berbeda dari dinding dada di sekitarnya.",
+    "clinicalReasoning": "Segmen yang terlepas dari kontinuitas rangka dapat bergerak berbeda dari dinding dada di sekitarnya.",
+    "distractorExplanations": {
+      "B": "Fraktur tunggal biasanya tidak membentuk segmen bebas.",
+      "C": "Tidak otomatis membentuk pola segmen iga bebas tersebut.",
+      "D": "Robekan pleura bukan dasar struktural flail segment.",
+      "E": "Memar otot tidak memutus kontinuitas rangka dada."
+    },
+    "learningPoint": "Segmen yang terlepas dari kontinuitas rangka dapat bergerak berbeda dari dinding dada di sekitarnya.",
+    "clinicalPearl": "Segmen yang terlepas dari kontinuitas rangka dapat bergerak berbeda dari dinding dada di sekitarnya.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 7,
+    "id": "BTKV-TH-007",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T02",
+    "topic": "Trauma Toraks",
+    "subtopic": "Kontusio paru pada CT",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan kontusio paru pada ct dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Pasien trauma dada memiliki PaO2 55 mmHg pada udara ruangan. CT memperlihatkan opasitas parenkim patchy di daerah benturan tanpa robekan diafragma. Kelainan apa paling sesuai?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atelektasis obstruktif total"
+      },
+      {
+        "id": "B",
+        "text": "Kontusio paru"
+      },
+      {
+        "id": "C",
+        "text": "Efusi pleura terisolasi"
+      },
+      {
+        "id": "D",
+        "text": "Pneumomediastinum terisolasi"
+      },
+      {
+        "id": "E",
+        "text": "Herniasi lambung"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cedera alveolus dan kapiler akibat trauma menimbulkan perdarahan atau edema parenkim serta hipoksemia.",
+    "correctAnswerReason": "Cedera alveolus dan kapiler akibat trauma menimbulkan perdarahan atau edema parenkim serta hipoksemia.",
+    "clinicalReasoning": "Cedera alveolus dan kapiler akibat trauma menimbulkan perdarahan atau edema parenkim serta hipoksemia.",
+    "distractorExplanations": {
+      "A": "Biasanya terdapat kehilangan volume dan obstruksi yang mendukung, bukan pola kontusio ini.",
+      "C": "Temuan yang dijelaskan berada di parenkim, bukan ruang pleura.",
+      "D": "Udara mediastinum tidak menjelaskan opasitas alveolar akibat benturan.",
+      "E": "CT tidak menunjukkan diskontinuitas diafragma atau organ abdomen di toraks."
+    },
+    "learningPoint": "Cedera alveolus dan kapiler akibat trauma menimbulkan perdarahan atau edema parenkim serta hipoksemia.",
+    "clinicalPearl": "Cedera alveolus dan kapiler akibat trauma menimbulkan perdarahan atau edema parenkim serta hipoksemia.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 8,
+    "id": "BTKV-TH-008",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T02",
+    "topic": "Trauma Toraks",
+    "subtopic": "Cedera trakeobronkial",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan cedera trakeobronkial dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 28 tahun mengalami trauma dada, kebocoran udara sangat besar setelah drain terpasang benar, dan paru tetap tidak mengembang. Pemeriksaan apa paling langsung mengevaluasi dugaan robekan bronkus utama setelah stabilisasi awal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Spirometri paksa"
+      },
+      {
+        "id": "B",
+        "text": "Sitologi sputum"
+      },
+      {
+        "id": "C",
+        "text": "Bronkoskopi"
+      },
+      {
+        "id": "D",
+        "text": "Uji jalan enam menit"
+      },
+      {
+        "id": "E",
+        "text": "Manometri esofagus"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Visualisasi jalan napas membantu menentukan lokasi dan luas cedera trakeobronkial yang menyebabkan kebocoran persisten.",
+    "correctAnswerReason": "Visualisasi jalan napas membantu menentukan lokasi dan luas cedera trakeobronkial yang menyebabkan kebocoran persisten.",
+    "clinicalReasoning": "Visualisasi jalan napas membantu menentukan lokasi dan luas cedera trakeobronkial yang menyebabkan kebocoran persisten.",
+    "distractorExplanations": {
+      "A": "Tidak tepat untuk memetakan robekan besar pada trauma akut.",
+      "B": "Mencari sel abnormal tidak menentukan kontinuitas bronkus.",
+      "D": "Mengukur kapasitas fungsional, bukan lokasi cedera jalan napas.",
+      "E": "Menilai motilitas esofagus, bukan robekan bronkus."
+    },
+    "learningPoint": "Visualisasi jalan napas membantu menentukan lokasi dan luas cedera trakeobronkial yang menyebabkan kebocoran persisten.",
+    "clinicalPearl": "Visualisasi jalan napas membantu menentukan lokasi dan luas cedera trakeobronkial yang menyebabkan kebocoran persisten.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 9,
+    "id": "BTKV-TH-009",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T02",
+    "topic": "Trauma Toraks",
+    "subtopic": "Tamponade traumatik",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan tamponade traumatik dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 36 tahun dengan trauma dada penetrasi mengalami syok. Jalan napas terbuka, suara napas simetris, dan FAST perikardial menunjukkan cairan dengan kolaps ruang kanan. Prioritas paling tepat adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CT elektif sebelum memanggil ahli bedah"
+      },
+      {
+        "id": "B",
+        "text": "Observasi sampai hipotensi hilang sendiri"
+      },
+      {
+        "id": "C",
+        "text": "Fisioterapi dada sebagai terapi utama"
+      },
+      {
+        "id": "D",
+        "text": "Aktivasi tim trauma untuk penanganan tamponade segera"
+      },
+      {
+        "id": "E",
+        "text": "Torakosentesis pleura kiri rutin"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Syok dengan darah perikardial dan kompresi jantung mengarah ke tamponade traumatik yang memerlukan kontrol cedera segera.",
+    "correctAnswerReason": "Syok dengan darah perikardial dan kompresi jantung mengarah ke tamponade traumatik yang memerlukan kontrol cedera segera.",
+    "clinicalReasoning": "Syok dengan darah perikardial dan kompresi jantung mengarah ke tamponade traumatik yang memerlukan kontrol cedera segera.",
+    "distractorExplanations": {
+      "A": "Pencitraan lanjutan tidak boleh menunda penanganan syok yang penyebabnya telah teridentifikasi.",
+      "B": "Tamponade traumatik dapat memburuk dan tidak aman diobservasi pasif.",
+      "C": "Tidak mengurangi tekanan perikardial atau memperbaiki luka jantung.",
+      "E": "Masalah yang ditemukan berada di perikardium, bukan efusi pleura."
+    },
+    "learningPoint": "Syok dengan darah perikardial dan kompresi jantung mengarah ke tamponade traumatik yang memerlukan kontrol cedera segera.",
+    "clinicalPearl": "Syok dengan darah perikardial dan kompresi jantung mengarah ke tamponade traumatik yang memerlukan kontrol cedera segera.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 10,
+    "id": "BTKV-TH-010",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T02",
+    "topic": "Trauma Toraks",
+    "subtopic": "Analgesia trauma iga",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan analgesia trauma iga dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 71 tahun dengan fraktur multipel iga tetap bernapas dangkal karena nyeri meski tidak ada pneumotoraks. Saturasi menurun dan batuk tidak efektif. Prinsip perawatan paling sesuai adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pembatasan semua batuk tanpa analgesia"
+      },
+      {
+        "id": "B",
+        "text": "Pengikatan dada ketat terus-menerus"
+      },
+      {
+        "id": "C",
+        "text": "Antibiotik sebagai pengganti analgesia"
+      },
+      {
+        "id": "D",
+        "text": "Tirah baring tanpa evaluasi oksigenasi"
+      },
+      {
+        "id": "E",
+        "text": "Analgesia multimodal disertai dukungan ventilasi dan higiene paru sesuai kebutuhan"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Nyeri menyebabkan splinting, retensi sekret, dan hipoventilasi; kontrol nyeri harus mendukung fungsi respirasi.",
+    "correctAnswerReason": "Nyeri menyebabkan splinting, retensi sekret, dan hipoventilasi; kontrol nyeri harus mendukung fungsi respirasi.",
+    "clinicalReasoning": "Nyeri menyebabkan splinting, retensi sekret, dan hipoventilasi; kontrol nyeri harus mendukung fungsi respirasi.",
+    "distractorExplanations": {
+      "A": "Menambah retensi sekret dan tidak mengatasi nyeri.",
+      "B": "Dapat memperburuk restriksi ventilasi dan retensi sekret.",
+      "C": "Tidak memperbaiki gangguan ventilasi akibat nyeri tanpa infeksi.",
+      "D": "Mengabaikan perburukan respirasi dan risiko komplikasi."
+    },
+    "learningPoint": "Nyeri menyebabkan splinting, retensi sekret, dan hipoventilasi; kontrol nyeri harus mendukung fungsi respirasi.",
+    "clinicalPearl": "Nyeri menyebabkan splinting, retensi sekret, dan hipoventilasi; kontrol nyeri harus mendukung fungsi respirasi.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 11,
+    "id": "BTKV-TH-011",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T03",
+    "topic": "Pneumotoraks",
+    "subtopic": "Syok obstruktif",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan syok obstruktif dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Mekanisme utama hipotensi pada pneumotoraks tensi adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Peningkatan tekanan intratoraks yang menghambat aliran balik vena"
+      },
+      {
+        "id": "B",
+        "text": "Kehilangan sel darah merah ke alveolus semata"
+      },
+      {
+        "id": "C",
+        "text": "Peningkatan pengisian ventrikel kanan"
+      },
+      {
+        "id": "D",
+        "text": "Penurunan tekanan pleura tanpa batas"
+      },
+      {
+        "id": "E",
+        "text": "Vasodilatasi histamin sebagai mekanisme wajib"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tekanan pleura progresif dapat menurunkan pengisian jantung sehingga terjadi syok obstruktif.",
+    "correctAnswerReason": "Tekanan pleura progresif dapat menurunkan pengisian jantung sehingga terjadi syok obstruktif.",
+    "clinicalReasoning": "Tekanan pleura progresif dapat menurunkan pengisian jantung sehingga terjadi syok obstruktif.",
+    "distractorExplanations": {
+      "B": "Pneumotoraks terutama berisi udara, bukan perdarahan masif alveolar.",
+      "C": "Tekanan intratoraks tinggi justru menghambat pengisian.",
+      "D": "Tensi berkaitan dengan kenaikan tekanan, bukan penurunan progresif.",
+      "E": "Anafilaksis merupakan mekanisme berbeda dan tidak wajib menyertai pneumotoraks."
+    },
+    "learningPoint": "Tekanan pleura progresif dapat menurunkan pengisian jantung sehingga terjadi syok obstruktif.",
+    "clinicalPearl": "Tekanan pleura progresif dapat menurunkan pengisian jantung sehingga terjadi syok obstruktif.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 12,
+    "id": "BTKV-TH-012",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T03",
+    "topic": "Pneumotoraks",
+    "subtopic": "Garis pleura pada radiografi",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan garis pleura pada radiografi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Foto toraks tegak memperlihatkan garis pleura viseral kanan dengan tidak adanya corakan vaskular di perifer garis tersebut. Temuan ini paling mendukung apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Efusi pleura kanan"
+      },
+      {
+        "id": "B",
+        "text": "Pneumotoraks kanan"
+      },
+      {
+        "id": "C",
+        "text": "Edema paru kardiogenik"
+      },
+      {
+        "id": "D",
+        "text": "Konsolidasi lobar"
+      },
+      {
+        "id": "E",
+        "text": "Fibrosis pleura difus"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Udara memisahkan paru dari dinding dada; perifer garis pleura tidak memiliki jaringan paru bervaskular.",
+    "correctAnswerReason": "Udara memisahkan paru dari dinding dada; perifer garis pleura tidak memiliki jaringan paru bervaskular.",
+    "clinicalReasoning": "Udara memisahkan paru dari dinding dada; perifer garis pleura tidak memiliki jaringan paru bervaskular.",
+    "distractorExplanations": {
+      "A": "Efusi lebih khas menimbulkan opasitas dan meniskus, bukan perifer hiperlusen tanpa corakan.",
+      "C": "Biasanya meningkatkan opasitas interstisial atau alveolar.",
+      "D": "Konsolidasi meningkatkan densitas dan dapat menunjukkan air bronchogram.",
+      "E": "Penebalan pleura tidak menghasilkan gambaran udara bebas khas ini."
+    },
+    "learningPoint": "Udara memisahkan paru dari dinding dada; perifer garis pleura tidak memiliki jaringan paru bervaskular.",
+    "clinicalPearl": "Udara memisahkan paru dari dinding dada; perifer garis pleura tidak memiliki jaringan paru bervaskular.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 13,
+    "id": "BTKV-TH-013",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T03",
+    "topic": "Pneumotoraks",
+    "subtopic": "Pemilihan observasi pneumotoraks",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pemilihan observasi pneumotoraks dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 23 tahun stabil mengalami pneumotoraks spontan pertama. Tidak ada tanda tensi. Faktor apa paling tepat dipertimbangkan bersama ukuran pneumotoraks untuk menentukan observasi atau intervensi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tinggi badan tanpa pemeriksaan fisiologis"
+      },
+      {
+        "id": "B",
+        "text": "Usia saja tanpa menilai gejala"
+      },
+      {
+        "id": "C",
+        "text": "Gejala, kondisi fisiologis, penyakit paru dasar, dan kemampuan tindak lanjut"
+      },
+      {
+        "id": "D",
+        "text": "Sisi kanan selalu harus dioperasi"
+      },
+      {
+        "id": "E",
+        "text": "Pneumotoraks pertama selalu membutuhkan pneumonektomi"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Pendekatan bergantung pada konteks klinis dan keamanan pemantauan, bukan ukuran radiologis saja.",
+    "correctAnswerReason": "Pendekatan bergantung pada konteks klinis dan keamanan pemantauan, bukan ukuran radiologis saja.",
+    "clinicalReasoning": "Pendekatan bergantung pada konteks klinis dan keamanan pemantauan, bukan ukuran radiologis saja.",
+    "distractorExplanations": {
+      "A": "Habitus dapat berkaitan dengan epidemiologi tetapi tidak menggantikan penilaian gejala dan stabilitas.",
+      "B": "Usia tunggal tidak menggambarkan derajat gangguan fisiologis.",
+      "D": "Lateralisasi saja bukan indikasi universal operasi.",
+      "E": "Reseksi seluruh paru bukan penanganan rutin pneumotoraks spontan."
+    },
+    "learningPoint": "Pendekatan bergantung pada konteks klinis dan keamanan pemantauan, bukan ukuran radiologis saja.",
+    "clinicalPearl": "Pendekatan bergantung pada konteks klinis dan keamanan pemantauan, bukan ukuran radiologis saja.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 14,
+    "id": "BTKV-TH-014",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T03",
+    "topic": "Pneumotoraks",
+    "subtopic": "Prioritas dekompresi",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan prioritas dekompresi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 45 tahun dengan ventilasi tekanan positif tiba-tiba hipotensi, hipoksemia, dan suara napas kiri menghilang. Tim menilai pneumotoraks tensi sangat mungkin. Langkah prioritas apa paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menunggu CT sebelum intervensi"
+      },
+      {
+        "id": "B",
+        "text": "Menaikkan PEEP sebagai satu-satunya tindakan"
+      },
+      {
+        "id": "C",
+        "text": "Memberikan diuretik lalu menilai besok"
+      },
+      {
+        "id": "D",
+        "text": "Dekompresi emergensi oleh tenaga terlatih tanpa menunggu foto toraks"
+      },
+      {
+        "id": "E",
+        "text": "Melepas semua pemantauan untuk menenangkan pasien"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Ketidakstabilan dan temuan unilateral mendukung diagnosis klinis tensi; penundaan memperpanjang syok obstruktif.",
+    "correctAnswerReason": "Ketidakstabilan dan temuan unilateral mendukung diagnosis klinis tensi; penundaan memperpanjang syok obstruktif.",
+    "clinicalReasoning": "Ketidakstabilan dan temuan unilateral mendukung diagnosis klinis tensi; penundaan memperpanjang syok obstruktif.",
+    "distractorExplanations": {
+      "A": "Transportasi dan penundaan berbahaya pada dugaan tensi dengan syok.",
+      "B": "Dapat memperburuk tekanan intrapleura pada kebocoran udara.",
+      "C": "Tidak mengatasi udara bertekanan yang menghambat sirkulasi.",
+      "E": "Menghilangkan pemantauan tanpa menangani penyebab ketidakstabilan."
+    },
+    "learningPoint": "Ketidakstabilan dan temuan unilateral mendukung diagnosis klinis tensi; penundaan memperpanjang syok obstruktif.",
+    "clinicalPearl": "Ketidakstabilan dan temuan unilateral mendukung diagnosis klinis tensi; penundaan memperpanjang syok obstruktif.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 15,
+    "id": "BTKV-TH-015",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T03",
+    "topic": "Pneumotoraks",
+    "subtopic": "Pencegahan kekambuhan",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pencegahan kekambuhan dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 31 tahun mengalami pneumotoraks spontan berulang pada sisi yang sama setelah dua episode sebelumnya. Setelah fase akut teratasi, tujuan konsultasi bedah toraks terutama apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menyatakan semua kekambuhan pasti infeksi bakteri"
+      },
+      {
+        "id": "B",
+        "text": "Mengganti paru dengan prostesis rutin"
+      },
+      {
+        "id": "C",
+        "text": "Menghentikan semua aktivitas bernapas dalam"
+      },
+      {
+        "id": "D",
+        "text": "Mengabaikan kekambuhan bila pasien muda"
+      },
+      {
+        "id": "E",
+        "text": "Menilai strategi pencegahan kekambuhan seperti penanganan sumber kebocoran dan pleurodesis"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Kekambuhan memerlukan pembahasan manfaat dan risiko terapi definitif yang disesuaikan kondisi pasien.",
+    "correctAnswerReason": "Kekambuhan memerlukan pembahasan manfaat dan risiko terapi definitif yang disesuaikan kondisi pasien.",
+    "clinicalReasoning": "Kekambuhan memerlukan pembahasan manfaat dan risiko terapi definitif yang disesuaikan kondisi pasien.",
+    "distractorExplanations": {
+      "A": "Pneumotoraks berulang tidak selalu disebabkan infeksi.",
+      "B": "Tidak merupakan pendekatan standar pencegahan kekambuhan.",
+      "C": "Tidak menangani penyebab dan dapat memperburuk ventilasi.",
+      "D": "Usia muda tidak meniadakan kebutuhan evaluasi kekambuhan."
+    },
+    "learningPoint": "Kekambuhan memerlukan pembahasan manfaat dan risiko terapi definitif yang disesuaikan kondisi pasien.",
+    "clinicalPearl": "Kekambuhan memerlukan pembahasan manfaat dan risiko terapi definitif yang disesuaikan kondisi pasien.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 16,
+    "id": "BTKV-TH-016",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T04",
+    "topic": "Hemotoraks",
+    "subtopic": "Kompartemen perdarahan",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan kompartemen perdarahan dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Apa perbedaan anatomis utama hemotoraks dan perdarahan intraalveolar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hemotoraks adalah darah di rongga pleura"
+      },
+      {
+        "id": "B",
+        "text": "Hemotoraks selalu darah di bronkus"
+      },
+      {
+        "id": "C",
+        "text": "Hemotoraks hanya terdapat di perikardium"
+      },
+      {
+        "id": "D",
+        "text": "Keduanya selalu sinonim"
+      },
+      {
+        "id": "E",
+        "text": "Hemotoraks adalah udara di pleura"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Letak kompartemen menentukan pendekatan diagnosis dan drainase; perdarahan intraalveolar berada di parenkim.",
+    "correctAnswerReason": "Letak kompartemen menentukan pendekatan diagnosis dan drainase; perdarahan intraalveolar berada di parenkim.",
+    "clinicalReasoning": "Letak kompartemen menentukan pendekatan diagnosis dan drainase; perdarahan intraalveolar berada di parenkim.",
+    "distractorExplanations": {
+      "B": "Darah endobronkial bukan definisi hemotoraks.",
+      "C": "Darah perikardial merupakan hemoperikardium.",
+      "D": "Kedua kondisi berada di kompartemen berbeda.",
+      "E": "Udara pleura mendefinisikan pneumotoraks."
+    },
+    "learningPoint": "Letak kompartemen menentukan pendekatan diagnosis dan drainase; perdarahan intraalveolar berada di parenkim.",
+    "clinicalPearl": "Letak kompartemen menentukan pendekatan diagnosis dan drainase; perdarahan intraalveolar berada di parenkim.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 17,
+    "id": "BTKV-TH-017",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T04",
+    "topic": "Hemotoraks",
+    "subtopic": "Hematokrit cairan pleura",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan hematokrit cairan pleura dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Cairan pleura berdarah memiliki hematokrit 24%, sedangkan hematokrit darah perifer 40%. Rasio 0,60 paling mendukung apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Efusi serosa tanpa darah"
+      },
+      {
+        "id": "B",
+        "text": "Hemotoraks"
+      },
+      {
+        "id": "C",
+        "text": "Kilotoraks pasti"
+      },
+      {
+        "id": "D",
+        "text": "Transudat pasti karena sirosis"
+      },
+      {
+        "id": "E",
+        "text": "Empiema pasti"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Hematokrit cairan melebihi setengah hematokrit perifer mendukung hemotoraks; interpretasi tetap mempertimbangkan waktu dan pengenceran.",
+    "correctAnswerReason": "Hematokrit cairan melebihi setengah hematokrit perifer mendukung hemotoraks; interpretasi tetap mempertimbangkan waktu dan pengenceran.",
+    "clinicalReasoning": "Hematokrit cairan melebihi setengah hematokrit perifer mendukung hemotoraks; interpretasi tetap mempertimbangkan waktu dan pengenceran.",
+    "distractorExplanations": {
+      "A": "Rasio ini menunjukkan kandungan darah bermakna, bukan cairan serosa murni.",
+      "C": "Kilotoraks dinilai melalui lipid atau kilomikron, bukan rasio hematokrit.",
+      "D": "Penentuan etiologi transudat tidak didasarkan pada rasio hematokrit tinggi.",
+      "E": "Pus atau bukti infeksi diperlukan; hematokrit tidak membuktikan empiema."
+    },
+    "learningPoint": "Hematokrit cairan melebihi setengah hematokrit perifer mendukung hemotoraks; interpretasi tetap mempertimbangkan waktu dan pengenceran.",
+    "clinicalPearl": "Hematokrit cairan melebihi setengah hematokrit perifer mendukung hemotoraks; interpretasi tetap mempertimbangkan waktu dan pengenceran.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 18,
+    "id": "BTKV-TH-018",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T04",
+    "topic": "Hemotoraks",
+    "subtopic": "Bekuan pleura tertahan",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan bekuan pleura tertahan dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 34 tahun pascatrauma mendapat drain dada dengan evakuasi darah. Dua hari kemudian CT menunjukkan bekuan pleura besar yang tidak terdrainase, meskipun posisi drain baik. Masalah utama apa yang perlu dievaluasi tim toraks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Akalasia"
+      },
+      {
+        "id": "B",
+        "text": "Efusi akibat hipotiroid sebagai diagnosis pasti"
+      },
+      {
+        "id": "C",
+        "text": "Retained hemothorax"
+      },
+      {
+        "id": "D",
+        "text": "Pneumoperitoneum terisolasi"
+      },
+      {
+        "id": "E",
+        "text": "Paralisis pita suara"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Bekuan yang tertinggal dapat menghambat ekspansi paru dan meningkatkan risiko infeksi sehingga perlu strategi evakuasi.",
+    "correctAnswerReason": "Bekuan yang tertinggal dapat menghambat ekspansi paru dan meningkatkan risiko infeksi sehingga perlu strategi evakuasi.",
+    "clinicalReasoning": "Bekuan yang tertinggal dapat menghambat ekspansi paru dan meningkatkan risiko infeksi sehingga perlu strategi evakuasi.",
+    "distractorExplanations": {
+      "A": "Gangguan motilitas esofagus tidak menjelaskan bekuan pleura.",
+      "B": "Konteks trauma dan bekuan mendukung perdarahan tertahan.",
+      "D": "Tidak menjelaskan koleksi bekuan intrapleura yang terlihat.",
+      "E": "Tidak menyebabkan bekuan darah di rongga pleura."
+    },
+    "learningPoint": "Bekuan yang tertinggal dapat menghambat ekspansi paru dan meningkatkan risiko infeksi sehingga perlu strategi evakuasi.",
+    "clinicalPearl": "Bekuan yang tertinggal dapat menghambat ekspansi paru dan meningkatkan risiko infeksi sehingga perlu strategi evakuasi.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 19,
+    "id": "BTKV-TH-019",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T04",
+    "topic": "Hemotoraks",
+    "subtopic": "Kontrol perdarahan traumatik",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan kontrol perdarahan traumatik dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 40 tahun dengan hemotoraks traumatik tetap hipotensi meski resusitasi darah berjalan. Keluaran drain terus tinggi dan kebutuhan transfusi meningkat. Prinsip keputusan paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menunggu sampai drain berhenti sendiri tanpa evaluasi"
+      },
+      {
+        "id": "B",
+        "text": "Menganggap drain yang mengalir membuktikan perdarahan sudah terkontrol"
+      },
+      {
+        "id": "C",
+        "text": "Mengganti seluruh transfusi dengan cairan hipotonik"
+      },
+      {
+        "id": "D",
+        "text": "Menilai kontrol perdarahan operatif segera berdasarkan fisiologi dan perdarahan berlanjut"
+      },
+      {
+        "id": "E",
+        "text": "Melepas drain sebelum konsultasi bedah"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Syok dan kebutuhan transfusi berulang menandakan perdarahan aktif; keputusan tidak boleh bergantung satu angka drain saja.",
+    "correctAnswerReason": "Syok dan kebutuhan transfusi berulang menandakan perdarahan aktif; keputusan tidak boleh bergantung satu angka drain saja.",
+    "clinicalReasoning": "Syok dan kebutuhan transfusi berulang menandakan perdarahan aktif; keputusan tidak boleh bergantung satu angka drain saja.",
+    "distractorExplanations": {
+      "A": "Penundaan kontrol sumber mempertahankan syok hemoragik.",
+      "B": "Drain menunjukkan keluaran, bukan penghentian sumber perdarahan.",
+      "C": "Tidak menggantikan kemampuan angkut oksigen atau kontrol perdarahan.",
+      "E": "Dapat menghambat pemantauan dan tidak memperbaiki sumber perdarahan."
+    },
+    "learningPoint": "Syok dan kebutuhan transfusi berulang menandakan perdarahan aktif; keputusan tidak boleh bergantung satu angka drain saja.",
+    "clinicalPearl": "Syok dan kebutuhan transfusi berulang menandakan perdarahan aktif; keputusan tidak boleh bergantung satu angka drain saja.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 20,
+    "id": "BTKV-TH-020",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T04",
+    "topic": "Hemotoraks",
+    "subtopic": "Organisasi pleura",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan organisasi pleura dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 63 tahun beberapa minggu setelah hemotoraks mengalami sesak, penebalan pleura, dan paru sulit mengembang akibat jaringan fibrosa. Komplikasi paling sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bronkiektasis kongenital"
+      },
+      {
+        "id": "B",
+        "text": "Emboli udara arteri"
+      },
+      {
+        "id": "C",
+        "text": "Stenosis aorta"
+      },
+      {
+        "id": "D",
+        "text": "Pneumomediastinum sederhana"
+      },
+      {
+        "id": "E",
+        "text": "Fibrotoraks"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Organisasi darah pleura dapat menghasilkan selubung fibrosa yang membatasi ekspansi paru.",
+    "correctAnswerReason": "Organisasi darah pleura dapat menghasilkan selubung fibrosa yang membatasi ekspansi paru.",
+    "clinicalReasoning": "Organisasi darah pleura dapat menghasilkan selubung fibrosa yang membatasi ekspansi paru.",
+    "distractorExplanations": {
+      "A": "Tidak menjelaskan perubahan pleura baru setelah hemotoraks.",
+      "B": "Biasanya akut dan tidak menyebabkan selubung pleura terorganisasi.",
+      "C": "Tidak menerangkan penebalan pleura unilateral pascaperdarahan.",
+      "D": "Udara mediastinum tidak membentuk rind pleura fibrosa."
+    },
+    "learningPoint": "Organisasi darah pleura dapat menghasilkan selubung fibrosa yang membatasi ekspansi paru.",
+    "clinicalPearl": "Organisasi darah pleura dapat menghasilkan selubung fibrosa yang membatasi ekspansi paru.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 21,
+    "id": "BTKV-TH-021",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T05",
+    "topic": "Efusi Pleura dan Empiema",
+    "subtopic": "Kriteria Light",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan kriteria light dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Dalam kriteria Light, temuan apa cukup untuk menggolongkan efusi sebagai eksudat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rasio protein cairan pleura terhadap serum lebih dari 0,5"
+      },
+      {
+        "id": "B",
+        "text": "Warna cairan jernih saja"
+      },
+      {
+        "id": "C",
+        "text": "Volume cairan kurang dari satu liter"
+      },
+      {
+        "id": "D",
+        "text": "Tidak ada nyeri dada"
+      },
+      {
+        "id": "E",
+        "text": "Tekanan darah normal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Satu kriteria Light yang terpenuhi cukup untuk klasifikasi eksudat; etiologi masih memerlukan evaluasi klinis.",
+    "correctAnswerReason": "Satu kriteria Light yang terpenuhi cukup untuk klasifikasi eksudat; etiologi masih memerlukan evaluasi klinis.",
+    "clinicalReasoning": "Satu kriteria Light yang terpenuhi cukup untuk klasifikasi eksudat; etiologi masih memerlukan evaluasi klinis.",
+    "distractorExplanations": {
+      "B": "Warna tidak menggantikan pengukuran biokimia.",
+      "C": "Volume bukan salah satu kriteria Light.",
+      "D": "Gejala tidak menetapkan klasifikasi biokimia.",
+      "E": "Tekanan sistemik tidak menentukan rasio protein pleura."
+    },
+    "learningPoint": "Satu kriteria Light yang terpenuhi cukup untuk klasifikasi eksudat; etiologi masih memerlukan evaluasi klinis.",
+    "clinicalPearl": "Satu kriteria Light yang terpenuhi cukup untuk klasifikasi eksudat; etiologi masih memerlukan evaluasi klinis.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 22,
+    "id": "BTKV-TH-022",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T05",
+    "topic": "Efusi Pleura dan Empiema",
+    "subtopic": "Efusi parapneumonik komplikata",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan efusi parapneumonik komplikata dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Pasien pneumonia memiliki cairan pleura pH 7,05, glukosa rendah, dan lokulasi pada ultrasonografi. Interpretasi paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Transudat sederhana yang pasti tidak memerlukan evaluasi"
+      },
+      {
+        "id": "B",
+        "text": "Efusi parapneumonik komplikata yang memerlukan evaluasi drainase"
+      },
+      {
+        "id": "C",
+        "text": "Pneumotoraks primer"
+      },
+      {
+        "id": "D",
+        "text": "Efusi normal fisiologis"
+      },
+      {
+        "id": "E",
+        "text": "Akalasia sebagai penyebab tunggal pasti"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Asidosis cairan dan lokulasi mendukung proses pleura terinfeksi atau terkomplikasi, sehingga antibiotik saja dapat tidak cukup.",
+    "correctAnswerReason": "Asidosis cairan dan lokulasi mendukung proses pleura terinfeksi atau terkomplikasi, sehingga antibiotik saja dapat tidak cukup.",
+    "clinicalReasoning": "Asidosis cairan dan lokulasi mendukung proses pleura terinfeksi atau terkomplikasi, sehingga antibiotik saja dapat tidak cukup.",
+    "distractorExplanations": {
+      "A": "Temuan kimia dan lokulasi tidak sesuai efusi sederhana berisiko rendah.",
+      "C": "Data menunjukkan cairan pleura, bukan udara bebas.",
+      "D": "Volume patologis, pH rendah, dan pneumonia bukan temuan fisiologis.",
+      "E": "Tidak menjelaskan hubungan pneumonia dan cairan pleura terkomplikasi."
+    },
+    "learningPoint": "Asidosis cairan dan lokulasi mendukung proses pleura terinfeksi atau terkomplikasi, sehingga antibiotik saja dapat tidak cukup.",
+    "clinicalPearl": "Asidosis cairan dan lokulasi mendukung proses pleura terinfeksi atau terkomplikasi, sehingga antibiotik saja dapat tidak cukup.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 23,
+    "id": "BTKV-TH-023",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T05",
+    "topic": "Efusi Pleura dan Empiema",
+    "subtopic": "Pseudoeksudat pascadiuresis",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pseudoeksudat pascadiuresis dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 62 tahun dengan gagal jantung mendapat diuretik dan efusinya sedikit memenuhi kriteria eksudat. Apa pendekatan interpretasi paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menyatakan kriteria Light menentukan keganasan pasti"
+      },
+      {
+        "id": "B",
+        "text": "Mengabaikan semua hasil serum"
+      },
+      {
+        "id": "C",
+        "text": "Mempertimbangkan pseudoeksudat akibat diuresis bersama konteks klinis"
+      },
+      {
+        "id": "D",
+        "text": "Menetapkan empiema hanya karena protein meningkat"
+      },
+      {
+        "id": "E",
+        "text": "Menganggap semua efusi bilateral membutuhkan reseksi paru"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Diuresis dapat memekatkan protein pleura; penilaian tambahan membantu membedakan efusi kardiogenik dari eksudat sejati.",
+    "correctAnswerReason": "Diuresis dapat memekatkan protein pleura; penilaian tambahan membantu membedakan efusi kardiogenik dari eksudat sejati.",
+    "clinicalReasoning": "Diuresis dapat memekatkan protein pleura; penilaian tambahan membantu membedakan efusi kardiogenik dari eksudat sejati.",
+    "distractorExplanations": {
+      "A": "Eksudat bukan sinonim keganasan.",
+      "B": "Perbandingan serum membantu menginterpretasikan cairan setelah diuresis.",
+      "D": "Infeksi memerlukan bukti klinis dan analisis tambahan.",
+      "E": "Tindakan tersebut tidak mengikuti mekanisme gagal jantung."
+    },
+    "learningPoint": "Diuresis dapat memekatkan protein pleura; penilaian tambahan membantu membedakan efusi kardiogenik dari eksudat sejati.",
+    "clinicalPearl": "Diuresis dapat memekatkan protein pleura; penilaian tambahan membantu membedakan efusi kardiogenik dari eksudat sejati.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 24,
+    "id": "BTKV-TH-024",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T05",
+    "topic": "Efusi Pleura dan Empiema",
+    "subtopic": "Kontrol sumber empiema",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan kontrol sumber empiema dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 58 tahun dengan empiema tetap demam setelah antibiotik dan drain. CT menunjukkan banyak lokulasi dengan drain hanya menjangkau satu kantong. Langkah penalaran terbaik apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menambah antipiretik tanpa menilai rongga pleura"
+      },
+      {
+        "id": "B",
+        "text": "Menganggap kultur negatif meniadakan infeksi"
+      },
+      {
+        "id": "C",
+        "text": "Menghentikan antibiotik karena drain sudah terpasang"
+      },
+      {
+        "id": "D",
+        "text": "Menilai kegagalan kontrol sumber dan opsi drainase tambahan atau intervensi bersama tim"
+      },
+      {
+        "id": "E",
+        "text": "Menunggu semua lokulasi menjadi udara"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Lokulasi menghambat evakuasi pus; pemilihan terapi intrapleura atau bedah mempertimbangkan anatomi, risiko, dan respons.",
+    "correctAnswerReason": "Lokulasi menghambat evakuasi pus; pemilihan terapi intrapleura atau bedah mempertimbangkan anatomi, risiko, dan respons.",
+    "clinicalReasoning": "Lokulasi menghambat evakuasi pus; pemilihan terapi intrapleura atau bedah mempertimbangkan anatomi, risiko, dan respons.",
+    "distractorExplanations": {
+      "A": "Menurunkan suhu tidak mengatasi koleksi yang tidak terdrainase.",
+      "B": "Antibiotik sebelumnya dapat menurunkan hasil kultur.",
+      "C": "Pemasangan drain tidak otomatis mengatasi semua fokus infeksi.",
+      "E": "Tidak ada dasar menunda kontrol sumber dengan asumsi ini."
+    },
+    "learningPoint": "Lokulasi menghambat evakuasi pus; pemilihan terapi intrapleura atau bedah mempertimbangkan anatomi, risiko, dan respons.",
+    "clinicalPearl": "Lokulasi menghambat evakuasi pus; pemilihan terapi intrapleura atau bedah mempertimbangkan anatomi, risiko, dan respons.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 25,
+    "id": "BTKV-TH-025",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T05",
+    "topic": "Efusi Pleura dan Empiema",
+    "subtopic": "Konfirmasi kilotoraks",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan konfirmasi kilotoraks dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 49 tahun pascareseksi mediastinum menghasilkan cairan drain putih susu setelah makan. Diagnosis kilotoraks paling langsung didukung oleh temuan apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sel eritrosit tunggal"
+      },
+      {
+        "id": "B",
+        "text": "Rasio glukosa serum normal"
+      },
+      {
+        "id": "C",
+        "text": "Udara pada selang drain"
+      },
+      {
+        "id": "D",
+        "text": "pH darah arteri normal"
+      },
+      {
+        "id": "E",
+        "text": "Kilomikron pada cairan pleura"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Kilomikron menunjukkan asal limfatik kaya lemak; warna susu saja tidak spesifik dan perlu konfirmasi.",
+    "correctAnswerReason": "Kilomikron menunjukkan asal limfatik kaya lemak; warna susu saja tidak spesifik dan perlu konfirmasi.",
+    "clinicalReasoning": "Kilomikron menunjukkan asal limfatik kaya lemak; warna susu saja tidak spesifik dan perlu konfirmasi.",
+    "distractorExplanations": {
+      "A": "Eritrosit dapat ditemukan pada banyak efusi dan bukan penanda chyle.",
+      "B": "Tidak mengidentifikasi kandungan limfe pleura.",
+      "C": "Menunjukkan kebocoran udara, bukan bukti kilomikron.",
+      "D": "Tidak menentukan komposisi lipid cairan pleura."
+    },
+    "learningPoint": "Kilomikron menunjukkan asal limfatik kaya lemak; warna susu saja tidak spesifik dan perlu konfirmasi.",
+    "clinicalPearl": "Kilomikron menunjukkan asal limfatik kaya lemak; warna susu saja tidak spesifik dan perlu konfirmasi.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 26,
+    "id": "BTKV-TH-026",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T06",
+    "topic": "Tumor Paru",
+    "subtopic": "Operabilitas dan resektabilitas",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan operabilitas dan resektabilitas dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Apa perbedaan konsep operabilitas dan resektabilitas pada kanker paru?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Operabilitas menilai kemampuan pasien, resektabilitas menilai kemungkinan reseksi tumor"
+      },
+      {
+        "id": "B",
+        "text": "Keduanya hanya mengukur diameter tumor"
+      },
+      {
+        "id": "C",
+        "text": "Operabilitas ditentukan histologi tumor saja"
+      },
+      {
+        "id": "D",
+        "text": "Resektabilitas berarti pasien pasti sembuh"
+      },
+      {
+        "id": "E",
+        "text": "Keduanya menghilangkan kebutuhan staging"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cadangan fisiologis pasien dan kelayakan anatomi-onkologis merupakan dua dimensi keputusan yang saling melengkapi.",
+    "correctAnswerReason": "Cadangan fisiologis pasien dan kelayakan anatomi-onkologis merupakan dua dimensi keputusan yang saling melengkapi.",
+    "clinicalReasoning": "Cadangan fisiologis pasien dan kelayakan anatomi-onkologis merupakan dua dimensi keputusan yang saling melengkapi.",
+    "distractorExplanations": {
+      "B": "Ukuran tidak mencakup fungsi organ atau penyebaran penyakit.",
+      "C": "Histologi penting secara onkologis tetapi tidak mengukur cadangan kardiopulmoner pasien.",
+      "D": "Reseksi tidak menjamin hasil onkologis universal.",
+      "E": "Penentuan stadium tetap penting sebelum keputusan kuratif."
+    },
+    "learningPoint": "Cadangan fisiologis pasien dan kelayakan anatomi-onkologis merupakan dua dimensi keputusan yang saling melengkapi.",
+    "clinicalPearl": "Cadangan fisiologis pasien dan kelayakan anatomi-onkologis merupakan dua dimensi keputusan yang saling melengkapi.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 27,
+    "id": "BTKV-TH-027",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T06",
+    "topic": "Tumor Paru",
+    "subtopic": "Konfirmasi stadium nodal",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan konfirmasi stadium nodal dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 60 tahun memiliki nodul paru terduga ganas. CT menunjukkan kelenjar mediastinal membesar. Apa pemeriksaan berikut yang paling relevan sebelum menetapkan stadium patologis kelenjar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menganggap semua pembesaran pasti metastasis"
+      },
+      {
+        "id": "B",
+        "text": "Pengambilan jaringan kelenjar dengan pendekatan seperti EBUS sesuai lokasi"
+      },
+      {
+        "id": "C",
+        "text": "Menetapkan stadium hanya dari spirometri"
+      },
+      {
+        "id": "D",
+        "text": "Melakukan lobektomi tanpa evaluasi mediastinum pada semua kasus"
+      },
+      {
+        "id": "E",
+        "text": "Memakai kadar hemoglobin sebagai penentu N"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ukuran kelenjar tidak memastikan metastasis; konfirmasi jaringan dapat mengubah strategi terapi.",
+    "correctAnswerReason": "Ukuran kelenjar tidak memastikan metastasis; konfirmasi jaringan dapat mengubah strategi terapi.",
+    "clinicalReasoning": "Ukuran kelenjar tidak memastikan metastasis; konfirmasi jaringan dapat mengubah strategi terapi.",
+    "distractorExplanations": {
+      "A": "Inflamasi juga dapat membesarkan kelenjar.",
+      "C": "Spirometri menilai fungsi, bukan keterlibatan kelenjar.",
+      "D": "Dapat mengabaikan informasi yang mengubah rencana terapi.",
+      "E": "Hemoglobin bukan penentu stadium nodal."
+    },
+    "learningPoint": "Ukuran kelenjar tidak memastikan metastasis; konfirmasi jaringan dapat mengubah strategi terapi.",
+    "clinicalPearl": "Ukuran kelenjar tidak memastikan metastasis; konfirmasi jaringan dapat mengubah strategi terapi.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 28,
+    "id": "BTKV-TH-028",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T06",
+    "topic": "Tumor Paru",
+    "subtopic": "Fungsi paru pascareseksi",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan fungsi paru pascareseksi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 66 tahun dengan tumor perifer kecil akan menjalani reseksi paru. Ia memiliki penyakit paru obstruktif berat. Pemeriksaan fungsi apa paling membantu memperkirakan risiko fisiologis reseksi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Golongan darah sebagai pengganti fungsi paru"
+      },
+      {
+        "id": "B",
+        "text": "CT anatomi toraks tanpa pemeriksaan fungsi"
+      },
+      {
+        "id": "C",
+        "text": "FEV1 dan DLCO dengan estimasi nilai pascareseksi"
+      },
+      {
+        "id": "D",
+        "text": "ECG istirahat sebagai satu-satunya tes"
+      },
+      {
+        "id": "E",
+        "text": "Saturasi istirahat sebagai satu-satunya tes"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kapasitas aliran dan difusi yang tersisa membantu menilai toleransi kehilangan parenkim; evaluasi lanjutan disesuaikan risiko.",
+    "correctAnswerReason": "Kapasitas aliran dan difusi yang tersisa membantu menilai toleransi kehilangan parenkim; evaluasi lanjutan disesuaikan risiko.",
+    "clinicalReasoning": "Kapasitas aliran dan difusi yang tersisa membantu menilai toleransi kehilangan parenkim; evaluasi lanjutan disesuaikan risiko.",
+    "distractorExplanations": {
+      "A": "Penting untuk transfusi tetapi tidak menilai cadangan respirasi.",
+      "B": "Anatomi penting tetapi tidak menggantikan pengukuran kapasitas ventilasi dan difusi.",
+      "D": "ECG tidak memperkirakan secara langsung fungsi ventilasi dan difusi pascareseksi.",
+      "E": "Saturasi normal tidak memastikan cadangan fisiologis setelah kehilangan parenkim."
+    },
+    "learningPoint": "Kapasitas aliran dan difusi yang tersisa membantu menilai toleransi kehilangan parenkim; evaluasi lanjutan disesuaikan risiko.",
+    "clinicalPearl": "Kapasitas aliran dan difusi yang tersisa membantu menilai toleransi kehilangan parenkim; evaluasi lanjutan disesuaikan risiko.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 29,
+    "id": "BTKV-TH-029",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T06",
+    "topic": "Tumor Paru",
+    "subtopic": "Penilaian risiko integratif",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan penilaian risiko integratif dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 59 tahun dengan kanker paru terlokalisasi memiliki prediksi fungsi pascareseksi rendah dan kapasitas aktivitas tidak jelas. Keputusan terbaik sebelum menolak atau menerima operasi besar apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menetapkan semua pasien dengan COPD tidak boleh diterapi"
+      },
+      {
+        "id": "B",
+        "text": "Menganggap tumor kecil menghilangkan risiko respirasi"
+      },
+      {
+        "id": "C",
+        "text": "Memilih pneumonektomi rutin agar staging lebih mudah"
+      },
+      {
+        "id": "D",
+        "text": "Penilaian multidisiplin dan uji latihan kardiopulmoner bila sesuai"
+      },
+      {
+        "id": "E",
+        "text": "Menggunakan usia sebagai satu-satunya kriteria"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Risiko tidak ditentukan satu angka saja; kapasitas latihan dan alternatif terapi perlu dibahas untuk keputusan individual.",
+    "correctAnswerReason": "Risiko tidak ditentukan satu angka saja; kapasitas latihan dan alternatif terapi perlu dibahas untuk keputusan individual.",
+    "clinicalReasoning": "Risiko tidak ditentukan satu angka saja; kapasitas latihan dan alternatif terapi perlu dibahas untuk keputusan individual.",
+    "distractorExplanations": {
+      "A": "Diagnosis COPD saja tidak meniadakan semua pilihan terapi.",
+      "B": "Ukuran tumor tidak memperbaiki cadangan fisiologis.",
+      "C": "Reseksi lebih luas dapat menambah risiko tanpa justifikasi.",
+      "E": "Usia kronologis tidak cukup menentukan toleransi operasi."
+    },
+    "learningPoint": "Risiko tidak ditentukan satu angka saja; kapasitas latihan dan alternatif terapi perlu dibahas untuk keputusan individual.",
+    "clinicalPearl": "Risiko tidak ditentukan satu angka saja; kapasitas latihan dan alternatif terapi perlu dibahas untuk keputusan individual.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 30,
+    "id": "BTKV-TH-030",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T06",
+    "topic": "Tumor Paru",
+    "subtopic": "Tumor sulkus superior",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan tumor sulkus superior dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 57 tahun memiliki massa apeks paru, nyeri bahu menjalar ke lengan, ptosis dan miosis ipsilateral. Keterlibatan struktur apa paling menjelaskan keseluruhan temuan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nervus frenikus saja"
+      },
+      {
+        "id": "B",
+        "text": "Nervus laringeus rekuren saja"
+      },
+      {
+        "id": "C",
+        "text": "Duktus torasikus saja"
+      },
+      {
+        "id": "D",
+        "text": "Vena pulmonalis inferior saja"
+      },
+      {
+        "id": "E",
+        "text": "Pleksus brakialis dan rantai simpatis"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Tumor sulkus superior dapat melibatkan saraf brakialis dan jalur simpatis sehingga nyeri lengan disertai sindrom Horner.",
+    "correctAnswerReason": "Tumor sulkus superior dapat melibatkan saraf brakialis dan jalur simpatis sehingga nyeri lengan disertai sindrom Horner.",
+    "clinicalReasoning": "Tumor sulkus superior dapat melibatkan saraf brakialis dan jalur simpatis sehingga nyeri lengan disertai sindrom Horner.",
+    "distractorExplanations": {
+      "A": "Dapat menyebabkan gangguan diafragma tetapi bukan kombinasi Horner dan nyeri brakialis.",
+      "B": "Lebih menjelaskan suara serak daripada gejala lengan dan mata.",
+      "C": "Lebih berkaitan dengan kebocoran limfe daripada sindrom neurologis ini.",
+      "D": "Tidak menjelaskan distribusi nyeri dan gejala simpatis apikal."
+    },
+    "learningPoint": "Tumor sulkus superior dapat melibatkan saraf brakialis dan jalur simpatis sehingga nyeri lengan disertai sindrom Horner.",
+    "clinicalPearl": "Tumor sulkus superior dapat melibatkan saraf brakialis dan jalur simpatis sehingga nyeri lengan disertai sindrom Horner.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 31,
+    "id": "BTKV-TH-031",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T07",
+    "topic": "Tumor Mediastinum",
+    "subtopic": "Tumor paravertebral",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan tumor paravertebral dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Struktur yang paling khas berkaitan dengan asal tumor neurogenik mediastinum posterior adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rantai simpatis atau saraf paravertebral"
+      },
+      {
+        "id": "B",
+        "text": "Timus"
+      },
+      {
+        "id": "C",
+        "text": "Tiroid servikal tanpa ekstensi"
+      },
+      {
+        "id": "D",
+        "text": "Epitel alveolus perifer"
+      },
+      {
+        "id": "E",
+        "text": "Katup trikuspid"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kompartemen paravertebral mengandung jaringan saraf yang dapat menjadi asal tumor neurogenik.",
+    "correctAnswerReason": "Kompartemen paravertebral mengandung jaringan saraf yang dapat menjadi asal tumor neurogenik.",
+    "clinicalReasoning": "Kompartemen paravertebral mengandung jaringan saraf yang dapat menjadi asal tumor neurogenik.",
+    "distractorExplanations": {
+      "B": "Timus terutama berada di mediastinum anterior.",
+      "C": "Lokasi servikal bukan penjelasan khas massa paravertebral.",
+      "D": "Merupakan asal lesi parenkim paru, bukan khas tumor neurogenik posterior.",
+      "E": "Struktur intrakardiak ini bukan asal tumor neurogenik mediastinum."
+    },
+    "learningPoint": "Kompartemen paravertebral mengandung jaringan saraf yang dapat menjadi asal tumor neurogenik.",
+    "clinicalPearl": "Kompartemen paravertebral mengandung jaringan saraf yang dapat menjadi asal tumor neurogenik.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 32,
+    "id": "BTKV-TH-032",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T07",
+    "topic": "Tumor Mediastinum",
+    "subtopic": "Timoma dan kelemahan fluktuatif",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan timoma dan kelemahan fluktuatif dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 44 tahun dengan diplopia yang memburuk sore hari dan kelemahan otot memiliki massa mediastinum anterior. Hubungan penyakit apa yang paling perlu dievaluasi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Schwannoma dengan asma"
+      },
+      {
+        "id": "B",
+        "text": "Timoma dengan miastenia gravis"
+      },
+      {
+        "id": "C",
+        "text": "Kista bronkogenik dengan stenosis aorta"
+      },
+      {
+        "id": "D",
+        "text": "Limfoma dengan apendisitis wajib"
+      },
+      {
+        "id": "E",
+        "text": "Teratoma dengan gagal ginjal pasti"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Kelemahan fluktuatif dan massa anterior menuntut evaluasi gangguan transmisi neuromuskular yang dapat menyertai timoma.",
+    "correctAnswerReason": "Kelemahan fluktuatif dan massa anterior menuntut evaluasi gangguan transmisi neuromuskular yang dapat menyertai timoma.",
+    "clinicalReasoning": "Kelemahan fluktuatif dan massa anterior menuntut evaluasi gangguan transmisi neuromuskular yang dapat menyertai timoma.",
+    "distractorExplanations": {
+      "A": "Schwannoma umumnya paravertebral dan tidak menjelaskan kelemahan fluktuatif.",
+      "C": "Kombinasi ini tidak menjelaskan pola neuromuskular.",
+      "D": "Tidak terdapat hubungan wajib dan gejala abdominal tidak disebutkan.",
+      "E": "Massa anterior saja tidak menetapkan hubungan tersebut."
+    },
+    "learningPoint": "Kelemahan fluktuatif dan massa anterior menuntut evaluasi gangguan transmisi neuromuskular yang dapat menyertai timoma.",
+    "clinicalPearl": "Kelemahan fluktuatif dan massa anterior menuntut evaluasi gangguan transmisi neuromuskular yang dapat menyertai timoma.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 33,
+    "id": "BTKV-TH-033",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T07",
+    "topic": "Tumor Mediastinum",
+    "subtopic": "Komponen teratoma",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan komponen teratoma dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 25 tahun memiliki massa mediastinum anterior heterogen dengan lemak dan kalsifikasi menyerupai gigi pada CT. Diagnosis paling sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kista perikardial sederhana"
+      },
+      {
+        "id": "B",
+        "text": "Aneurisma aorta tanpa trombus"
+      },
+      {
+        "id": "C",
+        "text": "Teratoma"
+      },
+      {
+        "id": "D",
+        "text": "Schwannoma paravertebral"
+      },
+      {
+        "id": "E",
+        "text": "Atelektasis lobar"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Komponen jaringan berbeda seperti lemak dan struktur terkalsifikasi mendukung tumor sel germinal tipe teratoma.",
+    "correctAnswerReason": "Komponen jaringan berbeda seperti lemak dan struktur terkalsifikasi mendukung tumor sel germinal tipe teratoma.",
+    "clinicalReasoning": "Komponen jaringan berbeda seperti lemak dan struktur terkalsifikasi mendukung tumor sel germinal tipe teratoma.",
+    "distractorExplanations": {
+      "A": "Biasanya cairan homogen tanpa gigi atau lemak kompleks.",
+      "B": "Biasanya berhubungan dengan lumen pembuluh berkontras.",
+      "D": "Lokasi dan komposisi tidak paling sesuai tumor saraf posterior.",
+      "E": "Kelainan parenkim ini tidak menghasilkan massa dengan komponen gigi."
+    },
+    "learningPoint": "Komponen jaringan berbeda seperti lemak dan struktur terkalsifikasi mendukung tumor sel germinal tipe teratoma.",
+    "clinicalPearl": "Komponen jaringan berbeda seperti lemak dan struktur terkalsifikasi mendukung tumor sel germinal tipe teratoma.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 34,
+    "id": "BTKV-TH-034",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T07",
+    "topic": "Tumor Mediastinum",
+    "subtopic": "Risiko anestesi massa mediastinum",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan risiko anestesi massa mediastinum dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 33 tahun dengan massa mediastinum besar mengalami stridor dan tidak toleran posisi terlentang. Tim merencanakan biopsi. Prinsip keselamatan anestesi terpenting apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sedasi rutin tanpa menilai kompresi"
+      },
+      {
+        "id": "B",
+        "text": "Memaksa posisi terlentang agar prosedur lebih cepat"
+      },
+      {
+        "id": "C",
+        "text": "Menganggap saturasi istirahat menyingkirkan risiko"
+      },
+      {
+        "id": "D",
+        "text": "Perencanaan multidisiplin untuk risiko kolaps jalan napas dan hemodinamik"
+      },
+      {
+        "id": "E",
+        "text": "Menunda semua komunikasi sampai setelah induksi"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Kompresi massa dapat memburuk saat perubahan posisi atau anestesi; strategi harus disesuaikan sebelum prosedur.",
+    "correctAnswerReason": "Kompresi massa dapat memburuk saat perubahan posisi atau anestesi; strategi harus disesuaikan sebelum prosedur.",
+    "clinicalReasoning": "Kompresi massa dapat memburuk saat perubahan posisi atau anestesi; strategi harus disesuaikan sebelum prosedur.",
+    "distractorExplanations": {
+      "A": "Penurunan tonus dapat memperberat obstruksi pada pasien berisiko.",
+      "B": "Dapat memperburuk gejala kompresi yang sudah jelas.",
+      "C": "Oksigenasi saat duduk tidak menjamin keamanan saat induksi.",
+      "E": "Kegagalan persiapan menyulitkan penanganan kolaps akut."
+    },
+    "learningPoint": "Kompresi massa dapat memburuk saat perubahan posisi atau anestesi; strategi harus disesuaikan sebelum prosedur.",
+    "clinicalPearl": "Kompresi massa dapat memburuk saat perubahan posisi atau anestesi; strategi harus disesuaikan sebelum prosedur.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 35,
+    "id": "BTKV-TH-035",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T07",
+    "topic": "Tumor Mediastinum",
+    "subtopic": "Obstruksi vena kava superior",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan obstruksi vena kava superior dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 52 tahun dengan edema wajah, vena leher dan dinding dada melebar, serta massa mediastinum mengalami perburukan bertahap. Sindrom apa paling sesuai?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obstruksi vena kava inferior terisolasi"
+      },
+      {
+        "id": "B",
+        "text": "Stenosis arteri renalis"
+      },
+      {
+        "id": "C",
+        "text": "Trombosis arteri poplitea"
+      },
+      {
+        "id": "D",
+        "text": "Hipertensi portal terisolasi"
+      },
+      {
+        "id": "E",
+        "text": "Obstruksi vena kava superior"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Hambatan aliran vena kepala dan ekstremitas atas menyebabkan kongesti dan pembentukan kolateral toraks.",
+    "correctAnswerReason": "Hambatan aliran vena kepala dan ekstremitas atas menyebabkan kongesti dan pembentukan kolateral toraks.",
+    "clinicalReasoning": "Hambatan aliran vena kepala dan ekstremitas atas menyebabkan kongesti dan pembentukan kolateral toraks.",
+    "distractorExplanations": {
+      "A": "Lebih memengaruhi aliran balik dari bagian bawah tubuh.",
+      "B": "Tidak menjelaskan kolateral vena dinding dada atas.",
+      "C": "Terutama mengganggu perfusi tungkai.",
+      "D": "Tidak paling sesuai pola kongesti kepala dan leher akibat massa mediastinum."
+    },
+    "learningPoint": "Hambatan aliran vena kepala dan ekstremitas atas menyebabkan kongesti dan pembentukan kolateral toraks.",
+    "clinicalPearl": "Hambatan aliran vena kepala dan ekstremitas atas menyebabkan kongesti dan pembentukan kolateral toraks.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 36,
+    "id": "BTKV-TH-036",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T08",
+    "topic": "Penyakit Esofagus",
+    "subtopic": "Fisiologi akalasia",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan fisiologi akalasia dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Pola fisiologis utama akalasia adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Relaksasi sfingter esofagus bawah terganggu disertai hilangnya peristalsis normal"
+      },
+      {
+        "id": "B",
+        "text": "Relaksasi sfingter bawah berlebihan dengan peristalsis normal"
+      },
+      {
+        "id": "C",
+        "text": "Obstruksi pilorus sebagai kelainan primer"
+      },
+      {
+        "id": "D",
+        "text": "Hipersekresi asam sebagai satu-satunya kelainan"
+      },
+      {
+        "id": "E",
+        "text": "Kelumpuhan sfingter anus"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Gangguan motorik ini menghambat transit esofagus tanpa harus ada sumbatan mekanis intrinsik.",
+    "correctAnswerReason": "Gangguan motorik ini menghambat transit esofagus tanpa harus ada sumbatan mekanis intrinsik.",
+    "clinicalReasoning": "Gangguan motorik ini menghambat transit esofagus tanpa harus ada sumbatan mekanis intrinsik.",
+    "distractorExplanations": {
+      "B": "Lebih mendukung mekanisme refluks, bukan definisi akalasia.",
+      "C": "Pilorus bukan struktur motorik esofagus.",
+      "D": "Asam tidak menjelaskan aperistalsis dan kegagalan relaksasi.",
+      "E": "Bukan kelainan anatomi esofagus."
+    },
+    "learningPoint": "Gangguan motorik ini menghambat transit esofagus tanpa harus ada sumbatan mekanis intrinsik.",
+    "clinicalPearl": "Gangguan motorik ini menghambat transit esofagus tanpa harus ada sumbatan mekanis intrinsik.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 37,
+    "id": "BTKV-TH-037",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T08",
+    "topic": "Penyakit Esofagus",
+    "subtopic": "Manometri esofagus",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan manometri esofagus dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 46 tahun mengalami disfagia cair dan padat progresif, regurgitasi makanan, dan penurunan berat badan. Endoskopi tidak menemukan massa. Pemeriksaan konfirmasi gangguan motilitas yang paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Spirometri"
+      },
+      {
+        "id": "B",
+        "text": "Manometri esofagus resolusi tinggi"
+      },
+      {
+        "id": "C",
+        "text": "Duplex karotis"
+      },
+      {
+        "id": "D",
+        "text": "Ekokardiografi"
+      },
+      {
+        "id": "E",
+        "text": "Analisis gas darah saja"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Manometri mengukur pola kontraksi dan relaksasi sambungan esofagogastrik untuk menetapkan serta mengklasifikasikan akalasia.",
+    "correctAnswerReason": "Manometri mengukur pola kontraksi dan relaksasi sambungan esofagogastrik untuk menetapkan serta mengklasifikasikan akalasia.",
+    "clinicalReasoning": "Manometri mengukur pola kontraksi dan relaksasi sambungan esofagogastrik untuk menetapkan serta mengklasifikasikan akalasia.",
+    "distractorExplanations": {
+      "A": "Menilai fungsi ventilasi, bukan motilitas esofagus.",
+      "C": "Menilai vaskular leher, bukan tekanan intraluminal esofagus.",
+      "D": "Tidak mengukur koordinasi peristalsis esofagus.",
+      "E": "Tidak menetapkan kelainan motorik esofagus."
+    },
+    "learningPoint": "Manometri mengukur pola kontraksi dan relaksasi sambungan esofagogastrik untuk menetapkan serta mengklasifikasikan akalasia.",
+    "clinicalPearl": "Manometri mengukur pola kontraksi dan relaksasi sambungan esofagogastrik untuk menetapkan serta mengklasifikasikan akalasia.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 38,
+    "id": "BTKV-TH-038",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T08",
+    "topic": "Penyakit Esofagus",
+    "subtopic": "Perforasi iatrogenik",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan perforasi iatrogenik dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 61 tahun mengalami nyeri dada dan demam setelah endoskopi terapeutik. CT menunjukkan udara mediastinal serta cairan sekitar esofagus. Komplikasi paling perlu dicurigai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Refluks tanpa komplikasi"
+      },
+      {
+        "id": "B",
+        "text": "Spasme esofagus sederhana"
+      },
+      {
+        "id": "C",
+        "text": "Perforasi esofagus"
+      },
+      {
+        "id": "D",
+        "text": "Hernia hiatal tanpa komplikasi"
+      },
+      {
+        "id": "E",
+        "text": "Akalasia primer"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Hubungan temporal prosedur dengan udara dan cairan periesofageal mengarah pada kebocoran yang memerlukan evaluasi segera.",
+    "correctAnswerReason": "Hubungan temporal prosedur dengan udara dan cairan periesofageal mengarah pada kebocoran yang memerlukan evaluasi segera.",
+    "clinicalReasoning": "Hubungan temporal prosedur dengan udara dan cairan periesofageal mengarah pada kebocoran yang memerlukan evaluasi segera.",
+    "distractorExplanations": {
+      "A": "Tidak menjelaskan kontaminasi atau udara ekstraluminal baru.",
+      "B": "Dapat menyebabkan nyeri tetapi bukan cairan dan udara mediastinal.",
+      "D": "Tidak cukup menjelaskan gejala septik pascaprosedur.",
+      "E": "Tidak biasanya menyebabkan udara ekstraluminal akut setelah tindakan."
+    },
+    "learningPoint": "Hubungan temporal prosedur dengan udara dan cairan periesofageal mengarah pada kebocoran yang memerlukan evaluasi segera.",
+    "clinicalPearl": "Hubungan temporal prosedur dengan udara dan cairan periesofageal mengarah pada kebocoran yang memerlukan evaluasi segera.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 39,
+    "id": "BTKV-TH-039",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T08",
+    "topic": "Penyakit Esofagus",
+    "subtopic": "Kontaminasi pada perforasi",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan kontaminasi pada perforasi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 50 tahun datang terlambat setelah muntah hebat dengan syok, nyeri dada, dan cairan pleura terkontaminasi akibat perforasi esofagus. Prinsip penanganan paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Terapi antasida tunggal lalu pulang"
+      },
+      {
+        "id": "B",
+        "text": "Menunggu hasil kultur sebelum semua terapi"
+      },
+      {
+        "id": "C",
+        "text": "Pemberian makan oral bebas untuk menguji kebocoran"
+      },
+      {
+        "id": "D",
+        "text": "Resusitasi dan antibiotik disertai kontrol kebocoran serta kontaminasi oleh tim terkait"
+      },
+      {
+        "id": "E",
+        "text": "Menyatakan semua perforasi harus ditangani identik"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pada perforasi dengan sepsis, menutup defek saja tanpa mengendalikan kontaminasi tidak mencukupi; strategi individual memerlukan tim berpengalaman.",
+    "correctAnswerReason": "Pada perforasi dengan sepsis, menutup defek saja tanpa mengendalikan kontaminasi tidak mencukupi; strategi individual memerlukan tim berpengalaman.",
+    "clinicalReasoning": "Pada perforasi dengan sepsis, menutup defek saja tanpa mengendalikan kontaminasi tidak mencukupi; strategi individual memerlukan tim berpengalaman.",
+    "distractorExplanations": {
+      "A": "Tidak menangani perforasi maupun sepsis.",
+      "B": "Menunda stabilisasi dan kontrol sumber pada syok berisiko tinggi.",
+      "C": "Dapat menambah kontaminasi dan bukan uji keamanan yang tepat.",
+      "E": "Waktu, lokasi, kontaminasi, dan keadaan pasien mengubah pilihan intervensi."
+    },
+    "learningPoint": "Pada perforasi dengan sepsis, menutup defek saja tanpa mengendalikan kontaminasi tidak mencukupi; strategi individual memerlukan tim berpengalaman.",
+    "clinicalPearl": "Pada perforasi dengan sepsis, menutup defek saja tanpa mengendalikan kontaminasi tidak mencukupi; strategi individual memerlukan tim berpengalaman.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 40,
+    "id": "BTKV-TH-040",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T08",
+    "topic": "Penyakit Esofagus",
+    "subtopic": "Tanda alarm disfagia",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan tanda alarm disfagia dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 69 tahun mengalami disfagia progresif awalnya makanan padat lalu cair, disertai penurunan berat badan. Mengapa evaluasi sumbatan atau keganasan perlu diprioritaskan sebelum menyebut gangguan fungsional?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua disfagia padat pasti akalasia"
+      },
+      {
+        "id": "B",
+        "text": "Berat badan turun membuktikan refluks jinak"
+      },
+      {
+        "id": "C",
+        "text": "Usia lanjut meniadakan kebutuhan endoskopi"
+      },
+      {
+        "id": "D",
+        "text": "Gangguan fungsional selalu menghasilkan striktur"
+      },
+      {
+        "id": "E",
+        "text": "Progresi dan penurunan berat badan merupakan tanda alarm"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Kelainan struktural harus dievaluasi dengan pemeriksaan seperti endoskopi dan biopsi sesuai temuan, bukan diasumsikan fungsional.",
+    "correctAnswerReason": "Kelainan struktural harus dievaluasi dengan pemeriksaan seperti endoskopi dan biopsi sesuai temuan, bukan diasumsikan fungsional.",
+    "clinicalReasoning": "Kelainan struktural harus dievaluasi dengan pemeriksaan seperti endoskopi dan biopsi sesuai temuan, bukan diasumsikan fungsional.",
+    "distractorExplanations": {
+      "A": "Pola padat dahulu meningkatkan kecurigaan obstruksi mekanis.",
+      "B": "Penurunan berat badan tidak spesifik dan membutuhkan evaluasi.",
+      "C": "Usia tidak membuat tanda alarm aman diabaikan.",
+      "D": "Gangguan fungsional tidak didefinisikan oleh penyempitan struktural."
+    },
+    "learningPoint": "Kelainan struktural harus dievaluasi dengan pemeriksaan seperti endoskopi dan biopsi sesuai temuan, bukan diasumsikan fungsional.",
+    "clinicalPearl": "Kelainan struktural harus dievaluasi dengan pemeriksaan seperti endoskopi dan biopsi sesuai temuan, bukan diasumsikan fungsional.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 41,
+    "id": "BTKV-TH-041",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T09",
+    "topic": "Teknik Bedah Toraks",
+    "subtopic": "Akses VATS",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan akses vats dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Apa prinsip VATS dibanding torakotomi terbuka?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Akses rongga toraks dengan kamera melalui insisi terbatas"
+      },
+      {
+        "id": "B",
+        "text": "Operasi tanpa akses ke rongga toraks"
+      },
+      {
+        "id": "C",
+        "text": "Teknik yang selalu tanpa anestesi"
+      },
+      {
+        "id": "D",
+        "text": "Reseksi yang selalu lebih luas dari pneumonektomi"
+      },
+      {
+        "id": "E",
+        "text": "Jaminan tanpa komplikasi pada semua pasien"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "VATS menjelaskan pendekatan akses; kelayakannya tetap bergantung anatomi, tujuan operasi, dan kemampuan tim.",
+    "correctAnswerReason": "VATS menjelaskan pendekatan akses; kelayakannya tetap bergantung anatomi, tujuan operasi, dan kemampuan tim.",
+    "clinicalReasoning": "VATS menjelaskan pendekatan akses; kelayakannya tetap bergantung anatomi, tujuan operasi, dan kemampuan tim.",
+    "distractorExplanations": {
+      "B": "Kamera dan instrumen tetap harus memasuki rongga operasi.",
+      "C": "Kebutuhan anestesi bergantung prosedur dan bukan dihapus oleh VATS.",
+      "D": "VATS bukan ukuran luas reseksi.",
+      "E": "Pendekatan minimal invasif tetap memiliki risiko dan keterbatasan."
+    },
+    "learningPoint": "VATS menjelaskan pendekatan akses; kelayakannya tetap bergantung anatomi, tujuan operasi, dan kemampuan tim.",
+    "clinicalPearl": "VATS menjelaskan pendekatan akses; kelayakannya tetap bergantung anatomi, tujuan operasi, dan kemampuan tim.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 42,
+    "id": "BTKV-TH-042",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T09",
+    "topic": "Teknik Bedah Toraks",
+    "subtopic": "Ventilasi satu paru",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan ventilasi satu paru dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 58 tahun akan menjalani lobektomi. Tim membahas ventilasi satu paru. Tujuan utama teknik tersebut selama operasi adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menghentikan semua pertukaran gas sepanjang operasi"
+      },
+      {
+        "id": "B",
+        "text": "Mengisolasi paru operasi untuk memberi ruang bedah sambil mempertahankan ventilasi sisi lain"
+      },
+      {
+        "id": "C",
+        "text": "Mengganti kebutuhan pemantauan oksigenasi"
+      },
+      {
+        "id": "D",
+        "text": "Menyembuhkan tumor tanpa reseksi"
+      },
+      {
+        "id": "E",
+        "text": "Menghilangkan semua risiko aspirasi secara mutlak"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Isolasi paru mendukung paparan dan membantu melindungi paru kontralateral pada situasi tertentu.",
+    "correctAnswerReason": "Isolasi paru mendukung paparan dan membantu melindungi paru kontralateral pada situasi tertentu.",
+    "clinicalReasoning": "Isolasi paru mendukung paparan dan membantu melindungi paru kontralateral pada situasi tertentu.",
+    "distractorExplanations": {
+      "A": "Paru yang tidak dioperasi tetap diusahakan terventilasi.",
+      "C": "Ventilasi satu paru justru membutuhkan pemantauan ketat.",
+      "D": "Teknik anestesi bukan terapi onkologis definitif.",
+      "E": "Isolasi tidak memberi jaminan absolut terhadap semua komplikasi."
+    },
+    "learningPoint": "Isolasi paru mendukung paparan dan membantu melindungi paru kontralateral pada situasi tertentu.",
+    "clinicalPearl": "Isolasi paru mendukung paparan dan membantu melindungi paru kontralateral pada situasi tertentu.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 43,
+    "id": "BTKV-TH-043",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T09",
+    "topic": "Teknik Bedah Toraks",
+    "subtopic": "Pemulihan pascalobektomi",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pemulihan pascalobektomi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 65 tahun pascalobektomi stabil tetapi belum berani bergerak karena nyeri. Apa intervensi yang paling sesuai prinsip pemulihan terarah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tirah baring berkepanjangan rutin"
+      },
+      {
+        "id": "B",
+        "text": "Larangan latihan napas pada semua pasien"
+      },
+      {
+        "id": "C",
+        "text": "Analgesia memadai dan mobilisasi dini yang aman"
+      },
+      {
+        "id": "D",
+        "text": "Menghentikan nutrisi sampai seluruh luka hilang"
+      },
+      {
+        "id": "E",
+        "text": "Sedasi dalam sebagai pengganti mobilisasi"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kontrol nyeri, latihan respirasi, dan mobilisasi membantu mencegah komplikasi akibat imobilitas setelah stabilitas dinilai.",
+    "correctAnswerReason": "Kontrol nyeri, latihan respirasi, dan mobilisasi membantu mencegah komplikasi akibat imobilitas setelah stabilitas dinilai.",
+    "clinicalReasoning": "Kontrol nyeri, latihan respirasi, dan mobilisasi membantu mencegah komplikasi akibat imobilitas setelah stabilitas dinilai.",
+    "distractorExplanations": {
+      "A": "Meningkatkan risiko deconditioning, trombosis, dan komplikasi paru.",
+      "B": "Dapat menghambat pemulihan ventilasi dan pembersihan sekret.",
+      "D": "Penundaan tanpa indikasi tidak mendukung pemulihan.",
+      "E": "Dapat mengganggu ventilasi dan aktivitas fungsional."
+    },
+    "learningPoint": "Kontrol nyeri, latihan respirasi, dan mobilisasi membantu mencegah komplikasi akibat imobilitas setelah stabilitas dinilai.",
+    "clinicalPearl": "Kontrol nyeri, latihan respirasi, dan mobilisasi membantu mencegah komplikasi akibat imobilitas setelah stabilitas dinilai.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 44,
+    "id": "BTKV-TH-044",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T09",
+    "topic": "Teknik Bedah Toraks",
+    "subtopic": "Obstruksi drain pleura",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan obstruksi drain pleura dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 54 tahun dengan drain pleura tiba-tiba sesak; selang tampak tertekuk, suara napas menurun, dan tekanan darah mulai turun. Prioritas apa yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menunggu jadwal penggantian botol besok"
+      },
+      {
+        "id": "B",
+        "text": "Mengklaim tidak ada masalah karena drain kemarin berfungsi"
+      },
+      {
+        "id": "C",
+        "text": "Menjepit drain berkepanjangan tanpa pengawasan"
+      },
+      {
+        "id": "D",
+        "text": "Menilai pasien serta segera memulihkan fungsi drain dan mengevaluasi komplikasi tensi"
+      },
+      {
+        "id": "E",
+        "text": "Melepas pemantauan saturasi agar pasien tenang"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Obstruksi drain dapat menghambat evakuasi udara; perburukan fisiologis memerlukan respons segera, bukan pemeriksaan alat semata.",
+    "correctAnswerReason": "Obstruksi drain dapat menghambat evakuasi udara; perburukan fisiologis memerlukan respons segera, bukan pemeriksaan alat semata.",
+    "clinicalReasoning": "Obstruksi drain dapat menghambat evakuasi udara; perburukan fisiologis memerlukan respons segera, bukan pemeriksaan alat semata.",
+    "distractorExplanations": {
+      "A": "Menunda evaluasi pasien yang memburuk dapat berbahaya.",
+      "B": "Fungsi drain dapat berubah secara akut.",
+      "C": "Dapat memperberat penumpukan udara pada kebocoran aktif.",
+      "E": "Tidak mengatasi gangguan pleura dan menghilangkan data penting."
+    },
+    "learningPoint": "Obstruksi drain dapat menghambat evakuasi udara; perburukan fisiologis memerlukan respons segera, bukan pemeriksaan alat semata.",
+    "clinicalPearl": "Obstruksi drain dapat menghambat evakuasi udara; perburukan fisiologis memerlukan respons segera, bukan pemeriksaan alat semata.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 45,
+    "id": "BTKV-TH-045",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T09",
+    "topic": "Teknik Bedah Toraks",
+    "subtopic": "Margin reseksi anatomis",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan margin reseksi anatomis dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 60 tahun dengan nodul perifer direncanakan reseksi anatomis terbatas. Mengapa pemetaan segmen dan batas reseksi tetap penting meskipun akses menggunakan VATS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "VATS otomatis memberi margin negatif"
+      },
+      {
+        "id": "B",
+        "text": "Semua segmen memiliki anatomi identik tanpa variasi"
+      },
+      {
+        "id": "C",
+        "text": "Reseksi terbatas tidak dapat menyebabkan perdarahan"
+      },
+      {
+        "id": "D",
+        "text": "Kelenjar limfe tidak relevan pada kanker paru"
+      },
+      {
+        "id": "E",
+        "text": "Menjaga kecukupan margin dan mengenali anatomi bronkovaskular"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Pendekatan akses tidak menggantikan prinsip onkologis maupun identifikasi pembuluh dan bronkus yang benar.",
+    "correctAnswerReason": "Pendekatan akses tidak menggantikan prinsip onkologis maupun identifikasi pembuluh dan bronkus yang benar.",
+    "clinicalReasoning": "Pendekatan akses tidak menggantikan prinsip onkologis maupun identifikasi pembuluh dan bronkus yang benar.",
+    "distractorExplanations": {
+      "A": "Margin harus ditentukan dan diperiksa, bukan dijamin oleh kamera.",
+      "B": "Variasi bronkovaskular dapat memengaruhi keselamatan reseksi.",
+      "C": "Pembuluh segmental tetap berpotensi cedera.",
+      "D": "Evaluasi nodal dapat penting untuk staging dan rencana terapi."
+    },
+    "learningPoint": "Pendekatan akses tidak menggantikan prinsip onkologis maupun identifikasi pembuluh dan bronkus yang benar.",
+    "clinicalPearl": "Pendekatan akses tidak menggantikan prinsip onkologis maupun identifikasi pembuluh dan bronkus yang benar.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 46,
+    "id": "BTKV-TH-046",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T10",
+    "topic": "Komplikasi dan Kegawatdaruratan Toraks",
+    "subtopic": "Mekanisme kebocoran udara",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan mekanisme kebocoran udara dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Setelah reseksi paru, apa arti air leak pada drain yang menetap?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ada aliran udara dari paru atau jalan napas menuju ruang pleura atau sistem"
+      },
+      {
+        "id": "B",
+        "text": "Selalu menunjukkan infeksi bakteri"
+      },
+      {
+        "id": "C",
+        "text": "Selalu berarti drain harus dijepit terus"
+      },
+      {
+        "id": "D",
+        "text": "Membuktikan paru telah mengembang sempurna"
+      },
+      {
+        "id": "E",
+        "text": "Selalu berarti seluruh bronkus utama terputus"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sumber dapat berasal dari jaringan paru maupun sambungan alat; pemeriksaan sistem dan pasien diperlukan sebelum menetapkan penyebab.",
+    "correctAnswerReason": "Sumber dapat berasal dari jaringan paru maupun sambungan alat; pemeriksaan sistem dan pasien diperlukan sebelum menetapkan penyebab.",
+    "clinicalReasoning": "Sumber dapat berasal dari jaringan paru maupun sambungan alat; pemeriksaan sistem dan pasien diperlukan sebelum menetapkan penyebab.",
+    "distractorExplanations": {
+      "B": "Kebocoran udara dapat terjadi tanpa infeksi.",
+      "C": "Penjepitan kebocoran aktif dapat menyebabkan penumpukan tekanan.",
+      "D": "Kebocoran tidak menjamin ekspansi penuh.",
+      "E": "Kebocoran parenkim lebih kecil juga dapat menghasilkan air leak."
+    },
+    "learningPoint": "Sumber dapat berasal dari jaringan paru maupun sambungan alat; pemeriksaan sistem dan pasien diperlukan sebelum menetapkan penyebab.",
+    "clinicalPearl": "Sumber dapat berasal dari jaringan paru maupun sambungan alat; pemeriksaan sistem dan pasien diperlukan sebelum menetapkan penyebab.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 47,
+    "id": "BTKV-TH-047",
+    "program": "btkv",
+    "category": "thoracic",
+    "taxonomyCode": "T10",
+    "topic": "Komplikasi dan Kegawatdaruratan Toraks",
+    "subtopic": "Kolaps paru akibat mukus",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan kolaps paru akibat mukus dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 62 tahun hari kedua setelah lobektomi mengalami dispnea dan hemitoraks opak dengan mediastinum tertarik ke sisi operasi. Bronkus tampak tersumbat sekret. Diagnosis paling mungkin apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Efusi masif dengan efek massa dominan"
+      },
+      {
+        "id": "B",
+        "text": "Atelektasis akibat sumbatan mukus"
       },
       {
         "id": "C",
         "text": "Pneumotoraks tensi"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Tekanan intrapleura yang meningkat dapat menekan aliran balik vena dan menimbulkan syok obstruktif. Efusi kronis dan atelektasis ringan biasanya tidak menimbulkan kombinasi akut ini.",
-    "distractorExplanations": {
-      "A": "Pilihan “Efusi pleura kronis” tidak memenuhi konsep atau kondisi dalam soal. Tekanan intrapleura yang meningkat dapat menekan aliran balik vena dan menimbulkan syok obstruktif. Efusi kronis dan atelektasis ringan biasanya tidak menimbulkan kombinasi akut ini.",
-      "B": "Pilihan “Atelektasis ringan” tidak memenuhi konsep atau kondisi dalam soal. Tekanan intrapleura yang meningkat dapat menekan aliran balik vena dan menimbulkan syok obstruktif. Efusi kronis dan atelektasis ringan biasanya tidak menimbulkan kombinasi akut ini."
-    },
-    "learningPoint": "Tekanan intrapleura yang meningkat dapat menekan aliran balik vena dan menimbulkan syok obstruktif. Efusi kronis dan atelektasis ringan biasanya tidak menimbulkan kombinasi akut ini.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-THORACIC-002",
-    "program": "btkv",
-    "category": "thoracic",
-    "topic": "Struktur apa yang berjalan di tepi inferior iga sehingga perlu di",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Struktur apa yang berjalan di tepi inferior iga sehingga perlu diperhatikan pada pemasangan drain dada?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Duktus torasikus"
       },
       {
-        "id": "B",
-        "text": "Berkas neurovaskular interkostal"
+        "id": "D",
+        "text": "Edema paru bilateral"
       },
       {
-        "id": "C",
-        "text": "Nervus frenikus"
+        "id": "E",
+        "text": "Emboli pulmonal tanpa kelainan parenkim"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Vena, arteri, dan saraf interkostal berada di sulkus kosta. Nervus frenikus berada di mediastinum, sedangkan duktus torasikus lebih posterior.",
+    "explanation": "Kehilangan volume menarik mediastinum ipsilateral, sesuai obstruksi bronkus dan kolaps paru.",
+    "correctAnswerReason": "Kehilangan volume menarik mediastinum ipsilateral, sesuai obstruksi bronkus dan kolaps paru.",
+    "clinicalReasoning": "Kehilangan volume menarik mediastinum ipsilateral, sesuai obstruksi bronkus dan kolaps paru.",
     "distractorExplanations": {
-      "A": "Pilihan “Duktus torasikus” tidak memenuhi konsep atau kondisi dalam soal. Vena, arteri, dan saraf interkostal berada di sulkus kosta. Nervus frenikus berada di mediastinum, sedangkan duktus torasikus lebih posterior.",
-      "C": "Pilihan “Nervus frenikus” tidak memenuhi konsep atau kondisi dalam soal. Vena, arteri, dan saraf interkostal berada di sulkus kosta. Nervus frenikus berada di mediastinum, sedangkan duktus torasikus lebih posterior."
+      "A": "Efusi bertekanan besar cenderung mendorong mediastinum menjauh.",
+      "C": "Biasanya meningkatkan lusensi dan mendorong mediastinum kontralateral.",
+      "D": "Tidak paling sesuai kehilangan volume unilateral dengan sumbatan bronkus.",
+      "E": "Tidak menjelaskan bronkus tersumbat dan tarikan mediastinum."
     },
-    "learningPoint": "Vena, arteri, dan saraf interkostal berada di sulkus kosta. Nervus frenikus berada di mediastinum, sedangkan duktus torasikus lebih posterior.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-THORACIC-003",
-    "program": "btkv",
-    "category": "thoracic",
-    "topic": "Mengapa pneumotoraks kecil dapat tampak lebih jelas pada CT diban",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Mengapa pneumotoraks kecil dapat tampak lebih jelas pada CT dibanding foto toraks terlentang?",
-    "options": [
+    "learningPoint": "Kehilangan volume menarik mediastinum ipsilateral, sesuai obstruksi bronkus dan kolaps paru.",
+    "clinicalPearl": "Kehilangan volume menarik mediastinum ipsilateral, sesuai obstruksi bronkus dan kolaps paru.",
+    "references": [
       {
-        "id": "A",
-        "text": "Udara dapat terkumpul di anterior pada pasien terlentang"
-      },
-      {
-        "id": "B",
-        "text": "CT mengukur kadar hemoglobin"
-      },
-      {
-        "id": "C",
-        "text": "Semua foto toraks terlentang selalu normal"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "CT dapat memperlihatkan sedikit udara di lokasi anterior yang kurang jelas pada radiografi. CT tidak mengukur hemoglobin, dan foto terlentang tetap dapat menunjukkan kelainan.",
-    "distractorExplanations": {
-      "B": "Pilihan “CT mengukur kadar hemoglobin” tidak memenuhi konsep atau kondisi dalam soal. CT dapat memperlihatkan sedikit udara di lokasi anterior yang kurang jelas pada radiografi. CT tidak mengukur hemoglobin, dan foto terlentang tetap dapat menunjukkan kelainan.",
-      "C": "Pilihan “Semua foto toraks terlentang selalu normal” tidak memenuhi konsep atau kondisi dalam soal. CT dapat memperlihatkan sedikit udara di lokasi anterior yang kurang jelas pada radiografi. CT tidak mengukur hemoglobin, dan foto terlentang tetap dapat menunjukkan kelainan."
-    },
-    "learningPoint": "CT dapat memperlihatkan sedikit udara di lokasi anterior yang kurang jelas pada radiografi. CT tidak mengukur hemoglobin, dan foto terlentang tetap dapat menunjukkan kelainan.",
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
   },
   {
-    "id": "BTKV-THORACIC-004",
+    "number": 48,
+    "id": "BTKV-TH-048",
     "program": "btkv",
     "category": "thoracic",
-    "topic": "Cairan pleura keruh seperti susu dengan kadar trigliserida tinggi",
-    "subtopic": "Konsep dan penalaran",
+    "taxonomyCode": "T10",
+    "topic": "Komplikasi dan Kegawatdaruratan Toraks",
+    "subtopic": "Fistula bronkopleura",
     "difficulty": "medium",
+    "questionType": "clinical_vignette",
     "type": "single_choice",
-    "question": "Cairan pleura keruh seperti susu dengan kadar trigliserida tinggi mengarah pada kondisi apa?",
+    "learningObjective": "Menjelaskan fistula bronkopleura dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 56 tahun hari kelima pascapneumonektomi mengalami demam, sputum purulen, dan penurunan mendadak tinggi cairan rongga operasi pada radiografi disertai udara baru. Komplikasi apa perlu dicurigai?",
     "options": [
       {
         "id": "A",
-        "text": "Hemotoraks"
+        "text": "Pemulihan normal yang selalu aman"
       },
       {
         "id": "B",
-        "text": "Pneumotoraks"
+        "text": "Paralisis diafragma terisolasi"
       },
       {
         "id": "C",
-        "text": "Kilotoraks"
+        "text": "Fistula bronkopleura"
+      },
+      {
+        "id": "D",
+        "text": "Trombosis vena superfisial"
+      },
+      {
+        "id": "E",
+        "text": "Stenosis esofagus"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Gangguan aliran limfe dapat menghasilkan cairan kaya kilomikron. Hemotoraks berisi darah dan pneumotoraks berisi udara.",
+    "explanation": "Komunikasi stump bronkus ke pleura dapat menimbulkan kontaminasi dan perubahan air-fluid level setelah pneumonektomi.",
+    "correctAnswerReason": "Komunikasi stump bronkus ke pleura dapat menimbulkan kontaminasi dan perubahan air-fluid level setelah pneumonektomi.",
+    "clinicalReasoning": "Komunikasi stump bronkus ke pleura dapat menimbulkan kontaminasi dan perubahan air-fluid level setelah pneumonektomi.",
     "distractorExplanations": {
-      "A": "Pilihan “Hemotoraks” tidak memenuhi konsep atau kondisi dalam soal. Gangguan aliran limfe dapat menghasilkan cairan kaya kilomikron. Hemotoraks berisi darah dan pneumotoraks berisi udara.",
-      "B": "Pilihan “Pneumotoraks” tidak memenuhi konsep atau kondisi dalam soal. Gangguan aliran limfe dapat menghasilkan cairan kaya kilomikron. Hemotoraks berisi darah dan pneumotoraks berisi udara."
+      "A": "Kombinasi infeksi dan perubahan mendadak tidak boleh dianggap fisiologis.",
+      "B": "Tidak menjelaskan purulensi dan perubahan udara rongga operasi.",
+      "D": "Tidak menerangkan komunikasi udara intrapleura baru.",
+      "E": "Tidak langsung menjelaskan kebocoran udara dari stump bronkus."
     },
-    "learningPoint": "Gangguan aliran limfe dapat menghasilkan cairan kaya kilomikron. Hemotoraks berisi darah dan pneumotoraks berisi udara.",
+    "learningPoint": "Komunikasi stump bronkus ke pleura dapat menimbulkan kontaminasi dan perubahan air-fluid level setelah pneumonektomi.",
+    "clinicalPearl": "Komunikasi stump bronkus ke pleura dapat menimbulkan kontaminasi dan perubahan air-fluid level setelah pneumonektomi.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
   },
   {
-    "id": "BTKV-THORACIC-005",
+    "number": 49,
+    "id": "BTKV-TH-049",
     "program": "btkv",
     "category": "thoracic",
-    "topic": "Komplikasi apa yang dicurigai bila muncul kebocoran udara besar d",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "T10",
+    "topic": "Komplikasi dan Kegawatdaruratan Toraks",
+    "subtopic": "Hipoksemia dan risiko emboli",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
     "type": "single_choice",
-    "question": "Komplikasi apa yang dicurigai bila muncul kebocoran udara besar dan paru gagal mengembang setelah drain dada pada trauma?",
+    "learningObjective": "Menjelaskan hipoksemia dan risiko emboli dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 67 tahun pascareseksi paru mengalami hipoksemia berat mendadak. Drain paten, hemodinamik memburuk, dan dugaan emboli pulmonal besar muncul setelah evaluasi awal. Prinsip terbaik apa?",
     "options": [
       {
         "id": "A",
-        "text": "Kontusio jaringan subkutan saja"
+        "text": "Trombolisis sistemik otomatis tanpa menilai operasi baru"
       },
       {
         "id": "B",
-        "text": "Cedera trakeobronkial"
+        "text": "Menunggu pasien berjalan sebelum menilai oksigenasi"
       },
       {
         "id": "C",
-        "text": "Fraktur klavikula sederhana"
+        "text": "Menganggap semua dispnea pascaoperasi akibat kecemasan"
+      },
+      {
+        "id": "D",
+        "text": "Stabilisasi segera dan penentuan strategi diagnostik serta terapi sesuai risiko perdarahan pascaoperasi"
+      },
+      {
+        "id": "E",
+        "text": "Antibiotik oral sebagai satu-satunya respons"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Putusnya saluran napas besar menyebabkan kebocoran udara persisten. Cedera tulang atau jaringan superfisial saja tidak menjelaskan kegagalan ekspansi paru tersebut.",
+    "correctAnswer": "D",
+    "explanation": "Ancaman emboli dan perdarahan akibat terapi perlu ditimbang bersama tim; kondisi tidak stabil menuntut keputusan cepat individual.",
+    "correctAnswerReason": "Ancaman emboli dan perdarahan akibat terapi perlu ditimbang bersama tim; kondisi tidak stabil menuntut keputusan cepat individual.",
+    "clinicalReasoning": "Ancaman emboli dan perdarahan akibat terapi perlu ditimbang bersama tim; kondisi tidak stabil menuntut keputusan cepat individual.",
     "distractorExplanations": {
-      "A": "Pilihan “Kontusio jaringan subkutan saja” tidak memenuhi konsep atau kondisi dalam soal. Putusnya saluran napas besar menyebabkan kebocoran udara persisten. Cedera tulang atau jaringan superfisial saja tidak menjelaskan kegagalan ekspansi paru tersebut.",
-      "C": "Pilihan “Fraktur klavikula sederhana” tidak memenuhi konsep atau kondisi dalam soal. Putusnya saluran napas besar menyebabkan kebocoran udara persisten. Cedera tulang atau jaringan superfisial saja tidak menjelaskan kegagalan ekspansi paru tersebut."
+      "A": "Pembedahan baru menambah risiko perdarahan dan memengaruhi pilihan terapi.",
+      "B": "Dapat memperburuk hipoksemia dan menunda respons emergensi.",
+      "C": "Penyebab organik mengancam nyawa harus dievaluasi.",
+      "E": "Tidak menangani syok atau obstruksi vaskular pulmonal."
     },
-    "learningPoint": "Putusnya saluran napas besar menyebabkan kebocoran udara persisten. Cedera tulang atau jaringan superfisial saja tidak menjelaskan kegagalan ekspansi paru tersebut.",
+    "learningPoint": "Ancaman emboli dan perdarahan akibat terapi perlu ditimbang bersama tim; kondisi tidak stabil menuntut keputusan cepat individual.",
+    "clinicalPearl": "Ancaman emboli dan perdarahan akibat terapi perlu ditimbang bersama tim; kondisi tidak stabil menuntut keputusan cepat individual.",
+    "references": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
   },
   {
-    "id": "BTKV-THORACIC-006",
+    "number": 50,
+    "id": "BTKV-TH-050",
     "program": "btkv",
     "category": "thoracic",
-    "topic": "Tumor pada sulkus superior paru dapat menimbulkan nyeri bahu dan ",
-    "subtopic": "Konsep dan penalaran",
+    "taxonomyCode": "T10",
+    "topic": "Komplikasi dan Kegawatdaruratan Toraks",
+    "subtopic": "Perdarahan pascareseksi",
     "difficulty": "medium",
+    "questionType": "clinical_vignette",
     "type": "single_choice",
-    "question": "Tumor pada sulkus superior paru dapat menimbulkan nyeri bahu dan sindrom Horner melalui keterlibatan struktur apa?",
+    "learningObjective": "Menjelaskan perdarahan pascareseksi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 63 tahun setelah reseksi paru memiliki cairan drain makin berdarah, tekanan darah menurun, dan hemoglobin turun serial. Temuan mana paling tepat mendasari eskalasi tindakan?",
     "options": [
       {
         "id": "A",
-        "text": "Pleksus brakialis dan rantai simpatis"
+        "text": "Warna cairan satu kali tanpa konteks"
       },
       {
         "id": "B",
-        "text": "Nervus hipoglosus saja"
+        "text": "Nyeri luka saja dengan tanda vital normal"
       },
       {
         "id": "C",
-        "text": "Arteri femoralis"
+        "text": "Tidak adanya demam"
+      },
+      {
+        "id": "D",
+        "text": "Usia lebih dari enam puluh sebagai alasan tunggal"
+      },
+      {
+        "id": "E",
+        "text": "Bukti perdarahan berlanjut disertai gangguan fisiologis"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Tumor apikal dapat mengenai pleksus brakialis dan saraf simpatis servikotorakal. Dua struktur alternatif tidak berlokasi di apeks toraks.",
+    "correctAnswer": "E",
+    "explanation": "Tren klinis, keluaran drain, dan kebutuhan resusitasi harus dinilai bersama untuk mempertimbangkan kontrol perdarahan.",
+    "correctAnswerReason": "Tren klinis, keluaran drain, dan kebutuhan resusitasi harus dinilai bersama untuk mempertimbangkan kontrol perdarahan.",
+    "clinicalReasoning": "Tren klinis, keluaran drain, dan kebutuhan resusitasi harus dinilai bersama untuk mempertimbangkan kontrol perdarahan.",
     "distractorExplanations": {
-      "B": "Pilihan “Nervus hipoglosus saja” tidak memenuhi konsep atau kondisi dalam soal. Tumor apikal dapat mengenai pleksus brakialis dan saraf simpatis servikotorakal. Dua struktur alternatif tidak berlokasi di apeks toraks.",
-      "C": "Pilihan “Arteri femoralis” tidak memenuhi konsep atau kondisi dalam soal. Tumor apikal dapat mengenai pleksus brakialis dan saraf simpatis servikotorakal. Dua struktur alternatif tidak berlokasi di apeks toraks."
+      "A": "Satu observasi tidak menangkap laju perdarahan atau keadaan pasien.",
+      "B": "Tidak sama dengan bukti syok dan kehilangan darah berlanjut.",
+      "C": "Perdarahan dapat berat tanpa infeksi atau demam.",
+      "D": "Usia tidak menggantikan evaluasi perdarahan dan perfusi."
     },
-    "learningPoint": "Tumor apikal dapat mengenai pleksus brakialis dan saraf simpatis servikotorakal. Dua struktur alternatif tidak berlokasi di apeks toraks.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-THORACIC-007",
-    "program": "btkv",
-    "category": "thoracic",
-    "topic": "Apa prinsip utama penentuan resektabilitas kanker paru sebelum op",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Apa prinsip utama penentuan resektabilitas kanker paru sebelum operasi?",
-    "options": [
+    "learningPoint": "Tren klinis, keluaran drain, dan kebutuhan resusitasi harus dinilai bersama untuk mempertimbangkan kontrol perdarahan.",
+    "clinicalPearl": "Tren klinis, keluaran drain, dan kebutuhan resusitasi harus dinilai bersama untuk mempertimbangkan kontrol perdarahan.",
+    "references": [
       {
-        "id": "A",
-        "text": "Ukuran tumor saja"
-      },
-      {
-        "id": "B",
-        "text": "Usia kalender saja"
-      },
-      {
-        "id": "C",
-        "text": "Penilaian stadium dan cadangan kardiopulmoner"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30304509/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Manfaat onkologis harus dipertimbangkan bersama kemampuan pasien menoleransi reseksi. Ukuran dan usia saja tidak cukup menentukan kelayakan operasi.",
-    "distractorExplanations": {
-      "A": "Pilihan “Ukuran tumor saja” tidak memenuhi konsep atau kondisi dalam soal. Manfaat onkologis harus dipertimbangkan bersama kemampuan pasien menoleransi reseksi. Ukuran dan usia saja tidak cukup menentukan kelayakan operasi.",
-      "B": "Pilihan “Usia kalender saja” tidak memenuhi konsep atau kondisi dalam soal. Manfaat onkologis harus dipertimbangkan bersama kemampuan pasien menoleransi reseksi. Ukuran dan usia saja tidak cukup menentukan kelayakan operasi."
-    },
-    "learningPoint": "Manfaat onkologis harus dipertimbangkan bersama kemampuan pasien menoleransi reseksi. Ukuran dan usia saja tidak cukup menentukan kelayakan operasi.",
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-THORACIC-008",
-    "program": "btkv",
-    "category": "thoracic",
-    "topic": "Nyeri dada hebat setelah muntah kuat disertai emfisema subkutan m",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Nyeri dada hebat setelah muntah kuat disertai emfisema subkutan menimbulkan kecurigaan apa?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Otitis media"
-      },
-      {
-        "id": "B",
-        "text": "Ruptur esofagus"
-      },
-      {
-        "id": "C",
-        "text": "Gastritis sederhana"
-      }
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
     ],
-    "correctAnswer": "B",
-    "explanation": "Peningkatan tekanan mendadak dapat menyebabkan perforasi esofagus dan kontaminasi mediastinum. Gastritis tidak menjelaskan udara subkutan; otitis tidak menjelaskan gejala toraks ini.",
-    "distractorExplanations": {
-      "A": "Pilihan “Otitis media” tidak memenuhi konsep atau kondisi dalam soal. Peningkatan tekanan mendadak dapat menyebabkan perforasi esofagus dan kontaminasi mediastinum. Gastritis tidak menjelaskan udara subkutan; otitis tidak menjelaskan gejala toraks ini.",
-      "C": "Pilihan “Gastritis sederhana” tidak memenuhi konsep atau kondisi dalam soal. Peningkatan tekanan mendadak dapat menyebabkan perforasi esofagus dan kontaminasi mediastinum. Gastritis tidak menjelaskan udara subkutan; otitis tidak menjelaskan gejala toraks ini."
-    },
-    "learningPoint": "Peningkatan tekanan mendadak dapat menyebabkan perforasi esofagus dan kontaminasi mediastinum. Gastritis tidak menjelaskan udara subkutan; otitis tidak menjelaskan gejala toraks ini.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-THORACIC-009",
-    "program": "btkv",
-    "category": "thoracic",
-    "topic": "Apa fungsi utama surfaktan alveolar",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Apa fungsi utama surfaktan alveolar?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Mengurangi tegangan permukaan"
-      },
-      {
-        "id": "B",
-        "text": "Meningkatkan viskositas darah"
-      },
-      {
-        "id": "C",
-        "text": "Menutup bronkus utama"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Penurunan tegangan permukaan membantu kestabilan alveolus. Surfaktan bukan pengatur viskositas darah atau penutup jalan napas.",
-    "distractorExplanations": {
-      "B": "Pilihan “Meningkatkan viskositas darah” tidak memenuhi konsep atau kondisi dalam soal. Penurunan tegangan permukaan membantu kestabilan alveolus. Surfaktan bukan pengatur viskositas darah atau penutup jalan napas.",
-      "C": "Pilihan “Menutup bronkus utama” tidak memenuhi konsep atau kondisi dalam soal. Penurunan tegangan permukaan membantu kestabilan alveolus. Surfaktan bukan pengatur viskositas darah atau penutup jalan napas."
-    },
-    "learningPoint": "Penurunan tegangan permukaan membantu kestabilan alveolus. Surfaktan bukan pengatur viskositas darah atau penutup jalan napas.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-THORACIC-010",
-    "program": "btkv",
-    "category": "thoracic",
-    "topic": "Pada empiema dengan lokulasi, mengapa antibiotik saja dapat tidak",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Pada empiema dengan lokulasi, mengapa antibiotik saja dapat tidak memadai?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Antibiotik selalu memperbesar pus"
-      },
-      {
-        "id": "B",
-        "text": "Pleura tidak pernah terinfeksi bakteri"
-      },
-      {
-        "id": "C",
-        "text": "Rongga terinfeksi dapat memerlukan kontrol sumber"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Pus terlokulasi dapat membutuhkan drainase berdasarkan penilaian klinis. Kegagalan kontrol sumber, bukan pembesaran pus oleh semua antibiotik, menjelaskan perlunya intervensi.",
-    "distractorExplanations": {
-      "A": "Pilihan “Antibiotik selalu memperbesar pus” tidak memenuhi konsep atau kondisi dalam soal. Pus terlokulasi dapat membutuhkan drainase berdasarkan penilaian klinis. Kegagalan kontrol sumber, bukan pembesaran pus oleh semua antibiotik, menjelaskan perlunya intervensi.",
-      "B": "Pilihan “Pleura tidak pernah terinfeksi bakteri” tidak memenuhi konsep atau kondisi dalam soal. Pus terlokulasi dapat membutuhkan drainase berdasarkan penilaian klinis. Kegagalan kontrol sumber, bukan pembesaran pus oleh semua antibiotik, menjelaskan perlunya intervensi."
-    },
-    "learningPoint": "Pus terlokulasi dapat membutuhkan drainase berdasarkan penilaian klinis. Kegagalan kontrol sumber, bukan pembesaran pus oleh semua antibiotik, menjelaskan perlunya intervensi.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "contentVersion": 2
   }
 ]

@@ -1,0 +1,1190 @@
+{
+  "total": 150,
+  "technicalValidation": "passed",
+  "medicalReview": "pending_human_review",
+  "referenceVerification": "blocked_by_network_policy",
+  "categories": {
+    "thoracic": {
+      "total": 50,
+      "difficulty": {
+        "easy": 15,
+        "medium": 25,
+        "hard": 10
+      },
+      "formats": {
+        "basic_concept": 10,
+        "data_interpretation": 5,
+        "clinical_vignette": 35
+      },
+      "keys": {
+        "A": 10,
+        "B": 10,
+        "C": 10,
+        "D": 10,
+        "E": 10
+      },
+      "topics": {
+        "T01": 5,
+        "T02": 5,
+        "T03": 5,
+        "T04": 5,
+        "T05": 5,
+        "T06": 5,
+        "T07": 5,
+        "T08": 5,
+        "T09": 5,
+        "T10": 5
+      }
+    },
+    "cardiac": {
+      "total": 50,
+      "difficulty": {
+        "easy": 15,
+        "medium": 25,
+        "hard": 10
+      },
+      "formats": {
+        "basic_concept": 10,
+        "data_interpretation": 5,
+        "clinical_vignette": 35
+      },
+      "keys": {
+        "A": 10,
+        "B": 10,
+        "C": 10,
+        "D": 10,
+        "E": 10
+      },
+      "topics": {
+        "C01": 5,
+        "C02": 5,
+        "C03": 5,
+        "C04": 5,
+        "C05": 5,
+        "C06": 5,
+        "C07": 5,
+        "C08": 5,
+        "C09": 5,
+        "C10": 5
+      }
+    },
+    "vascular": {
+      "total": 50,
+      "difficulty": {
+        "easy": 15,
+        "medium": 25,
+        "hard": 10
+      },
+      "formats": {
+        "basic_concept": 10,
+        "data_interpretation": 5,
+        "clinical_vignette": 35
+      },
+      "keys": {
+        "A": 10,
+        "B": 10,
+        "C": 10,
+        "D": 10,
+        "E": 10
+      },
+      "topics": {
+        "V01": 5,
+        "V02": 5,
+        "V03": 5,
+        "V04": 5,
+        "V05": 5,
+        "V06": 5,
+        "V07": 5,
+        "V08": 5,
+        "V09": 5,
+        "V10": 5
+      }
+    }
+  },
+  "similarityThreshold": 0.6,
+  "suspiciousPairs": [],
+  "editorialQueue": [
+    {
+      "id": "BTKV-TH-001",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-002",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-003",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-004",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-005",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-006",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-007",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-008",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-009",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-TH-010",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-011",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-012",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-013",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-TH-014",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-TH-015",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-016",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-017",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-018",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-019",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-TH-020",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-021",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-022",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-TH-023",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-TH-024",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-025",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-026",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-027",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-028",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-029",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-030",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-031",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-032",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-033",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-034",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-035",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-036",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-037",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-TH-038",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-039",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-TH-040",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-TH-041",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-042",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-043",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-044",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-TH-045",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-046",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-047",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-048",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-049",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-TH-050",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-001",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-002",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-003",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-004",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-005",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-006",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-007",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-008",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-009",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-010",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-011",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-012",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-013",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-014",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-015",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-016",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-017",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-018",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-019",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-020",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-021",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-022",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-023",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-024",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-025",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-026",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-027",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-028",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-029",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-030",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-031",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-032",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-033",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-034",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-035",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-036",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-037",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-038",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-039",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-040",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-041",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-042",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-043",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-044",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-045",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-046",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-047",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-048",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-CD-049",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-CD-050",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-001",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-002",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-003",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-004",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-005",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-006",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-007",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-008",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-009",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-010",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-VS-011",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-012",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-013",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-014",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-VS-015",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-016",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-017",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-018",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-019",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-VS-020",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-021",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-022",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-023",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-024",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-VS-025",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-026",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-027",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-028",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-029",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-VS-030",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-031",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-032",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-033",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-034",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-VS-035",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-036",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-037",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-038",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-039",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-040",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-041",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-042",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-043",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-044",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    },
+    {
+      "id": "BTKV-VS-045",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-046",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-047",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-048",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-049",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required"
+      ]
+    },
+    {
+      "id": "BTKV-VS-050",
+      "flags": [
+        "source_not_verified",
+        "human_medical_review_required",
+        "context_and_resource_dependent"
+      ]
+    }
+  ],
+  "errors": []
+}

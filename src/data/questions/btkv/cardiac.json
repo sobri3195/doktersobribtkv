@@ -1,332 +1,3000 @@
 [
   {
-    "id": "BTKV-CARDIAC-001",
+    "number": 1,
+    "id": "BTKV-CD-001",
     "program": "btkv",
     "category": "cardiac",
-    "topic": "Arteri koroner kiri utama umumnya bercabang menjadi pembuluh apa",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "C01",
+    "topic": "Anatomi dan Fisiologi Jantung",
+    "subtopic": "Preload dan afterload",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
     "type": "single_choice",
-    "question": "Arteri koroner kiri utama umumnya bercabang menjadi pembuluh apa?",
+    "learningObjective": "Menjelaskan preload dan afterload dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Pada siklus jantung, preload paling tepat menggambarkan apa?",
     "options": [
       {
         "id": "A",
-        "text": "Arteri renalis dan lienalis"
+        "text": "Peregangan serat miokard menjelang kontraksi"
       },
       {
         "id": "B",
-        "text": "Arteri pulmonalis kanan dan kiri"
+        "text": "Resistensi yang dilawan ventrikel saat ejeksi"
       },
       {
         "id": "C",
-        "text": "LAD dan sirkumfleksa"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "LAD dan sirkumfleksa merupakan cabang utama koroner kiri. Arteri renal dan lienal berasal dari sirkulasi sistemik lain; arteri pulmonalis bukan koroner.",
-    "distractorExplanations": {
-      "A": "Pilihan “Arteri renalis dan lienalis” tidak memenuhi konsep atau kondisi dalam soal. LAD dan sirkumfleksa merupakan cabang utama koroner kiri. Arteri renal dan lienal berasal dari sirkulasi sistemik lain; arteri pulmonalis bukan koroner.",
-      "B": "Pilihan “Arteri pulmonalis kanan dan kiri” tidak memenuhi konsep atau kondisi dalam soal. LAD dan sirkumfleksa merupakan cabang utama koroner kiri. Arteri renal dan lienal berasal dari sirkulasi sistemik lain; arteri pulmonalis bukan koroner."
-    },
-    "learningPoint": "LAD dan sirkumfleksa merupakan cabang utama koroner kiri. Arteri renal dan lienal berasal dari sirkulasi sistemik lain; arteri pulmonalis bukan koroner.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-CARDIAC-002",
-    "program": "btkv",
-    "category": "cardiac",
-    "topic": "Apa akibat hemodinamik utama tamponade jantung",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Apa akibat hemodinamik utama tamponade jantung?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Penurunan tekanan perikardial"
+        "text": "Frekuensi depolarisasi nodus sinus"
       },
       {
-        "id": "B",
-        "text": "Gangguan pengisian diastolik"
+        "id": "D",
+        "text": "Kekuatan kontraksi intrinsik bebas beban"
       },
       {
-        "id": "C",
-        "text": "Peningkatan bebas pengisian ventrikel"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "Tekanan perikardial yang tinggi menghambat pengisian jantung dan dapat menurunkan curah jantung. Pengisian tidak menjadi bebas dan tekanan justru meningkat.",
-    "distractorExplanations": {
-      "A": "Pilihan “Penurunan tekanan perikardial” tidak memenuhi konsep atau kondisi dalam soal. Tekanan perikardial yang tinggi menghambat pengisian jantung dan dapat menurunkan curah jantung. Pengisian tidak menjadi bebas dan tekanan justru meningkat.",
-      "C": "Pilihan “Peningkatan bebas pengisian ventrikel” tidak memenuhi konsep atau kondisi dalam soal. Tekanan perikardial yang tinggi menghambat pengisian jantung dan dapat menurunkan curah jantung. Pengisian tidak menjadi bebas dan tekanan justru meningkat."
-    },
-    "learningPoint": "Tekanan perikardial yang tinggi menghambat pengisian jantung dan dapat menurunkan curah jantung. Pengisian tidak menjadi bebas dan tekanan justru meningkat.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-CARDIAC-003",
-    "program": "btkv",
-    "category": "cardiac",
-    "topic": "Bising sistolik crescendo-decrescendo yang menjalar ke karotis pa",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Bising sistolik crescendo-decrescendo yang menjalar ke karotis paling khas untuk apa?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Stenosis aorta"
-      },
-      {
-        "id": "B",
-        "text": "Regurgitasi mitral"
-      },
-      {
-        "id": "C",
-        "text": "Stenosis mitral"
+        "id": "E",
+        "text": "Tekanan arteri sistolik sebagai definisi tunggal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Aliran melewati katup aorta yang menyempit menghasilkan bising ejeksi. Regurgitasi mitral biasanya holosistolik, sedangkan stenosis mitral dominan diastolik.",
+    "explanation": "Preload berkaitan dengan keadaan pengisian akhir diastolik, berbeda dari beban yang dilawan saat ejeksi.",
+    "correctAnswerReason": "Preload berkaitan dengan keadaan pengisian akhir diastolik, berbeda dari beban yang dilawan saat ejeksi.",
+    "clinicalReasoning": "Preload berkaitan dengan keadaan pengisian akhir diastolik, berbeda dari beban yang dilawan saat ejeksi.",
     "distractorExplanations": {
-      "B": "Pilihan “Regurgitasi mitral” tidak memenuhi konsep atau kondisi dalam soal. Aliran melewati katup aorta yang menyempit menghasilkan bising ejeksi. Regurgitasi mitral biasanya holosistolik, sedangkan stenosis mitral dominan diastolik.",
-      "C": "Pilihan “Stenosis mitral” tidak memenuhi konsep atau kondisi dalam soal. Aliran melewati katup aorta yang menyempit menghasilkan bising ejeksi. Regurgitasi mitral biasanya holosistolik, sedangkan stenosis mitral dominan diastolik."
+      "B": "Ini lebih menggambarkan komponen afterload.",
+      "C": "Ini menentukan frekuensi, bukan peregangan akhir diastolik.",
+      "D": "Ini merupakan konsep kontraktilitas.",
+      "E": "Tekanan sistolik tidak identik dengan keadaan pengisian ventrikel."
     },
-    "learningPoint": "Aliran melewati katup aorta yang menyempit menghasilkan bising ejeksi. Regurgitasi mitral biasanya holosistolik, sedangkan stenosis mitral dominan diastolik.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-CARDIAC-004",
-    "program": "btkv",
-    "category": "cardiac",
-    "topic": "Apa tujuan oksigenator pada cardiopulmonary bypass",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Apa tujuan oksigenator pada cardiopulmonary bypass?",
-    "options": [
+    "learningPoint": "Preload berkaitan dengan keadaan pengisian akhir diastolik, berbeda dari beban yang dilawan saat ejeksi.",
+    "clinicalPearl": "Preload berkaitan dengan keadaan pengisian akhir diastolik, berbeda dari beban yang dilawan saat ejeksi.",
+    "references": [
       {
-        "id": "A",
-        "text": "Menutup defek septum"
-      },
-      {
-        "id": "B",
-        "text": "Mengukur panjang sternum"
-      },
-      {
-        "id": "C",
-        "text": "Pertukaran gas ekstrakorporeal"
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Oksigenator menambahkan oksigen dan mengeluarkan karbon dioksida dari darah di sirkuit. Ia tidak menutup kelainan anatomi atau mengukur tulang.",
-    "distractorExplanations": {
-      "A": "Pilihan “Menutup defek septum” tidak memenuhi konsep atau kondisi dalam soal. Oksigenator menambahkan oksigen dan mengeluarkan karbon dioksida dari darah di sirkuit. Ia tidak menutup kelainan anatomi atau mengukur tulang.",
-      "B": "Pilihan “Mengukur panjang sternum” tidak memenuhi konsep atau kondisi dalam soal. Oksigenator menambahkan oksigen dan mengeluarkan karbon dioksida dari darah di sirkuit. Ia tidak menutup kelainan anatomi atau mengukur tulang."
-    },
-    "learningPoint": "Oksigenator menambahkan oksigen dan mengeluarkan karbon dioksida dari darah di sirkuit. Ia tidak menutup kelainan anatomi atau mengukur tulang.",
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
   },
   {
-    "id": "BTKV-CARDIAC-005",
+    "number": 2,
+    "id": "BTKV-CD-002",
     "program": "btkv",
     "category": "cardiac",
-    "topic": "Defek septum atrium sekundum terletak terutama di mana",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "C01",
+    "topic": "Anatomi dan Fisiologi Jantung",
+    "subtopic": "Perhitungan curah jantung",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
     "type": "single_choice",
-    "question": "Defek septum atrium sekundum terletak terutama di mana?",
+    "learningObjective": "Menjelaskan perhitungan curah jantung dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Data hemodinamik menunjukkan frekuensi jantung 80 kali/menit dan volume sekuncup 60 mL. Berapa curah jantungnya?",
     "options": [
       {
         "id": "A",
-        "text": "Katup pulmonal"
+        "text": "0,75 L/menit"
       },
       {
         "id": "B",
-        "text": "Fossa ovalis"
+        "text": "4,8 L/menit"
       },
       {
         "id": "C",
-        "text": "Septum ventrikel muskular"
+        "text": "1,33 L/menit"
+      },
+      {
+        "id": "D",
+        "text": "48 L/menit"
+      },
+      {
+        "id": "E",
+        "text": "140 L/menit"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Fossa ovalis merupakan lokasi khas ASD sekundum. Defek ventrikel dan kelainan katup pulmonal merupakan struktur yang berbeda.",
+    "explanation": "Curah jantung adalah frekuensi dikali volume sekuncup: 80 × 60 = 4800 mL/menit.",
+    "correctAnswerReason": "Curah jantung adalah frekuensi dikali volume sekuncup: 80 × 60 = 4800 mL/menit.",
+    "clinicalReasoning": "Curah jantung adalah frekuensi dikali volume sekuncup: 80 × 60 = 4800 mL/menit.",
     "distractorExplanations": {
-      "A": "Pilihan “Katup pulmonal” tidak memenuhi konsep atau kondisi dalam soal. Fossa ovalis merupakan lokasi khas ASD sekundum. Defek ventrikel dan kelainan katup pulmonal merupakan struktur yang berbeda.",
-      "C": "Pilihan “Septum ventrikel muskular” tidak memenuhi konsep atau kondisi dalam soal. Fossa ovalis merupakan lokasi khas ASD sekundum. Defek ventrikel dan kelainan katup pulmonal merupakan struktur yang berbeda."
+      "A": "Membagi volume oleh frekuensi bukan rumus curah jantung.",
+      "C": "Membagi frekuensi oleh volume tidak menghasilkan aliran yang dimaksud.",
+      "D": "Terdapat kesalahan konversi mL ke liter sebesar sepuluh kali.",
+      "E": "Penjumlahan frekuensi dan volume tidak menghasilkan curah jantung."
     },
-    "learningPoint": "Fossa ovalis merupakan lokasi khas ASD sekundum. Defek ventrikel dan kelainan katup pulmonal merupakan struktur yang berbeda.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-CARDIAC-006",
-    "program": "btkv",
-    "category": "cardiac",
-    "topic": "Mengapa regurgitasi mitral berat dapat menyebabkan kongesti paru",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Mengapa regurgitasi mitral berat dapat menyebabkan kongesti paru?",
-    "options": [
+    "learningPoint": "Curah jantung adalah frekuensi dikali volume sekuncup: 80 × 60 = 4800 mL/menit.",
+    "clinicalPearl": "Curah jantung adalah frekuensi dikali volume sekuncup: 80 × 60 = 4800 mL/menit.",
+    "references": [
       {
-        "id": "A",
-        "text": "Tekanan atrium kiri meningkat"
-      },
-      {
-        "id": "B",
-        "text": "Darah tidak pernah kembali ke atrium kiri"
-      },
-      {
-        "id": "C",
-        "text": "Tekanan vena pulmonalis selalu menurun"
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Aliran balik sistolik ke atrium kiri dapat meningkatkan tekanan yang diteruskan ke vena pulmonalis. Pilihan lain berlawanan dengan mekanisme tersebut.",
-    "distractorExplanations": {
-      "B": "Pilihan “Darah tidak pernah kembali ke atrium kiri” tidak memenuhi konsep atau kondisi dalam soal. Aliran balik sistolik ke atrium kiri dapat meningkatkan tekanan yang diteruskan ke vena pulmonalis. Pilihan lain berlawanan dengan mekanisme tersebut.",
-      "C": "Pilihan “Tekanan vena pulmonalis selalu menurun” tidak memenuhi konsep atau kondisi dalam soal. Aliran balik sistolik ke atrium kiri dapat meningkatkan tekanan yang diteruskan ke vena pulmonalis. Pilihan lain berlawanan dengan mekanisme tersebut."
-    },
-    "learningPoint": "Aliran balik sistolik ke atrium kiri dapat meningkatkan tekanan yang diteruskan ke vena pulmonalis. Pilihan lain berlawanan dengan mekanisme tersebut.",
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
   },
   {
-    "id": "BTKV-CARDIAC-007",
+    "number": 3,
+    "id": "BTKV-CD-003",
     "program": "btkv",
     "category": "cardiac",
-    "topic": "Apa yang dimaksud preload dalam penilaian fisiologi jantung",
-    "subtopic": "Konsep dan penalaran",
+    "taxonomyCode": "C01",
+    "topic": "Anatomi dan Fisiologi Jantung",
+    "subtopic": "Suplai nodus AV",
     "difficulty": "medium",
+    "questionType": "clinical_vignette",
     "type": "single_choice",
-    "question": "Apa yang dimaksud preload dalam penilaian fisiologi jantung?",
+    "learningObjective": "Menjelaskan suplai nodus av dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 52 tahun dengan infark inferior mengalami bradikardia dan blok atrioventrikular. Pembuluh yang sering memperdarahi nodus AV pada dominansi kanan adalah apa?",
     "options": [
       {
         "id": "A",
-        "text": "Resistensi yang selalu sama dengan tekanan darah"
+        "text": "LAD distal sebagai pola dominansi kanan"
       },
       {
         "id": "B",
-        "text": "Frekuensi impuls nodus sinus"
+        "text": "Arteri pulmonalis kanan"
       },
       {
         "id": "C",
-        "text": "Peregangan miokard menjelang kontraksi"
+        "text": "Arteri koroner kanan melalui cabang nodal"
+      },
+      {
+        "id": "D",
+        "text": "Arteri mamaria interna tanpa graft"
+      },
+      {
+        "id": "E",
+        "text": "Vena koroner besar"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Preload berkaitan dengan keadaan pengisian dan panjang serat sebelum sistol. Afterload berkaitan dengan beban ejeksi, sedangkan frekuensi bukan preload.",
+    "explanation": "Pada dominansi kanan, suplai nodus AV sering berasal dari koroner kanan sehingga iskemia inferior dapat mengganggu konduksi.",
+    "correctAnswerReason": "Pada dominansi kanan, suplai nodus AV sering berasal dari koroner kanan sehingga iskemia inferior dapat mengganggu konduksi.",
+    "clinicalReasoning": "Pada dominansi kanan, suplai nodus AV sering berasal dari koroner kanan sehingga iskemia inferior dapat mengganggu konduksi.",
     "distractorExplanations": {
-      "A": "Pilihan “Resistensi yang selalu sama dengan tekanan darah” tidak memenuhi konsep atau kondisi dalam soal. Preload berkaitan dengan keadaan pengisian dan panjang serat sebelum sistol. Afterload berkaitan dengan beban ejeksi, sedangkan frekuensi bukan preload.",
-      "B": "Pilihan “Frekuensi impuls nodus sinus” tidak memenuhi konsep atau kondisi dalam soal. Preload berkaitan dengan keadaan pengisian dan panjang serat sebelum sistol. Afterload berkaitan dengan beban ejeksi, sedangkan frekuensi bukan preload."
+      "A": "LAD terutama menyuplai dinding anterior dan septum, bukan asal khas cabang nodus AV dalam konteks ini.",
+      "B": "Membawa darah ke paru dan bukan sumber arteri nodus AV.",
+      "D": "Tidak langsung menjadi suplai utama nodus AV pada anatomi asli.",
+      "E": "Vena mengalirkan darah keluar, bukan memasok darah arteri nodal."
     },
-    "learningPoint": "Preload berkaitan dengan keadaan pengisian dan panjang serat sebelum sistol. Afterload berkaitan dengan beban ejeksi, sedangkan frekuensi bukan preload.",
+    "learningPoint": "Pada dominansi kanan, suplai nodus AV sering berasal dari koroner kanan sehingga iskemia inferior dapat mengganggu konduksi.",
+    "clinicalPearl": "Pada dominansi kanan, suplai nodus AV sering berasal dari koroner kanan sehingga iskemia inferior dapat mengganggu konduksi.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
   },
   {
-    "id": "BTKV-CARDIAC-008",
+    "number": 4,
+    "id": "BTKV-CD-004",
     "program": "btkv",
     "category": "cardiac",
-    "topic": "Komplikasi neurologis akut setelah operasi aorta memerlukan evalu",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
+    "taxonomyCode": "C01",
+    "topic": "Anatomi dan Fisiologi Jantung",
+    "subtopic": "Interdependensi ventrikel",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
     "type": "single_choice",
-    "question": "Komplikasi neurologis akut setelah operasi aorta memerlukan evaluasi segera terutama untuk apa?",
+    "learningObjective": "Menjelaskan interdependensi ventrikel dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 68 tahun dengan syok memiliki tekanan vena sentral tinggi, edema perifer, dan ekokardiografi menunjukkan ventrikel kanan sangat dilatasi. Mengapa bolus cairan berulang tanpa penilaian dapat merugikan?",
     "options": [
       {
         "id": "A",
-        "text": "Karies gigi"
+        "text": "Ventrikel kanan tidak memengaruhi ventrikel kiri"
       },
       {
         "id": "B",
-        "text": "Stroke atau hipoperfusi serebral"
+        "text": "Tekanan vena tinggi selalu membuktikan dehidrasi"
       },
       {
         "id": "C",
-        "text": "Presbiopia tanpa komplikasi"
+        "text": "Semua syok harus diberi volume tanpa batas"
+      },
+      {
+        "id": "D",
+        "text": "Distensi kanan dapat menggeser septum dan menurunkan pengisian kiri"
+      },
+      {
+        "id": "E",
+        "text": "Curah jantung tidak berkaitan dengan pengisian"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Interdependensi ventrikel membuat kelebihan volume kanan memperburuk curah kiri; respons cairan harus dinilai individual.",
+    "correctAnswerReason": "Interdependensi ventrikel membuat kelebihan volume kanan memperburuk curah kiri; respons cairan harus dinilai individual.",
+    "clinicalReasoning": "Interdependensi ventrikel membuat kelebihan volume kanan memperburuk curah kiri; respons cairan harus dinilai individual.",
+    "distractorExplanations": {
+      "A": "Keduanya berinteraksi melalui septum dan perikardium.",
+      "B": "Tekanan tinggi dapat menunjukkan kongesti, bukan kekurangan volume.",
+      "C": "Penyebab dan respons menentukan manfaat atau bahaya cairan.",
+      "E": "Pengisian memengaruhi volume sekuncup, meski hubungannya tidak linier tanpa batas."
+    },
+    "learningPoint": "Interdependensi ventrikel membuat kelebihan volume kanan memperburuk curah kiri; respons cairan harus dinilai individual.",
+    "clinicalPearl": "Interdependensi ventrikel membuat kelebihan volume kanan memperburuk curah kiri; respons cairan harus dinilai individual.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 5,
+    "id": "BTKV-CD-005",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C01",
+    "topic": "Anatomi dan Fisiologi Jantung",
+    "subtopic": "Fungsi diastolik",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan fungsi diastolik dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 61 tahun dengan hipertensi lama memiliki hipertrofi ventrikel kiri dan relaksasi diastolik terganggu, tetapi fraksi ejeksi terjaga. Konsep apa paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fraksi ejeksi normal membuktikan semua fungsi jantung normal"
+      },
+      {
+        "id": "B",
+        "text": "Hipertrofi selalu menurunkan afterload"
+      },
+      {
+        "id": "C",
+        "text": "Gangguan relaksasi hanya terjadi pada ventrikel kanan"
+      },
+      {
+        "id": "D",
+        "text": "Tekanan pengisian selalu rendah pada hipertrofi"
+      },
+      {
+        "id": "E",
+        "text": "Fraksi ejeksi terjaga tidak menyingkirkan gangguan pengisian"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Disfungsi diastolik dapat meningkatkan tekanan pengisian meskipun proporsi volume yang diejeksi tetap terjaga.",
+    "correctAnswerReason": "Disfungsi diastolik dapat meningkatkan tekanan pengisian meskipun proporsi volume yang diejeksi tetap terjaga.",
+    "clinicalReasoning": "Disfungsi diastolik dapat meningkatkan tekanan pengisian meskipun proporsi volume yang diejeksi tetap terjaga.",
+    "distractorExplanations": {
+      "A": "Fungsi diastolik dan katup tidak dinilai hanya dengan fraksi ejeksi.",
+      "B": "Hipertrofi sering merupakan respons terhadap beban tekanan yang meningkat.",
+      "C": "Kedua ventrikel dapat mengalami gangguan diastolik.",
+      "D": "Kekakuan ventrikel dapat justru menaikkan tekanan pengisian."
+    },
+    "learningPoint": "Disfungsi diastolik dapat meningkatkan tekanan pengisian meskipun proporsi volume yang diejeksi tetap terjaga.",
+    "clinicalPearl": "Disfungsi diastolik dapat meningkatkan tekanan pengisian meskipun proporsi volume yang diejeksi tetap terjaga.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 6,
+    "id": "BTKV-CD-006",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C02",
+    "topic": "Penyakit Arteri Koroner",
+    "subtopic": "Iskemia dan nekrosis",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan iskemia dan nekrosis dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Apa perbedaan iskemia dan infark miokard?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iskemia adalah kekurangan suplai relatif, sedangkan infark melibatkan nekrosis"
+      },
+      {
+        "id": "B",
+        "text": "Keduanya selalu berarti nekrosis luas"
+      },
+      {
+        "id": "C",
+        "text": "Infark berarti hanya vasospasme tanpa cedera"
+      },
+      {
+        "id": "D",
+        "text": "Iskemia hanya disebabkan anemia"
+      },
+      {
+        "id": "E",
+        "text": "Infark hanya terjadi pada arteri tanpa aterosklerosis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ketidakseimbangan suplai-kebutuhan dapat reversibel; nekrosis menunjukkan kerusakan sel yang lebih lanjut.",
+    "correctAnswerReason": "Ketidakseimbangan suplai-kebutuhan dapat reversibel; nekrosis menunjukkan kerusakan sel yang lebih lanjut.",
+    "clinicalReasoning": "Ketidakseimbangan suplai-kebutuhan dapat reversibel; nekrosis menunjukkan kerusakan sel yang lebih lanjut.",
+    "distractorExplanations": {
+      "B": "Iskemia belum tentu menyebabkan kematian sel.",
+      "C": "Infark ditentukan oleh cedera iskemik dengan nekrosis, bukan spasme saja.",
+      "D": "Stenosis, trombosis, spasme, dan perubahan kebutuhan juga dapat berperan.",
+      "E": "Aterotrombosis merupakan penyebab penting infark."
+    },
+    "learningPoint": "Ketidakseimbangan suplai-kebutuhan dapat reversibel; nekrosis menunjukkan kerusakan sel yang lebih lanjut.",
+    "clinicalPearl": "Ketidakseimbangan suplai-kebutuhan dapat reversibel; nekrosis menunjukkan kerusakan sel yang lebih lanjut.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 7,
+    "id": "BTKV-CD-007",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C02",
+    "topic": "Penyakit Arteri Koroner",
+    "subtopic": "Wilayah left main",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan wilayah left main dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Angiografi menunjukkan stenosis pada left main koroner sebelum percabangan LAD dan sirkumfleksa. Mengapa temuan ini penting dalam perencanaan revaskularisasi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya nodus sinus yang selalu berisiko"
+      },
+      {
+        "id": "B",
+        "text": "Sebagian besar miokard ventrikel kiri dapat berada dalam wilayah berisiko"
+      },
+      {
+        "id": "C",
+        "text": "Temuan ini identik dengan stenosis arteri pulmonalis"
+      },
+      {
+        "id": "D",
+        "text": "Left main tidak menyuplai ventrikel kiri"
+      },
+      {
+        "id": "E",
+        "text": "Semua stenosis left main harus dinilai hanya dari gejala"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Emboli dan gangguan perfusi dapat menyebabkan defisit neurologis perioperatif. Presbiopia atau karies tidak menjelaskan defisit akut.",
+    "explanation": "Left main menyuplai dua cabang besar; keputusan terapi mempertimbangkan berat stenosis, anatomi, dan kondisi pasien.",
+    "correctAnswerReason": "Left main menyuplai dua cabang besar; keputusan terapi mempertimbangkan berat stenosis, anatomi, dan kondisi pasien.",
+    "clinicalReasoning": "Left main menyuplai dua cabang besar; keputusan terapi mempertimbangkan berat stenosis, anatomi, dan kondisi pasien.",
     "distractorExplanations": {
-      "A": "Pilihan “Karies gigi” tidak memenuhi konsep atau kondisi dalam soal. Emboli dan gangguan perfusi dapat menyebabkan defisit neurologis perioperatif. Presbiopia atau karies tidak menjelaskan defisit akut.",
-      "C": "Pilihan “Presbiopia tanpa komplikasi” tidak memenuhi konsep atau kondisi dalam soal. Emboli dan gangguan perfusi dapat menyebabkan defisit neurologis perioperatif. Presbiopia atau karies tidak menjelaskan defisit akut."
+      "A": "Wilayah suplai jauh lebih luas dan variasi arteri nodal ada.",
+      "C": "Kedua pembuluh berada pada sirkulasi berbeda.",
+      "D": "LAD dan sirkumfleksa merupakan suplai utama ventrikel kiri.",
+      "E": "Penilaian anatomi dan fisiologi juga memengaruhi risiko serta keputusan."
     },
-    "learningPoint": "Emboli dan gangguan perfusi dapat menyebabkan defisit neurologis perioperatif. Presbiopia atau karies tidak menjelaskan defisit akut.",
-    "sourceType": "original_practice",
-    "reviewStatus": "draft"
-  },
-  {
-    "id": "BTKV-CARDIAC-009",
-    "program": "btkv",
-    "category": "cardiac",
-    "topic": "Pemeriksaan apa yang paling langsung menilai gerakan daun katup d",
-    "subtopic": "Konsep dan penalaran",
-    "difficulty": "medium",
-    "type": "single_choice",
-    "question": "Pemeriksaan apa yang paling langsung menilai gerakan daun katup dan fraksi ejeksi secara noninvasif?",
-    "options": [
+    "learningPoint": "Left main menyuplai dua cabang besar; keputusan terapi mempertimbangkan berat stenosis, anatomi, dan kondisi pasien.",
+    "clinicalPearl": "Left main menyuplai dua cabang besar; keputusan terapi mempertimbangkan berat stenosis, anatomi, dan kondisi pasien.",
+    "references": [
       {
-        "id": "A",
-        "text": "Ekokardiografi"
-      },
-      {
-        "id": "B",
-        "text": "Audiometri"
-      },
-      {
-        "id": "C",
-        "text": "Spirometri"
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Ekokardiografi menilai struktur dan fungsi jantung. Audiometri menilai pendengaran dan spirometri menilai ventilasi.",
-    "distractorExplanations": {
-      "B": "Pilihan “Audiometri” tidak memenuhi konsep atau kondisi dalam soal. Ekokardiografi menilai struktur dan fungsi jantung. Audiometri menilai pendengaran dan spirometri menilai ventilasi.",
-      "C": "Pilihan “Spirometri” tidak memenuhi konsep atau kondisi dalam soal. Ekokardiografi menilai struktur dan fungsi jantung. Audiometri menilai pendengaran dan spirometri menilai ventilasi."
-    },
-    "learningPoint": "Ekokardiografi menilai struktur dan fungsi jantung. Audiometri menilai pendengaran dan spirometri menilai ventilasi.",
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
   },
   {
-    "id": "BTKV-CARDIAC-010",
+    "number": 8,
+    "id": "BTKV-CD-008",
     "program": "btkv",
     "category": "cardiac",
-    "topic": "Pada diseksi aorta tipe A, bagian aorta mana yang terlibat",
-    "subtopic": "Konsep dan penalaran",
+    "taxonomyCode": "C02",
+    "topic": "Penyakit Arteri Koroner",
+    "subtopic": "Revaskularisasi multivessel",
     "difficulty": "medium",
+    "questionType": "clinical_vignette",
     "type": "single_choice",
-    "question": "Pada diseksi aorta tipe A, bagian aorta mana yang terlibat?",
+    "learningObjective": "Menjelaskan revaskularisasi multivessel dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 58 tahun dengan diabetes, penyakit koroner multivessel kompleks, dan fungsi ventrikel menurun dirujuk untuk revaskularisasi. Pendekatan pengambilan keputusan paling tepat apa?",
     "options": [
       {
         "id": "A",
-        "text": "Hanya arteri poplitea"
+        "text": "Memilih terapi hanya berdasarkan usia"
       },
       {
         "id": "B",
-        "text": "Hanya aorta abdominal tanpa asendens"
+        "text": "Selalu PCI pada semua multivessel tanpa evaluasi lain"
       },
       {
         "id": "C",
-        "text": "Aorta asendens"
+        "text": "Diskusi Heart Team mengenai CABG, PCI, dan terapi medis sesuai anatomi serta risiko"
+      },
+      {
+        "id": "D",
+        "text": "Menolak semua revaskularisasi karena diabetes"
+      },
+      {
+        "id": "E",
+        "text": "Menetapkan CABG tanpa menilai target distal"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Klasifikasi Stanford A ditentukan oleh keterlibatan aorta asendens. Keterlibatan distal saja tidak memenuhi definisi ini.",
+    "explanation": "Kompleksitas anatomi, diabetes, fungsi jantung, dan risiko prosedur perlu dipadukan bersama preferensi pasien.",
+    "correctAnswerReason": "Kompleksitas anatomi, diabetes, fungsi jantung, dan risiko prosedur perlu dipadukan bersama preferensi pasien.",
+    "clinicalReasoning": "Kompleksitas anatomi, diabetes, fungsi jantung, dan risiko prosedur perlu dipadukan bersama preferensi pasien.",
     "distractorExplanations": {
-      "A": "Pilihan “Hanya arteri poplitea” tidak memenuhi konsep atau kondisi dalam soal. Klasifikasi Stanford A ditentukan oleh keterlibatan aorta asendens. Keterlibatan distal saja tidak memenuhi definisi ini.",
-      "B": "Pilihan “Hanya aorta abdominal tanpa asendens” tidak memenuhi konsep atau kondisi dalam soal. Klasifikasi Stanford A ditentukan oleh keterlibatan aorta asendens. Keterlibatan distal saja tidak memenuhi definisi ini."
+      "A": "Usia tidak mencakup kompleksitas lesi maupun manfaat dan risiko.",
+      "B": "Strategi tidak seragam untuk seluruh anatomi dan profil pasien.",
+      "D": "Diabetes mengubah pertimbangan tetapi bukan larangan universal.",
+      "E": "Kualitas target dan kemungkinan revaskularisasi harus dievaluasi."
     },
-    "learningPoint": "Klasifikasi Stanford A ditentukan oleh keterlibatan aorta asendens. Keterlibatan distal saja tidak memenuhi definisi ini.",
+    "learningPoint": "Kompleksitas anatomi, diabetes, fungsi jantung, dan risiko prosedur perlu dipadukan bersama preferensi pasien.",
+    "clinicalPearl": "Kompleksitas anatomi, diabetes, fungsi jantung, dan risiko prosedur perlu dipadukan bersama preferensi pasien.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
     "sourceType": "original_practice",
-    "reviewStatus": "draft"
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 9,
+    "id": "BTKV-CD-009",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C02",
+    "topic": "Penyakit Arteri Koroner",
+    "subtopic": "Syok pada sindrom koroner akut",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan syok pada sindrom koroner akut dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 65 tahun mengalami nyeri dada menetap, syok, dan elevasi ST. Ia tiba di fasilitas tanpa kemampuan revaskularisasi definitif. Prioritas paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menunggu troponin serial lengkap sebelum aktivasi"
+      },
+      {
+        "id": "B",
+        "text": "Uji latihan treadmill saat masih nyeri dan syok"
+      },
+      {
+        "id": "C",
+        "text": "Menjadwalkan angiografi elektif beberapa minggu kemudian"
+      },
+      {
+        "id": "D",
+        "text": "Stabilisasi simultan dengan aktivasi jalur reperfusi dan rujukan emergensi sesuai fasilitas"
+      },
+      {
+        "id": "E",
+        "text": "Terapi rehabilitasi sebagai pengganti reperfusi akut"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Syok pada sindrom koroner akut membutuhkan pengurangan keterlambatan reperfusi; strategi dipilih berdasarkan sumber daya dan risiko.",
+    "correctAnswerReason": "Syok pada sindrom koroner akut membutuhkan pengurangan keterlambatan reperfusi; strategi dipilih berdasarkan sumber daya dan risiko.",
+    "clinicalReasoning": "Syok pada sindrom koroner akut membutuhkan pengurangan keterlambatan reperfusi; strategi dipilih berdasarkan sumber daya dan risiko.",
+    "distractorExplanations": {
+      "A": "Gambaran klinis dan ECG emergensi tidak memerlukan penundaan aktivasi demi seluruh hasil serial.",
+      "B": "Tidak aman dalam keadaan tidak stabil.",
+      "C": "Tidak sesuai ancaman iskemia akut dan syok.",
+      "E": "Rehabilitasi relevan setelah stabil, bukan pengganti penanganan emergensi."
+    },
+    "learningPoint": "Syok pada sindrom koroner akut membutuhkan pengurangan keterlambatan reperfusi; strategi dipilih berdasarkan sumber daya dan risiko.",
+    "clinicalPearl": "Syok pada sindrom koroner akut membutuhkan pengurangan keterlambatan reperfusi; strategi dipilih berdasarkan sumber daya dan risiko.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 10,
+    "id": "BTKV-CD-010",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C02",
+    "topic": "Penyakit Arteri Koroner",
+    "subtopic": "Komplikasi mekanik infark",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan komplikasi mekanik infark dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 63 tahun pascainfark mengalami sesak baru dan bising sistolik. Mengapa evaluasi ekokardiografi segera penting?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menentukan kolesterol serum secara langsung"
+      },
+      {
+        "id": "B",
+        "text": "Mengganti semua kebutuhan pemeriksaan klinis"
+      },
+      {
+        "id": "C",
+        "text": "Memastikan patensi semua arteri koroner secara rutin"
+      },
+      {
+        "id": "D",
+        "text": "Mengukur efek latihan aerobik jangka panjang saja"
+      },
+      {
+        "id": "E",
+        "text": "Mendeteksi komplikasi mekanik seperti regurgitasi mitral atau defek septum"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Gejala baru setelah infark dapat menunjukkan cedera struktur yang memerlukan strategi berbeda dari disfungsi pompa semata.",
+    "correctAnswerReason": "Gejala baru setelah infark dapat menunjukkan cedera struktur yang memerlukan strategi berbeda dari disfungsi pompa semata.",
+    "clinicalReasoning": "Gejala baru setelah infark dapat menunjukkan cedera struktur yang memerlukan strategi berbeda dari disfungsi pompa semata.",
+    "distractorExplanations": {
+      "A": "Ekokardiografi tidak mengukur profil lipid.",
+      "B": "Temuan echo tetap dipadukan dengan keadaan pasien.",
+      "C": "Echo standar tidak memetakan lumen semua arteri koroner.",
+      "D": "Dalam konteks akut tujuannya menilai penyebab perburukan yang mengancam nyawa."
+    },
+    "learningPoint": "Gejala baru setelah infark dapat menunjukkan cedera struktur yang memerlukan strategi berbeda dari disfungsi pompa semata.",
+    "clinicalPearl": "Gejala baru setelah infark dapat menunjukkan cedera struktur yang memerlukan strategi berbeda dari disfungsi pompa semata.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 11,
+    "id": "BTKV-CD-011",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C03",
+    "topic": "Coronary Artery Bypass Grafting",
+    "subtopic": "Prinsip bypass koroner",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan prinsip bypass koroner dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Apa prinsip bypass koroner pada CABG?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membuat jalur aliran melewati lesi menuju segmen koroner distal"
+      },
+      {
+        "id": "B",
+        "text": "Mengganti semua pembuluh koroner dengan katup"
+      },
+      {
+        "id": "C",
+        "text": "Mengangkat seluruh miokard yang disuplai"
+      },
+      {
+        "id": "D",
+        "text": "Menutup aorta asendens secara permanen"
+      },
+      {
+        "id": "E",
+        "text": "Mengalirkan darah vena langsung ke pleura"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Graft menyalurkan darah ke wilayah di hilir stenosis tanpa harus mengangkat seluruh plak asli.",
+    "correctAnswerReason": "Graft menyalurkan darah ke wilayah di hilir stenosis tanpa harus mengangkat seluruh plak asli.",
+    "clinicalReasoning": "Graft menyalurkan darah ke wilayah di hilir stenosis tanpa harus mengangkat seluruh plak asli.",
+    "distractorExplanations": {
+      "B": "Katup bukan pengganti anatomi koroner.",
+      "C": "Tujuannya memulihkan perfusi, bukan membuang seluruh wilayah tersebut.",
+      "D": "Aorta tetap harus menyuplai sirkulasi sistemik.",
+      "E": "Anastomosis harus memasok sirkulasi koroner, bukan rongga pleura."
+    },
+    "learningPoint": "Graft menyalurkan darah ke wilayah di hilir stenosis tanpa harus mengangkat seluruh plak asli.",
+    "clinicalPearl": "Graft menyalurkan darah ke wilayah di hilir stenosis tanpa harus mengangkat seluruh plak asli.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 12,
+    "id": "BTKV-CD-012",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C03",
+    "topic": "Coronary Artery Bypass Grafting",
+    "subtopic": "Anastomosis LITA-LAD",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan anastomosis lita-lad dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laporan operasi menyebut LITA dianastomosis ke LAD distal dari stenosis. Apa arti hubungan graft tersebut?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vena safena dihubungkan ke vena pulmonalis"
+      },
+      {
+        "id": "B",
+        "text": "Arteri torakika interna kiri memasok wilayah LAD setelah titik sumbatan"
+      },
+      {
+        "id": "C",
+        "text": "LAD ditutup tanpa suplai pengganti"
+      },
+      {
+        "id": "D",
+        "text": "Arteri pulmonalis diganti LITA"
+      },
+      {
+        "id": "E",
+        "text": "Katup mitral diganti jaringan arteri"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Graft arteri dapat digunakan sebagai sumber aliran ke target koroner distal yang sesuai.",
+    "correctAnswerReason": "Graft arteri dapat digunakan sebagai sumber aliran ke target koroner distal yang sesuai.",
+    "clinicalReasoning": "Graft arteri dapat digunakan sebagai sumber aliran ke target koroner distal yang sesuai.",
+    "distractorExplanations": {
+      "A": "LITA bukan vena safena dan targetnya disebut LAD.",
+      "C": "Deskripsi menyebut anastomosis sebagai jalur perfusi baru.",
+      "D": "Operasi yang disebut merupakan bypass koroner, bukan rekonstruksi pulmonalis.",
+      "E": "Tidak ada prosedur katup dalam deskripsi ini."
+    },
+    "learningPoint": "Graft arteri dapat digunakan sebagai sumber aliran ke target koroner distal yang sesuai.",
+    "clinicalPearl": "Graft arteri dapat digunakan sebagai sumber aliran ke target koroner distal yang sesuai.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 13,
+    "id": "BTKV-CD-013",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C03",
+    "topic": "Coronary Artery Bypass Grafting",
+    "subtopic": "Sirkulasi donor radialis",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan sirkulasi donor radialis dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 62 tahun direncanakan CABG. Tim menilai arteri radialis sebagai graft dan mengevaluasi sirkulasi kolateral tangan. Alasan utama evaluasi tersebut apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membuktikan semua graft radialis tidak pernah spasme"
+      },
+      {
+        "id": "B",
+        "text": "Mengukur fungsi katup aorta"
+      },
+      {
+        "id": "C",
+        "text": "Mengurangi risiko iskemia tangan setelah arteri donor diambil"
+      },
+      {
+        "id": "D",
+        "text": "Menentukan stadium kanker paru"
+      },
+      {
+        "id": "E",
+        "text": "Memastikan vena safena tidak berisi darah"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kecukupan suplai melalui arteri ulnaris dan arkus palmar penting sebelum memilih graft radialis.",
+    "correctAnswerReason": "Kecukupan suplai melalui arteri ulnaris dan arkus palmar penting sebelum memilih graft radialis.",
+    "clinicalReasoning": "Kecukupan suplai melalui arteri ulnaris dan arkus palmar penting sebelum memilih graft radialis.",
+    "distractorExplanations": {
+      "A": "Evaluasi kolateral tidak menghapus risiko spasme.",
+      "B": "Perfusi tangan bukan ukuran langsung fungsi katup.",
+      "D": "Tidak terkait pengambilan graft arteri lengan.",
+      "E": "Bukan tujuan pemeriksaan sirkulasi arteri tangan."
+    },
+    "learningPoint": "Kecukupan suplai melalui arteri ulnaris dan arkus palmar penting sebelum memilih graft radialis.",
+    "clinicalPearl": "Kecukupan suplai melalui arteri ulnaris dan arkus palmar penting sebelum memilih graft radialis.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 14,
+    "id": "BTKV-CD-014",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C03",
+    "topic": "Coronary Artery Bypass Grafting",
+    "subtopic": "Iskemia perioperatif",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan iskemia perioperatif dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 70 tahun beberapa jam setelah CABG mengalami elevasi ST baru, aritmia ventrikel, dan penurunan curah jantung. Apa respons yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menganggap elevasi ST selalu normal setelah semua CABG"
+      },
+      {
+        "id": "B",
+        "text": "Menunggu rehabilitasi sebelum menilai graft"
+      },
+      {
+        "id": "C",
+        "text": "Memberikan sedasi saja untuk semua aritmia"
+      },
+      {
+        "id": "D",
+        "text": "Eskalasi segera untuk mengevaluasi iskemia perioperatif termasuk masalah graft"
+      },
+      {
+        "id": "E",
+        "text": "Menilai hanya lokasi luka pengambilan vena"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Kombinasi tanda listrik dan gangguan pompa menuntut penilaian cepat; trombosis, kink, atau penyebab lain perlu dibedakan.",
+    "correctAnswerReason": "Kombinasi tanda listrik dan gangguan pompa menuntut penilaian cepat; trombosis, kink, atau penyebab lain perlu dibedakan.",
+    "clinicalReasoning": "Kombinasi tanda listrik dan gangguan pompa menuntut penilaian cepat; trombosis, kink, atau penyebab lain perlu dibedakan.",
+    "distractorExplanations": {
+      "A": "Perubahan baru disertai ketidakstabilan tidak aman diabaikan.",
+      "B": "Penundaan dapat memperpanjang cedera miokard.",
+      "C": "Tidak mengatasi kemungkinan iskemia atau gangguan perfusi graft.",
+      "E": "Tidak cukup menjelaskan perubahan ECG dan curah jantung."
+    },
+    "learningPoint": "Kombinasi tanda listrik dan gangguan pompa menuntut penilaian cepat; trombosis, kink, atau penyebab lain perlu dibedakan.",
+    "clinicalPearl": "Kombinasi tanda listrik dan gangguan pompa menuntut penilaian cepat; trombosis, kink, atau penyebab lain perlu dibedakan.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 15,
+    "id": "BTKV-CD-015",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C03",
+    "topic": "Coronary Artery Bypass Grafting",
+    "subtopic": "Pencegahan sekunder",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pencegahan sekunder dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 59 tahun setelah CABG menanyakan mengapa tetap memerlukan pengendalian faktor risiko. Penjelasan terbaik apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CABG menjadikan semua pembuluh kebal plak"
+      },
+      {
+        "id": "B",
+        "text": "Obat pencegahan hanya untuk pasien tanpa operasi"
+      },
+      {
+        "id": "C",
+        "text": "Berhenti merokok tidak lagi bermanfaat setelah graft"
+      },
+      {
+        "id": "D",
+        "text": "Graft tidak pernah mengalami kelainan"
+      },
+      {
+        "id": "E",
+        "text": "CABG memperbaiki aliran tetapi tidak menghilangkan proses aterosklerosis sistemik"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Pencegahan sekunder tetap penting untuk pembuluh asli, graft, dan risiko kardiovaskular keseluruhan.",
+    "correctAnswerReason": "Pencegahan sekunder tetap penting untuk pembuluh asli, graft, dan risiko kardiovaskular keseluruhan.",
+    "clinicalReasoning": "Pencegahan sekunder tetap penting untuk pembuluh asli, graft, dan risiko kardiovaskular keseluruhan.",
+    "distractorExplanations": {
+      "A": "Aterosklerosis dan penyakit graft masih dapat berkembang.",
+      "B": "Operasi tidak menggantikan semua terapi medis.",
+      "C": "Merokok tetap faktor risiko kardiovaskular.",
+      "D": "Graft dapat mengalami stenosis atau oklusi selama tindak lanjut."
+    },
+    "learningPoint": "Pencegahan sekunder tetap penting untuk pembuluh asli, graft, dan risiko kardiovaskular keseluruhan.",
+    "clinicalPearl": "Pencegahan sekunder tetap penting untuk pembuluh asli, graft, dan risiko kardiovaskular keseluruhan.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 16,
+    "id": "BTKV-CD-016",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C04",
+    "topic": "Penyakit Katup Aorta",
+    "subtopic": "Beban tekanan ventrikel",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan beban tekanan ventrikel dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Mekanisme utama hipertrofi konsentrik pada stenosis aorta adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Beban tekanan kronis pada ventrikel kiri"
+      },
+      {
+        "id": "B",
+        "text": "Beban volume atrium kanan sebagai penyebab tunggal"
+      },
+      {
+        "id": "C",
+        "text": "Hilangnya seluruh afterload ventrikel kiri"
+      },
+      {
+        "id": "D",
+        "text": "Aliran balik diastolik sebagai definisi stenosis"
+      },
+      {
+        "id": "E",
+        "text": "Penutupan vena kava superior"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ventrikel harus menghasilkan tekanan lebih tinggi untuk mengatasi hambatan katup sehingga dinding dapat menebal.",
+    "correctAnswerReason": "Ventrikel harus menghasilkan tekanan lebih tinggi untuk mengatasi hambatan katup sehingga dinding dapat menebal.",
+    "clinicalReasoning": "Ventrikel harus menghasilkan tekanan lebih tinggi untuk mengatasi hambatan katup sehingga dinding dapat menebal.",
+    "distractorExplanations": {
+      "B": "Tidak menjelaskan respons ventrikel kiri terhadap katup aorta.",
+      "C": "Stenosis justru meningkatkan hambatan ejeksi.",
+      "D": "Aliran balik menggambarkan regurgitasi aorta, bukan stenosis.",
+      "E": "Kelainan vena tersebut tidak merupakan mekanisme katup aorta stenotik."
+    },
+    "learningPoint": "Ventrikel harus menghasilkan tekanan lebih tinggi untuk mengatasi hambatan katup sehingga dinding dapat menebal.",
+    "clinicalPearl": "Ventrikel harus menghasilkan tekanan lebih tinggi untuk mengatasi hambatan katup sehingga dinding dapat menebal.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2025-esc-eacts-guidelines-for-the-management-of-valvular-heart-disease-developed-by-the-task-force-for-the-management-of-valvular-heart-disease-of-the-european-society-of-cardiology-esc-and-the-eur/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 17,
+    "id": "BTKV-CD-017",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C04",
+    "topic": "Penyakit Katup Aorta",
+    "subtopic": "Doppler stenosis aorta",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan doppler stenosis aorta dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Ekokardiografi menunjukkan kecepatan puncak katup aorta 4,5 m/detik dan gradien rata-rata 48 mmHg pada aliran adekuat. Interpretasi paling sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stenosis aorta ringan pasti"
+      },
+      {
+        "id": "B",
+        "text": "Temuan mendukung stenosis aorta berat bergradien tinggi"
+      },
+      {
+        "id": "C",
+        "text": "Regurgitasi mitral tanpa stenosis aorta"
+      },
+      {
+        "id": "D",
+        "text": "Katup aorta pasti normal"
+      },
+      {
+        "id": "E",
+        "text": "Stenosis pulmonal terisolasi"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Kecepatan dan gradien yang tinggi pada aliran adekuat mendukung obstruksi berat; evaluasi tetap mengintegrasikan anatomi dan klinis.",
+    "correctAnswerReason": "Kecepatan dan gradien yang tinggi pada aliran adekuat mendukung obstruksi berat; evaluasi tetap mengintegrasikan anatomi dan klinis.",
+    "clinicalReasoning": "Kecepatan dan gradien yang tinggi pada aliran adekuat mendukung obstruksi berat; evaluasi tetap mengintegrasikan anatomi dan klinis.",
+    "distractorExplanations": {
+      "A": "Besarnya kecepatan dan gradien tidak sesuai hambatan ringan.",
+      "C": "Data spesifik di katup aorta menilai obstruksi pada lokasi tersebut.",
+      "D": "Katup normal tidak menghasilkan pola gradien tinggi ini.",
+      "E": "Lokasi pengukuran disebut katup aorta, bukan katup pulmonal."
+    },
+    "learningPoint": "Kecepatan dan gradien yang tinggi pada aliran adekuat mendukung obstruksi berat; evaluasi tetap mengintegrasikan anatomi dan klinis.",
+    "clinicalPearl": "Kecepatan dan gradien yang tinggi pada aliran adekuat mendukung obstruksi berat; evaluasi tetap mengintegrasikan anatomi dan klinis.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2025-esc-eacts-guidelines-for-the-management-of-valvular-heart-disease-developed-by-the-task-force-for-the-management-of-valvular-heart-disease-of-the-european-society-of-cardiology-esc-and-the-eur/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 18,
+    "id": "BTKV-CD-018",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C04",
+    "topic": "Penyakit Katup Aorta",
+    "subtopic": "Stenosis simptomatik",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan stenosis simptomatik dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 77 tahun dengan stenosis aorta berat mengalami sinkop saat aktivitas dan sesak progresif. Langkah paling sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Observasi tanpa evaluasi karena usia lanjut"
+      },
+      {
+        "id": "B",
+        "text": "Latihan maksimal tanpa pengawasan untuk mengatasi sinkop"
+      },
+      {
+        "id": "C",
+        "text": "Rujukan evaluasi intervensi katup dengan penilaian Heart Team"
+      },
+      {
+        "id": "D",
+        "text": "Mengobati hanya dengan antibiotik"
+      },
+      {
+        "id": "E",
+        "text": "Menyatakan semua pasien harus prosedur yang sama"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Gejala yang sesuai pada stenosis berat memerlukan evaluasi manfaat, risiko, anatomi, dan pilihan intervensi.",
+    "correctAnswerReason": "Gejala yang sesuai pada stenosis berat memerlukan evaluasi manfaat, risiko, anatomi, dan pilihan intervensi.",
+    "clinicalReasoning": "Gejala yang sesuai pada stenosis berat memerlukan evaluasi manfaat, risiko, anatomi, dan pilihan intervensi.",
+    "distractorExplanations": {
+      "A": "Usia tidak menghilangkan kebutuhan menilai penyakit simptomatik.",
+      "B": "Berisiko pada pasien simptomatik dengan obstruksi berat.",
+      "D": "Tidak memperbaiki stenosis degeneratif tanpa infeksi.",
+      "E": "Pilihan intervensi bergantung anatomi, risiko, dan harapan manfaat."
+    },
+    "learningPoint": "Gejala yang sesuai pada stenosis berat memerlukan evaluasi manfaat, risiko, anatomi, dan pilihan intervensi.",
+    "clinicalPearl": "Gejala yang sesuai pada stenosis berat memerlukan evaluasi manfaat, risiko, anatomi, dan pilihan intervensi.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2025-esc-eacts-guidelines-for-the-management-of-valvular-heart-disease-developed-by-the-task-force-for-the-management-of-valvular-heart-disease-of-the-european-society-of-cardiology-esc-and-the-eur/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 19,
+    "id": "BTKV-CD-019",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C04",
+    "topic": "Penyakit Katup Aorta",
+    "subtopic": "Low-flow low-gradient",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan low-flow low-gradient dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 72 tahun memiliki area katup kecil, gradien rendah, dan fraksi ejeksi rendah. Mengapa diagnosis stenosis aorta berat tidak cukup ditentukan satu parameter area?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gradien rendah selalu menyingkirkan stenosis berat"
+      },
+      {
+        "id": "B",
+        "text": "Area katup tidak dipengaruhi kesalahan pengukuran"
+      },
+      {
+        "id": "C",
+        "text": "Fraksi ejeksi rendah memastikan semua stenosis semu"
+      },
+      {
+        "id": "D",
+        "text": "Aliran rendah dapat menghasilkan ketidaksesuaian parameter sehingga perlu evaluasi integratif"
+      },
+      {
+        "id": "E",
+        "text": "Semua pasien cukup dinilai dengan auskultasi saja"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pemeriksaan kualitas pengukuran dan penilaian tambahan membantu membedakan stenosis berat sejati dari pseudo-berat.",
+    "correctAnswerReason": "Pemeriksaan kualitas pengukuran dan penilaian tambahan membantu membedakan stenosis berat sejati dari pseudo-berat.",
+    "clinicalReasoning": "Pemeriksaan kualitas pengukuran dan penilaian tambahan membantu membedakan stenosis berat sejati dari pseudo-berat.",
+    "distractorExplanations": {
+      "A": "Pada aliran rendah, gradien dapat rendah meski obstruksi berat.",
+      "B": "Perhitungan dapat berubah oleh kesalahan pengukuran LVOT dan Doppler.",
+      "C": "Disfungsi ventrikel dapat menyertai stenosis berat sejati.",
+      "E": "Parameter yang tidak selaras memerlukan evaluasi lebih mendalam."
+    },
+    "learningPoint": "Pemeriksaan kualitas pengukuran dan penilaian tambahan membantu membedakan stenosis berat sejati dari pseudo-berat.",
+    "clinicalPearl": "Pemeriksaan kualitas pengukuran dan penilaian tambahan membantu membedakan stenosis berat sejati dari pseudo-berat.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2025-esc-eacts-guidelines-for-the-management-of-valvular-heart-disease-developed-by-the-task-force-for-the-management-of-valvular-heart-disease-of-the-european-society-of-cardiology-esc-and-the-eur/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 20,
+    "id": "BTKV-CD-020",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C04",
+    "topic": "Penyakit Katup Aorta",
+    "subtopic": "Beban volume regurgitasi aorta",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan beban volume regurgitasi aorta dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 48 tahun dengan regurgitasi aorta kronis memiliki dilatasi ventrikel kiri progresif. Jenis beban utama yang menjelaskan perubahan ini apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Beban tekanan karena stenosis mitral"
+      },
+      {
+        "id": "B",
+        "text": "Shunt kanan ke kiri melalui vena pulmonalis"
+      },
+      {
+        "id": "C",
+        "text": "Penurunan permanen volume diastolik"
+      },
+      {
+        "id": "D",
+        "text": "Obstruksi vena kava inferior"
+      },
+      {
+        "id": "E",
+        "text": "Beban volume akibat aliran balik diastolik"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Regurgitasi menambah volume yang diterima ventrikel setiap siklus, sehingga terjadi remodeling untuk menampung beban.",
+    "correctAnswerReason": "Regurgitasi menambah volume yang diterima ventrikel setiap siklus, sehingga terjadi remodeling untuk menampung beban.",
+    "clinicalReasoning": "Regurgitasi menambah volume yang diterima ventrikel setiap siklus, sehingga terjadi remodeling untuk menampung beban.",
+    "distractorExplanations": {
+      "A": "Lesi yang disebut adalah regurgitasi aorta, bukan obstruksi mitral.",
+      "B": "Tidak terdapat informasi shunt dan bukan mekanisme regurgitasi.",
+      "C": "Regurgitasi justru meningkatkan volume masuk ke ventrikel.",
+      "D": "Tidak menjelaskan volume balik dari aorta ke ventrikel kiri."
+    },
+    "learningPoint": "Regurgitasi menambah volume yang diterima ventrikel setiap siklus, sehingga terjadi remodeling untuk menampung beban.",
+    "clinicalPearl": "Regurgitasi menambah volume yang diterima ventrikel setiap siklus, sehingga terjadi remodeling untuk menampung beban.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2025-esc-eacts-guidelines-for-the-management-of-valvular-heart-disease-developed-by-the-task-force-for-the-management-of-valvular-heart-disease-of-the-european-society-of-cardiology-esc-and-the-eur/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 21,
+    "id": "BTKV-CD-021",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C05",
+    "topic": "Penyakit Katup Mitral",
+    "subtopic": "Tekanan atrium kiri",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan tekanan atrium kiri dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Mengapa stenosis mitral dapat meningkatkan tekanan pulmonal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hambatan pengosongan atrium kiri meningkatkan tekanan vena pulmonalis"
+      },
+      {
+        "id": "B",
+        "text": "Katup mitral terletak antara ventrikel kanan dan arteri pulmonalis"
+      },
+      {
+        "id": "C",
+        "text": "Stenosis mitral langsung menambah aliran aorta diastolik"
+      },
+      {
+        "id": "D",
+        "text": "Atrium kiri tidak berhubungan dengan vena pulmonalis"
+      },
+      {
+        "id": "E",
+        "text": "Semua tekanan atrium kiri selalu turun"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Obstruksi aliran atrium kiri ke ventrikel kiri meneruskan tekanan ke belakang dan dapat menimbulkan hipertensi pulmonal.",
+    "correctAnswerReason": "Obstruksi aliran atrium kiri ke ventrikel kiri meneruskan tekanan ke belakang dan dapat menimbulkan hipertensi pulmonal.",
+    "clinicalReasoning": "Obstruksi aliran atrium kiri ke ventrikel kiri meneruskan tekanan ke belakang dan dapat menimbulkan hipertensi pulmonal.",
+    "distractorExplanations": {
+      "B": "Letak tersebut adalah katup pulmonal.",
+      "C": "Aliran balik aorta bukan mekanisme utama stenosis mitral.",
+      "D": "Vena pulmonalis bermuara ke atrium kiri.",
+      "E": "Obstruksi cenderung meningkatkan tekanan di hulu katup."
+    },
+    "learningPoint": "Obstruksi aliran atrium kiri ke ventrikel kiri meneruskan tekanan ke belakang dan dapat menimbulkan hipertensi pulmonal.",
+    "clinicalPearl": "Obstruksi aliran atrium kiri ke ventrikel kiri meneruskan tekanan ke belakang dan dapat menimbulkan hipertensi pulmonal.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2025-esc-eacts-guidelines-for-the-management-of-valvular-heart-disease-developed-by-the-task-force-for-the-management-of-valvular-heart-disease-of-the-european-society-of-cardiology-esc-and-the-eur/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 22,
+    "id": "BTKV-CD-022",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C05",
+    "topic": "Penyakit Katup Mitral",
+    "subtopic": "Stasis pada fibrilasi atrium",
+    "difficulty": "easy",
+    "questionType": "data_interpretation",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan stasis pada fibrilasi atrium dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 39 tahun dengan penyakit katup reumatik mengalami palpitasi. ECG menunjukkan fibrilasi atrium dan echo menunjukkan atrium kiri besar serta stenosis mitral bermakna. Faktor stasis utama untuk risiko emboli adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Peningkatan kontraksi atrium terkoordinasi"
+      },
+      {
+        "id": "B",
+        "text": "Pembesaran atrium dan kontraksi atrium yang tidak efektif"
+      },
+      {
+        "id": "C",
+        "text": "Pengosongan atrium yang selalu lebih cepat"
+      },
+      {
+        "id": "D",
+        "text": "Tidak adanya darah dalam atrium kiri"
+      },
+      {
+        "id": "E",
+        "text": "Dilatasi vena safena sebagai satu-satunya mekanisme"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Stasis terutama di apendiks atrium kiri mendukung pembentukan trombus pada konteks stenosis mitral dan fibrilasi atrium.",
+    "correctAnswerReason": "Stasis terutama di apendiks atrium kiri mendukung pembentukan trombus pada konteks stenosis mitral dan fibrilasi atrium.",
+    "clinicalReasoning": "Stasis terutama di apendiks atrium kiri mendukung pembentukan trombus pada konteks stenosis mitral dan fibrilasi atrium.",
+    "distractorExplanations": {
+      "A": "Fibrilasi justru menghilangkan kontraksi terkoordinasi.",
+      "C": "Stenosis menghambat pengosongan dan memperberat stasis.",
+      "D": "Atrium tetap berisi dan menerima darah dari paru.",
+      "E": "Tidak menjelaskan sumber trombus kardioembolik pada vignette."
+    },
+    "learningPoint": "Stasis terutama di apendiks atrium kiri mendukung pembentukan trombus pada konteks stenosis mitral dan fibrilasi atrium.",
+    "clinicalPearl": "Stasis terutama di apendiks atrium kiri mendukung pembentukan trombus pada konteks stenosis mitral dan fibrilasi atrium.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2025-esc-eacts-guidelines-for-the-management-of-valvular-heart-disease-developed-by-the-task-force-for-the-management-of-valvular-heart-disease-of-the-european-society-of-cardiology-esc-and-the-eur/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 23,
+    "id": "BTKV-CD-023",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C05",
+    "topic": "Penyakit Katup Mitral",
+    "subtopic": "Kelayakan repair mitral",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan kelayakan repair mitral dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 56 tahun dengan prolaps leaflet posterior dan regurgitasi mitral degeneratif berat akan dibahas di tim katup. Mengapa kemungkinan repair perlu dievaluasi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua leaflet harus diganti pada semua prolaps"
+      },
+      {
+        "id": "B",
+        "text": "Repair tidak memerlukan evaluasi residu regurgitasi"
+      },
+      {
+        "id": "C",
+        "text": "Repair yang sesuai anatomi dapat mempertahankan aparatus katup asli"
+      },
+      {
+        "id": "D",
+        "text": "Repair selalu identik tanpa menilai korda"
+      },
+      {
+        "id": "E",
+        "text": "Replacement tidak pernah menjadi alternatif"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kelayakan dan durabilitas perbaikan ditentukan anatomi serta pengalaman tim; tidak semua lesi dapat diperbaiki dengan hasil sama.",
+    "correctAnswerReason": "Kelayakan dan durabilitas perbaikan ditentukan anatomi serta pengalaman tim; tidak semua lesi dapat diperbaiki dengan hasil sama.",
+    "clinicalReasoning": "Kelayakan dan durabilitas perbaikan ditentukan anatomi serta pengalaman tim; tidak semua lesi dapat diperbaiki dengan hasil sama.",
+    "distractorExplanations": {
+      "A": "Prolaps tertentu dapat direpair sehingga penggantian bukan keharusan universal.",
+      "B": "Hasil hemodinamik tetap harus dinilai setelah perbaikan.",
+      "D": "Aparatus subvalvular memengaruhi mekanisme dan strategi repair.",
+      "E": "Penggantian tetap relevan bila perbaikan tidak layak atau tidak durabel."
+    },
+    "learningPoint": "Kelayakan dan durabilitas perbaikan ditentukan anatomi serta pengalaman tim; tidak semua lesi dapat diperbaiki dengan hasil sama.",
+    "clinicalPearl": "Kelayakan dan durabilitas perbaikan ditentukan anatomi serta pengalaman tim; tidak semua lesi dapat diperbaiki dengan hasil sama.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2025-esc-eacts-guidelines-for-the-management-of-valvular-heart-disease-developed-by-the-task-force-for-the-management-of-valvular-heart-disease-of-the-european-society-of-cardiology-esc-and-the-eur/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 24,
+    "id": "BTKV-CD-024",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C05",
+    "topic": "Penyakit Katup Mitral",
+    "subtopic": "Ruptur otot papilar",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan ruptur otot papilar dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 64 tahun pascainfark inferior mengalami edema paru mendadak, hipotensi, dan regurgitasi mitral akut berat. Apa mekanisme yang harus segera dievaluasi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stenosis mitral reumatik baru terbentuk dalam beberapa menit"
+      },
+      {
+        "id": "B",
+        "text": "Prolaps ringan tanpa dampak hemodinamik"
+      },
+      {
+        "id": "C",
+        "text": "Defek septum atrium kecil yang stabil sejak lahir"
+      },
+      {
+        "id": "D",
+        "text": "Ruptur otot papilar atau struktur penunjang mitral"
+      },
+      {
+        "id": "E",
+        "text": "Efusi pleura kecil sebagai penyebab tunggal"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Kegagalan penopang katup dapat menyebabkan regurgitasi akut dan syok; memerlukan penanganan emergensi multidisiplin.",
+    "correctAnswerReason": "Kegagalan penopang katup dapat menyebabkan regurgitasi akut dan syok; memerlukan penanganan emergensi multidisiplin.",
+    "clinicalReasoning": "Kegagalan penopang katup dapat menyebabkan regurgitasi akut dan syok; memerlukan penanganan emergensi multidisiplin.",
+    "distractorExplanations": {
+      "A": "Perubahan kronis reumatik tidak menjelaskan onset mekanik mendadak.",
+      "B": "Tidak cocok dengan edema paru dan syok berat.",
+      "C": "Tidak menjelaskan regurgitasi mitral akut berat.",
+      "E": "Tidak menerangkan temuan katup dan kolaps hemodinamik."
+    },
+    "learningPoint": "Kegagalan penopang katup dapat menyebabkan regurgitasi akut dan syok; memerlukan penanganan emergensi multidisiplin.",
+    "clinicalPearl": "Kegagalan penopang katup dapat menyebabkan regurgitasi akut dan syok; memerlukan penanganan emergensi multidisiplin.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2025-esc-eacts-guidelines-for-the-management-of-valvular-heart-disease-developed-by-the-task-force-for-the-management-of-valvular-heart-disease-of-the-european-society-of-cardiology-esc-and-the-eur/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 25,
+    "id": "BTKV-CD-025",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C05",
+    "topic": "Penyakit Katup Mitral",
+    "subtopic": "Regurgitasi mitral sekunder",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan regurgitasi mitral sekunder dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 67 tahun dengan regurgitasi mitral sekunder memiliki dilatasi ventrikel kiri akibat kardiomiopati. Mengapa terapi gagal jantung merupakan bagian penting sebelum keputusan intervensi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua regurgitasi sekunder disebabkan korda putus"
+      },
+      {
+        "id": "B",
+        "text": "Katup tidak dipengaruhi bentuk ventrikel"
+      },
+      {
+        "id": "C",
+        "text": "Diuretik pasti memperbaiki semua struktur permanen"
+      },
+      {
+        "id": "D",
+        "text": "Intervensi dipilih hanya dari warna jet satu gambar"
+      },
+      {
+        "id": "E",
+        "text": "Geometri ventrikel dan tethering leaflet berkontribusi pada regurgitasi"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Optimasi penyakit dasar dapat mengubah derajat regurgitasi dan menjadi dasar penilaian manfaat intervensi.",
+    "correctAnswerReason": "Optimasi penyakit dasar dapat mengubah derajat regurgitasi dan menjadi dasar penilaian manfaat intervensi.",
+    "clinicalReasoning": "Optimasi penyakit dasar dapat mengubah derajat regurgitasi dan menjadi dasar penilaian manfaat intervensi.",
+    "distractorExplanations": {
+      "A": "Mekanismenya sering akibat remodeling, bukan kerusakan primer korda.",
+      "B": "Perubahan geometri aparatus subvalvular memengaruhi koaptasi.",
+      "C": "Perbaikan gejala tidak menjamin koreksi anatomi definitif.",
+      "D": "Keparahan dan konteks klinis memerlukan evaluasi integratif."
+    },
+    "learningPoint": "Optimasi penyakit dasar dapat mengubah derajat regurgitasi dan menjadi dasar penilaian manfaat intervensi.",
+    "clinicalPearl": "Optimasi penyakit dasar dapat mengubah derajat regurgitasi dan menjadi dasar penilaian manfaat intervensi.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2025-esc-eacts-guidelines-for-the-management-of-valvular-heart-disease-developed-by-the-task-force-for-the-management-of-valvular-heart-disease-of-the-european-society-of-cardiology-esc-and-the-eur/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 26,
+    "id": "BTKV-CD-026",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C06",
+    "topic": "Kelainan Jantung Bawaan",
+    "subtopic": "Shunt ASD",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan shunt asd dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Pada ASD sekundum tanpa hipertensi pulmonal berat, pola shunt yang lazim adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kiri ke kanan dengan beban volume ruang kanan"
+      },
+      {
+        "id": "B",
+        "text": "Kanan ke kiri wajib sejak lahir"
+      },
+      {
+        "id": "C",
+        "text": "Aorta ke ventrikel kiri saat diastol"
+      },
+      {
+        "id": "D",
+        "text": "Ventrikel kiri ke perikardium"
+      },
+      {
+        "id": "E",
+        "text": "Tidak ada aliran yang mungkin melalui defek"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Perbedaan tekanan dan compliance memungkinkan aliran ke atrium kanan sehingga ventrikel kanan menerima volume tambahan.",
+    "correctAnswerReason": "Perbedaan tekanan dan compliance memungkinkan aliran ke atrium kanan sehingga ventrikel kanan menerima volume tambahan.",
+    "clinicalReasoning": "Perbedaan tekanan dan compliance memungkinkan aliran ke atrium kanan sehingga ventrikel kanan menerima volume tambahan.",
+    "distractorExplanations": {
+      "B": "Shunt awal umumnya tidak demikian tanpa keadaan khusus.",
+      "C": "Ini pola regurgitasi aorta, bukan ASD.",
+      "D": "Tidak sesuai lokasi defek septum atrium.",
+      "E": "Defek dapat menghubungkan kedua atrium dan menghasilkan shunt."
+    },
+    "learningPoint": "Perbedaan tekanan dan compliance memungkinkan aliran ke atrium kanan sehingga ventrikel kanan menerima volume tambahan.",
+    "clinicalPearl": "Perbedaan tekanan dan compliance memungkinkan aliran ke atrium kanan sehingga ventrikel kanan menerima volume tambahan.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 27,
+    "id": "BTKV-CD-027",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C06",
+    "topic": "Kelainan Jantung Bawaan",
+    "subtopic": "Dampak volume ruang kanan",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan dampak volume ruang kanan dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 27 tahun memiliki ASD dengan dilatasi ventrikel kanan dan peningkatan aliran pulmonal. Mengapa ukuran serta fungsi kanan perlu dinilai selain diameter defek?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diameter defek pasti menyatakan resistensi paru"
+      },
+      {
+        "id": "B",
+        "text": "Dampak hemodinamik shunt tidak ditentukan diameter anatomi saja"
+      },
+      {
+        "id": "C",
+        "text": "Ventrikel kanan tidak terpengaruh ASD"
+      },
+      {
+        "id": "D",
+        "text": "Semua ASD kecil pasti menyebabkan sianosis berat"
+      },
+      {
+        "id": "E",
+        "text": "Pembesaran kanan membuktikan semua ASD tak dapat ditutup"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Beban volume kanan dan resistensi pulmonal membantu menentukan signifikansi serta keamanan penutupan.",
+    "correctAnswerReason": "Beban volume kanan dan resistensi pulmonal membantu menentukan signifikansi serta keamanan penutupan.",
+    "clinicalReasoning": "Beban volume kanan dan resistensi pulmonal membantu menentukan signifikansi serta keamanan penutupan.",
+    "distractorExplanations": {
+      "A": "Resistensi memerlukan evaluasi hemodinamik atau estimasi yang sesuai.",
+      "C": "Ruang kanan sering menerima beban volume tambahan.",
+      "D": "Derajat shunt dan arah aliran bervariasi.",
+      "E": "Pembesaran bisa justru mendukung signifikansi, tetapi keputusan memerlukan konteks."
+    },
+    "learningPoint": "Beban volume kanan dan resistensi pulmonal membantu menentukan signifikansi serta keamanan penutupan.",
+    "clinicalPearl": "Beban volume kanan dan resistensi pulmonal membantu menentukan signifikansi serta keamanan penutupan.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 28,
+    "id": "BTKV-CD-028",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C06",
+    "topic": "Kelainan Jantung Bawaan",
+    "subtopic": "Anatomi PDA",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan anatomi pda dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Anak 8 tahun dengan PDA memiliki bising kontinu. Struktur mana yang tetap terhubung?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atrium kanan dan atrium kiri"
+      },
+      {
+        "id": "B",
+        "text": "Ventrikel kanan dan ventrikel kiri"
+      },
+      {
+        "id": "C",
+        "text": "Aorta dan arteri pulmonalis"
+      },
+      {
+        "id": "D",
+        "text": "Vena pulmonalis dan esofagus"
+      },
+      {
+        "id": "E",
+        "text": "Arteri koroner dan vena kava"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Duktus arteriosus yang persisten memungkinkan komunikasi aorta-pulmonalis setelah lahir.",
+    "correctAnswerReason": "Duktus arteriosus yang persisten memungkinkan komunikasi aorta-pulmonalis setelah lahir.",
+    "clinicalReasoning": "Duktus arteriosus yang persisten memungkinkan komunikasi aorta-pulmonalis setelah lahir.",
+    "distractorExplanations": {
+      "A": "Hubungan tersebut menggambarkan ASD, bukan PDA.",
+      "B": "Komunikasi ventrikel merupakan VSD.",
+      "D": "Bukan hubungan duktus arteriosus.",
+      "E": "Bukan sambungan anatomi PDA."
+    },
+    "learningPoint": "Duktus arteriosus yang persisten memungkinkan komunikasi aorta-pulmonalis setelah lahir.",
+    "clinicalPearl": "Duktus arteriosus yang persisten memungkinkan komunikasi aorta-pulmonalis setelah lahir.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 29,
+    "id": "BTKV-CD-029",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C06",
+    "topic": "Kelainan Jantung Bawaan",
+    "subtopic": "Fisiologi Eisenmenger",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan fisiologi eisenmenger dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 32 tahun dengan VSD besar lama memiliki sianosis, resistensi vaskular pulmonal sangat tinggi, dan shunt berbalik. Mengapa penutupan langsung tanpa evaluasi spesialis berbahaya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua VSD dengan sianosis pasti memerlukan penutupan saat itu juga"
+      },
+      {
+        "id": "B",
+        "text": "Sianosis membuktikan resistensi pulmonal rendah"
+      },
+      {
+        "id": "C",
+        "text": "Penutupan otomatis menyembuhkan semua remodeling pulmonal"
+      },
+      {
+        "id": "D",
+        "text": "Menghilangkan jalur pelepas tekanan dapat memperberat kegagalan kanan pada fisiologi Eisenmenger"
+      },
+      {
+        "id": "E",
+        "text": "Ventrikel kanan tidak berperan pada VSD"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Penyakit vaskular pulmonal lanjut mengubah kelayakan penutupan; keputusan memerlukan pusat jantung bawaan berpengalaman.",
+    "correctAnswerReason": "Penyakit vaskular pulmonal lanjut mengubah kelayakan penutupan; keputusan memerlukan pusat jantung bawaan berpengalaman.",
+    "clinicalReasoning": "Penyakit vaskular pulmonal lanjut mengubah kelayakan penutupan; keputusan memerlukan pusat jantung bawaan berpengalaman.",
+    "distractorExplanations": {
+      "A": "Arah shunt dan reversibilitas resistensi harus dipertimbangkan.",
+      "B": "Shunt berbalik justru dapat mencerminkan resistensi tinggi.",
+      "C": "Penyakit vaskular lanjut mungkin tidak reversibel.",
+      "E": "Beban tekanan dan vaskular pulmonal memengaruhi fungsi kanan."
+    },
+    "learningPoint": "Penyakit vaskular pulmonal lanjut mengubah kelayakan penutupan; keputusan memerlukan pusat jantung bawaan berpengalaman.",
+    "clinicalPearl": "Penyakit vaskular pulmonal lanjut mengubah kelayakan penutupan; keputusan memerlukan pusat jantung bawaan berpengalaman.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 30,
+    "id": "BTKV-CD-030",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C06",
+    "topic": "Kelainan Jantung Bawaan",
+    "subtopic": "Anatomi tetralogi Fallot",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan anatomi tetralogi fallot dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Anak 6 tahun dengan sianosis memiliki VSD, overriding aorta, hipertrofi ventrikel kanan, dan obstruksi aliran keluar kanan. Diagnosis paling sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ASD sekundum terisolasi"
+      },
+      {
+        "id": "B",
+        "text": "Koarktasio terisolasi"
+      },
+      {
+        "id": "C",
+        "text": "PDA terisolasi"
+      },
+      {
+        "id": "D",
+        "text": "Transposisi tanpa defek lain"
+      },
+      {
+        "id": "E",
+        "text": "Tetralogi Fallot"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Empat komponen anatomi tersebut membentuk tetralogi Fallot, dengan derajat obstruksi memengaruhi arah shunt.",
+    "correctAnswerReason": "Empat komponen anatomi tersebut membentuk tetralogi Fallot, dengan derajat obstruksi memengaruhi arah shunt.",
+    "clinicalReasoning": "Empat komponen anatomi tersebut membentuk tetralogi Fallot, dengan derajat obstruksi memengaruhi arah shunt.",
+    "distractorExplanations": {
+      "A": "Tidak mencakup VSD dan obstruksi keluar ventrikel kanan.",
+      "B": "Obstruksi aorta tidak menjelaskan seluruh kombinasi.",
+      "C": "Tidak menghasilkan empat komponen yang disebutkan.",
+      "D": "Hubungan arteri besar pada transposisi berbeda dari overriding aorta dalam kombinasi ini."
+    },
+    "learningPoint": "Empat komponen anatomi tersebut membentuk tetralogi Fallot, dengan derajat obstruksi memengaruhi arah shunt.",
+    "clinicalPearl": "Empat komponen anatomi tersebut membentuk tetralogi Fallot, dengan derajat obstruksi memengaruhi arah shunt.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 31,
+    "id": "BTKV-CD-031",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C07",
+    "topic": "Penyakit Aorta Torakalis",
+    "subtopic": "Klasifikasi Stanford A",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan klasifikasi stanford a dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Dalam klasifikasi Stanford, diseksi aorta tipe A ditentukan oleh apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keterlibatan aorta asendens"
+      },
+      {
+        "id": "B",
+        "text": "Keterlibatan aorta abdominal saja"
+      },
+      {
+        "id": "C",
+        "text": "Diameter aneurisma lebih dari angka tunggal"
+      },
+      {
+        "id": "D",
+        "text": "Adanya hipertensi sebagai satu-satunya syarat"
+      },
+      {
+        "id": "E",
+        "text": "Setiap diseksi yang tanpa nyeri"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Keterlibatan asendens menetapkan tipe A meskipun diseksi juga meluas ke distal.",
+    "correctAnswerReason": "Keterlibatan asendens menetapkan tipe A meskipun diseksi juga meluas ke distal.",
+    "clinicalReasoning": "Keterlibatan asendens menetapkan tipe A meskipun diseksi juga meluas ke distal.",
+    "distractorExplanations": {
+      "B": "Tanpa asendens, tidak memenuhi definisi tipe A.",
+      "C": "Klasifikasi diseksi ini berdasarkan lokasi, bukan ukuran aneurisma.",
+      "D": "Faktor risiko bukan penentu klasifikasi anatomi.",
+      "E": "Gejala tidak menentukan tipe Stanford."
+    },
+    "learningPoint": "Keterlibatan asendens menetapkan tipe A meskipun diseksi juga meluas ke distal.",
+    "clinicalPearl": "Keterlibatan asendens menetapkan tipe A meskipun diseksi juga meluas ke distal.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 32,
+    "id": "BTKV-CD-032",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C07",
+    "topic": "Penyakit Aorta Torakalis",
+    "subtopic": "Pencitraan sindrom aorta akut",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pencitraan sindrom aorta akut dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 60 tahun mengalami nyeri dada mendadak menjalar ke punggung dan perbedaan nadi lengan. Ia stabil untuk pencitraan. Pemeriksaan yang paling relevan untuk memetakan dugaan diseksi adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Foto toraks normal sebagai pemeriksaan penyingkir tunggal"
+      },
+      {
+        "id": "B",
+        "text": "CT angiografi aorta dengan cakupan yang sesuai"
+      },
+      {
+        "id": "C",
+        "text": "ECG saja untuk menentukan seluruh cabang aorta"
+      },
+      {
+        "id": "D",
+        "text": "Spirometri untuk melihat intimal flap"
+      },
+      {
+        "id": "E",
+        "text": "Kadar lipid sebagai pengganti pencitraan"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "CTA memperlihatkan flap, lumen, luas diseksi, dan hubungan cabang untuk perencanaan; pemilihan modalitas tetap menyesuaikan stabilitas.",
+    "correctAnswerReason": "CTA memperlihatkan flap, lumen, luas diseksi, dan hubungan cabang untuk perencanaan; pemilihan modalitas tetap menyesuaikan stabilitas.",
+    "clinicalReasoning": "CTA memperlihatkan flap, lumen, luas diseksi, dan hubungan cabang untuk perencanaan; pemilihan modalitas tetap menyesuaikan stabilitas.",
+    "distractorExplanations": {
+      "A": "Foto normal tidak dapat menyingkirkan diseksi.",
+      "C": "ECG tidak memetakan anatomi lumen aorta.",
+      "D": "Tidak dapat menggambarkan lapisan aorta.",
+      "E": "Tidak mendeteksi diseksi akut atau malperfusi."
+    },
+    "learningPoint": "CTA memperlihatkan flap, lumen, luas diseksi, dan hubungan cabang untuk perencanaan; pemilihan modalitas tetap menyesuaikan stabilitas.",
+    "clinicalPearl": "CTA memperlihatkan flap, lumen, luas diseksi, dan hubungan cabang untuk perencanaan; pemilihan modalitas tetap menyesuaikan stabilitas.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 33,
+    "id": "BTKV-CD-033",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C07",
+    "topic": "Penyakit Aorta Torakalis",
+    "subtopic": "Aortopati herediter",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan aortopati herediter dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 53 tahun dengan aneurisma aorta torakal dan kerabat yang mengalami diseksi usia muda datang untuk evaluasi. Faktor apa penting dalam rencana tindak lanjut?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menganggap riwayat keluarga tidak pernah relevan"
+      },
+      {
+        "id": "B",
+        "text": "Menganggap semua aneurisma harus memakai ambang identik"
+      },
+      {
+        "id": "C",
+        "text": "Kemungkinan aortopati herediter serta pertumbuhan dan anatomi aorta"
+      },
+      {
+        "id": "D",
+        "text": "Menetapkan operasi hanya dari jenis kelamin tanpa imaging"
+      },
+      {
+        "id": "E",
+        "text": "Menyatakan tidak perlu surveilans bila tanpa nyeri"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Riwayat keluarga dapat mengubah penilaian risiko dan kebutuhan konseling; diameter bukan satu-satunya pertimbangan.",
+    "correctAnswerReason": "Riwayat keluarga dapat mengubah penilaian risiko dan kebutuhan konseling; diameter bukan satu-satunya pertimbangan.",
+    "clinicalReasoning": "Riwayat keluarga dapat mengubah penilaian risiko dan kebutuhan konseling; diameter bukan satu-satunya pertimbangan.",
+    "distractorExplanations": {
+      "A": "Sejumlah aortopati memiliki dasar genetik.",
+      "B": "Etiologi dan faktor risiko dapat mengubah keputusan.",
+      "D": "Anatomi, ukuran, pertumbuhan, dan kondisi pasien diperlukan.",
+      "E": "Aneurisma dapat berkembang tanpa gejala."
+    },
+    "learningPoint": "Riwayat keluarga dapat mengubah penilaian risiko dan kebutuhan konseling; diameter bukan satu-satunya pertimbangan.",
+    "clinicalPearl": "Riwayat keluarga dapat mengubah penilaian risiko dan kebutuhan konseling; diameter bukan satu-satunya pertimbangan.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 34,
+    "id": "BTKV-CD-034",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C07",
+    "topic": "Penyakit Aorta Torakalis",
+    "subtopic": "Tamponade pada diseksi",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan tamponade pada diseksi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 59 tahun dengan diseksi tipe A mengalami hipotensi, nyeri dada, dan tamponade. Prioritas paling tepat apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Terapi rawat jalan untuk semua diseksi"
+      },
+      {
+        "id": "B",
+        "text": "Menunda konsultasi sampai nyeri hilang"
+      },
+      {
+        "id": "C",
+        "text": "Trombolisis empiris untuk dugaan koroner tanpa evaluasi aorta"
+      },
+      {
+        "id": "D",
+        "text": "Aktivasi bedah aorta emergensi dengan resusitasi terarah"
+      },
+      {
+        "id": "E",
+        "text": "Latihan fisik untuk menguji stabilitas"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Keterlibatan asendens dan komplikasi tamponade mengancam nyawa; penanganan definitif memerlukan tim bedah segera.",
+    "correctAnswerReason": "Keterlibatan asendens dan komplikasi tamponade mengancam nyawa; penanganan definitif memerlukan tim bedah segera.",
+    "clinicalReasoning": "Keterlibatan asendens dan komplikasi tamponade mengancam nyawa; penanganan definitif memerlukan tim bedah segera.",
+    "distractorExplanations": {
+      "A": "Tidak sesuai diseksi asendens terkomplikasi dan syok.",
+      "B": "Perbaikan nyeri tidak meniadakan risiko ruptur atau tamponade.",
+      "C": "Dapat memperburuk perdarahan pada diseksi.",
+      "E": "Tidak aman dalam sindrom aorta akut dengan syok."
+    },
+    "learningPoint": "Keterlibatan asendens dan komplikasi tamponade mengancam nyawa; penanganan definitif memerlukan tim bedah segera.",
+    "clinicalPearl": "Keterlibatan asendens dan komplikasi tamponade mengancam nyawa; penanganan definitif memerlukan tim bedah segera.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 35,
+    "id": "BTKV-CD-035",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C07",
+    "topic": "Penyakit Aorta Torakalis",
+    "subtopic": "Malperfusi cabang aorta",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan malperfusi cabang aorta dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 66 tahun pascaoperasi aorta mengalami oliguria dan laktat meningkat. CTA menunjukkan gangguan perfusi cabang renal dan mesenterika. Konsep komplikasi apa paling sesuai?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atelektasis ringan sebagai penjelasan seluruh temuan"
+      },
+      {
+        "id": "B",
+        "text": "Efek anestesi yang selalu jinak"
+      },
+      {
+        "id": "C",
+        "text": "Infeksi luka superfisial saja"
+      },
+      {
+        "id": "D",
+        "text": "Dehidrasi pasti tanpa memperhatikan imaging"
+      },
+      {
+        "id": "E",
+        "text": "Malperfusi organ akibat gangguan aliran cabang aorta"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Diseksi atau rekonstruksi dapat memengaruhi suplai cabang, sehingga tanda organ target perlu ditelusuri segera.",
+    "correctAnswerReason": "Diseksi atau rekonstruksi dapat memengaruhi suplai cabang, sehingga tanda organ target perlu ditelusuri segera.",
+    "clinicalReasoning": "Diseksi atau rekonstruksi dapat memengaruhi suplai cabang, sehingga tanda organ target perlu ditelusuri segera.",
+    "distractorExplanations": {
+      "A": "Tidak menjelaskan gangguan perfusi cabang pada CTA.",
+      "B": "Bukti gangguan vaskular tidak boleh diabaikan sebagai efek obat rutin.",
+      "C": "Tidak menerangkan pola malperfusi cabang akut.",
+      "D": "Hipovolemia mungkin berperan tetapi tidak menggantikan temuan anatomis ini."
+    },
+    "learningPoint": "Diseksi atau rekonstruksi dapat memengaruhi suplai cabang, sehingga tanda organ target perlu ditelusuri segera.",
+    "clinicalPearl": "Diseksi atau rekonstruksi dapat memengaruhi suplai cabang, sehingga tanda organ target perlu ditelusuri segera.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 36,
+    "id": "BTKV-CD-036",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C08",
+    "topic": "Cardiopulmonary Bypass",
+    "subtopic": "Oksigenator",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan oksigenator dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Apa fungsi utama oksigenator dalam sirkuit CPB?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pertukaran oksigen dan karbon dioksida secara ekstrakorporeal"
+      },
+      {
+        "id": "B",
+        "text": "Memberikan kontraksi mekanik ventrikel secara langsung"
+      },
+      {
+        "id": "C",
+        "text": "Menggantikan seluruh fungsi ginjal secara wajib"
+      },
+      {
+        "id": "D",
+        "text": "Membentuk impuls nodus sinus"
+      },
+      {
+        "id": "E",
+        "text": "Menjahit anastomosis koroner"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Oksigenator mendukung pertukaran gas ketika sirkulasi dialihkan ke sirkuit.",
+    "correctAnswerReason": "Oksigenator mendukung pertukaran gas ketika sirkulasi dialihkan ke sirkuit.",
+    "clinicalReasoning": "Oksigenator mendukung pertukaran gas ketika sirkulasi dialihkan ke sirkuit.",
+    "distractorExplanations": {
+      "B": "Pompa sirkuit menghasilkan aliran, bukan kontraksi miokard.",
+      "C": "Filtrasi renal bukan fungsi utama oksigenator.",
+      "D": "Konduksi listrik jantung bukan fungsi oksigenator.",
+      "E": "Oksigenator bukan alat penjahitan bedah."
+    },
+    "learningPoint": "Oksigenator mendukung pertukaran gas ketika sirkulasi dialihkan ke sirkuit.",
+    "clinicalPearl": "Oksigenator mendukung pertukaran gas ketika sirkulasi dialihkan ke sirkuit.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 37,
+    "id": "BTKV-CD-037",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C08",
+    "topic": "Cardiopulmonary Bypass",
+    "subtopic": "Antikoagulasi sirkuit",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan antikoagulasi sirkuit dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 58 tahun akan menjalani CPB. Mengapa antikoagulasi dinilai dengan pemantauan yang sesuai sebelum aliran bypass dimulai?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CPB selalu meniadakan koagulasi secara alami"
+      },
+      {
+        "id": "B",
+        "text": "Kontak darah dengan sirkuit dapat memicu pembentukan trombus"
+      },
+      {
+        "id": "C",
+        "text": "Semua pasien memiliki respons heparin yang identik"
+      },
+      {
+        "id": "D",
+        "text": "Antikoagulasi hanya untuk mempercepat denyut jantung"
+      },
+      {
+        "id": "E",
+        "text": "Pemberian protamin rutin sebelum heparin membuat bypass aman"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Antikoagulasi yang adekuat membantu mencegah pembekuan sirkuit; hasil pemantauan diinterpretasikan menurut protokol dan kondisi pasien.",
+    "correctAnswerReason": "Antikoagulasi yang adekuat membantu mencegah pembekuan sirkuit; hasil pemantauan diinterpretasikan menurut protokol dan kondisi pasien.",
+    "clinicalReasoning": "Antikoagulasi yang adekuat membantu mencegah pembekuan sirkuit; hasil pemantauan diinterpretasikan menurut protokol dan kondisi pasien.",
+    "distractorExplanations": {
+      "A": "Kontak permukaan asing justru dapat mengaktifkan sistem koagulasi.",
+      "C": "Respons bervariasi sehingga pemantauan diperlukan.",
+      "D": "Tujuan utamanya mengendalikan pembekuan, bukan frekuensi.",
+      "E": "Protamin menetralkan heparin dan bukan pengganti antikoagulasi sirkuit."
+    },
+    "learningPoint": "Antikoagulasi yang adekuat membantu mencegah pembekuan sirkuit; hasil pemantauan diinterpretasikan menurut protokol dan kondisi pasien.",
+    "clinicalPearl": "Antikoagulasi yang adekuat membantu mencegah pembekuan sirkuit; hasil pemantauan diinterpretasikan menurut protokol dan kondisi pasien.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 38,
+    "id": "BTKV-CD-038",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C08",
+    "topic": "Cardiopulmonary Bypass",
+    "subtopic": "Proteksi miokard",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan proteksi miokard dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 63 tahun menjalani operasi dengan aorta dijepit. Tujuan utama kardioplegia adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meningkatkan kebutuhan oksigen miokard tanpa batas"
+      },
+      {
+        "id": "B",
+        "text": "Menghilangkan kebutuhan perfusi sistemik"
+      },
+      {
+        "id": "C",
+        "text": "Menghentikan aktivitas jantung secara terkontrol dan melindungi miokard"
+      },
+      {
+        "id": "D",
+        "text": "Menjamin tidak ada cedera reperfusi"
+      },
+      {
+        "id": "E",
+        "text": "Menggantikan semua kebutuhan kontrol suhu"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Pengurangan aktivitas serta strategi proteksi membantu membatasi cedera iskemik selama periode cross-clamp.",
+    "correctAnswerReason": "Pengurangan aktivitas serta strategi proteksi membantu membatasi cedera iskemik selama periode cross-clamp.",
+    "clinicalReasoning": "Pengurangan aktivitas serta strategi proteksi membantu membatasi cedera iskemik selama periode cross-clamp.",
+    "distractorExplanations": {
+      "A": "Proteksi bertujuan mengurangi ketidakseimbangan suplai-kebutuhan.",
+      "B": "Organ lain tetap memerlukan aliran dan oksigenasi.",
+      "D": "Proteksi mengurangi risiko, bukan menjamin ketiadaan cedera.",
+      "E": "Pengelolaan suhu merupakan aspek terpisah yang tetap dipertimbangkan."
+    },
+    "learningPoint": "Pengurangan aktivitas serta strategi proteksi membantu membatasi cedera iskemik selama periode cross-clamp.",
+    "clinicalPearl": "Pengurangan aktivitas serta strategi proteksi membantu membatasi cedera iskemik selama periode cross-clamp.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 39,
+    "id": "BTKV-CD-039",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C08",
+    "topic": "Cardiopulmonary Bypass",
+    "subtopic": "Penghantaran oksigen saat CPB",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan penghantaran oksigen saat cpb dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 70 tahun selama CPB menunjukkan penurunan saturasi vena, laktat meningkat, dan aliran pompa tidak sesuai kebutuhan metabolik. Apa prioritas penilaian?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menganggap tekanan arteri tunggal membuktikan perfusi cukup"
+      },
+      {
+        "id": "B",
+        "text": "Menaikkan suhu tanpa menilai aliran"
+      },
+      {
+        "id": "C",
+        "text": "Menilai tekanan vena sentral saja"
+      },
+      {
+        "id": "D",
+        "text": "Menilai kecukupan penghantaran oksigen termasuk aliran, hemoglobin, oksigenasi, dan suhu"
+      },
+      {
+        "id": "E",
+        "text": "Menghentikan semua pemantauan karena menggunakan mesin"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Penghantaran oksigen bergantung beberapa faktor; tekanan arteri saja tidak memastikan perfusi jaringan adekuat.",
+    "correctAnswerReason": "Penghantaran oksigen bergantung beberapa faktor; tekanan arteri saja tidak memastikan perfusi jaringan adekuat.",
+    "clinicalReasoning": "Penghantaran oksigen bergantung beberapa faktor; tekanan arteri saja tidak memastikan perfusi jaringan adekuat.",
+    "distractorExplanations": {
+      "A": "Tekanan dan penghantaran oksigen tidak selalu sejalan.",
+      "B": "Dapat meningkatkan kebutuhan metabolik saat suplai tidak memadai.",
+      "C": "Tekanan pengisian tidak sendiri menentukan penghantaran oksigen oleh sirkuit.",
+      "E": "CPB memerlukan pemantauan kontinu untuk mendeteksi gangguan perfusi."
+    },
+    "learningPoint": "Penghantaran oksigen bergantung beberapa faktor; tekanan arteri saja tidak memastikan perfusi jaringan adekuat.",
+    "clinicalPearl": "Penghantaran oksigen bergantung beberapa faktor; tekanan arteri saja tidak memastikan perfusi jaringan adekuat.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 40,
+    "id": "BTKV-CD-040",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C08",
+    "topic": "Cardiopulmonary Bypass",
+    "subtopic": "Koagulopati pasca-CPB",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan koagulopati pasca-cpb dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 61 tahun setelah CPB mengalami perdarahan difus dari permukaan luka. Tidak ditemukan titik perdarahan tunggal. Apa evaluasi paling relevan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menganggap semua perdarahan pasti karena satu jahitan"
+      },
+      {
+        "id": "B",
+        "text": "Memberikan tambahan heparin tanpa indikasi"
+      },
+      {
+        "id": "C",
+        "text": "Menetapkan infeksi sebagai satu-satunya penyebab akut"
+      },
+      {
+        "id": "D",
+        "text": "Menunggu sampai hemoglobin sangat rendah sebelum menilai"
+      },
+      {
+        "id": "E",
+        "text": "Sisa efek antikoagulasi, fungsi trombosit, fibrinogen, dan gangguan koagulasi"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "CPB dapat memengaruhi hemostasis multipel; temuan difus perlu evaluasi terarah sambil tetap menilai sumber bedah.",
+    "correctAnswerReason": "CPB dapat memengaruhi hemostasis multipel; temuan difus perlu evaluasi terarah sambil tetap menilai sumber bedah.",
+    "clinicalReasoning": "CPB dapat memengaruhi hemostasis multipel; temuan difus perlu evaluasi terarah sambil tetap menilai sumber bedah.",
+    "distractorExplanations": {
+      "A": "Pola difus mendukung kemungkinan koagulopati, meski sumber bedah tetap dinilai.",
+      "B": "Dapat memperberat perdarahan bila antikoagulasi masih berlebihan.",
+      "C": "Tidak paling sesuai perdarahan segera pasca-CPB.",
+      "D": "Evaluasi dini diperlukan untuk membatasi kehilangan darah dan gangguan perfusi."
+    },
+    "learningPoint": "CPB dapat memengaruhi hemostasis multipel; temuan difus perlu evaluasi terarah sambil tetap menilai sumber bedah.",
+    "clinicalPearl": "CPB dapat memengaruhi hemostasis multipel; temuan difus perlu evaluasi terarah sambil tetap menilai sumber bedah.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 41,
+    "id": "BTKV-CD-041",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C09",
+    "topic": "Kegawatdaruratan Jantung",
+    "subtopic": "Fisiologi tamponade",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan fisiologi tamponade dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Pada tamponade jantung, gangguan primer yang menurunkan curah jantung adalah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hambatan pengisian diastolik oleh tekanan perikardial"
+      },
+      {
+        "id": "B",
+        "text": "Obstruksi koroner selalu tanpa gangguan pengisian"
+      },
+      {
+        "id": "C",
+        "text": "Peningkatan pengisian tanpa batas"
+      },
+      {
+        "id": "D",
+        "text": "Kebocoran katup aorta sebagai syarat wajib"
+      },
+      {
+        "id": "E",
+        "text": "Penurunan tekanan perikardial hingga sangat negatif"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tekanan luar jantung dapat membatasi pengisian ruang, menurunkan volume sekuncup, dan menyebabkan syok obstruktif.",
+    "correctAnswerReason": "Tekanan luar jantung dapat membatasi pengisian ruang, menurunkan volume sekuncup, dan menyebabkan syok obstruktif.",
+    "clinicalReasoning": "Tekanan luar jantung dapat membatasi pengisian ruang, menurunkan volume sekuncup, dan menyebabkan syok obstruktif.",
+    "distractorExplanations": {
+      "B": "Tamponade tidak didefinisikan oleh sumbatan koroner.",
+      "C": "Tekanan perikardial justru menghambat pengisian.",
+      "D": "Tamponade dapat terjadi tanpa regurgitasi aorta.",
+      "E": "Kompresi terjadi karena kenaikan tekanan, bukan mekanisme tersebut."
+    },
+    "learningPoint": "Tekanan luar jantung dapat membatasi pengisian ruang, menurunkan volume sekuncup, dan menyebabkan syok obstruktif.",
+    "clinicalPearl": "Tekanan luar jantung dapat membatasi pengisian ruang, menurunkan volume sekuncup, dan menyebabkan syok obstruktif.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 42,
+    "id": "BTKV-CD-042",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C09",
+    "topic": "Kegawatdaruratan Jantung",
+    "subtopic": "Pola hemodinamik kardiogenik",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pola hemodinamik kardiogenik dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 55 tahun pascainfark memiliki tekanan pengisian kiri meningkat, curah jantung rendah, kulit dingin, dan edema paru. Pola syok paling sesuai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hipovolemik murni"
+      },
+      {
+        "id": "B",
+        "text": "Kardiogenik"
+      },
+      {
+        "id": "C",
+        "text": "Anafilaktik tanpa keterlibatan jantung"
+      },
+      {
+        "id": "D",
+        "text": "Neurogenik terisolasi"
+      },
+      {
+        "id": "E",
+        "text": "Obstruktif akibat pneumotoraks yang sudah terbukti"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Gangguan pompa dengan kongesti dan hipoperfusi paling sesuai syok kardiogenik.",
+    "correctAnswerReason": "Gangguan pompa dengan kongesti dan hipoperfusi paling sesuai syok kardiogenik.",
+    "clinicalReasoning": "Gangguan pompa dengan kongesti dan hipoperfusi paling sesuai syok kardiogenik.",
+    "distractorExplanations": {
+      "A": "Biasanya pengisian rendah, bukan kongesti kiri yang menonjol.",
+      "C": "Tidak didukung paparan alergen dan pola kongesti pompa ini.",
+      "D": "Tidak menjelaskan gagal pompa pascainfark dengan edema paru.",
+      "E": "Tidak ada temuan pleura yang mendukung diagnosis spesifik itu."
+    },
+    "learningPoint": "Gangguan pompa dengan kongesti dan hipoperfusi paling sesuai syok kardiogenik.",
+    "clinicalPearl": "Gangguan pompa dengan kongesti dan hipoperfusi paling sesuai syok kardiogenik.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 43,
+    "id": "BTKV-CD-043",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C09",
+    "topic": "Kegawatdaruratan Jantung",
+    "subtopic": "Kolaps ruang kanan",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan kolaps ruang kanan dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 46 tahun dengan perikarditis mengalami hipotensi, distensi vena leher, dan echo menunjukkan efusi besar dengan kolaps diastolik ventrikel kanan. Temuan tersebut mengarah pada apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Efusi yang pasti tidak bermakna karena ada cairan"
+      },
+      {
+        "id": "B",
+        "text": "Stenosis mitral sebagai penjelasan tunggal"
+      },
+      {
+        "id": "C",
+        "text": "Tamponade dengan gangguan hemodinamik"
+      },
+      {
+        "id": "D",
+        "text": "Hipertensi sistemik tanpa komplikasi"
+      },
+      {
+        "id": "E",
+        "text": "Aritmia sinus fisiologis"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Efusi disertai kompresi ruang kanan dan syok mendukung fisiologi tamponade, bukan efusi tanpa dampak.",
+    "correctAnswerReason": "Efusi disertai kompresi ruang kanan dan syok mendukung fisiologi tamponade, bukan efusi tanpa dampak.",
+    "clinicalReasoning": "Efusi disertai kompresi ruang kanan dan syok mendukung fisiologi tamponade, bukan efusi tanpa dampak.",
+    "distractorExplanations": {
+      "A": "Besarnya dampak ditentukan fisiologi dan kecepatan akumulasi, bukan keberadaan cairan saja.",
+      "B": "Tidak menjelaskan kolaps ruang kanan akibat efusi.",
+      "D": "Pasien justru hipotensi dengan tanda kompresi jantung.",
+      "E": "Tidak menerangkan syok dan temuan ekokardiografis tersebut."
+    },
+    "learningPoint": "Efusi disertai kompresi ruang kanan dan syok mendukung fisiologi tamponade, bukan efusi tanpa dampak.",
+    "clinicalPearl": "Efusi disertai kompresi ruang kanan dan syok mendukung fisiologi tamponade, bukan efusi tanpa dampak.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 44,
+    "id": "BTKV-CD-044",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C09",
+    "topic": "Kegawatdaruratan Jantung",
+    "subtopic": "Ruptur septum pascainfark",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan ruptur septum pascainfark dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 68 tahun setelah infark mengalami bising sistolik baru, syok, dan aliran shunt kiri ke kanan melintasi septum ventrikel pada Doppler. Diagnosis paling penting apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ASD sekundum kronis"
+      },
+      {
+        "id": "B",
+        "text": "Stenosis pulmonal ringan"
+      },
+      {
+        "id": "C",
+        "text": "Regurgitasi trikuspid terisolasi"
+      },
+      {
+        "id": "D",
+        "text": "Ruptur septum ventrikel pascainfark"
+      },
+      {
+        "id": "E",
+        "text": "PDA persisten"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Nekrosis septum dapat menghasilkan defek akut dan shunt yang menyebabkan gagal pompa serta memerlukan penanganan emergensi.",
+    "correctAnswerReason": "Nekrosis septum dapat menghasilkan defek akut dan shunt yang menyebabkan gagal pompa serta memerlukan penanganan emergensi.",
+    "clinicalReasoning": "Nekrosis septum dapat menghasilkan defek akut dan shunt yang menyebabkan gagal pompa serta memerlukan penanganan emergensi.",
+    "distractorExplanations": {
+      "A": "Shunt berada di tingkat ventrikel dan onsetnya setelah infark.",
+      "B": "Tidak menghasilkan defek septum akut.",
+      "C": "Doppler akan menunjukkan aliran balik ke atrium kanan, bukan melalui septum ventrikel.",
+      "E": "Komunikasinya aorta-pulmonalis, bukan septum ventrikel."
+    },
+    "learningPoint": "Nekrosis septum dapat menghasilkan defek akut dan shunt yang menyebabkan gagal pompa serta memerlukan penanganan emergensi.",
+    "clinicalPearl": "Nekrosis septum dapat menghasilkan defek akut dan shunt yang menyebabkan gagal pompa serta memerlukan penanganan emergensi.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 45,
+    "id": "BTKV-CD-045",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C09",
+    "topic": "Kegawatdaruratan Jantung",
+    "subtopic": "Pemilihan dukungan sirkulasi",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan pemilihan dukungan sirkulasi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 73 tahun dengan syok kardiogenik tetap hipoperfusi meski terapi awal. Mengapa dukungan sirkulasi mekanik tidak dipilih hanya berdasarkan satu nilai tekanan darah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua perangkat mendukung kedua ventrikel secara identik"
+      },
+      {
+        "id": "B",
+        "text": "Tekanan darah normal selalu membuktikan perfusi organ normal"
+      },
+      {
+        "id": "C",
+        "text": "Dukungan mekanik selalu tanpa risiko perdarahan"
+      },
+      {
+        "id": "D",
+        "text": "Penyebab syok tidak memengaruhi strategi"
+      },
+      {
+        "id": "E",
+        "text": "Pemilihan harus mempertimbangkan penyebab, fungsi ventrikel, perfusi organ, dan tujuan terapi"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Perangkat berbeda memiliki kemampuan serta risiko berbeda; keputusan membutuhkan tim dan rencana pemulihan atau terapi lanjutan.",
+    "correctAnswerReason": "Perangkat berbeda memiliki kemampuan serta risiko berbeda; keputusan membutuhkan tim dan rencana pemulihan atau terapi lanjutan.",
+    "clinicalReasoning": "Perangkat berbeda memiliki kemampuan serta risiko berbeda; keputusan membutuhkan tim dan rencana pemulihan atau terapi lanjutan.",
+    "distractorExplanations": {
+      "A": "Kemampuan dukungan bervariasi menurut jenis dan konfigurasi.",
+      "B": "Vasokonstriksi dapat mempertahankan tekanan meski curah rendah.",
+      "C": "Akses vaskular dan antikoagulasi dapat menambah risiko.",
+      "D": "Penyebab reversibel dan pilihan definitif memengaruhi tujuan dukungan."
+    },
+    "learningPoint": "Perangkat berbeda memiliki kemampuan serta risiko berbeda; keputusan membutuhkan tim dan rencana pemulihan atau terapi lanjutan.",
+    "clinicalPearl": "Perangkat berbeda memiliki kemampuan serta risiko berbeda; keputusan membutuhkan tim dan rencana pemulihan atau terapi lanjutan.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 46,
+    "id": "BTKV-CD-046",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C10",
+    "topic": "Komplikasi Pascabedah Jantung",
+    "subtopic": "Sindrom curah jantung rendah",
+    "difficulty": "easy",
+    "questionType": "basic_concept",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan sindrom curah jantung rendah dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Apa definisi klinis yang paling sesuai untuk low cardiac output syndrome pascabedah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Curah jantung tidak memadai untuk kebutuhan jaringan dengan tanda hipoperfusi"
+      },
+      {
+        "id": "B",
+        "text": "Setiap denyut di atas 100 tanpa temuan lain"
+      },
+      {
+        "id": "C",
+        "text": "Setiap efusi pleura kecil"
+      },
+      {
+        "id": "D",
+        "text": "Tekanan vena sentral tinggi tanpa konteks"
+      },
+      {
+        "id": "E",
+        "text": "Demam ringan terisolasi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Penilaian mengintegrasikan perfusi, hemodinamik, dan fungsi organ, bukan hanya angka frekuensi jantung.",
+    "correctAnswerReason": "Penilaian mengintegrasikan perfusi, hemodinamik, dan fungsi organ, bukan hanya angka frekuensi jantung.",
+    "clinicalReasoning": "Penilaian mengintegrasikan perfusi, hemodinamik, dan fungsi organ, bukan hanya angka frekuensi jantung.",
+    "distractorExplanations": {
+      "B": "Takikardia tidak selalu berarti curah rendah.",
+      "C": "Efusi kecil tidak mendefinisikan gagal pompa.",
+      "D": "Tekanan vena saja tidak mengukur kecukupan penghantaran oksigen.",
+      "E": "Demam tidak sama dengan sindrom curah jantung rendah."
+    },
+    "learningPoint": "Penilaian mengintegrasikan perfusi, hemodinamik, dan fungsi organ, bukan hanya angka frekuensi jantung.",
+    "clinicalPearl": "Penilaian mengintegrasikan perfusi, hemodinamik, dan fungsi organ, bukan hanya angka frekuensi jantung.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 47,
+    "id": "BTKV-CD-047",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C10",
+    "topic": "Komplikasi Pascabedah Jantung",
+    "subtopic": "AF pascaoperasi",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan af pascaoperasi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 66 tahun hari ketiga setelah CABG mengalami fibrilasi atrium baru tetapi perfusi stabil. Apa yang perlu dinilai sebelum memilih kontrol laju, irama, dan antitrombotik?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua episode wajib ditangani identik tanpa menilai perdarahan"
+      },
+      {
+        "id": "B",
+        "text": "Stabilitas, gejala, durasi aritmia, pencetus, serta risiko tromboemboli dan perdarahan"
+      },
+      {
+        "id": "C",
+        "text": "Antikoagulasi selalu dilarang seumur hidup setelah CABG"
+      },
+      {
+        "id": "D",
+        "text": "Stabilitas menghilangkan kebutuhan evaluasi aritmia"
+      },
+      {
+        "id": "E",
+        "text": "Semua AF berarti graft pasti tersumbat"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Pilihan pascaoperasi memerlukan keseimbangan risiko; gangguan elektrolit dan pencetus lain juga perlu diperiksa.",
+    "correctAnswerReason": "Pilihan pascaoperasi memerlukan keseimbangan risiko; gangguan elektrolit dan pencetus lain juga perlu diperiksa.",
+    "clinicalReasoning": "Pilihan pascaoperasi memerlukan keseimbangan risiko; gangguan elektrolit dan pencetus lain juga perlu diperiksa.",
+    "distractorExplanations": {
+      "A": "Operasi baru dan profil pasien memengaruhi terapi.",
+      "C": "Keputusan tidak bersifat larangan universal.",
+      "D": "AF tetap dapat memengaruhi gejala dan risiko tromboemboli.",
+      "E": "Iskemia hanya salah satu kemungkinan, bukan kesimpulan otomatis."
+    },
+    "learningPoint": "Pilihan pascaoperasi memerlukan keseimbangan risiko; gangguan elektrolit dan pencetus lain juga perlu diperiksa.",
+    "clinicalPearl": "Pilihan pascaoperasi memerlukan keseimbangan risiko; gangguan elektrolit dan pencetus lain juga perlu diperiksa.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 48,
+    "id": "BTKV-CD-048",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C10",
+    "topic": "Komplikasi Pascabedah Jantung",
+    "subtopic": "Infeksi dalam sternum",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan infeksi dalam sternum dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 62 tahun dua minggu setelah sternotomi mengalami demam, nyeri sternum, instabilitas tulang, dan drainase purulen. Komplikasi paling perlu dicurigai apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nyeri luka fisiologis tanpa komplikasi"
+      },
+      {
+        "id": "B",
+        "text": "Dermatitis kontak ringan semata"
+      },
+      {
+        "id": "C",
+        "text": "Infeksi dalam luka sternum atau mediastinitis"
+      },
+      {
+        "id": "D",
+        "text": "Fibrilasi atrium sebagai satu-satunya penyebab"
+      },
+      {
+        "id": "E",
+        "text": "Efusi perikardial steril pasti"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Purulensi dan instabilitas sternum setelah operasi menunjukkan proses lebih dalam yang membutuhkan evaluasi dan kontrol sumber.",
+    "correctAnswerReason": "Purulensi dan instabilitas sternum setelah operasi menunjukkan proses lebih dalam yang membutuhkan evaluasi dan kontrol sumber.",
+    "clinicalReasoning": "Purulensi dan instabilitas sternum setelah operasi menunjukkan proses lebih dalam yang membutuhkan evaluasi dan kontrol sumber.",
+    "distractorExplanations": {
+      "A": "Tidak menjelaskan purulensi, demam, dan instabilitas.",
+      "B": "Biasanya kelainan kulit tanpa instabilitas tulang atau sepsis.",
+      "D": "Tidak menghasilkan drainase purulen dari sternum.",
+      "E": "Tidak cukup menjelaskan infeksi dan gangguan stabilitas luka."
+    },
+    "learningPoint": "Purulensi dan instabilitas sternum setelah operasi menunjukkan proses lebih dalam yang membutuhkan evaluasi dan kontrol sumber.",
+    "clinicalPearl": "Purulensi dan instabilitas sternum setelah operasi menunjukkan proses lebih dalam yang membutuhkan evaluasi dan kontrol sumber.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
+  },
+  {
+    "number": 49,
+    "id": "BTKV-CD-049",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C10",
+    "topic": "Komplikasi Pascabedah Jantung",
+    "subtopic": "Tamponade terlokulasi",
+    "difficulty": "hard",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan tamponade terlokulasi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Laki-laki 70 tahun beberapa jam setelah operasi katup mengalami hipotensi dan tekanan vena meningkat. Keluaran drain tiba-tiba berhenti. Echo awal kurang jelas karena bekuan terlokulasi. Apa penalaran paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menganggap berhentinya drain membuktikan perdarahan selesai"
+      },
+      {
+        "id": "B",
+        "text": "Menyingkirkan tamponade hanya karena echo awal tidak khas"
+      },
+      {
+        "id": "C",
+        "text": "Memberikan diuretik tanpa menilai perfusi"
+      },
+      {
+        "id": "D",
+        "text": "Tetap mencurigai tamponade pascaoperasi dan meminta evaluasi bedah segera"
+      },
+      {
+        "id": "E",
+        "text": "Menunggu demam muncul sebelum bertindak"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Drain tersumbat dapat menutupi perdarahan; tamponade terlokulasi tidak selalu menunjukkan seluruh tanda klasik pada echo awal.",
+    "correctAnswerReason": "Drain tersumbat dapat menutupi perdarahan; tamponade terlokulasi tidak selalu menunjukkan seluruh tanda klasik pada echo awal.",
+    "clinicalReasoning": "Drain tersumbat dapat menutupi perdarahan; tamponade terlokulasi tidak selalu menunjukkan seluruh tanda klasik pada echo awal.",
+    "distractorExplanations": {
+      "A": "Sumbatan dapat menghentikan keluaran meski darah terus terkumpul.",
+      "B": "Gambaran pascaoperasi dapat terbatas dan perlu pemeriksaan lanjutan sesuai kondisi.",
+      "C": "Dapat memperburuk pengisian pada syok obstruktif.",
+      "E": "Tamponade tidak memerlukan demam dan dapat memburuk cepat."
+    },
+    "learningPoint": "Drain tersumbat dapat menutupi perdarahan; tamponade terlokulasi tidak selalu menunjukkan seluruh tanda klasik pada echo awal.",
+    "clinicalPearl": "Drain tersumbat dapat menutupi perdarahan; tamponade terlokulasi tidak selalu menunjukkan seluruh tanda klasik pada echo awal.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": [
+      "source_not_verified",
+      "human_medical_review_required",
+      "context_and_resource_dependent"
+    ],
+    "contentVersion": 2
+  },
+  {
+    "number": 50,
+    "id": "BTKV-CD-050",
+    "program": "btkv",
+    "category": "cardiac",
+    "taxonomyCode": "C10",
+    "topic": "Komplikasi Pascabedah Jantung",
+    "subtopic": "Cedera ginjal pascaoperasi",
+    "difficulty": "medium",
+    "questionType": "clinical_vignette",
+    "type": "single_choice",
+    "learningObjective": "Menjelaskan cedera ginjal pascaoperasi dan menerapkannya pada konteks klinis atau data yang diberikan.",
+    "question": "Perempuan 75 tahun pascabedah jantung mengalami kenaikan kreatinin dan oliguria. Mengapa evaluasi harus mencakup perfusi, kongesti, obat, dan obstruksi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Semua oliguria membuktikan dehidrasi"
+      },
+      {
+        "id": "B",
+        "text": "Kreatinin tidak pernah dipengaruhi fungsi ginjal"
+      },
+      {
+        "id": "C",
+        "text": "Semua pasien harus mendapat cairan tanpa batas"
+      },
+      {
+        "id": "D",
+        "text": "Obstruksi kateter tidak perlu dinilai"
+      },
+      {
+        "id": "E",
+        "text": "Cedera ginjal pascaoperasi dapat multifaktorial"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Hipoperfusi, kongesti vena, paparan nefrotoksik, dan penyebab postrenal memerlukan penilaian, bukan asumsi tunggal.",
+    "correctAnswerReason": "Hipoperfusi, kongesti vena, paparan nefrotoksik, dan penyebab postrenal memerlukan penilaian, bukan asumsi tunggal.",
+    "clinicalReasoning": "Hipoperfusi, kongesti vena, paparan nefrotoksik, dan penyebab postrenal memerlukan penilaian, bukan asumsi tunggal.",
+    "distractorExplanations": {
+      "A": "Kongesti atau cedera intrinsik juga dapat mengurangi urin.",
+      "B": "Kreatinin merupakan penanda yang perlu ditafsirkan bersama tren dan konteks.",
+      "C": "Kelebihan cairan dapat memperburuk kongesti dan oksigenasi.",
+      "D": "Penyebab mekanis yang dapat diperbaiki harus dipertimbangkan."
+    },
+    "learningPoint": "Hipoperfusi, kongesti vena, paparan nefrotoksik, dan penyebab postrenal memerlukan penilaian, bukan asumsi tunggal.",
+    "clinicalPearl": "Hipoperfusi, kongesti vena, paparan nefrotoksik, dan penyebab postrenal memerlukan penilaian, bukan asumsi tunggal.",
+    "references": [
+      {
+        "url": "https://www.eacts.org/clinical-practice-guideline/2024-eacts-guidelines-on-perioperative-medication-in-adult-cardiac-surgery/",
+        "verificationStatus": "unverified",
+        "note": "Titik awal penelusuran dari brief, bukan klaim bahwa sumber ini mendukung seluruh isi soal. Akses sumber diblokir saat penulisan; perlu verifikasi relevansi, versi, dan rekomendasi per soal."
+      }
+    ],
+    "sourceType": "original_practice",
+    "reviewStatus": "needs_review",
+    "editorialFlags": ["source_not_verified", "human_medical_review_required"],
+    "contentVersion": 2
   }
 ]

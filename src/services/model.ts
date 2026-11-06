@@ -4,7 +4,7 @@ export type Program = z.infer<typeof programSchema>;
 export const categories: Record<Program, Record<string, string>> = {
   btkv: {
     thoracic: "Bedah Toraks",
-    cardiac: "Bedah Jantung",
+    cardiac: "Bedah Kardiak",
     vascular: "Bedah Vaskular",
   },
   lpdp: {
@@ -39,12 +39,58 @@ export const questionSchema = z
     distractorExplanations: z.record(z.string(), z.string().min(1)),
     learningPoint: z.string().min(5),
     sourceType: z.literal("original_practice"),
-    reviewStatus: z.enum(["draft", "reviewed"]),
+    reviewStatus: z.enum([
+      "draft",
+      "needs_review",
+      "approved",
+      "published",
+      "reviewed",
+    ]),
+    number: z.number().int().min(1).max(50).optional(),
+    taxonomyCode: z.string().optional(),
+    questionType: z
+      .enum(["clinical_vignette", "basic_concept", "data_interpretation"])
+      .optional(),
+    learningObjective: z.string().min(10).optional(),
+    correctAnswerReason: z.string().min(10).optional(),
+    clinicalReasoning: z.string().min(10).optional(),
+    clinicalPearl: z.string().min(10).optional(),
+    references: z
+      .array(
+        z.object({
+          url: z
+            .url()
+            .refine(
+              (url) => url.startsWith("https://"),
+              "Referensi harus HTTPS",
+            ),
+          verificationStatus: z.enum(["unverified", "verified"]),
+          note: z.string().min(10),
+        }),
+      )
+      .optional(),
+    editorialFlags: z.array(z.string().min(1)).optional(),
+    contentVersion: z.number().int().positive().optional(),
     passageId: z.string().optional(),
     formula: z.string().optional(),
     disabled: z.boolean().optional(),
   })
   .superRefine((q, ctx) => {
+    if (q.program === "btkv" && q.contentVersion === 2) {
+      if (q.options.map((o) => o.id).join("") !== "ABCDE")
+        ctx.addIssue({
+          code: "custom",
+          message: "BTKV v2 memerlukan opsi A–E",
+        });
+      if (
+        q.references?.some((ref) => ref.verificationStatus === "unverified") &&
+        ["approved", "published"].includes(q.reviewStatus)
+      )
+        ctx.addIssue({
+          code: "custom",
+          message: "Sumber belum diverifikasi; status persetujuan tidak valid",
+        });
+    }
     if (!categories[q.program][q.category])
       ctx.addIssue({
         code: "custom",
@@ -96,6 +142,13 @@ export const attemptSchema = z.object({
   marked: z.array(z.string()),
   elapsed: z.record(z.string(), z.number().nonnegative()),
   submitted: z.boolean(),
+  scoring: z
+    .object({
+      correct: z.number().min(-10).max(10),
+      wrong: z.number().min(-10).max(10),
+      blank: z.number().min(-10).max(10),
+    })
+    .optional(),
 });
 export type Attempt = z.infer<typeof attemptSchema>;
 export const historySchema = z.object({
@@ -106,6 +159,8 @@ export const historySchema = z.object({
   wrong: z.number(),
   blank: z.number(),
   total: z.number(),
+  durationSeconds: z.number().nonnegative().optional(),
+  practiceScore: z.number().optional(),
   peka: z.number(),
   english: z.number(),
   mode: z.enum(["study", "exam"]),
