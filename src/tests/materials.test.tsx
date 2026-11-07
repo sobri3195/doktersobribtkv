@@ -15,9 +15,9 @@ it("filters questions and persists a bookmark", () => {
       <Materials />
     </MemoryRouter>,
   );
-  expect(screen.getByText("30 soal tersedia")).toBeInTheDocument();
+  expect(screen.getByText("150 soal tersedia")).toBeInTheDocument();
   fireEvent.change(screen.getByLabelText("Cari soal atau topik"), {
-    target: { value: "kompas" },
+    target: { value: "barometer" },
   });
   expect(screen.getByText("1 soal tersedia")).toBeInTheDocument();
   fireEvent.click(screen.getByRole("button", { name: /Bookmark LPDP/ }));

@@ -1,0 +1,32 @@
+{
+  "id": "LPDP_TBS_2026",
+  "name": "Simulasi Tes Bakat Skolastik LPDP 2026",
+  "referenceYear": 2026,
+  "verificationStatus": "unverified_from_user_brief",
+  "sourceUrls": [
+    "https://lpdp.kemenkeu.go.id/",
+    "https://ebeasiswa-lpdp.kemenkeu.go.id/Dokumen/ManajemenBerkas/08c7df4f-1ffb-4ec5-b40c-9cc6c172280f/2026042715592508c7df4f-1ffb-4ec5-b40c-9cc6c172280fb83e7d87eb0d48d2a4b255b73c705ba2_.pdf"
+  ],
+  "sections": [
+    {
+      "category": "verbal",
+      "count": 23,
+      "minutes": 30
+    },
+    {
+      "category": "quantitative",
+      "count": 25,
+      "minutes": 40
+    },
+    {
+      "category": "problem-solving",
+      "count": 12,
+      "minutes": 20
+    }
+  ],
+  "practiceScoring": {
+    "correct": 5,
+    "wrong": 0,
+    "blank": 0
+  }
+}

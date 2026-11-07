@@ -1,3 +1,5 @@
+import { bundled } from "../data/bank";
+import { topicRecommendations } from "../services/recommendations";
 import { useState } from "react";
 import {
   ResponsiveContainer,
@@ -149,14 +151,23 @@ export function Statistics() {
                       data={history.map((h) => ({
                         date: new Date(h.at).toLocaleDateString("id"),
                         accuracy: Math.round((h.correct / h.total) * 100),
+                        score: h.practiceScore ?? null,
                       }))}
                     >
                       <XAxis dataKey="date" />
-                      <YAxis domain={[0, 100]} />
+                      <YAxis
+                        domain={
+                          d.program === "lpdp" ? ["auto", "auto"] : [0, 100]
+                        }
+                      />
                       <Tooltip />
                       <Line
-                        dataKey="accuracy"
-                        name="Benar (%)"
+                        dataKey={d.program === "lpdp" ? "score" : "accuracy"}
+                        name={
+                          d.program === "lpdp"
+                            ? "Skor simulasi aplikasi"
+                            : "Benar (%)"
+                        }
                         stroke="#3b82f6"
                         strokeWidth={3}
                       />
@@ -181,6 +192,84 @@ export function Statistics() {
               </div>
             </Card>
           </div>
+          {d.program === "lpdp" && (
+            <Card>
+              <h2>Waktu dan kesulitan LPDP</h2>
+              <p>
+                Rata-rata waktu aktif per kategori (detik), dari jawaban
+                tersimpan:
+              </p>
+              <div className="chart">
+                <ResponsiveContainer>
+                  <BarChart
+                    data={Object.entries(categories.lpdp).map(([id, name]) => {
+                      const a = answers.filter((a) => a.category === id);
+                      return {
+                        name,
+                        seconds: a.length
+                          ? Math.round(
+                              a.reduce((s, a) => s + a.seconds, 0) / a.length,
+                            )
+                          : 0,
+                      };
+                    })}
+                  >
+                    <XAxis dataKey="name" tick={{ fontSize: 10 }} />
+                    <YAxis />
+                    <Tooltip />
+                    <Bar dataKey="seconds" name="Detik" fill="#7c3aed" />
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+              <div className="table-scroll">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Kesulitan editorial</th>
+                      <th>Jawaban</th>
+                      <th>Benar</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {["easy", "medium", "hard"].map((level) => {
+                      const ids = new Set(
+                        bundled
+                          .filter(
+                            (q) =>
+                              q.program === "lpdp" && q.difficulty === level,
+                          )
+                          .map((q) => q.id),
+                      );
+                      const a = answers.filter((a) => ids.has(a.questionId));
+                      return (
+                        <tr key={level}>
+                          <th>{level}</th>
+                          <td>{a.length}</td>
+                          <td>{a.filter((a) => a.correct).length}</td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+              <h3>Rekomendasi topik</h3>
+              {topicRecommendations(
+                answers,
+                bundled.filter((q) => q.program === "lpdp"),
+              )
+                .filter((t) => t.attempts > 0)
+                .slice(0, 5)
+                .map((t) => (
+                  <p key={t.topic}>
+                    {t.topic}: {t.priority} ({Math.round(t.accuracy!)}%)
+                  </p>
+                ))}
+              <p>
+                Aturan pedagogis aplikasi, bukan standar kelulusan atau
+                kalibrasi kemampuan.
+              </p>
+            </Card>
+          )}
           <Card>
             <h2>Topik untuk diperkuat</h2>
             {Array.from(

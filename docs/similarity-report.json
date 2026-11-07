@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "a": "LPDP-QNT-032",
+    "b": "LPDP-QNT-036",
+    "similarity": 0.7647058823529411
+  },
+  {
+    "a": "LPDP-QNT-033",
+    "b": "LPDP-QNT-035",
+    "similarity": 0.6666666666666666
+  },
+  {
+    "a": "LPDP-QNT-033",
+    "b": "LPDP-QNT-040",
+    "similarity": 0.6666666666666666
+  },
+  {
+    "a": "LPDP-QNT-035",
+    "b": "LPDP-QNT-037",
+    "similarity": 0.6842105263157895
+  },
+  {
+    "a": "LPDP-QNT-035",
+    "b": "LPDP-QNT-040",
+    "similarity": 0.6666666666666666
+  }
+]

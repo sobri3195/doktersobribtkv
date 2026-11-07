@@ -1,0 +1,298 @@
+[
+  {
+    "id": "LPDP-QDATA-01",
+    "program": "lpdp",
+    "title": "Produksi bulanan",
+    "unit": "unit",
+    "columns": ["Bulan", "Produksi"],
+    "rows": [
+      ["Januari", 120],
+      ["Februari", 135],
+      ["Maret", 150]
+    ],
+    "kind": "line",
+    "sourceType": "original_practice",
+    "period": "Triwulan I"
+  },
+  {
+    "id": "LPDP-QDATA-02",
+    "program": "lpdp",
+    "title": "Kunjungan perpustakaan",
+    "unit": "kunjungan",
+    "columns": ["Hari", "Kunjungan"],
+    "rows": [
+      ["Senin", 12],
+      ["Selasa", 18],
+      ["Rabu", 15],
+      ["Kamis", 25],
+      ["Jumat", 20]
+    ],
+    "kind": "bar",
+    "sourceType": "original_practice",
+    "period": "Satu minggu"
+  },
+  {
+    "id": "LPDP-QDATA-03",
+    "program": "lpdp",
+    "title": "Distribusi nilai evaluasi",
+    "unit": "poin; frekuensi dalam peserta",
+    "columns": ["Nilai", "Frekuensi"],
+    "rows": [
+      [60, 2],
+      [70, 3],
+      [80, 4],
+      [90, 1]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice"
+  },
+  {
+    "id": "LPDP-QDATA-04",
+    "program": "lpdp",
+    "title": "Isi kantong bola",
+    "unit": "bola",
+    "columns": ["Warna", "Jumlah"],
+    "rows": [
+      ["Merah", 4],
+      ["Biru", 4],
+      ["Hijau", 2]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice"
+  },
+  {
+    "id": "LPDP-QDATA-05",
+    "program": "lpdp",
+    "title": "Pelanggan tahunan",
+    "unit": "pelanggan",
+    "columns": ["Tahun", "Jumlah"],
+    "rows": [
+      [2024, 80],
+      [2025, 100]
+    ],
+    "kind": "bar",
+    "sourceType": "original_practice",
+    "period": "2024–2025"
+  },
+  {
+    "id": "LPDP-QDATA-06",
+    "program": "lpdp",
+    "title": "Durasi layanan dua kelompok",
+    "unit": "pelanggan; rerata dalam menit",
+    "columns": ["Kelompok", "Pelanggan", "Rerata menit"],
+    "rows": [
+      ["A", 20, 8],
+      ["B", 30, 18]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice"
+  },
+  {
+    "id": "LPDP-QDATA-07",
+    "program": "lpdp",
+    "title": "Penjualan bulanan",
+    "unit": "juta rupiah",
+    "columns": ["Bulan", "Penjualan"],
+    "rows": [
+      ["Januari", 42],
+      ["Februari", 39],
+      ["Maret", 51],
+      ["April", 48]
+    ],
+    "kind": "line",
+    "sourceType": "original_practice",
+    "period": "Januari–April"
+  },
+  {
+    "id": "LPDP-QDATA-08",
+    "program": "lpdp",
+    "title": "Peminjaman buku lima hari",
+    "unit": "buku",
+    "columns": ["Hari", "Jumlah"],
+    "rows": [
+      ["Senin", 8],
+      ["Selasa", 12],
+      ["Rabu", 19],
+      ["Kamis", 15],
+      ["Jumat", 10]
+    ],
+    "kind": "bar",
+    "sourceType": "original_practice",
+    "period": "Satu minggu"
+  },
+  {
+    "id": "LPDP-QDATA-09",
+    "program": "lpdp",
+    "title": "Pilihan moda perjalanan",
+    "unit": "peserta",
+    "columns": ["Moda", "Pemilih"],
+    "rows": [
+      ["A", 12],
+      ["B", 18],
+      ["C", 20],
+      ["D", 10]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice"
+  },
+  {
+    "id": "LPDP-QDATA-10",
+    "program": "lpdp",
+    "title": "Inspeksi produksi dua pabrik",
+    "unit": "produk",
+    "columns": ["Pabrik", "Produksi", "Cacat"],
+    "rows": [
+      ["A", 50, 2],
+      ["B", 150, 10]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice"
+  },
+  {
+    "id": "LPDP-PDATA-01",
+    "program": "lpdp",
+    "title": "Ketepatan penyelesaian pesanan",
+    "unit": "pesanan",
+    "columns": ["Cabang", "Total", "Tepat waktu"],
+    "rows": [
+      ["Cabang A", 100, 80],
+      ["Cabang B", 50, 45],
+      ["Cabang C", 120, 102]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice"
+  },
+  {
+    "id": "LPDP-PDATA-02",
+    "program": "lpdp",
+    "title": "Keluaran dan waktu kerja",
+    "unit": "unit; waktu dalam jam",
+    "columns": ["Tim", "Keluaran", "Jam"],
+    "rows": [
+      ["Tim A", 180, 30],
+      ["Tim B", 200, 40],
+      ["Tim C", 210, 30]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice"
+  },
+  {
+    "id": "LPDP-PDATA-03",
+    "program": "lpdp",
+    "title": "Penjualan dan biaya variabel",
+    "unit": "harga/biaya: ribu rupiah per unit; volume: unit",
+    "columns": ["Produk", "Harga", "Biaya variabel", "Volume"],
+    "rows": [
+      ["Produk A", 15, 9, 50],
+      ["Produk B", 20, 14, 40],
+      ["Produk C", 12, 7, 55]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice"
+  },
+  {
+    "id": "LPDP-PDATA-04",
+    "program": "lpdp",
+    "title": "Penerima layanan per daerah",
+    "unit": "orang",
+    "columns": ["Daerah", "2024", "2025"],
+    "rows": [
+      ["Daerah A", 60, 90],
+      ["Daerah B", 85, 110],
+      ["Daerah C", 50, 95]
+    ],
+    "kind": "bar",
+    "sourceType": "original_practice",
+    "period": "2024–2025"
+  },
+  {
+    "id": "LPDP-PDATA-05",
+    "program": "lpdp",
+    "title": "Penyelesaian pelatihan",
+    "unit": "peserta",
+    "columns": ["Kelas", "Peserta awal", "Selesai"],
+    "rows": [
+      ["Kelas A", 45, 36],
+      ["Kelas B", 60, 54],
+      ["Kelas C", 50, 42]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice"
+  },
+  {
+    "id": "LPDP-PDATA-06",
+    "program": "lpdp",
+    "title": "Biaya akuisisi pengajuan valid",
+    "unit": "biaya: ribu rupiah; jumlah: pengajuan",
+    "columns": ["Kanal", "Biaya", "Valid"],
+    "rows": [
+      ["Kanal A", 600, 120],
+      ["Kanal B", 500, 80],
+      ["Kanal C", 700, 100]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice"
+  },
+  {
+    "id": "LPDP-PDATA-07",
+    "program": "lpdp",
+    "title": "Pergerakan stok gudang",
+    "unit": "unit",
+    "columns": ["Gudang", "Awal", "Masuk", "Keluar"],
+    "rows": [
+      ["Gudang A", 40, 30, 50],
+      ["Gudang B", 35, 40, 45],
+      ["Gudang C", 60, 10, 55]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice"
+  },
+  {
+    "id": "LPDP-PDATA-08",
+    "program": "lpdp",
+    "title": "Kecacatan produksi bulanan",
+    "unit": "produk",
+    "columns": ["Perusahaan", "Bulan", "Produksi", "Cacat"],
+    "rows": [
+      ["A", "Januari", 100, 2],
+      ["B", "Januari", 200, 6],
+      ["A", "Februari", 200, 6],
+      ["B", "Februari", 100, 4]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice",
+    "period": "Januari–Februari"
+  },
+  {
+    "id": "LPDP-PDATA-09",
+    "program": "lpdp",
+    "title": "Pilihan paket acara",
+    "unit": "peserta; biaya dalam ribu rupiah",
+    "columns": ["Paket", "Peserta", "Biaya"],
+    "rows": [
+      ["Paket A", 60, 700],
+      ["Paket B", 75, 950],
+      ["Paket C", 80, 900],
+      ["Paket D", 85, 850],
+      ["Paket E", 70, 880]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice"
+  },
+  {
+    "id": "LPDP-PDATA-10",
+    "program": "lpdp",
+    "title": "Keluaran dan jam lintas periode",
+    "unit": "unit; waktu dalam jam",
+    "columns": ["Periode", "Tim", "Keluaran", "Jam"],
+    "rows": [
+      ["I", "A", 120, 20],
+      ["I", "B", 80, 20],
+      ["II", "A", 150, 20],
+      ["II", "B", 100, 20]
+    ],
+    "kind": "table",
+    "sourceType": "original_practice",
+    "period": "I dan II"
+  }
+]

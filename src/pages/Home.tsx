@@ -1,3 +1,4 @@
+import { topicRecommendations } from "../services/recommendations";
 import { Link } from "react-router-dom";
 import {
   ArrowUpRight,
@@ -178,6 +179,36 @@ export function Home() {
                 </span>
               </p>
             ))}
+        </Card>
+      )}
+      {d.program === "lpdp" && (
+        <Card>
+          <h2>Prioritas latihan LPDP</h2>
+          <p>
+            Aturan belajar aplikasi: akurasi &lt;50% prioritas tinggi, 50–79%
+            perlu penguatan, ≥80% lanjutkan. Bukan penilaian psikometrik atau
+            prediksi kelulusan.
+          </p>
+          {topicRecommendations(
+            answers,
+            bundled.filter((q) => q.program === "lpdp"),
+          )
+            .slice(0, 3)
+            .map((t) => (
+              <p key={t.topic}>
+                <Link
+                  className="text-link"
+                  to={`/materi?topic=${encodeURIComponent(t.topic)}`}
+                >
+                  {t.topic}
+                </Link>{" "}
+                · {t.priority}
+                {t.accuracy !== null ? ` (${Math.round(t.accuracy)}%)` : ""}
+              </p>
+            ))}
+          <Link className="button" to="/materi?status=due">
+            Review terjadwal
+          </Link>
         </Card>
       )}
       <p className="fineprint">

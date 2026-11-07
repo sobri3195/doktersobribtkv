@@ -2,7 +2,7 @@
 
 A browser-local Indonesian learning PWA for BTKV, LPDP and SIMAK UI, built with React 19, Vite, strict TypeScript, Tailwind, React Router, Zustand, Zod, React Hook Form, Recharts and KaTeX. No backend, login, paid service, API key or database is required.
 
-**This is an incomplete implementation of the supplied brief. It is not ready for acceptance or production publication. The active bank contains 230 authored questions: 150 BTKV questions pending medical review and 80 LPDP/SIMAK draft questions, not the required 550.** See [status and limitations](docs/STATUS.md).
+**This is an incomplete implementation of the supplied brief. It is not ready for acceptance or production publication. The active bank contains 350 authored questions: 150 BTKV questions pending medical review, 150 LPDP practice questions pending editorial review, and 50 SIMAK draft questions, not the required 550.** See [status and limitations](docs/STATUS.md).
 
 ## Develop
 
@@ -15,6 +15,7 @@ npm test
 npm run build
 npm run preview
 npm run validate:btkv
+npm run validate:lpdp
 npm run validate:questions
 ```
 
@@ -35,8 +36,9 @@ Playwright starts the production preview automatically. Build first. Use the exi
 - Five persistent mobile tabs and a desktop sidebar; program switching retains each program's history.
 - Local onboarding/profile, theme and daily goals. No cloud authentication.
 - Search, category/difficulty/answer/bookmark filters and random study sessions of up to 5/10/20/30/50 available questions, without repetition. Study explanations appear after an answer.
+- Complete LPDP reference-year simulation (60 questions / 90 minutes), shared reading passages and data stimuli, worked solutions, transparent review scheduling and topic recommendations; see [LPDP verification](docs/LPDP_EDITORIAL.md).
 - Quick exams and local custom packages. Absolute section deadlines survive refresh; expired sections advance and exhausted attempts submit. Full blueprint selection requires enough questions and is blocked with a specific message otherwise.
-- Separate SIMAK PEKA (+4/−1/0) and English (+1/0/0) raw practice scores. LPDP and BTKV display correct/total without invented official scores.
+- Separate SIMAK PEKA (+4/−1/0) and English (+1/0/0) raw practice scores. LPDP defaults to +5/0/0 application simulation points, with per-subtest results. BTKV has configurable practice points. Neither claims an official score scale.
 - Real answer/score/activity charts, bookmarks and personal notes.
 - Validated versioned backup/restore, corruption recovery copy, quota warnings and selective deletion.
 - JSON/CSV question import with preview and explicit local overrides, export, enable/disable and local deletion.
@@ -61,4 +63,4 @@ Deployment, real Android installation and a fresh cloud snapshot restoration hav
 
 `src/pages` contains route views; `src/components` shared presentation; `src/services` schemas, persistence, import/export and scoring/timing; `src/stores` centralized state; `src/data/questions` immutable bundled JSON; `src/data/cases.ts` clinical case data. `e2e` and `src/tests` contain browser and unit/component tests. No network request is needed at application runtime.
 
-The 2026 exam blueprints are editable practice configurations in `src/services/exams.ts`, based on the supplied brief, not independently verified official formats. Shared question updates require editing source JSON and redeploying; local imports never propagate to other users.
+The LPDP blueprint is `src/data/blueprints/lpdp-2026.json`; other 2026 exam blueprints are editable practice configurations in `src/services/exams.ts`, based on the supplied brief, not independently verified official formats. Shared question updates require editing source JSON and redeploying; local imports never propagate to other users.

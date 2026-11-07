@@ -1,0 +1,218 @@
+{
+  "total": 150,
+  "technicalValidation": "passed",
+  "categories": {
+    "verbal": {
+      "total": 50,
+      "difficulty": {
+        "easy": 15,
+        "medium": 25,
+        "hard": 10
+      },
+      "keys": {
+        "A": 10,
+        "B": 10,
+        "C": 10,
+        "D": 10,
+        "E": 10
+      },
+      "topics": {
+        "V01": 10,
+        "V02": 10,
+        "V03": 10,
+        "V04": 10,
+        "V05": 10
+      }
+    },
+    "quantitative": {
+      "total": 50,
+      "difficulty": {
+        "easy": 15,
+        "medium": 25,
+        "hard": 10
+      },
+      "keys": {
+        "A": 10,
+        "B": 10,
+        "C": 10,
+        "D": 10,
+        "E": 10
+      },
+      "topics": {
+        "Q01": 10,
+        "Q02": 10,
+        "Q03": 10,
+        "Q04": 10,
+        "Q05": 10
+      }
+    },
+    "problem-solving": {
+      "total": 50,
+      "difficulty": {
+        "easy": 15,
+        "medium": 25,
+        "hard": 10
+      },
+      "keys": {
+        "A": 10,
+        "B": 10,
+        "C": 10,
+        "D": 10,
+        "E": 10
+      },
+      "topics": {
+        "P01": 10,
+        "P02": 10,
+        "P03": 10,
+        "P04": 10,
+        "P05": 10
+      }
+    }
+  },
+  "passages": 5,
+  "stimuli": 20,
+  "independentlyComputedChecks": 110,
+  "checkedIds": [
+    "LPDP-VRB-011",
+    "LPDP-VRB-012",
+    "LPDP-VRB-013",
+    "LPDP-VRB-014",
+    "LPDP-VRB-015",
+    "LPDP-VRB-016",
+    "LPDP-VRB-017",
+    "LPDP-VRB-018",
+    "LPDP-VRB-019",
+    "LPDP-VRB-020",
+    "LPDP-VRB-021",
+    "LPDP-VRB-022",
+    "LPDP-VRB-023",
+    "LPDP-VRB-024",
+    "LPDP-VRB-025",
+    "LPDP-VRB-026",
+    "LPDP-VRB-027",
+    "LPDP-VRB-028",
+    "LPDP-VRB-029",
+    "LPDP-VRB-030",
+    "LPDP-QNT-001",
+    "LPDP-QNT-002",
+    "LPDP-QNT-003",
+    "LPDP-QNT-004",
+    "LPDP-QNT-005",
+    "LPDP-QNT-006",
+    "LPDP-QNT-007",
+    "LPDP-QNT-008",
+    "LPDP-QNT-009",
+    "LPDP-QNT-010",
+    "LPDP-QNT-011",
+    "LPDP-QNT-012",
+    "LPDP-QNT-013",
+    "LPDP-QNT-014",
+    "LPDP-QNT-015",
+    "LPDP-QNT-016",
+    "LPDP-QNT-017",
+    "LPDP-QNT-018",
+    "LPDP-QNT-019",
+    "LPDP-QNT-020",
+    "LPDP-QNT-021",
+    "LPDP-QNT-022",
+    "LPDP-QNT-023",
+    "LPDP-QNT-024",
+    "LPDP-QNT-025",
+    "LPDP-QNT-026",
+    "LPDP-QNT-027",
+    "LPDP-QNT-028",
+    "LPDP-QNT-029",
+    "LPDP-QNT-030",
+    "LPDP-QNT-031",
+    "LPDP-QNT-032",
+    "LPDP-QNT-033",
+    "LPDP-QNT-034",
+    "LPDP-QNT-035",
+    "LPDP-QNT-036",
+    "LPDP-QNT-037",
+    "LPDP-QNT-038",
+    "LPDP-QNT-039",
+    "LPDP-QNT-040",
+    "LPDP-QNT-041",
+    "LPDP-QNT-042",
+    "LPDP-QNT-043",
+    "LPDP-QNT-044",
+    "LPDP-QNT-045",
+    "LPDP-QNT-046",
+    "LPDP-QNT-047",
+    "LPDP-QNT-048",
+    "LPDP-QNT-049",
+    "LPDP-QNT-050",
+    "LPDP-PS-011",
+    "LPDP-PS-012",
+    "LPDP-PS-013",
+    "LPDP-PS-014",
+    "LPDP-PS-015",
+    "LPDP-PS-016",
+    "LPDP-PS-017",
+    "LPDP-PS-018",
+    "LPDP-PS-019",
+    "LPDP-PS-020",
+    "LPDP-PS-021",
+    "LPDP-PS-022",
+    "LPDP-PS-023",
+    "LPDP-PS-024",
+    "LPDP-PS-025",
+    "LPDP-PS-026",
+    "LPDP-PS-027",
+    "LPDP-PS-028",
+    "LPDP-PS-029",
+    "LPDP-PS-030",
+    "LPDP-PS-031",
+    "LPDP-PS-032",
+    "LPDP-PS-033",
+    "LPDP-PS-034",
+    "LPDP-PS-035",
+    "LPDP-PS-036",
+    "LPDP-PS-037",
+    "LPDP-PS-038",
+    "LPDP-PS-039",
+    "LPDP-PS-040",
+    "LPDP-PS-041",
+    "LPDP-PS-042",
+    "LPDP-PS-043",
+    "LPDP-PS-044",
+    "LPDP-PS-045",
+    "LPDP-PS-046",
+    "LPDP-PS-047",
+    "LPDP-PS-048",
+    "LPDP-PS-049",
+    "LPDP-PS-050"
+  ],
+  "suspiciousPairs": [
+    {
+      "a": "LPDP-QNT-032",
+      "b": "LPDP-QNT-036",
+      "similarity": 0.7647058823529411
+    },
+    {
+      "a": "LPDP-QNT-033",
+      "b": "LPDP-QNT-035",
+      "similarity": 0.6666666666666666
+    },
+    {
+      "a": "LPDP-QNT-033",
+      "b": "LPDP-QNT-040",
+      "similarity": 0.6666666666666666
+    },
+    {
+      "a": "LPDP-QNT-035",
+      "b": "LPDP-QNT-037",
+      "similarity": 0.6842105263157895
+    },
+    {
+      "a": "LPDP-QNT-035",
+      "b": "LPDP-QNT-040",
+      "similarity": 0.6666666666666666
+    }
+  ],
+  "editorialReview": "pending_human_review",
+  "difficultyCalibration": "editorial_estimates_only",
+  "officialBlueprintVerification": "unverified_from_user_brief",
+  "errors": []
+}

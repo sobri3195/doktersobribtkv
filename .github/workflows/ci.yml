@@ -11,6 +11,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run validate:btkv
+      - run: npm run validate:lpdp
       - run: npm test
       - run: npm run build
       - run: npx playwright install --with-deps chromium

@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { Clock3, ClipboardCheck } from "lucide-react";
 import { useStore } from "../stores/useStore";
 import { mergeBank } from "../data/bank";
-import { blueprints, makeAttempt } from "../services/exams";
+import { blueprints, makeAttempt, lpdpBlueprint } from "../services/exams";
 import { categories } from "../services/model";
 import { Card, Heading } from "../components/UI";
 export function Tryout() {
@@ -13,7 +13,11 @@ export function Tryout() {
   const [count, setCount] = useState(10);
   const [minutes, setMinutes] = useState(15);
   const [examCategory, setExamCategory] = useState("");
-  const [scoring, setScoring] = useState({ correct: 1, wrong: 0, blank: 0 });
+  const [scoring, setScoring] = useState({
+    correct: d.program === "lpdp" ? 5 : 1,
+    wrong: 0,
+    blank: 0,
+  });
   const validScoring = Object.values(scoring).every(
     (n) => Number.isFinite(n) && n >= -10 && n <= 10,
   );
@@ -48,7 +52,7 @@ export function Tryout() {
         m,
         full ? undefined : category,
       );
-      if (d.program === "btkv") attempt.scoring = scoring;
+      if (d.program !== "simak") attempt.scoring = scoring;
       update((s) => ({ ...s, attempt }));
       navigate("/sesi");
     } catch (e) {
@@ -68,7 +72,20 @@ export function Tryout() {
       )}
       <Card className="exam-package">
         <span className="tag">REFERENSI LATIHAN 2026</span>
-        <h2>Simulasi lengkap {d.program.toUpperCase()}</h2>
+        <h2>
+          {d.program === "lpdp"
+            ? lpdpBlueprint.name
+            : `Simulasi lengkap ${d.program.toUpperCase()}`}
+        </h2>
+        {d.program === "lpdp" && (
+          <p className="notice">
+            {lpdpBlueprint.id} · Struktur dari brief tahun referensi 2026,
+            verifikasi panduan resmi belum selesai. Skor simulasi aplikasi:
+            benar {scoring.correct}, salah {scoring.wrong}, kosong{" "}
+            {scoring.blank}; maksimum {60 * scoring.correct} pada 60 jawaban
+            benar. Bukan passing grade atau skor resmi.
+          </p>
+        )}
         <p>
           <ClipboardCheck size={18} />{" "}
           {blueprint.reduce((sum, s) => sum + s[1], 0)} soal{" "}
@@ -102,12 +119,14 @@ export function Tryout() {
           Mulai simulasi lengkap
         </button>
       </Card>
-      {d.program === "btkv" && (
+      {d.program !== "simak" && (
         <Card>
-          <h2>Paket BTKV</h2>
+          <h2>
+            {d.program === "lpdp" ? "Pengaturan & latihan LPDP" : "Paket BTKV"}
+          </h2>
           <p>
             Waktu dan skor di bawah adalah aturan latihan lokal, bukan ketentuan
-            resmi PPDS.
+            resmi seleksi.
           </p>
           <div className="filters">
             <label>
@@ -117,7 +136,7 @@ export function Tryout() {
                 onChange={(e) => setExamCategory(e.target.value)}
               >
                 <option value="">Campuran seluruh bidang</option>
-                {Object.entries(categories.btkv).map(([id, label]) => (
+                {Object.entries(categories[d.program]).map(([id, label]) => (
                   <option key={id} value={id}>
                     {label}
                   </option>
@@ -149,17 +168,18 @@ export function Tryout() {
             berikut memakai pengaturan tersebut.
           </p>
           <div className="filters">
-            {[...Object.entries(categories.btkv), ["", "Campuran BTKV"]].map(
-              ([id, label]) => (
-                <button
-                  disabled={!validScoring || minutes < 1 || minutes > 600}
-                  key={id}
-                  onClick={() => start(false, count, minutes, id)}
-                >
-                  Tryout {label}
-                </button>
-              ),
-            )}
+            {[
+              ...Object.entries(categories[d.program]),
+              ["", `Campuran ${d.program.toUpperCase()}`],
+            ].map(([id, label]) => (
+              <button
+                disabled={!validScoring || minutes < 1 || minutes > 600}
+                key={id}
+                onClick={() => start(false, count, minutes, id)}
+              >
+                Tryout {label}
+              </button>
+            ))}
           </div>
         </Card>
       )}
@@ -263,7 +283,7 @@ export function Tryout() {
                 {h.durationSeconds !== undefined
                   ? `· ${Math.round(h.durationSeconds)} detik `
                   : ""}
-                {h.program === "btkv" && h.practiceScore !== undefined
+                {h.program !== "simak" && h.practiceScore !== undefined
                   ? `· Skor latihan ${h.practiceScore}`
                   : ""}
               </p>

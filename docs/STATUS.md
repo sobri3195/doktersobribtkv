@@ -1,26 +1,29 @@
 # Acceptance status
 
-## BTKV clinical bank (this change)
+## LPDP (current change)
 
-- Exactly 150 active BTKV v2 questions: 50 thoracic, 50 cardiac, 50 vascular.
-- Each category has 15 easy / 25 medium / 10 hard; 35 vignettes / 10 basic concepts / 5 data interpretations; ten topic groups of five; ten correct keys at each letter A–E.
-- Five answer options, explanation, individual distractor rationales, learning objective, clinical pearl, editorial flags and unverified source pointers on every record.
-- `npm run validate:btkv` checks the complete technical content contract and emits `docs/btkv-validation.json`. Technical validation does not establish medical accuracy, distractor quality, empirical difficulty or human peer review.
-- All 150 questions remain `needs_review`; every source pointer is explicitly unverified. The supplied reference site was blocked by network policy. Qualified medical review and per-question source verification remain necessary; see [editorial queue](BTKV_EDITORIAL.md).
-- Category and mixed BTKV tryouts support local configurable duration and practice points. Clinical explanations and source links are hidden before exam submission.
-- The previous 30 introductory questions are archived for old attempts/bookmarks/notes, excluded from active bank counts. They are not mapped onto unrelated new questions.
+- Exactly 150 original LPDP SBAs: 50 verbal, 50 quantitative, 50 problem solving. Per category: five ten-question topics, 15/25/10 difficulty estimates, five options and ten keys each at A–E.
+- Five shared original Indonesian passages and 20 labeled table/graph stimuli; all referenced resources render in study and exam modes and are cached for offline practice.
+- Structured steps, quantitative worked solutions, individual distractor rationales, quick tips, estimated times and review flags.
+- LPDP_TBS_2026 selects 23/25/12 questions over 30/40/20 minutes. Absolute section deadlines, section locking, restoration, practice scoring, per-subtest results, duration and backups are integrated. Default +5/0/0 yields 300 points for 60 correct answers; no official passing score is claimed.
+- Real-response recommendations, difficulty/time statistics, wrong-answer review and scheduled repetition (1 day incorrect / 7 days correct). Rules are pedagogical and not psychometrically calibrated.
+- Previous 30 LPDP questions remain in the read-only legacy archive for old attempts, notes and bookmarks.
+- All generated LPDP content remains needs_review. Human editorial review, five similarity flags and official-source verification remain outstanding. See LPDP_EDITORIAL.md.
+
+## BTKV retained
+
+The active BTKV v2 bank remains 150 questions (50 per field), unchanged in this LPDP change. Its content validator and regression suite still run. Medical review and per-question scientific source verification remain pending as documented in BTKV_EDITORIAL.md.
 
 ## Validation
 
-`npm run validate:btkv`: PASS (150 questions, zero technical errors). `npm test`: PASS (27 tests). `npm run build`: PASS (including service worker). Chromium: eight journeys PASS, including BTKV offline practice. Formatting passes. The production build reports a bundle-size warning. The suite includes unit/component checks for both old and new schemas, all distribution counts, option/ID/metadata failures, clinical JSON/CSV roundtrips, configurable BTKV scoring, preserved legacy attempts, LPDP/SIMAK scoring, storage and migrations. Browser journeys cover program switching, study explanations, bookmarks and notes after refresh, tryout submission/restoration, statistics, backup/import, timeout submission, branching cases, and offline PWA navigation.
+Both program-specific validators pass. LPDP additionally performs 110 separate numerical/formal/constraint checks. The 41 unit/component tests pass, the production build and formatting pass, and all ten Chromium browser journeys pass (including full LPDP simulation, restored results and offline shared resources). Automated checks do not prove originality, semantic validity, empirical difficulty or human peer review. The build retains a bundle-size warning.
 
 ## Earlier application requirements still outstanding
 
-- Active bank total is 230: BTKV 150, LPDP 30, SIMAK 50. The 550-question acceptance gate still fails because 320 LPDP/SIMAK questions remain. Those source files are unchanged by this BTKV change.
-- LPDP and SIMAK full simulations remain blocked where content is insufficient. Real-content end-to-end full simulations still require completing those banks.
-- Multiple original English reading passages and passage-aware rendering/import/validation are not implemented; passage imports are rejected.
-- The reference-year blueprint is source-editable; an in-app editor is not implemented. Local quick packages support create/delete.
-- Optional LPDP essay/interview modules, SIMAK program-specific packs, Capacitor/Android packaging, persisted case progress, comprehensive accessibility review, and real Android installation remain outstanding.
-- No Vercel deployment or fresh cloud snapshot restoration was performed. Static configuration is supplied; Chromium offline navigation is tested locally.
+- Total active bank is 350: BTKV 150, LPDP 150, SIMAK 50. The global 550-question gate still fails on the remaining 200 SIMAK questions. SIMAK source files are unchanged by this LPDP change.
+- SIMAK full simulations remain blocked where content is insufficient. Its English reading passages are still absent; LPDP passages are implemented independently.
+- Reference-year blueprints are source-editable; an in-app blueprint editor is absent. Custom quick packages support create/delete.
+- Optional LPDP essay/interview packs, SIMAK program-specific packs, Capacitor/Android packaging, persisted case progress, comprehensive accessibility review and real Android installation remain outstanding.
+- No Vercel deployment or fresh cloud snapshot restoration was performed. Static configuration is supplied and local Chromium offline navigation is tested.
 
-The global `content-acceptance` CI job remains deliberately strict; do not weaken or skip its 550-question requirement. BTKV has its own passing technical validation gate.
+The global content-acceptance CI job remains strict. Do not weaken its 550-question requirement to hide the remaining SIMAK work.
